@@ -1,0 +1,22 @@
+body .bw-appointment-header-close {
+  display:none;
+}
+
+body .bw-appointment-service-link {
+  height:280px;
+  width:235px;
+}
+
+body .bw-confirmation-close-button {
+  display:none;
+}
+
+body .appointment-rsvp-container #appointment-confirmation {
+  padding-top:0px;
+  margin-top:0px;
+}
+
+body #enter-contact-info .medium-12 {
+  padding-left: 10%;
+  padding-right: 10%;
+}

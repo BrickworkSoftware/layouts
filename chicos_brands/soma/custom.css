@@ -1,0 +1,59 @@
+body {
+  background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
+}
+
+.bw-display-layer {
+  padding: 4rem 2rem !important;
+}
+
+.bw-display-layer, 
+.bw-display-layer .bwt-index-search-results-map-button, 
+.bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
+.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1,
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
+  font-family: Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif !important;
+}
+
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer .bwt-event-details-location-title {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer a.bwt-store-event-link {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-style: italic;
+  text-transform: capitalize !important;
+  font-size: 0.85rem;
+}
+
+.bw-display-layer .bwt-store .bwt-store-alert {
+  background-color: #f3e4d7 !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-alert span, 
+.bw-display-layer .bwt-store .bwt-store-alert h4 {
+  color: #000 !important;
+}
+
+.bw-display-layer .bwt-event-details-location-address-line:first-child {
+  font-weight: normal !important;
+}
+
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
+  font-size: 1rem !important;
+}
+
+
+/* iFrame Styling */
+
+@font-face {
+  font-family: 'BentonModernOne';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf') format("opentype");
+}
+
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
+	font-family: "BentonModernOne", Georgia, Times, serif !important;
+}

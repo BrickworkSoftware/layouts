@@ -85,6 +85,37 @@ label {
   margin-right: 0.8rem;
 }
 
+.menu-toggle-inner {
+  width: 1.375rem;
+}
+
+.menu-toggle-inner span {
+  height: 0.2rem;
+}
+
+.menu-toggle-inner span:nth-child(2) {
+  top: 0.4rem;
+}
+
+.menu-toggle-inner span:nth-child(3) {
+  top: 0.8rem;
+}
+
+@media (max-width: 991px) {
+  #menu > ul .dropdown > a {
+    padding: 0.5333rem 1rem !important;
+    font-size: 1.07rem;
+  }
+
+  #footer #footer-inner h4 {
+    margin: 0.5rem 0;
+  }
+
+  #footer-inner .footer-menu-block .footer-menu-toggle:after {
+    margin: 5px 15px 0 0;
+  }
+}
+
 /* iFrame Styling */
 @font-face {
   font-family: 'Brandon';

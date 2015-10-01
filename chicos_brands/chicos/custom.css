@@ -116,6 +116,12 @@ label {
   }
 }
 
+@media (max-width: 1100px) {
+  #menu > ul > li > a {
+    padding: 0 1rem;
+  }
+}
+
 /* iFrame Styling */
 @font-face {
   font-family: 'Brandon';

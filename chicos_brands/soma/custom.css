@@ -1,4 +1,4 @@
-html {
+.handle--hidden {
   background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
 }
 
@@ -10,7 +10,12 @@ html {
 .bw-display-layer .bwt-index-search-results-map-button, 
 .bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
 .bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1,
-.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title,
+.row .bw-display-layer .bwt-store .bwt-store-header-details,
+.row .bw-display-layer .bwt-store-header-type,
+.row .bw-display-layer .bwt-store-service-title,
+.row .bw-display-layer .bwt-store-service-description,
+.row .bw-display-layer .bwt-index-search-form-input {
   font-family: Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif !important;
 }
 
@@ -36,6 +41,14 @@ html {
 .bw-display-layer .bwt-store .bwt-store-alert span, 
 .bw-display-layer .bwt-store .bwt-store-alert h4 {
   color: #000 !important;
+}
+
+.row .bw-display-layer .bwt-events-main .bwt-events-event-details .bwt-event-details-date-time {
+  font-weight: 600;
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
+  max-width: 18% !important;
 }
 
 .bw-display-layer .bwt-event-details-location-address-line:first-child {

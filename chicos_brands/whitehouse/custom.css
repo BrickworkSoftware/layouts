@@ -1,7 +1,3 @@
-.handle--hidden {
-  background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
-}
-
 .bw-display-layer {
   padding: 4rem 2rem !important;
 }
@@ -20,7 +16,6 @@
 }
 
 .bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
-.bw-display-layer .bwt-index-search-form-submit-text,
 .bw-display-layer .bwt-event-details-location-title {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
 }
@@ -75,11 +70,6 @@
 
 /* iFrame Styling */
 
-@font-face {
-  font-family: 'BentonModernOne';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf') format("opentype");
-}
-
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif !important;
 }

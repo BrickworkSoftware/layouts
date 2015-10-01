@@ -1,3 +1,17 @@
+body {
+  background-color: #fff !important;
+  font-family: "Brandon-Grotesque", Georgia, Times, serif !important;
+  text-align: left !important;
+}
+
+label {
+  font-weight: 500 !important;
+}
+
+.bw-display-layer .bwt-index-filter-body label {
+  padding: 2px 8px 0 22px !important;
+}
+
 #header-wrap {
   height: 10.075rem;
 }

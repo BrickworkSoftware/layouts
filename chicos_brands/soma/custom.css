@@ -1,4 +1,4 @@
-body {
+html {
   background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
 }
 
@@ -55,5 +55,5 @@ body {
 }
 
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
-	font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
 }

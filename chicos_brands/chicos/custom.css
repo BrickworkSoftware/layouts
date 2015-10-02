@@ -81,6 +81,15 @@ label {
   font-size: 0.8rem;
 }
 
+#footer-bot .row {
+  margin-left: 0;
+  margin-right: -15px;
+}
+
+.copyright {
+  font-size: 0.67rem;
+}
+
 #social a {
   margin-right: 0.8rem;
 }

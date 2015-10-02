@@ -47,6 +47,10 @@ label {
   line-height: 1.6rem;
 }
 
+#menu-utility > ul > li {
+  margin-left: 1.67rem;
+}
+
 #menu-utility > ul > li > a {
   line-height: 1.3rem;
 }

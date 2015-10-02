@@ -114,6 +114,10 @@ label {
   top: 0.8rem;
 }
 
+.store-type-123 {
+  display: none !important;
+}
+
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;

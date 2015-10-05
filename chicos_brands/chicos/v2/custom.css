@@ -1,0 +1,176 @@
+body {
+  background-color: #fff !important;
+  font-family: "Brandon-Grotesque", Georgia, Times, serif !important;
+  text-align: left !important;
+}
+
+label {
+  font-weight: 500 !important;
+}
+
+.bw-display-layer .bwt-index-filter-body label {
+  padding: 2px 8px 0 22px !important;
+}
+
+#header-wrap {
+  height: 10.075rem;
+}
+
+#header-inner {
+  padding: 2.675rem 1rem 2rem 1rem;
+}
+
+#menu > ul > li > a {
+  font-size: 1rem;
+  line-height: 1.667rem;
+  padding: 0 1.667rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row {
+  max-width: 100%;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+#menu .dropdown-menu .dropdown-inner .row h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.0667rem;
+  line-height: 1.15rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li {
+  font-size: 0.8rem;
+  margin-bottom: 0.675rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li a {
+  line-height: 1.6rem;
+}
+
+#menu-utility > ul > li {
+  margin-left: 1.67rem !important;
+}
+
+#menu-utility > ul > li > a {
+  line-height: 1.3rem;
+}
+
+#menu-utility ul li a span {
+  font-size: 0.87rem;
+}
+
+#menu-utility .icon-map {  
+  width: 0.95rem;
+  height: 1.5rem;
+}
+
+#menu-utility .icon-search, #menu-utility .icon-menu {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  width: 1.07rem;
+  height: 1.07rem;
+  margin: 0 .535rem;
+}
+
+#footer #footer-inner .row {
+  max-width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#footer #footer-inner h4 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#footer #footer-inner ul li {
+  margin-bottom: 0.8rem;
+  line-height: 1.15rem;
+}
+
+#footer #footer-inner ul li a {
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+}
+
+.footer-newsletter label {
+  font-size: 0.8rem;
+}
+
+#footer-bot .row {
+  margin-left: 0;
+  margin-right: -15px;
+}
+
+.copyright {
+  font-size: 0.67rem;
+}
+
+#social a {
+  margin-right: 0.8rem;
+}
+
+.menu-toggle-inner {
+  width: 1.375rem;
+}
+
+.menu-toggle-inner span {
+  height: 0.2rem;
+}
+
+.menu-toggle-inner span:nth-child(2) {
+  top: 0.4rem;
+}
+
+.menu-toggle-inner span:nth-child(3) {
+  top: 0.8rem;
+}
+
+.menu-toggle-inner.open span:nth-child(1) {
+  top: -.0667rem;
+  left: .335rem;
+}
+
+.menu-toggle-inner.open span:nth-child(3) {
+  top: 0.85rem;
+  left: .335rem;
+}
+
+@media (max-width: 991px) {
+  #menu > ul .dropdown > a {
+    padding: 0.5333rem 1rem !important;
+    font-size: 1.07rem;
+  }
+
+  #menu-utility > ul > li {
+    margin: 0 !important;
+  }
+
+  #footer #footer-inner h4 {
+    margin: 0.5rem 0;
+  }
+
+  #footer-inner .footer-menu-block .footer-menu-toggle:after {
+    margin: 5px 15px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  #menu > ul > li > a {
+    padding: 0 1rem;
+  }
+}
+
+/* iFrame Styling */
+@font-face {
+  font-family: 'Brandon';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
+}
+
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
+  font-family: 'Brandon', Georgia, Times, serif !important;
+}

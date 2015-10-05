@@ -20,9 +20,14 @@ label {
   padding: 2.675rem 1rem 2rem 1rem;
 }
 
+.sticky #header #header-inner {
+  padding-top: 0.667rem;
+  padding-bottom: 0.667rem;
+}
+
 #menu > ul > li > a {
   font-size: 1rem;
-  line-height: 1.667rem;
+  line-height: 2.675rem;
   padding: 0 1.667rem;
 }
 

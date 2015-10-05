@@ -21,8 +21,14 @@
 
 .bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
 .bw-display-layer .bwt-index-search-form-submit-text,
-.bw-display-layer .bwt-event-details-location-title {
+.bw-display-layer .bwt-event-details-location-title,
+.bw-display-layer .bwt-pagination {
   font-family: "BentonModernOne", Georgia, Times, serif !important;
+}
+
+.bw-display-layer .bwt-pagination {
+  text-transform: capitalize !important;
+  font-style: italic !important;
 }
 
 .bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,

@@ -145,6 +145,10 @@ label {
   left: .335rem;
 }
 
+.menu-header-mobile {
+  font-size: 0.8667rem;
+}
+
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;
@@ -153,6 +157,11 @@ label {
 
   #menu-utility > ul > li {
     margin: 0 !important;
+  }
+
+  #menu .ship-to {
+    font-size: 1.067rem;
+    padding: 0.533rem 1rem;
   }
 
   #footer #footer-inner h4 {

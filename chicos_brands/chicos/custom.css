@@ -8,6 +8,10 @@ label {
   font-weight: 500 !important;
 }
 
+.bw-display-layer .bwt-index-search-form-wrap {
+  max-width: 1170px !important;
+}
+
 .bw-display-layer .bwt-index-filter-body label {
   padding: 2px 8px 0 22px !important;
 }

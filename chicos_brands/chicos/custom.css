@@ -1,15 +1,69 @@
+html {
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
+  font-weight: normal;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+ src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'BentonModernOne';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 body {
   background-color: #fff !important;
   font-family: "Brandon-Grotesque", Georgia, Times, serif !important;
   text-align: left !important;
 }
 
-label {
-  font-weight: 500 !important;
+.bw-display-layer-container {
+  font-size: initial !important;
+  margin: 2.5rem auto 0 auto !important;
 }
 
 .bw-display-layer .bwt-index-search-form-wrap {
   max-width: 1170px !important;
+}
+
+.bwt-cancel-rsvp-only {
+  margin: 60px auto;
+  text-align: center;
+}
+
+label {
+  font-weight: 500 !important;
 }
 
 .bw-display-layer .bwt-index-filter-body label {
@@ -24,9 +78,14 @@ label {
   padding: 2.675rem 1rem 2rem 1rem;
 }
 
+.sticky #header #header-inner {
+  padding-top: 0.667rem;
+  padding-bottom: 0.667rem;
+}
+
 #menu > ul > li > a {
   font-size: 1rem;
-  line-height: 1.667rem;
+  line-height: 2.675rem;
   padding: 0 1.667rem;
 }
 
@@ -52,15 +111,31 @@ label {
 }
 
 #menu-utility > ul > li {
-  margin-left: 1.67rem;
+  margin-left: 1.67rem !important;
 }
 
 #menu-utility > ul > li > a {
   line-height: 1.3rem;
 }
 
-#menu-utility ul li.menu-find a span {
+#menu-utility ul li a span {
   font-size: 0.87rem;
+}
+
+#menu-utility .icon-map {  
+  width: 0.95rem;
+  height: 1.5rem;
+}
+
+#menu-utility .icon-search, #menu-utility .icon-menu {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  width: 1.07rem;
+  height: 1.07rem;
+  margin: 0 .535rem;
 }
 
 #footer #footer-inner .row {
@@ -118,14 +193,33 @@ label {
   top: 0.8rem;
 }
 
-.store-type-123 {
-  display: none !important;
+.menu-toggle-inner.open span:nth-child(1) {
+  top: -.0667rem;
+  left: .335rem;
+}
+
+.menu-toggle-inner.open span:nth-child(3) {
+  top: 0.85rem;
+  left: .335rem;
+}
+
+.menu-header-mobile {
+  font-size: 0.8667rem;
 }
 
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;
     font-size: 1.07rem;
+  }
+
+  #menu-utility > ul > li {
+    margin: 0 !important;
+  }
+
+  #menu .ship-to {
+    font-size: 1.067rem;
+    padding: 0.533rem 1rem;
   }
 
   #footer #footer-inner h4 {

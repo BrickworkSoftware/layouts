@@ -1,3 +1,9 @@
+.bw-display-layer-container {
+  background-color: #fff;
+  margin: 0 !important;
+  max-width: 100% !important;
+}
+
 .bw-display-layer {
   padding: 4rem 2rem !important;
 }

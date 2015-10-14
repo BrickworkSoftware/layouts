@@ -1,0 +1,261 @@
+
+<div id="footer">
+                <style mwkeep="true">
+    #footer {
+        padding-bottom: 75px!important;
+    }
+    #bottom-fixed-banner {
+        position: relative;
+        bottom: 0px;
+        z-index: 11;
+        height: 65px;
+        width: 100%;
+        left:0px;
+        background-color: black;
+        -webkit-animation-duration: 2s;
+        -webkit-transform: translateY(0px);
+        text-align: center;
+    }
+    #bottom-banner {
+        width: 890px;
+        height: 74px;
+        margin: 0 auto;
+    }
+    #footer {
+        display:block!important;
+    }
+</style>
+<script type="text/javascript">
+    $(function(){
+        var scroller_object = $("#bottom-fixed-banner");
+        $("#bottom-fixed-banner").prependTo($("#footer"));
+        if( $("#footer").offset().top > window.innerHeight ) {
+            scroller_object.css( { position: "fixed", top: "" } );
+        }
+    $(window).scroll( function( ){   
+            if( (window.pageYOffset + window.innerHeight) >= ($("#footer").offset().top + 68) ) {
+                scroller_object.css( { position: "relative" } );
+      }
+      else {
+                scroller_object.css( { position: "fixed" } );
+      }
+    } );
+  });
+</script>
+<style>
+    #bottom-fixed-banner {
+        display: block!important;    
+    }
+    .moovweb_tablet_only, .stylePoints_con { display:none; }
+</style>
+<div id="whbm-footer-parent">
+    <div id="bottom-fixed-banner">
+        <a href="http://epsilon.whitehouseblackmarket.com/web_assets/img/20150814/StylePerks_Modal.html" rel="modalEmail 581 674" class="footerDetailsTrigger" onClick="var s=s_gi(s_account); s.tl(true,'o','Footer_StylePerks_US_Details');">
+            <div id="bottom-banner"><img src="http://epsilon.whitehouseblackmarket.com/web_assets/img/20150814/150810_FooterBanner_StylePerk.png" border="0" alt="Earn a $25 Style Perk when you spend $125 | Details" /></div>
+        </a>
+    </div>
+    <div class='modalWindow' id='footerDetails'><table border='0' cellspacing='0' cellpadding='0'><tr class='modalControls'><td class='modalCaption'></td><td align='right'><a class='modalClose'></a></td></tr><tr><td colspan='2'><div class='modalContent'></div></td></tr></table></div>
+    <script type="text/javascript">
+        $('#footerDetails').jqm({
+            ajax: '@href', title: '@title', trigger: '.footerDetailsTrigger'
+        });
+    </script>
+    <div class="moovweb_tablet_only">
+        <div class="stylePoints_con">
+            <center>
+                <a class="stylePoints_link" href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=108009501&icid=Footer_StylePerks_tablet">
+                    <img src="http://epsilon.whitehouseblackmarket.com/web_assets/img/20150814/150810_TabletFooterBanner_StylePerks.png" alt="Earn a $25 Style Perk when you spend $125 | Details" border="0" />
+                </a>
+            </center>
+        </div>
+        <script>
+            var mtest = (String(window.location).indexOf('mstage') != -1 || String(window.location).indexOf('m.') != -1) ? true : false;
+            if (mtest) {
+                $("#bottom-fixed-banner").remove();
+            }
+            if ($(window).width() < 767){
+                $(".stylePoints_con").remove();
+            }
+        </script>
+    </div>
+    <div id="whbm-footer-borderFree">
+        <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=17#7"><img src="http://epsilon.whitehouseblackmarket.com/web_assets/img/20140421/borderFree.jpg" border="0" alt="Going Global! International Shipping Easier Then Ever!"></a>
+    </div>
+    
+    <div id="whbm-footer-main">
+        <a id="whbm-footer-liveHelp" href="javascript:webInContactChatPop();"><img src="http://epsilon.whitehouseblackmarket.com/web_assets/skins/footer/20130405/chat_live.gif" alt="Live Help" /></a>
+        <a class="whbm-footer-topnav" id="whbm-footer-boutique" href="http://epsilon.whitehouseblackmarket.com/store/store_locator.jsp" onClick="setNonSecureUrls(this);s_objectID='find a boutique';">Find a Boutique</a>
+        <a class="whbm-footer-topnav" id="whbm-footer-giftcard" href="http://epsilon.whitehouseblackmarket.com/store/browse/giftCards.jsp?cat=New+Arrivals&catId=cat210006" onClick="setNonSecureUrls(this);s_objectID='gift cards';">Gift Cards</a>
+        <a class="whbm-footer-topnav" id="whbm-footer-ourstory" href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=24">Our Story</a>
+        
+        <div style="float:right">
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-facebook" href="http://www.facebook.com/WhiteHouseBlackMarket" target="_blank"></a>
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-twitter" href="http://twitter.com/WHBM" target="_blank"></a>
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-youtube" href="http://www.youtube.com/WHBM" target="_blank"></a>
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-pinterest" href="http://pinterest.com/whbm" target="_blank"></a>
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-instagram" href="http://instagram.com/whbm" target="_blank"></a>
+            <a class="whbm-footer-sm-icon" id="whbm-footer-sm-gplus" href="https://plus.google.com/+whitehouseblackmarket" target="_blank"></a>
+        </div>
+    </div>
+    
+    <div id="whbm-footer-left">
+        <div id="whbm-footer-bbmembership">
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=99&ICID=footer_emailSignup" onClick="setNonSecureUrls(this);s_objectID='little black book';"><img src="http://epsilon.whitehouseblackmarket.com/web_assets/skins/footer/20130405/emailSignup.gif" /></a>
+            <hr />
+        </div>
+    </div>
+    
+    <div id="whbm-footer-right">
+        <div id="whbm-footer-info-col1">
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=49409284&icid=footer_LBB" onClick="setNonSecureUrls(this);s_objectID='rewards page';">whbm rewards</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/browse/catalog.jsp" onClick="setNonSecureUrls(this);s_objectID='online catalog';">online catalog</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/account/registration.jsp" onClick="setNonSecureUrls(this);s_objectID='request a catalog';">request a catalog</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=22" onClick="setNonSecureUrls(this);s_objectID='contact us';">contact us</a>
+            <a href="http://jobs.chicos.com/careers/white-house-black-market-jobs" onClick="setNonSecureUrls(this);s_objectID='career opportunities';" target="_blank">career opportunities</a>
+        </div>
+        
+        <div id="whbm-footer-info-col2">
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=21" onClick="setNonSecureUrls(this);s_objectID='return policy';">return policy</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=19" onClick="setNonSecureUrls(this);s_objectID='shipping';">shipping</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/checkout/orderstatuscheck.jsp?entity=01" onClick="setNonSecureUrls(this);s_objectID='order status';">order status</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=85409275">recall information</a>
+            <p class="info-contact-phone">877.948.2525</p>
+        </div>
+        <div id="whbm-footer-info-col3">
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=18" onClick="setNonSecureUrls(this);s_objectID='privacy &amp; security';">privacy &amp; security</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/page.jsp?id=15" onClick="setNonSecureUrls(this);s_objectID='terms of use';">terms of use</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/browse/shelf.jsp?cat=CMN&catId=cat6399276&icid=Footer-Charity">charity</a>
+            <a href="http://www.chicosfas.com" target="_blank">investor relations</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/store/sitemap.jsp" onClick="setNonSecureUrls(this);s_objectID='site map';">site map</a>
+            <a href="http://epsilon.whitehouseblackmarket.com/web_assets/footer/ca_supply_chain.pdf" target="_blank">California Supply Chains Act</a>
+        </div>
+    </div>
+</div>
+
+<!------ DO NOT EDIT OR REMOVE START ------->
+<script type="text/javascript" src="http://epsilon.whitehouseblackmarket.com/web_assets/js/saleLinkupdater.js"></script>
+<script type="text/javascript" src="http://epsilon.whitehouseblackmarket.com/web_assets/js/extended_shelf.js"></script>
+<script type="text/javascript">
+  //Init Extented Shelf
+  $(function() {
+    extendedShelfHeader()
+  });
+</script>
+<!------ DO NOT EDIT OR REMOVE END ------->
+<script type="text/javascript">
+  //Mobile Site Only Override
+  var mobileSiteAll = (String(window.location).indexOf('mstage') != -1 || String(window.location).indexOf('m.') != -1) ? true : false;
+  if (navigator.platform.indexOf("iPad") == -1 && mobileSiteAll) {
+    $('#whbm-footer-borderFree').css('display', 'none');
+  }
+  $(document).ready(function() {
+    $("#copyright").html($("#copyright").html().replace("©", "<br>&copy;"))
+  });
+  var buyTheLookPage = false;
+</script>
+<!-- ======================================
+EMAIL FLYOVER MODAL CONTENT BEGINS HERE
+======================================= -->
+<script src="http://epsilon.whitehouseblackmarket.com/web_assets/js/ui/jModal.1.0.js?ver=3" type="text/javascript"></script>
+<script src="http://epsilon.whitehouseblackmarket.com/web_assets/js/autoEmail.js?ver=4" type="text/javascript"></script>
+<!-- ======================================
+EMAIL FLYOVER MODAL CONTENT ENDS HERE
+======================================= --></div>
+            <div id="text-popup"><div id="text-popup-content"></div>
+            <div id="zone-error-hidden" style="display:none;"></div>
+        <div id="copyright">
+        White House | Black Market and WORKKIT are registered trademarks of Chico's Brands Investments, Inc. &copy;
+        2015 Chico's Distribution Services, LLC.  All Rights Reserved.
+    </div>
+
+    <!-- SiteCatalyst code version: H.17.
+  Copyright 1997-2008 Omniture, Inc. More info available at
+  http://www.omniture.com -->
+  
+  <script language="JavaScript" type="text/javascript"><!--
+    function readCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+    }
+
+  
+    /* You may give each page an identifying name, server, and channel on
+    the next lines. */
+    s.server="epsilon.whitehouseblackmarket.com";
+        var customerType = "" + readCookie("TRACK_LOYALTY_STATUS"); 
+        if(customerType != "" && customerType != "null")
+          s.eVar17 = customerType;
+      
+        var customerId = "" + readCookie("TRACK_LOYALTY_ID");
+        if(customerId != "" && customerId != "null")
+          s.eVar18 = customerId;
+      
+    //-->
+  </script>
+  <!-- End SiteCatalyst code version: H.17. -->
+<script>
+
+          var CI_PageType = '';
+        
+
+$(document).ready(function() {
+
+  
+  document.write = (function () {
+    for (var i = 0; i < arguments.length; i++) {
+      $('body').append(arguments[i]);
+      }
+  });
+
+    try {
+        // Inject tracking vars
+        var FAS = window.FAS || {};
+        if (typeof FAS.injectTracking === "function") {
+            FAS.injectTracking();
+        }
+    }catch(e) {
+        window.injectionTrackingError = e;
+    }
+
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+  var s_code=s.t();if(s_code)document.write(s_code); 
+  
+  
+    Req(
+      "http://epsilon.whitehouseblackmarket.com/web_assets/js/cheetah_mail/sc_tracking.js"
+      , function(){sc_send_data();}
+    );
+    
+          Req(true,
+            "http://epsilon.whitehouseblackmarket.com/web_assets/js/channel_intelligence/70487822_landing.js"
+          );
+          if (document.location.protocol.indexOf('https') > -1) {
+    Req(true,
+      "https://as00.estara.com/as/InitiateCall2.php?accountid=200106296473",
+      "https://as00.estara.com/fs/lr.php?onload=1&accountid=200106296473"
+    );
+  }else{
+    Req(true,
+      "http://as00.estara.com/as/InitiateCall2.php?accountid=200106296473",
+      "http://as00.estara.com/fs/lr.php?onload=1&accountid=200106296473"
+    );
+  } 
+  
+    Req(true,
+        "http://epsilon.whitehouseblackmarket.com/web_assets/js/gltrk.js"
+    );
+    
+
+
+}); 
+
+</script>
+
+<noscript><img width="1" height="1" border="0" src="https://sc.email.whitehouseblackmarket.com/spacer.gif?event=6~~28~whbm"></noscript>
+

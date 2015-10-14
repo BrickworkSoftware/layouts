@@ -8,6 +8,10 @@ label {
   font-weight: 500 !important;
 }
 
+.bw-display-layer-container {
+  margin-top: 0 !important;
+}
+
 .bw-display-layer .bwt-index-filter-body label {
   padding: 2px 8px 0 22px !important;
 }
@@ -149,6 +153,12 @@ label {
   font-size: 0.8667rem;
 }
 
+@media (min-width: 992px) {
+  .sticky #header-wrap {
+    height: 10.075rem;
+  }
+}
+ 
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;

@@ -75,7 +75,7 @@ label {
 }
 
 #header-wrap {
-  height: 10.075rem;
+  height: 9.075rem !important;
 }
 
 #header-inner {

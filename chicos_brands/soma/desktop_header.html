@@ -1,3 +1,21 @@
+<!-- Border Free soma -->
+<script type="text/javascript" src="http://epsilon.soma.com/web_assets/js/ibf/border_free.js"></script>
+
+<!-- Don't Display Welcome Mat -->
+        <script type="text/javascript">
+            if(!window.console){ window.console = {log: function(){} }; }
+            console.log("*** ============> NEGATIVE: Do Not Display Welcome Mat <============== ***");
+        </script>
+    <!-- End Border Free -->
+
+<script type="text/javascript">
+    function submitKeywordSearch() {
+        document.getElementById("keywrd").value=document.getElementById("catalogid-box").value;
+        document.hform1a.submit();
+    }
+</script>
+
+
 <form id="hform1" name="hform1a" action="http://epsilon.soma.com/store/search/search_results.jsp?_DARGS=/store/include/vendor/brickwork/header.jsp" method="POST"><input name="_dyncharset" value="UTF-8" type="hidden"></input><input name="_dynSessConf" value="850798233043001684" type="hidden"></input><input id="keywrd" name="kywrd" value="" type="hidden"><input name="_D:kywrd" value=" " type="hidden"><input name="/atg/commerce/search/catalog/QueryFormHandler.searchRequest.saveRequest" value="true" type="hidden"><input name="_D:/atg/commerce/search/catalog/QueryFormHandler.searchRequest.saveRequest" value=" " type="hidden"><input name="/fas/search/repository/FasSearchResponseProcessor.saveFacets" value="true" type="hidden"><input name="_D:/fas/search/repository/FasSearchResponseProcessor.saveFacets" value=" " type="hidden"><input name="/atg/commerce/search/catalog/QueryFormHandler.keywordSearch" value="true" type="hidden"><input name="_D:/atg/commerce/search/catalog/QueryFormHandler.keywordSearch" value=" " type="hidden"><input name="/atg/commerce/search/catalog/QueryFormHandler.search" value="submit" type="hidden"><input name="_D:/atg/commerce/search/catalog/QueryFormHandler.search" value=" " type="hidden"><input name="_DARGS" value="http://epsilon.soma.com/store/include/vendor/brickwork/header.jsp" type="hidden"></input></form><script>
     __initialFacetTrail__ = "";
   </script>

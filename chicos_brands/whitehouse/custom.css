@@ -14,6 +14,9 @@ body {
 
 .bw-display-layer {
   padding: 4rem 2rem !important;
+  width: 1050px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .bw-display-layer, 

@@ -1,0 +1,29 @@
+.bw-display-layer .bwt-cancel-rsvp-only
+{ text-align: center; padding-top: 50px; }
+.bwt-cancel-rsvp-only p.bwt-event-rsvp-status
+{ font-size: 11px; color: #888; line-height: 19px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button
+{ padding-top: 30px; margin: 0 auto; max-width: 40%; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button
+{ background-color: #fff; border: 1px solid #aaa; color: #888; font-size: 12px; font-weight: normal; font-family: 'Helvetica'; padding: 15px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button:hover
+{ background-color: #222; color: #fff; }
+@media only screen and (min-width: 40.063em) {
+.bwt-cancel-rsvp-only .bw-display-layer.bwt-cancel-rsvp-only
+{ padding-top: 80px; }
+.bwt-cancel-rsvp-only p.bwt-event-rsvp-status
+{ font-size: 12px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button
+{ font-size: 14px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button
+{ max-width: 20%; }
+}
+@media only screen and (min-width: 60.063em) {
+.bwt-cancel-rsvp-only p.bwt-event-rsvp-status
+{ font-size: 11px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button
+{ font-size: 12px; }
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button
+{ max-width: 14%; margin-bottom: 14%; }
+}
+}

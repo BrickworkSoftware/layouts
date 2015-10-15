@@ -1,22 +1,18 @@
 body {
   text-align: left !important;
+  background-color: #fff !important;
 }
 
-#header {
+.site_header, #header {
   background-color: #000;
 }
 
 .bw-display-layer-container {
   background-color: #fff;
-  margin: 0 !important;
-  max-width: 100% !important;
 }
 
 .bw-display-layer {
   padding: 4rem 2rem !important;
-  width: 1050px;
-  margin-left: auto !important;
-  margin-right: auto !important;
 }
 
 .bw-display-layer, 
@@ -84,6 +80,9 @@ body {
   font-size: 1rem !important;
 }
 
+.client_footer .bw-display-layer {
+  width: 100% !important;
+}
 
 /* iFrame Styling */
 

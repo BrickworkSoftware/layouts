@@ -1,73 +1,15 @@
-html {
-  font-size: 15px;
-}
-
-@font-face {
-  font-family: 'Brandon-Grotesque';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-@font-face {
-  font-family: 'Brandon-Grotesque';
-  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
-  font-weight: bold;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-@font-face {
-  font-family: 'Brandon-Grotesque';
-  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
-  font-weight: normal;
-  font-style: italic;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-@font-face {
-  font-family: 'Brandon-Grotesque';
- src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
-  font-weight: 500;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased !important;
-}
-
-@font-face {
-  font-family: 'BentonModernOne';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased !important;
-}
-
 body {
   background-color: #fff !important;
   font-family: "Brandon-Grotesque", Georgia, Times, serif !important;
   text-align: left !important;
 }
 
-.bw-display-layer-container {
-  font-size: initial !important;
-  margin: 2.5rem auto 0 auto !important;
-}
-
-.bw-display-layer .bwt-index-search-form-wrap {
-  max-width: 1170px !important;
-}
-
-.bwt-cancel-rsvp-only {
-  margin: 60px auto;
-  text-align: center;
-}
-
-.bw-display-layer .store-type-123,
-label[for=type_123] {
-  display: none;
-}
 label {
   font-weight: 500 !important;
+}
+
+.bw-display-layer-container {
+  margin-top: 0 !important;
 }
 
 .bw-display-layer .bwt-index-filter-body label {
@@ -211,6 +153,12 @@ label {
   font-size: 0.8667rem;
 }
 
+@media (min-width: 992px) {
+  .sticky #header-wrap {
+    height: 10.075rem;
+  }
+}
+ 
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;

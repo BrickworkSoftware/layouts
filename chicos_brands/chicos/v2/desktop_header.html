@@ -1,0 +1,527 @@
+<div id="page-wrap">
+ <!-- Don't Display Welcome Mat -->
+      <script type="text/javascript">
+        if(!window.console){ window.console = {log: function(){} }; }
+        console.log("*** ============> NEGATIVE: Do Not Display Welcome Mat <============== ***");
+      </script>
+    <!-- End Border Free -->
+
+  <script type="text/javascript">
+
+    $().ready(function() {
+      var $exitMsg = $('#exit_msg');
+      var $exitMsgLink = $('#exit_msg > a');
+      var $somaLink = $('#menu_soma > a');
+      var divHeight = $exitMsg.height();
+      $exitMsg.hide().css({ height : 0 });
+      $somaLink.click(function(){
+        $exitMsg.animate({ height : divHeight, opacity: .9}, 1000);
+      });
+      $somaLink.mouseout(function() {
+        $somaLink.oneTime(1000, 'hide', function() {
+          $exitMsg.animate({ height: 0 }, 500,  function () {
+            $exitMsg.hide();
+          });
+        });
+      });
+      $exitMsgLink.mouseover(function() {
+        $somaLink.stopTime('hide');
+      });
+      $somaLink.mouseover(function() {
+        $somaLink.stopTime('hide');
+      });
+      $exitMsgLink.mouseout(function() {
+        $somaLink.oneTime(1000, 'hide', function() {
+          $exitMsg.animate({ height: 0 }, 500, function () {
+            $exitMsg.hide();
+          });
+        });
+      });
+    });
+
+  </script>
+
+  <div id="header-promo-wrap">   <div id="promo-carousel" class="carousel slide" data-ride="carousel">     <div id="header-promo-toggle">       <a href="#" data-toggle="header-promo">         <span class="promo-toggle-icon">           <svg class="icon-plus">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus"></use>           </svg>         </span>       </a>       <ol class="carousel-indicators">         <li data-toggle="header-promo" class="active">           Free Shipping <span class="hidden-xs">on Your Next Purchase</span> *         </li>         <li data-toggle="header-promo" class="">           24 Hour Flash Sale <span class="hidden-xs">50% Off When You Spend $100 or More</span>         </li>         <li data-toggle="header-promo" class="">           Lorem ipsum dolor sit <span class="hidden-xs">amet consectetur adipisicing elit</span>         </li>       </ol>     </div>     <div id="header-promo" style="">       <div id="header-promo-inner">         <div class="carousel-inner" role="listbox">           <div class="item active">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">1</span>             </h2>             <div class="carousel-caption"></div>           </div>           <div class="item">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">2</span>             </h2>             <div class="carousel-caption"></div>           </div>           <div class="item">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">3</span>             </h2>             <div class="carousel-caption"></div>           </div>         </div>            <a class="left carousel-control" href="#promo-carousel" role="button" data-slide="prev">           <svg class="promo-left">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-left"></use>           </svg>           <span class="sr-only">Previous</span>         </a>         <a class="right carousel-control" href="#promo-carousel" role="button" data-slide="next">           <svg class="promo-right">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-right"></use>           </svg>           <span class="sr-only">Next</span>         </a>       </div>      </div>   </div>  </div><!-- global promo -->
+  <div id="header-wrap">
+    <header id="header" data-responsive="" data-mobile-experience="desktop" class=''>
+      <div id="header-inner">
+        <a id="logo" onclick="s_objectID='Chicos';" href="http://alpha.chicos.com/store/"><svg>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-logo"></use>
+                </svg>
+              </a><!-- #logo -->
+        <div id="menu-utility">
+          <ul>
+            <!-- off canvas menu -->
+            <li>
+              <a href="#" class="menu-toggle" data-toggle="offcanvas">
+                          <span class="menu-toggle-inner">
+                            <span class="menu-bar"></span>
+                            <span class="menu-bar"></span>
+                            <span class="menu-bar"></span>
+                          </span>
+                <span class="menu-label">Menu</span>
+              </a>
+            </li>
+            <!-- sign in link -->
+            <li class="dropdown menu-signin">
+              <!-- Start Account Header -->
+              <!-- SIGN IN LINK -->
+<a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/login.jsp"><span>Sign In</span>
+                    </a></li>
+            <!-- find in boutique link -->
+            <li class="dropdown menu-find">
+              <a href="http://npstore.chicos.com/">
+                <svg class="icon-map">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-map"></use>
+                </svg>
+                <span>Find a Boutique</span></a>
+            </li>
+            <!-- search -->
+            <li class="dropdown menu-search">
+              <a href="#" class="search-toggle" data-toggle="search">
+                <svg class="icon-search">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+                </svg>
+              </a>
+            </li>
+            <!-- shopping bag -->
+            <li class="menu-bag">
+              <div id="persistent-cart" class="dropdown-menu dropdown-menu-right dropdown-utility dropdown-bag-count">
+        <div class="dropdown-inner">
+            <a href="#" data-toggle="close-cart">
+                <svg class="icon-close">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
+                    <svg></svg>
+                </svg>
+            </a>
+            <h3>My Shopping Bag (<span class="bag-count"></span>)</h3>
+            <div id="pc-wrapper" class="product-details-wrap">
+                <div id="pc-container">
+                    <div id="pc-cart-status"></div>
+                    <div id="pc-items">
+                        <div id="pc-content">
+                            <div id="pc-items-empty" style="display: none;">
+                                <p class="pc-noItems">There are no items in your shopping bag.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                </div>
+            <div id="pc-summary-wrapper">
+                <div id="pc-summary">
+                    <div id="pc-totals">
+                        <h3>Order Summary</h3>
+                        <div id="pc-subtotal" class="pc-totals-row row">
+                            <div class="pc-label col-xs-8">Item Subtotal</div>
+                            <div class="pc-value col-xs-4 text-right"></div>
+                        </div>
+                        <div id="pc-grandtotal" class="pc-totals-row row">
+                            <div class="pc-label col-xs-8">Estimated Total (before tax)</div>
+                            <div class="pc-value col-xs-4 text-right"></div>
+                        </div>
+                        <div id="pc-promos" class="row"></div>
+                        <div id="pc-qualifying-msgs" class="row"></div>
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-7">
+                            <div class="cart-links">
+                                <a onclick="s_objectID='Shopping Bag'" href="http://alpha.chicos.com/store/checkout/cart.jsp">
+                                                View Shopping Bag
+                                            </a><br>
+                                <a data-toggle="close-cart" href="#">Continue Shopping</a>
+                            </div>
+                        </div>
+                        <div class="col-xs-5">
+                            <a id="pc-btn-checkout" class="btn btn-primary btn-lg btn-block" href="https://alpha.chicos.com/store/account/checkout_login.jsp?sourcePage=persistentCart" title="Checkout" onclick="resetOmniturePageName();set_event_send_page_tag('preCheckout,event14');set_page_send_tag('chicos','login','persistentCart');">Check Out</a>
+                                                <a id="pc-btn-checkout-disabled" class="btn btn-default btn-lg btn-block" href="javascript: return false;" style="display: block; color: #fff; background: #898888;" disabled="">Check Out</a>
+                                            </div>
+                    </div>
+                    <div class="bag-promo-img hidden-xs">
+                        <a href="#"><img class="img-responsive" src="http://placehold.it/400x150&amp;text=Promo+Image" alt=""></a>
+                    </div>
+
+                    </div>
+            </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+    var promoRemoveLinkTemplate = '';
+    
+        s.brandName='chicos';
+    </script>
+<a id="pc-main" onclick="s_objectID='Shopping Bag'" href="http://alpha.chicos.com/store/checkout/cart.jsp"><span class="bag-wrap">
+                      <svg class="icon-bag">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bag"></use>
+                      </svg>
+                      <span class="bag-number bag-count"></span>
+                      </span>
+                    </a></li>
+          </ul>
+        </div>
+      </div><!-- #header -->
+
+      <nav id="menu">
+    <div class="menu-header-mobile">
+      <div class="customer-links">
+            <a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/login.jsp">Sign In</a><a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/registration.jsp">Register</a></div>
+    </div>
+    <!-- Borderfree Context Chooser -->
+    <div class="ship-to visible-sm visible-xs">
+           Ship to: <a id="contextSelectorLink" href="#"><img src="http://alpha.chicos.com/store/ibf/images/flags/USA.jpg"></a>
+        </div>
+        <ul>
+      <!-- Iterate through All the dynamic categories from the droplet; Max of 7 -->
+          <li class="dropdown" data-category-name='New Arrivals' data-category-id='cat40036'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>New Arrivals</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/New+Arrivals/cat40036/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-TOPS/cat500019/">Tops</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-SWEATERS/cat12059276/">Sweaters</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-JACKETS/cat500020/">Jackets</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-DRESSES+SKIRTS/cat500023/">Dresses &amp; Skirts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-PANTS+SHORTS/cat8319283/">Pants &amp; Shorts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-DENIM/cat12059277/">Denim</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-SWIM/cat10379281/">Swim</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-JEWELRY/cat500024/">Jewelry</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ACCESSORIES/cat4150003/">Accessories</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                Collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-TRAVELERS/cat3320003/">Travelers</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ZENERGY/cat2770002/">Zenergy</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-BLACK LABEL/cat7149278/">Black Label</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-PETITES/cat9949290/">Petites</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ONLINE EXCLUSIVES/cat5349280/">Online Exclusives</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                Shop</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Shop" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-AS SEEN IN OUR TV SPOT/cat11099291/">As Seen In Our TV Spot</a></li>
+                                      <li><a title="" data-category-label="Shop" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-STATEMENT JACKETS/cat11109277/">Statement Jackets</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Gifts' data-category-id='cat9659281'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Gifts</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Gifts/cat9659281/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-SWEATERS/cat10309276/">Sweaters</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-LUXE/cat10309282/">Luxe</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-JEWELRY+ACCESSORIES/cat10309278/">Jewelry &amp; Accessories</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-STOCKING STUFFERS/cat10309281/">Stocking Stuffers</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-LOUNGE/cat10309277/">Lounge</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                SHOP BY PRICE</h3>
+                              <ul>
+                              <li><a title="" data-category-label="SHOP BY PRICE" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-$25+UNDER/cat3780005/">$25 &amp; UNDER</a></li>
+                                      <li><a title="" data-category-label="SHOP BY PRICE" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-$50+UNDER/cat3780006/">$50 &amp; UNDER</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Clothing' data-category-id='cat12049275'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Clothing</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Clothing/cat12049275/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-TOPS/cat40002/">Tops</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-SWEATERS/cat8319278/">Sweaters</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-JACKETS/cat40001/">Jackets</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-DRESSES+SKIRTS/cat40004/">Dresses &amp; Skirts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-PANTS+SHORTS/cat8289646/">Pants &amp; Shorts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-DENIM/cat8319290/">Denim</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-SWIM/cat9659293/">Swim</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-TRAVELERS/cat40010/">Travelers</a></li>
+                                      <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-ZENERGY/cat2580017/">Zenergy</a></li>
+                                      <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-BLACK LABEL/cat7059275/">Black Label</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Jewelry' data-category-id='cat40005'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Jewelry</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jewelry/cat40005/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-NECKLACES/cat40076/">Necklaces</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-BRACELETS/cat40026/">Bracelets</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-EARRINGS/cat40024/">Earrings</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-WATCHES/cat40027/">Watches</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-RINGS+PINS/cat40028/">Rings &amp; Pins</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                Collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-THE JEWELED COLLECTIBLES/cat10969281/">The Jeweled Collectibles</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-BLACK LABEL/cat7069280/">Black Label </a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-ONLINE EXCLUSIVES/cat4929299/">Online Exclusives</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Accessories' data-category-id='cat12059278'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Accessories</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Accessories/cat12059278/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-PONCHOS+RUANAS/cat40031/">Ponchos &amp; Ruanas</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-SCARVES/cat2580031/">Scarves</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BAGS/cat40029/">Bags</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-HATS/cat7029288/">Hats</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-SUNGLASSES/cat40033/">Sunglasses</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-EYEWEAR/cat5879285/">Eyewear</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BELTS/cat40030/">Belts</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                Collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BLACK LABEL/cat12379292/">Black Label </a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-ONLINE EXCLUSIVES/cat4929295/">Online Exclusives</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='COLLECTIONS' data-category-id='cat12059279'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>COLLECTIONS</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-TRAVELERS/cat12369291/">Travelers</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ZENERGY/cat12379279/">Zenergy</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ZENERGY GOLF/cat8139304/">Zenergy Golf</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-BLACK LABEL/cat12369289/">Black Label</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-SO SLIMMING/cat8319289/">So Slimming</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-SWIM/cat12379293/">Swim</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-KNIT KIT/cat10749284/">Knit Kit</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ONLINE EXCLUSIVES/cat4929306/">Online Exclusives</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Petites' data-category-id='cat9799294'>
+                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Petites</span></a>
+                    <div class="dropdown-menu">
+                    <div class = "container-fluid dropdown-inner">
+                      <div class="row">
+                      <div class="col-md-3 col-border">
+                              <h3>
+                                Category</h3>
+                              <ul>
+                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Petites/cat9799294/">View All</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-TOPS/cat9799297/">Tops</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-SWEATERS/cat12059280/">Sweaters</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-JACKETS/cat9799296/">Jackets</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-DRESSES+SKIRTS/cat9799299/">Dresses &amp; Skirts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-PANTS+SHORTS/cat9799298/">Pants &amp; Shorts</a></li>
+                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-DENIM/cat12059281/">Denim</a></li>
+                                      </ul>
+                            </div>
+                          
+                        <div class="col-md-3 col-border">
+                              <h3>
+                                Collection</h3>
+                              <ul>
+                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-TRAVELERS/cat9799300/">Travelers</a></li>
+                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-ZENERGY/cat9799301/">Zenergy</a></li>
+                                      </ul>
+                            </div>
+                          
+                        </div>
+                  </div>
+                  </div>
+                </li>
+            <li class="dropdown" data-category-name='Sale' data-category-id="catsaleschicos">
+                  <a href="#" data-nav-type="top-nav"><span>Sale</span></a>
+                  <div class="dropdown-menu">
+                    <div class="container-fluid dropdown-inner">
+                      <div class="row">
+                        <div class="col-md-3 col-border">
+                          <ul>
+                            <h3>Sale</h3>
+                            <li><a class="sale" href="http://alpha.chicos.com/store/sale/">View All</a></li>
+                            <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/NEW+DEBUTS/cat5089275/">New Debuts</a></li>
+                          <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/TRAVELERS/cat40010/">Travelers</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/TOPS/cat40002/">Tops</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/ZENERGY/cat2580017/">Zenergy</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/JACKETS/cat40001/">Jackets</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/BLACK+LABEL/cat7059275/">Black Label</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/DRESSES+&+SKIRTS/cat40004/">Dresses & Skirts</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/JEWELRY/cat40005/">Jewelry</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/PANTS+&+SHORTS/cat8289646/">Pants & Shorts</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/SWIM/cat9659293/">Swim</a></li>
+                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/SHOES+&+ACCESSORIES/cat40006/">Shoes & Accessories</a></li>
+                                </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul>
+                            <h3>Clearance</h3>
+                            <li><a class="clearance" href="http://alpha.chicos.com/store/clearance/">View All</a></li>
+                            <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/New Debuts/cat5089275/">New Debuts</a></li>
+                          <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Travelers/cat40010/">Travelers</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Tops/cat40002/">Tops</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Zenergy/cat2580017/">Zenergy</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Jackets/cat40001/">Jackets</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Black Label/cat7059275/">Black Label</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Dresses & Skirts/cat40004/">Dresses & Skirts</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Jewelry/cat40005/">Jewelry</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Pants & Shorts/cat8289646/">Pants & Shorts</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Swim/cat9659293/">Swim</a></li>
+                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Shoes & Accessories/cat40006/">Shoes & Accessories</a></li>
+                                </ul>
+                </div>
+                <div class="col-sm-3 hidden-xs">
+                  <img class="img-responsive" src="http://placehold.it/400x400&amp;text=Editorial+or+Promo" alt="Editorial or Promo">
+                </div>
+<div class="col-sm-3 hidden-xs">
+                  <img class="img-responsive" src="http://placehold.it/400x400&amp;text=Editorial+or+Promo" alt="Editorial or Promo">
+                </div></div>
+              </div>
+          </div>
+            </li>
+          <!-- Blog Link -->
+      <li class="dropdown" data-category-name='Inside Chic'>
+          <a href="http://insidechic.chicos.com" data-nav-type="top-nav"><span>Inside Chic</span></a>
+                </li>
+          <li class="dropdown visible-sm visible-xs">
+              <a href="#"><span>Customer Support</span></a>
+              <div class="dropdown-menu">
+                <div class="container-fluid dropdown-inner">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <ul>
+                        <li><a href="tel:8888554986">Call Us 888-855-4986</a></li>
+                        <li><a href="mailto:customerservice@chicos.com">Email Us</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      <!-- search -->
+      <li class="search-toggle-wrap">
+          <a href="#" class="search-toggle" data-toggle="search">
+            <svg class="icon-search">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+            </svg>
+          </a>
+        </li>
+    </ul>
+  </nav>
+
+    <div id="search-wrap" style="display: none;">
+    <div id="search">
+      <svg class="icon-search">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+      </svg>
+      <div id="search-inner">
+        <div class="search-form">
+          <form action="http://alpha.chicos.com/store/search/" name="noSubmit" id="typeAhead-search-form">
+            <div class="input-group">
+              <input  type="text" class="typeahead form-control" placeholder="Start typing to search"/>
+              <span class="input-group-btn">
+                <button class="header-search-button button btn btn-primary hidden-xs">Search</button>
+                <a href="#" class="btn search-close" data-toggle="search">
+                  <svg class="icon-close">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
+                    <svg></svg>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div><!-- #search-wrap -->
+<div class="offcanvas-overlay"></div>
+    </header>
+  </div>
+  <script>
+    function setNonSecureUrl(link){
+      var linkVal = link.href;
+      if(linkVal.indexOf("https://")>=0) {
+        linkVal = linkVal.replace("https://","http://");
+        link.href = "javascript:;";
+        document.location = linkVal;
+      }
+    }
+  </script>
+  <script src="http://alpha.chicos.com/web_assets/js/vendor/brickwork.js"></script>
+</div>

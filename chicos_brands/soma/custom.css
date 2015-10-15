@@ -1,5 +1,13 @@
+body {
+  text-align: left !important;
+}
+
 .handle--hidden {
   background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
+}
+
+.bw-display-layer-container {
+  margin-top:0 !important;
 }
 
 .bw-display-layer {
@@ -63,6 +71,10 @@
 
 .bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
   font-size: 1rem !important;
+}
+
+.client_footer {
+  margin-top: 0 !important;  
 }
 
 

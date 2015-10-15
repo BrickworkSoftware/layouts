@@ -62,6 +62,10 @@ body {
   text-align: center;
 }
 
+.bw-display-layer .store-type-123,
+label[for=type_123] {
+  display: none;
+}
 label {
   font-weight: 500 !important;
 }

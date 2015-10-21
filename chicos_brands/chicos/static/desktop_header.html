@@ -1,0 +1,402 @@
+
+<!-- Border Free chicos -->
+    <script type="text/javascript" src="https://epsilon.chicos.com/web_assets/js/ibf/border_free.js"></script>
+
+    <!-- Don't Display Welcome Mat -->
+            <script type="text/javascript">
+                if(!window.console){ window.console = {log: function(){} }; }
+                console.log("*** ============> NEGATIVE: Do Not Display Welcome Mat <============== ***");
+            </script>
+        <!-- End Border Free -->
+
+    <script type="text/javascript">
+
+        $().ready(function() {
+            var $exitMsg = $('#exit_msg');
+            var $exitMsgLink = $('#exit_msg > a');
+            var $somaLink = $('#menu_soma > a');
+            var divHeight = $exitMsg.height();
+            $exitMsg.hide().css({ height : 0 });
+            $somaLink.click(function(){
+                $exitMsg.animate({ height : divHeight, opacity: .9}, 1000);
+            });
+            $somaLink.mouseout(function() {
+                $somaLink.oneTime(1000, 'hide', function() {
+                    $exitMsg.animate({ height: 0 }, 500,  function () {
+                        $exitMsg.hide();
+                    });
+                });
+            });
+            $exitMsgLink.mouseover(function() {
+                $somaLink.stopTime('hide');
+            });
+            $somaLink.mouseover(function() {
+                $somaLink.stopTime('hide');
+            });
+            $exitMsgLink.mouseout(function() {
+                $somaLink.oneTime(1000, 'hide', function() {
+                    $exitMsg.animate({ height: 0 }, 500, function () {
+                        $exitMsg.hide();
+                    });
+                });
+            });
+        });
+
+    </script>
+
+    <!-- Start Account Header -->
+<div id="account-nav-parent-wrapper">
+    <div id="account-nav-parent">
+        <div id="account-nav">
+            <!-- Start Account Nav -->
+            <div id="account-info">
+                <ul class="account-info-list">
+                    <li class="account-sign-in">
+                                            <a onclick="s_objectID='My Account';" href="https://epsilon.chicos.com/store/account/login.jsp"><span>Sign In</span>
+                                            </a><span class="account-header-spacer">|</span>
+                                        </li>
+                                        <li class="account-register">
+                                            <a onclick="s_objectID='My Account';" href="https://epsilon.chicos.com/store/account/registration.jsp"><span>Register</span>
+                                                        </a><span class="account-header-spacer">|</span>
+                                                    </li>
+                                    <li class="header-welcome">
+                                <a href="https://epsilon.chicos.com/store/page.jsp?id=97&amp;ICID=header_emailSignup">
+                                  Sign Up for Email and Save 20% today!</a>
+                            </li>
+                        </ul>
+            </div>
+        </div>
+        <!-- End Account Nav -->
+
+        <!-- Start Location Nav -->
+        <div id="location-nav">
+            <ul class="location-list">
+                <li class="location-store-locator">
+                    <a href="https://epsilon.chicos.com/store/store_locator.jsp" onclick="setNonSecureUrls(this);s_objectID='find a boutique';">Find a boutique</a>
+                    <span class="location-header-spacer"> | </span>
+                </li>
+                <li class="location-store-switch" style="cursor:pointer;">
+                    <span class="ibf-label">Ship to:</span>
+                    <a id="contextSelectorLink" href="#">
+                    <span id="ibf-flag">
+                      <img src="https://epsilon.chicos.com/store/ibf/images/flags/USA.jpg">
+                    </span>
+                    <span id="ibf-countryName">
+                      UNITED STATES</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Location Nav -->
+
+    </div>
+</div>
+<!-- End Account Header -->
+
+<!-- css for brickwork -->
+<link href="https://epsilon.chicos.com/web_assets/css/skin.css?ver=30" rel="stylesheet" type="text/css">
+<link href="https://epsilon.chicos.com/web_assets/css/common.css?ver=30" rel="stylesheet" type="text/css"/>
+<link href="https://epsilon.chicos.com/web_assets/css/vendor/brickwork/brickwork.css" rel="stylesheet" type="text/css"/>
+<script src="https://epsilon.chicos.com/web_assets/js/vendor/brickwork/brickwork.js"></script>
+<!-- end css for brickwork -->
+
+    <div style="clear:both;"></div>
+
+    <div id="header" class="">
+    <div id="header-logo">
+        <a onclick="s_objectID='Chicos';" href="http://epsilon.chicos.com/store/"><img src="https://epsilon.chicos.com/web_assets/logo/chicos_logo.gif" class="logo"/></a></div>
+
+    <div id="header-promo">
+        <!-- Test and Target JS reference -->
+        <script type="text/javascript" src="https://epsilon.chicos.com/web_assets/js/test_and_target/mbox.js"></script>
+        <div class="mboxDefault"></div>
+                <script type="text/javascript">
+                    mboxCreate('chicos_global_promo1', 'customerType=Guest', 'categoryId=', 'subCategoryId=', 'customerNumber=', ('omnitureCookie='+readCookie('s_vi')), 'mbox3rdPartyId='+readCookie('s_vi'), 'user.categoryId=');
+                </script>
+            <div id="header-promo-body">
+            <style> 
+
+.moovweb_globalbanner{display:none;} 
+
+.mw_tablet_only{display:none;} 
+
+*:focus{outline:none;} 
+
+#gps { position: relative; margin: 10px auto 0px; cursor:pointer;} 
+
+#gps img {position: absolute; cursor:pointer;left:0;top:0;} 
+
+#gps #first {z-index: 2;}
+
+</style> 
+
+
+
+<!-- MOBILE GPS SLOT -->
+
+<div class="moovweb_globalbanner"> 
+
+  <a href="https://epsilon.chicos.com/store/category/new-arrivals/cat40036?icid=MGPS_50OffHPI"> 
+
+      <img src="https://epsilon.chicos.com/web_assets/img/20150908/MGPS.gif" alt="50% off your highest-priced item when you spend $100 or more | Use Code 74653 | Shop Now" border="0"> 
+
+  </a> 
+
+</div> 
+
+<!-- / MOBILE GPS SLOT -->
+
+
+
+<!-- TABLET GPS SLOT -->
+
+<div class="mw_tablet_only"> 
+
+  <a href="https://epsilon.chicos.com/store/category/new-arrivals/cat40036?icid=TGPS_50OffHPI"> 
+
+    <img src="https://epsilon.chicos.com/web_assets/img/20150908/TGPS.gif" alt="50% off your highest-priced item when you spend $100 or more | Use Code 74653 | Shop Now" border="0"> 
+
+  </a>
+
+</div> 
+
+<!-- / TABLET GPS SLOT -->
+
+
+
+<!-- DESKTOP GPS SLOT -->
+
+<div id="gps">
+
+ <img id="first" src="https://epsilon.chicos.com/web_assets/img/20150908/GPS.gif" usemap="#mapGPS1" alt="" border="0" /> 
+
+    <img src="https://epsilon.chicos.com/web_assets/img/20150908/GPS2.gif" usemap="#mapGPS2" alt="" border="0" /> 
+
+</div> 
+
+
+
+
+
+
+
+<!-- / DESKTOP GPS SLOT -->
+
+
+
+<!-- IMAGE MAP CODE -->
+
+<map name="mapGPS1" id="mapGPS1"> 
+
+    <area shape="rect" coords="395,0,450,25" href="https://epsilon.chicos.com/web_assets/img/20150908/40Off_Details.html" rel="modalTriggerGPS 300 200" alt="Details" class="modalTriggerGPS" onclick="vars=s_gi(s_account); s.tl(this,'o','GPS_50OffHPI_Details');"> 
+
+    <area shape="rect" coords="0,0,450,55" href="https://epsilon.chicos.com/store/category/new-arrivals/cat40036?icid=GPS_50OffHPI" alt="50% off your highest-priced item when you spend $100 or more | Use Code 74653 | Shop Now"> 
+
+</map> 
+
+
+
+<map name="mapGPS2" id="mapGPS2"> 
+
+    <area shape="rect" coords="348,0,390,19" href="https://epsilon.chicos.com/web_assets/img/20150908/Details_PRC.html" rel="modalTriggerGPS 300 240" alt="Details" class="modalTriggerGPS" onclick="vars=s_gi(s_account); s.tl(this,'o','GPS_30OffAR_Details');"> 
+
+    <area shape="rect" coords="0,0,450,55" href="https://epsilon.chicos.com/store/sale/catsales?icid=GPS_30OffAR" alt="We've Taken an Extra 30% off already-reduced styles | Shop the sale."> 
+
+</map> 
+
+
+
+<!-- MODAL CODE -->
+
+<div class='modalWindow' id='modalTriggerGPS'><table border='0' cellspacing='0' cellpadding='0'><tr class='modalControls'><td class='modalCaption'></td><td align='right'><a class='modalClose'></a></td></tr><tr><td colspan='2'><div class='modalContent'></div></td></tr></table></div> 
+
+<script> 
+
+$('#modalTriggerGPS').jqm({ 
+
+ajax: '@href', 
+
+title: '@title', 
+
+trigger: '.modalTriggerGPS' 
+
+}); 
+
+</script> 
+
+<!-- / MODAL CODE -->
+
+
+
+<!-- ROTATING CODE - LEAVE THIS -->
+
+<script type="text/javascript">
+
+var gps_interval = setInterval(function(){$("#first:visible").length < 1 ? $("#first").fadeIn() : $("#first").fadeOut();}, 6000);
+
+</script>
+
+<!-- / ROTATING CODE -->  </div>
+    </div>
+
+    <div id="tertiary-nav">
+        <div id="dynamic-form">
+            <div>
+                <form style="display: none;" action="https://epsilon.chicos.com/store/browse" name="headerFasSearch" class="header-search-form">
+        <input type="hidden" name="Dy" value="1"/>
+        <input type="hidden" name="Nty" value="1"/>
+        <input name="Ntt" type="search" title="Search" class="header-search-input" id="header-search-input"/>
+        <button class="header-search-button button" name="ensearch" type="submit">Search</button>
+    </form>
+
+  </div>
+
+            <div id="pc-main">
+                <div id="pc-overflow">
+  <div id="pc-wrapper">
+    <div id="pc-shadow">
+      <div id="pc-container-shadow-body">
+        <div id="pc-container">
+          <div id="pc-header">
+            <div class="divClickArea"><span  id="pc-title-yem" >Your Emerging Wardrobe</a></span><span id="pc-bag-count"></span></div>
+            <span id="pc-close"><a href="#">X</a></span>
+          </div>
+          <script>
+          $('.divClickArea').click(function(){
+            
+                 window.location = "http://epsilon.chicos.com/store/checkout/cart.jsp";
+              
+          });
+          </script>
+          <div id="pc-cart-status"></div>
+          <div id="pc-content">
+            <div id="pc-items">
+              <div id="pc-items-empty" style="display: none;">
+                <div class="pc-noItems">There are no items in your shopping bag.</div>
+              </div>
+            </div>
+            <div id="pc-summary-wrapper">
+              <div id="pc-summary">
+                <div id="pc-totals">
+                  <div id="pc-title"><img src="https://epsilon.chicos.com/store/images/checkout_redesign/pc_header_title_orderSum.gif" border="0" alt="ORDER SUMMARY"/></div>
+                  <div id="pc-subtotal" class="pc-totals-row">
+                    <div class="pc-label">Item Subtotal</div>
+                    <div class="pc-value"></div>
+                  </div>
+                  <div id="pc-shipping" class="pc-totals-row">
+                    <div class="pc-label">Estimated Shipping</div>
+                    <div class="pc-value"></div>
+                  </div>
+                  <div id="pc-promos"></div>
+                  <div class="clear"></div>
+                  <div id="pc-qualifying-msgs"></div>
+                  <div id="pc-grandtotal" class="pc-totals-row">
+                    <div class="pc-label">ESTIMATED TOTAL<span class="pc-label-sub">(Before Tax)</span></div>
+                    <div class="pc-value"></div>
+                  </div>
+                </div>
+                <div id="pc-buttons">
+                  <div id="pc-nocheckout">
+                    <div id="pc-shopbag">
+                       <a onclick="s_objectID='Shopping Bag'" href="http://epsilon.chicos.com/store/checkout/cart.jsp">
+                              View Shopping Bag
+                          </a><span class="pc-link-pointer">&gt;</span>
+                     </div>
+                    <div id="pc-continue"><a href="#">Continue Shopping</a><span class="pc-link-pointer">&gt;</span></div>
+                  </div>
+                  <a id="pc-btn-checkout" href="https://epsilon.chicos.com/store/account/checkout_login.jsp?sourcePage=persistentCart" title="Checkout" onclick="resetOmniturePageName();set_event_send_page_tag('preCheckout,event14');set_page_send_tag('chicos','login','persistentCart');"><img src="https://epsilon.chicos.com/store/images/checkout_redesign/chs_checkout_btn.gif" border="0" alt="CHECKOUT >"/></a>
+                            <a id="pc-btn-checkout-disabled" href="javascript: return false;" style="display: none;"><img src="https://epsilon.chicos.com/store/images/checkout_redesign/chs_checkoutDisabled_btn.gif" border="0" alt="CHECKOUT >"/></a>
+                          </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div id="pc-close-qualif">
+            </div>
+          <div class="clear"></div>
+          <div id="pc-cond-msg">
+            <style>
+#pc-cond-msg{cursor:pointer;}</style>
+
+<img src="https://epsilon.chicos.com/web_assets/img/20150908/PRC.gif" alt="" usemap="#Map_pcart" border="0"/> 
+
+<map name="Map_pcart" id="Map_pcart"> 
+    <area shape="rect" coords="311,71,346,86" href="https://epsilon.chicos.com/web_assets/img/20150908/Details_PRC.html" alt="Details" onclick="var s=s_gi(s_account); s.tl(this,'o','pCart_30OffAlreadyReduced_details');" rel="modalEmail 400 250" alt="Details" class="modalTriggerPcart"> 
+    <area shape="rect" coords="6,5,342,84" alt="Labor Day Sale | We've taken an extra 30% off already-reduced styles*. Shop The Sale." href="https://epsilon.chicos.com/store/sale/catsales?icid=pCart_30OffAlreadyReduced"> 
+</map> 
+
+<div class='modalWindow' id='modalTriggerPcart'><table border='0' cellspacing='0' cellpadding='0'><tr class='modalControls'><td class='modalCaption'></td><td align='right'><a class='modalClose'></a></td></tr><tr><td colspan='2'><div class='modalContent'></div></td></tr></table></div> 
+<script type="text/javascript"> 
+    $('#modalTriggerPcart').jqm({ 
+    ajax: '@href', 
+    title: '@title', 
+    trigger: '.modalTriggerPcart' 
+    }); 
+</script>  </div>
+        </div>
+      </div>
+      <div id="pc-container-shadow-bottom"></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+  var promoRemoveLinkTemplate = '';
+  
+    s.brandName='chicos';
+  </script>
+<a onclick="s_objectID='Shopping Bag'" href="http://epsilon.chicos.com/store/checkout/cart.jsp">shopping bag&nbsp;<span id="bag-count"><b>
+                                
+                                        (0 items)
+                                    </b></span></a></div>
+        </div>
+    </div>
+    </div>
+
+    <div id="primary-nav">
+        <ul id="menu">
+            <!-- DO NOT DELETE OR REMOVE: START--> 
+
+<!--======== TOP NAVIGATION CSS ========--> 
+
+<link href="https://epsilon.chicos.com/web_assets/skins/navigation/20150815/top_navigation.css" rel="stylesheet" type="text/css" />
+
+<!--======== HTTP to HTTPS SETTER ========--> 
+
+<script> 
+   function setNonSecureUrls(link){ var linkVal = link.href; if(linkVal.indexOf("https://")>=0) { linkVal = linkVal.replace("https://","http://"); link.href = "javascript:;"; document.location = linkVal; } } 
+   function setNonSecureUrl(link){ var linkVal = link.href; if(linkVal.indexOf("https://")>=0) { linkVal = linkVal.replace("https://","http://"); link.href = "javascript:;"; document.location = linkVal; } } 
+</script> 
+
+<!-- DO NOT DELETE OR REMOVE: END --> 
+<li id="menu_newarrivals"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/new-arrivals/cat40036" onClick="setNonSecureUrls(this);s_objectID='New Arrivals';">New Arrivals<span class="btn-arrow"></span></a></li>
+<li id="menu_petites"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/petites/cat9799294" onClick="setNonSecureUrls(this);s_objectID='Petites';">Petites<span class="btn-arrow"></span></a></li>
+<li id="menu_blacklabel"><a class="nav-btn" href="https://epsilon.chicos.com/store/page.jsp?id=102210161" onClick="setNonSecureUrls(this);s_objectID='Black Label';">Black Label<span class="btn-arrow"></span></a></li>
+<li id="menu_travelers"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/travelers/cat40010" onClick="setNonSecureUrls(this);s_objectID='Travelers';">Travelers<span class="btn-arrow"></span></a></li>
+<li id="menu_zenergy"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/zenergy/cat2580017" onClick="setNonSecureUrls(this);s_objectID='Zenergy';">Zenergy<span class="btn-arrow"></span></a></li>
+<li id="menu_jackets"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/jackets/cat40001" onClick="setNonSecureUrls(this);s_objectID='Jackets';">Jackets<span class="btn-arrow"></span></a></li>
+<li id="menu_tops"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/tops/cat40002" onClick="setNonSecureUrls(this);s_objectID='Tops';">Tops<span class="btn-arrow"></span></a></li>
+<li id="menu_bottoms"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/bottoms/cat8289646" onClick="setNonSecureUrls(this);s_objectID='Pants &amp; Denim';">Bottoms<span class="btn-arrow"></span></a></li>
+<li id="menu_dresses"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/dresses-skirts/cat40004" onClick="setNonSecureUrls(this);s_objectID='Dresses &amp; Skirts';">Dresses &amp; Skirts<span class="btn-arrow"></span></a></li>
+<li id="menu_jewelry"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/jewelry/cat40005" onClick="setNonSecureUrls(this);s_objectID='Jewelry';">Jewelry<span class="btn-arrow"></span></a></li>
+<li id="menu_shoes"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/shoes-accessories/cat40006" onClick="setNonSecureUrls(this);s_objectID='Accessories';">Shoes &amp; Accessories<span class="btn-arrow"></span></a></li>
+<li id="menu_swim"><a class="nav-btn" href="https://epsilon.chicos.com/store/category/swim/cat9659293" onClick="setNonSecureUrls(this);s_objectID='Swim';">Swim<span class="btn-arrow"></span></a></li>
+<li id="menu_sale"><a onclick="setNonSecureUrls(this);s_objectID='Sale';" class="nav-btn" href="https://epsilon.chicos.com/store/sale/catsales">Sale<span class="btn-arrow"></span></a></li>
+<li id="menu_blog"><a onclick="setNonSecureUrls(this);s_objectID='Blog';" class="nav-btn" target="_blank" href="http://insidechic.chicos.com">Blog<span class="btn-arrow"></span></a></li></ul>
+    </div>
+
+
+    <script>
+        function setNonSecureUrl(link){
+            var linkVal = link.href;
+            if(linkVal.indexOf("https://")>=0) {
+                linkVal = linkVal.replace("https://","http://");
+                link.href = "javascript:;";
+                document.location = linkVal;
+            }
+        }
+    </script>
+
+
+
+
+    

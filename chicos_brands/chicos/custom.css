@@ -147,10 +147,15 @@ label {
   margin: 0 .535rem;
 }
 
+#footer-inner .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 #footer #footer-inner .row {
   max-width: 100%;
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 #footer #footer-inner h4 {

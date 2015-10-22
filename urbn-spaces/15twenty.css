@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'Space1520A';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/Space1520A.otf') format("opentype");
+}
+
+.bw-display-layer .bwt-store-feature-title, .bw-display-layer .bwt-store-events-title, .bw-display-layer .bwt-stores-nearby-title, .bw-display-layer .bwt-store-details-top .bwt-store-title, .bw-display-layer .bwt-store-player-title, .bw-display-layer .bwt-store-social-title, .bw-display-layer .bwt-store-blogs-title, .bw-display-layer .bwt-events-more-events-title, .row .bw-display-layer .bwt-store-main .bwt-store-header-title {
+	font-family: 'Space1520A';
+	line-height: 1 !important;
+	margin-bottom: 5px;
+}
+
+.row .bw-display-layer .bwt-space-header .bwt-spaces-logo-container .bwt-spaces-logo {
+  background: url('https://s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/Space15Twenty_black.png') no-repeat !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+.row .bw-display-layer .bwt-active-nav .bwt-spaces-logo-container .bwt-spaces-logo {
+  background: url('https://s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/Space15Twenty_white.png') no-repeat !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+.row .bw-display-layer .bwt-event-search-container .bwt-event-search-link,
+.row .bw-display-layer .bwt-store-blog-index-link,
+.row .bw-display-layer .bwt-store-link-container a,
+.row .bw-display-layer .bwt-store-blogs-sub-title,
+.row .bw-display-layer .bwt-blog-byline {
+  border-color: #18d0cb !important;
+}
+
+.row .bw-display-layer .bwt-event-search-container .bwt-event-search-link:hover,
+.row .bw-display-layer .bwt-store-blog-index-link:hover,
+.row .bw-display-layer .bwt-store-link-container a:hover,
+.row .bw-display-layer .bwt-store-blogs-sub-title:hover,
+.row .bw-display-layer .bwt-blog-byline:hover {
+  border-color: #006f6d !important;
+}
+
+.row .bw-display-layer .bwt-blog-post-container .bwt-store-blog-link:before {
+  color: #18d0cb !important;
+}
+
+.row .bw-display-layer .bwt-store-details-bottom .bwt-store-links-container a {
+  display: inline-block;
+  margin-bottom: 2px;
+}
+
+
 .bw-display-layer .bwt-cancel-rsvp-only
 { text-align: center; padding-top: 50px; }
 .bwt-cancel-rsvp-only p.bwt-event-rsvp-status

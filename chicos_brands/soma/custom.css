@@ -6,12 +6,21 @@ body {
   background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
 }
 
+#header-logo {
+  width: 187px !important;
+  height: 73px !important;
+}
+
+#header-logo .logo {
+  max-width: none;
+}
+
 .bw-display-layer-container {
   margin-top:0 !important;
 }
 
 .bw-display-layer {
-  padding: 4rem 2rem !important;
+  padding: 1rem 2rem !important;
 }
 
 .bw-display-layer, 
@@ -77,6 +86,13 @@ body {
   margin-top: 0 !important;  
 }
 
+#soma-footer2-top {
+  height: 166px !important;
+}
+
+#soma-footer2-mid {
+  height: 87px !important;
+}
 
 /* iFrame Styling */
 

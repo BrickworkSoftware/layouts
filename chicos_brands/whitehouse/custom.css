@@ -7,6 +7,10 @@ body {
   background-color: #000;
 }
 
+#header-logo .logo {
+  max-width: none;
+}
+
 .bw-display-layer-container {
   background-color: #fff;
 }
@@ -78,6 +82,10 @@ body {
 
 .bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
   font-size: 1rem !important;
+}
+
+.client_footer {
+  margin-top: 0 !important;
 }
 
 .client_footer .bw-display-layer {

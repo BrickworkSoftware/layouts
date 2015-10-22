@@ -83,9 +83,17 @@ label {
   padding: 2.675rem 1rem 2rem 1rem;
 }
 
+#header-logo .logo {
+  max-width: none;
+}
+
 .sticky #header #header-inner {
   padding-top: 0.667rem;
   padding-bottom: 0.667rem;
+}
+
+#menu {
+  float: left;
 }
 
 #menu > ul > li:first-child a {
@@ -145,6 +153,18 @@ label {
   width: 1.07rem;
   height: 1.07rem;
   margin: 0 .535rem;
+}
+
+.client_footer {
+  margin-top: 0 !important;
+}
+
+.site_footer #copyright {
+  color: #666;
+}
+
+#chs-footer-social {
+  border-left: none !important;
 }
 
 #footer #footer-inner .row {

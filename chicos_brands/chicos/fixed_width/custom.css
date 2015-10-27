@@ -163,8 +163,28 @@ label {
   color: #666;
 }
 
+#chs-footer-parent {
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+#chs-footer-main {
+  float: none !important;
+  margin: 0 auto !important;  
+  height: 140px;
+  width: 780px !important;
+}
+
+#chs-footer-liveHelp {
+  display: none;
+}
+
 #chs-footer-social {
   border-left: none !important;
+}
+
+#info-phone-shop {
+  font-size: 0.875em !important;
 }
 
 #footer #footer-inner .row {

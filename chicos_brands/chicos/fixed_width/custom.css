@@ -172,15 +172,11 @@ label {
   float: none !important;
   margin: 0 auto !important;  
   height: 140px;
-  width: 780px !important;
+  width: 960px !important;
 }
 
-#chs-footer-liveHelp {
-  display: none;
-}
-
-#chs-footer-social {
-  border-left: none !important;
+#chs-footer-liveHelp a {
+  display: block !important;
 }
 
 #info-phone-shop {
@@ -224,6 +220,10 @@ label {
 
 #social a {
   margin-right: 0.8rem;
+}
+
+.bw-display-layer .footer {
+  display: none;
 }
 
 .menu-toggle-inner {

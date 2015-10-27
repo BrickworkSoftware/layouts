@@ -46,6 +46,10 @@ body {
   font-size: 0.85rem;
 }
 
+.bw-display-layer .bwt-store-email-link {
+  display: none !important;
+}
+
 .bw-display-layer .bwt-store .bwt-store-alert {
   background-color: #f3e4d7 !important;
 }

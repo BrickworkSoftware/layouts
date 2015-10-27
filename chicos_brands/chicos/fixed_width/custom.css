@@ -226,6 +226,10 @@ label {
   display: none;
 }
 
+#endeca-search {
+  display: none;
+}
+
 .menu-toggle-inner {
   width: 1.375rem;
 }

@@ -103,6 +103,10 @@ body {
   margin-top: 0 !important;
 }
 
+.bw-display-layer .bwt-store-event-description {
+  font-size: 13px !important;
+}
+
 .bw-display-layer .bwt-event-details-date-time {
   margin-bottom: 0.5rem !important;
 }

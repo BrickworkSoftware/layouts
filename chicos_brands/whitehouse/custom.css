@@ -77,6 +77,23 @@ body {
   vertical-align: text-top !important;
 }
 
+.bw-display-layer .bwt-store-event-title a {
+  font-weight: normal;
+}
+
+.bw-display-layer .bwt-store-event-dates {
+  font-size: 13px !important;
+  margin-top: 0 !important;
+}
+
+.bw-display-layer .bwt-store-event-description {
+  font-size: 13px !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+  margin-bottom: 0.5rem !important;
+}
+
 .bw-display-layer .bwt-store .bwt-store-alert {
   background-color: #f3e4d7 !important;
 }

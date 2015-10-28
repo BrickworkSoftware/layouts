@@ -95,6 +95,23 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.bw-display-layer .bwt-store-event-title a {
+  font-weight: normal;
+}
+
+.bw-display-layer .bwt-store-event-dates {
+  font-size: 13px !important;
+  margin-top: 0 !important;
+}
+
+.bw-display-layer .bwt-store-event-description {
+  font-size: 13px !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+  margin-bottom: 0.5rem !important;
+}
+
 .bwt-cancel-rsvp-only {
   margin: 60px auto;
   text-align: center;
@@ -219,7 +236,11 @@ label {
   float: none !important;
   margin: 0 auto !important;  
   height: 140px;
-  width: 960px !important;
+  width: 985px !important;
+}
+
+#chs-footer-main div { 
+  box-sizing: content-box;
 }
 
 #chs-footer-liveHelp a {

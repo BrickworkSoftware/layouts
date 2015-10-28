@@ -37,9 +37,13 @@ body {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, .bw-display-layer h4,
 .bw-display-layer .bwt-event-details-location-title {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
+}
+
+.bw-display-layer .bwt-store-body h4 {
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
@@ -51,8 +55,26 @@ body {
   font-size: 0.85rem;
 }
 
+.bw-display-layer .bwt-store-show-primary .bwt-store-header-title a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.bw-display-layer .bwt-store-header-title {
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-store-header-title a:hover {
+  text-decoration: none !important;
+  border-bottom: 1px solid #000;
+}
+
 .bw-display-layer .bwt-store-email-link {
   display: none !important;
+}
+
+.bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
+  vertical-align: text-top !important;
 }
 
 .bw-display-layer .bwt-store .bwt-store-alert {

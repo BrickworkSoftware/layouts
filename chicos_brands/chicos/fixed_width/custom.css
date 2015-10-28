@@ -44,7 +44,7 @@ html {
 
 body {
   background-color: #fff !important;
-  font-family: "Brandon-Grotesque", Georgia, Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
   text-align: left !important;
 }
 
@@ -52,6 +52,26 @@ body {
   font-size: initial !important;
   margin: 0 auto !important;
   padding-top: 2.5rem;
+}
+
+.bw-display-layer, 
+.bw-display-layer .bwt-index-search-results-map-button, 
+.bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
+.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1,
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title,
+.row .bw-display-layer .bwt-store .bwt-store-header-details,
+.row .bw-display-layer .bwt-store-header-type,
+.row .bw-display-layer .bwt-store-service-title,
+.row .bw-display-layer .bwt-store-service-description,
+.row .bw-display-layer .bwt-index-search-form-input {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, .bw-display-layer h4,
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer .bwt-event-details-location-title,
+.bw-display-layer .bwt-pagination {
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bw-display-layer .bwt-index-search-form-wrap {
@@ -157,6 +177,16 @@ label {
 
 .client_footer {
   margin-top: 0 !important;
+}
+
+.client_footer .bw-display-layer {
+  padding: 0 !important;
+}
+
+.client_footer .bw-display-layer .footer {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 11px !important;
 }
 
 .site_footer #copyright {
@@ -297,5 +327,5 @@ label {
 }
 
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
-  font-family: 'Brandon', Georgia, Times, serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }

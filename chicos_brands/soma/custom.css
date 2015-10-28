@@ -145,7 +145,13 @@ body {
 }
 
 .client_footer .bw-display-layer {
-  display: none;
+  padding: 0 !important;
+}
+
+.client_footer .bw-display-layer .footer {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 11px !important;
 }
 
 #soma-footer2-top {

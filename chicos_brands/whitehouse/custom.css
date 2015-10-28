@@ -19,6 +19,11 @@ body {
   padding: 4rem 2rem !important;
 }
 
+.bw-display-layer p, .bw-display-layer div {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+}
+
 .bw-display-layer, 
 .bw-display-layer .bwt-index-search-results-map-button, 
 .bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
@@ -29,7 +34,7 @@ body {
 .row .bw-display-layer .bwt-store-service-title,
 .row .bw-display-layer .bwt-store-service-description,
 .row .bw-display-layer .bwt-index-search-form-input {
-  font-family: Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
@@ -96,8 +101,18 @@ body {
   width: 100% !important;
 }
 
+.client_footer .bw-display-layer {
+  padding: 0 !important;
+}
+
+.client_footer .bw-display-layer .footer {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 11px !important;
+}
+
 /* iFrame Styling */
 
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
-  font-family: Arial, "Helvetica Neue", Helvetica, Roboto, sans-serif !important;
+  font-family: Arial, Helvetica, sans-serif !important;
 }

@@ -1,5 +1,6 @@
 body {
   text-align: left !important;
+  background-image: url("http://www.soma.com/web_assets/img/20151022/Soma_Holiday_Wallpaper_Bgnd.jpg") !important;
 }
 
 .handle--hidden {
@@ -143,7 +144,7 @@ body {
   margin-top: 0 !important;  
 }
 
-.bw-display-layer .footer {
+.client_footer .bw-display-layer {
   display: none;
 }
 

@@ -146,12 +146,18 @@ body {
 
 .client_footer .bw-display-layer {
   padding: 0 !important;
+  background-color: transparent;    
 }
 
 .client_footer .bw-display-layer .footer {
   text-align: center;
   margin: 1rem 0;
-  font-size: 11px !important;
+  font-size: 11px !important;    
+  background-color: transparent;    
+}
+
+.client_footer .bw-display-layer .footer a {
+  color: #fff;
 }
 
 #soma-footer2-top {

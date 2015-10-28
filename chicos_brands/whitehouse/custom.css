@@ -24,6 +24,16 @@ body {
   line-height: 19.2px !important;
 }
 
+.bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+}
+
+.bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td {
+  font-size: 13px !important;
+  line-height: 19.2px !important; 
+}
+
 .bw-display-layer, 
 .bw-display-layer .bwt-index-search-results-map-button, 
 .bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
@@ -71,10 +81,6 @@ body {
 
 .bw-display-layer .bwt-store-email-link {
   display: none !important;
-}
-
-.bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
-  vertical-align: text-top !important;
 }
 
 .bw-display-layer .bwt-store-event-title a {

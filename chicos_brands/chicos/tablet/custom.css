@@ -41,6 +41,7 @@ body {
   font-size: 13px !important;
   font-weight: normal !important;
   line-height: 19.2px !important;
+  letter-spacing: 0 !important;
 }
 
 .bw-display-layer .bwt-store-main-wrap h4 {

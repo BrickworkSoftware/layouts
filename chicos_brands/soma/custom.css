@@ -190,6 +190,10 @@ body {
   height: 87px !important;
 }
 
+img[name="hs_pix_es"] {
+  display: block !important;
+}
+
 /* iFrame Styling */
 
 @font-face {

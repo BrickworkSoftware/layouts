@@ -171,6 +171,10 @@ label[for=type_127] {
   background-color: #000;
 }
 
+img[name="hs_pix_es"] {
+  display: block !important;
+}
+
 /* iFrame Styling */
 
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {

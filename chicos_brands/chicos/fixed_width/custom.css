@@ -54,12 +54,19 @@ body {
   padding-top: 2.5rem;
 }
 
-.bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td {
+.bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
+.bw-display-layer .bwt-store-main-wrap p {
   font-size: 13px !important;
   line-height: 19.2px !important;
 }
 
-.bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td {
+.bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
+.bw-display-layer .bwt-index-search-filters-container h5 {
+  font-size: 13px !important;
+  line-height: 19.2px !important; 
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
   font-size: 13px !important;
   line-height: 19.2px !important; 
 }

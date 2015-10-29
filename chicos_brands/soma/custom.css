@@ -33,6 +33,10 @@ body {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
+.bw-display-layer .store-type-125, label[for=type_125] {
+  display: none;
+}
+
 .bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
 .bw-display-layer .bwt-store-main-wrap p {
   font-size: 13px !important;

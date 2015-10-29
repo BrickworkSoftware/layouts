@@ -6,6 +6,10 @@ body #mw_footer {
 display:none;
 }
 
+body div[id$="footer-social"] ul li a {
+  height:18px;
+}
+
 body .client_footer {
 margin-top:0px;
 }

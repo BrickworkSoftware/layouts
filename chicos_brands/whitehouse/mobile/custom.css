@@ -1,3 +1,43 @@
+body #dynamic-form {
+  display:none;
+}
+
+.moovweb_globalbanner {
+  display:none;
+}
+
+.bw-display-layer .store-type-127, label[for=type_127] {
+  display: none;
+}
+
+body .bw-display-layer .bwt-store-email-link {
+  display:none;
+}
+
+body #mw_footer {
+  display:none;
+}
+
+body .client_footer {
+  margin-top:0px;
+}
+
+body #whbm-footer-borderFree {
+  display:none;
+}
+
+#gps {
+  display:none;
+}
+
+#mw_image_promo_banner {
+  display:none;
+}
+
+body .whbm-footer-borderFree {
+  display:none;
+}
+
 body {
   text-align: left !important;
   background-color: #fff !important;
@@ -25,7 +65,7 @@ body {
 }
 
 .bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
-.bw-display-layer .bwt-store-main-wrap p {
+.bw-display-layer .bwt-store-main-wrap p, .bw-display-layer .bwt-index-search-filters-container label {
   font-size: 13px !important;
   line-height: 19.2px !important;
 }
@@ -157,38 +197,6 @@ label[for=type_127] {
 
 #endeca-search {
   display: none;
-}
-
-.client_footer {
-  margin-top: 0 !important;
-}
-
-.client_footer .bw-display-layer {
-  width: 100% !important;
-}
-
-.client_footer .bw-display-layer {
-  padding: 0 !important;
-}
-
-.client_footer .bw-display-layer .footer {
-  text-align: center;
-  padding: 1rem 0;
-  margin: 0;
-  font-size: 11px !important;
-  background-color: #000;
-}
-
-.bw-display-layer .footer a {
-  color: #aaa !important;
-}
-
-.bw-display-layer .footer a:hover {
-  color: #fff !important;
-}
-
-.site_footer #text-popup {
-  background-color: #000;
 }
 
 /* iFrame Styling */

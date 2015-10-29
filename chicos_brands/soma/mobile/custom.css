@@ -1,27 +1,65 @@
 body {
-  text-align: left !important;
-  background-color: #fff !important;
+  background:#fff !important;
 }
 
-.site_header, #header {
-  background-color: #000;
+.bw-display-layer .store-type-125, label[for=type_125] {
+  display: none;
 }
 
-#header-logo .logo {
-  max-width: none;
+body .bw-display-layer .bwt-store-email-link {
+  display: none !important;
+}
+
+body .site_footer {
+  background:#000;
+}
+
+body #copyright {
+  margin: 20px 0px;
+}
+
+body #mw_footer {
+  display:none;
+}
+body #footer-promo-wrapper {
+  display:none;
+}
+
+body .client_footer {
+  margin-top:0px;
+}
+
+body .moovweb_globalbanner {
+  display:none;
+}
+
+#mw_image_promo_banner {
+  display:none;
+}
+
+body {
+  text-align: left !important;  
+}
+
+.handle--hidden {
+  background-image: url("/images/Soma_Lace_Bgnd.jpg") !important;
 }
 
 .bw-display-layer-container {
-  background-color: #fff;
-}
-
-.bw-display-layer {
-  padding: 1rem 2rem !important;
+  margin-top:0 !important;
 }
 
 .bw-display-layer p, .bw-display-layer div {
   font-size: 13px !important;
   line-height: 19.2px !important;
+}
+
+.bw-display-layer .bwt-store-body h4 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer .store-type-125, label[for=type_125] {
+  display: none;
 }
 
 .bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
@@ -36,7 +74,7 @@ body {
 }
 
 .bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
-.bw-display-layer .bwt-index-search-filters-container h5 {
+.bw-display-layer .bwt-index-search-filters-container h5, .bw-display-layer .bwt-index-search-filters-container label {
   font-size: 13px !important;
   line-height: 19.2px !important; 
 }
@@ -59,27 +97,11 @@ body {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
-.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, .bw-display-layer h4,
-.bw-display-layer .bwt-event-details-location-title {
-  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
-}
-
-.bw-display-layer .bwt-store-body h4 {
-  font-family: Arial, Helvetica, sans-serif !important;
-}
-
-.bw-display-layer .store-type-127,
-label[for=type_127] {
-  display: none;
-}
-
-.bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, 
 .bw-display-layer .bwt-index-search-form-submit-text,
-.bw-display-layer a.bwt-store-event-link {
-  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
-  font-style: italic;
-  text-transform: capitalize !important;
-  font-size: 0.85rem;
+.bw-display-layer .bwt-event-details-location-title,
+.bw-display-layer .bwt-pagination {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
 }
 
 .bw-display-layer .bwt-store-show-primary .bwt-store-header-title a {
@@ -96,8 +118,27 @@ label[for=type_127] {
   border-bottom: 1px solid #000;
 }
 
+.bw-display-layer .bwt-store-show .bwt-store-header-title {
+  font-size: 1.66667rem !important;
+  letter-spacing: 0 !important;
+}
+
 .bw-display-layer .bwt-store-email-link {
   display: none !important;
+}
+
+.bw-display-layer .bwt-pagination {
+  text-transform: capitalize !important;
+  font-style: italic !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer a.bwt-store-event-link {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-style: italic;
+  text-transform: capitalize !important;
+  font-size: 0.85rem;
 }
 
 .bw-display-layer .bwt-store-event-title a {
@@ -134,65 +175,29 @@ label[for=type_127] {
   max-width: 18% !important;
 }
 
+.bw-display-layer .bwt-event-details-location-title {
+  margin-bottom: 0.2rem !important;
+}
+
+.bw-display-layer .bwt-event-details-location-address {
+  margin-top: 0.5rem !important;
+}
+
 .bw-display-layer .bwt-event-details-location-address-line:first-child {
   font-weight: normal !important;
 }
 
 .bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
   font-size: 1rem !important;
-}
-
-
-.bw-display-layer .bwt-event-details-location-address-line:first-child {
-  font-weight: normal !important;
-}
-
-.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1 {
-  font-weight: bold !important;
-}
-
-.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
-  font-size: 1rem !important;
-}
-
-#endeca-search {
-  display: none;
-}
-
-.client_footer {
-  margin-top: 0 !important;
-}
-
-.client_footer .bw-display-layer {
-  width: 100% !important;
-}
-
-.client_footer .bw-display-layer {
-  padding: 0 !important;
-}
-
-.client_footer .bw-display-layer .footer {
-  text-align: center;
-  padding: 1rem 0;
-  margin: 0;
-  font-size: 11px !important;
-  background-color: #000;
-}
-
-.bw-display-layer .footer a {
-  color: #aaa !important;
-}
-
-.bw-display-layer .footer a:hover {
-  color: #fff !important;
-}
-
-.site_footer #text-popup {
-  background-color: #000;
 }
 
 /* iFrame Styling */
 
+@font-face {
+  font-family: 'BentonModernOne';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf') format("opentype");
+}
+
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
 }

@@ -1,4 +1,44 @@
 body {
+  background:#fff !important;
+}
+
+.bw-display-layer .store-type-127, label[for=type_127] {
+  display: none;
+}
+
+body .bw-display-layer .bwt-store-email-link {
+  display:none;
+}
+
+body #mw_footer {
+  display:none;
+}
+
+body .client_footer {
+  margin-top:0px;
+}
+
+body .site_footer {
+  background:#000;
+}
+
+body #whbm-footer-borderFree {
+  display:none;
+}
+
+#mw_image_promo_banner {
+  display:none;
+}
+
+#hform1 {
+  height:30px;
+}
+
+body .bw-display-layer {
+  padding:10px;
+}
+
+body {
   text-align: left !important;
   background-color: #fff !important;
 }
@@ -157,38 +197,6 @@ label[for=type_127] {
 
 #endeca-search {
   display: none;
-}
-
-.client_footer {
-  margin-top: 0 !important;
-}
-
-.client_footer .bw-display-layer {
-  width: 100% !important;
-}
-
-.client_footer .bw-display-layer {
-  padding: 0 !important;
-}
-
-.client_footer .bw-display-layer .footer {
-  text-align: center;
-  padding: 1rem 0;
-  margin: 0;
-  font-size: 11px !important;
-  background-color: #000;
-}
-
-.bw-display-layer .footer a {
-  color: #aaa !important;
-}
-
-.bw-display-layer .footer a:hover {
-  color: #fff !important;
-}
-
-.site_footer #text-popup {
-  background-color: #000;
 }
 
 /* iFrame Styling */

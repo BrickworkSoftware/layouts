@@ -269,14 +269,6 @@ label {
     font-size: 1.067rem;
     padding: 0.533rem 1rem;
   }
-
-  #footer #footer-inner h4 {
-    margin: 0.5rem 0;
-  }
-
-  #footer-inner .footer-menu-block .footer-menu-toggle:after {
-    margin: 5px 15px 0 0;
-  }
 }
 
 @media (max-width: 1100px) {

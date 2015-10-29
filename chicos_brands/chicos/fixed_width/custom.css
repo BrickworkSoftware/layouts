@@ -49,7 +49,7 @@ body {
 }
 
 .bw-display-layer-container {
-  font-size: initial !important;
+  font-size: initial !important;  
   margin: 0 auto !important;
   padding-top: 2.5rem;
 }
@@ -57,12 +57,14 @@ body {
 .bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
 .bw-display-layer .bwt-store-main-wrap p {
   font-size: 13px !important;
+  font-weight: normal !important;
   line-height: 19.2px !important;
 }
 
 .bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
 .bw-display-layer .bwt-index-search-filters-container h5 {
   font-size: 13px !important;
+  font-weight: normal;
   line-height: 19.2px !important; 
 }
 
@@ -241,7 +243,8 @@ label {
 }
 
 .site_footer #copyright {
-  color: #666;
+  color: #000;
+  line-height: normal;
 }
 
 #chs-footer-parent {

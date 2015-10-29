@@ -54,6 +54,21 @@ body {
   line-height: 19.2px !important; 
 }
 
+.bwt-filters .bwt-filter-features-list-item input[type=checkbox] + label {
+  background-image: url("/chicos/somaunchecked.png") !important;
+}
+.bwt-filters .bwt-filter-features-list-item input[type=checkbox]:checked + label {
+  background-image: url("/chicos/somacheckselect.png") !important;      
+}
+
+.bwt-filters .bwt-filter-features-list-item input[type=radio] + label {
+  background-image: url("/chicos/somaradiounselected.png") !important;
+}
+
+.bwt-filters .bwt-filter-features-list-item input[type=radio]:checked + label {
+  background-image: url("/chicos/somaradiobuttonselected.png") !important;      
+}  
+
 .bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
   font-size: 13px !important;
   line-height: 19.2px !important; 

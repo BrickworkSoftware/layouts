@@ -238,13 +238,7 @@ label {
 }
 
 .client_footer .bw-display-layer {
-  padding: 0 !important;
-}
-
-.client_footer .bw-display-layer .footer {
-  text-align: center;
-  margin: 1rem 0;
-  font-size: 11px !important;
+  display: none;
 }
 
 .site_footer #copyright {

@@ -37,6 +37,10 @@ body .moovweb_globalbanner {
   display:none;
 }
 
+.client_footer .bw-display-layer {
+  display: none;
+}
+
 body {
   text-align: left !important;  
 }

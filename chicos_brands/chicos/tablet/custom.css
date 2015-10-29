@@ -10,9 +10,14 @@ label[for=type_123] {
 body .client_footer {
 margin-top:0px;
 }
+
 body #footer.mw_new_footer.mw_new_footer {
   float:none;
   width:auto !important;
+}
+
+.client_footer .bw-display-layer {
+  display: none;
 }
 
 html {

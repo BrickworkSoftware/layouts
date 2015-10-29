@@ -39,6 +39,10 @@ body #mw_footer {
   height:30px;
 }
 
+.client_footer .bw-display-layer {
+  display: none;
+}
+
 body {
   text-align: left !important;  
 }

@@ -38,6 +38,10 @@ body .bw-display-layer {
   padding:10px;
 }
 
+.client_footer .bw-display-layer {
+  display: none;
+}
+
 body {
   text-align: left !important;
   background-color: #fff !important;

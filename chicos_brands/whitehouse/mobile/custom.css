@@ -38,6 +38,10 @@ body .whbm-footer-borderFree {
   display:none;
 }
 
+.client_footer .bw-display-layer {
+  display: none;
+}
+
 body {
   text-align: left !important;
   background-color: #fff !important;

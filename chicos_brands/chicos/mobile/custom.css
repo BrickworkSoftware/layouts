@@ -18,6 +18,10 @@ body .mw_footer_contact>a {
 width:87px;
 }
 
+.client_footer .bw-display-layer {
+  display: none;
+}
+
 html {
   font-size: 15px;
 }

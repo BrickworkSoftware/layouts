@@ -43,20 +43,12 @@ body {
   background-color: #fff !important;
 }
 
-.site_header, #header {
-  background-color: #000;
-}
-
-#header-logo .logo {
-  max-width: none;
-}
-
 .bw-display-layer-container {
   background-color: #fff;
 }
 
 .bw-display-layer {
-  padding: 0.5rem 0 !important;
+  padding: 1rem 0 !important;
 }
 
 .bw-display-layer p, .bw-display-layer div {

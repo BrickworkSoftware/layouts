@@ -47,16 +47,12 @@ body {
   background-color: #000;
 }
 
-#header-logo .logo {
-  max-width: none;
-}
-
 .bw-display-layer-container {
   background-color: #fff;
 }
 
 .bw-display-layer {
-  padding: 1rem 2rem !important;
+  padding: 1rem 0 !important;
 }
 
 .bw-display-layer p, .bw-display-layer div {

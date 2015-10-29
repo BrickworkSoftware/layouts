@@ -34,17 +34,20 @@ body {
 .bw-display-layer .bwt-store-main-wrap h4 {
   font-size: 13px !important;  
   line-height: 19.2px !important;
+  letter-spacing: 0 !important;
 }
 
 .bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
 .bw-display-layer .bwt-index-search-filters-container h5 {
   font-size: 13px !important;
   line-height: 19.2px !important; 
+  letter-spacing: 0 !important;
 }
 
 .bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
   font-size: 13px !important;
-  line-height: 19.2px !important; 
+  line-height: 19.2px !important;
+  letter-spacing: 0 !important; 
 }
 
 .bw-display-layer, 

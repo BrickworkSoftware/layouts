@@ -63,6 +63,11 @@ body {
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
+.bw-display-layer .store-type-127,
+label[for=type_127] {
+  display: none;
+}
+
 .bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
 .bw-display-layer .bwt-index-search-form-submit-text,
 .bw-display-layer a.bwt-store-event-link {

@@ -1,0 +1,406 @@
+body .moovweb_globalbanner {
+display:none;
+}
+
+.bw-display-layer .store-type-123,
+label[for=type_123] {
+  display: none;
+}
+
+body .client_footer {
+margin-top:0px;
+}
+body #footer.mw_new_footer.mw_new_footer {
+  float:none;
+  width:auto !important;
+}
+
+html {
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
+  font-weight: normal;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+ src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'BentonModernOne';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  background-color: #fff !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  text-align: left !important;
+}
+
+.bw-display-layer-container {
+  font-size: initial !important;  
+  margin: 0 auto !important;
+  padding-top: 2.5rem;
+}
+
+.bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
+.bw-display-layer .bwt-store-main-wrap p {
+  font-size: 13px !important;
+  font-weight: normal !important;
+  line-height: 19.2px !important;
+}
+
+.bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
+.bw-display-layer .bwt-index-search-filters-container h5 {
+  font-size: 13px !important;
+  font-weight: normal;
+  line-height: 19.2px !important; 
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
+  font-size: 13px !important;
+  line-height: 19.2px !important; 
+}
+
+.bw-display-layer, 
+.bw-display-layer .bwt-index-search-results-map-button, 
+.bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
+.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1,
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title,
+.row .bw-display-layer .bwt-store .bwt-store-header-details,
+.row .bw-display-layer .bwt-store-header-type,
+.row .bw-display-layer .bwt-store-service-title,
+.row .bw-display-layer .bwt-store-service-description,
+.row .bw-display-layer .bwt-index-search-form-input {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, .bw-display-layer h4,
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer .bwt-event-details-location-title,
+.bw-display-layer .bwt-pagination {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer .bwt-store-body h4 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer .bwt-index-search-form-wrap {
+  max-width: 1170px !important;
+}
+
+.bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
+  vertical-align: text-top !important;
+}
+
+.bw-display-layer .bwt-store-header-title {
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-store-header-title a:hover {
+  text-decoration: none !important;
+  border-bottom: 1px solid #000;
+}
+
+.bw-display-layer .bwt-store-event-title a {
+  font-weight: normal;
+}
+
+.bw-display-layer .bwt-store-event-dates {
+  font-size: 13px !important;
+  margin-top: 0 !important;
+}
+
+.bw-display-layer .bwt-store-event-description {
+  font-size: 13px !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+  margin-bottom: 0.5rem !important;
+}
+
+.bwt-cancel-rsvp-only {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.bw-display-layer .store-type-123,
+label[for=type_123] {
+  display: none;
+}
+label {
+  font-weight: 500 !important;
+}
+
+.bw-display-layer .bwt-index-filter-body label {
+  padding: 2px 8px 0 22px !important;
+}
+
+#header-wrap {
+  height: 9.075rem !important;
+}
+
+#header-inner {
+  padding: 2.675rem 1rem 2rem 1rem;
+}
+
+#header-logo .logo {
+  max-width: none;
+}
+
+.sticky #header #header-inner {
+  padding-top: 0.667rem;
+  padding-bottom: 0.667rem;
+}
+
+#menu {
+  float: left;
+}
+
+#menu > ul > li:first-child a {
+  padding-left: 1.8rem !important;
+}
+
+#menu > ul > li > a {
+  font-size: 1rem;
+  line-height: 2.675rem;
+  padding: 0 1.8rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row {
+  max-width: 100%;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+#menu .dropdown-menu .dropdown-inner .row h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.0667rem;
+  line-height: 1.15rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li {
+  font-size: 0.8rem;
+  margin-bottom: 0.675rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li a {
+  line-height: 1.6rem;
+}
+
+#menu-utility > ul > li {
+  margin-left: 1.67rem !important;
+}
+
+#menu-utility > ul > li > a {
+  line-height: 1.3rem;
+}
+
+#menu-utility ul li a span {
+  font-size: 0.87rem;
+}
+
+#menu-utility .icon-map {  
+  width: 0.95rem;
+  height: 1.5rem;
+}
+
+#menu-utility .icon-search, #menu-utility .icon-menu {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  width: 1.07rem;
+  height: 1.07rem;
+  margin: 0 .535rem;
+}
+
+.client_footer {
+  margin-top: 0 !important;
+}
+
+.client_footer .bw-display-layer {
+  padding: 0 !important;
+}
+
+.client_footer .bw-display-layer .footer {
+  text-align: center;
+  margin: 1rem 0;
+  font-size: 11px !important;
+}
+
+.site_footer #copyright {
+  color: #000;
+  line-height: normal;
+}
+
+#chs-footer-parent {
+  float: none !important;
+  margin: 0 auto !important;
+}
+
+#chs-footer-main {
+  float: none !important;
+  margin: 0 auto !important;  
+  height: 140px;
+  width: 985px !important;
+}
+
+#chs-footer-main div { 
+  box-sizing: content-box;
+}
+
+#chs-footer-liveHelp a {
+  display: block !important;
+}
+
+#info-phone-shop {
+  font-size: 0.875em !important;
+}
+
+#footer #footer-inner .row {
+  max-width: 100%;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+#footer #footer-inner h4 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#footer #footer-inner ul li {
+  margin-bottom: 0.8rem;
+  line-height: 1.15rem;
+}
+
+#footer #footer-inner ul li a {
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+}
+
+.footer-newsletter label {
+  font-size: 0.8rem;
+}
+
+#footer-bot .row {
+  margin-left: 0;
+  margin-right: -15px;
+}
+
+.copyright {
+  font-size: 0.67rem;
+}
+
+#social a {
+  margin-right: 0.8rem;
+}
+
+.bw-display-layer .footer {
+  display: none;
+}
+
+#endeca-search {
+  display: none;
+}
+
+.menu-toggle-inner {
+  width: 1.375rem;
+}
+
+.menu-toggle-inner span {
+  height: 0.2rem;
+}
+
+.menu-toggle-inner span:nth-child(2) {
+  top: 0.4rem;
+}
+
+.menu-toggle-inner span:nth-child(3) {
+  top: 0.8rem;
+}
+
+.menu-toggle-inner.open span:nth-child(1) {
+  top: -.0667rem;
+  left: .335rem;
+}
+
+.menu-toggle-inner.open span:nth-child(3) {
+  top: 0.85rem;
+  left: .335rem;
+}
+
+.menu-header-mobile {
+  font-size: 0.8667rem;
+}
+
+@media (max-width: 991px) {
+  #menu > ul .dropdown > a {
+    padding: 0.5333rem 1rem !important;
+    font-size: 1.07rem;
+  }
+
+  #menu-utility > ul > li {
+    margin: 0 !important;
+  }
+
+  #menu .ship-to {
+    font-size: 1.067rem;
+    padding: 0.533rem 1rem;
+  }
+
+  #footer #footer-inner h4 {
+    margin: 0.5rem 0;
+  }
+
+  #footer-inner .footer-menu-block .footer-menu-toggle:after {
+    margin: 5px 15px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  #menu > ul > li > a {
+    padding: 0 1rem;
+  }
+}
+
+/* iFrame Styling */
+@font-face {
+  font-family: 'Brandon';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
+}
+
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
+  font-family: Arial, Helvetica, sans-serif !important;
+}

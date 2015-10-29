@@ -166,6 +166,10 @@ body {
   font-size: 1rem !important;
 }
 
+#endeca-search {
+  display: none;
+}
+
 .client_footer {
   margin-top: 0 !important;  
 }

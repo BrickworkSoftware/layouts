@@ -162,12 +162,12 @@ label[for=type_127] {
 }
 
 .bw-display-layer .bwt-store .bwt-store-alert {
-  background-color: #f3e4d7 !important;
+  background-color: #000 !important;
 }
 
 .bw-display-layer .bwt-store .bwt-store-alert span, 
 .bw-display-layer .bwt-store .bwt-store-alert h4 {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .row .bw-display-layer .bwt-events-main .bwt-events-event-details .bwt-event-details-date-time {

@@ -140,6 +140,10 @@ body {
   display: none !important;
 }
 
+.bw-display-layer .bwt-event-details-phone-prompt .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
+  vertical-align: text-top !important;
+}
+
 .bw-display-layer .bwt-pagination {
   text-transform: capitalize !important;
   font-style: italic !important;

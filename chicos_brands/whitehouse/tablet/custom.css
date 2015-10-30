@@ -145,6 +145,10 @@ label[for=type_127] {
   display: none !important;
 }
 
+.bw-display-layer .bwt-event-details-phone-prompt .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
+  vertical-align: text-top !important;
+}
+
 .bw-display-layer .bwt-store-event-title a {
   font-weight: normal;
 }

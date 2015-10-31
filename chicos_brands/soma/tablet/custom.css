@@ -190,10 +190,6 @@ body {
   font-weight: 600;
 }
 
-.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
-  max-width: 18% !important;
-}
-
 .bw-display-layer .bwt-event-details-location-title {
   margin-bottom: 0.2rem !important;
 }

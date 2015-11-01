@@ -90,6 +90,10 @@ body {
   letter-spacing: 0 !important;
 }
 
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button .bwt-index-search-form-location-button-text {
+  margin-left: -1rem !important;
+}
+
 .bw-display-layer, 
 .bw-display-layer .bwt-index-search-results-map-button, 
 .bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,

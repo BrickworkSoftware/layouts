@@ -26,6 +26,10 @@ width:87px;
   display: none;
 }
 
+#header ul#menu {
+  width: 100%;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

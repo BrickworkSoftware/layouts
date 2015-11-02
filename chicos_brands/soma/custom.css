@@ -140,7 +140,7 @@ body {
   font-family: "BentonModernOne", Georgia, Times, serif !important;
   font-style: italic;
   text-transform: capitalize !important;
-  font-size: 0.85rem;
+  font-size: 15px !important;
 }
 
 .bw-display-layer .bwt-store-event-title a {
@@ -187,6 +187,14 @@ body {
 
 .bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
   font-size: 1rem !important;
+}
+
+.bwt-store-call-modal .bwt-store-call-title, .bwt-store-call-modal .bwt-store-call-response-title, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-title, .bwt-events-rsvp-modal .bwt-events-rsvp-success-title, .bwt-events-rsvp-modal .bwt-events-rsvp-failure-title {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+}
+
+.bwt-store-call-modal .bwt-store-call-response-button, .bwt-store-call-modal .bwt-store-call-button, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-button, .bwt-events-rsvp-modal .bwt-events-rsvp-success-button {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
 }
 
 #endeca-search {

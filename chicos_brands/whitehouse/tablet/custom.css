@@ -204,6 +204,10 @@ label[for=type_127] {
   font-size: 1rem !important;
 }
 
+.bwt-store-call-modal .bwt-store-call-title, .bwt-store-call-modal .bwt-store-call-response-title, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-title, .bwt-events-rsvp-modal .bwt-events-rsvp-success-title, .bwt-events-rsvp-modal .bwt-events-rsvp-failure-title {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
+}
+
 #endeca-search {
   display: none;
 }

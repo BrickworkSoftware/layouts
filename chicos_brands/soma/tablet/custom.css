@@ -210,6 +210,14 @@ body {
   font-size: 1rem !important;
 }
 
+.bwt-store-call-modal .bwt-store-call-title, .bwt-store-call-modal .bwt-store-call-response-title, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-title, .bwt-events-rsvp-modal .bwt-events-rsvp-success-title, .bwt-events-rsvp-modal .bwt-events-rsvp-failure-title {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+}
+
+.bwt-store-call-modal .bwt-store-call-response-button, .bwt-store-call-modal .bwt-store-call-button, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-button, .bwt-events-rsvp-modal .bwt-events-rsvp-success-button {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+}
+
 /* iFrame Styling */
 
 @font-face {

@@ -200,6 +200,13 @@ body {
   text-transform: none;
 }
 
+.bw-display-layer .bwt-appointment-modal-button-wrapper .brickwork-button {
+  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-style: italic;
+  font-size: 15px !important;
+  text-transform: none !important;
+}
+
 #endeca-search {
   display: none;
 }

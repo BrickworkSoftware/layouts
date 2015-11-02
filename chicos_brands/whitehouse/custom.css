@@ -84,8 +84,7 @@ label[for=type_127] {
 
 .bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
 .bw-display-layer .bwt-index-search-form-submit-text,
-.bw-display-layer a.bwt-store-event-link {
-  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
+.bw-display-layer a.bwt-store-event-link {  
   font-style: italic;
   text-transform: capitalize !important;
   font-size: 13px;

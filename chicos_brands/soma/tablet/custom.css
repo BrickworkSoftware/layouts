@@ -220,6 +220,9 @@ body {
 
 .bwt-store-call-modal .bwt-store-call-response-button, .bwt-store-call-modal .bwt-store-call-button, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-button, .bwt-events-rsvp-modal .bwt-events-rsvp-success-button {
   font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-style: italic;
+  font-size: 15px !important;
+  text-transform: none;  
 }
 
 /* iFrame Styling */

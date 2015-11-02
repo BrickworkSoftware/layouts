@@ -30,6 +30,10 @@ width:87px;
   width: 100%;
 }
 
+#mw_mask {
+  display: none;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

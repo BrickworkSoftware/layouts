@@ -34,6 +34,10 @@ body #whbm-footer-borderFree {
   display:none;
 }
 
+#header .location-store-switch {
+  display: none;
+}
+
 body .whbm-footer-borderFree {
   display:none;
 }

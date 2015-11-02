@@ -33,6 +33,10 @@ body .moovweb_globalbanner {
   display:none;
 }
 
+#header .location-store-switch {
+  display: none;
+}
+
 #mw_image_promo_banner {
   display:none;
 }

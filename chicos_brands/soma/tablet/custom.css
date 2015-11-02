@@ -39,6 +39,10 @@ body #mw_footer {
   height:30px;
 }
 
+#header .location-store-switch {
+  display: none;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

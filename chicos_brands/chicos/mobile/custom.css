@@ -22,6 +22,10 @@ body .mw_footer_contact>a {
 width:87px;
 }
 
+#header .location-store-switch {
+  display: none;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

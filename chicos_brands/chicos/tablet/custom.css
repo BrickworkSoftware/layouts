@@ -16,6 +16,10 @@ body #footer.mw_new_footer.mw_new_footer {
   width:auto !important;
 }
 
+#header .location-store-switch {
+  display: none;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

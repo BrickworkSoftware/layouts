@@ -20,6 +20,10 @@ body #footer.mw_new_footer.mw_new_footer {
   display: none;
 }
 
+#header ul#menu {
+  width: 100%;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

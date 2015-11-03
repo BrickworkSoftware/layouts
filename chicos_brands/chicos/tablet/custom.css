@@ -118,6 +118,10 @@ body {
   border-bottom: 1px solid #000;
 }
 
+.bw-display-layer .bwt-store-hours-special {
+  display: none;
+}
+
 .bw-display-layer .bwt-store-event-title a {
   font-weight: normal;
 }

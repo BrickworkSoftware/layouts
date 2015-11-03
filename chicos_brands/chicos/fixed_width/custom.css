@@ -120,6 +120,10 @@ body {
   vertical-align: text-top !important;
 }
 
+.bw-display-layer .bwt-store-hours-special {
+  display: none;
+}
+
 .bw-display-layer .bwt-store-header-title {
   letter-spacing: 0 !important;
 }

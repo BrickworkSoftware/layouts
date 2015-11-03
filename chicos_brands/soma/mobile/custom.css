@@ -227,7 +227,7 @@ body {
   font-family: "BentonModernOne", Georgia, Times, serif !important;
   font-style: italic;
   font-size: 15px !important;
-  text-transform: none;  
+  text-transform: none !important;  
 }
 
 /* iFrame Styling */

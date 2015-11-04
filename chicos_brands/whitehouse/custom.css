@@ -185,17 +185,22 @@ label[for=type_127] {
   background-color: #000;
 }
 
-#footer {
+.client_footer #footer {
   padding: 0 !important;
 }
 
-#whbm-footer-parent {
+.client_footer #whbm-footer-parent {
   height: 330px !important;
 }
 
-#whbm-footer-bbmembership hr {
+.client_footer #whbm-footer-bbmembership hr {
   display: block !important; 
-  top: 260px;
+  top: 260px !important;
+}
+
+.client_footer #copyright {
+  border-top: 0 !important;
+  top: 0 !important;
 }
 
 img[name="hs_pix_es"] {

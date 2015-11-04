@@ -6,8 +6,20 @@ body #mw_footer {
 display:none;
 }
 
+body .location-store-switch {
+display:none;
+}
+
+#primary-nav #menu {
+float:none;
+}
+
 body div[id$="footer-social"] ul li a {
-  height:18px;
+  height:19px;
+}
+
+body div[id$="footer-social"] ul li#instagram-link a {
+height:18px;
 }
 
 body .client_footer {

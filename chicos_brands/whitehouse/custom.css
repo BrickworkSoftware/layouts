@@ -185,6 +185,19 @@ label[for=type_127] {
   background-color: #000;
 }
 
+#footer {
+  padding: 0 !important;
+}
+
+#whbm-footer-parent {
+  height: 330px !important;
+}
+
+#whbm-footer-bbmembership hr {
+  display: block !important; 
+  top: 260px;
+}
+
 img[name="hs_pix_es"] {
   display: block !important;
 }

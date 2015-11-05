@@ -6,6 +6,10 @@ body {
   display: none;
 }
 
+.bw-display-layer .store-type-43, label[for=type_43] {
+  display: none;
+}
+
 body .bw-display-layer .bwt-store-email-link {
   display:none;
 }
@@ -123,6 +127,11 @@ body {
 
 .bw-display-layer .store-type-127,
 label[for=type_127] {
+  display: none;
+}
+
+.bw-display-layer .store-type-43,
+label[for=type_43] {
   display: none;
 }
 

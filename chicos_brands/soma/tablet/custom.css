@@ -7,6 +7,11 @@ label[for=type_125] {
   display: none;
 }
 
+.bw-display-layer .store-type-44,
+label[for=type_44] {
+  display: none;
+}
+
 body .bw-display-layer .bwt-store-email-link {
   display: none !important;
 }
@@ -73,6 +78,10 @@ body {
 }
 
 .bw-display-layer .store-type-125, label[for=type_125] {
+  display: none;
+}
+
+.bw-display-layer .store-type-44, label[for=type_44] {
   display: none;
 }
 

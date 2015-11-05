@@ -37,6 +37,10 @@ body {
   display: none;
 }
 
+.bw-display-layer .store-type-44, label[for=type_44] {
+  display: none;
+}
+
 .bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
 .bw-display-layer .bwt-store-main-wrap p {
   font-size: 13px !important;

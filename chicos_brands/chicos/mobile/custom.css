@@ -170,6 +170,12 @@ body {
 label[for=type_123] {
   display: none;
 }
+
+.bw-display-layer .store-type-42,
+label[for=type_42] {
+  display: none;
+}
+
 label {
   font-weight: 500 !important;
 }

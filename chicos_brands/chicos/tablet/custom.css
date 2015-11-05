@@ -29,6 +29,10 @@ body #footer.mw_new_footer.mw_new_footer {
   width: 100%;
 }
 
+body #header.mw_static {
+  position:fixed;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

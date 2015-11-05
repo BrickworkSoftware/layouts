@@ -48,6 +48,10 @@ body #mw_footer {
   display: none;
 }
 
+body #header.mw_static {
+  position:fixed;
+}
+
 .client_footer .bw-display-layer {
   display: none;
 }

@@ -1,6 +1,9 @@
 @font-face {
   font-family: 'Warehouse_proto';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/Warehouse_proto.otf') format("opentype");
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_2420/Space2420A.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_2420/Space2420A.eot?#iefix') format('embedded-opentype'),
+       url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_2420/Space2420A.woff') format('woff'),
+       url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_2420/Space2420A.svg#Space2420A') format('svg');
 }
 
 .bw-display-layer .bwt-store-feature-title, .bw-display-layer .bwt-store-events-title, .bw-display-layer .bwt-stores-nearby-title, .bw-display-layer .bwt-store-details-top .bwt-store-title, .bw-display-layer .bwt-store-player-title, .bw-display-layer .bwt-store-social-title, .bw-display-layer .bwt-store-blogs-title, .bw-display-layer .bwt-events-more-events-title, .row .bw-display-layer .bwt-store-main .bwt-store-header-title {

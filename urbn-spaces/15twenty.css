@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'Space1520A';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/Space1520A.otf') format("opentype");
+
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_1520/Space1520B.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_1520/Space1520B.eot?#iefix') format('embedded-opentype'),
+       url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_1520/Space1520B.woff') format('woff'),
+       url('//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/fonts/Space_1520/Space1520B.svg#svgFontName') format('svg');
 }
 
 .bw-display-layer .bwt-store-feature-title, .bw-display-layer .bwt-store-events-title, .bw-display-layer .bwt-stores-nearby-title, .bw-display-layer .bwt-store-details-top .bwt-store-title, .bw-display-layer .bwt-store-player-title, .bw-display-layer .bwt-store-social-title, .bw-display-layer .bwt-store-blogs-title, .bw-display-layer .bwt-events-more-events-title, .row .bw-display-layer .bwt-store-main .bwt-store-header-title {

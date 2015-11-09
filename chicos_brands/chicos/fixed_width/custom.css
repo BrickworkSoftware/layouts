@@ -419,6 +419,15 @@ img[name="hs_pix_es"] {
   src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
 }
 
-.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
-  font-family: Arial, Helvetica, sans-serif !important;
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title)  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.appointment-rsvp-container .bw-appointment-step-container-title {
+  font-family: "Times New Roman", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .selected_month {
+  font-weight: normal !important;
 }

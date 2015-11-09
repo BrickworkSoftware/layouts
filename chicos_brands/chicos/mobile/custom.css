@@ -337,10 +337,6 @@ label {
 }
 
 /* iFrame Styling */
-.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
-  font-family: Arial, Helvetica, sans-serif !important;
-}
-
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title)  {
   font-family: Arial, Helvetica, sans-serif;
 }

@@ -431,3 +431,7 @@ img[name="hs_pix_es"] {
 .appointment-rsvp-container .selected_month {
   font-weight: normal !important;
 }
+
+input#appointment_date::-webkit-input-placeholder {
+   font-weight: normal;
+}

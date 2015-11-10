@@ -324,7 +324,7 @@ label {
 }
 
 /* iFrame Styling */
-.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title)  {
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title):not(.fa-mobile):not(.fa) {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -339,4 +339,29 @@ label {
 
 input#appointment_date::-webkit-input-placeholder {
    font-weight: normal;
+}
+
+.appointment-rsvp-container .bw-appointment-service-link-description {
+  font-size: 13px;
+}
+
+.appointment-rsvp-container h1 {
+  font-family: "Times New Roman", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .button-clean {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address h4{ 
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address b{ 
+  font-weight: normal !important;
 }

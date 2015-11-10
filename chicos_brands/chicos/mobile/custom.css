@@ -350,3 +350,7 @@ label {
   font-weight: normal !important;
   margin-bottom: 10px !important;
 }
+
+input#appointment_date::-webkit-input-placeholder {
+   font-weight: normal;
+}

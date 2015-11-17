@@ -401,12 +401,62 @@ img[name="hs_pix_es"] {
   }
 }
 
+.bw-display-layer .bwt-store-address-contextual-fields {
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-parking{
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-transit{
+  display: none !important;
+}
+
 /* iFrame Styling */
 @font-face {
   font-family: 'Brandon';
   src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
 }
 
-.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title):not(.fa-mobile):not(.fa) {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.appointment-rsvp-container .bw-appointment-step-container-title {
+  font-family: "Times New Roman", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .selected_month {
+  font-weight: normal !important;
+}
+
+input#appointment_date::-webkit-input-placeholder {
+   font-weight: normal;
+}
+
+.appointment-rsvp-container .bw-appointment-service-link-description {
+  font-size: 13px;
+}
+
+.appointment-rsvp-container h1 {
+  font-family: "Times New Roman", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .button-clean {
   font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address h4{ 
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address b{ 
+  font-weight: normal !important;
 }

@@ -1,0 +1,8 @@
+#filepicker_dialog_container #branding {
+  display: none !important;
+}
+
+#filepicker_dialog_container section.fp__drag-and-drop.text--center button.ng-binding {
+  background: #44c4a1 !important;
+  border-color: #44c4a1 !important;
+}

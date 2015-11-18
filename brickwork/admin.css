@@ -1,8 +1,18 @@
-.fp__wrapper #branding {
+#branding {
   display: none !important;
 }
 
-.fp__wrapper section.fp__drag-and-drop.text--center button.ng-binding {
-  background: #44c4a1 !important;
-  border-color: #44c4a1 !important;
+.btn {
+  box-shadow: none;
+  border-radius: 0px; 
+}
+
+.btn--primary {
+  background: #44c4a1;
+  border-color: #44c4a1;
+}
+
+.btn--primary:hover {
+  background: #44c4a1;
+  border-color: #44c4a1; 
 }

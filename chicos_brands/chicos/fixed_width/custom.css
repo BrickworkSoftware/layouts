@@ -413,6 +413,10 @@ img[name="hs_pix_es"] {
   display: none !important;
 }
 
+.bw-display-layer .bwt-store-hours-special-title {
+  display: none;
+}
+
 /* iFrame Styling */
 @font-face {
   font-family: 'Brandon';

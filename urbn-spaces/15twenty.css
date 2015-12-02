@@ -49,6 +49,13 @@
   margin-bottom: 2px;
 }
 
+.bw-display-layer .bwt-store-footer-top-wrapper .bwt-index-store-map {
+  background-image: url("//s3.amazonaws.com/assets.brickworksoftware.com/urbn/spaces/maps/Space15Twenty-map.jpg") !important;
+}
+
+.row .bwt-store-map-pin-wrapper {
+  display: none;
+}
 
 .bw-display-layer .bwt-cancel-rsvp-only
 { text-align: center; padding-top: 50px; }

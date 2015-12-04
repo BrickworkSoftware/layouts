@@ -16,3 +16,7 @@
   background: #44c4a1;
   border-color: #44c4a1; 
 }
+
+.alert--success {
+  background: #44c4a1 !important;
+}

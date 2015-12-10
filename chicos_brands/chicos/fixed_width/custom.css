@@ -257,8 +257,32 @@ label {
   margin-top: 0 !important;
 }
 
+/*
 .client_footer .bw-display-layer {
   display: none;
+}
+*/
+
+/* Site Map Link and Site Map Styling */
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+.bw-display-layer .footer {
+     margin-top: 0px !important;
+}
+
+.bw-display-layer .footer a {
+    color: #000 !important;
+}
+
+.state h3 {
+    text-transform: uppercase;
+}
+
+.country h1 {
+    text-transform: uppercase;
 }
 
 .site_footer #copyright {

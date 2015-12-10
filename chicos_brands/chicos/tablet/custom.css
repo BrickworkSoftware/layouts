@@ -251,8 +251,29 @@ label {
   margin: 0 .535rem;
 }
 
+/*
 .bw-display-layer .footer {
   display: none;
+}
+*/
+
+/* Site Map and Site Map Link */
+
+#chs-footer-parent {
+  margin-bottom: 0px !important;
+}
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+
+.state h3 {
+  text-transform: uppercase;
+}
+
+.country h1 {
+  text-transform: uppercase; 
 }
 
 #endeca-search {

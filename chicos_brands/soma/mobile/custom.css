@@ -45,8 +45,39 @@ body .moovweb_globalbanner {
   display:none;
 }
 
+/*
 .client_footer .bw-display-layer {
   display: none;
+}
+*/
+
+/* Site Map Link and Site Map */
+
+.client_footer+ .bw-display-layer {
+  background-color: #000;
+}
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none !important;
+}
+
+.bw-display-layer .footer {
+    margin-top: 0px !important;
+    background-color: #000 !important;
+}
+
+.bw-display-layer .footer a {
+    color: #fff !important;
+    font-size: 11px;
+}
+
+.state h3 {
+  text-transform: uppercase;
+}
+
+.country h1 {
+  text-transform: uppercase;
 }
 
 body {

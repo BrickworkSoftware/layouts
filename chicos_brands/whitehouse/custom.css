@@ -178,13 +178,7 @@ label[for=type_43] {
   display: none;
 }
 
-/*
-.client_footer {
-  margin-top: 0 !important;
-}
-*/
-
-* Site Map Link and Site Map */
+/* Site Map Link and Site Map */
 
 .client_footer {
   margin-top: 0 !important;
@@ -222,9 +216,11 @@ label[for=type_43] {
   text-transform: uppercase;
 }
 
+/*
 .client_footer .bw-display-layer {
   display: none;
 }
+*/
 
 .site_footer #text-popup {
   background-color: #000;

@@ -269,8 +269,8 @@ label {
 }
 
 .bw-display-layer .footer a {
-  color: #000;
-  font-size: 11px;
+  color: #000 !important;
+  font-size: 11px !important;
 }
 
 .state h3 {

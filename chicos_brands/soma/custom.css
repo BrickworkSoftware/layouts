@@ -223,8 +223,52 @@ body {
   margin-top: 0 !important;  
 }
 
+/*
 .client_footer .bw-display-layer {
   display: none;
+}
+*/
+
+/* Site Map Link and Site Map */
+
+.client_footer {
+  margin-top: 0 !important;  
+}
+
+.client_footer .bw-display-layer {
+  background-color: black;
+}
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+
+.bw-display-layer .footer {
+    margin-top: 0px !important;
+}
+
+.bw-display-layer .footer a {
+    color: #aaa !important;
+    font-size: 11px !important;
+}
+
+.bw-display-layer .footer {
+  width: 996px !important;
+  text-align: left !important;
+  margin: auto !important;
+}
+
+.state h3 {
+  text-transform: uppercase;
+}
+
+.country h1 {
+  text-transform: uppercase;
+}
+
+.bw-display-layer {
+    background-color: #fff;
 }
 
 .site_footer #text-popup {

@@ -276,7 +276,7 @@ label {
   text-transform: uppercase; 
 }
 
-.mw_footer {
+#mw_footer {
   display: none !important;
 }
 

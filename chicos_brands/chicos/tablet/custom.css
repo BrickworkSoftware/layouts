@@ -276,6 +276,10 @@ label {
   text-transform: uppercase; 
 }
 
+.mw_footer {
+  display: none !important;
+}
+
 #endeca-search {
   display: none;
 }

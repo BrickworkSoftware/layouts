@@ -268,6 +268,11 @@ label {
   display: none;
 }
 
+.bw-display-layer .footer a {
+  color: #000;
+  font-size: 11px;
+}
+
 .state h3 {
   text-transform: uppercase;
 }

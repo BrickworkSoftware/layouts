@@ -46,8 +46,34 @@ body .whbm-footer-borderFree {
   display:none;
 }
 
+/*
 .client_footer .bw-display-layer {
   display: none;
+}
+*/
+
+* Site Map Link and Site Map */
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+
+.bw-display-layer .footer {
+    margin-top: 0px !important;
+}
+
+.bw-display-layer .footer a {
+    color: #666 !important;
+    font-size: 11px !important;
+}
+
+.state h3 {
+    text-transform: uppercase;
+}
+
+.country h1 {
+    text-transform: uppercase; 
 }
 
 body {

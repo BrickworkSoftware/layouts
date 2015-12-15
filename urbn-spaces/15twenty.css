@@ -27,8 +27,7 @@
 .row .bw-display-layer .bwt-event-search-container .bwt-event-search-link,
 .row .bw-display-layer .bwt-store-blog-index-link,
 .row .bw-display-layer .bwt-store-link-container a,
-.row .bw-display-layer .bwt-store-blogs-sub-title,
-.row .bw-display-layer .bwt-blog-byline {
+.row .bw-display-layer .bwt-store-blogs-sub-title {
   border-color: #18d0cb !important;
 }
 

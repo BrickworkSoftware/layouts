@@ -31,8 +31,7 @@
 .row .bw-display-layer .bwt-event-search-container .bwt-event-search-link:hover,
 .row .bw-display-layer .bwt-store-blog-index-link:hover,
 .row .bw-display-layer .bwt-store-link-container a:hover,
-.row .bw-display-layer .bwt-store-blogs-sub-title:hover,
-.row .bw-display-layer .bwt-blog-byline:hover {
+.row .bw-display-layer .bwt-store-blogs-sub-title:hover {
   border-color: #72a151 !important;
 }
 

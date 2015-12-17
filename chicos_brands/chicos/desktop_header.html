@@ -1,92 +1,241 @@
 <div id="page-wrap">
- <!-- Don't Display Welcome Mat -->
-      <script type="text/javascript">
-        if(!window.console){ window.console = {log: function(){} }; }
-        console.log("*** ============> NEGATIVE: Do Not Display Welcome Mat <============== ***");
-      </script>
-    <!-- End Border Free -->
+            <script type="text/javascript">
+                if(!window.console){ window.console = {log: function(){} }; }
+                console.log("*** ============> NEGATIVE: Do Not Display Welcome Mat <============== ***");
+            </script>
+        <!-- End Border Free -->
 
-  <script type="text/javascript">
+    <script type="text/javascript">
 
-    $().ready(function() {
-      var $exitMsg = $('#exit_msg');
-      var $exitMsgLink = $('#exit_msg > a');
-      var $somaLink = $('#menu_soma > a');
-      var divHeight = $exitMsg.height();
-      $exitMsg.hide().css({ height : 0 });
-      $somaLink.click(function(){
-        $exitMsg.animate({ height : divHeight, opacity: .9}, 1000);
-      });
-      $somaLink.mouseout(function() {
-        $somaLink.oneTime(1000, 'hide', function() {
-          $exitMsg.animate({ height: 0 }, 500,  function () {
-            $exitMsg.hide();
-          });
+        $().ready(function() {
+            var $exitMsg = $('#exit_msg');
+            var $exitMsgLink = $('#exit_msg > a');
+            var $somaLink = $('#menu_soma > a');
+            var divHeight = $exitMsg.height();
+            $exitMsg.hide().css({ height : 0 });
+            $somaLink.click(function(){
+                $exitMsg.animate({ height : divHeight, opacity: .9}, 1000);
+            });
+            $somaLink.mouseout(function() {
+                $somaLink.oneTime(1000, 'hide', function() {
+                    $exitMsg.animate({ height: 0 }, 500,  function () {
+                        $exitMsg.hide();
+                    });
+                });
+            });
+            $exitMsgLink.mouseover(function() {
+                $somaLink.stopTime('hide');
+            });
+            $somaLink.mouseover(function() {
+                $somaLink.stopTime('hide');
+            });
+            $exitMsgLink.mouseout(function() {
+                $somaLink.oneTime(1000, 'hide', function() {
+                    $exitMsg.animate({ height: 0 }, 500, function () {
+                        $exitMsg.hide();
+                    });
+                });
+            });
         });
-      });
-      $exitMsgLink.mouseover(function() {
-        $somaLink.stopTime('hide');
-      });
-      $somaLink.mouseover(function() {
-        $somaLink.stopTime('hide');
-      });
-      $exitMsgLink.mouseout(function() {
-        $somaLink.oneTime(1000, 'hide', function() {
-          $exitMsg.animate({ height: 0 }, 500, function () {
-            $exitMsg.hide();
-          });
-        });
-      });
-    });
 
-  </script>
+    </script>
 
-  <div id="header-promo-wrap">   <div id="promo-carousel" class="carousel slide" data-ride="carousel">     <div id="header-promo-toggle">       <a href="#" data-toggle="header-promo">         <span class="promo-toggle-icon">           <svg class="icon-plus">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-plus"></use>           </svg>         </span>       </a>       <ol class="carousel-indicators">         <li data-toggle="header-promo" class="active">           Free Shipping <span class="hidden-xs">on Your Next Purchase</span> *         </li>         <li data-toggle="header-promo" class="">           24 Hour Flash Sale <span class="hidden-xs">50% Off When You Spend $100 or More</span>         </li>         <li data-toggle="header-promo" class="">           Lorem ipsum dolor sit <span class="hidden-xs">amet consectetur adipisicing elit</span>         </li>       </ol>     </div>     <div id="header-promo" style="">       <div id="header-promo-inner">         <div class="carousel-inner" role="listbox">           <div class="item active">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">1</span>             </h2>             <div class="carousel-caption"></div>           </div>           <div class="item">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">2</span>             </h2>             <div class="carousel-caption"></div>           </div>           <div class="item">             <h2 class="text-center" style="margin: 30px 0;">Promo Slot<br>               <span style="font-size: 80px;">3</span>             </h2>             <div class="carousel-caption"></div>           </div>         </div>            <a class="left carousel-control" href="#promo-carousel" role="button" data-slide="prev">           <svg class="promo-left">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-left"></use>           </svg>           <span class="sr-only">Previous</span>         </a>         <a class="right carousel-control" href="#promo-carousel" role="button" data-slide="next">           <svg class="promo-right">             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-right"></use>           </svg>           <span class="sr-only">Next</span>         </a>       </div>      </div>   </div>  </div><!-- global promo -->
-  <div id="header-wrap">
-    <header id="header" data-responsive="" data-mobile-experience="desktop" class=''>
-      <div id="header-inner">
-        <a id="logo" onclick="s_objectID='Chicos';" href="http://alpha.chicos.com/store/"><svg>
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-logo"></use>
-                </svg>
-              </a><!-- #logo -->
-        <div id="menu-utility">
-          <ul>
-            <!-- off canvas menu -->
-            <li>
-              <a href="#" class="menu-toggle" data-toggle="offcanvas">
-                          <span class="menu-toggle-inner">
-                            <span class="menu-bar"></span>
-                            <span class="menu-bar"></span>
-                            <span class="menu-bar"></span>
-                          </span>
-                <span class="menu-label">Menu</span>
+    <div id="header-promo-wrap">
+
+  <div id="promo-carousel" class="carousel slide" data-ride="carousel">
+
+    <div id="header-promo-toggle">
+
+      <a href="#" onclick="var s=s_gi(s_account); s.tl(this,'o','GPS_TOGGLE_OPEN');" data-toggle="header-promo">
+
+        <span class="promo-toggle-icon">
+
+          <svg class="icon-plus">
+
+            <use xlink:href="#icon-plus"></use>
+
+          </svg>
+
+        </span>
+
+      </a>
+
+      <ol class="carousel-indicators">
+
+        <li data-toggle="header-promo" class="active">
+
+          40% off entire purchase <span class="hidden-xs">(Passport members take an extra 5% Off)</span>
+
+        </li>
+
+        <li data-toggle="header-promo">
+
+          Refer a friend and get $15
+
+        </li>
+
+      </ol>
+
+    </div>
+
+    <div id="header-promo">
+
+      <div id="header-promo-inner">
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active">
+
+            <h4 class="header-promo-heading">
+
+              40% Off Entire Purchase
+
+              <small>Passport Members take an extra 5% off</small>
+
+            </h4>
+
+            <div class="header-promo-copy">
+
+              <span class="header-promo-code">Use code: 95022</span>
+
+              <a href="http://alpha.chicos.com/store/category/new-arrivals/cat40036?icid=GPS_40_OFF" class="header-promo-cta">Shop Now</a>
+
+            </div>
+
+            <div class="header-promo-details">
+
+              <a href="#" data-toggle="modal" data-target="#modal-promo-details" data-class="shop-now" onclick="var s=s_gi(s_account); s.tl(this,'o','GPS_40Off_DETAILS');">
+
+                Details
+
               </a>
-            </li>
-            <!-- sign in link -->
-            <li class="dropdown menu-signin">
-              <!-- Start Account Header -->
-              <!-- SIGN IN LINK -->
+
+            </div>
+
+          </div>
+
+          <div class="item">
+
+            <h4 class="header-promo-heading">
+
+              Refer a friend and get $15
+
+            </h4>
+
+            <div class="header-promo-copy">
+
+              <a href="http://alpha.chicos.com/store/page.jsp?id=126709276&ICID=GPS_FRIEND_BUY" class="header-promo-cta">Learn More</a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+  
+
+        <a class="left carousel-control" href="#promo-carousel" onclick="var s=s_gi(s_account); s.tl(this,'o','GPS_ARROW_LEFT');" role="button" data-slide="prev">
+
+          <svg class="promo-left">
+
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-left"></use>
+
+          </svg>
+
+          <span class="sr-only">Previous</span>
+
+        </a>
+
+        <a class="right carousel-control" href="#promo-carousel" onclick="var s=s_gi(s_account); s.tl(this,'o','GPS_TOGGLE_ARROW_RIGHT');" role="button" data-slide="next">
+
+          <svg class="promo-right">
+
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promo-right"></use>
+
+          </svg>
+
+          <span class="sr-only">Next</span>
+
+        </a>
+
+      </div>
+
+
+
+    </div>
+
+  </div><!-- #promo-carousel -->
+
+
+
+  <div class="modal fade" id="modal-promo-details" tabindex="-1" role="dialog" aria-labelledby="modal-text" aria-hidden="true">
+
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+
+        <button type="button" class="close close-corner" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+        <div class="modal-body">
+
+          <p class="text-uppercase">
+
+            Present this coupon at the time of purchase in U.S. boutiques (excluding outlets) at chicos.com and by phone at 888.855.4986. Qualifying amount and offer not valid on purchase of items being sold to benefit charity, gift cards, previously purchased merchandise, taxes shipping and Gottex swimwear. Passport discount will be taken off the merchandise total after all other discounts have been applied, but before taxes. Passport is a U.S. based loyalty program, and is not currently available to customers residing outside of the U.S. One time use only. Coupon may not be combined, sold, auctioned, transferred or reproduced. If you return a portion of your purchase, an equivalent portion of your original discount will be forfeited. One coupon per transaction. No cash value. Offer valid now through 10/27/2015.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div><!-- #header-promo-wrap --><!-- global promo -->
+    <div id="header-wrap">
+        <header id="header" data-responsive="" data-mobile-experience="desktop" class=''>
+            <div id="header-inner">
+                <a id="logo" onclick="s_objectID='Chicos';" href="http://alpha.chicos.com/store/"><svg>
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-logo"></use>
+                                </svg>
+                            </a><!-- #logo -->
+                <div id="menu-utility">
+                    <ul>
+                        <!-- off canvas menu -->
+                        <li>
+                            <a href="#" class="menu-toggle" data-toggle="offcanvas">
+                                <svg class="icon-menu">
+                                    <use xlink:href="#icon-menu"/>
+                                </svg>
+                                <span class="menu-label">Menu</span>
+                            </a>
+                        </li>
+                        <!-- sign in link -->
+                        <li class="dropdown menu-signin">
+                            <!-- Start Account Header -->
+                            <!-- SIGN IN LINK -->
 <a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/login.jsp"><span>Sign In</span>
                     </a></li>
-            <!-- find in boutique link -->
-            <li class="dropdown menu-find">
-              <a href="http://npstore.chicos.com/">
-                <svg class="icon-map">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-map"></use>
-                </svg>
-                <span>Find a Boutique</span></a>
-            </li>
-            <!-- search -->
-            <li class="dropdown menu-search">
-              <a href="#" class="search-toggle" data-toggle="search">
-                <svg class="icon-search">
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
-                </svg>
-              </a>
-            </li>
-            <!-- shopping bag -->
-            <li class="menu-bag">
-              <div id="persistent-cart" class="dropdown-menu dropdown-menu-right dropdown-utility dropdown-bag-count">
+                        <!-- find in boutique link -->
+                        <li class="dropdown menu-find">
+                            <a href="http://npstore.chicos.com/">
+                                <svg class="icon-map">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-map"></use>
+                                </svg>
+                                <span>Find a Boutique</span></a>
+                        </li>
+                        <!-- search -->
+                        <li class="dropdown menu-search">
+                            <a href="#" class="search-toggle" data-toggle="search">
+                                <svg class="icon-search">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <!-- shopping bag -->
+                        <li class="menu-bag">
+                            <div id="persistent-cart" class="dropdown-menu dropdown-menu-right dropdown-utility dropdown-bag-count">
         <div class="dropdown-inner">
             <a href="#" data-toggle="close-cart">
                 <svg class="icon-close">
@@ -105,9 +254,8 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                </div>
+            </div>
             <div id="pc-summary-wrapper">
                 <div id="pc-summary">
                     <div id="pc-totals">
@@ -138,390 +286,334 @@
                                                 <a id="pc-btn-checkout-disabled" class="btn btn-default btn-lg btn-block" href="javascript: return false;" style="display: block; color: #fff; background: #898888;" disabled="">Check Out</a>
                                             </div>
                     </div>
-                    <div class="bag-promo-img hidden-xs">
-                        <a href="#"><img class="img-responsive" src="http://placehold.it/400x150&amp;text=Promo+Image" alt=""></a>
-                    </div>
+                    <section class="module pcart bag-promo-img pcart-padding-20">
 
-                    </div>
+    <div class="module-inner">
+
+       <h2 class="text-center">40% off entire purchase</h2>
+
+        <h1><small>passport members take an extra 5% off</small></h1>
+
+        <h1><small>use code: 95022 <a href="http://alpha.chicos.com/store/category/new-arrivals/cat40036?icid=PCART_40_OFF" class="headerShop">shop now</span></small></h1>
+
+        <a href="pcartDetails" data-toggle="modal" data-target="#modal-generic-modal" onclick="var s=s_gi(s_account); s.tl(this,'o','PCART_40_OFF_DETAILS');">details</a>
+
+  </div>
+
+</section>
+
+
+
+<script id="pcartDetails" type="text/template">
+
+  <p>
+
+    Present this coupon at the time of purchase in U.S. boutiques (excluding outlets) at chicos.com and by phone at 888.855.4986. Qualifying amount and offer not valid on purchase of items being sold to benefit charity, gift cards, previously purchased merchandise, taxes shipping and Gottex swimwear. Passport discount will be taken off the merchandise total after all other discounts have been applied, but before taxes. Passport is a U.S. based loyalty program, and is not currently available to customers residing outside of the U.S. One time use only. Coupon may not be combined, sold, auctioned, transferred or reproduced. If you return a portion of your purchase, an equivalent portion of your original discount will be forfeited. One coupon per transaction. No cash value. Offer valid now through 10/27/2015.
+
+  </p>
+
+</script></div>
             </div>
         </div>
     </div>
-
 <script type="text/javascript">
     var promoRemoveLinkTemplate = '';
     
         s.brandName='chicos';
     </script>
 <a id="pc-main" onclick="s_objectID='Shopping Bag'" href="http://alpha.chicos.com/store/checkout/cart.jsp"><span class="bag-wrap">
-                      <svg class="icon-bag">
-                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bag"></use>
-                      </svg>
-                      <span class="bag-number bag-count"></span>
-                      </span>
-                    </a></li>
-          </ul>
-        </div>
-      </div><!-- #header -->
+                                            <svg class="icon-bag">
+                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-bag"></use>
+                                            </svg>
+                                            <span class="bag-number bag-count"></span>
+                                          </span>
+                                        </a></li>
+                    </ul>
+                </div>
+            </div><!-- #header -->
 
-      <nav id="menu">
-    <div class="menu-header-mobile">
-      <div class="customer-links">
-            <a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/login.jsp">Sign In</a><a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/registration.jsp">Register</a></div>
-    </div>
-    <!-- Borderfree Context Chooser -->
-    <div class="ship-to visible-sm visible-xs">
+            <nav id="menu">
+        <div class="menu-header-mobile">
+        <div class="text-right">
+            <a data-toggle="offcanvas" href="#" class="menu-close">
+                <svg class="icon-close"><use xlink:href="#icon-close"/><svg></svg>
+            </a>
+        </div>
+            <div class="customer-links">
+                <a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/login.jsp">Sign In</a><a onclick="s_objectID='My Account';" href="https://alpha.chicos.com/store/account/registration.jsp">Register</a></div>
+        </div>
+        <!-- Borderfree Context Chooser -->
+        <div class="ship-to visible-sm visible-xs">
            Ship to: <a id="contextSelectorLink" href="#"><img src="http://alpha.chicos.com/store/ibf/images/flags/USA.jpg"></a>
         </div>
         <ul>
-      <!-- Iterate through All the dynamic categories from the droplet; Max of 7 -->
-          <li class="dropdown" data-category-name='New Arrivals' data-category-id='cat40036'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>New Arrivals</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/New+Arrivals/cat40036/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-TOPS/cat500019/">Tops</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-SWEATERS/cat12059276/">Sweaters</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-JACKETS/cat500020/">Jackets</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-DRESSES+SKIRTS/cat500023/">Dresses &amp; Skirts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-PANTS+SHORTS/cat8319283/">Pants &amp; Shorts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-DENIM/cat12059277/">Denim</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-SWIM/cat10379281/">Swim</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-JEWELRY/cat500024/">Jewelry</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ACCESSORIES/cat4150003/">Accessories</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                Collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-TRAVELERS/cat3320003/">Travelers</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ZENERGY/cat2770002/">Zenergy</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-BLACK LABEL/cat7149278/">Black Label</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-PETITES/cat9949290/">Petites</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-ONLINE EXCLUSIVES/cat5349280/">Online Exclusives</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                Shop</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Shop" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-AS SEEN IN OUR TV SPOT/cat11099291/">As Seen In Our TV Spot</a></li>
-                                      <li><a title="" data-category-label="Shop" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/NEW+ARRIVALS-STATEMENT JACKETS/cat11109277/">Statement Jackets</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
+            <!-- Iterate through All the dynamic categories from the droplet; Max of 7 -->
+                    <li class="dropdown" data-category-name='New Arrivals' data-category-id='cat40036'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>New Arrivals</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Category</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/New+Arrivals/cat40036/">View All</a></li>
+                                                                            <li><a data-category="cat500019" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Tops/cat500019/" data-category-parent="cat40036">Tops</a></li>
+                                                                           <li><a data-category="cat500020" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jackets/cat500020/" data-category-parent="cat40036">Jackets</a></li>
+                                                                           <li><a data-category="cat500023" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Dresses+Skirts/cat500023/" data-category-parent="cat40036">Dresses &amp; Skirts</a></li>
+                                                                           <li><a data-category="cat10379281" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Swim/cat10379281/" data-category-parent="cat40036">Swim</a></li>
+                                                                           <li><a data-category="cat500024" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jewelry/cat500024/" data-category-parent="cat40036">Jewelry</a></li>
+                                                                           <li><a data-category="cat4150003" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Accessories/cat4150003/" data-category-parent="cat40036">Accessories</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Collections</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Collections" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/New+Arrivals/cat40036/">View All</a></li>
+                                                                            <li><a data-category="cat3320003" title="" data-category-label="Collections" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Travelers/cat3320003/" data-category-parent="cat40036">Travelers</a></li>
+                                                                           <li><a data-category="cat2770002" title="" data-category-label="Collections" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Zenergy/cat2770002/" data-category-parent="cat40036">Zenergy</a></li>
+                                                                           <li><a data-category="cat7149278" title="" data-category-label="Collections" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Black+Label+Collection/cat7149278/" data-category-parent="cat40036">Black Label Collection</a></li>
+                                                                           <li><a data-category="cat9949290" title="" data-category-label="Collections" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Petites/cat9949290/" data-category-parent="cat40036">Petites</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 hidden-xs">
+  <a href="#?icid=NAV_PROMO_NEW_ARRIVALS_ORCHID_GRAY"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoNewArrivals.jpg" alt="New Arrivals"></a>
+</div></div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='CLOTHING' data-category-id='cat11199290'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>CLOTHING</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Category</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING/cat11199290/">View All</a></li>
+                                                                            <li><a data-category="cat40002" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Tops/cat40002/" data-category-parent="cat11199290">Tops</a></li>
+                                                                           <li><a data-category="cat8319278" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Sweaters/cat8319278/" data-category-parent="cat11199290">Sweaters</a></li>
+                                                                           <li><a data-category="cat40001" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jackets/cat40001/" data-category-parent="cat11199290">Jackets</a></li>
+                                                                           <li><a data-category="cat40004" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Dresses+Skirts/cat40004/" data-category-parent="cat11199290">Dresses &amp; Skirts</a></li>
+                                                                           <li><a data-category="cat8319290" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jeans/cat8319290/" data-category-parent="cat11199290">Jeans</a></li>
+                                                                           <li><a data-category="cat9659293" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Swim/cat9659293/" data-category-parent="cat11199290">Swim</a></li>
+                                                                           <li><a data-category="cat11159290" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Online+Exclusives/cat11159290/" data-category-parent="cat11199290">Online Exclusives</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Collection</h3>
+                                                            <ul>
+                                                            <li><a data-category="cat40010" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Travelers/cat40010/" data-category-parent="cat11199290">Travelers</a></li>
+                                                                           <li><a data-category="cat2580017" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Zenergy/cat2580017/" data-category-parent="cat11199290">Zenergy</a></li>
+                                                                           <li><a data-category="cat8139304" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Golf+Collection/cat8139304/" data-category-parent="cat11199290">Golf Collection</a></li>
+                                                                           <li><a data-category="cat7059275" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Black+Label/cat7059275/" data-category-parent="cat11199290">Black Label</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                </div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='Jewelry' data-category-id='cat40005'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Jewelry</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Category</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jewelry/cat40005/">View All</a></li>
+                                                                            <li><a data-category="cat10519276" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/New+Arrivals/cat10519276/" data-category-parent="cat40005">New Arrivals</a></li>
+                                                                           <li><a data-category="cat40026" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Bracelets/cat40026/" data-category-parent="cat40005">Bracelets</a></li>
+                                                                           <li><a data-category="cat40024" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Earrings/cat40024/" data-category-parent="cat40005">Earrings</a></li>
+                                                                           <li><a data-category="cat40027" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Watches/cat40027/" data-category-parent="cat40005">Watches</a></li>
+                                                                           <li><a data-category="cat40028" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Rings+Pins/cat40028/" data-category-parent="cat40005">Rings &amp; Pins</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Collection</h3>
+                                                            <ul>
+                                                            <li><a data-category="cat10709285" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Chico&amp;" data-category-parent="cat40005">Chico&#39;s Collectibles</a></li>
+                                                                           <li><a data-category="cat4929299" title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Online+Exclusives/cat4929299/" data-category-parent="cat40005">Online Exclusives</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 hidden-xs">
+  <a href="http://alpha.chicos.com/store/category/JEWELRY-THE%20JEWELED%20COLLECTIBLES/cat10969281/?icid=NAV_PROMO_JEWELRY_COLLECTIBLES"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoJewelry2.jpg" alt="Jewelry"></a>
+</div>
+<div class="col-md-3 hidden-xs">
+  <a href="#?icid=NAV_PROMO_JEWELRY_LUXE_NEUTRALS"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoJewelry.jpg" alt="Jewelry"></a>
+</div></div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='Accessories' data-category-id='cat40006'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Accessories</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Category</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Accessories/cat40006/">View All</a></li>
+                                                                            <li><a data-category="cat40031" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Scarves/cat40031/" data-category-parent="cat40006">Scarves</a></li>
+                                                                           <li><a data-category="cat40030" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Belts/cat40030/" data-category-parent="cat40006">Belts</a></li>
+                                                                           <li><a data-category="cat40029" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Bags/cat40029/" data-category-parent="cat40006">Bags</a></li>
+                                                                           <li><a data-category="cat11199331" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Hats/cat11199331/" data-category-parent="cat40006">Hats</a></li>
+                                                                           <li><a data-category="cat5879285" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Eyewear/cat5879285/" data-category-parent="cat40006">Eyewear</a></li>
+                                                                           <li><a data-category="cat4929295" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Online+Exclusives/cat4929295/" data-category-parent="cat40006">Online Exclusives</a></li>
+                                                                           <li><a data-category="cat11159289" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Sunglasses/cat11159289/" data-category-parent="cat40006">Sunglasses</a></li>
+                                                                           <li><a data-category="cat11199330" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Ponchos+Ruanas/cat11199330/" data-category-parent="cat40006">Ponchos &amp; Ruanas</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                </div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='COLLECTIONS' data-category-id='cat11199292'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>COLLECTIONS</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            </div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='Petites' data-category-id='cat9799294'>
+                                   <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Petites</span></a>
+                                     <div class="dropdown-menu">
+                                        <div class = "container-fluid dropdown-inner">
+                                            <div class="row">
+                                            <div class="col-md-3 col-border">
+                                                            <h3>
+                                                                Category</h3>
+                                                            <ul>
+                                                            <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Petites/cat9799294/">View All</a></li>
+                                                                            <li><a data-category="cat9799298" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Pants+Shorts/cat9799298/" data-category-parent="cat9799294">Pants &amp; Shorts</a></li>
+                                                                           <li><a data-category="cat9799300" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Travelers/cat9799300/" data-category-parent="cat9799294">Travelers</a></li>
+                                                                           <li><a data-category="cat9799301" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Zenergy/cat9799301/" data-category-parent="cat9799294">Zenergy</a></li>
+                                                                           <li><a data-category="cat9799297" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Tops/cat9799297/" data-category-parent="cat9799294">Tops</a></li>
+                                                                           <li><a data-category="cat11159291" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Sweaters/cat11159291/" data-category-parent="cat9799294">Sweaters</a></li>
+                                                                           <li><a data-category="cat9799296" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jackets/cat9799296/" data-category-parent="cat9799294">Jackets</a></li>
+                                                                           <li><a data-category="cat9799299" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Dresses+Skirts/cat9799299/" data-category-parent="cat9799294">Dresses &amp; Skirts</a></li>
+                                                                           <li><a data-category="cat11159292" title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Denim/cat11159292/" data-category-parent="cat9799294">Denim</a></li>
+                                                                           </ul>
+                                                        </div>
+                                                <div class="col-md-3 hidden-xs">
+  <a href="http://alpha.chicos.com/store/category/PETITES-PANTS+SHORTS/cat9799298/?icid=NAV_PROMO_PETITES_PANTS"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoPetites2.jpg" alt="Petites"></a>
+</div>
+<div class="col-md-3 hidden-xs">
+  <a href="http://alpha.chicos.com/store/category/PETITES-JACKETS/cat9799296/?icid=NAV_PROMO_PETITES_JACKETS"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoPetites.jpg" alt="Petites"></a>
+</div></div>
+                                     </div>
+                                    </div>
+                                </li>
+                        <li class="dropdown" data-category-name='Sale' data-category-id="catsaleschicos">
+                          <a href="#" data-nav-type="top-nav"><span>Sale</span></a>
+                          <div class="dropdown-menu">
+                            <div class="container-fluid dropdown-inner">
+                              <div class="row">
+                                  <div class="col-md-3 col-border">
+                                      <ul>
+                                          <h3>Sale</h3>
+                                         <li><a class="sale" href="http://alpha.chicos.com/store/sale/">View All</a></li>
+                                          <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/NEW+DEBUTS/cat5089275/">New Debuts</a></li>
+                                                    <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/JEWELRY/cat40005/">Jewelry</a></li>
+                                                              <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/ACCESSORIES/cat40006/">Accessories</a></li>
+                                                              <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/ACCESSORIES/cat12849275/">ACCESSORIES</a></li>
+                                                              <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/SALES+CAT+CHICOS/catsaleschicos/">Sales Cat Chicos</a></li>
+                                                              </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <ul>
+                                          <h3>Clearance</h3>
+                                          <li><a class="clearance" href="http://alpha.chicos.com/store/clearance/">View All</a></li>
+                                          <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/NEW+DEBUTS/cat5089275/">New Debuts</a></li>
+                                                    <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/JEWELRY/cat40005/">Jewelry</a></li>
+                                                              <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/ACCESSORIES/cat40006/">Accessories</a></li>
+                                                              <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/ACCESSORIES/cat12849275/">ACCESSORIES</a></li>
+                                                              <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/SALES+CAT+CHICOS/catsaleschicos/">Sales Cat Chicos</a></li>
+                                                              </ul>
+                                </div>
+                                <div class="col-md-6 hidden-xs">
+  <a href="http://alpha.chicos.com/store/sale/?icid=NAV_PROMO_SALE_SHOP_SALE"><img class="img-responsive" src="http://alpha.chicos.com/web_assets/img/20151025/navPromoSale.jpg" alt="Sale"></a>
+</div></div>
+                           </div>
+                    </div>
                 </li>
-            <li class="dropdown" data-category-name='Gifts' data-category-id='cat9659281'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Gifts</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Gifts/cat9659281/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-SWEATERS/cat10309276/">Sweaters</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-LUXE/cat10309282/">Luxe</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-JEWELRY+ACCESSORIES/cat10309278/">Jewelry &amp; Accessories</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-STOCKING STUFFERS/cat10309281/">Stocking Stuffers</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-LOUNGE/cat10309277/">Lounge</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                SHOP BY PRICE</h3>
-                              <ul>
-                              <li><a title="" data-category-label="SHOP BY PRICE" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-$25+UNDER/cat3780005/">$25 &amp; UNDER</a></li>
-                                      <li><a title="" data-category-label="SHOP BY PRICE" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/GIFTS-$50+UNDER/cat3780006/">$50 &amp; UNDER</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='Clothing' data-category-id='cat12049275'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Clothing</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Clothing/cat12049275/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-TOPS/cat40002/">Tops</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-SWEATERS/cat8319278/">Sweaters</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-JACKETS/cat40001/">Jackets</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-DRESSES+SKIRTS/cat40004/">Dresses &amp; Skirts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-PANTS+SHORTS/cat8289646/">Pants &amp; Shorts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-DENIM/cat8319290/">Denim</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-SWIM/cat9659293/">Swim</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-TRAVELERS/cat40010/">Travelers</a></li>
-                                      <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-ZENERGY/cat2580017/">Zenergy</a></li>
-                                      <li><a title="" data-category-label="collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/CLOTHING-BLACK LABEL/cat7059275/">Black Label</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='Jewelry' data-category-id='cat40005'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Jewelry</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Jewelry/cat40005/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-NECKLACES/cat40076/">Necklaces</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-BRACELETS/cat40026/">Bracelets</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-EARRINGS/cat40024/">Earrings</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-WATCHES/cat40027/">Watches</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-RINGS+PINS/cat40028/">Rings &amp; Pins</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                Collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-THE JEWELED COLLECTIBLES/cat10969281/">The Jeweled Collectibles</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-BLACK LABEL/cat7069280/">Black Label </a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/JEWELRY-ONLINE EXCLUSIVES/cat4929299/">Online Exclusives</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='Accessories' data-category-id='cat12059278'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Accessories</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Accessories/cat12059278/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-PONCHOS+RUANAS/cat40031/">Ponchos &amp; Ruanas</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-SCARVES/cat2580031/">Scarves</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BAGS/cat40029/">Bags</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-HATS/cat7029288/">Hats</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-SUNGLASSES/cat40033/">Sunglasses</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-EYEWEAR/cat5879285/">Eyewear</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BELTS/cat40030/">Belts</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                Collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-BLACK LABEL/cat12379292/">Black Label </a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/ACCESSORIES-ONLINE EXCLUSIVES/cat4929295/">Online Exclusives</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='COLLECTIONS' data-category-id='cat12059279'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>COLLECTIONS</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-TRAVELERS/cat12369291/">Travelers</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ZENERGY/cat12379279/">Zenergy</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ZENERGY GOLF/cat8139304/">Zenergy Golf</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-BLACK LABEL/cat12369289/">Black Label</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-SO SLIMMING/cat8319289/">So Slimming</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-SWIM/cat12379293/">Swim</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-KNIT KIT/cat10749284/">Knit Kit</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/COLLECTIONS-ONLINE EXCLUSIVES/cat4929306/">Online Exclusives</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='Petites' data-category-id='cat9799294'>
-                  <a href="#" class="top-nav-cat" data-nav-type="top-nav"><span>Petites</span></a>
-                    <div class="dropdown-menu">
-                    <div class = "container-fluid dropdown-inner">
-                      <div class="row">
-                      <div class="col-md-3 col-border">
-                              <h3>
-                                Category</h3>
-                              <ul>
-                              <li><a title="Show All" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/Petites/cat9799294/">View All</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-TOPS/cat9799297/">Tops</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-SWEATERS/cat12059280/">Sweaters</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-JACKETS/cat9799296/">Jackets</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-DRESSES+SKIRTS/cat9799299/">Dresses &amp; Skirts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-PANTS+SHORTS/cat9799298/">Pants &amp; Shorts</a></li>
-                                      <li><a title="" data-category-label="Category" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-DENIM/cat12059281/">Denim</a></li>
-                                      </ul>
-                            </div>
-                          
-                        <div class="col-md-3 col-border">
-                              <h3>
-                                Collection</h3>
-                              <ul>
-                              <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-TRAVELERS/cat9799300/">Travelers</a></li>
-                                      <li><a title="" data-category-label="Collection" class="categories" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/category/PETITES-ZENERGY/cat9799301/">Zenergy</a></li>
-                                      </ul>
-                            </div>
-                          
-                        </div>
-                  </div>
-                  </div>
-                </li>
-            <li class="dropdown" data-category-name='Sale' data-category-id="catsaleschicos">
-                  <a href="#" data-nav-type="top-nav"><span>Sale</span></a>
+            <!-- Blog Link -->
+            <li class="dropdown" data-category-name='Inside Chic'>
+                    <a href="http://insidechic.chicos.com" target="_blank" data-nav-type="top-nav"><span>Inside Chic</span></a>
+                      </li>
+            <li class="dropdown visible-sm visible-xs">
+                  <a href="#"><span>Customer Support</span></a>
                   <div class="dropdown-menu">
                     <div class="container-fluid dropdown-inner">
-                      <div class="row">
-                        <div class="col-md-3 col-border">
-                          <ul>
-                            <h3>Sale</h3>
-                            <li><a class="sale" href="http://alpha.chicos.com/store/sale/">View All</a></li>
-                            <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/NEW+DEBUTS/cat5089275/">New Debuts</a></li>
-                          <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/TRAVELERS/cat40010/">Travelers</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/TOPS/cat40002/">Tops</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/ZENERGY/cat2580017/">Zenergy</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/JACKETS/cat40001/">Jackets</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/BLACK+LABEL/cat7059275/">Black Label</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/DRESSES+&+SKIRTS/cat40004/">Dresses & Skirts</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/JEWELRY/cat40005/">Jewelry</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/PANTS+&+SHORTS/cat8289646/">Pants & Shorts</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/SWIM/cat9659293/">Swim</a></li>
-                                <li><a data-category-label="sale" class="sale" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/sale/SHOES+&+ACCESSORIES/cat40006/">Shoes & Accessories</a></li>
-                                </ul>
-                </div>
-                <div class="col-md-3">
-                  <ul>
-                            <h3>Clearance</h3>
-                            <li><a class="clearance" href="http://alpha.chicos.com/store/clearance/">View All</a></li>
-                            <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/New Debuts/cat5089275/">New Debuts</a></li>
-                          <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Travelers/cat40010/">Travelers</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Tops/cat40002/">Tops</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Zenergy/cat2580017/">Zenergy</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Jackets/cat40001/">Jackets</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Black Label/cat7059275/">Black Label</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Dresses & Skirts/cat40004/">Dresses & Skirts</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Jewelry/cat40005/">Jewelry</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Pants & Shorts/cat8289646/">Pants & Shorts</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Swim/cat9659293/">Swim</a></li>
-                                <li><a data-category-label="clearance" class="clearance" data-nav-type="sub-nav" href="http://alpha.chicos.com/store/clearance/Shoes & Accessories/cat40006/">Shoes & Accessories</a></li>
-                                </ul>
-                </div>
-                <div class="col-sm-3 hidden-xs">
-                  <img class="img-responsive" src="http://placehold.it/400x400&amp;text=Editorial+or+Promo" alt="Editorial or Promo">
-                </div>
-<div class="col-sm-3 hidden-xs">
-                  <img class="img-responsive" src="http://placehold.it/400x400&amp;text=Editorial+or+Promo" alt="Editorial or Promo">
-                </div></div>
-              </div>
-          </div>
-            </li>
-          <!-- Blog Link -->
-      <li class="dropdown" data-category-name='Inside Chic'>
-          <a href="http://insidechic.chicos.com" data-nav-type="top-nav"><span>Inside Chic</span></a>
-                </li>
-          <li class="dropdown visible-sm visible-xs">
-              <a href="#"><span>Customer Support</span></a>
-              <div class="dropdown-menu">
-                <div class="container-fluid dropdown-inner">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <ul>
-                        <li><a href="tel:8888554986">Call Us 888-855-4986</a></li>
-                        <li><a href="mailto:customerservice@chicos.com">Email Us</a></li>
-                      </ul>
+                        <div class="row">
+                            <div class="col-xs-12">
+                              <ul>
+                                <li><a href="tel:8888554986">Call Us 888-855-4986</a></li>
+                                <li><a href="mailto:customerservice@chicos.com">Email Us</a></li>
+                              </ul>
+                            </div>
+                        </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </li>
-      <!-- search -->
-      <li class="search-toggle-wrap">
-          <a href="#" class="search-toggle" data-toggle="search">
-            <svg class="icon-search">
-              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
-            </svg>
-          </a>
-        </li>
-    </ul>
-  </nav>
+                </li>
+            <!-- search -->
+            <li class="search-toggle-wrap">
+                    <a href="#" class="search-toggle" data-toggle="search">
+                        <svg class="icon-search">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+                        </svg>
+                    </a>
+                </li>
+        </ul>
+    </nav>
 
-    <div id="search-wrap" style="display: none;">
-    <div id="search">
-      <svg class="icon-search">
-        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
-      </svg>
-      <div id="search-inner">
-        <div class="search-form">
-          <form action="http://alpha.chicos.com/store/search/" name="noSubmit" id="typeAhead-search-form">
-            <div class="input-group">
-              <input  type="text" class="typeahead form-control" placeholder="Start typing to search"/>
-              <span class="input-group-btn">
-                <button class="header-search-button button btn btn-primary hidden-xs">Search</button>
-                <a href="#" class="btn search-close" data-toggle="search">
-                  <svg class="icon-close">
-                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
-                    <svg></svg>
-                  </svg>
-                </a>
-              </span>
+        <div id="search-wrap" style="display: none;">
+        <div id="search">
+            <svg class="icon-search">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use>
+            </svg>
+            <div id="search-inner">
+                <div class="search-form">
+                    <form action="http://alpha.chicos.com/store/search/" name="noSubmit" id="typeAhead-search-form">
+                        <div class="input-group">
+                            <input  type="text" class="typeahead form-control" placeholder="Start typing to search"/>
+                            <span class="input-group-btn">
+                                <button class="header-search-button button btn btn-primary hidden-xs">Search</button>
+                                <a href="#" class="btn search-close" data-toggle="search">
+                                    <svg class="icon-close">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
+                                        <svg></svg>
+                                    </svg>
+                                </a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
             </div>
-          </form>
         </div>
-      </div>
-    </div>
-  </div><!-- #search-wrap -->
+    </div><!-- #search-wrap -->
 <div class="offcanvas-overlay"></div>
-    </header>
-  </div>
-  <script>
-    function setNonSecureUrl(link){
-      var linkVal = link.href;
-      if(linkVal.indexOf("https://")>=0) {
-        linkVal = linkVal.replace("https://","http://");
-        link.href = "javascript:;";
-        document.location = linkVal;
-      }
-    }
-  </script>
-  <!-- <script src="http://alpha.chicos.com/web_assets/js/vendor/brickwork.js"></script> -->
+        
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQcGUlRQCxAJXVlTBgUO"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script></header>
+    </div>
+    <script>
+        function setNonSecureUrl(link){
+            var linkVal = link.href;
+            if(linkVal.indexOf("https://")>=0) {
+                linkVal = linkVal.replace("https://","http://");
+                link.href = "javascript:;";
+                document.location = linkVal;
+            }
+        }
+    </script>
+    <script src="http://alpha.chicos.com/web_assets/js/vendor/brickwork.js"></script>
+
 </div>

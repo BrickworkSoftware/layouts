@@ -364,9 +364,11 @@ label {
   display: none !important;
 }
 
+/*
 .bw-display-layer .bwt-store-hours-special-title {
   display: none;
 }
+*/
 
 /* iFrame Styling */
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.bw-appointment-step-container-title):not(.fa-mobile):not(.fa) {

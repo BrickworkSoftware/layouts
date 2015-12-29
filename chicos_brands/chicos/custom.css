@@ -94,10 +94,6 @@ label {
   padding-bottom: 0.667rem;
 }
 
-#menu > ul > li:first-child a {
-  padding-left: 1.8rem !important;
-}
-
 #menu > ul > li > a {
   font-size: 1rem;
   line-height: 2.675rem;
@@ -227,14 +223,32 @@ label {
   font-size: 0.8667rem;
 }
 
+#menu .dropdown-menu > ul > li:first-child a {
+  padding-left: 0 !important;
+}
+
 @media (max-width: 991px) {
   #menu > ul .dropdown > a {
     padding: 0.5333rem 1rem !important;
     font-size: 1.07rem;
   }
 
+  #menu .dropdown-menu a {
+    font-size: 1.0667rem;
+  }  
+
   #menu-utility > ul > li {
     margin: 0 !important;
+  }
+
+  #menu > ul .dropdown > a > span {
+    font-size: 0.935rem;
+  }
+
+  #menu > ul .dropdown > a > span:after {
+    margin-top: 0.4rem;
+    height: 0.667rem;
+    width: 0.667rem;
   }
 
   #menu .ship-to {

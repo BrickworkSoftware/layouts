@@ -401,3 +401,7 @@ input#appointment_date::-webkit-input-placeholder {
 .appointment-rsvp-container .bw-appointment-store-address b{ 
   font-weight: normal !important;
 }
+
+.appointment-rsvp-container .bwt-store-header-title {
+  font-size: 30px !important;
+}

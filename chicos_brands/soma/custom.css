@@ -314,3 +314,7 @@ img[name="hs_pix_es"] {
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
   font-family: "BentonModernOne", Georgia, Times, serif !important;
 }
+
+.appointment-rsvp-container .bwt-store-header-title {
+  font-size: 30px !important;
+}

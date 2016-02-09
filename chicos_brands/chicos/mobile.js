@@ -3,8 +3,6 @@
 //Set jQuery correctly
 var jQuery = (typeof $jQuery11 != 'undefined')?$jQuery11:jQuery;
 
-
-
 /**
 * This IIFE addes to the jQuery load functionality spesifficly for
 * for bootstrap modal remote loading.

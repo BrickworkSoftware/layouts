@@ -280,3 +280,7 @@ label {
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
   font-family: 'Brandon', Georgia, Times, serif !important;
 }
+
+.dropdown-menu {
+  top: auto;
+}

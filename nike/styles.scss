@@ -91,15 +91,6 @@ hr.medium-7 {
 	font-style: normal;
 }
 
-/*
-.bw-iframe-container {
-	background-image: url("https://s3.amazonaws.com/assets.brickworksoftware.com/Nike/Swoosh.png");
-	background-repeat: no-repeat;
-	width: 175px;
-	height: 65px;
-}
-*/
-
 .segment_header img {
    display: none !important;
 }
@@ -117,3 +108,75 @@ hr.medium-7 {
 }
 
 .appointment-rsvp-container .store-container { padding-top: 20px; }
+
+.logo {
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 20px;
+  }
+}
+
+.details {
+  border-top: none !important;
+  border-bottom: none !important;
+  width: 30% !important;
+  color: #aeaeae !important;
+  min-width: 250px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.appointment-rsvp-container #appointment-confirmation {
+  padding: 0px;
+}
+
+.search_header .date_selection_container { background-color: #fff; }
+
+.search_header .date_selection_container .date_selector .small_day {
+  font-weight: 700;
+  padding-bottom: 40px;
+}
+
+.search_header .date_selection_container .date_selector .big_day { padding-top: 20px; }
+
+.bw-appointment-step-container { margin-top: 10px; }
+
+.appointment-rsvp-container textarea { height: 100px; }
+
+.appointment-rsvp-container .bw-appointment-header { min-height: 75px !important; }
+
+.bw-appointment-header-column::before, .bw-appointment-header-feedback::before  { content: none; }
+
+.appointment-rsvp-container .button-clean {
+  margin-left: 75%!important;
+  width: 25%!important;
+}
+
+@media only screen and (max-width: 980px) {
+  .search_header .date_selection_container .date_selector .small_day { font-size: 11px; }
+}
+
+@media only screen and (max-width: 720px) {
+  .search_header .date_selection_container .date_selector .small_day { font-size: 10px; }
+}
+
+@media only screen and (max-width: 620px) {
+  .search_header .date_selection_container .date_selector .small_day { font-size: 8px; }
+}
+
+@media only screen and (max-width: 513px) {
+  .search_header .date_selection_container .date_selector .small_day { font-size: 10px; }
+}
+
+@media only screen and (max-width: 320px) {
+  .search_header .date_selection_container .date_selector .small_day { font-size: 7px; }
+}
+
+.bwt-appt-name-field input[type="text"], .bwt-appt-email-field input[type="email"] { height: 60px; }
+
+.appointment-rsvp-container textarea{ height: 100px !important; }
+
+.bw-appointment-step-container-choose-time .bw-appointment-step-container-title  { margin-bottom: 0px; }

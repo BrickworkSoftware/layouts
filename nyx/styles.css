@@ -1,1 +1,274 @@
-/* NYX Custom CSS */
+.navigation { z-index: 4 !important; }
+
+/* Map Pin */
+.bw-display-layer .bwt-store-map-pin-holder, .bw-display-layer .bwt-events-map-pin-holder {
+background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/nyx/NYX_pin_logo.png") no-repeat !important;
+}
+
+.bw-display-layer .footer {
+margin: 0px !important;
+padding-bottom: 10px !important;
+}
+
+.bw-display-layer {
+background: #fff;
+}
+
+/* Brand Fonts */
+
+h1, h2, h3, h4, h5, h6, p {
+font-size: 100%;
+font-family: "HelveticaNeueW01-57Cn", arial, sans-serif  !important;
+}
+
+/* Bold Condensed */
+.bw-display-layer .bwt-events-main .bwt-event-details-title,
+.bw-display-layer .bwt-store-nav-list li a,
+.bw-display-layer .bwt-store-event-title a {
+font-family: "HelveticaNeueW01-77BdCn_692722", arial, sans-serif  !important;
+}
+
+/* Reg Condensed */
+.bw-display-layer .bwt-events-main .bwt-event-details-date-time,
+.bw-display-layer .bwt-events-main .bwt-events-social-title,
+.bw-display-layer .bwt-events-main .bwt-events-main-store-link,
+.bw-display-layer .bwt-event-details-location-title,
+.bw-display-layer .bwt-event-details-location-address,
+.bw-display-layer .bwt-store-phone-number-link-text, 
+.bw-display-layer .bwt-store-email-link a,
+.bw-display-layer .bwt-store-map-button, 
+.bw-display-layer .bwt-events-map-button,
+.bwt-store-call-placeholder, .bwt-rsvp-first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder, .bwt-rsvp-email-opt-placeholder, .bwt-appt-input-placeholder,
+.bw-app .bwt-store-call-button, 
+.bw-app .bwt-store-call-response-button, 
+.bw-app .bwt-events-rsvp-modal-button, 
+.bw-app .bwt-events-rsvp-success-button, 
+.bw-app .bwt-store-appt-modal-button, 
+.bw-app .bwt-store-appt-success-button,
+.bw-display-layer .bwt-store-hours-table, 
+.bw-display-layer .bwt-store-address-line,
+.row .bw-display-layer .bwt-store-service-link, 
+.row .bw-display-layer .bwt-appointment-modal-button-wrapper .brickwork-button,
+.row .bw-display-layer .bwt-store-address-contextual,
+.row .bw-display-layer .bwt-store-event-dates,
+.row .bw-display-layer .bwt-store-event-link,
+.row .bw-display-layer .bwt-stores-nearby-store-description,
+.row .bw-display-layer .bwt-index .bwt-index-store-body-details-address,
+.row .bw-display-layer .bwt-index .bwt-index-search-form-input,
+.row .bwt-index-search-results-notice-details,
+.row .bw-display-layer .bwt-index .bwt-index-filters-expand-button, 
+.row .bw-display-layer .bwt-index .bwt-index-search-results-map-button,
+.bw-display-layer label {
+font-family: "HelveticaNeueW01-57Cn", arial, sans-serif  !important;
+}
+
+/* Button Styling */
+
+.row .bw-display-layer .bwt-store-map-button, 
+.row .bw-display-layer .bwt-events-map-button,
+.row .bw-display-layer .bwt-events-main .bwt-events-main-store-link,
+.bw-app .bwt-store-call-button, 
+.bw-app .bwt-store-call-response-button, 
+.bw-app .bwt-events-rsvp-modal-button, 
+.bw-app .bwt-events-rsvp-success-button, 
+.bw-app .bwt-store-appt-modal-button, 
+.bw-app .bwt-store-appt-success-button,
+.row .bw-display-layer .bwt-store-service-link, 
+.row .bw-display-layer .bwt-appointment-modal-button-wrapper .brickwork-button,
+.row .bw-display-layer .bwt-index .bwt-index-search-form-submit {
+background: #e9168c;
+color: #fff;
+border: none;
+}
+
+.row .bw-display-layer .bwt-events-main .bwt-event-details-signup-button {
+border-color: #e9168c;
+color: #e9168c;
+}
+
+.row .bw-display-layer .bwt-events-main .bwt-event-details-signup-button:hover {
+background: #e9168c;
+color: #fff;
+}
+
+.row .bw-display-layer .bwt-events-main .bwt-events-main-store-link {
+opacity: 0.75;
+}
+
+/* Button Hover */
+.row .bw-display-layer .bwt-events-social-facebook:hover, 
+.row .bw-display-layer .bwt-events-social-twitter:hover, 
+.row .bw-display-layer .bwt-events-social-email:hover {
+color: #e9168c;
+}
+
+/* Hidden Sections */ 
+
+.bwt-events-other-events,
+.bwt-store-show-stylists,
+.bwt-store-show-email-signup,
+.fa-mobile-phone:before, 
+.fa-mobile:before, 
+.bw-display-layer .bwt-store-phone-number-link-prefix:before,
+.fa-envelope-o:before, .bw-display-layer .bwt-events-social-email:before, .bw-display-layer .bwt-store-email-link-prefix:before {
+display: none !important;
+}
+
+/* Event Page Styling */
+.row .bw-display-layer .bwt-events-main .bwt-event-details-date-time {
+font-size: 11px;
+}
+
+.bwt-events-rsvp-modal-description {
+margin-top: 25px !important;
+}
+
+/* Link Styling */
+.bw-display-layer .bwt-store-phone-number-link:active, 
+.bw-display-layer .bwt-store-phone-number-link:hover, 
+.bw-display-layer .bwt-store-phone-number-link:focus, 
+.bw-display-layer .bwt-store-email-link:active, 
+.bw-display-layer .bwt-store-email-link:hover, 
+.bw-display-layer .bwt-store-email-link:focus, 
+.bw-display-layer .bwt-store-email-link a:active, 
+.bw-display-layer .bwt-store-email-link a:hover, 
+.bw-display-layer .bwt-store-email-link a:focus,
+.row .bw-display-layer .bwt-store-event-link:hover,
+.row .bw-display-layer .bwt-index .bwt-index-store-body-details-explore-link:hover,
+.row .bwt-index-filters-expand-button:hover,
+.row .bwt-index-search-results-map-button:hover {
+color: #e9168c !important;
+text-decoration: underline;
+}
+
+.row .bw-display-layer .bwt-store-event-link,
+.row .bwt-index-filters-expand-button,
+.row .bwt-index-search-results-map-button {
+color: #e9168c !important;
+}
+
+
+.bw-display-layer a, 
+.bw-display-layer button {
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+.bw-display-layer .bwt-index .bwt-index-store-body-details-explore-link {
+width: 90% !important;
+font-family: "HelveticaNeueW01-57Cn", arial, sans-serif  !important;
+color: #e9168c !important;
+}
+
+/* Store Page Styling */
+
+.row .bw-display-layer .bwt-store-service-image div {
+background-size: cover !important;
+}
+
+.row .bwt-store-hours {
+font-weight: 700;
+}
+
+.row .bw-display-layer .bwt-store-service-title {
+margin-bottom: 12px;
+}
+
+.row .bw-display-layer .bwt-store-show-feed-title, 
+.row .bw-display-layer .bwt-store-services-title, 
+.row .bw-display-layer .bwt-store-show-email-signup-title, 
+.row .bw-display-layer .bwt-store-events-title, 
+.row .bw-display-layer .bwt-store-stylists-title, 
+.row .bw-display-layer .bwt-store-show-about-container h4, 
+.row .bw-display-layer .bwt-stores-nearby-title, 
+.row .bw-display-layer .bwt-events-more-events-title, 
+.row .bw-display-layer .bwt-events-nearby-events-title {
+font-size: 22px;
+font-weight: 400;
+}
+
+.bw-display-layer .bwt-store-event-title a {
+font-size: 26px;
+}
+
+/* Grad */
+.bwt-store-map-layer {
+position: absolute;
+width: 100%;
+height: 100%;
+background: rgba(255,255,255,0);
+background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)); 
+background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)); 
+background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)); 
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)); 
+}
+
+.bwt-index-store-body-cover {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: rgba(255,255,255,0);
+background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(233,22,140,0.7)); 
+background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(233,22,140,0.7)); 
+background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(233,22,140,0.7)); 
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(233,22,140,0.7)); 
+}
+
+.row .bw-display-layer .bwt-store-hours-table-date-column,
+.row .bw-display-layer .bwt-store-hours-table-hours-column {
+font-weight: 700;
+}
+
+
+.row .bw-display-layer .bwt-store-phone-number-link-prefix {
+background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/nyx/nyx_phone_icon.png");
+background-size: contain;
+background-repeat: no-repeat;
+height: 20px;
+width: 15px;
+}
+
+.row .bw-display-layer .bwt-events-social-email {
+background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/nyx/nyx_mail_icon.png");
+background-size: contain;
+background-repeat: no-repeat;
+height: 13px;
+width: 15px;
+}
+
+.row .bw-display-layer .bwt-store-phone-number-link-text {
+vertical-align: super;
+}
+
+.row .bw-display-layer .bwt-index .bwt-index-store-body-wrapper {
+background: rgba(56, 56, 56, 0.5);
+}
+
+.row .bw-display-layer .bwt-index .bwt-index-store-body-wrapper:hover {
+background: rgba(56, 56, 56, 0.75);
+}
+
+.row .bw-display-layer .bwt-index .bwt-index-main-title {
+font-weight: 300;
+}
+
+.row .bw-display-layer .bwt-index .bwt-index-search-form-input {
+font-style: normal;
+}
+
+.row .bw-display-layer .bwt-index .bwt-index-search-results-notice-details {
+letter-spacing: 1.25px;
+font-weight: 700;
+}
+
+.row .bwt-filters-features h5 {
+font-weight: 700;
+}
+
+.row .bw-display-layer .bwt-index .bwt-store-phone-number-link-text {
+color: #e9168c !important;
+}

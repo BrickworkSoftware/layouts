@@ -478,3 +478,23 @@ bwt-map-cover
     border: none !important;
 }
 
+/*Store Index Map Black Gradient*/
+.bwt-index-store-body-cover {
+   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)) !important;
+}
+
+/*Store page mobile phone number alignment*/
+@media screen and (max-width:513px) {
+   .bwt-store-phone-number-link-text {
+         vertical-align: baseline !important;
+   }
+   .bwt-store-upper-address-bottom a {
+      font-size: 0.75rem !important;
+   }
+}
+
+/*Store Page Background Image*/
+.row .bw-display-layer .bwt-store-show-loading-content .bwt-store-hero-image {
+   background-repeat: no-repeat !important;
+   background-size: cover !important;
+}

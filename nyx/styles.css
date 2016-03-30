@@ -518,3 +518,9 @@ p.bwt-events-rsvp-success-details {
 
 /*Store sub-nav font size*/
 .bwt-store-nav-list { font-size: 1.1rem !important; }
+
+/*Button letter Kerning*/
+.bwt-store-map-button-text, .bwt-store-service .brickwork-button, .bwt-events-map-button, 
+.bwt-index-store-body-details-explore-link, .bwt-store-map-button {
+   letter-spacing: .05rem !important;
+}

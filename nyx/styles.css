@@ -524,3 +524,8 @@ p.bwt-events-rsvp-success-details {
 .bwt-index-store-body-details-explore-link, .bwt-store-map-button {
    letter-spacing: .05rem !important;
 }
+
+.bwt-store-services-title, .bwt-store-events-title { 
+   font-size: 43px !important; 
+   font-family: "HelveticaNeueW01-47LtCn_692686", arial, sans-serif !important;
+}

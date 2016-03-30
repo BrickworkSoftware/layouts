@@ -1,6 +1,6 @@
-.navigation
+.site_header .navigation
 {
-    z-index: 4 !important;
+    z-index: 999 !important;
 }
 
 .bw-display-layer .bwt-store-main-body

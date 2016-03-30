@@ -510,3 +510,8 @@ p.bwt-events-rsvp-success-details {
          font-size: 10px !important;
    }
 }
+
+/*Back to Store Button Hover State*/
+.bwt-events-main-store-link:hover {
+   color: #fff !important;
+}

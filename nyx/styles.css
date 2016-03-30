@@ -498,3 +498,8 @@ bwt-map-cover
    background-repeat: no-repeat !important;
    background-size: cover !important;
 }
+
+/*Fix text overlap in RSVP confirmation view*/
+p.bwt-events-rsvp-success-details {
+   margin-top: 30px !important;
+}

@@ -515,3 +515,6 @@ p.bwt-events-rsvp-success-details {
 .bwt-events-main-store-link:hover {
    color: #fff !important;
 }
+
+/*Store sub-nav font size*/
+.bwt-store-nav-list { font-size: 1.1rem !important; }

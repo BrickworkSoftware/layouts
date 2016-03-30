@@ -503,3 +503,10 @@ bwt-map-cover
 p.bwt-events-rsvp-success-details {
    margin-top: 30px !important;
 }
+
+/*Fix split hours on iPhone5 store pages*/
+@media screen and (max-width: 330px) {
+   .bw-display-layer .bwt-store-hours-table {
+         font-size: 10px !important;
+   }
+}

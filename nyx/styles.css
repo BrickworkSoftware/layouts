@@ -137,7 +137,9 @@ p
 .bw-display-layer .bwt-store-events-mobile-title,
 .bw-display-layer .bwt-store-stylists-mobile-title,
 .bw-display-layer .bwt-store-main-hours-info-mobile-title,
-.bw-display-layer .bwt-mobile-carousel-controls-feedback
+.bw-display-layer .bwt-mobile-carousel-controls-feedback,
+.bw-display-layer .bwt-stores-nearby-store-type,
+.bw-display-layer .bwt-store-header-type
 {
     font-family: 'HelveticaNeueW01-57Cn', arial, sans-serif !important;
 }
@@ -175,7 +177,8 @@ p
 .bw-app .bwt-store-appt-success-button:hover,
 .row .bw-display-layer .bwt-store-service-link:hover,
 .row .bw-display-layer .bwt-appointment-modal-button-wrapper .brickwork-button:hover,
-.row .bw-display-layer .bwt-index .bwt-index-search-form-submit:hover
+.row .bw-display-layer .bwt-index .bwt-index-search-form-submit:hover,
+.row .bw-display-layer .bwt-store-map-link:hover .bwt-store-map-button
 {
     background: #d90c7f !important;
 }
@@ -266,9 +269,9 @@ p
 }
 
 /* Link Styling */
-.bw-display-layer .bwt-store-phone-number-link:active,
-.bw-display-layer .bwt-store-phone-number-link:hover,
-.bw-display-layer .bwt-store-phone-number-link:focus,
+.bw-display-layer .bwt-store-phone-number-link:active .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-phone-number-link:focus .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-email-link:active,
 .bw-display-layer .bwt-store-email-link:hover,
 .bw-display-layer .bwt-store-email-link:focus,
@@ -449,6 +452,11 @@ bwt-map-cover
     font-style: normal;
 }
 
+.row .bw-display-layer .bwt-stores-nearby-store-type
+{
+    padding: 0;
+}
+
 .row .bw-display-layer .bwt-index .bwt-index-search-results-notice-details
 {
     font-weight: 700;
@@ -479,57 +487,80 @@ bwt-map-cover
 }
 
 /*Store Index Map Black Gradient*/
-.bwt-index-store-body-cover {
-   background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,0.7)) !important;
+.bwt-index-store-body-cover
+{
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.7)) !important;
 }
 
 /*Store page mobile phone number alignment*/
-@media screen and (max-width:513px) {
-   .bwt-store-phone-number-link-text {
-         vertical-align: baseline !important;
-   }
-   .bwt-store-upper-address-bottom a {
-      font-size: 0.75rem !important;
-   }
+@media screen and (max-width:513px)
+{
+    .bwt-store-phone-number-link-text
+    {
+        vertical-align: baseline !important;
+    }
+    .bwt-store-upper-address-bottom a
+    {
+        font-size: .75rem !important;
+    }
 }
 
 /*Store Page Background Image*/
-.row .bw-display-layer .bwt-store-show-loading-content .bwt-store-hero-image {
-   background-repeat: no-repeat !important;
-   background-size: cover !important;
+.row .bw-display-layer .bwt-store-show-loading-content .bwt-store-hero-image
+{
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
 }
 
-/*Fix text overlap in RSVP confirmation view*/
-p.bwt-events-rsvp-success-details {
-   margin-top: 30px !important;
+p.bwt-events-rsvp-success-details
+{
+    margin-top: 30px !important;
+}
+
+.bw-display-layer .bwt-index .bwt-index-store-body-wrapper:hover
+{
+    background: rgba(233,22,140,.7) !important;
 }
 
 /*Fix split hours on iPhone5 store pages*/
-@media screen and (max-width: 330px) {
-   .bw-display-layer .bwt-store-hours-table {
-         font-size: 10px !important;
-   }
+@media screen and (max-width: 330px)
+{
+    .bw-display-layer .bwt-store-hours-table
+    {
+        font-size: 10px !important;
+    }
 }
 
 /*Back to Store Button Hover State*/
-.bwt-events-main-store-link:hover {
-   color: #fff !important;
+.bwt-events-main-store-link:hover
+{
+    color: #fff !important;
 }
 
 /*Store sub-nav font size*/
-.bwt-store-nav-list { font-size: 0.9rem !important; }
+.bwt-store-nav-list
+{
+    font-size: .9rem !important;
+}
 
 /*Button letter Kerning*/
-.bwt-store-map-button-text, .bwt-store-service .brickwork-button, .bwt-events-map-button, 
-.bwt-index-store-body-details-explore-link, .bwt-store-map-button {
-   letter-spacing: .05rem !important;
+.bwt-store-map-button-text,
+.bwt-store-service .brickwork-button,
+.bwt-events-map-button,
+.bwt-index-store-body-details-explore-link,
+.bwt-store-map-button
+{
+    letter-spacing: .05rem !important;
 }
 
-.bwt-store-services-title, .bwt-store-events-title { 
-   font-size: 32px !important; 
-   font-family: "HelveticaNeueW01-47LtCn_692686", arial, sans-serif !important;
+.bwt-store-services-title,
+.bwt-store-events-title
+{
+    font-family: 'HelveticaNeueW01-47LtCn_692686', arial, sans-serif !important;
+    font-size: 32px !important;
 }
 
-.bwt-store-header-title {
-   font-family: "HelveticaNeueW01-47LtCn_692686", arial, sans-serif !important;
+.bwt-store-header-title
+{
+    font-family: 'HelveticaNeueW01-47LtCn_692686', arial, sans-serif !important;
 }

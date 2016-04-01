@@ -581,10 +581,21 @@ p.bwt-events-rsvp-success-details
 
 .bw-display-layer .bwt-index .bwt-index-search-form-input { border: 1px solid #000 !important; }
 
-.bwt-index-store-body-details-address, .bwt-store-address-line, .bwt-store-address-line, .bwt-index-store-address-1, .bwt-index-store-address-2 { 
+.bwt-index-store-body-details-address, .bwt-store-address-line, .bwt-store-address-line, .bwt-index-store-address-1, .bwt-index-store-address-2,
+.bwt-store-hours-table-date-column, .bwt-store-hours-table-hours-column 
+{ 
 	font-weight: normal !important; 
 }
 
 .bw-display-layer .bwt-store-events-container-mobile .bwt-store-event {
   border: 0px !important;
 }
+
+.bwt-stores-nearby-store-type, .bwt-stores-nearby-distance { color: #000 !important; }
+
+.bwt-stores-nearby-store-type { border-bottom: 2px solid #000; }
+.bwt-stores-nearby-store-type:hover { border-bottom: 2px solid #787878; }
+
+.bwt-stores-nearby-store-type:hover, .bwt-stores-nearby-distance:hover { color: #787878 !important; }
+
+.bwt-store-event-title { line-height: 2rem !important}

@@ -593,9 +593,10 @@ p.bwt-events-rsvp-success-details
 
 .bwt-stores-nearby-store-type, .bwt-stores-nearby-distance { color: #000 !important; }
 
-.bwt-stores-nearby-store-type { border-bottom: 2px solid #000; }
-.bwt-stores-nearby-store-type:hover { border-bottom: 2px solid #787878; }
+.bw-display-layer .bwt-stores-nearby-store-type { border-bottom: 2px solid #000 !important; }
+
+.bw-display-layer .bwt-stores-nearby-store-type:hover { border-bottom: 2px solid #787878 !important; }
 
 .bwt-stores-nearby-store-type:hover, .bwt-stores-nearby-distance:hover { color: #787878 !important; }
 
-.bwt-store-event-title { line-height: 2rem !important}
+.bw-display-layer .bwt-store-event-title { line-height: 1.0 !important}

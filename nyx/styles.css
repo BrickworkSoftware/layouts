@@ -600,3 +600,11 @@ p.bwt-events-rsvp-success-details
 .bwt-stores-nearby-store-type:hover, .bwt-stores-nearby-distance:hover { color: #787878 !important; }
 
 .bw-display-layer .bwt-store-event-title { line-height: 1.0 !important}
+
+@media screen and (min-width: 751px) {
+   img.mobile-logo { display: none !important; }
+}
+
+@media screen and (max-width: 750px) {
+   img.desktop-tablet-logo { display: none !important; }
+}

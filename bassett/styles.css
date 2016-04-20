@@ -1,0 +1,180 @@
+h4, h6 { color: #54555a; }
+
+.bw-appointment-header-column.selected, .bw-appointment-header-column.selected a {
+  color: #02bce5;
+  font-family: Museo Slab !important;
+}
+
+.bw-appointment-header-column.selected, .bw-appointment-header-column.selected a span { color: #02bce5; }
+
+.bw-appointment-header-column::before { color: #bdbdbd; }
+
+.bw-appointment-header-column.completed a  {
+  text-transform: capitalize !important;
+  color: #bdbdbd;
+  font-family: Museo Slab !important;
+}
+
+.bw-appointment-header-feedback {
+  color: #bdbdbd;
+  font-family: Museo Slab !important;
+}
+
+.bw-appointment-header-column span {
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: Museo Slab;
+}
+
+.bw-appointment-step-container-choose-associate { margin-top: 60px; }
+
+.bw-appointment-service-link:active, .bw-appointment-service-link:hover, .bw-appointment-service-link:focus {
+  border-color: #02bce5 !important;
+}
+
+.appointment-rsvp-container .title h1 {
+  color: #54555a;
+  text-transform: capitalize;
+  font-family: Museo Slab !important;
+}
+
+.appointment-rsvp-container h1 {
+  color: #54555a;
+  text-transform: capitalize;
+  font-family: Museo Slab !important;
+  display: block !important;
+}
+
+.bw-appointment-service-link {
+  width: 250px !important;
+  padding-top: 25px;
+}
+.bw-appointment-service-link-name {
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #666;
+  font-family: Museo Slab;
+}
+
+.bw-appointment-service-link-description {
+  font-style: normal;
+  font-size: 12px;
+  padding: 15px 20px;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+.appointment-rsvp-container .button-clean   {
+  background-color: #02bce5 !important;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+.appointment-rsvp-container .store-container .store-name h1 {
+  color: #54555a;
+  text-transform: capitalize;
+  font-size: 16px;
+  text-align: left !important;
+}
+
+.appointment-rsvp-container .local-stores h3 { font-style: normal; }
+
+.appointment-rsvp-container .local-stores .search h3 {
+  font-style: normal;
+  color: #54555a;
+}
+
+.appointment-rsvp-container .store-container .store-name .ribbon-banner a {
+  background: none !important;
+  color: #54555a;
+}
+
+.appointment-rsvp-container .store-container .address h4 {
+  font-weight: normal;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .appointment-rsvp-container .store-container .store-name .ribbon-banner a:before {
+    border-top: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-left: none !important;
+  }
+}
+.search_header .selected_month  { display: none; }
+
+.search_header .date_selection_container .date_selector.selected { background: #02bce5; }
+
+.search_header .date_selection_container .date_selector:hover { background: #02bce5; }
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body    a.appointment_link:hover {
+  background: #02bce5;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.selected {
+  border: solid 2px #02bce5;
+}
+
+.search_header .date_selection_container .date_selector .dayname_only {
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+.search_header .date_selection_container .date_selector .small_day {
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+.search_header .date_selection_container .date_selector  {
+  font-family: Museo Slab;
+  color: #54555a;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .segment_name {
+  color: #54555a;
+  font-family: Museo Slab;
+}
+
+.appointment-rsvp-container input[type="text"] {  border: solid 1px #e6e6e6; }
+
+table tr td { color: #54555a; }
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body {
+  border-left: solid 2px #02bce5;
+  border-right: solid 2px #02bce5;
+  border-bottom: solid 2px #02bce5;
+}
+
+ul.associates-grid li .associate_label { border: 1px solid #02bce5; }
+
+ul.associates-grid li .associate_label:hover { border: 1px solid #02bce5; }
+
+ul.associates-grid li .associate-info { background-color:  #02bce5; }
+
+ul.associates-grid li .associate-info:hover { background-color:  #02bce5; }
+
+.appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit[disabled] {
+  background-color: #cff2fa;
+}
+
+.appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit {
+  background-color: #02bce5;
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+ul.associates-grid li .associate-info h6.associate_name { font-family: Museo Slab; }
+
+.appointment-rsvp-container #appointment-confirmation .details {
+  font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+  color: #54555a;
+}
+
+.appointment-rsvp-container #appointment-confirmation .confirmation_title {
+  font-family: Museo Slab;
+  color: #54555a;
+}
+
+.appointment-rsvp-container .button {
+  background-color: #02bce5;
+}
+
+.appointment-rsvp-container .button:hover {
+  background-color: #02bce5;
+}

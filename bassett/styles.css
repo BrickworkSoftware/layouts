@@ -68,6 +68,9 @@ h4, h6 { color: #54555a; }
   font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
 }
 
+.appointment-rsvp-container .button-clean:hover {
+    opacity: .7;
+}
 .appointment-rsvp-container .store-container .store-name h1 {
   color: #54555a;
   text-transform: capitalize;
@@ -75,7 +78,10 @@ h4, h6 { color: #54555a; }
   text-align: left !important;
 }
 
-.appointment-rsvp-container .local-stores h3 { font-style: normal; }
+.appointment-rsvp-container .local-stores h3 {
+    font-style: normal;
+    font-family: Museo Slab;
+}
 
 .appointment-rsvp-container .local-stores .search h3 {
   font-style: normal;
@@ -157,6 +163,10 @@ ul.associates-grid li .associate-info:hover { background-color:  #02bce5; }
 .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit {
   background-color: #02bce5;
   font-family: "proxima-nova", "Helvetica", "Arial", sans-serif;
+}
+
+.appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit:hover {
+    opacity: .7;
 }
 
 ul.associates-grid li .associate-info h6.associate_name { font-family: Museo Slab; }

@@ -367,7 +367,8 @@ p
 /* Grad */
 .bwt-store-map-layer,
 .bwt-store-image-cover,
-.bwt-map-cover
+.bwt-map-cover,
+.bwt-event-map-cover
 {
     position: absolute;
     top: 0;

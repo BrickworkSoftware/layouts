@@ -24,6 +24,18 @@
       color: transparent !important;
     }
   }
+  
+/*NTC and NRC Links*/
+.bwt-store-service-body-container .nikeRunTrainLinks {
+	color: #fa5400 !important;
+	text-decoration: underline !important;
+}
+
+.nikeRunTrainLinks {
+	padding: 0px !important;
+	background: none !important;
+	border: 0px !important;
+}
 
 /* Stop confirm button from breaking box on iPhone5 */
 @media only screen and (max-width: 375px) {

@@ -28,6 +28,13 @@
             box-shadow: 0 1px 11px -1px rgba(145,145,145,.75);
 }
 
+
+.b-footer-navigation {
+    margin-left: 0;
+    text-align: left;
+    padding: 0 0 0 35px !important;
+}
+
 .bw-display-layer,
 .bw-display-layer .bwt-index,
 .bw-app
@@ -367,8 +374,7 @@ p
 /* Grad */
 .bwt-store-map-layer,
 .bwt-store-image-cover,
-.bwt-map-cover,
-.bwt-event-map-cover
+.bwt-map-cover
 {
     position: absolute;
     top: 0;
@@ -569,15 +575,15 @@ p.bwt-events-rsvp-success-details
 }
 
 @media screen and (max-width: 513px) {
-	.bw-display-layer span.bwt-store-phone-number-link-prefix { 
-		vertical-align: bottom !important;
-	}
+    .bw-display-layer span.bwt-store-phone-number-link-prefix { 
+        vertical-align: bottom !important;
+    }
 }
 
 .bwt-expand-button-collapsed, #bwt-show-map-button, .bw-display-layer .bwt-store-phone-number-link-text, .bwt-index-store-body-details-explore-link,
 .bwt-store-upper-address-bottom a
 { 
-	font-family: "HELVETICANEUEW01-47LTCN_692686" !important;
+    font-family: "HELVETICANEUEW01-47LTCN_692686" !important;
 }
 
 .bw-display-layer .bwt-index .bwt-index-search-form-input { border: 1px solid #000 !important; }
@@ -585,7 +591,7 @@ p.bwt-events-rsvp-success-details
 .bwt-index-store-body-details-address, .bwt-store-address-line, .bwt-store-address-line, .bwt-index-store-address-1, .bwt-index-store-address-2,
 .bwt-store-hours-table-date-column, .bwt-store-hours-table-hours-column 
 { 
-	font-weight: normal !important; 
+    font-weight: normal !important; 
 }
 
 .bw-display-layer .bwt-store-events-container-mobile .bwt-store-event {

@@ -115,10 +115,10 @@
   color: #acabab;
 }
 #bw-surlatable-frontend-template .bwt-store-service-body-container hr {
-  border: solid #252525;
+  border: 1px solid #252525;
 }
 #bw-surlatable-frontend-template .bwt-nav hr {
-  border: solid #5b992a;
+  border: 1px solid #5b992a;
 }
 #bw-surlatable-frontend-template .bwt-ribbon {
   background-color: #e7e7e7;

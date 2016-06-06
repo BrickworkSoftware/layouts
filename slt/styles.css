@@ -68,8 +68,7 @@
 #bw-surlatable-frontend-template .bwt-events-more-events-title, #bw-surlatable-frontend-template .bwt-nearby-event-title, #bw-surlatable-frontend-template .bwt-nearby-event-date,
 #bw-surlatable-frontend-template .bwt-store-event-body-wrapper .bwt-store-event-body .bwt-store-event-description p,
 #bw-surlatable-frontend-template .bwt-store-event-body-wrapper .bwt-store-event-dates, #bw-surlatable-frontend-template .bwt-store-event-body-wrapper .bwt-store-event-title a,
-#bw-surlatable-frontend-template .bwt-event-details-location a.bwt-store-location-mobile-title,
-#bw-surlatable-frontend-template .bwt-event-details-container .bwt-event-details-date-time {
+#bw-surlatable-frontend-template .bwt-event-details-container .bwt-event-details-date-time, #bw-surlatable-frontend-template .bwt-nearby-event-description {
   color: #777777;
 }
 #bw-surlatable-frontend-template .bwt-store-main-wrapper .bwt-store-phone-number-link-prefix, #bw-surlatable-frontend-template .bwt-store-main-wrapper .bwt-store-phone-number-link-text,
@@ -88,11 +87,12 @@
   color: #5d2140;
   text-decoration: underline;
 }
-#bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-number a, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-email a {
+#bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-number a, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-email a, #bw-surlatable-frontend-template .bwt-event-details-location-address .fa.fa-envelope {
   color: #5d2140;
 }
 #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-number a:active, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-email a:active,
-#bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-number a:hover, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-email a:hover {
+#bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-number a:hover, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-store-email a:hover,
+#bw-surlatable-frontend-template .bwt-event-details-location-address .fa.fa-envelope:hover, #bw-surlatable-frontend-template .bwt-event-details-location-address .fa.fa-envelope:active {
   color: #5d2140;
   text-decoration: underline;
 }
@@ -141,7 +141,7 @@
 #bw-surlatable-frontend-template .bwt-filters-features h5.bwt-filters-features-title, #bw-surlatable-frontend-template .bwt-event-details-location-address .bwt-event-details-location-title,
 #bw-surlatable-frontend-template .bwt-event-details-location-address, #bw-surlatable-frontend-template .bwt-nearby-event-date, #bw-surlatable-frontend-template .bwt-store-event-body-wrapper .bwt-store-event-body .bwt-store-event-description p,
 #bw-surlatable-frontend-template .bwt-store-details-copy-mobile .bwt-store-parking-copy, #bw-surlatable-frontend-template .bwt-event-details-container .bwt-event-details-date-time,
-#bw-surlatable-frontend-template .bwt-event-details-container .bwt-event-details-description, #bw-surlatable-frontend-template .bwt-event-details-location .bwt-store-location-mobile-title {
+#bw-surlatable-frontend-template .bwt-event-details-container .bwt-event-details-description {
   font-size: 14px;
 }
 #bw-surlatable-frontend-template .bwt-more-info-toggle, #bw-surlatable-frontend-template .bwt-index-search-form-input, #bw-surlatable-frontend-template .bwt-stores-nearby-search-form,
@@ -162,7 +162,7 @@
 #bw-surlatable-frontend-template .bwt-event-details-location a.bwt-store-location-mobile-title:hover,
 #bw-surlatable-frontend-template .bwt-event-details-location a.bwt-store-location-mobile-title:active,
 #bw-surlatable-frontend-template .bwt-event-details-location a.bwt-store-location-mobile-title:focus {
-  color: #777;
+  color: #6b5555;
   text-decoration: underline;
 }
 #bw-surlatable-frontend-template .bwt-index-search-results-map-button:hover, #bw-surlatable-frontend-template .bwt-expand-button-expanded:hover,
@@ -235,7 +235,7 @@
   text-align: center;
   width: 60%;
   background-color: #5b992a;
-  padding: 5px 0px;
+  padding: 5px 10px;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
@@ -274,11 +274,12 @@
 }
 #bw-surlatable-frontend-template .bwt-event-details-signup {
   background-color: #5b992a !important;
-  padding: 5px 0px !important;
+  padding: 5px 10px !important;
   font-size: 14px !important;
   color: #fff !important;
   border-radius: 3px !important;
   border: 1px solid #5b992a !important;
+  text-align: center;
 }
 #bw-surlatable-frontend-template .bwt-event-details-signup a {
   color: #fff;
@@ -291,7 +292,7 @@
 }
 #bw-surlatable-frontend-template .bwt-store-mobile-explore-button-wrapper {
   background-color: #5b992a;
-  padding: 5px 0px;
+  padding: 5px 10px;
   border-radius: 4px;
 }
 #bw-surlatable-frontend-template .bwt-store-mobile-explore-button-wrapper a.bwt-store-mobile-explore-button {
@@ -337,11 +338,10 @@
   text-align: center;
   width: 60%;
   background-color: #5b992a;
-  padding: 5px 0px !important;
+  padding: 5px 10px !important;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
-  margin: 0 auto;
   border-radius: 3px;
   font-family: 'Helvetica';
 }
@@ -354,14 +354,20 @@
   color: #fff;
   text-decoration: underline !important;
 }
-@media (max-width: 450px) {
+@media (max-width: 640px) {
   #bw-surlatable-frontend-template .bwt-store-event-link-container, #bw-surlatable-frontend-template .bwt-nearby-event-link-container {
-    font-size: 12px;
+    width: 90%;
+    margin-left: 5%;
   }
+}
+#bw-surlatable-frontend-template .bwt-pagination, #bw-surlatable-frontend-template .bwt-store-map-button, #bw-surlatable-frontend-template .bwt-store-map-button-text,
+#bw-surlatable-frontend-template .bwt-store-show-email-signup-submit, #bw-surlatable-frontend-template .bwt-events-map-button {
+  font-size: 14px;
 }
 #bw-surlatable-frontend-template .bwt-store-feature-title-mobile, #bw-surlatable-frontend-template .bwt-store-services-title-mobile,
 #bw-surlatable-frontend-template .bwt-store-events-title-mobile, #bw-surlatable-frontend-template .bwt-store-events-title-mobile,
-#bw-surlatable-frontend-template .bwt-store-show-nearby-title-mobile, #bw-surlatable-frontend-template .bwt-store-location-mobile-title {
+#bw-surlatable-frontend-template .bwt-store-show-nearby-title-mobile, #bw-surlatable-frontend-template .bwt-store-location-mobile-title,
+#bw-surlatable-frontend-template .bwt-events-more-events-mobile-title {
   color: #6b5555;
   font-size: 18px;
   font-family: 'Helvetica';

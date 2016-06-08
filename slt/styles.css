@@ -423,3 +423,6 @@
   color: #777;
   text-decoration: underline;
 }
+.bw-app .bwt-index ul.bwt-features-list {
+  display: none;
+}

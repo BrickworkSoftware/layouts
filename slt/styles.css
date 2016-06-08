@@ -36,7 +36,7 @@
 .bw-app .bwt-store-details-copy-mobile .bwt-store-parking-copy, .bw-app .bwt-store-details-copy-mobile .bwt-store-details-description-mobile,
 .bw-app .bwt-event-details-date-time .bwt-event-details-dates,
 .bw-app .bwt-event-details-date-time .bwt-event-details-times {
-  font-family: 'Helvetica';
+  font-family: 'Arial';
 }
 .bw-app .bwt-index-main-title, .bw-app .bwt-store-address-mobile .bwt-store-address, .bw-app .bwt-store-alert-mobile,
 .bw-app .bwt-location-details-title, .bw-app .bwt-store-details-copy-subtitle, .bw-app .bwt-store-parking-subtitle,
@@ -53,7 +53,7 @@
 .bw-app .bwt-events-more-events-title, .bw-app .bwt-nearby-event-title, .bw-app .bwt-store-event-body-wrapper .bwt-store-event-title,
 .bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-event-details-location .bwt-store-location-mobile-title,
 .bw-app .bwt-event-image-info .bwt-event-details-title {
-  font-family: 'Helvetica';
+  font-family: 'Arial';
 }
 .bw-app .bwt-index-store-body-header-title, .bw-app .bwt-index-search-filters-container,
 .bw-app .bwt-store-show-details, .bw-app .bwt-store-services-title, .bw-app .bwt-store-events-title,
@@ -343,7 +343,7 @@
   text-transform: uppercase;
   font-weight: 600;
   border-radius: 3px;
-  font-family: 'Helvetica';
+  font-family: 'Arial';
 }
 .bw-app .bwt-store-event-link-container a, .bw-app .bwt-nearby-event-link-container a {
   color: #fff !important;
@@ -370,10 +370,10 @@
 .bw-app .bwt-events-more-events-mobile-title {
   color: #6b5555;
   font-size: 18px;
-  font-family: 'Helvetica';
+  font-family: 'Arial';
 }
 .bw-app span.bwt-more-info-toggle {
-  font-family: 'Helvetica';
+  font-family: 'Arial';
   color: #5b992a;
 }
 .bw-app .bwt-store-show-email-signup p.bwt-store-show-email-signup-description {
@@ -384,7 +384,7 @@
   display: none;
 }
 .bw-app .ui-widget {
-  font-family: 'Helvetica';
+  font-family: 'Arial';
   font-size: 14px;
 }
 .bw-app .ui-widget-header {
@@ -408,7 +408,7 @@
   border: none !important;
   background: none !important;
   color: #777777;
-  font-family: 'Helvetica';
+  font-family: 'Arial';
   text-align: center !important;
 }
 .bw-app .ui-state-highlight, .bw-app .ui-widget-content .ui-state-highlight {
@@ -429,7 +429,7 @@
 /*Culinary Details in Store Description*/
 
 a.culinaryPhone, a.culinaryLink, a.culinaryEmail {
-	font-family: Helvetica !important;
+	font-family: 'Arial' !important;
 	font-size: 14px !important;
 }
 

@@ -426,6 +426,10 @@
 .bw-app .bwt-index ul.bwt-features-list {
   display: none;
 }
+
+.bw-app .store-event-calendar .store-event-calendar-date {
+  top: 20%;
+}
 /*Culinary Details in Store Description*/
 
 a.culinaryPhone, a.culinaryLink, a.culinaryEmail {

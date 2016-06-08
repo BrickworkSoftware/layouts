@@ -6,14 +6,7 @@
   font-family: 'MrEavesSanBold';
   src: url("//s3.amazonaws.com/assets.brickworksoftware.com/SLT/MrEavesSanOT-Bold.otf") format("opentype");
 }
-.bw-app {
-  /* =========== 'Important!'' statements ===========*/
-  /* =========== Fonts ===========*/
-  /* =========== Colors ===========*/
-  /* =========== Font Size ===========*/
-  /* =========== Misc Styles===========*/
-  /*Calendar overrides */
-}
+
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-store-body-details-explore-link {
   color: #6d8b19 !important;
 }
@@ -426,7 +419,12 @@
 .bw-app .bwt-index ul.bwt-features-list {
   display: none;
 }
-
+.bw-app div#footer h6 {
+  font-size: 11px;
+}
+.bw-app div#footer #epilogue {
+  font-size: 12px;
+}
 .bw-app .store-event-calendar .store-event-calendar-date {
   top: 20%;
 }

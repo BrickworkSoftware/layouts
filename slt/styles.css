@@ -98,6 +98,13 @@
 .bw-app .fa-search {
   color: #353333;
 }
+
+.bw-app .bwt-store-address,
+.bw-app .bwt-store-hours-and-phone {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .bw-app .bwt-store-header-details-hours {
   color: #b9b8b8;
 }
@@ -428,8 +435,8 @@
 .bw-app .store-event-calendar .store-event-calendar-date {
   top: 20%;
 }
-/*Culinary Details in Store Description*/
 
+/*Culinary Details in Store Description*/
 a.culinaryPhone, a.culinaryLink, a.culinaryEmail {
 	font-family: 'Arial' !important;
 	font-size: 14px !important;

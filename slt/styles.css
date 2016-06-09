@@ -99,10 +99,10 @@
   color: #353333;
 }
 
-.bw-app .bwt-store-address,
-.bw-app .bwt-store-hours-and-phone {
-  padding-left: 5px;
-  padding-right: 5px;
+.bw-app .bwt-store-location-details-wrapper .bwt-store-address,
+.bw-app .bwt-store-location-details-wrapper .bwt-store-hours-and-phone {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
 }
 
 .bw-app .bwt-store-header-details-hours {

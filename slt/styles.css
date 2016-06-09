@@ -1,10 +1,14 @@
 @font-face {
-  font-family: 'MrEavesSan';
+  font-family: 'MrEavesSansRegular';
   src: url("//s3.amazonaws.com/assets.brickworksoftware.com/SLT/MrEavesSanOT-Reg.otf") format("opentype");
 }
 @font-face {
   font-family: 'MrEavesSanBold';
   src: url("//s3.amazonaws.com/assets.brickworksoftware.com/SLT/MrEavesSanOT-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MrEavesModernRegular';
+  src: url(https://s3.amazonaws.com/assets.brickworksoftware.com/SLT/MrEavesModOT-Reg.otf);
 }
 
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-store-body-details-explore-link {
@@ -466,4 +470,8 @@ a.culinaryLink {
 
 a.culinaryLink:hover{
 	text-decoration: underline !important;
+}
+/* Replace store hero image with default store image on store pages */
+.bwt-store-show-hero-image {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.filepicker.io/api/file/iDfKSTDSricW1lEdctvT) !important;
 }

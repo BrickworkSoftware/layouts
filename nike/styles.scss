@@ -180,3 +180,13 @@ img {
 .appointment-rsvp-container textarea{ height: 100px !important; }
 
 .bw-appointment-step-container-choose-time .bw-appointment-step-container-title  { margin-bottom: 0px; }
+
+/* Store index herom image font size */
+.bwt-index-nearby-store-alert, .bwt-index-nearby-store-distance {
+	font-size: 14px !important;
+}
+
+/*Store page store details store name*/
+.bwt-store-show-details-container .bwt-store-show-name {
+	text-transform: uppercase !important;
+}

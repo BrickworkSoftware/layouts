@@ -559,3 +559,8 @@ a.culinaryLink:hover {
   font-family: FontAwesome;
   content: "\f054";
 }
+
+/* Reduce store name size on index to stop line wrapping while font is Arial*/
+.bw-display-layer .bwt-index-store-body-header-title {
+  font-size: 14px !important;
+}

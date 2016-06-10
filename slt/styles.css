@@ -550,7 +550,6 @@ a.culinaryLink {
 a.culinaryLink:hover {
   text-decoration: underline !important;
 }
-
 /* Replace store hero image with default store image on store pages */
 .bwt-store-show-hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.filepicker.io/api/file/iDfKSTDSricW1lEdctvT) !important;

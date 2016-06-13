@@ -550,10 +550,6 @@ a.culinaryLink {
 a.culinaryLink:hover {
   text-decoration: underline !important;
 }
-/* Replace store hero image with default store image on store pages */
-.bwt-store-show-hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://cdn.filepicker.io/api/file/iDfKSTDSricW1lEdctvT) !important;
-}
 
 .navbar-custom .dropdown-menu > li.dropdown-submenu > a:after, .navbar-custom .dropdown-menu > li.dropdown-submenu > a:hover:after, .navbar-custom .dropdown-menu > li.dropdown-submenu > a:focus:after {
   font-family: FontAwesome;
@@ -563,4 +559,13 @@ a.culinaryLink:hover {
 /* Reduce store name size on index to stop line wrapping while font is Arial*/
 .bw-display-layer .bwt-index-store-body-header-title {
   font-size: 14px !important;
+}
+
+.bwt-featureLink {
+  color: #fff !important;
+}
+
+.bwt-featureLink:hover {
+  color: #fff !important;
+  text-decoration: underline !important;
 }

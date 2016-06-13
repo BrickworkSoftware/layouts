@@ -450,10 +450,6 @@
   color: #333;
 }
 
-.bw-app #topNavSearch, .bw-app #topNavSearchMobile {
-  display: none;
-}
-
 .bw-app .ui-widget {
   font-family: 'Arial';
   font-size: 14px;

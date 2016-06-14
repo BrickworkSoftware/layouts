@@ -1,8 +1,7 @@
 <div id="wrapper">
-<div id="SLTHeader">
-<div id="topHeader" class="">
-        <div class="row slt-top-logo-row">          
-         <div class="col-xs-7 slt-top-logo-col">
+<div id="topHeader" class="SLTHeader">
+        <div class="row slt-top-logo-row hidden-xs hidden-sm">          
+         <div class=" col-md-7 slt-top-logo-col">
            <a href="//www.surlatable.com" title="Sur La Table">
            <img src="//www.surlatable.com/images/slt_logo.png" class="img-responsive" alt="Sur La Table" title="Sur La Table">
           </a>
@@ -231,7 +230,7 @@
             </li>
             <li><a id="topHeaderCartTalk" class="generalHeaderLink" href="//www.surlatable.com/category/cat2482088/">Cart Talk</a>
             </li>
-            <li><a id="topHeaderStoreLocator" href="//stores.surlatable.com">Find a Store</a>
+            <li><a id="topHeaderStoreLocator" href="//www.surlatable.com/browse/storeLocator/landingPage.jsp">Find a Store</a>
             </li>
         </ul>
     </div>
@@ -253,12 +252,7 @@
             
         
 
-          <div id="searchMobile" class="visible-xs-block visible-sm-block">
-        <div id="topNavSearchMobile">
-          <input type="text" id="searchMobileInput" placeholder="SEARCH">
-          <span>›</span>
-        </div>
-        </div>      
+                 
         
                 
           
@@ -269,12 +263,15 @@
 <div class="navbar navbar-custom ">
             <div class="container-fluid">
                 <div class="navbar-header">
+
                     <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
+                    <div class="mobileLogo center-block"></div>
+                    <a href="//www.surlatable.com/cart/shoppingCart.jsp" class="visible-xs visible-sm shoppingCartBtn"><div class="glyphicon glyphicon-shopping-cart "></div></a>
                     <!--<a class="navbar-brand" href="#">Project name</a>-->
                 </div>
 
@@ -323,9 +320,7 @@
                                                                     <ul class="dropdown-menu">
                                                                         <li class="topNavHref "><a href="//www.surlatable.com/category/CAT-11149/">Purchase a Gift Card</a></li>
 
-<li class="topNavHref "><a onclick="loadPageFullPathForHeader('/account/include/acctCheckCardBalanceLookup.jsp',{isFromEditLink:'true'});" href="#">Check Gift Card Balance</a></li>
-
-<li class="topNavHref "><a onclick="loadPageFullPathForHeader('/account/include/acctHowToRedeemGiftCard.jsp',{isFromEditLink:'true'});" href="#">How to Redeem</a></li> <li class="topNavHref">
+ <li class="topNavHref">
                                                                             <a href="//www.surlatable.com/category/CAT-11149/Gift+Cards" title="More About ">More About&nbsp;Gift Cards</a>
                                                                         </li>
                                                                     </ul>
@@ -346,8 +341,7 @@
                                                                                     Recipes</a>
 
                                                                                 <ul class="dropdown-menu">
-                                                                                    <li class="">
-                                                                                                <a href="//www.surlatable.com/category/cat2460589/Spring+Recipes">Spring Recipes</a></li>
+                                                                                    
                                                                                         <li class="">
                                                                                                 <a href="//www.surlatable.com/category/cat2471705/Healthy+Recipes">Healthy Recipes</a></li>
                                                                                         <li class="">
@@ -957,11 +951,10 @@
 
                                                                                             <img onerror="this.src='//www.surlatable.com/styles/images/noImageSelected.jpg'" alt="" src="//www.surlatable.com/images/Category_Small_Images/baking_lemon_loaf.jpg">
                                                                                             <p class="topProductSecNavPromoText">
-                                                                                                Spring Baking Mixes</p>
+                                                                                                 Baking Mixes</p>
 
                                                                                             <span class="topProductSecNavPromoShop">
-                                  <a>
-                                    buy 1 get 1 half off</a>
+                                  
                                 </span>
                                                                                                 </div>
                                                                             </ul> <!---end secondary cat menu -->
@@ -1181,7 +1174,7 @@
 
                                                                                             <img onerror="this.src='//www.surlatable.com/styles/images/noImageSelected.jpg'" alt="" src="//www.surlatable.com/images/Category_Small_Images/dining_new_french_bistro.jpg">
                                                                                             <p class="topProductSecNavPromoText">
-                                                                                                Spring Dining Sale</p>
+                                                                                                 Dining Sale</p>
 
                                                                                             <span class="topProductSecNavPromoShop">
                                   <a>
@@ -1561,7 +1554,7 @@
 
                                                                                             <img onerror="this.src='//www.surlatable.com/styles/images/noImageSelected.jpg'" alt="" src="//www.surlatable.com/images/Category_Small_Images/home_spring_towels.jpg">
                                                                                             <p class="topProductSecNavPromoText">
-                                                                                                Seasonal Towels Buy 2 Get 1 Free</p>
+                                                                                                Seasonal Towels </p>
 
                                                                                             <span class="topProductSecNavPromoShop">
                                   <a>
@@ -1627,11 +1620,10 @@
 
                                                                                             <img onerror="this.src='//www.surlatable.com/styles/images/noImageSelected.jpg'" alt="" src="//www.surlatable.com/images/Category_Small_Images/food_lemon_mixes.jpg">
                                                                                             <p class="topProductSecNavPromoText">
-                                                                                                Spring Baking Mixes</p>
+                                                                                                 Baking Mixes</p>
 
                                                                                             <span class="topProductSecNavPromoShop">
-                                  <a>
-                                    buy 1 get 1 half off</a>
+                                
                                 </span>
                                                                                                 </div>
                                                                             </ul> <!---end secondary cat menu -->
@@ -1782,9 +1774,9 @@ $("#topNavSearch").unbind("click");
                                                                     <ul class="dropdown-menu">
                                                                         <li class="topNavHref "><a href="//www.surlatable.com/category/CAT-11149/">Purchase a Gift Card</a></li>
 
-<li class="topNavHref "><a onclick="loadPageFullPathForHeader('/account/include/acctCheckCardBalanceLookup.jsp',{isFromEditLink:'true'});" href="#">Check Gift Card Balance</a></li>
 
-<li class="topNavHref "><a onclick="loadPageFullPathForHeader('/account/include/acctHowToRedeemGiftCard.jsp',{isFromEditLink:'true'});" href="#">How to Redeem</a></li> <li class="topNavHref">
+
+ <li class="topNavHref">
                                                                             <a href="//www.surlatable.com/category/CAT-11149/Gift+Cards" title="More About ">More About&nbsp;Gift Cards</a>
                                                                         </li>
                                                                     </ul>
@@ -1805,8 +1797,7 @@ $("#topNavSearch").unbind("click");
                                                                                     Recipes</a>
 
                                                                                 <ul class="dropdown-menu">
-                                                                                    <li class="">
-                                                                                                <a href="//www.surlatable.com/category/cat2460589/Spring+Recipes">Spring Recipes</a></li>
+                                                                                    
                                                                                         <li class="">
                                                                                                 <a href="//www.surlatable.com/category/cat2471705/Healthy+Recipes">Healthy Recipes</a></li>
                                                                                         <li class="">
@@ -1915,12 +1906,7 @@ $("#topNavSearch").unbind("click");
 
                                                                             </li>
                                                                     <!--end top level li -->
-                                                                <li class="topNavHref">
-                                                                        <!--start top level li -->
-                                                                        <a href="//www.surlatable.com/category/cat1000433/Mothers+Day?cleanSession=true&amp;pCat=cat1000433" class="">
-                          Mother's Day</a>
-                      
-                                                                                    </li>
+                                                                
                                                                     <!--end top level li -->
                                                                 </ul>
                                 </div>
@@ -1933,7 +1919,7 @@ $("#topNavSearch").unbind("click");
                          <div id="topHeaderNav">
         <ul>
             <script type="text/javascript">
-      triggermail_email_address='terry.fritsch@surlatable.com';
+      triggermail_email_address='';
             
     </script>
   <script type="text/javascript">
@@ -1963,26 +1949,22 @@ $("#topNavSearch").unbind("click");
           $('#logoutbutton').click();
         }
       </script>
-      <form id="logoutForm" style="display:none" name="logoutForm" action="/index.jsp" method="get"><input name="_dyncharset" value="UTF-8" type="hidden"><input name="_dynSessConf" value="-2253245737502542010" type="hidden"><input id="logoutbutton" style="display:none" name="/atg/userprofiling/ProfileFormHandler.logout" value="submit" type="submit"><input name="_D:/atg/userprofiling/ProfileFormHandler.logout" value=" " type="hidden"><input name="/atg/userprofiling/Profile.grMode" value="false" type="hidden"><input name="_D:/atg/userprofiling/Profile.grMode" value=" " type="hidden"><input name="/atg/userprofiling/Profile.activeGRId" value="" type="hidden"><input name="_D:/atg/userprofiling/Profile.activeGRId" value=" " type="hidden"><input name="/atg/userprofiling/Profile.isSingleShipping" value="" type="hidden"><input name="_D:/atg/userprofiling/Profile.isSingleShipping" value=" " type="hidden"><input name="_DARGS" value="/includes/headerProfileLinks.jsp" type="hidden"></form><span id="topHeaderUserName">
-      
-            Hi
-          Terry,
-                      </span>
-                <li><a onclick="logout();return false;" id="topHeaderSignInOut" value="logout" rel="noFollow">(Sign Out)</a></li>
+      <form id="logoutForm" style="display:none" name="logoutForm" action="/index.jsp" method="get"><input name="_dyncharset" value="UTF-8" type="hidden"><input name="_dynSessConf" value="-2253245737502542010" type="hidden"><input id="logoutbutton" style="display:none" name="/atg/userprofiling/ProfileFormHandler.logout" value="submit" type="submit"><input name="_D:/atg/userprofiling/ProfileFormHandler.logout" value=" " type="hidden"><input name="/atg/userprofiling/Profile.grMode" value="false" type="hidden"><input name="_D:/atg/userprofiling/Profile.grMode" value=" " type="hidden"><input name="/atg/userprofiling/Profile.activeGRId" value="" type="hidden"><input name="_D:/atg/userprofiling/Profile.activeGRId" value=" " type="hidden"><input name="/atg/userprofiling/Profile.isSingleShipping" value="" type="hidden"><input name="_D:/atg/userprofiling/Profile.isSingleShipping" value=" " type="hidden"><input name="_DARGS" value="/includes/headerProfileLinks.jsp" type="hidden"></form>
+
+
+                
                 <li><a id="topHeaderAccount" href="/account/acctHome.jsp" rel="noFollow">My Account</a></li>
     <li>
-                        <a href="//www.surlatable.com/account/acctWishlistReview.jsp" rel="noFollow">Wish List</a> 
+                        <a href="/account/acctWishlistReview.jsp" rel="noFollow">Wish List</a> 
 
   </li>
                     <li>
-                        <a href="//www.surlatable.com/account/acctOrderHistory.jsp" id="topHeaderTrackOrder" rel="noFollow">Track My Order</a>
+                        <a href="/account/acctOrderHistory.jsp" id="topHeaderTrackOrder" rel="noFollow">Track My Order</a>
 
   </li>
                 <li><a id="topHeaderBlog" href="http://blog.surlatable.com">Blog</a>
             </li>
-            <li><a id="topHeaderCartTalk" class="generalHeaderLink" href="//www.surlatable.com/category/cat2482088/">Cart Talk</a>
-            </li>
-            <li><a id="topHeaderStoreLocator" href="//stores.surlatable.com">Find a Store</a>
+            <li><a id="topHeaderCartTalk"  href="//www.surlatable.com/category/cat2482088/">Cart Talk</a>
             </li>
         </ul>
     </div>
@@ -1991,7 +1973,40 @@ $("#topNavSearch").unbind("click");
                     <!-- end hidden duplicate Header links for mobile-->
                         
                 </div> <!--/#navbar-->
+
+
+
             </div><!--/.container-fluid-->
         </div>
-</div>
+				
+
+
+
+<script>
+  $(document).ready(function(){
+
+
+    $("#navSearchMobile").submit(function(e){
+      e.preventDefault();
+      var searchVal = encodeURI($("#searchMobileInput").val());
+      window.location.href ="//www.surlatable.com/search/search.jsp?N=0&Ntt="+searchVal;
+    });
+
+  });
+  </script>
+
+<div id="searchMobile" class="visible-xs-block visible-sm-block row">
+    <div id="topNavSearchMobile" class="col-xs-12 form-group">
+        <form id="navSearchMobile">
+            <div class="row">
+                <div class="col-xs-9">
+                  <input type="text" id="searchMobileInput" class="form-control" placeholder="SEARCH">
+                </div>
+                <div class="col-xs-3">
+                    <input type="submit" class="btn btn-default" value="SEARCH">
+                </div>
+            </div>
+        </form>
+    </div>
+</div> 
 </div>

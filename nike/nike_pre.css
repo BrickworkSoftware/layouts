@@ -143,3 +143,5 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 	background: none !important;
 	border: 0px !important;
 }
+
+.bwt-appointment-submit { color: #000 !important; }

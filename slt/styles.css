@@ -160,14 +160,16 @@
   font-size: 28px;
 }
 
-.bw-app .bwt-store-event-body-wrapper .bwt-store-event-title {
-  font-size: 22px;
-}
-
 .bw-app .bwt-nearby-store-name, .bw-app .bwt-feature-body-container, .bw-app .bwt-index-store-body-header-title,
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-search-form-submit .fa, .bw-app .bwt-nearby-event-title,
 .bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-feature-body-name {
   font-size: 18px;
+}
+
+@media(max-width: 450px ) {
+  .bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates  {
+    font-size: 16px;
+  }
 }
 
 .bw-app .bwt-feature-body-copy {
@@ -187,7 +189,7 @@
 
 .bw-app .bwt-more-info-toggle, .bw-app .bwt-index-search-form-input, .bw-app .bwt-stores-nearby-search-form,
 .bw-app .bwt-store-show-email-signup p.bwt-store-show-email-signup-description, .bw-app .bwt-nearby-event-info .bwt-nearby-event-description p {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .bw-app .bwt-store-hours-table-hours-column {
@@ -279,7 +281,6 @@
   padding: 5px 10px;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600;
   margin-left: 20%;
   border-radius: 3px;
   bottom: 20px;
@@ -325,7 +326,6 @@
   font-size: 14px !important;
   color: #fff !important;
   border-radius: 3px !important;
-  border: 1px solid #5b992a !important;
   text-align: center;
 }
 

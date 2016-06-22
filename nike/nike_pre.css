@@ -151,4 +151,5 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
   text-transform: uppercase !important;
 
 }
-.bwt-store-description { font-family: "TradeGothicCond", Helvetica, Arial, sans-serif !important;}
+.bwt-store-description h6 { font-family: "TradeGothicCond", Helvetica, Arial, sans-serif !important;}
+.bwt-store-description p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}

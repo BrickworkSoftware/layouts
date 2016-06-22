@@ -14,7 +14,6 @@
   font-family: 'MrEavesModernBold';
   src: url("//s3.amazonaws.com/assets.brickworksoftware.com/SLT/MrEavesModOT-Bold.otf") format("opentype");
 }
-
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-store-body-details-explore-link {
   color: #6d8b19 !important;
 }
@@ -74,7 +73,8 @@
 .bw-app .bwt-events-more-events-title, .bw-app .bwt-nearby-event-title, .bw-app .bwt-nearby-event-date,
 .bw-app .bwt-store-event-body-wrapper .bwt-store-event-body .bwt-store-event-description p,
 .bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-store-event-body-wrapper .bwt-store-event-title a,
-.bw-app .bwt-event-details-container .bwt-event-details-date-time, .bw-app .bwt-nearby-event-description {
+.bw-app .bwt-event-details-container .bwt-event-details-date-time, .bw-app .bwt-nearby-event-description, .bw-app .bwt-store-address,
+.bw-app table, .bw-app tr, .bw-app td, .bw-app .bwt-index-store-body-details-address .bwt-store-phone-number {
   color: #777777;
 }
 
@@ -135,7 +135,8 @@
   color: #fff;
 }
 
-.bw-app .bwt-index-store-body-details-address .bwt-store-main-alert {
+.bw-app .bwt-index-store-body-details-address .bwt-store-main-alert,
+.bw-app .bwt-store-header-details-distance {
   color: #acabab;
 }
 
@@ -159,10 +160,18 @@
   font-size: 28px;
 }
 
+.bw-app .bwt-store-event-body-wrapper .bwt-store-event-title {
+  font-size: 22px;
+}
+
 .bw-app .bwt-nearby-store-name, .bw-app .bwt-feature-body-container, .bw-app .bwt-index-store-body-header-title,
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-search-form-submit .fa, .bw-app .bwt-nearby-event-title,
-.bw-app .bwt-store-event-body-wrapper .bwt-store-event-title, .bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates {
+.bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-feature-body-name {
   font-size: 18px;
+}
+
+.bw-app .bwt-feature-body-copy {
+  font-size: 15px;
 }
 
 .bw-app .bwt-store-main-mobile, .bw-app .bwt-index-search-filters-container, .bw-app .bwt-location-details-title,
@@ -172,7 +181,7 @@
 .bw-app .bwt-filters-features h5.bwt-filters-features-title, .bw-app .bwt-event-details-location-address .bwt-event-details-location-title,
 .bw-app .bwt-event-details-location-address, .bw-app .bwt-nearby-event-date, .bw-app .bwt-store-event-body-wrapper .bwt-store-event-body .bwt-store-event-description p,
 .bw-app .bwt-store-details-copy-mobile .bwt-store-parking-copy, .bw-app .bwt-event-details-container .bwt-event-details-date-time,
-.bw-app .bwt-event-details-container .bwt-event-details-description {
+.bw-app .bwt-event-details-container .bwt-event-details-description, .bw-app .bwt-store-header-details {
   font-size: 14px;
 }
 
@@ -252,24 +261,14 @@
   display: none;
 }
 
-@media (max-width: 800px) {
-  .bw-app .bwt-index-store-body-details-address .bwt-mobile-store-phone-btn-wrapper {
-    display: block;
-    padding: 5px;
-    margin-top: -30px;
-    float: right;
-  }
-}
 .bw-app .bwt-stores-nearby-list-mobile .bwt-mobile-store-phone-btn-wrapper {
   display: none;
 }
 
-@media (max-width: 500px) {
-  .bw-app .bwt-stores-nearby-list-mobile .bwt-mobile-store-phone-btn-wrapper {
+@media (max-width: 800px) {
+  .bw-app .bwt-index-store-body-details-address .bwt-mobile-store-phone-btn-wrapper {
     display: block;
-    padding: 5px;
-    margin-top: -20px;
-    float: right;
+    float: left;
   }
 }
 .bw-app .bwt-store-show-services .bwt-store-services-list .bwt-store-service-wrapper
@@ -436,7 +435,7 @@
 .bw-app .bwt-store-show-nearby-title-mobile, .bw-app .bwt-store-location-mobile-title,
 .bw-app .bwt-events-more-events-mobile-title {
   color: #6b5555;
-  font-size: 18px;
+  font-size: 14px;
   font-family: 'Arial';
 }
 
@@ -513,6 +512,21 @@
 
 .bw-app .store-event-calendar .store-event-calendar-date {
   top: 20%;
+}
+
+.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar {
+  padding-left: 0;
+  background: #fff;
+}
+.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day a.ui-state-active {
+  border: 1px solid #5b992a !important;
+}
+.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td .ui-state-active {
+  border: 1px solid #5b992a !important;
+  background-color: #5b992a !important;
+}
+.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-state-highlight .ui-state-default {
+  border: 1px solid #5b992a !important;
 }
 
 /*Culinary Details in Store Description*/

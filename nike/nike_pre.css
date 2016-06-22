@@ -143,3 +143,12 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 	background: none !important;
 	border: 0px !important;
 }
+
+.bwt-appointment-submit { color: #000 !important; }
+
+.bwt-store-show-name { 
+  font-family: "TradeGothicCond", Helvetica, Arial, sans-serif !important;
+  text-transform: uppercase !important;
+
+}
+.bwt-store-description { font-family: "TradeGothicCond", Helvetica, Arial, sans-serif !important;}

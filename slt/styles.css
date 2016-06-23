@@ -591,3 +591,19 @@ a.culinaryLink:hover {
   color: #fff !important;
   text-decoration: underline !important;
 }
+
+.leaflet-container img.leaflet-marker-icon.cooking-classes-badge {
+    width: auto !important;
+    height: auto !important;
+    max-width: 70px;
+}
+
+.bw-display-layer .bwt-store-map-pin.cooking-classes-badge,
+.bw-display-layer .bwt-events-map-pin.cooking-classes-badge {
+    margin-left: -35px;
+}
+
+.bwt-store-map-pin.cooking-classes-badge .bwt-store-map-pin-holder,
+.bwt-events-map-pin.cooking-classes-badge .bwt-events-map-pin-holder {
+    width: 70px;
+}

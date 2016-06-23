@@ -231,6 +231,7 @@
     border-radius: 4px;
     font-size: 12px;
     text-transform: uppercase;
+    font-family: 'Arial'
   }
 
   .bw-app .bwt-store-address-mobile .bwt-mobile-store-phone-btn-wrapper .bwt-store-phone-number-link-prefix, .bw-app .bwt-store-address-mobile .bwt-mobile-store-phone-btn-wrapper .bwt-store-phone-number-link-text,
@@ -350,6 +351,7 @@
   padding: 5px 10px;
   border-radius: 4px;
   font-weight: 600;
+  font-family: 'Arial';
 }
 
 .bw-app .bwt-store-mobile-explore-button-wrapper a.bwt-store-mobile-explore-button {
@@ -411,6 +413,12 @@
   border-radius: 3px;
   font-family: 'Arial';
   font-weight: 600;
+}
+
+@media(max-width: 450px) {
+  .bw-app .bwt-store-event-link-container, .bw-app .bwt-nearby-event-link-container {
+    font-size: 12px;
+  }
 }
 
 .bw-app .bwt-store-event-link-container a, .bw-app .bwt-nearby-event-link-container a {

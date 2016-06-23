@@ -2,11 +2,19 @@
 	height: 100% !important;
 }
 
+/*
+.bw-iframe-container {
+   background-color: #8F8F8C !important;
+}
+*/
+
 .bw-appointment-header-column.selected {
+   /*color: #fff !important;*/
    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bw-appointment-header-column.completed, a.appointment_link, a.choose_store_link {
+   /*color: #ccc !important;*/
    font-family: Arial, Helvetica, sans-serif !important;
 } 
 
@@ -21,11 +29,17 @@ a.bw-appointment-header-close {
 
 .bw-appointment-step-container-title, .bw-appointment-service-link-name,
 .bw-appointment-service-link-description {
+   /*color: #fff !important;*/
    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+a.bw-appointment-service-link {
+   /*border-color: #fff !important;*/
 }
 
 .appointment-rsvp-container .title, .appointment-rsvp-container h1, .appointment-rsvp-container .store-name > h1,
 .appointment-rsvp-container .address > h4, .appointment-rsvp-container .address > h6 {
+	/*color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -35,13 +49,28 @@ a.bw-appointment-header-close {
 }
 
 .appointment-rsvp-container table, .appointment-rsvp-container td, .appointment-rsvp-container b {
+	/*color: #fff !important;*/
+	/*background-color: #8F8F8C;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .store-name {
+	/*border-bottom-color: #fff !important;*/
 	border-bottom-width: 1px !important;
 }
+
+/*
+.appointment-rsvp-container .button-clean {
+	background-color: #ACACAA !important;
+	border: solid #fff 1px !important;
+}
+
+.appointment-rsvp-container .button-clean:hover {
+	background-color: #ccc !important;
+	border: solid #ccc 1px !important;
+}
+*/
 
 .appointment-rsvp-container .map {
 	-webkit-filter: grayscale(100%);
@@ -49,16 +78,21 @@ a.bw-appointment-header-close {
 }
 
 #service-appointment-stores h3, .name_distance h4, .appointment-rsvp-container .distance {
+	/*color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 input#location, input#appointment_date {
+	/*background-color: #8F8F8C !important;
+	/*border: solid 1px #fff;
+	color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 input#location::-webkit-input-placeholder, input#appointment_date::-webkit-input-placeholder {
+	/*color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -68,44 +102,89 @@ input#location::-webkit-input-placeholder, input#appointment_date::-webkit-input
 }
 
 .appointment-rsvp-container .local-stores .search h3 {
+	/*color: #fff !important;
+	background: none !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 a.date_selector {
+	/*background-color: #8F8F8C !important;
+	border: solid 1px #fff !important;
+	color: #fff !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;	
 }
 
+/*
+.date_selection_container {
+	background-color: #ACACAA !important;
+}*/
+
 .day-date-column a.selected {
+	/*background-color: #fff !important;
+	color: #000 !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .day-title, .segment_name, .appointment-rsvp-container .num_available {
+	/*color: #fff !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
+/*
+.segment_header img {
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+}
+*/
+
+/*
+.bw-load-previous-dates, .bw-load-next-dates {
+	color: #ACACAA !important;
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+*/
+
 input.bwt-store-appt-modal-input {
+	/*background-color: #ACACAA !important;
+	color: #fff !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 input.bwt-store-appt-modal-input::-webkit-input-placeholder {
+	/*color: #fff !important;
+	background-color: none !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 textarea#appointment_customer_message {
+	/*color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
+/*
+#search_button {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+*/
+
 input[type="text"], textarea {
+  /*background-color : #ACACAA !important;*/
   font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bwt-appt-input-placeholder {
+	/*background: none !important;
+	color: #fff !important;*/
 	font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .bwt-appointment-submit {
+	/*background: #ACACAA !important;
+	opacity: 1.0 !important;
+	color: #fff !important;*/
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
 }
@@ -122,21 +201,28 @@ input.bwt-modal-store-search-location-field {
 label.bwt-rsvp-email-opt-placeholder {
 	font-weight: normal !important;
 	font-family: Arial, Helvetica, sans-serif !important;
+	/*color: #fff !important;*/
 }
 
 .appointment-rsvp-container .confirmation_title, .appointment-rsvp-container .details {
 	font-family: Arial, Helvetica, sans-serif !important;
+	/*color: #fff !important;*/
 }
 
 .appointment-rsvp-container .details b {
 	font-weight: bold !important;
 }
 
+/*
+.bw-confirmation-close-button {
+	background-color: #ACACAA !important;
+	border: solid #fff 1px !important;
+}*/
+
 .appointment-rsvp-container input:-webkit-autofill, .appointment-rsvp-container textarea:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
-/*Choose Service with background image*/
 .appointment-rsvp-container.bwt-appointment-choose-service {
     background-image: url('https://s3.amazonaws.com/assets.brickworksoftware.com/Hugo/Images/16-01-15_Make_Appointment_Online_image_1920_desktop_large_range.jpg') !important;
     background-size: cover;

@@ -162,7 +162,7 @@
 
 .bw-app .bwt-nearby-store-name, .bw-app .bwt-feature-body-container, .bw-app .bwt-index-store-body-header-title,
 .bw-app .bwt-index-store-body-details-explore-link a, .bw-app .bwt-index-search-form-submit .fa, .bw-app .bwt-nearby-event-title,
-.bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-feature-body-name {
+.bw-app .bwt-store-event-body-wrapper .bwt-store-event-dates, .bw-app .bwt-feature-body-name, .bw-app .bwt-feature-name {
   font-size: 18px;
 }
 
@@ -183,12 +183,13 @@
 .bw-app .bwt-filters-features h5.bwt-filters-features-title, .bw-app .bwt-event-details-location-address .bwt-event-details-location-title,
 .bw-app .bwt-event-details-location-address, .bw-app .bwt-nearby-event-date, .bw-app .bwt-store-event-body-wrapper .bwt-store-event-body .bwt-store-event-description p,
 .bw-app .bwt-store-details-copy-mobile .bwt-store-parking-copy, .bw-app .bwt-event-details-container .bwt-event-details-date-time,
-.bw-app .bwt-event-details-container .bwt-event-details-description, .bw-app .bwt-store-header-details {
+.bw-app .bwt-event-details-container .bwt-event-details-description, .bw-app .bwt-store-header-details,
+.bw-app .bwt-store-show-email-signup p.bwt-store-show-email-signup-description {
   font-size: 14px;
 }
 
 .bw-app .bwt-more-info-toggle, .bw-app .bwt-index-search-form-input, .bw-app .bwt-stores-nearby-search-form,
-.bw-app .bwt-store-show-email-signup p.bwt-store-show-email-signup-description, .bw-app .bwt-nearby-event-info .bwt-nearby-event-description p {
+.bw-app .bwt-nearby-event-info .bwt-nearby-event-description p {
   font-size: 16px;
 }
 

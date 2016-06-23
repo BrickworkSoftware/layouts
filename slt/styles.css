@@ -285,6 +285,7 @@
   margin-left: 20%;
   border-radius: 3px;
   bottom: 20px;
+  font-weight: 600px;
   position: absolute;
 }
 
@@ -314,6 +315,7 @@
 }
 .bw-app .bwt-appointment-modal-button-wrapper .brickwork-button {
   color: #fff !important;
+  font-weight: 600;
 }
 
 .bw-app .bwt-appointment-modal-button-wrapper .brickwork-button:hover, .bw-app .bwt-appointment-modal-button-wrapper .brickwork-button:active {
@@ -328,6 +330,7 @@
   color: #fff !important;
   border-radius: 3px !important;
   text-align: center;
+  font-weight: 600;
 }
 
 .bw-app .bwt-event-details-signup a {
@@ -346,6 +349,7 @@
   background-color: #5b992a;
   padding: 5px 10px;
   border-radius: 4px;
+  font-weight: 600;
 }
 
 .bw-app .bwt-store-mobile-explore-button-wrapper a.bwt-store-mobile-explore-button {
@@ -406,6 +410,7 @@
   text-transform: uppercase;
   border-radius: 3px;
   font-family: 'Arial';
+  font-weight: 600;
 }
 
 .bw-app .bwt-store-event-link-container a, .bw-app .bwt-nearby-event-link-container a {

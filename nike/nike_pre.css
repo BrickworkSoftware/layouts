@@ -155,3 +155,5 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 .bwt-store-description p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
 
 .bwt-store-service-image-container .bwt-appointment-modal-button-wrapper, .bwt-store-service-body-container .bwt-appointment-modal-button-wrapper {display: none !important;}
+
+.descriptionBookingLink { margin-bottom: -1rem !important; }

@@ -403,7 +403,6 @@
   padding: 5px 10px !important;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 600;
   border-radius: 3px;
   font-family: 'Arial';
 }
@@ -550,7 +549,6 @@ a.culinaryLink {
   background-color: #5b992a !important;
   padding: 5px 10px !important;
   text-transform: uppercase !important;
-  font-weight: 600 !important;
   border-radius: 3px !important;
   bottom: 20px !important;
   color: #fff !important;

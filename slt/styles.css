@@ -452,6 +452,10 @@
   font-family: 'Arial';
 }
 
+.bw-app .bwt-store-feature-container .bwt-feature-body-container {
+  padding: 5px 10px;
+}
+
 .bw-app span.bwt-more-info-toggle {
   font-family: 'Arial';
   color: #5b992a;

@@ -611,3 +611,5 @@ a.culinaryLink:hover {
 .bwt-events-map-pin.cooking-classes-badge .bwt-events-map-pin-holder {
     width: 70px;
 }
+
+.bwt-stores-nearby-list-large .bwt-features-list, .bwt-stores-nearby-list-medium .bwt-features-list, .bwt-stores-nearby-list-mobile .bwt-features-list {display: none !important;}

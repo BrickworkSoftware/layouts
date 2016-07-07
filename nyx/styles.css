@@ -288,7 +288,8 @@ p
 .row .bw-display-layer .bwt-store-event-link:hover,
 .row .bw-display-layer .bwt-index .bwt-index-store-body-details-explore-link:hover,
 .row .bwt-index-filters-expand-button:hover,
-.row .bwt-index-search-results-map-button:hover
+.row .bwt-index-search-results-map-button:hover,
+.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a:hover
 {
     text-decoration: underline;
 
@@ -300,7 +301,8 @@ p
 .row .bwt-index-search-results-map-button,
 .bw-display-layer .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-upper-address-bottom a,
-.bw-display-layer .bwt-index .bwt-index-store-body-details-button-symbol
+.bw-display-layer .bwt-index .bwt-index-store-body-details-button-symbol,
+.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a
 {
     color: #e9168c !important;
 }
@@ -495,7 +497,7 @@ bwt-map-cover
 }
 
 /*Store Index Map Black Gradient*/
-.bwt-index-store-body-cover 
+.bwt-index-store-body-cover
 {
     background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0), rgba(0,0,0,.7)) !important;
 }
@@ -575,23 +577,23 @@ p.bwt-events-rsvp-success-details
 }
 
 @media screen and (max-width: 513px) {
-    .bw-display-layer span.bwt-store-phone-number-link-prefix { 
+    .bw-display-layer span.bwt-store-phone-number-link-prefix {
         vertical-align: bottom !important;
     }
 }
 
 .bwt-expand-button-collapsed, #bwt-show-map-button, .bw-display-layer .bwt-store-phone-number-link-text, .bwt-index-store-body-details-explore-link,
 .bwt-store-upper-address-bottom a
-{ 
+{
     font-family: "HELVETICANEUEW01-47LTCN_692686" !important;
 }
 
 .bw-display-layer .bwt-index .bwt-index-search-form-input { border: 1px solid #000 !important; }
 
 .bwt-index-store-body-details-address, .bwt-store-address-line, .bwt-store-address-line, .bwt-index-store-address-1, .bwt-index-store-address-2,
-.bwt-store-hours-table-date-column, .bwt-store-hours-table-hours-column 
-{ 
-    font-weight: normal !important; 
+.bwt-store-hours-table-date-column, .bwt-store-hours-table-hours-column
+{
+    font-weight: normal !important;
 }
 
 .bw-display-layer .bwt-store-events-container-mobile .bwt-store-event {

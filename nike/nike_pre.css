@@ -158,8 +158,10 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 
 .bwt-store-show .descriptionBookingLink { margin-bottom: -1rem !important; }
 
-.leaflet-popup-content .descriptionBookingLink {display: none !important}
+.leaflet-popup-content .descriptionBookingLink, .leaflet-popup-content .nikeEventLink {display: none !important}
 
 .bwt-store-show .indexBookingLink {display: none !important;}
 
 span.bwt-store-main-alert, div.bwt-index-nearby-store-distance {font-size: 14px !important;}
+
+.bw-appointment-hero-image { background-position: top center !important; }

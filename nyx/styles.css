@@ -617,3 +617,12 @@ p.bwt-events-rsvp-success-details
 @media screen and (max-width: 750px) {
    img.desktop-tablet-logo { display: none !important; }
 }
+
+.bw-display-layer .ui-autocomplete .ui-corner-all, .bw-display-layer .ui-autocomplete .ui-state-focus {
+padding: 0 !important;
+display: inline !important;
+}
+
+.bw-display-layer .ui-autocomplete .ui-corner-all:before, .bw-display-layer .ui-autocomplete .ui-state-focus:before {
+display: none !important;
+}

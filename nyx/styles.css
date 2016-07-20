@@ -289,7 +289,8 @@ p
 .row .bw-display-layer .bwt-index .bwt-index-store-body-details-explore-link:hover,
 .row .bwt-index-filters-expand-button:hover,
 .row .bwt-index-search-results-map-button:hover,
-.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a:hover
+.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a:hover,
+.bw-display-layer .bwt-combined-store-link a:hover
 {
     text-decoration: underline;
 
@@ -302,7 +303,8 @@ p
 .bw-display-layer .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-upper-address-bottom a,
 .bw-display-layer .bwt-index .bwt-index-store-body-details-button-symbol,
-.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a
+.bw-display-layer .bwt-owned-stores-header .bwt-owned-store-link a,
+.bw-display-layer .bwt-combined-store-link a
 {
     color: #e9168c !important;
 }

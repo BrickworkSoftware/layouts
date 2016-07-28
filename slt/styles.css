@@ -577,11 +577,26 @@ a.culinaryLink:hover {
   text-decoration: underline !important;
 }
 
-.navbar-custom .dropdown-menu > li.dropdown-submenu > a:after, .navbar-custom .dropdown-menu > li.dropdown-submenu > a:hover:after, .navbar-custom .dropdown-menu > li.dropdown-submenu > a:focus:after {
+.bw-app .navbar-custom .dropdown-menu > li.dropdown-submenu > a:after, .bw-app .navbar-custom .dropdown-menu > li.dropdown-submenu > a:hover:after, .bw-app .navbar-custom .dropdown-menu > li.dropdown-submenu > a:focus:after {
   font-family: FontAwesome;
   content: "\f054";
 }
 
+@media (max-width: 967px) {
+  .bw-app .navbar-custom li>a:after, .bw-app .navbar-custom li>a:hover:after, .bw-app .navbar-custom li>a:focus:after {
+    font-family: FontAwesome;
+    content: "\f054";
+  }
+  .bw-app .shoppingCartBtn {
+    border-left: none;
+  }
+}
+.bw-app .glyphicon-shopping-cart:before {
+  content: "\f07a";
+}
+.bw-app .glyphicon {
+  font-family: FontAwesome;
+}
 /* Reduce store name size on index to stop line wrapping while font is Arial*/
 .bw-display-layer .bwt-index-store-body-header-title {
   font-size: 14px !important;

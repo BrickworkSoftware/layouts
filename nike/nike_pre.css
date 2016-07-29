@@ -165,3 +165,5 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 span.bwt-store-main-alert, div.bwt-index-nearby-store-distance {font-size: 14px !important;}
 
 .bw-appointment-hero-image { background-position: top center !important; }
+
+.bw-appointment-hero-copy { color: rgba(0,0,0,0) !important; }

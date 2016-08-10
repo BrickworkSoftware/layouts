@@ -284,3 +284,5 @@ label {
 .dropdown-menu {
   top: auto;
 }
+
+.bwt-search-results-container .bwt-store-services-appointment { display: none !important; }

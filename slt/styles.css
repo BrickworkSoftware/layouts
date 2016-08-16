@@ -172,6 +172,12 @@
   }
 }
 
+@media(min-width: 641px) {
+  .bw-app .bwt-event-image-info {
+    display: none;
+  }
+}
+
 .bw-app .bwt-feature-body-copy {
   font-size: 15px;
 }

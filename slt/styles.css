@@ -493,22 +493,38 @@
   top: auto !important;
 }
 
-.bw-app .ui-state-hover, .bw-app .ui-widget-content .ui-state-hover {
-  background: none !important;
-  border: none !important;
-}
-
-.bw-app .ui-state-default, .bw-app .ui-widget-content .ui-state-default {
-  border: none !important;
-  background: none !important;
-  color: #777777;
-  font-family: 'Arial';
-  text-align: center !important;
+/* Store event calendar resets - overrides datepicker defaults and madison template defaults */
+.bw-app .ui-widget-content .ui-datepicker-header .ui-state-hover {
+  background: none;
+  border: none;
 }
 
 .bw-app .ui-state-highlight, .bw-app .ui-widget-content .ui-state-highlight {
   border: none !important;
   background: none !important;
+}
+
+body.bw-app .bw-display-layer .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td .ui-state-default,
+body.bw-app .bw-display-layer .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-state-highlight .ui-state-default,
+body.bw-app .bw-display-layer .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day a.ui-state-active
+{
+  border: 1px solid #5b992a;
+  background: none;
+  color: #777777;
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
+  padding: 6px 8px;
+}
+
+body.bw-app .bw-display-layer .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day a.ui-state-active {
+  background: #5b992a;
+}
+
+body.bw-app .bw-display-layer .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-state-disabled .ui-state-default {
+  border-color: transparent;
 }
 
 .bw-app .bwt-store-phone-number {
@@ -540,16 +556,6 @@
 .bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar {
   padding-left: 0;
   background: #fff;
-}
-.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day a.ui-state-active {
-  border: 1px solid #5b992a !important;
-}
-.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td .ui-state-active {
-  border: 1px solid #5b992a !important;
-  background-color: #5b992a !important;
-}
-.bw-app .bwt-store-show .bwt-store-events .bwt-store-event-cal-wrapper #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-state-highlight .ui-state-default {
-  border: 1px solid #5b992a !important;
 }
 
 /*Culinary Details in Store Description*/

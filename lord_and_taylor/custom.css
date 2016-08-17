@@ -1,0 +1,250 @@
+@import url("//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/fonts/fonts.css");
+* {
+  font-family: 'TriviaSans', Sans-Serif;
+  font-weight: 500 !important;
+  color: #6C6967;
+}
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'TriviaSans', Sans-Serif !important;
+  font-weight: 600 !important;
+  color: #6C6967 !important;
+}
+h2 {
+  font-size: 26px !important;
+  letter-spacing: 0.1em !important;
+}
+.bw-display-layer .bwt-store-show .bwt-store-nav-list li a:active,
+.bw-display-layer .bwt-store-show .bwt-store-nav-list li a:hover,
+a#bwt-store-phone-number-link:active,
+a#bwt-store-phone-number-link:hover,
+a.bwt-store-event-link:active,
+a.bwt-store-event-link:hover,
+a.bwt-store-main-index-link:active,
+a.bwt-store-main-index-link:hover,
+a#bwt-rsvp-button:active,
+a#bwt-rsvp-button:hover,
+a.bwt-events-main-store-link:hover,
+a.bwt-events-main-store-link:active,
+button:active,
+button:hover {
+  color: white !important;
+  background-color: #6C6967 !important;
+  border: 1px solid #6C6967 !important;
+}
+a#bwt-rsvp-button:hover span.bwt-event-details-signup-button-copy,
+a#bwt-rsvp-button:active span.bwt-event-details-signup-button-copy,
+.bwt-index-search-form-submit:active span.bwt-index-search-form-submit-text,
+.bwt-index-search-form-submit:hover span.bwt-index-search-form-submit-text,
+a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text,
+a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {
+  color: white;
+}
+#show_more_link,
+.bw-display-layer .bwt-store-show .bwt-store-nav-list li a,
+a#bwt-store-phone-number-link,
+a.bwt-store-event-link,
+a.bwt-store-main-index-link,
+a#bwt-rsvp-button,
+a.bwt-events-main-store-link,
+button {
+  border-radius: 25px !important;
+  color: #6C6967 !important;
+  border: 1px solid #6C6967 !important;
+  background: none !important;
+}
+a#bwt-rsvp-button span.bwt-event-details-signup-button-copy,
+a#bwt-store-phone-number-link .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-map .bwt-store-map-link:active span.bwt-store-map-button span.bwt-store-map-button-text,
+.bw-display-layer .bwt-store-map .bwt-store-map-link:hover span.bwt-store-map-button span.bwt-store-map-button-text,
+.bw-display-layer .bwt-share-buttons .bwt-social-icon {
+  color: #6C6967;
+}
+button:disabled {
+  background-color: #E8E8E8 !important;
+  border-color: #E8E8E8 !important;
+}
+@media only screen and (max-width: 865px) {
+  button.bwt-index-search-form-submit {
+    background: none !important;
+  }
+}
+.bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
+ul.bwt-filters-features-list input[type=checkbox],
+ul.bwt-filters-features-list input[type=radio] {
+  display: none;
+}
+input#bwt-q {
+  border-radius: 25px !important;
+  font-size: 10px;
+  padding-top: 19px;
+  border-color: 1px solid #6c6967;
+}
+div.bwt-hide-on-mobile.bwt-index-search-results-notice-body {
+  border-bottom-width: thick !important;
+  border-color: black !important;
+}
+.bwt-index-search-form-wrap button.bwt-index-search-form-submit {
+  margin-left: 20px;
+  border: 2px solid #6c6967 !important;
+}
+ul.bwt-filters-features-list label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 22px;
+  font-size: 12px;
+}
+ul.bwt-filters-features-list label:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  border: 1px solid #6C6967;
+}
+.bwt-filters-features-store-type label:before {
+  border-radius: 10px;
+}
+input[type=radio]:checked + label:before {
+  border: 3px solid #6c6967;
+  width: 10px;
+  height: 10px;
+}
+input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  font-size: 16px;
+  background-color: #6C6967;
+  color: white;
+  text-align: center;
+  line-height: 19px;
+}
+.bw-display-layer .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+  background-color: #6C6967;
+  font-family: 'TriviaSans', Sans-Serif !important;
+  border-radius: 25px !important;
+  border: 1px solid #6C6967 !important;
+}
+.bw-display-layer .bwt-store-map .bwt-store-header-type {
+  margin-bottom: 0 !important;
+  font-family: 'TriviaSans', Sans-Serif !important;
+  font-size: 10px !important;
+}
+.bwt-store-upcoming-event-date,
+.bwt-stores-nearby-store-description,
+div.bwt-store-features-body,
+div.bwt-store-services-appointment-subtitle,
+header.bwt-store-header h4.bwt-store-header-details {
+  font-size: 10px !important;
+  letter-spacing: 0.071em !important;
+}
+h2.bwt-event-details-title,
+h3.bwt-store-event-title a,
+h3.bwt-store-header-title a {
+  color: #6C6967 !important;
+  font-weight: 600 !important;
+  font-size: 20px;
+  letter-spacing: 0.128rem;
+}
+.bwt-index-filters-expand-button .bwt-mobile-only {
+  background: #f1f1f1;
+  border-bottom: 2px solid #6C6967;
+}
+h2.bwt-event-details-title,
+td.bwt-store-hours-table-hours-column {
+  font-size: x-small;
+}
+.bwt-store-services-appointment-link a,
+.bwt-store-upcoming-event-link a {
+  border-bottom: 2px solid #6C6967;
+  padding-bottom: 1px;
+  text-decoration: none !important;
+}
+.bwt-store-features h3,
+.bwt-store-media-list h4,
+.bwt-store-total-events,
+.bwt-store-total-events span,
+.bwt-stores-nearby h3.bwt-stores-nearby-title,
+div#store-main-content h4,
+div.bwt-store-services-appointment-title,
+div.bwt-store-upcoming-event-title,
+h5.bwt-stores-nearby-store-title {
+  font-size: 12px !important;
+  font-family: "TriviaSans", sans-serif !important;
+  color: #494644 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.068em !important;
+}
+a.bwt-store-detail-link {
+  background: none !important;
+  border: none !important;
+  border-bottom: 1px solid #c1bdbb !important;
+  padding: 6px !important;
+}
+.bw-display-layer .bwt-index .bwt-store {
+  padding-bottom: 0 !important;
+  margin-top: 30px !important;
+}
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+  margin-top: 15px !important;
+}
+.bwt-store-alert {
+  background: #E8E8E8 !important;
+}
+.bwt-store-alert p,
+.bwt-store-media-list p,
+.bwt-stores-nearby-store-type,
+a.bwt-store-detail-link,
+div#store-main-content p,
+div.bwt-store-address-line,
+div.bwt-store-header-type,
+h3.bwt-events-more-events-title {
+  color: #6C6967 !important;
+  font-family: "TriviaSans", sans-serif !important;
+  font-size: 11px !important;
+}
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:active,
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:active *,
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:focus,
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:focus *,
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:hover,
+.bw-display-layer .bwt-store-show .bwt-stores-nearby-store-detail-link:hover * {
+  color: #494644 !important;
+  border-color: #494644 !important;
+}
+.bwt-show-for-small-only a#bwt-store-phone-number-link,
+button.bwt-index-filters-expand-button {
+  border: none !important;
+}
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-next:active,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-next:hover,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-prev:active,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-prev:hover,
+.bw-display-layer .bwt-store-map .bwt-store-map-link:active span.bwt-store-map-button,
+.bw-display-layer .bwt-store-map .bwt-store-map-link:hover span.bwt-store-map-button,
+button.bwt-index-filters-expand-button {
+  background: none !important;
+}
+@media only screen and (max-width: 32em) {
+  .bw-display-layer .bwt-store-show .bwt-store-events-mobile-title,
+  .bw-display-layer .bwt-store-show .bwt-store-main-hours-info-mobile-title,
+  .bw-display-layer .bwt-store-show .bwt-store-services-mobile-title,
+  .bw-display-layer .bwt-store-show .bwt-store-show-feed-mobile-title,
+  .bw-display-layer .bwt-store-show .bwt-store-stylists-mobile-title {
+    font-family: "TriviaSans", sans-serif !important;
+    border-top-color: #6C6967 !important;
+    border-bottom-color: #6C6967 !important;
+    color: #6C6967 !important;
+  }
+}
+.bwt-store-show div.stores-nearby-mobile {
+  border-top-color: #6C6967 !important;
+}
+.bw-display-layer .bwt-share-buttons .bwt-social-icon:hover {
+  color: #494644;
+}

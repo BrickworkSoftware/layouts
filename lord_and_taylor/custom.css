@@ -420,11 +420,12 @@ span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:focus,
 div.bwt-store-upcoming-event-link a:hover,
-div.bwt-store-services-appointment-link a:hover,
+div.bwt-store-features-and-events div.bwt-store-services-appointment div.bwt-store-services-appointment-link a:hover,
 header.bwt-store-header h3.bwt-store-header-title a:hover,
 div.bwt-store-event-body h3.bwt-store-event-title a:hover,
 a.bwt-stores-nearby-store-detail-link div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title:hover,
-div.bwt-store-hours div.bwt-store-special-hours:hover {
+div.bwt-store-hours div.bwt-store-special-hours:hover,
+.bwt-store-hours-special a#bwt-store-special-hours-link.bwt-store-special-hours-link:hover span {
   color: #f35b40 !important;
 }
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,

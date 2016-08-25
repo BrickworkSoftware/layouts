@@ -9,6 +9,30 @@
 
 <link type="text/css" rel="stylesheet" href="//lordandtaylor.com/wcsstore/Lord and Taylor/css/dist/home-page-layout.css"/>
 
+<script>
+  // Mobile Nav
+  $(document).on("click", "#nav-toggle", function() {
+    $(".lt-header").removeClass("active-search");
+    $(".lt-header").toggleClass("active-nav");
+  });
+
+  $(document).on("click", "#search-toggle", function() {
+    $(".lt-header").removeClass("active-nav");
+    $(".lt-header").toggleClass("active-search");
+  });
+
+  $(function() {
+    $('#search-form').submit(function(){
+      var value = $('#search-form :input').val();
+      console.log(value)
+      if (value) {
+        window.location = 'http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10151&catalogId=10102&langId=-1&pageSize=12&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&pageView=image&searchSource=Q&searchTerm=' + value + '&x=12&y=10';     
+      }
+      return false;
+    });
+  });
+</script>
+
 <!-- END: Sass - homepagelayout.scss --><!--[if IE 6]>
 <link href="http://2.shrd.lordandtaylor.com/y/Y/Ren-SlBL3O1Kg.css" data-feo-orig-href="/wcsstore/Lord and Taylor/css/ie6.css" rel="stylesheet" type="text/css"/><script blzsys="1" type="text/javascript">aFeoOverrideAttrRead('link', 'href')</script>
 <script type="text/javascript" blzwait="Ren-UuUxZ6dag.js">blzJsCache.run("http://1.shrd.lordandtaylor.com/D/N/Ren-UuUxZ6dag.js");</script>

@@ -1,4 +1,5 @@
 @import url("//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/fonts/fonts.css");
+* { text-rendering: optimizeLegibility; }
 .bw-app .bw-display-layer-container * {
   font-family: 'TriviaSans', Sans-Serif;
   font-weight: 500 !important;

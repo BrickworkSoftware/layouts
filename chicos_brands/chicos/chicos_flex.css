@@ -431,3 +431,13 @@ input#appointment_date::-webkit-input-placeholder {
 .search-toggle-wrap {
    display: none !important;
 }
+
+/* Compensate for Chicos fixed header when scrolling to #services anchor link on store show pages */
+/* https://css-tricks.com/hash-tag-links-padding/#article-header-id-1 */
+.bwt-store-show-events-and-services #services:before {
+  display: block;
+  content: " ";
+  margin-top: -102px;
+  height: 102px;
+  visibility: hidden;
+}

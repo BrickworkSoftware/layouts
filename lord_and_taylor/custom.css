@@ -128,9 +128,6 @@ ul.bwt-filters-features-list label:before {
   left: 0;
   border: 1px solid #6C6967;
 }
-.bwt-filters-features-store-type label:before {
-  border-radius: 10px;
-}
 .bw-app .bw-display-layer-container input[type=radio]:checked + label:before {
   border: 3px solid #6c6967;
   width: 10px;
@@ -235,8 +232,6 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   margin-bottom: 5px !important;
 }
 .bwt-store-detail-link-wrapper a.bwt-store-detail-link {
-  width: 120px !important;
-  margin: auto;
   background: white !important;
   border: none !important;
   border-bottom: 2px solid #6C6967 !important;
@@ -246,13 +241,11 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   letter-spacing: 3px !important;
   font-weight: 600 !important;
   padding: 0px !important;
+  transition: initial !important;
 }
 button.bwt-index-filters-expand-button {
   margin-bottom: 10px;
 }
-div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:hover,
-div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:active,
-div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:focus,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
@@ -270,8 +263,8 @@ span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus {
   padding-bottom: 20px !important;
   border-bottom: 1px solid #C1BDBB !important;
 }
-.bw-display-layer-container .bwt-index .bwt-store-detail-link-wrapper {
-  margin-top: 20px !important;
+div.bwt-store.bwt-store-state-normal div.bwt-store-body {
+  margin-bottom: 20px !important;
 }
 .bw-display-layer-container .bwt-store-alert {
   background: #E8E8E8 !important;
@@ -362,12 +355,13 @@ a.bwt-events-main-store-link {
     margin-bottom: 20px !important;
   }
   div.bwt-store-service div.bwt-store-service-body .bwt-appointment-modal-button-wrapper a.brickwork-button {
-    width: 80%;
+    width: 72%;
     font-size: 14px !important;
-    padding: 15px 30px !important;
+    padding: 15px 5px !important;
     font-weight: 500 !important;
     font-family: "TriviaSans", sans-serif !important;
     letter-spacing: 0.75px !important;
+    margin-left: 42px;
   }
 }
 .bw-display-layer-container .bwt-store-event-image {
@@ -451,19 +445,18 @@ ul.bwt-store-nav-list li a {
   font-size: 14px !important;
   padding: 15px 55px !important;
 }
-@media only screen and (max-width: 586px) and (min-width: 514px) {
+@media only screen and (max-width: 595px) and (min-width: 514px) {
   div.bwt-pagination-container a#show_more_link,
   div.bwt-store-event-body-wrapper div.bwt-store-event-link-wrapper a.bwt-store-event-link,
   div.bwt-event-details-signup a#bwt-rsvp-button,
   ul.bwt-store-nav-list li a {
     font-size: 12px !important;
-    padding: 10px 43px !important;
+    padding: 10px 39px !important;
   }
 }
 .bw-display-layer .bwt-store-hours-special .bwt-store-special-hours-link-text {
   letter-spacing: 0.1rem;
 }
-.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper .bwt-store-detail-link:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:focus,
 div.bwt-store-upcoming-event-link a:hover,
@@ -567,69 +560,35 @@ div.bwt-store-show-hero div.bwt-store-main-index-link-row a.bwt-store-main-index
 div.bwt-store.bwt-store-state-normal {
   margin-bottom: 20px;
 }
-.bwt-store-call-placeholder, .bwt-rsvp-first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder, .bwt-appt-input-placeholder {
-  position: relative !important;
-  background: none !important;
-}
 .fa,
 .fa.fa-angle-right {
   font: normal normal normal 19px/1 FontAwesome !important;
 }
-.bwt-store-call-field,
-.bwt-rsvp-first-name-field,
-.bwt-rsvp-last-name-field,
-.bwt-rsvp-email-field,
-.bwt-email-opt-field,
-.bwt-appt-name-field,
-.bwt-appt-email-field,
-.bwt-appt-message-field {
-  position: initial !important;
+.bwt-store-call-input, .bwt-events-rsvp-modal-input, .bwt-store-appt-modal-input {
+ float: none !important;
 }
-.bwt-store-call-placeholder, .bwt-rsvp-first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder, .bwt-appt-input-placeholder {
-  position: initial !important;
-  transform: inherit !important;
+@media only screen and (min-width: 32.063em) {
+  .bw-display-layer .bwt-index .bwt-index-filters-toggle {
+    padding-bottom: 20px !important;
+  }
 }
-input.bwt-store-call-input {
-  margin-top: -30px !important;
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+  float: none !important;
+  clear: left !important;
+  width: 150px !important;
+  margin: auto;
+  padding: 10px 15px !important;
 }
-.bwt-events-rsvp-modal-input {
-  margin-bottom: 49px !important;
-  margin-top: -31px !important;
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover {
+  background-color: #FF5E41 !important;
+  padding: 10px 15px !important;
+  border-radius: 25px !important;
+  margin-bottom: 2px !important;
 }
-.active .bwt-store-call-placeholder,
-.filled .bwt-store-call-placeholder {
-  top: 109px !important;
-  background-color: white !important;
-  left: 60px !important;
-  position: absolute !important;
-}
-h1.bwt-store-call-title {
-  margin-bottom: 40px !important;
-}
-.active .bwt-rsvp-first-name-placeholder,
-.active .bwt-rsvp-last-name-placeholder,
-.active .bwt-rsvp-email-placeholder,
-.filled .bwt-rsvp-first-name-placeholder,
-.filled .bwt-rsvp-last-name-placeholder,
-.filled .bwt-rsvp-email-placeholder {
-  left: 62px !important;
-  background-color: white !important;
-  position: absolute !important;
-}
-form.bwt-rsvp-form .active .bwt-rsvp-first-name-placeholder,
-form.bwt-rsvp-form .filled .bwt-rsvp-first-name-placeholder {
-  top: 22% !important;
-}
-form.bwt-rsvp-form .active .bwt-rsvp-last-name-placeholder,
-form.bwt-rsvp-form .filled .bwt-rsvp-last-name-placeholder {
-  top: 37% !important;
-}
-form.bwt-rsvp-form .active .bwt-rsvp-email-placeholder,
-form.bwt-rsvp-form .filled .bwt-rsvp-email-placeholder {
-  top: 52% !important;
-}
-p.bwt-events-rsvp-modal-description {
-  margin-bottom: 40px !important;
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link {
+  color: #FFF !important;
+  border: none !important;
+  background: none !important;
 }
 
 

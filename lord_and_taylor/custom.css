@@ -199,10 +199,15 @@ a.bwt-stores-nearby-store-detail-link .bwt-stores-neaby-mobile-text-container h5
 }
 .bwt-store-services-appointment .bwt-store-services-appointment-link a,
 .bwt-store-upcoming-event-link a,
-button.bwt-index-filters-expand-button span div {
+button.bwt-index-filters-expand-button span div.bwt-hide-on-mobile {
   border-bottom: 2px solid #6C6967;
   padding-bottom: 1px;
   font-size: 14px !important;
+}
+@media only screen and (max-width: 944px) and (min-width: 866px) {
+  .bwt-store-services-appointment .bwt-store-services-appointment-link a {
+    font-size: 12px !important;
+  }
 }
 .bwt-store-features h3,
 .bwt-events-social .bwt-events-social-title,
@@ -249,6 +254,9 @@ div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-
 div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:active,
 div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:focus,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus {
   border: 2px solid #FF5E41 !important;
@@ -293,7 +301,8 @@ div.bwt-store-header-type {
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:focus,
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:focus *,
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover,
-.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover * {
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover *,
+.fa.fa-search {
   color: #494644 !important;
   border-color: #494644 !important;
 }
@@ -564,7 +573,7 @@ div.bwt-store.bwt-store-state-normal {
 }
 .fa,
 .fa.fa-angle-right {
-  font: normal normal normal 14px/1 FontAwesome !important;
+  font: normal normal normal 19px/1 FontAwesome !important;
 }
 .bwt-store-call-field,
 .bwt-rsvp-first-name-field,
@@ -580,9 +589,22 @@ div.bwt-store.bwt-store-state-normal {
   position: initial !important;
   transform: inherit !important;
 }
+input.bwt-store-call-input {
+  margin-top: -30px !important;
+}
 .bwt-events-rsvp-modal-input {
   margin-bottom: 49px !important;
   margin-top: -31px !important;
+}
+.active .bwt-store-call-placeholder,
+.filled .bwt-store-call-placeholder {
+  top: 109px !important;
+  background-color: white !important;
+  left: 60px !important;
+  position: absolute !important;
+}
+h1.bwt-store-call-title {
+  margin-bottom: 40px !important;
 }
 .active .bwt-rsvp-first-name-placeholder,
 .active .bwt-rsvp-last-name-placeholder,

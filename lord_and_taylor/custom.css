@@ -198,7 +198,8 @@ a.bwt-stores-nearby-store-detail-link .bwt-stores-neaby-mobile-text-container h5
   text-decoration: none !important;
 }
 .bwt-store-services-appointment .bwt-store-services-appointment-link a,
-.bwt-store-upcoming-event-link a {
+.bwt-store-upcoming-event-link a,
+button.bwt-index-filters-expand-button span div {
   border-bottom: 2px solid #6C6967;
   padding-bottom: 1px;
   font-size: 14px !important;
@@ -228,17 +229,36 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   letter-spacing: 0.75px !important;
   margin-bottom: 5px !important;
 }
-a.bwt-store-detail-link {
-  background: none !important;
+.bwt-store-detail-link-wrapper a.bwt-store-detail-link {
+  width: 120px !important;
+  margin: auto;
+  background: white !important;
+  border: none !important;
+  border-bottom: 2px solid #6C6967 !important;
   color: #6C6967 !important;
   font-family: "TriviaSans", sans-serif !important;
-  border: none !important;
-  border-bottom: 1px solid #C1BDBB !important;
-  padding: 6px !important;
+  font-size: 14px !important;
+  letter-spacing: 3px !important;
+  font-weight: 600 !important;
+  padding: 0px !important;
 }
-.bw-display-layer-container .bwt-index .bwt-store {
-  padding-bottom: 0 !important;
+button.bwt-index-filters-expand-button {
+  margin-bottom: 10px;
+}
+div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:hover,
+div.bwt-store.bwt-store-state-normal .bwt-store-detail-link-wrapper a.bwt-store-detail-link:active,
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover {
+  border: 2px solid #FF5E41 !important;
+  background-color: #FF5E41 !important;
+  padding: 10px 15px !important;
+  border-radius: 25px !important;
+  color: #FFF !important;
+}
+.bw-display-layer-container .bwt-index .bwt-store.bwt-store-state-normal {
   margin-top: 30px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #C1BDBB !important;
 }
 .bw-display-layer-container .bwt-index .bwt-store-detail-link-wrapper {
   margin-top: 20px !important;
@@ -355,13 +375,11 @@ a.bwt-events-main-store-link {
 .ui-menu .ui-menu-item, .ui-menu .ui-menu-item.ui-state-focus {
   width: 92% !important;
 }
-.bwt-store-detail-link-wrapper a.bwt-store-detail-link,
 .bwt-index-filters-expand-button .bwt-expand-button-collapsed div.bwt-hide-on-mobile,
 .bwt-index-filters-expand-button .bwt-expand-button-expanded div.bwt-hide-on-mobile,
 div.bwt-events-more-events h3.bwt-events-more-events-title,
 div.bwt-store-services h3.bwt-store-services-title,
 div.bwt-store-events-title-container h4.bwt-store-events-title {
-  padding-bottom: 20px !important;
   font-family: "TriviaSans", sans-serif !important;
   font-size: 15px !important;
   letter-spacing: 3px !important;
@@ -369,7 +387,8 @@ div.bwt-store-events-title-container h4.bwt-store-events-title {
 }
 .bw-display-layer-container .bwt-index .bwt-store-features,
 .bw-display-layer-container .bwt-index .bwt-store-upcoming-event-link,
-.bw-display-layer-container .bwt-index .bwt-store-services-appointment {
+.bw-display-layer-container .bwt-index .bwt-store-services-appointment,
+div.bwt-index-filters-toggle {
   margin-bottom: 20px !important;
   margin-top: 0px !important;
 }
@@ -417,15 +436,14 @@ div.bwt-store-nav ul.bwt-store-nav-list li a[href="#services"] {
 }
 div.bwt-pagination-container a#show_more_link,
 div.bwt-store-event-body-wrapper div.bwt-store-event-link-wrapper a.bwt-store-event-link,
-div.bwt-event-details-signup a#bwt-rsvp-button {
+div.bwt-event-details-signup a#bwt-rsvp-button,
+ul.bwt-store-nav-list li a {
   font-size: 14px !important;
   padding: 15px 55px !important;
 }
 .bw-display-layer .bwt-store-hours-special .bwt-store-special-hours-link-text {
   letter-spacing: 0.1rem;
 }
-span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
-span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
 .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper .bwt-store-detail-link:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:focus,
@@ -444,7 +462,7 @@ div.bwt-store-upcoming-event-link a:hover,
 div.bwt-store-event-body h3.bwt-store-event-title a:hover,
 div.bwt-store-services-appointment-link a:hover,
 header.bwt-store-header h3.bwt-store-header-title a:hover {
-  border-bottom: solid 1px #CC4B34;
+  border-bottom: solid 2px #CC4B34;
   text-decoration: none !important;
 }
 .bw-display-layer .bwt-index .bwt-store .bwt-store-body {
@@ -466,7 +484,7 @@ button#bwt-hide-map-button,
 button#bwt-show-map-button,
 .bwt-index-search-results-notice-map-action button,
 a.bwt-events-main-store-link,
-ul.bwt-store-nav-list li a,
+div.bwt-store-main-index-link-row a.bwt-store-main-index-link,
 .bw-display-layer .bwt-store-show .bwt-store-header-details-distance {
   font-size: 14px !important;
   font-weight: 500 !important;
@@ -506,7 +524,15 @@ span.bwt-social-icon.bwt-social-twitter:before {
 a.bwt-social-icon.bwt-social-email:before {
   content: "\e901" !important;
 }
-
+span.bwt-events-social-title {
+  padding-left: 7px;
+}
+div.bwt-store-show-hero div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
+  font-size: 14px;
+}
+div.bwt-store.bwt-store-state-normal {
+  margin-bottom: 20px;
+}
 
 /* Header & Footer Styling */
 .lt-header{position:fixed;z-index:999999;top:0;overflow:hidden;width:100%;transition:all .75s ease}

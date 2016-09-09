@@ -580,11 +580,34 @@ div.bwt-store.bwt-store-state-normal {
   position: initial !important;
   transform: inherit !important;
 }
-.bwt-store-call-input,
-.bwt-events-rsvp-modal-input,
-.bwt-store-appt-modal-input {
-  margin-top: 13px !important;
+.bwt-events-rsvp-modal-input {
   margin-bottom: 49px !important;
+  margin-top: -31px !important;
+}
+.active .bwt-rsvp-first-name-placeholder,
+.active .bwt-rsvp-last-name-placeholder,
+.active .bwt-rsvp-email-placeholder,
+.filled .bwt-rsvp-first-name-placeholder,
+.filled .bwt-rsvp-last-name-placeholder,
+.filled .bwt-rsvp-email-placeholder {
+  left: 62px !important;
+  background-color: white !important;
+  position: absolute !important;
+}
+form.bwt-rsvp-form .active .bwt-rsvp-first-name-placeholder,
+form.bwt-rsvp-form .filled .bwt-rsvp-first-name-placeholder {
+  top: 22% !important;
+}
+form.bwt-rsvp-form .active .bwt-rsvp-last-name-placeholder,
+form.bwt-rsvp-form .filled .bwt-rsvp-last-name-placeholder {
+  top: 37% !important;
+}
+form.bwt-rsvp-form .active .bwt-rsvp-email-placeholder,
+form.bwt-rsvp-form .filled .bwt-rsvp-email-placeholder {
+  top: 52% !important;
+}
+p.bwt-events-rsvp-modal-description {
+  margin-bottom: 40px !important;
 }
 
 

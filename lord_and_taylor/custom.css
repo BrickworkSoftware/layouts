@@ -648,9 +648,12 @@ body{margin:0}
     font-size: 10px !important;
     text-transform: uppercase !important;
     text-decoration: underline !important;
+    font-weight: bold !important;
 }
 
 .menuLink:hover {
    text-decoration: none ;
    color: #CC4B34 !important;
 }
+
+.restaurantTitle {font-weight: bold !important}

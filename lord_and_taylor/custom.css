@@ -131,7 +131,7 @@ ul.bwt-filters-features-list label:before {
 .bwt-filters-features-store-type label:before {
   border-radius: 10px;
 }
-.bwt-filters-features-store-type input[type=checkbox]:checked + label:before {
+.bwt-filters-features-store-type input[type=radio]:checked + label:before {
   border: 3px solid #6c6967;
   width: 10px;
   height: 10px;

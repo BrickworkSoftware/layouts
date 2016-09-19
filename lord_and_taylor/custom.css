@@ -407,8 +407,8 @@ div.bwt-index-filters-toggle {
   margin-bottom: 20px !important;
   margin-top: 0px !important;
 }
-.bw-display-layer-container .bwt-index .bwt-store-features-and-events {
-  margin-top: 12px !important;
+.bw-display-layer-container .bwt-index .bwt-store-features-and-events, .bw-display-layer-container .bwt-index .bwt-store-hours-and-phone {
+  margin-top: 0px !important;
 }
 .bw-display-layer-container .bwt-index div.bwt-store-upcoming-event {
   margin-top: 5px !important;

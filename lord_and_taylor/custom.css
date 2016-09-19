@@ -20,8 +20,6 @@
 }
 .bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a:active,
 .bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a:hover,
-.bw-display-layer-container .bwt-show-for-medium-up a#bwt-store-phone-number-link:active,
-.bw-display-layer-container .bwt-show-for-medium-up a#bwt-store-phone-number-link:hover,
 .bw-display-layer-container a.bwt-store-event-link:active,
 .bw-display-layer-container a.bwt-store-event-link:hover,
 .bw-display-layer-container a.bwt-store-main-index-link:active,
@@ -265,7 +263,10 @@ span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:active,
-span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus {
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus,
+.bw-display-layer-container .bwt-show-for-medium-up a#bwt-store-phone-number-link:active,
+.bw-display-layer-container .bwt-show-for-medium-up a#bwt-store-phone-number-link:hover 
+{
   color: #CC4b34 !important;
   border-bottom: 1px solid #CC4B34;
 }

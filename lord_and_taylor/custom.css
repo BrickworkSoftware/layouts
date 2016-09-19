@@ -662,3 +662,12 @@ body{margin:0}
 .restaurantTitle {font-weight: bold !important}
 
 .bwt-store-main-features {display: none !important}
+
+.bwt-search-results .bwt-store-services-appointment-subtitle {display: none !important;}
+
+.bwt-store-upcoming-event-link a, .bwt-store-services-appointment-link a {
+  text-transform: capitalize !important;
+  border-bottom: 1px solid #6C6967 !important;
+}
+
+.bwt-store-services-appointment-title {text-transform: uppercase! important;}

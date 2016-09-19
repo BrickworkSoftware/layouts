@@ -249,17 +249,25 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
 button.bwt-index-filters-expand-button {
   margin-bottom: 10px;
 }
+
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed div.bwt-hide-on-mobile,
+.bwt-index-filters-expand-button .bwt-expand-button-expanded div.bwt-hide-on-mobile {
+  color: #6C6967 !important;
+  font-size: 14px !important;
+  border-bottom: 1px solid #6C6967;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  font-family: "TriviaSansRegular", Helvetica !important;
+}
+
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus {
-  border: 2px solid #FF5E41 !important;
-  background-color: #FF5E41 !important;
-  padding: 10px 15px !important;
-  border-radius: 25px !important;
-  color: #FFF !important;
+  color: #CC4b34 !important;
+  border-bottom: 1px solid #CC4B34;
 }
 .bw-display-layer-container .bwt-index .bwt-store.bwt-store-state-normal {
   margin-top: 30px !important;

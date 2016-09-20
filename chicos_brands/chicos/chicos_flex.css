@@ -441,3 +441,5 @@ input#appointment_date::-webkit-input-placeholder {
   height: 102px;
   visibility: hidden;
 }
+
+.social-google-plus {display: none !important;}

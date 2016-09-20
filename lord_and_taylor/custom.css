@@ -848,3 +848,9 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-store-show .stores-nearby-mobile .bwt-stores-nearby-list>li {width: 100% !important;}
 .stores-nearby-mobile .stores-nearby-mobile-title {text-align: center !important;}
+
+@media only screen and (max-width: 1000px) {
+	.bw-display-layer {
+		margin-top: 80px !important;
+	}
+}

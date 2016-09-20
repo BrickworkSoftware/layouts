@@ -68,12 +68,16 @@ button.bwt-index-search-results-map-button,
   font-family: 'TriviaSans', Sans-Serif !important;
 }
 a#bwt-rsvp-button span.bwt-event-details-signup-button-copy,
-a#bwt-store-phone-number-link .bwt-store-phone-number-link-text,
 .bw-display-layer-container .bwt-store-services-appointment .bwt-store-services-appointment-subtitle,
 .bw-display-layer-container .bwt-store-services-appointment .bwt-store-services-appointment-link a,
 .appointment-modal-1.bwt-appointment-modal-button-wrapper a.brickwork-button {
   color: #494644 !important;
   font-family: 'TriviaSans', Sans-Serif !important;
+}
+a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
+  color: #494644 !important;
+  font-family: 'TriviaSans', Sans-Serif !important;
+  padding-bottom: 0px !important;
 }
 .bw-app .bw-display-layer-container button:disabled {
   background-color: #E8E8E8 !important;
@@ -687,7 +691,7 @@ border-right: 0px !important;
 border-left: 0px !important;
 display: inline-block !important;
 background: none !important;
-padding-bottom: 1px !important;
+padding-bottom: 0px !important;
 }
 
 .bw-display-layer .bwt-index .bwt-store-phone-number {text-align: left !important}
@@ -742,6 +746,7 @@ div.bwt-store-hours-special-title {
 	letter-spacing: 0.75px !important;
 	text-decoration: none !important;
 	border-bottom: 1px solid #6C6967 !important;
+	padding-bottom: 0px !important;
 }
 
 .bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text:hover {

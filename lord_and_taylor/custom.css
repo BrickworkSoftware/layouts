@@ -679,7 +679,8 @@ body{margin:0}
 
 .bwt-store-services-appointment-title {text-transform: uppercase! important;}
 
-.bw-display-layer .bwt-index .bwt-store-phone-number-link, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link {
+.bw-display-layer .bwt-index .bwt-store-phone-number-link, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link,
+.bw-display-layer .bwt-event-details .bwt-store-phone-number-link{
 border-radius: 0px !important;
 border-top: 0px !important;
 border-right: 0px !important;
@@ -698,7 +699,8 @@ padding-bottom: 1px !important;
 }
 
 .bwt-show-for-medium-up a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text,
-.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text {
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text,
+.bwt-store-event-show .bwt-store-phone-number-link-text {
 	text-decoration: none !important;
 	color: #CC4b34 !important;
 }
@@ -728,9 +730,22 @@ div.bwt-store-hours-special-title {
 	color: #494644 !important;
 }
 
-.bwt-store-event-body-wrapper .bwt-store-event-dates {font-size: 13px !important;}
-.bwt-store-event-body-wrapper .bwt-details-container {
+.bwt-store-event-body-wrapper .bwt-store-event-dates, .bwt-store-event-show .bwt-store-event-dates {font-size: 13px !important;}
+.bwt-store-event-body-wrapper .bwt-details-container, .bwt-store-event-show .bwt-details-container{
 	font-size: 13px !important;
 	letter-spacing: 0.75px !important;
 }
 
+.bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+	text-decoration: none !important;
+	border-bottom: 1px solid #6C6967 !important;
+}
+
+.bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text:hover {
+	border-bottom: 1px solid #CC4b34 !important
+}
+
+.bwt-events-main .bwt-store-phone-number-link, .bwt-events-main .bwt-store-phone-number-link:hover {border: none !important;}

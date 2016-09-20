@@ -425,11 +425,11 @@ div.bwt-index-filters-toggle {
 .bw-display-layer .bwt-store-show div.bwt-store-show-main div.bwt-store-nav .bwt-store-nav-list {
   margin-right: 15px;
 }
-div.bwt-event-details-header div.bwt-event-details-date-time div.bwt-event-details-dates,
 div.bwt-store-event-body div.bwt-store-event-dates,
-div.bwt-store-event div.bwt-store-event-dates {
-  font-weight: 600 !important;
-  letter-spacing: 2px;
+.bwt-event-details div.bwt-store-event-dates {
+	letter-spacing: 0.75px !important;
+	font-weight: normal !important;
+	text-transform: capitalize !important;
 }
 .bwt-index-search-form-submit span.bwt-index-search-form-submit-icon {
   line-height: 35px;
@@ -654,7 +654,7 @@ body{margin:0}
 .clearfix{zoom:1}
 
 .menuLink {
-   color: #494644 !important;
+    color: #494644 !important;
     font-size: 13px !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
@@ -728,8 +728,15 @@ div.bwt-store-hours-special-title {
 	font-size: 13px !important;
 	letter-spacing: 0.75px !important;
 }
-
+/*
 .bwt-store-services-title, .bwt-store-events-title {
+	font-size: 18px !important;
+	color: #494644 !important;
+}
+*/
+.bw-display-layer .bwt-store-show .bwt-store-services-title, .bw-display-layer .bwt-store-show .bwt-store-events-title {
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
 	font-size: 18px !important;
 	color: #494644 !important;
 }
@@ -754,3 +761,88 @@ div.bwt-store-hours-special-title {
 }
 
 .bwt-events-main .bwt-store-phone-number-link, .bwt-events-main .bwt-store-phone-number-link:hover {border: none !important;}
+
+.bwt-store-hours-calender-title, .bwt-modal-store-hours-subtitle, .bwt-special-title, .bwt-closed-title,
+.bwt-open-day {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+	color: #494644 !important;
+}
+
+.bwt-special-day {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+	color: #CC4b34 !important;
+}
+
+.bwt-modal-store-hours-subtitle {margin-top: 10px !important}
+
+.bwt-store-hour-name {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+}
+
+.bwt-store-hour-date {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	letter-spacing: 0.75px !important;
+}
+
+.bwt-modal-store-hours-days {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	letter-spacing: 0.75px !important;
+	color: #494644 !important;
+}
+
+.close-reveal-modal.bwt-hours-close-modal {font-size: 1.5rem !important;}
+
+.bwt-store-call h1 {
+
+}
+
+.bwt-store-nav-list a {
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+}
+
+.bwt-store-map-button-text, .bwt-store-main-index-link, .bwt-store-event-link-wrapper .bwt-store-event-link, .bwt-events-main-store-link,
+.bwt-event-details-signup-button {
+	text-transform: uppercase !important;
+	font-weight: bold !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+	text-transform: capitalize !important;
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+	color: #494644 !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-service {border: none !important;}
+
+.bw-display-layer .bwt-store-show .bwt-store-upper-address {border: none !important;}
+
+.bwt-store-upper-address-bottom .bwt-store-phone-number-link-text, .bwt-store-upper-address-bottom a {
+	font-family: "TriviaSans", Sans-Serif !important;
+	font-size: 13px !important;
+	letter-spacing: 0.75px !important;
+	color: #494644 !important;
+	text-decoration: none !important;
+	border-bottom: 1px solid #494644 !important;
+}
+
+.bw-display-layer .bwt-mobile-main-index-link-row {margin-bottom: 45px !important;}
+
+.bw-display-layer .bwt-store-show .bwt-store-main-hours-info-mobile-title, .bw-display-layer .bwt-store-show .stores-nearby-mobile, .bwt-store-services-mobile-title,
+.bwt-store-events-mobile-title {
+	border-top: 1px solid #494644 !important;
+	border-bottom: none !important;
+}
+

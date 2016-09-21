@@ -31,6 +31,23 @@
       return false;
     });
   });
+
+  $(function() {
+    $('#desktop-search-form').submit(function(){
+      var value = $('#desktop-search-form :input').val();
+      console.log(value)
+      if (value) {
+        window.location = 'http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10151&catalogId=10102&langId=-1&pageSize=12&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&pageView=image&searchSource=Q&searchTerm=' + value + '&x=12&y=10';     
+      }
+      return false;
+    });
+  });
+
+  var form = document.getElementById("form-input");
+
+  document.getElementById("form-submit").addEventListener("click", function () {
+    form.submit();
+  });
 </script>
 
 <!-- END: Sass - homepagelayout.scss --><!--[if IE 6]>

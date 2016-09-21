@@ -67,60 +67,12 @@
   <div class="header_search_subwarp" id="headerSearchSubwarp">
   <div class="clear"></div>
 
-
-  <form name="CatalogSearchForm" action="SearchDisplay" method="get" id="CatalogSearchForm">
-    <input type="hidden" name="storeId" value="10151" id="WC_CachedHeaderDisplay_FormInput_storeId_In_CatalogSearchForm_1">
-    <input type="hidden" name="catalogId" value="10102" id="WC_CachedHeaderDisplay_FormInput_catalogId_In_CatalogSearchForm_1">
-    <input type="hidden" name="langId" value="-1" id="WC_CachedHeaderDisplay_FormInput_langId_In_CatalogSearchForm_1">
-    <input type="hidden" name="pageSize" value="12" id="WC_CachedHeaderDisplay_FormInput_pageSize_In_CatalogSearchForm_1">
-    <input type="hidden" name="beginIndex" value="0" id="WC_CachedHeaderDisplay_FormInput_beginIndex_In_CatalogSearchForm_1">
-    <input type="hidden" name="sType" value="SimpleSearch" id="WC_CachedHeaderDisplay_FormInput_sType_In_CatalogSearchForm_1">
-    <input type="hidden" name="resultCatEntryType" value="2" id="WC_CachedHeaderDisplay_FormInput_resultType_In_CatalogSearchForm_1">
-    <input type="hidden" name="showResultsPage" value="true" id="WC_CachedHeaderDisplay_input_1">
-    <input type="hidden" name="pageView" value="image" id="WC_CachedHeaderDisplay_input_2">
-    <input type="hidden" name="searchSource" value="Q" id="WC_CachedHeaderDisplay_FormInput_searchSource_In_CatalogSearchForm_1">
-    <label for="SimpleSearchForm_SearchTerm" class="nodisplay">Search</label>
-
-
-
-
-    <div id="header-search">
-      <div id="searchTextHolder" class="nodisplay">Search</div>
-      <span class="spanacce">Press the access key plus 0 to focus on the search box</span>
-
-
-
-      <meta name="CommerceSearch" content="storeId_10151">
-
+    <form id="desktop-search-form">
       <div class="search_tab">
-        <input id="SimpleSearchForm_SearchTerm" maxlength="65" accesskey="0" size="18" name="searchTerm" type="text" class="search" value="Search" onclick="if(this.value=='Search'){this.value=''}" onfocus="JavaScript:retrieveCachedSuggestions('/webapp/wcs/stores/servlet/CachedSuggestionsView?langId=-1&amp;storeId=10151&amp;catalogId=10102'); clearSearchField();" onblur="if(this.value==''){this.value='Search'}" onkeyup="doAutoSuggest(event, '/webapp/wcs/stores/servlet/AutoSuggestView?coreName=MC_10001_CatalogEntry_en_US&amp;serverURL=http%3a%2f%2fprod-lat-search-vip.digital.hbc.com%3a3737%2fsolr%2fMC_10001_CatalogEntry_en_US&amp;storeId=10151', this.value);">
-        <a class="actions" href="JavaScript:document.CatalogSearchForm.searchTerm.value=stripBackSlash(trim(document.CatalogSearchForm.searchTerm.value));submitSpecifiedForm(document.CatalogSearchForm);">
-          <input type="image" src="//www.lordandtaylor.com/wcsstore/Lord and Taylor/images/header_search_bt.gif" class="search_bt submit" onclick="JavaScript:stripBackSlash(document.CatalogSearchForm.searchTerm.value); document.cookie='lastSearchTerm='+trim(document.CatalogSearchForm.searchTerm.value)+';path=/'">
-        </a>
+        <input type="text" class="search" id="form-input SimpleSearchForm_SearchTerm" placeholder="Search...">
+        <input type="image" src="//www.lordandtaylor.com/wcsstore/Lord and Taylor/images/header_search_bt.gif" class="search_bt submit" id="form-submit">
       </div>
-
-
-
-      <script type="text/javascript">
-
-                // The primary Array to hold all static search suggestions
-                var staticContent = new Array();
-
-                // The titles of each search grouping
-                var staticContentHeaders = new Array();
-                var staticContentHeaderHistory = "History"
-
-                // The auto suggest container ID's
-                var staticContentSectionDiv = ["autoSuggestStatic_1", "autoSuggestStatic_2", "autoSuggestStatic_3"];
-              </script>
-
-              <div dojotype="wc.widget.RefreshArea" widgetid="AutoSuggestCachedSuggestions" controllerid="AutoSuggestCachedSuggestionsController" id="autoSuggestCachedSuggestions_div" role="wairole:region" waistate:live="polite" waistate:atomic="true" waistate:relevant="all" style="display:none;">
-              </div>
-
-
-            </div>
-
-          </form>
+    </form>
 
         </div>
       </div>

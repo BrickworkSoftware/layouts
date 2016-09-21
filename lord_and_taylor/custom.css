@@ -130,6 +130,10 @@ ul.bwt-filters-features-list label:before {
 .bwt-filters-features-store-type label:before {
   border-radius: 10px;
 }
+.bwt-filters-features-store-type:hover label:before,
+.bwt-filter-features-list-item:hover label:before {
+  border-color: #000;
+}
 .bwt-filters-features-store-type input[type=radio]:checked + label:before {
   border: 3px solid #6c6967;
   width: 10px;

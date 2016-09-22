@@ -136,7 +136,8 @@ ul.bwt-filters-features-list label:before {
   width: 10px;
   height: 10px;
 }
-.bwt-filters-features-services input[type=checkbox]:checked + label:before {
+.bwt-filters-features-services input[type=checkbox]:checked + label:before,
+.bwt-email-opt-modal-checkbox input[type=checkbox]:checked + label:before {
   content: "\2713";
   font-size: 16px;
   background-color: #6C6967;

@@ -33,9 +33,7 @@
 .bwt-appointment-modal-button-wrapper a.brickwork-button:active,
 .bwt-appointment-modal-button-wrapper a.brickwork-button:hover,
 #show_more_link:active,
-#show_more_link:hover,
-button.bwt-index-search-results-map-button:active,
-button.bwt-index-search-results-map-button:hover {
+#show_more_link:hover {
   color: #FFF !important;
   font-family: 'TriviaSans', Sans-Serif !important;
   background-color: #494644 !important;
@@ -58,7 +56,6 @@ a.bwt-store-main-index-link,
 a#bwt-rsvp-button,
 a.bwt-events-main-store-link,
 div.bwt-store-service-body a.brickwork-button,
-button.bwt-index-search-results-map-button,
 .bw-display-layer-container .bwt-index .bwt-index-search-form-submit {
   border-radius: 50px !important;
   color: #494644 !important;
@@ -250,8 +247,25 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   transition: initial !important;
   display: inline-block !important
 }
+
 button.bwt-index-filters-expand-button {
   margin-bottom: 10px;
+}
+.bwt-index-search-results-map-button {
+  border: none !important;
+  display: inline-block !important;
+  text-decoration: underline !important;
+  font-weight: normal !important;
+  font-family: "TriviaSansRegular", Helvetica !important;
+  letter-spacing: 0.75px !important;
+  color: #6C6967 !important;
+}
+.bwt-index-search-results-map-button:hover {
+  border: none !important;
+  font-family: "TriviaSansRegular", Helvetica !important;
+  letter-spacing: 0.75px !important;
+  color: #CC4b34 !important;
+  background-color: #FFF !important;
 }
 
 .bwt-index-filters-expand-button .bwt-expand-button-collapsed div.bwt-hide-on-mobile,
@@ -264,6 +278,34 @@ button.bwt-index-filters-expand-button {
   font-family: "TriviaSansRegular", Helvetica !important;
 }
 
+.bwt-index-filters-expand-button .bwt-expand-button-expanded .bwt-hide-on-mobile, 
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile {
+  color: #6C6967 !important;
+  font-size: 14px !important;
+  border-bottom: 1px solid #6C6967;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  letter-spacing: 0.75px !important;
+  font-family: "TriviaSansRegular", Helvetica !important;
+}
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after {
+   font-family: "hbc-icons" !important;
+   content: "\e926" !important;
+   display: block;
+   width: 13px;
+   height: 13px;
+   float: right;
+   margin-left: 10px;
+}
+.bwt-index-filters-expand-button .bwt-expand-button-expanded .bwt-hide-on-mobile:after {
+   font-family: "hbc-icons" !important;
+   content: "\e929" !important;
+   display: block;
+   width: 13px;
+   height: 13px;
+   float: right;
+   margin-left: 10px;
+}
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
 span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
@@ -288,7 +330,6 @@ button#bwt-show-map-button,
 button#bwt-hide-map-button {
   padding: 16px !important;
   padding-top: 19.2px !important;
-  border-radius: 30px !important;
 }
 .bwt-store-alert p,
 .bwt-store-media-list p,
@@ -505,6 +546,12 @@ header.bwt-store-header h3.bwt-store-header-title a:hover {
     padding: 0 40px !important;
   }
 }
+@media only screen and (max-width: 513px) {
+  .bwt-index-search-results-notice-map-action {
+    display: none !important;
+  }
+}
+
 span.bwt-index-search-form-submit-text,
 button#bwt-hide-map-button,
 button#bwt-show-map-button,
@@ -519,7 +566,13 @@ div.bwt-store-main-index-link-row a.bwt-store-main-index-link,
   font-size: 13px !important;
 }
 button#bwt-hide-map-button,
-button#bwt-show-map-button,
+button#bwt-show-map-button {
+  color: #6C6967;
+  font-size: 14px !important;
+  font-family: "TriviaSans", Sans-Serif !important;
+}
+
+
 span.bwt-index-search-form-submit-text {
   color: #494644 !important;
 }
@@ -527,7 +580,7 @@ button#bwt-hide-map-button:hover,
 button#bwt-hide-map-button:active,
 button#bwt-show-map-button:hover,
 button#bwt-show-map-button:active {
-  color: #FFF !important;
+  color: #CC4b34 !important;
 }
 .bw-display-layer .bwt-event-details-header-container .bwt-event-details-header {
   padding: 18px 0 !important;
@@ -694,6 +747,7 @@ border-radius: 0px !important;
 border-top: 0px !important;
 border-right: 0px !important;
 border-left: 0px !important;
+border-bottom: 0px !important;
 display: inline-block !important;
 background: none !important;
 padding-bottom: 0px !important;
@@ -703,15 +757,40 @@ padding-bottom: 0px !important;
 
 .bw-display-layer .bwt-index .bwt-store-phone-number-link:hover, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link:hover {
   color: #CC4b34 !important;
-  border-bottom: 1px solid #CC4B34 !important;
   background: none !important;
+  border-bottom: none !important;
 }
 
 .bwt-show-for-medium-up a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text,
-.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text,
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text {
+  color: #6C6967 !important;
+  border-bottom: 1px solid #6C6967;
+}
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text:hover,
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text:hover {
+  color: #CC4b34 !important;
+  border-bottom: 1px solid #CC4b34 !important;
+}
+
 .bwt-store-event-show .bwt-store-phone-number-link-text {
   text-decoration: none !important;
   color: #CC4b34 !important;
+}
+.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix {
+  display: block !important;
+  float: left !important;
+}
+.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix:before, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix:before {
+  font-family: "hbc-icons" !important;
+  content: "\e904" !important;
+  display: block !important;
+  margin-right: 10px !important;
+  float: left !important;
+  font-size: 13px !important;
+}
+.btw-store-show .bwt-show-for-medium-up .bwt-store-phone-number-link {border: none !important}
+.bwt-store-phone-number-link-text{
+  border-bottom: 1px solid #6C6967 !important;
 }
 
 div.bwt-store-hours-special-title {
@@ -764,6 +843,7 @@ div.bwt-store-hours-special-title {
 .bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text:hover {
   border-bottom: 1px solid #CC4b34 !important
 }
+.bwt-store-phone-number-link-text:hover{border-bottom: 1px solid #CC4b34 !important;}
 
 .bwt-events-main .bwt-store-phone-number-link, .bwt-events-main .bwt-store-phone-number-link:hover {border: none !important;}
 
@@ -907,3 +987,61 @@ div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
   margin-left: -100% !important;
   float: right !important;
 }
+
+.bw-display-layer .bwt-index .bwt-index-search-form-submit-text {display: none !important}
+
+.bwt-index-search-input-wrap .add-clear-span a {margin-right: 15% !important}
+
+@media only screen and (min-width: 54.063em) {
+  .bw-display-layer .bwt-index .bwt-index-search-form-submit-icon {
+    display: inline !important;
+  }
+
+.bwt-store-call-title, .bwt-events-rsvp-modal-title {
+  font-family: "TriviaSans", Sans-Serif !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-store-call-input, .bwt-store-call-input, .bwt-events-rsvp-modal-input, .bwt-store-appt-modal-input {
+  border-radius: 25px !important;
+}
+
+.bwt-store-call-placeholder, .bwt-store-call-input,
+.bwt-events-rsvp-modal-title, .bwt-rsvp-first-name-placeholder,
+.bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder,
+.bwt-events-rsvp-modal-input, .bwt-rsvp-email-opt-placeholder {
+    font-family: "TriviaSans" !important;
+    color: #494644 !important;
+    letter-spacing: 0.75px !important;
+}
+
+.bwt-store-call-button-wrapper button.bwt-store-call-button,
+button.bwt-events-rsvp-modal-button {
+    font-family: "TriviaSans" !important;
+    color: #FFF !important;
+    letter-spacing: 0.75px !important;
+    font-size: 14px !important;
+    background-color: #FF5E41;
+    border: 2px solid #FF5E41;
+    border-radius: 50px !important;
+    font-weight: 600 !important;
+}
+.bwt-store-call-button-wrapper button.bwt-store-call-button:disabled,
+.bwt-rsvp-button-wrapper button.bwt-events-rsvp-modal-button:disabled {
+  background-color: #494644 !important;
+  border: 1px solid #494644 !important;
+  color: #FFF !important;
+}
+
+.bwt-store-call-modal a.close-reveal-modal,
+.bwt-events-rsvp-modal a.bw-appointment-header-close {
+  font-size: 30px !important;
+  color: #494644 !important;
+  font-weight: normal !important;
+}
+
+.bwt-events-rsvp-modal a.bw-appointment-header-close:hover {text-decoration: none !important;}
+
+

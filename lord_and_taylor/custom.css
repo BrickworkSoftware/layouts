@@ -84,6 +84,10 @@ a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
   .bw-app .bw-display-layer-container button.bwt-index-search-form-submit {
     background-color: #FFF !important;
   }
+  .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
+  .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search {
+    color: #FFF !important;
+  }
 }
 .bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
 ul.bwt-filters-features-list input[type=checkbox],
@@ -277,6 +281,7 @@ button.bwt-index-filters-expand-button {
   text-decoration: none !important;
   font-weight: normal !important;
   font-family: "TriviaSansRegular", Helvetica !important;
+  letter-spacing: 0.75px !important;
 }
 
 .bwt-index-filters-expand-button .bwt-expand-button-expanded .bwt-hide-on-mobile, 
@@ -436,8 +441,7 @@ a.bwt-events-main-store-link {
 .ui-menu .ui-menu-item, .ui-menu .ui-menu-item.ui-state-focus {
   width: 92% !important;
 }
-.bwt-index-filters-expand-button .bwt-expand-button-collapsed div.bwt-hide-on-mobile,
-.bwt-index-filters-expand-button .bwt-expand-button-expanded div.bwt-hide-on-mobile,
+
 div.bwt-events-more-events h3.bwt-events-more-events-title,
 div.bwt-store-services h3.bwt-store-services-title,
 div.bwt-store-events-title-container h4.bwt-store-events-title {
@@ -1047,9 +1051,7 @@ button.bwt-events-rsvp-modal-button {
 
 
 .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
-.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search, 
-.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .bwt-index-search-form-submit-icon .fa-search,
-.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .bwt-index-search-form-submit-icon .fa-search {
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search {
   color: #FFF !important;
 }
 

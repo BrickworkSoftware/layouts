@@ -352,7 +352,7 @@ div.bwt-store-header-type {
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:focus *,
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover,
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover *,
-.fa.fa-search {
+{
   color: #494644 !important;
   border-color: #494644 !important;
 }
@@ -1045,4 +1045,11 @@ button.bwt-events-rsvp-modal-button {
 
 .bwt-events-rsvp-modal a.bw-appointment-header-close:hover {text-decoration: none !important;}
 
+
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search, 
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .bwt-index-search-form-submit-icon .fa-search,
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .bwt-index-search-form-submit-icon .fa-search {
+  color: #FFF !important;
+}
 

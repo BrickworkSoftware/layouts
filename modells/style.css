@@ -37,7 +37,6 @@ body {margin: 0;}
 
 .logo-container,
 .desktop-links {
-  display: inline-block;
   float: left;
 }
 

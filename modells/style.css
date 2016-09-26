@@ -1,6 +1,8 @@
 body {margin: 0;}
 
 .bw-display-layer-container { margin: 75px 0; }
+.footer{  font-size: 11px; margin: -50px 0 0; }
+
 .clearfix {
   overflow: auto;
   zoom: 1;

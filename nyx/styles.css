@@ -654,3 +654,6 @@ display: none !important;
     display: none;
 }
 
+ul.bwt-store-nav-list li:nth-child(2) { 
+    display:none !important;
+}

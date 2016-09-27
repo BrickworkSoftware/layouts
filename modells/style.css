@@ -65,7 +65,7 @@ body {margin: 0;}
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#872A32', endColorstr='#BB0521',GradientType=0 ); /* IE6-9 */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .main-header {
     overflow: hidden;
   }
@@ -81,7 +81,7 @@ body {margin: 0;}
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .header-wrap,
   .footer-wrap {
     width: 100%;
@@ -93,7 +93,7 @@ body {margin: 0;}
   }
 }
 
-.menu-icon-container {
+.mobile-nav-icon {
   float: right;
   padding: 10px 15px;
 }
@@ -177,13 +177,13 @@ body {margin: 0;}
   text-decoration: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 800px) {
   .mobile-footer {
     display: none;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .desktop-footer {
     display: none;
   }

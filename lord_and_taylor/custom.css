@@ -1104,3 +1104,20 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
     }
   }
 
+@media only screen and (min-width: 1000px) {
+  .bwt-events-main .bwt-events-main-image {
+    width: 960px !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-width: 31.063em) {
+  .bw-display-layer .bwt-events-main-store-link-row {
+    position: absolute !important;
+    top: 20px !important;
+    margin-left: 20px !important;
+    left: inherit !important;
+  }
+}
+
+.reveal-modal-bg {display: none !important}

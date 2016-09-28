@@ -81,12 +81,14 @@ a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
   border-color: #E8E8E8 !important;
 }
 @media only screen and (max-width: 865px) {
-  .bw-app .bw-display-layer-container button.bwt-index-search-form-submit {
-    background-color: #FFF !important;
-  }
   .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
   .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search {
     color: #FFF !important;
+  }
+}
+@media only screen and (max-width: 865px) {
+  .bw-app .bw-display-layer-container button.bwt-index-search-form-submit {
+    background-color: #FFF !important;
   }
 }
 .bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
@@ -741,7 +743,7 @@ body{margin:0}
 }
 
 .bwt-store-upcoming-event-link a:hover, .bwt-store-services-appointment-link a:hover {
-  border-bottom: 1px solid #CC4b34 !important
+  border-bottom: 1px solid #CC4b34 !important;
 }
 
 .bwt-store-services-appointment-title {text-transform: uppercase! important;}
@@ -758,7 +760,7 @@ background: none !important;
 padding-bottom: 0px !important;
 }
 
-.bw-display-layer .bwt-index .bwt-store-phone-number {text-align: left !important}
+.bw-display-layer .bwt-index .bwt-store-phone-number {text-align: left !important;}
 
 .bw-display-layer .bwt-index .bwt-store-phone-number-link:hover, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link:hover {
   color: #CC4b34 !important;
@@ -793,7 +795,7 @@ padding-bottom: 0px !important;
   float: left !important;
   font-size: 13px !important;
 }
-.btw-store-show .bwt-show-for-medium-up .bwt-store-phone-number-link {border: none !important}
+.btw-store-show .bwt-show-for-medium-up .bwt-store-phone-number-link {border: none !important;}
 .bwt-store-phone-number-link-text{
   border-bottom: 1px solid #6C6967 !important;
 }
@@ -807,7 +809,7 @@ div.bwt-store-hours-special-title {
 }
 
 .bwt-store-special-hours-link-text {border-bottom: 1px solid !important;}
-.bwt-index span.bwt-store-phone-number-link-text, .bwt-store-show-main span.bwt-store-phone-number-link-text {
+.bwt-index span.bwt-store-phone-number-link-text {
   text-align: left !important;
   font-size: 13px !important;
   letter-spacing: 0.75px !important;
@@ -838,7 +840,6 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text {
   font-family: "TriviaSans", Sans-Serif !important;
-  font-size: 13px !important;
   letter-spacing: 0.75px !important;
   text-decoration: none !important;
   border-bottom: 1px solid #6C6967 !important;
@@ -846,7 +847,7 @@ div.bwt-store-hours-special-title {
 }
 
 .bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text:hover {
-  border-bottom: 1px solid #CC4b34 !important
+  border-bottom: 1px solid #CC4b34 !important;
 }
 .bwt-store-phone-number-link-text:hover{border-bottom: 1px solid #CC4b34 !important;}
 
@@ -892,10 +893,6 @@ div.bwt-store-hours-special-title {
 
 .close-reveal-modal.bwt-hours-close-modal {font-size: 1.5rem !important;}
 
-.bwt-store-call h1 {
-
-}
-
 .bwt-store-nav-list a {
   text-transform: uppercase !important;
   font-weight: bold !important;
@@ -919,7 +916,7 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-store-show .bwt-store-upper-address {border: none !important;}
 
-.bwt-store-upper-address-bottom .bwt-store-phone-number-link-text, .bwt-store-upper-address-bottom a {
+.bwt-store-upper-address-bottom .bwt-store-phone-number-link-text {
   font-family: "TriviaSans", Sans-Serif !important;
   font-size: 13px !important;
   letter-spacing: 0.75px !important;
@@ -959,7 +956,7 @@ div.bwt-store-hours-special-title {
   margin-top: -10px !important;
 }
 
-.bwt-stores-nearby-list .bwt-local-store-map-pin img, .bwt-events-map-pin img {display: none !important}
+.bwt-stores-nearby-list .bwt-local-store-map-pin img, .bwt-events-map-pin img {display: none !important;}
 
 span.bwt-index-search-form-submit-text {
     font-weight: 600 !important;
@@ -993,15 +990,15 @@ div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
   float: right !important;
 }
 
-.bw-display-layer .bwt-index .bwt-index-search-form-submit-text {display: none !important}
+.bw-display-layer .bwt-index .bwt-index-search-form-submit-text {display: none !important;}
 
-.bwt-index-search-input-wrap .add-clear-span a {margin-right: 15% !important}
+.bwt-index-search-input-wrap .add-clear-span a {margin-right: 15% !important;}
 
 @media only screen and (min-width: 54.063em) {
   .bw-display-layer .bwt-index .bwt-index-search-form-submit-icon {
     display: inline !important;
   }
-
+}
 .bwt-store-call-title, .bwt-events-rsvp-modal-title {
   font-family: "TriviaSans", Sans-Serif !important;
   font-weight: 600 !important;
@@ -1055,3 +1052,55 @@ button.bwt-events-rsvp-modal-button {
   color: #FFF !important;
 }
 
+.bwt-store-show-main span.bwt-store-phone-number-link-text {
+  text-align: left !important;
+  letter-spacing: 0.75px !important;
+}
+.bwt-store-upper-address-bottom a {
+  font-family: "TriviaSans", Sans-Serif !important;
+  letter-spacing: 0.75px !important;
+  color: #494644 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #494644 !important;
+}
+
+@media only screen and (min-width: 322px) {
+  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bwt-store-upper-address-bottom a {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bw-display-layer .bwt-store-show .bwt-store-upper-address-bottom a {
+    font-size: 11px !important;
+  }
+}
+
+.bwt-mobile-only .bwt-store-main-description h4 {display: none !important;}
+
+
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours-and-phone .bwt-store-detail-link-wrapper, 
+div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+    display: block !important;
+}
+
+@media only screen and (max-width: 54.063em) {
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+        display: block !important;
+    }
+}
+
+@media only screen and (min-width: 0em) and (max-width: 32em){
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-detail-link-wrapper {
+        position:relative;
+        width: 100%;
+        display: block
+    }
+  }
+
+button.bwt-index-search-form-submit {
+    border: 0px !important;
+    padding-top: 9px !important;
+    width: 16.66667% !important;
+}

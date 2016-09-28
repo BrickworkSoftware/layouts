@@ -240,7 +240,7 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
 .bwt-store-detail-link-wrapper a.bwt-store-detail-link {
   background: white !important;
   border: none !important;
-  border-bottom: 1px solid #6C6967 !important;
+  border-bottom: 3px solid #6C6967 !important;
   color: #6C6967 !important;
   font-family: "TriviaSans", sans-serif !important;
   font-size: 14px !important;
@@ -646,19 +646,21 @@ div.bwt-store.bwt-store-state-normal {
   float: none !important;
   clear: left !important;
   width: 150px !important;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1px !important;
   padding: 10px 15px !important;
   text-align: center !important;
 }
-.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover {
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover, .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active {
   background-color: #FF5E41 !important;
   padding: 10px 15px !important;
   border-radius: 25px !important;
-  margin-bottom: 2px !important;
+  margin-bottom: 1px !important;
 }
 .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link {
   color: #FFF !important;
-  border: none !important;
+  border-bottom: 3px solid #FF5E41 !important;
   background: none !important;
 }
 

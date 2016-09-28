@@ -145,7 +145,7 @@ ul.bwt-filters-features-list label:before {
   background-color: #6C6967;
   color: #FFF;
   text-align: center;
-  line-height: 19px;
+  line-height: 17px;
 }
 .bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
   background-color: #494644;
@@ -503,6 +503,7 @@ div.bwt-event-details-signup a#bwt-rsvp-button,
 ul.bwt-store-nav-list li a {
   font-size: 14px !important;
   padding: 15px 55px !important;
+  font-weight: 600 !important;
 }
 @media only screen and (max-width: 595px) and (min-width: 514px) {
   div.bwt-pagination-container a#show_more_link,
@@ -511,6 +512,7 @@ ul.bwt-store-nav-list li a {
   ul.bwt-store-nav-list li a {
     font-size: 12px !important;
     padding: 10px 39px !important;
+    font-weight: 600px !important;
   }
 }
 .bw-display-layer .bwt-store-hours-special .bwt-store-special-hours-link-text {
@@ -1045,7 +1047,8 @@ button.bwt-events-rsvp-modal-button {
 }
 
 .bwt-store-call-modal a.close-reveal-modal,
-.bwt-events-rsvp-modal a.bw-appointment-header-close {
+.bwt-events-rsvp-modal a.bw-appointment-header-close,
+div#id .close-reveal-modal {
   font-size: 30px !important;
   color: #494644 !important;
   font-weight: normal !important;
@@ -1122,4 +1125,17 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
   }
 }
 
-.reveal-modal-bg {display: none !important}
+.reveal-modal-bg {opacity: 0.9 !important;}
+ 
+ div#legal p {
+  font-family: "TriviaSans", Sans-Serif !important;
+  letter-spacing: 0.75px !important;
+  color: #494644 !important;
+  font-size: 14px !important;
+ }
+
+ div#legal a.close-reveal-modal {
+  font-size: 30px !important;
+  font-weight: normal !important;
+  color: #494644 !important;
+ }

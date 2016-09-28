@@ -55,8 +55,7 @@ div.bwt-store-service-body a.brickwork-button:active,
 a.bwt-store-main-index-link,
 a#bwt-rsvp-button,
 a.bwt-events-main-store-link,
-div.bwt-store-service-body a.brickwork-button,
-.bw-display-layer-container .bwt-index .bwt-index-search-form-submit {
+div.bwt-store-service-body a.brickwork-button {
   border-radius: 50px !important;
   color: #494644 !important;
   border: 2px solid #494644 !important;
@@ -86,11 +85,12 @@ a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
     color: #FFF !important;
   }
 }
+/*
 @media only screen and (max-width: 865px) {
   .bw-app .bw-display-layer-container button.bwt-index-search-form-submit {
     background-color: #FFF !important;
   }
-}
+}*/
 .bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
 ul.bwt-filters-features-list input[type=checkbox],
 ul.bwt-filters-features-list input[type=radio],
@@ -107,10 +107,6 @@ ul.bwt-filters-features-list input[type=radio],
 div.bwt-hide-on-mobile.bwt-index-search-results-notice-body {
   border-bottom-width: thick !important;
   border-color: black !important;
-}
-.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap button.bwt-index-search-form-submit {
-  margin-left: 20px;
-  padding-top: 7px !important;
 }
 ul.bwt-filters-features-list label {
   display: inline-block;
@@ -984,10 +980,18 @@ div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
   }
 }
 
-.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap button.bwt-index-search-form-submit {
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit {
   position: relative !important;
   margin-left: -100% !important;
   float: right !important;
+  border-radius: 50% !important;
+  border: none !important;
+  width: 55px !important;
+  background: none !important;
+}
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:hover, 
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:active {
+  background-color: #494644 !important; 
 }
 
 .bw-display-layer .bwt-index .bwt-index-search-form-submit-text {display: none !important;}
@@ -1087,7 +1091,7 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
 @media only screen and (max-width: 54.063em) {
     .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
     .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
-        display: block !important;
+        display: block !important;f
     }
 }
 
@@ -1099,8 +1103,3 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
     }
   }
 
-button.bwt-index-search-form-submit {
-    border: 0px !important;
-    padding-top: 9px !important;
-    width: 16.66667% !important;
-}

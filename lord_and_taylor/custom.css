@@ -988,6 +988,7 @@ div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
   border: none !important;
   width: 55px !important;
   background: none !important;
+  padding-top: 7px !important;
 }
 .bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:hover, 
 .bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:active {

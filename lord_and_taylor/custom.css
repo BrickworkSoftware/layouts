@@ -652,19 +652,22 @@ div.bwt-store.bwt-store-state-normal {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1px !important;
-  padding: 10px 15px !important;
+  padding: 8px 15px !important;
   text-align: center !important;
 }
 .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover, .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active {
   background-color: #FF5E41 !important;
-  padding: 10px 15px !important;
+  padding: 8px 15px !important;
   border-radius: 25px !important;
-  margin-bottom: 1px !important;
+  margin-bottom: 4px !important;
+  transition: background-color .25s ease;
 }
-.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link {
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link,
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active a.bwt-store-detail-link {
   color: #FFF !important;
-  border-bottom: 3px solid #FF5E41 !important;
+  border-bottom: 0px !important;
   background: none !important;
+  transition: color .25s ease, backround .25s ease;
 }
 
 

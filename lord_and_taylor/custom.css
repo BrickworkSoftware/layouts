@@ -1202,3 +1202,5 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
       margin: 0 !important;
   }
 }
+
+.bwt-index .bwt-store-body > div span li img a td tr table {z-index: 999999 !important;}

@@ -1204,3 +1204,8 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
 }
 
 .bwt-index .bwt-store-body > div span li img a td tr table {z-index: 999999 !important;}
+
+button.slick-next, button.slick-prev {
+  height: 120px !important;
+  width: 24px !important;
+}

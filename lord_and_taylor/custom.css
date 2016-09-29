@@ -902,7 +902,7 @@ div.bwt-store-hours-special-title {
 .bwt-store-map-button-text, .bwt-store-main-index-link, .bwt-store-event-link-wrapper .bwt-store-event-link, .bwt-events-main-store-link,
 .bwt-event-details-signup-button {
   text-transform: uppercase !important;
-  font-weight: bold !important;
+  font-weight: 600 !important;
 }
 
 .bw-display-layer .bwt-event-details-date-time {
@@ -1139,4 +1139,17 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
   font-size: 30px !important;
   font-weight: normal !important;
   color: #494644 !important;
+ }
+
+ @media only screen and (max-width: 1000px) {
+  .lt-logo-wrapper {
+    width: 135px !important;
+    height: 120px !important;
+    top: -10% !important;
+  }
+  a.icon-lord-and-taylor:before {
+    content: url(//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/images/NEW_L%26T_Dress-Address_Logo.svg) !important;
+    height: 98%;
+    width: 98%;
+  }
  }

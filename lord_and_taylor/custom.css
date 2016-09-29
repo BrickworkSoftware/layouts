@@ -549,7 +549,7 @@ header.bwt-store-header h3.bwt-store-header-title a:hover {
 }
 @media only screen and (min-width: 32.063em) {
   .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-location-details {
-    padding: 0 40px !important;
+    padding: 0px !important;
   }
 }
 @media only screen and (max-width: 513px) {
@@ -1101,9 +1101,14 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
 @media only screen and (max-width: 54.063em) {
     .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
     .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
-        display: block !important;f
+        display: block !important;
     }
 }
+
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+        display: block !important;
+    }
 
 @media only screen and (min-width: 0em) and (max-width: 32em){
     .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-detail-link-wrapper {
@@ -1156,3 +1161,44 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
     width: 98%;
   }
  }
+
+ /* Store Index Card Column Adjustment*/
+@media only screen and (min-width: 866px) { 
+   .bwt-index .bwt-store-aside {
+      display: none !important;
+  }
+
+  .bwt-index .bwt-store-main-wrapper {
+      width: 100% !important;
+  }
+
+  .bwt-index .bwt-store-address-wrapper {
+      width: 33.33% !important;
+      margin-right: 40px !important;
+  }
+
+  .bwt-index .bwt-store-location-details-wrapper {
+      width: calc(66.33% - 40px) !important;
+  }
+
+  .bwt-index .bwt-store-location-details {
+      padding: 0 !important;
+  }
+
+  .bwt-index .bwt-store-hours-and-phone {
+      width: 50% !important;
+      padding: 0 40px !important;
+  }
+
+  .bwt-index .bwt-store-hours-special {
+      height: 16px !important;
+  }
+
+  .bwt-index .bwt-store-phone-number-link-prefix {
+      width: 20px !important;
+  }
+
+  .bwt-index .bwt-store-phone-number {
+      margin: 0 !important;
+  }
+}

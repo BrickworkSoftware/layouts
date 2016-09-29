@@ -292,7 +292,8 @@ button.bwt-index-filters-expand-button {
   letter-spacing: 0.75px !important;
   font-family: "TriviaSansRegular", Helvetica !important;
 }
-.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after {
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after,
+.bwt-mobile-nav-collapse-trigger:before {
    font-family: "hbc-icons" !important;
    content: "\e926" !important;
    display: block;
@@ -389,7 +390,7 @@ a.bwt-events-main-store-link {
   .bw-display-layer-container .bwt-store-show .bwt-store-show-feed-mobile-title,
   .bw-display-layer-container .bwt-store-show .bwt-store-stylists-mobile-title {
     font-family: "TriviaSans", sans-serif !important;
-    border-top-color: #6C6967 !important;
+    border-top-color: #c1bdbb !important;
     color: #6C6967 !important;
     border-bottom-color: #6C6967 !important;
   }
@@ -929,7 +930,7 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-store-show .bwt-store-main-hours-info-mobile-title, .bw-display-layer .bwt-store-show .stores-nearby-mobile, .bwt-store-services-mobile-title,
 .bwt-store-events-mobile-title {
-  border-top: 1px solid #494644 !important;
+  border-top: 1px solid #c1bdbb !important;
   border-bottom: none !important;
 }
 

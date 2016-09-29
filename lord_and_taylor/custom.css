@@ -1111,7 +1111,7 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
 
 @media only screen and (min-width: 1000px) {
   .bwt-events-main .bwt-events-main-image {
-    width: 960px !important;
+    max-width: 960px !important;
     margin: auto !important;
   }
 }

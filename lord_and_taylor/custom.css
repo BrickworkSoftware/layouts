@@ -1209,3 +1209,5 @@ button.slick-next, button.slick-prev {
   height: 120px !important;
   width: 24px !important;
 }
+
+.leaflet-popup-pane .bwt-map-store-info { display: none !important;}

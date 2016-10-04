@@ -443,3 +443,6 @@ input#appointment_date::-webkit-input-placeholder {
 }
 
 .social-google-plus {display: none !important;}
+
+/*Hide appointmnen button on store index store cards*/
+.bwt-search-results .appt_button_container {display: none !important;}

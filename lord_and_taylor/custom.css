@@ -91,6 +91,38 @@ a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
     background-color: #FFF !important;
   }
 }*/
+
+/*Display store info on tablet portrait view*/
+@media only screen and (max-width: 100em) and (min-width: 30em) {
+.bw-display-layer .bwt-index .bwt-store-location-details-wrapper  { 
+  display: block !important; 
+  } 
+}
+@media only screen and (max-width: 54em) and (min-width: 32.063em) {
+.bw-display-layer .bwt-index .bwt-store-main div.bwt-store-location-details-wrapper  { 
+  display: block !important; 
+  width: 100% !important;
+  } 
+  .bwt-index .bwt-store-hours-table {
+    width: 50% !important; 
+  }
+  .bwt-store-show .bwt-store-main-hours-info {
+    width: 100% !important;
+  }
+  .bwt-store-show table.bwt-store-hours-table {
+    width: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bwt-store-show .bwt-store-main-contact {
+    width: 95% !important;
+  }
+  .bwt-store-show .bwt-store-main-location-wrapper, .bwt-store-show .bwt-store-hours-and-phone {
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+}
 .bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
 ul.bwt-filters-features-list input[type=checkbox],
 ul.bwt-filters-features-list input[type=radio],
@@ -1085,10 +1117,14 @@ div#id .close-reveal-modal {
     font-size: 13px !important;
   }
 }
-@media only screen and (max-width: 321px) {
-  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bw-display-layer .bwt-store-show .bwt-store-upper-address-bottom a {
+@media only screen and (max-width: 415px) {
+  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bw-display-layer .bwt-store-show .bwt-store-upper-address-bottom a,
+  span.bwt-store-phone-number-link-prefix:before {
     font-size: 11px !important;
+    vertical-align: middle !important;
+    line-height: 14.25px !important;
   }
+  .bwt-store-show-main a.bwt-store-phone-number-link {padding: 0px !important;}
 }
 
 .bwt-mobile-only .bwt-store-main-description h4 {display: none !important;}
@@ -1189,7 +1225,7 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
 
   .bwt-index .bwt-store-hours-and-phone {
       width: 50% !important;
-      padding: 0 40px !important;
+      padding: 0 20px 0 0 !important;
   }
 
   .bwt-index .bwt-store-hours-special {
@@ -1203,7 +1239,9 @@ div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-bod
   .bwt-index .bwt-store-phone-number {
       margin: 0 !important;
   }
+}
 
+/*Fix map hiding index results*/
 .bwt-index .bwt-store-body > div span li img a td tr table,
 .bwt-index .bwt-store > div span li img a td tr table {
   z-index: 999999 !important;
@@ -1218,37 +1256,105 @@ button.slick-next, button.slick-prev {
 
 .leaflet-popup-pane .bwt-map-store-info { display: none !important;}
 
-/*
-@media only screen and (min-width: 32.063em) {
-  .bw-display-layer .bwt-index .bwt-index-search-results-notice-details,
-  .bw-display-layer .bwt-index .bwt-index-search-results-notice-map-action {
-    width: 100% !important;
-  }
-  .bw-display-layer .bwt-index .bwt-index-search-results-notice-map-action {
-    text-align: left !important;
-  }
-  .bwt-index-search-results-map-button {
-    padding-left: 0px !important;
-    text-align: left !important;
-  }
-  .bw-display-layer .bwt-index .bwt-index-filters-toggle {
-    text-align: left !important;
-  }
-  #bwt-show-map-button {padding: 0px !important;}
-}
-*/
 
-@media only screen and (max-width: 54em) and (min-width: 32.063em) {
+.bw-display-layer .bwt-index .bwt-index-search-results-notice {
+    position: relative !important;
+}
+
+.bwt-index-search-results-notice-details {
+    width: 40% !important;
+}
+
+
+.bwt-index-search-results-notice-map-action {
+    width: 115px !important;
+    float: right !important;
+    border-left: solid 1px #ccc !important;
+    padding: 9px 15px !important;
+}
+
+.bwt-index-search-results-map-button {
+    width: auto !important;
+}
+
+.bwt-show-map-button {
+    text-decoration: none !important;
+    border-bottom: solid 1px #6C6967 !important;
+}
+
+#bwt-show-map-button, .bwt-index-search-results-map-button, button#bwt-show-map-button, button#bwt-hide-map-button {
+    padding: 0 !important;
+}
+
+.bwt-show-map-button:hover {
+    color: #CC4b34 !important;
+    border-bottom-color: #CC4b34 !important;
+}
+
+.bwt-index-filters-toggle {
+    padding: 0px !important;
+    border: 0 !important;
+}
+
+
+.bwt-index-search-results-notice-map-action {
+    border-left: solid 1px #ccc !important;
+}
+
+.bwt-index-filter-body {
+    margin: 0px !important;
+    padding: 0px 0 20px 0 !important;
+    border-bottom: solid 1px #ccc;
+}
+
+.bwt-index-filters-expand-button {
+  position: absolute !important;
+  top: 5px !important;
+  right: 135px !important;
+}
+
+/* MEDIUM UP BREAKPOINT */
+@media only screen and (min-width: 54em) {
+
   .bwt-store-address {
     padding-left: 10px !important;
   }
-}
 
-@media only screen and (min-width: 32.063em) and (max-width: 54em) {
-  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper {
-    display: block !important;
+  .bw-display-layer .bwt-index .bwt-index-search-results-notice {
+    position: relative !important;
   }
 }
 
 
+/* SMALL BREAKPOINT */
+@media only screen and (min-width: 320px) and (max-width: 510px){
+  .bwt-index-filters-expand-button {
+    position: absolute !important;
+    top: 5px !important;
+    right: 0 !important;
+  }
 
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper {
+    display: block !important;
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-filters-toggle {
+    text-align: right;
+    padding: 0 !important;
+    border: 0;
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-search-results-notice {
+      position: relative !important;
+  }
+}
+
+.bw-display-layer .footer {display: none !important;}
+
+/*Show mobile footer on tablet*/
+@media (max-width: 1000px) and (min-width: 575px) {
+.show-for-medium-up.site_footer {display: none !important;}
+.site_footer.show-for-small-only {display: block !important;}
+}
+
+.lt-search-form .search-form-input-container input.search-form-input {width: 80% !important;}

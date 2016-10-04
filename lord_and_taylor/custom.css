@@ -260,7 +260,6 @@ div#services a.bwt-store-services-mobile-title,
 .bwt-stores-nearby h3.bwt-stores-nearby-title,
 .bw-app .bw-display-layer-container div#store-main-content h4,
 div.bwt-store-services-appointment-title,
-div.bwt-store-upcoming-event-title,
 div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   font-size: 13px !important;
   font-family: "TriviaSans", sans-serif !important;
@@ -269,6 +268,15 @@ div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
   letter-spacing: 0.75px !important;
   margin-bottom: 5px !important;
 }
+.bwt-index div.bwt-store-upcoming-event-title {
+  font-size: 13px !important;
+  font-family: "TriviaSans", sans-serif !important;
+  font-weight: normal !important;
+  color: #494644 !important;
+  letter-spacing: 0.75px !important;
+  margin-bottom: 5px !important;
+}
+
 .bwt-store-detail-link-wrapper a.bwt-store-detail-link {
   background: white !important;
   border: none !important;

@@ -657,3 +657,8 @@ display: none !important;
 ul.bwt-store-nav-list li:nth-child(2) { 
     display:none !important;
 }
+
+
+.bw-app .footer {
+    background-color: #000000 !important;
+}

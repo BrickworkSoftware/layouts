@@ -55,9 +55,6 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 }
 
 /* Other */
-
-.bwt-email-opt-field input[type=checkbox]:checked+label { background: none !important; }
-
 .bw-appointment-services .bw-appointment-service-link { min-height: 273.188px !important; }
 
 .bwt-store-directions-mobile-link { color: #000 !important; }

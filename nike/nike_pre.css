@@ -164,3 +164,18 @@ span.bwt-store-main-alert, div.bwt-index-nearby-store-distance {font-size: 14px 
 .bw-appointment-hero-image { background-position: top center !important; }
 
 .bw-appointment-hero-copy { color: rgba(0,0,0,0) !important; }
+
+/* Appointment Modal Legal*/
+.bwt-email-opt-field input[type=checkbox]:checked+label { 
+  background: none !important; 
+  }
+
+input#customer_email_opt_in { display: none !important; }
+
+label.bwt-rsvp-email-opt-placeholder {
+  font-family: "TradeGothicRegular", Helvetica, sans-serif !important;
+  font-size: 13px !important;
+  color: #666 !important;
+}
+
+textarea#question_194 { display: none !important; }

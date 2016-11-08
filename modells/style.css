@@ -206,3 +206,10 @@ body {margin: 0;}
   color: #D0021B;
   text-decoration: none;
 }
+
+span.bwt-store-header-details-decoration {
+    display: none;
+}
+span.bwt-store-header-details-hours {
+    display: none;
+}

@@ -179,3 +179,33 @@ label.bwt-rsvp-email-opt-placeholder {
 }
 
 textarea#question_194 { display: none !important; }
+
+/* Questions v2 Syle Updates*/
+@media only screen and (min-width: 650px){
+	.row.btw-appt-name-email-fields {
+		width: 66.66%;
+		float: left !important;
+	}
+
+	.row.questions_1 {
+		width: 33.33%;
+		float: right !important;
+	}
+
+	.row .row {
+		margin-left: 10px !important;
+		margin-right: -10px !important;
+	}
+}
+
+.bwt-appt-message-field input, .bwt-appt-message-field input[type="text"], .bw-appointment-step-container input {
+	height: 100px !important;
+}
+
+.bw-appointment-step-container #name, .bw-appointment-step-container #email, .bw-appointment-step-container .questions_1 input {height: 60px !important;}
+
+.bwt-appt-input-placeholder {
+	font-family: "TradeGothic", Helvetica, sans-serif !important;
+}
+
+.bw-appointment-step-container small.error {display: none !important;}

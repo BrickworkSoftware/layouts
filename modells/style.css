@@ -31,6 +31,8 @@ body {margin: 0;}
   text-decoration: none;
 }
 
+.footer { display: none; }
+
 .header-wrap,
 .footer-wrap {
   margin: 0 auto;
@@ -57,6 +59,12 @@ body {margin: 0;}
   border-left: 1px solid #fff;
   text-align: center;
   color: #fff;
+}
+
+.desktop-links, 
+.header-wrap {
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .link-container:last-child {
@@ -213,3 +221,4 @@ span.bwt-store-header-details-decoration {
 span.bwt-store-header-details-hours {
     display: none;
 }
+.bw-display-layer .footer a{color:#fff !important;}

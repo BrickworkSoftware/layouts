@@ -214,3 +214,9 @@ textarea#question_194 { display: none !important; }
    width: 30%;
    float: right;
 }
+
+@media only screen and (min-width: 32.063em) {
+   .bw-display-layer .bwt-company-us-state-list {
+      padding-top: 20px;
+   }
+}

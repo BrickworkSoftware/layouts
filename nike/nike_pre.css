@@ -209,3 +209,8 @@ textarea#question_194 { display: none !important; }
 }
 
 .bw-appointment-step-container small.error {display: none !important;}
+
+.bwt-company-outside-countries {
+   width: 30%;
+   float: right;
+}

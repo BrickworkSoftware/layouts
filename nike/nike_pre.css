@@ -220,3 +220,21 @@ textarea#question_194 { display: none !important; }
       padding-top: 20px;
    }
 }
+
+.bwt-company-areas.bwt-hide-on-mobile { display: block !important; }
+
+@media only screen and (max-width: 32.064em) {
+   .bwt-company-us-state-table {
+      display: none !important;
+   }
+   .bwt-company-us-states {
+      width: 100%;
+      text-align: center;
+      top: 100px;
+   }
+   .bwt-company-outside-countries {
+      width: 100%;
+      text-align: center;
+      top: -45px;
+   }
+}

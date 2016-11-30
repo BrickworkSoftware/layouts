@@ -210,7 +210,7 @@ textarea#question_194 { display: none !important; }
 
 .bw-appointment-step-container small.error {display: none !important;}
 
-/*
+/*Directory reveal other countries, desktop and mobile*/
 .bwt-company-outside-countries {
    width: 30%;
    float: right;
@@ -237,6 +237,24 @@ textarea#question_194 { display: none !important; }
       width: 100%;
       text-align: center;
       top: -45px;
-   }
+	}
 }
-*/
+
+@media only screen and (min-width: 32.063em) {
+	.bw-display-layer .bwt-hide-on-mobile, .bw-display-layer .bwt-company-directory .bwt-index-header-container {
+		display: block !important;
+	}
+}
+
+.bwt-company-us-states {
+	width: 66.66%;
+	float: left;
+	margin-bottom: 25px;
+}
+
+.bwt-company-us-state-table .bwt-company-state {
+	width: 20%;
+	float: left;
+}
+
+.bwt-company-us-state-list {width: 100%;}

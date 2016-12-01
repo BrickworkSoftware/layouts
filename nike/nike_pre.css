@@ -258,3 +258,8 @@ textarea#question_194 { display: none !important; }
 }
 
 .bwt-company-us-state-list {width: 100%;}
+
+/* Hide Terms of Use On Index and Store Page*/
+.bw-display-layer .footer a:nth-child(1), .bw-display-layer .footer a:nth-child(2) {
+    display: none !important;
+}

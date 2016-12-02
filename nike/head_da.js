@@ -4,27 +4,27 @@
 	var bwNikeLinks = {
 		uat: {
 			styles: {
-				base: 'http://ecn100-store.nikedev.com/da/da_da/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
-				mobile: 'http://ecn100-m.nikedev.com/da/da_da/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
+				base: 'http://ecn100-store.nikedev.com/dk/da_dk/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
+				mobile: 'http://ecn100-m.nikedev.com/dk/da_dk/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
 			},
 			scripts: {
 				nsgjs: 'http://ecn100-www.nikedev.com/styleguide/init/nsg.js',
 				nikeScriptManager: {
-					desktop: 'http://ecn100-store.nikedev.com/da/da_da/NikeScriptManager.js?app=nikestore&assets=nike,nike.fonts.glyphPolyfill,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter,yepnope.injectCss&assetType=SCRIPT',
-					mobile: 'http://ecn100-m.nikedev.com/da/da_da/NikeScriptManager.js?app=nikestore&version=latest&assets=nike,nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav&assetType=SCRIPT'
+					desktop: 'http://ecn100-store.nikedev.com/dk/da_dk/NikeScriptManager.js?app=nikestore&assets=nike,nike.fonts.glyphPolyfill,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter,yepnope.injectCss&assetType=SCRIPT',
+					mobile: 'http://ecn100-m.nikedev.com/dk/da_dk/NikeScriptManager.js?app=nikestore&version=latest&assets=nike,nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav&assetType=SCRIPT'
 				}
 			}
 		},
 		prod: {
 			styles: {
-				base: '//secure-store.nike.com/da/da_da/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
-				mobile: '//m.nike.com/da/da_da/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
+				base: '//secure-store.nike.com/dk/da_dk/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
+				mobile: '//m.nike.com/dk/da_dk/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
 			},
 			scripts: {
 				nsgjs: '//www.nike.com/styleguide/init/nsg.js',
 				nikeScriptManager: {
-					desktop: '//secure-store.nike.com/da/da_da/NikeScriptManager.js?app=nikestore&assets=nike,nike.fonts.glyphPolyfill,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter,yepnope.injectCss&assetType=SCRIPT',
-					mobile: '//m.nike.com/da/da_da/NikeScriptManager.js?app=nikestore&version=latest&assets=nike,nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav&assetType=SCRIPT'
+					desktop: '//secure-store.nike.com/dk/da_dk/NikeScriptManager.js?app=nikestore&assets=nike,nike.fonts.glyphPolyfill,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter,yepnope.injectCss&assetType=SCRIPT',
+					mobile: '//m.nike.com/dk/da_dk/NikeScriptManager.js?app=nikestore&version=latest&assets=nike,nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav&assetType=SCRIPT'
 				}
 			}
 		}

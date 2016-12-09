@@ -1,4 +1,7 @@
 .ch-namespace header.mobile div.inner { padding: 0 20px !important; }
+.ch-namespace .mini ~ main {
+    margin-top: 50px;
+}
 .bw-display-layer .footer {
   display: none;
 }

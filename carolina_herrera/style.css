@@ -5,3 +5,9 @@
 .bw-display-layer .footer {
   display: none;
 }
+.bwt-types-container {
+  display: none !important;
+}
+.bwt-features-and-services-container {
+  width: 100% !important;
+}

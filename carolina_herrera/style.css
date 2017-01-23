@@ -5,9 +5,14 @@
 .bw-display-layer .footer {
   display: none;
 }
-.bwt-types-container {
+.bwt-types-container,
+.bwt-upcoming-event-container,
+.bwt-index-store-events-and-services {
   display: none !important;
 }
 .bwt-features-and-services-container {
   width: 100% !important;
+}
+.bw-display-layer .bwt-index-store-secondary-container .bwt-hidden {
+ display: block !important;
 }

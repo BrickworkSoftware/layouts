@@ -6,6 +6,7 @@
   display: none;
 }
 .bwt-types-container,
+.bw-display-layer label.hidden,
 .bwt-upcoming-event-container,
 .bwt-index-store-events-and-services,
 .bwt-sub-nav.bwt-hide-on-mobile * {

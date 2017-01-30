@@ -15,6 +15,10 @@
 .bwt-features-and-services-container {
   width: 100% !important;
 }
-.bw-display-layer .bwt-index-store-secondary-container .bwt-hidden {
- display: block !important;
+#bwt-index-filters  * {
+    display: block !important;
+}
+
+.bwt-index-filters-toggle {
+    display: none !important;
 }

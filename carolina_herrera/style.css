@@ -15,10 +15,10 @@
 .bwt-features-and-services-container {
   width: 100% !important;
 }
-#bwt-index-filters {
+.bwt-index-filter-list.bwt-hidden {
     display: block !important;
 }
 
-.bwt-index-filters-toggle * {
+.bwt-index-filters-toggle {
     display: none !important;
 }

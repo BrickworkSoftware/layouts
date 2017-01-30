@@ -19,6 +19,6 @@
     display: block !important;
 }
 
-.bwt-index-filters-toggle {
+.bwt-index-filters-toggle * {
     display: none !important;
 }

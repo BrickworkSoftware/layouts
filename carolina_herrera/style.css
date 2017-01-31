@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 640px){
    .bw-display-layer .bwt-filters li {
-    width: none !important;
+    width: 100% !important;
   }
 }

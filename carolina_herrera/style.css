@@ -15,7 +15,7 @@
 .bwt-features-and-services-container {
   width: 100% !important;
 }
-.bwt-index-filter-list.bwt-hidden {
+.bw-display-layer .bwt-index-filter-list.bwt-hidden {
     display: block !important;
 }
 

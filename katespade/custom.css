@@ -1,0 +1,230 @@
+@import url('//hello.myfonts.net/count/2ebc96');
+
+@font-face {
+  font-family: 'NewBaskervilleStd-Bold';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_0_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_0_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_0_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_0_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NewBaskervilleStd-BoldIt';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_1_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_1_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_1_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_1_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NewBaskervilleStd-Italic';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_2_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_2_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_2_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_2_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NewBaskervilleStd-Roman';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_3_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_3_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_3_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_3_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_3_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaPT-Medium';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_4_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_4_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_4_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_4_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_4_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaPT-Heavy';
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_5_0.eot');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_5_0.eot?#iefix') format('embedded-opentype'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_5_0.woff2') format('woff2'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_5_0.woff') format('woff'),
+    url('//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/2EBC96_5_0.ttf') format('truetype');
+}
+
+.bw-app .bw-display-layer-container .bw-display-layer {
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
+}
+
+.bw-display-layer #appointment-confirmation,
+.bw-display-layer #enter-contact-info input,
+.bw-display-layer #enter-contact-info textarea,
+.bw-display-layer .bwt-appt-input-placeholder,
+.bw-display-layer .ui-accordion-content,
+.bwt-store-banner-info-container .bwt-store-header-title,
+.bwt-store-banner-info-container .bwt-store-header-title a,
+.bwt-store-call-field label,
+.bwt-rsvp-first-name-field label,
+.bwt-rsvp-last-name-field label,
+.bwt-rsvp-email-field label,
+.bwt-email-opt-field label,
+.bwt-appt-name-field label,
+.bwt-appt-email-field label,
+.bwt-appt-message-field label,
+.bw-display-layer input.bwt-modal-store-search-location-field &::-moz-placeholder,
+.bw-display-layer input.bwt-modal-store-search-location-field &::-webkit-input-placeholder,
+.bw-display-layer input.bwt-modal-store-search-location-field &:-ms-input-placeholder,
+.bw-display-layer input.bwt-modal-store-search-location-field &:-moz-placeholder,
+.bw-display-layer .bw-appointment-service-link-description,
+.bwt-store-show .bwt-store-alert h4,
+.bwt-store-show .bwt-store-alert p,
+.bwt-index-filter-body .bwt-filters-features-list,
+.bw-display-layer .store-detail-name,
+.bw-display-layer .store-not-found {
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
+}
+
+.bwt-store-call-title,
+.bwt-store-call-response-title,
+.bwt-events-rsvp-modal-title,
+.bwt-events-rsvp-success-title,
+.bwt-store-call-input,
+.bw-display-layer .title h1,
+.bw-appointment-service-link-name,
+.bw-display-layer .local-stores,
+.bw-appointment-header-column a,
+.bw-appointment-header-column span,
+.bw-appointment-step-container-title,
+.bw-display-layer .title h1,
+.bw-display-layer #appointment-confirmation .confirmation_title,
+.bwt-events-more-events-title h2,
+.bwt-store-features-title h2,
+.bwt-store-services-title h2,
+.bwt-store-events-title h2,
+.bwt-stores-nearby-title h2,
+.bwt-store-features-description h2,
+.bwt-store-features-description {
+  font-family: "NewBaskervilleStd-Italic", Helvetica, Arial, sans-serif !important;
+}
+
+.bwt-event-title,
+.bw-display-layer .event-title,
+.bwt-event-details-title,
+.bwt-nearby-event-title,
+.bwt-store-event-title,
+.bwt-store-service-title {
+  font-family: "NewBaskervilleStd-BoldIt", serif !important;
+}
+
+.bw-display-layer #appointment-options input,
+.bw-display-layer .date_selector .big_day,
+.bw-display-layer .date_selector .small_day,
+.bw-display-layer .day_segment .segment_name,
+.bw-display-layer .day_segment .num_available,
+.bw-display-layer .day_segment .segment_body,
+.bwt-store-show h4,
+.bwt-store-show .bwt-store-features-description b,
+.bwt-store-show .brickwork-button,
+.bwt-store-show .ui-datepicker,
+.bwt-store-show .bwt-store-link,
+.bwt-store-show .new_subscription button,
+.bwt-store-show-primary .bwt-store-phone-number,
+.bwt-store-services-and-location h3,
+.bwt-store-phone-number-link-text,
+.bwt-store-email-link-text a,
+.bwt-store-address-line,
+.bwt-store-main-section,
+.bwt-store-main-section h3,
+.bwt-store-main-section table,
+.bwt-events-other-events h4,
+.bwt-events-rsvp-modal-button,
+.bwt-index-filter-list,
+.bw-appointment-header-feedback,
+.bw-display-layer #select-appointment-time .appointment-slots .day_container .day-title,
+.bw-display-layer .day-date-column .dayname_only,
+.bw-display-layer .ui-accordion-header,
+.bwt-store-main-alert,
+.bw-display-layer .store-alert-container,
+.bw-appointment-service-link-duration,
+.bwt-store-banner-info-container .store-alert-container,
+.bwt-store-address .bwt-store-address-line,
+.bwt-index-store-body-details-distance-hours,
+.bwt-store-phone-number,
+.bwt-index-search-results-notice-details,
+.bwt-store-actions .bwt-store-link,
+.bwt-store-list .nearest-store,
+.bwt-index-filters-expand-button,
+.bwt-index-search-results-map-button,
+.bw-call-to-action,
+.bwt-index-main-title,
+.bwt-event-index .pagination,
+.bwt-event-index .bwt-local-link,
+.bwt-event-index .bwt-event-time,
+.bwt-event-index .bwt-event-date,
+.bwt-store-main-search-link,
+.bwt-store-event-link,
+.bwt-events-main .bwt-event-search-link,
+.bw-display-layer .button,
+.bwt-appt-modal-button,
+.bw-display-layer .nearest-store a.choose-store-link,
+.bw-display-layer #confirm_appointment_button,
+.bwt-events-rsvp-modal-button,
+.bwt-events-rsvp-success-button,
+.book-appointment-button:not(:empty),
+.back-to-store-link,
+.bwt-back-to-store-link,
+.bwt-stores-nearby-list .bwt-store-map-button,
+.bwt-store-map-button,
+.bwt-events-map-button,
+.bwt-store-map-button-mobile {
+  font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
+}
+
+.bwt-filters-features-title {
+  font-family: 'FuturaPT-Heavy', sans-serif !important;
+}
+
+.primary-logo img {
+  max-width: none;
+}
+
+.bwt-store-map-pin-holder,
+.bwt-events-map-pin-holder {
+  background: url("//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/images/ksny_pin.png") no-repeat !important;
+}
+
+#bwt-bigmap .default-map-pin {
+  content: url("//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/images/ksny_pin.png") !important;
+}
+
+.row .bw-display-layer .promo-message .call-to-action, .row .bw-display-layer .book-appointment-button {
+  display: block;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
+  height: 80px;
+}
+
+.row #appointment-container .title {
+  margin: 30px 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .row #appointment-container .day-date-column .dayname_only {
+    font-size: 9px !important;
+  }
+}
+
+.bw-display-layer .promo-message .bwt-hide-on-mobile, .bwt-index-search-container .promo-message .bwt-hide-on-mobile {
+  display: block !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature h4 {
+  padding: 0;
+}
+
+.bwt-index-search-form-location-button {
+  display: block;
+}

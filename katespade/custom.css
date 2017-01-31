@@ -58,6 +58,15 @@
   font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
 }
 
+.bw-display-layer h1,
+.bw-display-layer h2,
+.bw-display-layer h3,
+.bw-display-layer h4,
+.bw-display-layer h5,
+.bw-display-layer h6 {
+  text-transform: lowercase;
+}
+
 .bw-display-layer #appointment-confirmation,
 .bw-display-layer #enter-contact-info input,
 .bw-display-layer #enter-contact-info textarea,

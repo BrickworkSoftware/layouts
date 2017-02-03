@@ -1,3 +1,29 @@
+.hbc-main {
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+@media (max-width: 581px) {
+    .hbc-main {
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+}
+
+.header-utils__list-item,
+.email-signup,
+.header-nav-hamburger__list-item--footer,
+.promo-detail__link--overlay {
+    display: none;
+}
+
+.hbc-sub-footer__column {
+    border-right: none;
+}
+
 @import url("//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/fonts/fonts.css");
 
 * { text-rendering: optimizeLegibility; }

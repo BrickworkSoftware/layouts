@@ -380,6 +380,1755 @@ div.bwt-store-header-type {
   font-weight: 500 !important;
 }
 
+.btw-store-show span.bwt-store-main-alert:before {
+  content: "• ";
+}
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:active,
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:active *,
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:focus,
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:focus *,
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover,
+.bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:hover *,
+{
+  color: #444444 !important;
+  border-color: #444444 !important;
+}
+.bwt-show-for-small-only a#bwt-store-phone-number-link,
+.bw-app .bw-display-layer-container button.bwt-index-filters-expand-button {
+  border: none !important;
+}
+.bw-app .bw-display-layer-container button.bwt-index-filters-expand-button {margin-top: 1px !important;}
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-next:active,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-next:hover,
+.bw-app .bw-display-layer-container div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-next,
+.bw-app .bw-display-layer-container div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-prev,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-prev:active,
+div.bwt-mobile-carousel-controls button.bwt-mobile-carousel-controls-prev:hover,
+.bw-app .bw-display-layer-container button.bwt-index-filters-expand-button {
+  background: none !important;
+}
+.bw-display-layer-container .bwt-store-map .bwt-store-map-link:active span.bwt-store-map-button,
+.bw-display-layer-container .bwt-store-map .bwt-store-map-link:hover span.bwt-store-map-button {
+  background-color: #A71A4B !important;
+  border-color: #A71A4B !important;
+}
+a.bwt-store-main-index-link,
+div.bwt-store-service-body a.brickwork-button,
+a.bwt-events-main-store-link {
+  background-color: #FFF !important;
+}
+@media only screen and (max-width: 32em) {
+  .bw-display-layer-container .bwt-store-show .bwt-store-events-mobile-title,
+  .bw-display-layer-container .bwt-store-show .bwt-store-main-hours-info-mobile-title,
+  .bw-display-layer-container .bwt-store-show .bwt-store-services-mobile-title,
+  .bw-display-layer-container .bwt-store-show .bwt-store-show-feed-mobile-title,
+  .bw-display-layer-container .bwt-store-show .bwt-store-stylists-mobile-title {
+    font-family: "Gotham 4r", sans-serif !important;
+    border-top-color: #c1bdbb !important;
+    color: #6C6967 !important;
+    border-bottom-color: #6C6967 !important;
+  }
+  .bw-display-layer .bwt-index .bwt-index-filter-body div.bwt-filters-features-store-type ul.bwt-filters-features-list {
+    width: 100% !important;
+  }
+  a#bwt-rsvp-button.bwt-event-details-signup-button {
+    width: 24%;
+    margin-left: 21%;
+  }
+}
+@media only screen and (min-width: 32.063em) {
+  .bw-display-layer-container section.bwt-events-main .bwt-events-main-image img {
+    min-height: 350px !important;
+    background-color: #E8E8E8;
+  }
+  .bw-display-layer-container .bwt-store,
+  .bw-display-layer-container .bwt-event-details-main-row {
+    margin-bottom: 20px !important;
+  }
+  div.bwt-store-service div.bwt-store-service-body .bwt-appointment-modal-button-wrapper a.brickwork-button {
+    width: 72%;
+    font-size: 14px !important;
+    padding: 15px 5px !important;
+    font-weight: 500 !important;
+    font-family: "Gotham 4r", sans-serif !important;
+    letter-spacing: 0.75px !important;
+    margin-left: 42px;
+  }
+}
+.bw-display-layer-container .bwt-store-event-image {
+  min-height: 100px !important;
+}
+.bwt-store-show div.stores-nearby-mobile {
+  border-top-color: #6C6967 !important;
+}
+.bw-display-layer-container .bwt-index .bwt-store-header .bwt-store-header-type {
+  margin-bottom: 0px;
+}
+.bw-display-layer-container .bwt-index .bwt-index-filter-body {
+  margin-bottom: 20px !important;
+}
+.ui-menu .ui-menu-item, .ui-menu .ui-menu-item.ui-state-focus {
+  width: 92% !important;
+}
+
+div.bwt-events-more-events h3.bwt-events-more-events-title,
+div.bwt-store-services h3.bwt-store-services-title,
+div.bwt-store-events-title-container h4.bwt-store-events-title {
+  font-family: "Gotham 4r", sans-serif !important;
+  font-size: 15px !important;
+  letter-spacing: 3px !important;
+  font-weight: 600 !important;
+}
+.bw-display-layer-container .bwt-index .bwt-store-features,
+.bw-display-layer-container .bwt-index .bwt-store-upcoming-event-link,
+.bw-display-layer-container .bwt-index .bwt-store-services-appointment,
+div.bwt-index-filters-toggle {
+  margin-bottom: 20px !important;
+  margin-top: 0px !important;
+}
+.bw-display-layer-container .bwt-index .bwt-store-features-and-events, .bw-display-layer-container .bwt-index .bwt-store-hours-and-phone {
+  margin-top: 0px !important;
+}
+.bw-display-layer-container .bwt-index div.bwt-store-upcoming-event {
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.bw-display-layer-container .bwt-index .bwt-store-header .bwt-store-alert {
+  padding: 10px;
+  padding-top: 17px;
+}
+.bw-display-layer-container .bwt-store-show .bwt-store-show-media ul.bwt-store-media-list {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+.bw-display-layer .bwt-store-show div.bwt-store-show-main div.bwt-store-nav .bwt-store-nav-list {
+  margin-right: 15px;
+}
+div.bwt-store-event-body div.bwt-store-event-dates,
+.bwt-event-details div.bwt-store-event-dates {
+  letter-spacing: 0.75px !important;
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+}
+.bwt-index-search-form-submit span.bwt-index-search-form-submit-icon {
+  line-height: 35px;
+}
+.bwt-event-details-location h4.bwt-event-details-store-type,
+div.bwt-stores-nearby-store-detail div.bwt-stores-nearby-store-type {
+  padding-bottom: 5px;
+  font-family: "Gotham 4r", sans-serif !important;
+}
+div.bwt-store-nav ul.bwt-store-nav-list li a[href="#services"] {
+}
+.bw-display-layer .bwt-store-hours-special .bwt-store-special-hours a.bwt-store-special-hours-link .bwt-store-special-hours-link-prefix {
+  font-size: 0.7rem;
+  margin-right: 5px;
+}
+.bw-display-layer .bwt-index .bwt-index-filter-body .bwt-filter-features-list-item,
+.bw-display-layer .bwt-index .bwt-index-filter-body-large .bwt-filter-features-list-item {
+  height: 10px !important;
+}
+div.bwt-pagination-container a#show_more_link,
+div.bwt-store-event-body-wrapper div.bwt-store-event-link-wrapper a.bwt-store-event-link,
+div.bwt-event-details-signup a#bwt-rsvp-button,
+ul.bwt-store-nav-list li a {
+  font-size: 14px !important;
+  padding: 7px 12px !important;
+  font-weight: 600 !important;
+}
+@media only screen and (max-width: 595px) and (min-width: 514px) {
+  div.bwt-pagination-container a#show_more_link,
+  div.bwt-store-event-body-wrapper div.bwt-store-event-link-wrapper a.bwt-store-event-link,
+  div.bwt-event-details-signup a#bwt-rsvp-button,
+  ul.bwt-store-nav-list li a {
+    font-size: 12px !important;
+    padding: 7px 12px !important;
+    font-weight: 600px !important;
+  }
+}
+
+.bw-display-layer .bwt-store-hours-special .bwt-store-special-hours-link-text {
+  letter-spacing: 0.1rem;
+}
+.bw-display-layer .bwt-index .bwt-store-header-title a:hover,
+.bw-display-layer .bwt-index .bwt-store-header-title a:focus,
+div.bwt-store-upcoming-event-link a:hover,
+div.bwt-store-features-and-events div.bwt-store-services-appointment div.bwt-store-services-appointment-link a:hover,
+header.bwt-store-header h3.bwt-store-header-title a:hover,
+div.bwt-store-event-body h3.bwt-store-event-title a:hover,
+a.bwt-stores-nearby-store-detail-link div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title:hover,
+div.bwt-store-hours div.bwt-store-special-hours:hover,
+.bwt-store-hours-special a#bwt-store-special-hours-link.bwt-store-special-hours-link:hover span {
+  color: #A71A4B !important;
+}
+.bw-display-layer .bwt-index .bwt-store-header-title a:hover,
+.bw-display-layer .bwt-index .bwt-store-header-title a:focus,
+div.bwt-store-upcoming-event-link a:hover,
+div.bwt-store-event-body h3.bwt-store-event-title a:hover,
+div.bwt-store-services-appointment-link a:hover,
+header.bwt-store-header h3.bwt-store-header-title a:hover {
+  border-bottom: solid 2px #CC4B34;
+  text-decoration: none !important;
+}
+.bw-display-layer .bwt-index .bwt-store .bwt-store-body {
+  margin-top: 12px !important;
+}
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-image,
+.bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-image {
+  margin-bottom: 10px !important;
+  padding-left: 40px !important;
+}
+@media only screen and (min-width: 32.063em) {
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-location-details {
+    padding: 0px !important;
+    display: block !important;
+  }
+}
+@media only screen and (max-width: 513px) {
+  .bwt-index-search-results-notice-map-action {
+    display: none !important;
+  }
+}
+
+span.bwt-index-search-form-submit-text,
+button#bwt-hide-map-button,
+button#bwt-show-map-button,
+.bwt-index-search-results-notice-map-action button,
+a.bwt-events-main-store-link,
+div.bwt-store-main-index-link-row a.bwt-store-main-index-link,
+.bw-display-layer .bwt-store-show .bwt-store-header-details-distance {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
+.bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {
+  font-size: 13px !important;
+}
+button#bwt-hide-map-button,
+button#bwt-show-map-button {
+  color: #6C6967;
+  font-size: 14px !important;
+  font-family: "Gotham 4r", Sans-Serif !important;
+}
+
+
+span.bwt-index-search-form-submit-text {
+  color: #444444 !important;
+}
+button#bwt-hide-map-button:hover,
+button#bwt-hide-map-button:active,
+button#bwt-show-map-button:hover,
+button#bwt-show-map-button:active {
+  color: #A71A4B !important;
+}
+.bw-display-layer .bwt-event-details-header-container .bwt-event-details-header {
+  padding: 18px 0 !important;
+}
+.bw-display-layer-container .bwt-share-buttons .bwt-social-icon:hover {
+  color: #444444;
+}
+.bw-display-layer-container .bwt-share-buttons .bwt-social-icon {
+  padding-right: 20px !important;
+  font-family: 'hbc-icons' !important;
+  line-height: 1;
+  color: #6C6967 !important;
+}
+@media only screen and (max-width: 679px) and (min-width: 514px) {
+  .bw-display-layer-container .bwt-share-buttons .bwt-social-icon {
+    padding-right: 0px !important;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 946px) and (min-width: 680px) {
+  .bw-display-layer-container .bwt-share-buttons .bwt-social-icon {
+    padding-right: 8px !important;
+    font-size: 17px;
+  }
+}
+.bw-display-layer .bwt-social-icon {
+  font-size: 20px !important;
+}
+span.bwt-social-icon.bwt-social-facebook:before {
+  content: "\e92e" !important;
+}
+span.bwt-social-icon.bwt-social-twitter:before {
+  content: "\e951" !important;
+}
+a.bwt-social-icon.bwt-social-email:before {
+  content: "\e901" !important;
+}
+span.bwt-events-social-title {
+  padding-left: 7px !important;
+}
+div.bwt-store-show-hero div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
+  font-size: 14px;
+}
+div.bwt-store.bwt-store-state-normal {
+  margin-bottom: 20px;
+}
+.fa,
+.fa.fa-angle-right {
+  font: normal normal normal 19px/1 FontAwesome !important;
+}
+.bwt-store-call-input, .bwt-events-rsvp-modal-input, .bwt-store-appt-modal-input {
+ float: none !important;
+}
+@media only screen and (min-width: 32.063em) {
+  .bw-display-layer .bwt-index .bwt-index-filters-toggle {
+    padding-bottom: 20px !important;
+  }
+}
+
+/* Header & Footer Styling */
+.lt-header{position:fixed;width:100%;top:0;z-index:999999;transition:all .25s ease;overflow:hidden}
+.lt-header.active-nav,.lt-header.active-search,.lt-header.active-nav .lt-header-container,.lt-header.active-search .lt-header-container{height:100%;transition:all .25s ease}
+.lt-top-header{position:relative;min-height:60px;padding:0 20px;background:#fff;border-bottom:1px solid #c1bdbb}
+.lt-top-header div{display:inline-block;font-size:20px}
+.lt-logo-wrapper,.lt-nav-wrapper{position:absolute;top:50%;transform:translateY(-50%);color:#6c6967}
+.lt-hamburger:hover,.lt-search:hover{cursor:pointer}
+.lt-logo-wrapper a{text-decoration:none;color:#000;font-size:120px}
+.lt-search{margin-right:20px;margin-top:3px}
+.lt-search::after{content:'';position:absolute;margin-left:20px;height:50%;width:1px;background:#c1bdbb}
+.lt-search,.lt-hamburger{padding:10px}
+.lt-nav-wrapper{text-align:right;right:0;margin-right:20px}
+.lt-bottom-nav,.lt-bottom-search{position:relative;overflow:hidden;background:#fff;height:0;width:100%;right:0;top:0;left:0;bottom:0;-webkit-transition:all .25s ease-in;transition:all .25s ease-in}
+.active-nav .lt-bottom-nav,.active-search .lt-bottom-search{height:100%;border-bottom:1px solid #c1bdbb;-webkit-transition:all .25s ease-in;-webkit-transform:translate3d(0,0,11px);transition:all .25s ease-in}
+.lt-area-links{margin:10px 0;padding:0}
+.lt-area-links a{font-family:'Gotham 4r',Sans-Serif;color:#444444;display:block;padding:12px 15px;font-size:14px}
+.lt-area-links li{display:block;width:100%}
+.lt-area-links li a{transition:all .25s ease;background:#fff;text-decoration:none}
+.lt-area-links li:hover a{background:#f7f7f7}
+.lt-area-links li a:before{transition:all .25s ease;position:absolute;margin-right:20px;right:0;font-family:'hbc-icons';content:"\e928";opacity:0}
+.lt-area-links li:hover a:before{opacity:1}
+.lt-search-form{padding:20px;box-sizing:border-box}
+.search-form-input-container{position:relative;padding:20px 0;border-bottom:1px solid #c1bdbb}
+.search-form-input{width:100%;border:none}
+.icon-cross,.search-form-input{top:50%;transform:translateY(-50%);color:#6c6967;position:absolute}
+.icon-cross{right:0}
+body{margin:0}
+:focus{outline:none}
+::-webkit-input-placeholder{font-family:'Gotham 4r',Sans-Serif;letter-spacing:.8px;color:#8e8b88}
+.lt-footer{text-align:center}
+.lt-footer div{box-sizing:border-box;font-size:12px;color:#444444;font-family:'Gotham 4r',Sans-Serif}
+.lt-footer a{text-decoration:none;color:#444444;font-size:22px}
+.lt-link{font-size:12px;font-family:'Gotham 4r',Sans-Serif}
+.lt-footer span{display:block;font-size:12px;margin-top:10px}
+.lt-top-footer{border-top:1px solid #c1bdbb;border-bottom:1px solid #c1bdbb;padding:20px 0;width:100%}
+.lt-alerts-wrapper,.lt-print-wrapper{width:50%;float:left}
+.lt-social-container{padding:20px 0}
+.lt-social-container a{padding:0 10px}
+.lt-alerts-wrapper{border-right:1px solid #c1bdbb}
+.lt-bottom-footer{background:#f7f7f7}
+.lt-bottom-footer-links{padding:10px 10px 25px;border-bottom:1px solid #c1bdbb}
+.lt-bottom-footer a{display:block;font-size:12px}
+.lt-bottom-footer-links a{padding:8px}
+.lt-bottom-footer-info{padding:10px 0 20px}
+.lt-bottom-footer-info div,.lt-bottom-footer-info a{font-family:'Gotham 4r';color:#8e8b88}
+.lt-bottom-footer-info a{display:inline-block;margin:10px 0;padding:0 10px}
+.link-divide{border-right:1px solid #c1bdbb}
+.clearfix:before,.clearfix:after{content:"";display:table}
+.clearfix:after{clear:both}
+.clearfix{zoom:1}
+
+.menuLink {
+    color: #444444 !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    text-decoration: none !important;
+    font-family: "Gotham 4r", Sans-Serif !important;
+    border-bottom: 1px solid #444444 !important;
+}
+
+.menuLink:hover {
+   text-decoration: none;
+   color: #A71A4B !important;
+   border-bottom: 1px solid #CC4B34 !important;
+}
+
+.bwt-store-main-features {display: none !important}
+
+.bwt-search-results .bwt-store-services-appointment-subtitle {display: none !important;}
+
+.bwt-store-upcoming-event-link a, .bwt-store-services-appointment-link a {
+  text-transform: capitalize !important;
+  border-bottom: 1px solid #6C6967 !important;
+}
+
+.bwt-store-upcoming-event-link a:hover, .bwt-store-services-appointment-link a:hover {
+  border-bottom: 1px solid #CC4b34 !important;
+}
+
+.bwt-store-services-appointment-title {text-transform: uppercase! important;}
+
+.bw-display-layer .bwt-index .bwt-store-phone-number-link, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link,
+.bw-display-layer .bwt-event-details .bwt-store-phone-number-link{
+border-radius: 0px !important;
+border-top: 0px !important;
+border-right: 0px !important;
+border-left: 0px !important;
+border-bottom: 0px !important;
+display: inline-block !important;
+background: none !important;
+padding-bottom: 0px !important;
+}
+
+.bw-display-layer .bwt-index .bwt-store-phone-number {text-align: left !important;}
+
+.bw-display-layer .bwt-index .bwt-store-phone-number-link:hover, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link:hover {
+  color: #A71A4B !important;
+  background: none !important;
+  border-bottom: none !important;
+}
+
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text,
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text {
+  color: #6C6967 !important;
+  border-bottom: 1px solid #6C6967;
+}
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:active .bwt-store-phone-number-link-text:hover,
+.bwt-show-for-medium-up a#bwt-store-phone-number-link:hover .bwt-store-phone-number-link-text:hover {
+  color: #A71A4B !important;
+  border-bottom: 1px solid #CC4b34 !important;
+}
+
+.bwt-store-event-show .bwt-store-phone-number-link-text {
+  text-decoration: none !important;
+  color: #CC1B59 !important;
+}
+.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix {
+  display: block !important;
+  float: left !important;
+}
+.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix:before, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix:before {
+  font-family: "hbc-icons" !important;
+  content: "\e904" !important;
+  display: block !important;
+  margin-right: 10px !important;
+  float: left !important;
+  font-size: 13px !important;
+}
+.bwt-store-show .bwt-show-for-medium-up .bwt-store-phone-number-link {border: none !important;}
+.bwt-store-phone-number-link-text{
+  border-bottom: 1px solid #6C6967 !important;
+}
+
+div.bwt-store-hours-special-title {
+  font-size: 13px !important;
+    font-family: "Gotham 4r", sans-serif !important;
+    font-weight: bold !important;
+    color: #444444 !important;
+    letter-spacing: 0.75px !important;
+}
+
+.bwt-store-special-hours-link-text {border-bottom: 1px solid !important;}
+.bwt-index span.bwt-store-phone-number-link-text {
+  text-align: left !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-store-service-description {
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-services-title, .bw-display-layer .bwt-store-show .bwt-store-events-title {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px !important;
+  color: #444444 !important;
+}
+
+.bwt-store-event-body-wrapper .bwt-store-event-dates, .bwt-store-event-show .bwt-store-event-dates {font-size: 13px !important;}
+.bwt-store-event-body-wrapper .bwt-details-container, .bwt-store-event-show .bwt-details-container{
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  letter-spacing: 0.75px !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #6C6967 !important;
+  padding-bottom: 0px !important;
+}
+
+.bw-display-layer .bwt-event-details span.bwt-store-phone-number-link-text:hover {
+  border-bottom: 1px solid #CC4b34 !important;
+}
+.bwt-store-phone-number-link-text:hover{border-bottom: 1px solid #CC4b34 !important;}
+
+.bwt-events-main .bwt-store-phone-number-link, .bwt-events-main .bwt-store-phone-number-link:hover {border: none !important;}
+
+.bwt-store-hours-modal .bwt-hours-close-modal, .bwt-store-hours-modal .bwt-hours-close-modal {
+  font-family: 'Gotham 4r', Helvetica, sans-serif !important;
+  font-weight: normal !important;
+}
+
+.bwt-store-hours-calender .bwt-store-hours-calender-title, .bwt-store-hours-calender .bwt-modal-store-hours-subtitle, .bwt-store-hours-calender .bwt-special-title, 
+.bwt-store-hours-calender .bwt-closed-title, .bwt-store-hours-calender .bwt-open-day {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+}
+
+.bwt-store-hours-calender .bwt-special-day {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  color: #D3215F !important;
+}
+
+.bwt-store-hours-calender .bwt-modal-store-hours-title {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 14px !important;
+  letter-spacing: 0.75px !important;
+  color: #D3215F !important;
+}
+
+.bwt-store-hours-calender .bwt-modal-store-hours-subtitle {margin-top: 10px !important}
+
+.bwt-store-hours-calender .bwt-store-hour-name {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-store-hours-calender .bwt-store-hour-date {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-store-hours-calender .bwt-modal-store-hours-days {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-calender .bwt-store-hours-key-container-desktop .bwt-special-box {
+  color: #D3215F !important;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-calender .bwt-store-hours-key-container-desktop .bwt-closed-box {
+  color: #D3215F !important;
+  opacity: 0.8 !important;
+}
+
+.bwt-store-nav-list a {
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+.bwt-store-map-button-text, .bwt-store-main-index-link, .bwt-store-event-link-wrapper .bwt-store-event-link, .bwt-events-main-store-link,
+.bwt-event-details-signup-button {
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+  text-transform: capitalize !important;
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-service {border: none !important;}
+
+.bw-display-layer .bwt-store-show .bwt-store-upper-address {border: none !important;}
+
+.bwt-store-upper-address-bottom .bwt-store-phone-number-link-text {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #444444 !important;
+}
+
+.bw-display-layer .bwt-mobile-main-index-link-row {margin-bottom: 45px !important;}
+
+.bw-display-layer .bwt-store-show .bwt-store-main-hours-info-mobile-title, .bw-display-layer .bwt-store-show .stores-nearby-mobile, .bwt-store-services-mobile-title,
+.bwt-store-events-mobile-title {
+  border-top: 1px solid #c1bdbb !important;
+  border-bottom: none !important;
+}
+
+.bw-display-layer .bwt-store-show .stores-nearby-mobile .bwt-stores-nearby-list>li {width: 100% !important;}
+.stores-nearby-mobile .stores-nearby-mobile-title {text-align: center !important;}
+
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-pin-holder, .bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-pin-holder,
+.bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder, .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin, .bwt-events-map-pin,
+ {
+  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/saks_off_5th/location.svg) no-repeat !important;
+  background-position: center center;
+    background-size: contain;
+    width: 30px;
+    height: 50px;
+}
+
+.bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
+  margin: auto;
+  margin-top: -10px !important;
+}
+
+.bwt-stores-nearby-list .bwt-local-store-map-pin img, .bwt-events-map-pin img {display: none !important;}
+
+span.bwt-index-search-form-submit-text {
+    font-weight: 600 !important;
+}
+
+span.bwt-store-map-button-text {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: .75px;
+}
+
+div.bwt-store-main-index-link-row a.bwt-store-main-index-link {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+}
+
+
+.bw-display-layer .bwt-index .bwt-index-search-input-wrap {
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 32em) {
+  .bw-display-layer .bwt-index .bwt-index-search-input-wrap {
+    width: 100% !important;
+  }
+}
+
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit {
+  position: relative !important;
+  margin-left: -100% !important;
+  float: right !important;
+  border: none !important;
+  width: 55px !important;
+  background: none !important;
+  padding-top: 5px !important;
+}
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:hover, 
+.bw-display-layer-container .bwt-index .bwt-index-search-form-wrap .bwt-index-search-form-submit:active {
+  background-color: #444444 !important; 
+}
+
+.bw-display-layer .bwt-index .bwt-index-search-form-submit-text {display: none !important;}
+
+.bwt-index-search-input-wrap .add-clear-span a {margin-right: 15% !important;}
+
+@media only screen and (min-width: 54.063em) {
+  .bw-display-layer .bwt-index .bwt-index-search-form-submit-icon {
+    display: inline !important;
+  }
+}
+.bwt-store-call-title, .bwt-events-rsvp-modal-title {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-store-call-placeholder, .bwt-store-call-input,
+.bwt-events-rsvp-modal-title, .bwt-rsvp-first-name-placeholder,
+.bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder,
+.bwt-events-rsvp-modal-input, .bwt-rsvp-email-opt-placeholder {
+    font-family: "Gotham 4r" !important;
+    color: #444444 !important;
+    letter-spacing: 0.75px !important;
+}
+
+.bwt-store-call-button-wrapper button.bwt-store-call-button {
+    font-family: "Gotham 4r" !important;
+    color: #FFF !important;
+    letter-spacing: 0.75px !important;
+    font-size: 14px !important;
+    background-color: #CC1B59;
+    border: 2px solid #CC1B59;
+    font-weight: 600 !important;
+}
+
+.bwt-store-call-button-wrapper button.bwt-store-call-button:hover,
+.bwt-store-call-button-wrapper button.bwt-store-call-button:active,
+.bwt-rsvp-button-wrapper button.bwt-events-rsvp-modal-button:hover,
+.bwt-rsvp-button-wrapper button.bwt-events-rsvp-modal-button:active {
+  background-color: #A71A4B;
+  border: 2px solid #A71A4B;
+}
+
+.bwt-store-call-button-wrapper button.bwt-store-call-button,
+.bwt-rsvp-button-wrapper button.bwt-events-rsvp-modal-button {
+  font-family: "Gotham 4r", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.75px !important;
+  color: #FFF !important;
+  background-color: #CC1B59;
+  border: 2px solid #CC1B59;
+  padding: 7px 12px;
+}
+.bwt-store-call-button-wrapper button.bwt-store-call-button:disabled,
+.bwt-rsvp-button-wrapper button.bwt-events-rsvp-modal-button:disabled {
+  background-color: #EEEEEE !important;
+  border: 1px solid #AAAAAA !important;
+  color: #AAAAAA !important;
+}
+
+.bwt-store-call-modal a.close-reveal-modal,
+.bwt-events-rsvp-modal a.bw-appointment-header-close,
+div#id .close-reveal-modal {
+  font-size: 30px !important;
+  color: #444444 !important;
+  font-weight: normal !important;
+}
+
+.bwt-events-rsvp-modal a.bw-appointment-header-close:hover {text-decoration: none !important;}
+
+
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search {
+  color: #FFF !important;
+}
+
+.bwt-store-show-main span.bwt-store-phone-number-link-text {
+  text-align: left !important;
+  letter-spacing: 0.75px !important;
+}
+.bwt-store-upper-address-bottom a {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid #444444 !important;
+}
+
+@media only screen and (min-width: 322px) {
+  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bwt-store-upper-address-bottom a {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .bwt-store-show-main span.bwt-store-phone-number-link-text, .bw-display-layer .bwt-store-show .bwt-store-upper-address-bottom a,
+  span.bwt-store-phone-number-link-prefix:before {
+    font-size: 11px !important;
+    vertical-align: middle !important;
+    line-height: 14.25px !important;
+  }
+  .bwt-store-show-main a.bwt-store-phone-number-link {padding: 0px !important;}
+}
+
+.bwt-mobile-only .bwt-store-main-description h4 {display: none !important;}
+
+
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours-and-phone .bwt-store-detail-link-wrapper, 
+div.bwt-store-hours, .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+    display: block !important;
+}
+
+@media only screen and (max-width: 54.063em) {
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+        display: block !important;
+    }
+}
+
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-hours,
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-phone-number {
+        display: block !important;
+    }
+
+@media only screen and (min-width: 0em) and (max-width: 32em){
+    .bw-display-layer .bwt-index .bwt-store-list .bwt-store-body .bwt-store-detail-link-wrapper {
+        position:relative;
+        width: 100%;
+        display: block
+    }
+  }
+
+@media only screen and (min-width: 1000px) {
+  .bwt-events-main .bwt-events-main-image {
+    max-width: 960px !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-width: 31.063em) {
+  .bw-display-layer .bwt-events-main-store-link-row {
+    position: absolute !important;
+    top: 20px !important;
+    margin-left: 20px !important;
+    left: inherit !important;
+  }
+}
+
+.reveal-modal-bg {opacity: 0.9 !important;}
+ 
+ div#legal p {
+  font-family: "Gotham 4r", Sans-Serif !important;
+  letter-spacing: 0.75px !important;
+  color: #444444 !important;
+  font-size: 14px !important;
+ }
+
+ div#legal a.close-reveal-modal {
+  font-size: 30px !important;
+  font-weight: normal !important;
+  color: #444444 !important;
+ }
+
+
+ /* Store Index Card Column Adjustment*/
+@media only screen and (min-width: 866px) { 
+   .bwt-index .bwt-store-aside {
+      display: none !important;
+  }
+
+  .bwt-index .bwt-store-main-wrapper {
+      width: 100% !important;
+  }
+
+  .bwt-index .bwt-store-address-wrapper {
+      width: 33.33% !important;
+      margin-right: 40px !important;
+  }
+
+  .bwt-index .bwt-store-location-details-wrapper {
+      width: calc(66.33% - 40px) !important;
+  }
+
+  .bwt-index .bwt-store-location-details {
+      padding: 0 !important;
+  }
+
+  .bwt-index .bwt-store-hours-and-phone {
+      width: 50% !important;
+      padding: 0 20px 0 0 !important;
+  }
+
+  .bwt-index .bwt-store-hours-special {
+      height: 16px !important;
+  }
+
+  .bwt-index .bwt-store-phone-number-link-prefix {
+      width: 20px !important;
+  }
+
+  .bwt-index .bwt-store-phone-number {
+      margin: 0 !important;
+  }
+}
+
+/*Fix map hiding index results*/
+.bwt-index .bwt-store-body > div span li img a td tr table,
+.bwt-index .bwt-store > div span li img a td tr table {
+  z-index: 999999 !important;
+}
+
+.bwt-bigmap-container, #bwt-bigmap {z-index: 1 !important;}
+
+button.slick-next, button.slick-prev {
+  height: 120px !important;
+  width: 24px !important;
+}
+
+.leaflet-popup-pane .bwt-map-store-info { display: none !important;}
+
+
+.bw-display-layer .bwt-index .bwt-index-search-results-notice {
+    position: relative !important;
+}
+
+.bwt-index-search-results-notice-details {
+    width: 40% !important;
+}
+
+
+.bwt-index-search-results-notice-map-action {
+    width: auto !important;
+    float: right !important;
+    border-left: solid 1px #ccc !important;
+    padding: 9px 15px !important;
+}
+
+.bwt-index-search-results-map-button {
+    width: auto !important;
+}
+
+.bwt-show-map-button {
+    text-decoration: none !important;
+    border-bottom: solid 1px #6C6967 !important;
+}
+
+#bwt-show-map-button, .bwt-index-search-results-map-button, button#bwt-show-map-button, button#bwt-hide-map-button {
+    padding: 0 !important;
+}
+
+.bwt-show-map-button:hover {
+    color: #A71A4B !important;
+    border-bottom-color: #A71A4B !important;
+}
+
+.bwt-index-filters-toggle {
+    padding: 0px !important;
+    border: 0 !important;
+}
+
+
+.bwt-index-search-results-notice-map-action {
+    border-left: solid 1px #ccc !important;
+}
+
+.bwt-index-filter-body {
+    margin: 0px !important;
+    padding: 0px 0 20px 0 !important;
+    border-bottom: solid 1px #ccc;
+}
+
+.bwt-index-filters-expand-button {
+  position: absolute !important;
+  top: 5px !important;
+  right: 135px !important;
+}
+
+/* MEDIUM UP BREAKPOINT */
+@media only screen and (min-width: 54em) {
+
+  .bwt-store-address {
+    padding-left: 0px !important;
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-search-results-notice {
+    position: relative !important;
+  }
+}
+
+
+/* SMALL BREAKPOINT */
+@media only screen and (min-width: 320px) and (max-width: 510px){
+  .bwt-index-filters-expand-button {
+    position: absolute !important;
+    top: 5px !important;
+    right: 0 !important;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper {
+    display: block !important;
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-filters-toggle {
+    text-align: right;
+    padding: 0 !important;
+    border: 0;
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-search-results-notice {
+      position: relative !important;
+  }
+}
+
+.bw-display-layer .footer {display: none !important;}
+
+/*Map Leaflet Pop-up*/
+
+.leaflet-popup .bwt-map-store-name {
+  font-family: 'Gotham 4r';
+  
+}
+
+/*.leaflet-popup .bwt-map-store-distance, .leaflet-popup .bwt-map-store-address, .leaflet-popup .bwt-store-city, .leaflet-popup .bwt-store-state, .leaflet-popup .bwt-store-post, .leaflet-popup .bwt-map-store-info, .leaflet-popup > span*/
+
+.bw-display-layer .bwt-map-popup .bwt-link-container .bwt-google-link, .bw-display-layer .bwt-map-popup .bwt-link-container .bwt-store-link {
+  color: #FFF !important;
+  background-color: #CC1B59 !important;
+  border: 1px solid #CC1B59 !important;
+  font-family: "Gotham 4r", Helvetica, sans-serif !important;
+  font-size: 14px !important;
+}
+
+.bw-display-layer .bwt-map-popup .bwt-link-container .bwt-google-link:hover, .bw-display-layer .bwt-map-popup .bwt-link-container .bwt-google-link:active, 
+.bw-display-layer .bwt-map-popup .bwt-link-container .bwt-store-link:hover, .bw-display-layer .bwt-map-popup .bwt-link-container .bwt-store-link:active {
+  color: #FFF;
+  background-color: #A71A4B !important;
+  border: 1px solid #A71A4B !important;
+  font-family: "Gotham 4r", Helvetica, sans-serif;
+  font-size: 14px !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-nav-list li a, .bw-display-layer .bwt-events-main-store-link,
+.bwt-store-call-input, .bwt-events-rsvp-modal-input, .bwt-store-appt-modal-input {
+  border-radius: 0px !important;
+}
+
+.bwt-events-rsvp-modal-description {font-family: 'Gotham 4r', Helvetica, sans-serif;}
+
+.bwt-events-rsvp-modal a.bw-appointment-header-close {text-decoration: none;}
+.bwt-events-rsvp-modal a.bw-appointment-header-close:hover, .bwt-events-rsvp-modal a.bw-appointment-header-close:active,
+.bwt-store-call-modal a.close-reveal-modal:hover, .bwt-store-call-modal a.close-reveal-modal:active,
+.bwt-store-hours-modal .bwt-hours-close-modal:active, .bwt-store-hours-modal .bwt-hours-close-modal:hover {color: #D51B5D !important;}
+
+@media only screen and (max-width: 32em) {
+  a#bwt-rsvp-button.bwt-event-details-signup-button {
+    width: 25% !important;
+    margin: auto !important;
+  }
+  div.bwt-event-details-signup a#bwt-rsvp-button {
+    padding: 8px 15px !important;
+  }
+}
+
+/*Store page get directions font color*/
+.bw-display-layer-container .bwt-store-show .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {color: #FFF !important;}
+
+/*Desktop store index store cards*/
+@media only screen and (min-width: 55em) {
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+    float: none;
+    clear: left !important;
+    /*width: 150px !important;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px !important;
+    margin-top: 3.85714rem !important;
+    padding: 8px 15px !important;
+    text-align: center !important;
+  }
+}
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover, .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active {
+  background-color: #CC1B59 !important;
+  margin-bottom: 1px !important;
+  transition: background-color .25s ease;
+}
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link,
+.bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active a.bwt-store-detail-link {
+  color: #FFF !important;
+  border-bottom: 1px solid #A71A4B !important;
+  text-decoration: none !important;
+  background: none !important;
+  transition: color .25s ease, backround .25s ease;
+}
+
+.bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+  background-color: #CC1B59;
+  border: 2px solid #CC1B59;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+@media only screen and (min-width: 32.01em) and (max-width: 54.99em){
+  .bw-display-layer-container .bwt-store-show .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+    left: 13% !important;
+    width: auto;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 55em){
+  .bw-display-layer-container .bwt-store-show .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+    left: 22.5% !important;
+    width: auto;
+    margin: auto;
+  }
+}
+
+.bwt-store-detail-link-wrapper a.bwt-store-detail-link {
+  font-family: "Gotham 4r", sans-serif !important;
+  font-size: 14px !important;
+  letter-spacing: 0.75px !important;
+  font-weight: 600 !important;
+  padding: 0px !important;
+  transition: initial !important;
+  display: inline-block !important
+}
+
+@media only screen and (min-width: 54em) {
+  .bw-display-layer .bwt-index .bwt-store-features-and-events {
+    min-height: 460px !important;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button,
+  .bw-display-layer .bwt-index .bwt-store-map-button {
+    position: inherit !important;
+    top: 5.2rem !important;
+    left: 72%;
+  }
+  .bw-display-layer-container .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {width: 150px !important;}
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+    background-color: #FFF !important;
+    border: 2px solid #282828 !important;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link:active span.bwt-store-map-button,
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link:hover span.bwt-store-map-button {
+    background-color: #FFF !important;
+    border: 2px solid #D51B5D !important;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {
+    color: #282828 !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button:hover span.bwt-store-map-button-text,
+  .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button:active span.bwt-store-map-button-text {
+    color: #D51B5D !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-address {
+    margin-top: -2.5rem !important
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper {min-height: 570px !important;}
+
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+    float: left !important;
+    position: inherit;
+    top: -31rem !important;
+    background-color: #CC1B59;
+    border-color: #CC1B59;
+    border-bottom: 1px;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
+  .bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link {
+    background-color: #CC1559 !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left : 0px !important;
+    border-bottom: 1px solid #CC1559 !important;
+    font-style: #FFF !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover, .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active,
+   .bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link:hover, .bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link:active {
+    background-color: #A71A4B !important;
+    border-color: #A71A4B !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+    float: none;
+    clear: left !important;
+    width: 150px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px !important;
+    padding: 8px 15px !important;
+    text-align: center !important;
+}
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover a.bwt-store-detail-link,
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active a.bwt-store-detail-link {
+    text-decoration: none !important;
+  }
+}
+
+/*Index store hours alignment*/
+.bw-display-layer .bwt-index .bwt-store-hours-table-hours-column {text-align: left !important;}
+
+/*Mobile index store cards*/
+@media only screen and (max-width: 32em) {
+  .bwt-store-features-and-events {padding-left: 0px !important;}
+  .bw-display-layer .bwt-index .bwt-store-address {text-align: left !important;}
+  .bw-display-layer .bwt-index .bwt-store-hours-and-phone {margin-left: 0px !important;}
+  .bwt-index .bwt-store-detail-link-wrapper a.bwt-store-detail-link {
+    background: white !important;
+    border: none !important;
+    border-bottom: 3px solid #6C6967 !important;
+    color: #6C6967 !important;
+    padding: 0px !important;
+    width: auto !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+    width: auto !important;
+    padding: 0px !important;
+  }
+  .bw-display-layer-container .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button {
+    background-color: #CC1B59;
+    border: 2px solid #CC1B59;
+    font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+    width: auto;
+    left: 30%;
+    margin: auto;
+    padding: 7px 12px !important;
+  }
+  .bw-display-layer-container .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button .bwt-store-map-button-text {color: #FFF !important;}
+}
+
+/*Index filter on mobile*/
+.bwt-index .bwt-index-filters-expand-button .bwt-mobile-only, .bwt-index .bwt-expand-button-expanded .bwt-mobile-only {
+  border-bottom: 0px !important;
+  text-decoration: underline !important;
+}
+
+
+/*Tablet store index store cards*/
+@media only screen and (min-width: 32.01em ) and (max-width: 54.99em) {
+  .bwt-index .bwt-store-address-wrapper { width: 55% !important;}
+  .bwt-index .bwt-store-address-wrapper .bwt-store-map {width: 100% !important;}
+  .bw-display-layer .bwt-index .bwt-store-main div.bwt-store-location-details-wrapper {
+    width: 45% !important;
+    min-height: 510px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-hours-and-phone {padding-left: 25px !important;}
+  .bw-display-layer .bwt-index .bwt-store-map-button {
+    bottom: -9.3rem !important;
+    width: 48.5% !important;
+    margin-left: 10px !important;
+    padding-bottom: 0.5rem !important;
+    background: #FFF !important;
+    border: 2px solid #000 !important;
+  }
+  .bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {font-size: 14px !important;}
+  .bw-display-layer .bwt-index .bwt-store-address {padding-left: 0px !important;}
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
+    width: 26% !important;
+    position: relative !important;
+    top: -32.4rem !important;
+    margin-top: 36px !important;
+    padding: 0px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper .bwt-store-detail-link {
+    width: 100% !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    background-color: #CC1B59 !important;
+    border-color: #CC1B59 !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper .bwt-store-detail-link:hover, ..bw-display-layer .bwt-index .bwt-store-detail-link-wrapper .bwt-store-detail-link:active {
+    background-color: #A71A4B !important;
+    border-color: #A71A4B !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-location-details {min-height: 600px !important;}
+}
+
+/*Page width to match header*/
+body .bw-display-layer-container {
+  max-width: 1064px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.bwt-index-search-form-wrap {
+  max-width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+.bwt-index {
+  max-width: 100% !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.bw-display-layer {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  padding-top: 10px !important;
+}
+@media only screen and (min-width: 1000px) {
+  .bw-app .bw-display-layer .bwt-store-event-show .bwt-events-main .bwt-events-main-image {
+    max-width: 100% !important;
+  }
+}
+.bw-app .bw-display-layer .bwt-store-event-show .bwt-events-main .bwt-events-main-image {max-width: 100% !important;}
+
+/*Event page styling*/
+.bw-display-layer .bwt-event-details .bwt-store-phone-number-link {
+  padding: 0px !important;
+}
+.bw-display-layer .bwt-event-details .bwt-store-phone-number-link span.bwt-store-phone-number-link-prefix:before{
+  font-family: "hbc-icons" !important;
+  content: "\e904" !important;
+  display: block !important;
+  margin-right: 10px !important;
+  float: left !important;
+  font-size: 13px !important;
+}
+.bwt-store-events-container .bwt-store-event-description {margin-bottom: 60px !important;}
+
+/*Event carrousel dots*/
+.slick-dots li button[type="button"]:before, .slick-dots li.slick-active button[type="button"]:before {display: none !important;}
+.slick-dots li.slick-active button[type="button"] {
+  background: #DDDDDD !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+  width: 15px !important;
+  height: 15px !important;
+}
+.slick-dots li button[type="button"] {
+  background: #FFF !important;
+  opacity: 1 !important;
+  border: 2px solid #DDDDDD;
+  border-radius: 50%;
+  width: 15px !important;
+  height: 15px !important;
+}
+.slick-dots li button[type="button"]:hover {
+  background: #FFF !important;
+  opacity: 1 !important;
+  border: 2px solid #DDDDDD;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button[type="button"]:hover {
+  background: #DDDDDD !important;
+}
+
+/*Search bar input*/
+.bw-app .bw-display-layer-container .bwt-index-search-input-wrap input#bwt-q {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.bw-display-layer .bwt-store-show-main .bwt-store-map-button {padding: 7px 12px !important;}
+
+/*Hide promo from header*/
+.global-promotion-message {display: none !important;}
+
+
+/*Partner Doors*/
+/*Hide brand doors toggle*/
+.bw-display-layer .bwt-owned-store-link {display: none !important;}
+/*Reduce white space between rows*/
+.bw-display-layer .partner-store {
+  margin: 0px !important;
+}
+
+/*Spacing between map and buttons*/
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-button,
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-directions-button {
+  margin-top: 10px !important;
+}
+
+/*Tablet full width store hours*/
+@media only screen and (max-width: 54em) and (min-width: 32.063em) {
+  .bw-display-layer .partner-store .bwt-store-hours-table {
+    width: 100% !important;
+  }
+}
+
+/*Desktop 3 cards per row*/
+@media only screen and (min-width: 54em) {
+  .bw-display-layer .partner-store {width: 33% !important;}
+}
+
+/*Full width cards on mobile*/
+@media only screen and (max-width: 32em) {
+  .bw-display-layer li.partner-store {width: 100% !important;}
+}
+
+/*Button styling*/
+.bw-display-layer .partner-store .bwt-index-store-image-container .button {
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-directions-link {
+  border: 2px solid #282828 !important;
+}
+
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-directions-link:hover,
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-directions-link:active {
+  border-color: #D51B5D !important;
+  color: #A71A4B !important;
+}
+
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link {
+    background-color: #CC1559 !important;
+    border-top: 0px !important;
+    border-right: 0px !important;
+    border-left : 0px !important;
+    border-bottom: 1px solid #CC1559 !important;
+    font-style: #FFF !important;
+    line-height: 23px !important;
+  }
+
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link:hover, 
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-index-store-explore-link:active {
+    background-color: #A71A4B !important;
+    border-color: #A71A4B !important;
+  }
+
+/*Cards vertical alignment - desktop and tablet for more than 1 per row*/
+@media only screen and (min-width: 32.063em) {
+  .bwt-index-store.partner-store .bwt-store-index-containerdisabled .bwt-index-store-header-wrapper,
+  .bwt-index-store.partner-store .bwt-store-index-container .bwt-index-store-header-wrapper{
+      min-height: 95px !important;
+    }
+}
+
+/*Hide email link for partner stores*/
+ .bwt-index-store.partner-store .bwt-store-email-link .bwt-store-email-link-text {display: none !important;}
+ 
+/*Map image size*/
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-store-map-image, 
+.bw-display-layer .partner-store .bwt-index-store-image-container .bwt-events-map-image {
+  height: 192px !important;
+}
+
+/*Map Pin*/
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-pin-holder, .bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-pin-holder {
+  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/saks_off_5th/location.svg) no-repeat !important;
+}
+
+.bwt-partner-store-map-pin.default-map-pin img {opacity: 0 !important;}
+.bwt-partner-store-map-pin.default-map-pin {
+  background: url("//s3.amazonaws.com/assets.brickworksoftware.com/saks_off_5th/location.svg") no-repeat;
+  width: 100px !important;
+}
+
+
+
+
+@import url("//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/fonts/fonts.css");
+
+* { text-rendering: optimizeLegibility; }
+.bw-app .bw-display-layer-container * {
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif;
+  font-weight: 500;
+  color: #444444;
+  text-rendering: optimizeLegibility !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.bw-display-layer .bwt-event-details-title,
+.bw-display-layer .bwt-store-event-title,
+.bw-display-layer .bwt-event-details-date-time,
+.bw-display-layer .bwt-store-event-dates,
+.bw-display-layer .bwt-store-event-details-times,
+.bw-display-layer .bwt-store-body .bwt-store-upper-address-bottom a,
+.bw-display-layer-container .bwt-store-hours-special .bwt-store-special-hours-link-text {
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+  color: #444444 !important;
+}
+.bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a:active,
+.bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a:hover,
+.bw-display-layer-container a.bwt-store-event-link:active,
+.bw-display-layer-container a.bwt-store-event-link:hover,
+.bw-display-layer-container a.bwt-store-main-index-link:active,
+.bw-display-layer-container a.bwt-store-main-index-link:hover,
+.bw-display-layer-container a#bwt-rsvp-button:active,
+.bw-display-layer-container a#bwt-rsvp-button:hover,
+.bw-display-layer-container a.bwt-events-main-store-link:hover,
+.bw-display-layer-container a.bwt-events-main-store-link:active,
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover,
+.bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active,
+.bwt-appointment-modal-button-wrapper a.brickwork-button:active,
+.bwt-appointment-modal-button-wrapper a.brickwork-button:hover,
+#show_more_link:active,
+#show_more_link:hover {
+  color: #D51B5D !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+  background-color: #FFF !important;
+  border: 2px solid #D51B5D !important;
+}
+a#bwt-rsvp-button:hover span.bwt-event-details-signup-button-copy,
+a#bwt-rsvp-button:active span.bwt-event-details-signup-button-copy {
+  color: #D51B5D !important;
+}
+
+
+.bwt-index-search-form-submit:active span.bwt-index-search-form-submit-text,
+.bwt-index-search-form-submit:hover span.bwt-index-search-form-submit-text,
+div.bwt-store-service-body a.brickwork-button:hover,
+div.bwt-store-service-body a.brickwork-button:active {
+  color: #FFF !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+#show_more_link,
+.bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a,
+.bwt-store-event-link-wrapper a.bwt-store-event-link,
+a.bwt-store-main-index-link,
+a#bwt-rsvp-button,
+a.bwt-events-main-store-link,
+div.bwt-store-service-body a.brickwork-button {
+  /*border-radius: 50px !important;*/
+  color: #444444 !important;
+  border: 2px solid #444444 !important;
+  padding: 7px 12px !important;
+  background: none !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+a.bwt-store-main-index-link, .bw-display-layer .bwt-store-show .bwt-store-map-button {border-radius: 0px !important;}
+
+a#bwt-rsvp-button span.bwt-event-details-signup-button-copy,
+.bw-display-layer-container .bwt-store-services-appointment .bwt-store-services-appointment-subtitle,
+.bw-display-layer-container .bwt-store-services-appointment .bwt-store-services-appointment-link a,
+.appointment-modal-1.bwt-appointment-modal-button-wrapper a.brickwork-button {
+  color: #444444 !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
+  color: #444444 !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+  padding-bottom: 0px !important;
+}
+.bw-app .bw-display-layer-container button:disabled {
+  background-color: #E8E8E8 !important;
+  border-color: #E8E8E8 !important;
+}
+@media only screen and (max-width: 865px) {
+  .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover .fa-search,
+  .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active .fa-search {
+    color: #FFF !important;
+  }
+}
+
+/*Display store info on tablet portrait view*/
+@media only screen and (max-width: 100em) and (min-width: 30em) {
+.bw-display-layer .bwt-index .bwt-store-location-details-wrapper  { 
+  display: block !important; 
+  } 
+}
+
+.bwt-index .bwt-index-search-form-container .bwt-index-search-form-wrap button.bwt-index-search-form-location-button,
+ul.bwt-filters-features-list input[type=checkbox],
+ul.bwt-filters-features-list input[type=radio],
+.bw-display-layer-container .bwt-filters .bwt-filters-features.bwt-filters-features-categories,
+.bw-display-layer-container .bwt-filters .bwt-filters-features.bwt-filters-features-languages {
+  display: none;
+}
+.bw-app .bw-display-layer-container input#bwt-q {
+  /*border-radius: 25px !important;*/
+  font-size: 11px;
+  padding-top: 19px;
+  border-color: 1px solid #6c6967;
+}
+.bw-display-layer .bwt-index .bwt-index-search-form-input {text-transform: none !important;}
+div.bwt-hide-on-mobile.bwt-index-search-results-notice-body {
+  border-bottom-width: thick !important;
+  border-color: black !important;
+}
+ul.bwt-filters-features-list label {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  padding-left: 22px;
+  font-size: 12px;
+  line-height: 17px !important;
+}
+ul.bwt-filters-features-list label:before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0;
+  border: 1px solid #6C6967;
+}
+.bwt-filters-features-store-type label:before {
+  border-radius: 10px;
+}
+.bwt-filters-features-store-type:hover label:before,
+.bwt-filter-features-list-item:hover label:before {
+  border-color: #000;
+}
+.bwt-filters-features-store-type input[type=radio]:checked + label:before {
+  border: 3px solid #6c6967;
+  width: 10px;
+  height: 10px;
+}
+.bwt-filters-features-services input[type=checkbox]:checked + label:before,
+.bwt-email-opt-modal-checkbox input[type=checkbox]:checked + label:before {
+  content: "\2713";
+  font-size: 16px;
+  background-color: #6C6967;
+  color: #FFF;
+  text-align: center;
+  line-height: 17px;
+}
+.bw-display-layer-container .bwt-store-map .bwt-store-header-type {
+  margin-bottom: 0 !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+  font-size: 10px !important;
+}
+.bwt-store-upcoming-event-date,
+.bwt-stores-nearby-store-description,
+div.bwt-store-features-body,
+div.bwt-store-services-appointment-subtitle,
+td.bwt-store-hours-table-hours-column,
+td.bwt-store-hours-table-date-column,
+span.bwt-store-special-hours-link-text {
+  color: #6C6967 !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+header.bwt-store-header h4.bwt-store-header-details {
+  color: #6C6967 !important;
+  font-size: 14px !important;
+  letter-spacing: 0.5px !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+h2.bwt-event-details-title,
+div.bwt-store-event h3.bwt-store-event-title a,
+header.bwt-store-header h3.bwt-store-header-title a,
+div.bwt-store-service-body h4.bwt-store-service-title,
+.bw-app .bw-display-layer-container h2.bwt-index-main-title {
+  color: #444444 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.75px !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+a.bwt-stores-nearby-store-detail-link .bwt-stores-neaby-mobile-text-container h5.bwt-stores-nearby-store-title {
+  color: #6C6967 !important;
+  font-size: 12px !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+}
+.bwt-index-filters-expand-button .bwt-mobile-only {
+  background: #f1f1f1;
+  border-bottom: 2px solid #6C6967;
+}
+.bwt-store-services-appointment .bwt-store-services-appointment-link,
+.bwt-store-upcoming-event-link a {
+  text-decoration: none !important;
+}
+.bwt-store-services-appointment .bwt-store-services-appointment-link a,
+.bwt-store-upcoming-event-link a,
+button.bwt-index-filters-expand-button span div.bwt-hide-on-mobile {
+  border-bottom: 2px solid #6C6967;
+  padding-bottom: 1px;
+  font-size: 14px !important;
+}
+@media only screen and (max-width: 944px) and (min-width: 866px) {
+  .bwt-store-services-appointment .bwt-store-services-appointment-link a {
+    font-size: 12px !important;
+  }
+}
+.bwt-store-features h3,
+.bwt-events-social .bwt-events-social-title,
+.stores-nearby-mobile h4.stores-nearby-mobile-title,
+div#services a.bwt-store-services-mobile-title,
+.bw-display-layer-container .bwt-store-show a.bwt-store-main-hours-info-mobile-title span,
+.bwt-store-events-title-container a.bwt-store-events-mobile-title,
+.bwt-event-details-location h4.bwt-event-details-location-title,
+.bwt-event-details-location h4.bwt-event-details-store-name,
+.bwt-store-media-list li.bwt-store-media-list-item-description h4.bwt-store-media-description-title,
+.bwt-store-media-list li.bwt-store-media-list-item-features h4.bwt-store-media-features-title,
+.bwt-store-media-list li.bwt-store-media-list-item-languages h4.bwt-store-media-languages-title,
+.bwt-store-features-and-events .bwt-store-total-events,
+.bwt-store-features-and-events .bwt-store-total-events span,
+.bwt-stores-nearby h3.bwt-stores-nearby-title,
+.bw-app .bw-display-layer-container div#store-main-content h4,
+div.bwt-store-services-appointment-title,
+div.bwt-stores-nearby-store-detail h5.bwt-stores-nearby-store-title {
+  font-size: 13px !important;
+  font-family: "Gotham 4r", sans-serif !important;
+  font-weight: bold !important;
+  color: #444444 !important;
+  letter-spacing: 0.75px !important;
+  margin-bottom: 5px !important;
+}
+.bwt-index div.bwt-store-upcoming-event-title {
+  font-size: 13px !important;
+  font-family: "Gotham 4r", sans-serif !important;
+  font-weight: normal !important;
+  color: #444444 !important;
+  letter-spacing: 0.75px !important;
+  margin-bottom: 5px !important;
+}
+
+button.bwt-index-filters-expand-button {
+  margin-bottom: 10px;
+}
+.bwt-index-search-results-map-button {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 1px solid #6C6967 !important;
+  display: inline-block !important;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  font-family: "Gotham 4r", Helvetica !important;
+  letter-spacing: 0.75px !important;
+  color: #6C6967 !important;
+}
+.bwt-index-search-results-map-button:hover {
+  border-top: 0px !important;
+  border-left: 0px !important;
+  border-right: 0px !important;
+  border-bottom: 1px solid #A71A4B !important;
+  font-family: "Gotham 4r", Helvetica !important;
+  letter-spacing: 0.75px !important;
+  color: #A71A4B !important;
+  background-color: #FFF !important;
+}
+
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed div.bwt-hide-on-mobile,
+.bwt-index-filters-expand-button .bwt-expand-button-expanded div.bwt-hide-on-mobile {
+  color: #6C6967 !important;
+  font-size: 14px !important;
+  border-bottom: 1px solid #6C6967;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  font-family: "Gotham 4r", Helvetica !important;
+  letter-spacing: 0.75px !important;
+}
+
+.bwt-index-filters-expand-button .bwt-expand-button-expanded .bwt-hide-on-mobile, 
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile {
+  color: #6C6967 !important;
+  font-size: 14px !important;
+  border-bottom: 1px solid #6C6967;
+  text-decoration: none !important;
+  font-weight: normal !important;
+  letter-spacing: 0.75px !important;
+  font-family: "Gotham 4r", Helvetica !important;
+}
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after,
+.bwt-mobile-nav-collapse-trigger:before {
+   font-family: "hbc-icons" !important;
+   content: "\e926" !important;
+   display: block;
+   width: 13px;
+   height: 13px;
+   float: right;
+   margin-left: 10px;
+}
+.bwt-index-filters-expand-button .bwt-expand-button-expanded .bwt-hide-on-mobile:after {
+   font-family: "hbc-icons" !important;
+   content: "\e929" !important;
+   display: block;
+   width: 13px;
+   height: 13px;
+   float: right;
+   margin-left: 10px;
+}
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:hover,
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:active,
+span.bwt-expand-button-expanded div.bwt-hide-on-mobile:focus,
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:hover,
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:active,
+span.bwt-expand-button-collapsed div.bwt-hide-on-mobile:focus {
+  color: #A71A4B !important;
+  border-bottom: 1px solid #CC4B34;
+}
+.bw-display-layer-container .bwt-index .bwt-store.bwt-store-state-normal {
+  margin-top: 30px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #C1BDBB !important;
+}
+div.bwt-store.bwt-store-state-normal div.bwt-store-body {
+  margin-bottom: 20px !important;
+}
+.bw-display-layer-container .bwt-store-alert {
+  background: #E8E8E8 !important;
+}
+button#bwt-show-map-button,
+button#bwt-hide-map-button {
+  padding: 16px !important;
+  padding-top: 19.2px !important;
+}
+.bwt-store-alert p,
+.bwt-store-media-list p,
+.bwt-stores-nearby-store-type,
+div#store-main-content p,
+div.bwt-store-address-line,
+div.bwt-stores-neaby-mobile-text-container div.bwt-stores-nearby-store-description div,
+div.bwt-stores-neaby-mobile-text-container div.bwt-stores-nearby-store-description span.bwt-store-main-alert,
+div.bwt-store-header-type {
+  color: #6C6967 !important;
+  font-family: "Gotham 4r", sans-serif !important;
+  font-size: 13px !important;
+  letter-spacing: 0.75px !important;
+  font-weight: 500 !important;
+}
+
 span.bwt-store-main-alert:before {
   content: "• ";
 }
@@ -1398,17 +3147,7 @@ button.slick-next, button.slick-prev {
     padding: 8px 15px !important;
     text-align: center !important;
   }
-  .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
-  .bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {font-size: 11px !important;}
-  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper a.bwt-store-detail-link, .bwt-store-map-button {line-height: 20px !important;}
-
 }
-
-/*Destkop and Tablet French expand filter*/
-@media only screen and (min-width: 32.01em) {
-  .bwt-index-filters-expand-button {margin-right: 65px !important;}
-}
-
 .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:hover, .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper:active {
   background-color: #CC1B59 !important;
   margin-bottom: 1px !important;
@@ -1445,7 +3184,7 @@ button.slick-next, button.slick-prev {
 
 .bwt-store-detail-link-wrapper a.bwt-store-detail-link {
   font-family: "Gotham 4r", sans-serif !important;
-  font-size: 14px;
+  font-size: 14px !important;
   letter-spacing: 0.75px !important;
   font-weight: 600 !important;
   padding: 0px !important;
@@ -1606,10 +3345,6 @@ button.slick-next, button.slick-prev {
     border-color: #A71A4B !important;
   }
   .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-location-details {min-height: 600px !important;}
-  
-  .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
-  .bw-display-layer-container .bwt-store-map .bwt-store-map-link span.bwt-store-map-button span.bwt-store-map-button-text {font-size: 11px !important;}
-  .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper a.bwt-store-detail-link, .bwt-store-map-button {line-height: 22px !important;}
 }
 
 /*Page width to match header*/

@@ -380,7 +380,7 @@ div.bwt-store-header-type {
   font-weight: 500 !important;
 }
 
-span.bwt-store-main-alert:before {
+.btw-store-show span.bwt-store-main-alert:before {
   content: "• ";
 }
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:active,

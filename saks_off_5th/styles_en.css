@@ -209,13 +209,24 @@ h2.bwt-event-details-title,
 div.bwt-store-event h3.bwt-store-event-title a,
 header.bwt-store-header h3.bwt-store-header-title a,
 div.bwt-store-service-body h4.bwt-store-service-title,
-.bw-app .bw-display-layer-container h2.bwt-index-main-title {
+.bw-app .bw-display-layer-container h2.bwt-index-main-title
+ {
   color: #444444 !important;
   font-size: 18px !important;
   letter-spacing: 0.75px !important;
   font-weight: 600 !important;
   font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
 }
+
+.bwt-owned-stores-header h3, .bwt-combined-stores-header h3 {
+  color: #444444 !important;
+  font-size: 18px !important;
+  letter-spacing: 0.75px !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham 4r', Helvetica, Sans-Serif !important;
+  text-transform: uppercase !important;
+}
+
 a.bwt-stores-nearby-store-detail-link .bwt-stores-neaby-mobile-text-container h5.bwt-stores-nearby-store-title {
   color: #6C6967 !important;
   font-size: 12px !important;
@@ -380,8 +391,9 @@ div.bwt-store-header-type {
   font-weight: 500 !important;
 }
 
-.btw-store-show span.bwt-store-main-alert:before {
+.bwt-store-show span.bwt-store-main-alert:before {
   content: "• ";
+  font-size: 10px;
 }
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:active,
 .bw-display-layer-container .bwt-store-show .bwt-stores-nearby-store-detail-link:active *,
@@ -1444,8 +1456,35 @@ button.slick-next, button.slick-prev {
 }
 
 @media only screen and (min-width: 54em) {
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper {
+    min-height: 0px !important;
+  }
+  .bw-display-layer .bwt-store-list li {
+    margin-bottom: 20px !important;
+  }
+  div.bwt-store.bwt-store-state-normal div.bwt-store-body {
+    margin-bottom: 0px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-location-details,
+  .bw-display-layer .bwt-index .bwt-store-features-and-events {
+    max-height: 400px !important;
+  }
+  .bw-display-layer-container .bwt-index .bwt-store.bwt-store-state-normal {
+    padding-bottom: 0px !important;
+    height: inherit !important;
+    max-width: 960px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store {
+    position: absolute !important;
+  }
+  .bw-display-layer .bwt-store-list li, .bw-display-layer .bwt-combined-store-list li {
+    height: 550px !important;
+  }
   .bw-display-layer .bwt-index .bwt-store-features-and-events {
     min-height: 460px !important;
+  }
+  .bwt-combined-stores-header {
+    padding-top: 60px !important;
   }
 
   .bw-display-layer .bwt-index .bwt-store-map .bwt-store-map-link span.bwt-store-map-button,
@@ -1484,7 +1523,7 @@ button.slick-next, button.slick-prev {
   .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
     float: left !important;
     position: inherit;
-    top: -31rem !important;
+    top: 23.7rem !important;
     background-color: #CC1B59;
     border-color: #CC1B59;
     border-bottom: 1px;
@@ -1559,6 +1598,18 @@ button.slick-next, button.slick-prev {
 
 
 /*Tablet store index store cards*/
+@media only screen and (min-width: 32.01em ) and (max-width: 53.99em) {
+  .bw-display-layer .bwt-store-list li, .bw-display-layer .bwt-combined-store-list li {
+    min-height: 500px !important;
+    max-height: 500px !important;
+  }
+  .bw-display-layer .bwt-index .bwt-store {
+    position: absolute !important;
+    max-height: 500px !important;
+    max-width: 728px !important;
+  }
+  .bwt-combined-stores-header {padding-top: 60px !important;}
+}
 @media only screen and (min-width: 32.01em ) and (max-width: 54.99em) {
   .bwt-index .bwt-store-address-wrapper { width: 55% !important;}
   .bwt-index .bwt-store-address-wrapper .bwt-store-map {width: 100% !important;}
@@ -1770,4 +1821,7 @@ body .bw-display-layer-container {
   width: 100px !important;
 }
 
-
+/*Hide filter by type*/
+.bwt-filters .bwt-filters-features-store-type {
+  display: none;
+}

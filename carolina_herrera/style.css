@@ -2,6 +2,16 @@
 .ch-namespace .mini ~ main {
     margin-top: 50px;
 }
+
+.ch-namespace header.desktop nav section#main div#secondary section ul ul.sub-menu li.menu-item {
+    padding-bottom: 8px;
+    max-width: 100;
+}
+.ch-namespace header.desktop nav section#main div#secondary section ul.header-sub-fashion{
+    display: inline-flex;
+    margin: 0 auto;
+}
+
 .bw-display-layer .footer {
   display: none;
 }

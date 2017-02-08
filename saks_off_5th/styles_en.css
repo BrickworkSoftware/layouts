@@ -1599,13 +1599,16 @@ button.slick-next, button.slick-prev {
 
 /*Tablet store index store cards*/
 @media only screen and (min-width: 32.01em ) and (max-width: 53.99em) {
-  .bw-display-layer .bwt-store-list li, .bw-display-layer .bwt-combined-store-list li {
-    min-height: 500px !important;
-    max-height: 500px !important;
+  .bw-display-layer .bwt-store-list li {
+    min-height: 600px !important;
+    max-height: 600px !important;
+  }
+  .bw-display-layer .bwt-combined-store-list li {
+    height: 500px !important;
   }
   .bw-display-layer .bwt-index .bwt-store {
     position: absolute !important;
-    max-height: 500px !important;
+    max-height: 600px !important;
     max-width: 728px !important;
   }
   .bwt-combined-stores-header {padding-top: 60px !important;}

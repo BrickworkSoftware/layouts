@@ -5,6 +5,7 @@
 
 .ch-namespace header.desktop nav section#main div#secondary section ul ul.sub-menu li.menu-item {
     padding-bottom: 8px;
+    margin: 0 0 0 0;
     width: 150px;
 }
 .ch-namespace header.desktop nav section#main div#secondary section ul.header-sub-fashion{

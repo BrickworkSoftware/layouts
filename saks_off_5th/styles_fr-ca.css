@@ -1529,7 +1529,7 @@ button.slick-next, button.slick-prev {
   .bw-display-layer .bwt-index .bwt-store-detail-link-wrapper {
     float: left !important;
     position: inherit;
-    top: -23.7rem !important;
+    top: 24rem !important;
     background-color: #CC1B59;
     border-color: #CC1B59;
     border-bottom: 1px;

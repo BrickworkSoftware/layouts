@@ -1828,3 +1828,20 @@ body .bw-display-layer-container {
 .bwt-filters .bwt-filters-features-store-type {
   display: none;
 }
+
+/*Special Hours Modal*/
+.bwt-store-hours-calender-wrapper .bwt-modal-store-hours-grid .ui-state-default .bwt-special-closed {
+  color: #AAAAAA !important;
+  opacity: 1 !important;
+}
+
+.bwt-store-hours-calender .bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box,
+.bwt-store-hours-calender .bwt-store-hours-key-container-mobile .bwt-closed-key .bwt-closed-box {
+  background: #AAAAAA !important;
+}
+
+.bwt-store-hours-calender .bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box:after,
+.bwt-store-hours-calender .bwt-store-hours-key-container-mobile .bwt-closed-key .bwt-closed-box:after {
+  color: #AAAAAA !important;
+}
+

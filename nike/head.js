@@ -22,7 +22,7 @@ for(var i=0; i<y.length; i++) {
 		uat: {
 			styles: {
 				base: 'http://ecn100-store.nikedev.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
-				mobile: 'http://ecn100-m.nikedev.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
+				mobile: 'http://ecn100-store.nikedev.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
 			},
 			scripts: {
 				nsgjs: 'http://ecn100-www.nikedev.com/styleguide/init/nsg.js',
@@ -35,7 +35,7 @@ for(var i=0; i<y.length; i++) {
 		prod: {
 			styles: {
 				base: 'http://store.nike.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike,nike.gadget.OneNikeNav,nike.gadget.OneNikeFooter&assetType=STYLE',
-				mobile: 'http://m.nike.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
+				mobile: 'http://store.nike.com/'+country+'/'+lang+'/style.css?app=nikestore&version=latest&assets=nike.gadget.mobile.OneNikeFooter,nike.gadget.mobile.OneNikeNav,skin.onenike_mobile&assetType=STYLE'
 			},
 			scripts: {
 				nsgjs: 'http://www.nike.com/styleguide/init/nsg.js',

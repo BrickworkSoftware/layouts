@@ -1850,3 +1850,7 @@ body .bw-display-layer-container {
 /*Hide expand filters*/
 .bwt-index-filters-expand-button, .bwt-index-filters-expand-button.bwt-toggle-target-visible,
 .bwt-index .bwt-index-filters-expand-button .bwt-mobile-only, .bwt-index .bwt-expand-button-expanded .bwt-mobile-only {display: none !important;}
+
+.bwt-index .bwt-index-search-results-notice-details, .bwt-index .bwt-index-search-filters-container {
+	display: none !important;
+}

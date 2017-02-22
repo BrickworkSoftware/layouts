@@ -1,3 +1,130 @@
+// Fonts
+@font-face {
+  font-family: 'Gotham-Light';
+  font-weight: 500;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  font-weight: 500;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-LightItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-XLight';
+  font-weight: 300;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-XLight.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-XLight';
+  font-weight: 300;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-XLightItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  font-weight: 600;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-MediumItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Thin';
+  font-weight: 400;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Thin.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Thin';
+  font-weight: 400;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-ThinItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  font-weight: 800;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  font-weight: 800;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-BoldItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Ultra';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Ultra.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Ultra';
+  font-weight: 600;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-UltraItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-weight: 500;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Black.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-weight: 500;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-BlackItalic.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  font-weight: 500;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-Book.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  font-weight: 500;
+  font-style: italic;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Gotham-BookItalic.otf');
+}
+
+@font-face {
+  font-family: 'Ultramagnetic';
+  font-weight: 500;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/Ultramagnetic.otf');
+}
+
+@font-face {
+  font-family: 'YWFTUltramagnetic';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/ywft-ultramagnetic.ttf');
+}
+
 /*Header Styling*/
 
 * {
@@ -23,7 +150,7 @@ h1, .h1 {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: #4e5054;
   margin: 0 0 17.5px;
-  font-family: "ultramagnetic", Arial, sans-serif;
+  font-family: "Ultramagnetic", Arial, sans-serif;
   font-weight: 400;
   line-height: 1.2;
   overflow-wrap: break-word;
@@ -139,7 +266,7 @@ svg.icon:not(.icon--full-color) path {
   box-sizing: border-box;
   color: #4e5054;
   display: block;
-  font-family: "gotham-book", Arial, sans-serif;
+  font-family: "Gotham-Book", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   padding: 0 45px;
@@ -245,7 +372,7 @@ nav {
 }
 
 .mobile-nav__link {
-  font-family: "gotham-medium", Arial, sans-serif;
+  font-family: "Gotham-Medium", Arial, sans-serif;
   font-size: 0.9em;
   margin: 0 auto;
   padding: 15px 0;
@@ -350,7 +477,7 @@ nav {
 
 .site-nav__link {
   display: block;
-  font-family: "ultramagnetic", Arial, sans-serif;
+  font-family: "Ultramagnetic", Arial, sans-serif;
   font-size: 0.9em;
   letter-spacing: 1px;
   transition: 0.3s ease-out;
@@ -441,7 +568,7 @@ nav {
   color: #777;
   cursor: pointer;
   display: inline-block;
-  font-family: "ultramagnetic", Arial, sans-serif;
+  font-family: "Ultramagnetic", Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -488,7 +615,7 @@ h4, .h4 {
   padding: 8px 15px;
   background-color: #231f20;
   color: #fff;
-  font-family: "ultramagnetic", Arial, sans-serif;
+  font-family: "Ultramagnetic", Arial, sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -517,7 +644,7 @@ input, textarea, select {
   border-radius: 3px;
   color: #4e5054;
   font-size: 16px;
-  font-family: "gotham-book", Arial, sans-serif;
+  font-family: "Gotham-Book", Arial, sans-serif;
   line-height: 1.2;
   max-width: 100%;
   margin: 0;
@@ -666,7 +793,7 @@ input, textarea {
 
 .site-footer__newsletter .h4 {
   color: #fff;
-  font-family: "gotham-book", Arial, sans-serif;
+  font-family: "Gotham-Book", Arial, sans-serif;
   font-size: 0.8em;
   letter-spacing: 0.05em;
 }
@@ -676,7 +803,7 @@ input, textarea {
   border: 1px solid #e1e0df;
   border-radius: 4px 0 0 4px;
   color: #4e5054;
-  font-family: "gotham-book", Arial, sans-serif;
+  font-family: "Gotham-Book", Arial, sans-serif;
 }
 
 .site-footer__newsletter .newsletter__submit {
@@ -775,7 +902,7 @@ input, textarea {
   .site-nav__dropdown ul li .site-nav__child-link {
     color: #fff;
     border-bottom: 1px solid #fff;
-    font-family: "gotham-bold", Arial, sans-serif;
+    font-family: "Gotham-Bold", Arial, sans-serif;
     height: 49px;
     padding: 4px 0 20px 0;
     text-transform: uppercase;
@@ -890,32 +1017,55 @@ input, textarea {
   background-size: cover;
   height: 435px;
   width: 100%;
+  margin-bottom: 25px;
+}
+
+.bw-display-layer-container .bwt-index-search-form-wrap {
+  width: 50%;
+}
+
+.bwt-index-search-form-container .bwt-index-search-form-submit {
+  font-size: 21px;
+  right: 0px;
+  padding: 10px 16px;
+  background-color: #E1E0DF;
+  border: 1px solid #E1E0DF;
+}
+
+.bw-display-layer-container .book-appointment-button.search-appointment-modal {
+  margin-top: 35px;
 }
 
 .bwt-index-header {
-  padding-top: 6%;
+  padding-top: 7%;
 }
 
 .bwt-index-header-container .bwt-index-main-title {
   font-size: 2em;
   color: white;
+  margin-bottom: 25px;
 }
 
 .promo-message .international {
-  font-size: 0.8em;
+  font-size: 1em;
   color: white;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  font-family: "Gotham Light", Arial, sans-serif;
 }
 
 .bwt-index-header-container .promo-message .international {
   display: block;
 }
 
-.bwt-index-header-container .promo-message {
+.bwt-index-header-container .promo-message,
+.bwt-index-search-form-container {
   width: 60%;
   margin: 0 auto;
 }
 
-.bw-display-layer-container .bwt-index-header-container .call-to-action {
+.bw-display-layer-container .bwt-index-header-container .call-to-action,
+.bwt-index-search-filters .bwt-index-search-filter-link  {
   display: none;
 }
 
@@ -931,7 +1081,7 @@ input, textarea {
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header-container {
     height: 260px;
-    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831785/Hero-Image-Mobile.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111217Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6e7428f167ddaecbb0b006f03c9ade3b28a114783790267bf0a835cf5acc0f79');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
   }
 
   .bw-display-layer .bwt-index {
@@ -941,13 +1091,13 @@ input, textarea {
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .bw-display-layer .bwt-index-header-container {
-    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831789/Hero-Image-Tablet.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111220Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f6dded812d5f65451875b9bbb3f91e06a3c2e97836f63c9b3719419c51a3abf0');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header-container {
-    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831787/Hero-Image-Desktop.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111227Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=810050586f432d6c5ef5fc2c6c02f5a765c627f5ef12b4c1fa22ef1de5e22a63');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Desktop%20%281%29.png');
   }
 }
 

@@ -1,4 +1,4 @@
-/*Fonts*/
+/* Fonts */
 @font-face {
   font-family: 'Gotham-Light';
   font-weight: 500;
@@ -125,7 +125,7 @@
   src: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/fonts/ywft-ultramagnetic.ttf');
 }
 
-/*Header Styling*/
+/* Header Styling */
 
 * {
   box-sizing: border-box;
@@ -1002,7 +1002,7 @@ input, textarea {
   }
 }
 
-/* Black Button Styling*/
+/* Black Button Styling */
 
 .bw-display-layer-container .book-appointment-button.search-appointment-modal,
 .bw-display-layer a.bwt-explore-store {
@@ -1018,9 +1018,9 @@ input, textarea {
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder, .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin, .bwt-events-map-pin {
   background: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Drop%20Pin.png") no-repeat !important;
   background-position: center center;
-    background-size: contain;
-    width: 30px;
-    height: 50px;
+  background-size: contain;
+  width: 30px;
+  height: 50px;
 }
 
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
@@ -1030,8 +1030,7 @@ input, textarea {
 
 .bwt-stores-nearby-list .bwt-local-store-map-pin img, .bwt-events-map-pin img {display: none !important;}
 
-
-/*Store Index Page Styling*/
+/* Store Index Page Styling */
 
 .bw-display-layer-container {
   padding-top: 80px;
@@ -1093,7 +1092,7 @@ input, textarea {
 
 .bw-display-layer-container .bwt-index-header-container .call-to-action,
 .bwt-index-search-filters .filter-toggle,
-.bw-display-layer .bwt-store-actions .bwt-get-directions,
+.bw-display-layer .bwt-get-directions,
 .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store,
 .bw-display-layer .bwt-index-store-body-details-distance-hours {
   display: none;
@@ -1102,12 +1101,6 @@ input, textarea {
 .bwt-index-search-filters .map-toggle {
   margin: 20px auto;
   max-width: 745px;
-}
-
-.bwt-store-location-details-wrapper {
-  float: left;
-  display: block;
-  width: 50%;
 }
 
 .bwt-expand-button-collapsed-icon .fa.fa-angle-down,
@@ -1201,7 +1194,7 @@ input, textarea {
   letter-spacing: 0;
   line-height: 38px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .bw-display-layer .bwt-store-address-line {
@@ -1223,6 +1216,13 @@ input, textarea {
 
 .bw-display-layer .bwt-store-email-link-text a {
   color: #B9A283;
+}
+
+.bwt-store-list .bwt-store-location-details-wrapper,
+.bwt-store-list .bwt-store-contact-info,
+.bwt-store-list .bwt-store-actions {
+  float: left;
+  width: 50%;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1249,7 +1249,7 @@ input, textarea {
 }
 
 
-/*Store Show Page Styling*/
+/* Store Show Page Styling */
 
 .bwt-modal-store-hours-title {
   color: #B99E82;
@@ -1309,10 +1309,10 @@ input, textarea {
 }
 
 
-/*Event Show Page Styling*/
+/* Event Show Page Styling */
 
 
-/*Event Index Page Styling*/
+/* Event Index Page Styling */
 
 
-/*Appointment Modal Styling*/
+/* Appointment Modal Styling */

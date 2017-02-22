@@ -1,4 +1,4 @@
-// Fonts
+/*Fonts*/
 @font-face {
   font-family: 'Gotham-Light';
   font-weight: 500;
@@ -1002,6 +1002,16 @@ input, textarea {
   }
 }
 
+/* Black Button Styling*/
+
+.bw-display-layer-container .book-appointment-button.search-appointment-modal,
+.bw-display-layer a.bwt-explore-store {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 2px;
+  line-height: 18px;
+}
 
 /*Store Index Page Styling*/
 
@@ -1017,7 +1027,6 @@ input, textarea {
   background-size: cover;
   height: 435px;
   width: 100%;
-  margin-bottom: 25px;
 }
 
 .bw-display-layer-container .bwt-index-search-form-wrap {
@@ -1065,17 +1074,130 @@ input, textarea {
 }
 
 .bw-display-layer-container .bwt-index-header-container .call-to-action,
-.bwt-index-search-filters .bwt-index-search-filter-link  {
+.bwt-index-search-filters .filter-toggle,
+.bw-display-layer .bwt-get-directions,
+.bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store,
+.bw-display-layer .bwt-index-store-body-details-distance-hours {
   display: none;
 }
 
-.bw-display-layer .bwt-index-search-filters-container {
+.bwt-index-search-filters .map-toggle {
+  margin: 20px auto;
+  max-width: 745px;
+}
 
+.bwt-expand-button-collapsed-icon .fa.fa-angle-down,
+.bwt-expand-button-expanded-icon .fa.fa-angle-up {
+  font-size: 40px;
+  color: #231F20;
+}
+
+.bwt-expand-button-collapsed-icon,
+.bwt-expand-button-expanded-icon {
+  right: -30px;
+  position: absolute;
+  top: -6px;
+}
+
+.bwt-index-search-filters .bwt-index-search-results-map-button {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #231F20;
+  letter-spacing: 2px;
 }
 
 .bw-display-layer .bwt-index {
   margin: 0 !important;
   max-width: 1440px !important;
+}
+
+.bw-display-layer ul.bwt-store-list {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.bw-display-layer .bwt-store-list li {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px !important;
+  max-width: 800px;
+  min-height: 100%;
+}
+
+.bw-display-layer .bwt-store-list li .store-info {
+  margin: 0 0;
+}
+
+.bw-display-layer .bwt-store-list li:first-child > .store-info {
+  margin-top: 0;
+}
+
+.bw-display-layer .bwt-store-list li .bwt-store-actions {
+  position: relative;
+}
+
+.bw-display-layer .bwt-store-list li:hover,
+.bw-display-layer .bwt-store-list li:active,
+.bw-display-layer .bwt-store-list li:focus {
+  border: 1px solid #E1E0DF;
+  box-shadow: 1px 1px 4px 0 #E1E0DF;
+  border-radius: 3px;
+}
+
+.bwt-store-state-normal {
+  width: 50%;
+  float: left;
+  display: inline-block;
+}
+
+.bw-display-layer .bwt-index-search-filters #bwt-bigmap {
+  max-width: 1140px;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.bw-display-layer .leaflet-popup-content-wrapper {
+  border: 1px solid #E1E0DF;
+  box-shadow: 1px 1px 4px 0 #E1E0DF;
+  border-radius: 3px 3px 3px 0 0 0 3px;
+}
+
+.bw-display-layer .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  padding: 20px;
+}
+
+.bw-display-layer .bwt-map-popup {
+  padding: 0 0 0 0 !important;
+}
+
+.bw-display-layer .bwt-store-location-details .store-detail-name {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 36px;
+  color: #231F20;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-top: 10px;
+}
+
+.bw-display-layer .bwt-store-address-line {
+  font-family: "Gotham-Light", Arial, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+.bw-display-layer .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-email-link-text {
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+}
+
+.bw-display-layer .bwt-store-email-link-text a {
+  color: #B9A283;
 }
 
 @media only screen and (max-width: 640px) {

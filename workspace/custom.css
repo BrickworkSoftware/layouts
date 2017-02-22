@@ -1,60 +1,66 @@
-.bwt-modal-store-hours-title{
+/*Store Index Page Styling*/
+
+/*Store Show Page Styling*/
+.bwt-modal-store-hours-title {
   color: #B99E82;
 }
 
 .bwt-special-day.ui-tabs-anchor {
-    color: #B99E82 !important;
+  color: #B99E82 !important;
 }
 
-.bwt-store-hours-key-container-desktop .bwt-special-key .bwt-special-box{
-    background: #B99E82 !important;
-    color: #fff;
+.bwt-store-hours-key-container-desktop .bwt-special-key .bwt-special-box {
+  background: #B99E82 !important;
+  color: #fff;
 }
 
 .bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box {
-    background: #E2E3E4 !important;
-    color: #fff !important;
+  background: #E2E3E4 !important;
+  color: #fff !important;
 }
 
 .bwt-modal-store-hours-subtitle {
-    border-bottom: 1px solid #B99E82;
-    padding-bottom: 10px;
-    color: #231F20 !important;
-    font-size: 12px;
+  border-bottom: 1px solid #B99E82;
+  padding-bottom: 10px;
+  color: #231F20 !important;
+  font-size: 12px;
 }
 
 .bwt-modal-store-hours-days {
-    border-bottom: 1px solid #B99E82 !important;
+  border-bottom: 1px solid #B99E82 !important;
 }
 
- .bwt-modal-store-hours-days li {
-    color: #BAA381 !important;
-    font-weight: 400 !important;
-    font-size: 12px !important;
-  }
+.bwt-modal-store-hours-days li {
+  color: #BAA381 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+}
 
 .bwt-modal-store-hours-title {
-    font-size: 18px !important;
-    font-weight: 400 !important;
-    color: #B99E82 !important;
-    padding-bottom: 10px;
-    line-height: 20px;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #B99E82 !important;
+  padding-bottom: 10px;
+  line-height: 20px;
 }
 
 .bwt-today:before {
-    border: 1px solid #F2F1EF !important;
-    border-radius: 0 !important;
-    background: #F2F1EF;
+  border: 1px solid #F2F1EF !important;
+  border-radius: 0 !important;
+  background: #F2F1EF;
 }
 
-.bwt-today, .bwt-open-day, .bwt-closed-day{
-    color: #231F20 !important;
+.bwt-special .bwt-store-hour-date,
+.bwt-today, .bwt-open-day, .bwt-closed-day {
+  color: #231F20 !important;
 }
 
-.bwt-special .bwt-store-hour-date {
-    color: #231F20 !important;
-}
-
-.bwt-store-hour-range{
+.bwt-store-hour-range {
   color: #B99E82;
 }
+
+/*Event Show Page Styling*/
+
+/*Event Index Page Styling*/
+
+/*Appointment Modal Styling*/

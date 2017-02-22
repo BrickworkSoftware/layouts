@@ -1013,6 +1013,24 @@ input, textarea {
   line-height: 18px;
 }
 
+/* Map Pin Styling */
+.bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-pin-holder, .bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-pin-holder,
+.bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder, .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin, .bwt-events-map-pin {
+  background: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Drop%20Pin.png") no-repeat !important;
+  background-position: center center;
+    background-size: contain;
+    width: 30px;
+    height: 50px;
+}
+
+.bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
+  margin: auto;
+  margin-top: -10px !important;
+}
+
+.bwt-stores-nearby-list .bwt-local-store-map-pin img, .bwt-events-map-pin img {display: none !important;}
+
+
 /*Store Index Page Styling*/
 
 .bw-display-layer-container {
@@ -1075,7 +1093,7 @@ input, textarea {
 
 .bw-display-layer-container .bwt-index-header-container .call-to-action,
 .bwt-index-search-filters .filter-toggle,
-.bw-display-layer .bwt-get-directions,
+.bw-display-layer .bwt-store-actions .bwt-get-directions,
 .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store,
 .bw-display-layer .bwt-index-store-body-details-distance-hours {
   display: none;
@@ -1084,6 +1102,12 @@ input, textarea {
 .bwt-index-search-filters .map-toggle {
   margin: 20px auto;
   max-width: 745px;
+}
+
+.bwt-store-location-details-wrapper {
+  float: left;
+  display: block;
+  width: 50%;
 }
 
 .bwt-expand-button-collapsed-icon .fa.fa-angle-down,
@@ -1177,6 +1201,7 @@ input, textarea {
   letter-spacing: 0;
   line-height: 38px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .bw-display-layer .bwt-store-address-line {

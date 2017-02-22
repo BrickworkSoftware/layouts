@@ -879,7 +879,44 @@ input, textarea {
 /*Store Index Page Styling*/
 
 .bw-display-layer-container {
-  max-width: none !important;
+  padding-top: 80px;
+  max-width: 1440px !important;
+}
+
+.bw-display-layer-container .bwt-index-header-container {
+  margin-top: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 435px;
+  width: 100%;
+}
+
+.bwt-index-header {
+  padding-top: 6%;
+}
+
+.bwt-index-header-container .bwt-index-main-title {
+  font-size: 2em;
+  color: white;
+}
+
+.promo-message .international {
+  font-size: 0.8em;
+  color: white;
+}
+
+.bwt-index-header-container .promo-message .international {
+  display: block;
+}
+
+.bwt-index-header-container .promo-message {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.bw-display-layer-container .bwt-index-header-container .call-to-action {
+  display: none;
 }
 
 .bw-display-layer .bwt-index-search-filters-container {
@@ -888,34 +925,29 @@ input, textarea {
 
 .bw-display-layer .bwt-index {
   margin: 0 !important;
-  max-width: none !important;
+  max-width: 1440px !important;
 }
 
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header-container {
-    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831785/Hero-Image-Mobile.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185939Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5491058c3693ab8c92541bc06481aa87765da08f0812572aa06f7e6aa96c98a5');
-    background-size: cover;
+    height: 260px;
+    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831785/Hero-Image-Mobile.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111217Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=6e7428f167ddaecbb0b006f03c9ade3b28a114783790267bf0a835cf5acc0f79');
+  }
+
+  .bw-display-layer .bwt-index {
+    max-width: 500px !important;
   }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .bw-display-layer .bwt-index-header-container {
-    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831789/Hero-Image-Tablet.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185940Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=901a81a99d207dc4aeee1587c08ae3c14e821004059617d133020e221f59143f');
-    background-size: cover;
+    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831789/Hero-Image-Tablet.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111220Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=f6dded812d5f65451875b9bbb3f91e06a3c2e97836f63c9b3719419c51a3abf0');
   }
 }
 
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header-container {
-    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831787/Hero-Image-Desktop.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185554Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d43c4ec9702837fd7190a88b7dc1ed7d0e50ef0eb3dba18c9e4c8b92050e3f5b');
-    background-size: cover;
-  }
-
-  .bw-display-layer .bwt-index {
-    margin-left: 0;
-    margin-right: 0;
-    width: auto;
-    max-width: none;
+    background-image: url('https://s3.amazonaws.com/prod.tracker2/resource/75831787/Hero-Image-Desktop.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170222%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170222T111227Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=810050586f432d6c5ef5fc2c6c02f5a765c627f5ef12b4c1fa22ef1de5e22a63');
   }
 }
 

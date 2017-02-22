@@ -878,6 +878,47 @@ input, textarea {
 
 /*Store Index Page Styling*/
 
+.bw-display-layer-container {
+  max-width: none !important;
+}
+
+.bw-display-layer .bwt-index-search-filters-container {
+
+}
+
+.bw-display-layer .bwt-index {
+  margin: 0 !important;
+  max-width: none !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .bw-display-layer .bwt-index-header-container {
+    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831785/Hero-Image-Mobile.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185939Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=5491058c3693ab8c92541bc06481aa87765da08f0812572aa06f7e6aa96c98a5');
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .bw-display-layer .bwt-index-header-container {
+    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831789/Hero-Image-Tablet.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185940Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=901a81a99d207dc4aeee1587c08ae3c14e821004059617d133020e221f59143f');
+    background-size: cover;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .bw-display-layer .bwt-index-header-container {
+    background: no-repeat center url('https://s3.amazonaws.com/prod.tracker2/resource/75831787/Hero-Image-Desktop.png?response-content-disposition=inline&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJEX3ET63U5T77TYA%2F20170221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170221T185554Z&X-Amz-Expires=1800&X-Amz-SignedHeaders=host&X-Amz-Signature=d43c4ec9702837fd7190a88b7dc1ed7d0e50ef0eb3dba18c9e4c8b92050e3f5b');
+    background-size: cover;
+  }
+
+  .bw-display-layer .bwt-index {
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    max-width: none;
+  }
+}
+
 
 /*Store Show Page Styling*/
 

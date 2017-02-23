@@ -1005,12 +1005,12 @@ input, textarea {
 /* Black Button Styling */
 
 .bw-display-layer-container .book-appointment-button.search-appointment-modal,
-.bw-display-layer a.bwt-explore-store {
+.bw-display-layer-container .book-appointment-button.search-appointment-modal:hover,
+.bw-display-layer a.bwt-explore-store,
+.bw-display-layer a.bwt-explore-store:hover {
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
   font-size: 18px;
-  color: #fff;
   letter-spacing: 2px;
-  line-height: 18px;
 }
 
 /* Map Pin Styling */
@@ -1138,7 +1138,8 @@ input, textarea {
   margin: 0 auto;
   padding: 30px !important;
   max-width: 800px;
-  min-height: 100%;
+  min-height: 400px;
+  margin-bottom: 20px;
 }
 
 .bw-display-layer .bwt-store-list li .store-info {
@@ -1151,6 +1152,7 @@ input, textarea {
 
 .bw-display-layer .bwt-store-list li .bwt-store-actions {
   position: relative;
+  margin-top: 60px;
 }
 
 .bw-display-layer .bwt-store-list li:hover,
@@ -1159,12 +1161,6 @@ input, textarea {
   border: 1px solid #E1E0DF;
   box-shadow: 1px 1px 4px 0 #E1E0DF;
   border-radius: 3px;
-}
-
-.bwt-store-state-normal {
-  width: 50%;
-  float: left;
-  display: inline-block;
 }
 
 .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
@@ -1193,8 +1189,8 @@ input, textarea {
   color: #231F20;
   letter-spacing: 0;
   line-height: 38px;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
 .bw-display-layer .bwt-store-address-line {
@@ -1222,7 +1218,46 @@ input, textarea {
 .bwt-store-list .bwt-store-contact-info,
 .bwt-store-list .bwt-store-actions {
   float: left;
-  width: 50%;
+  width: 35%;
+}
+
+.bwt-store-state-normal {
+  width: 65%;
+  float: left;
+  display: inline-block;
+}
+
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image {
+  min-height: 420px;
+  min-width: 420px;
+}
+
+.bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container {
+  display: none;
+}
+
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container {
+  min-height: 420px;
+}
+
+.bw-display-layer .bwt-pagination-container .bwt-pagination:before {
+  background: #fff;
+  box-shadow: 0 0 3px 0 rgba(35,31,32,0.15);
+  font-size: 40px;
+  border-radius: 50%;
+  content: "\f107";
+  padding: 4px 10px;
+  font-family: FontAwesome;
+  font-style: normal;
+  color: #BAA381;
+}
+
+.bw-display-layer .bwt-pagination-container .bwt-pagination {
+  font-size: 0;
+  color: transparent;
+  border: none;
+  margin-top: 35px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1231,14 +1266,113 @@ input, textarea {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
   }
 
-  .bw-display-layer .bwt-index {
-    max-width: 500px !important;
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image {
+    min-height: 280px;
+    min-width: 280px;
+  }
+
+  .bw-display-layer .promo-message .international {
+    display: none;
+  }
+
+  .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
+    max-width: 500px;
+    min-width: 250px;
+    height: 100% !important;
+  }
+
+  .bw-display-layer .bwt-index-search-filters #bwt-bigmap:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+  }
+
+  .bwt-index-search-filters .map-toggle {
+    width: 300px;
+  }
+
+  .bw-display-layer .bwt-index-search-filters .bwt-bigmap-container {
+    margin-bottom: 20px;
+  }
+
+  .bw-display-layer .bwt-index-search-container {
+    width: auto;
+  }
+
+  .bwt-expand-button-collapsed-icon, .bwt-expand-button-expanded-icon {
+    right: 50px;
+  }
+
+  .bw-display-layer .bwt-hide-map-button, .bw-display-layer .bwt-index-search-results-notice-map-action {
+    text-align: center;
+  }
+
+  .bw-display-layer-container .book-appointment-button.search-appointment-modal {
+    margin-top: 10px;
   }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .bw-display-layer .bwt-index-header-container {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
+  }
+
+  .bw-display-layer .bwt-store-list li .store-info {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 799px) {
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image {
+    min-height: 300px;
+    min-width: 300px;
+  }
+
+  .bwt-store-state-normal {
+    width: 55%;
+  }
+
+  .bwt-store-list .bwt-store-location-details-wrapper,
+  .bwt-store-list .bwt-store-contact-info,
+  .bwt-store-list .bwt-store-actions {
+    width: 45%;
+  }
+
+  .bw-display-layer .bwt-store-list li .bwt-store-actions {
+    margin-top: 0;
+    float: right;
+  }
+
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container {
+    min-height: 300px;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 680px) {
+  .bw-display-layer .bwt-store-list li {
+    padding: 15px !important;
+  }
+
+  .bw-display-layer .bwt-index-search-container {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bwt-index-header-container .promo-message {
+    width: 80%;
+  }
+
+  .bwt-index-search-form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 860px) and (min-width: 641px) {
+  .bwt-index-search-filters .map-toggle {
+    margin-right: 30px;
   }
 }
 

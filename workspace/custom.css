@@ -1046,6 +1046,10 @@ input, textarea {
   width: 100%;
 }
 
+.bw-display-layer .bwt-explore-store {
+  width: 100%;
+}
+
 .bw-display-layer-container .bwt-index-search-form-wrap {
   width: 50%;
 }
@@ -1267,9 +1271,40 @@ input, textarea {
   }
 
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
-  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image {
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container,
+  .bw-display-layer .store-info .bwt-store-body-wrapper,
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-main-wrapper {
     min-height: 280px;
     min-width: 280px;
+  }
+
+  .bw-display-layer .bwt-store-list li .bwt-store-actions {
+    margin-top: 10px;
+  }
+
+  .bwt-store-list .bwt-store-location-details-wrapper,
+  .bwt-store-list .bwt-store-contact-info,
+  .bwt-store-list .bwt-store-actions,
+  .bwt-store-state-normal {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+
+  .bwt-store-list .bwt-store-location-details-wrapper,
+  .bwt-store-list .bwt-store-contact-info,
+  .bwt-store-list .bwt-store-actions {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .bw-display-layer ul.bwt-store-list {
+    max-width: 340px;
+  }
+
+  .bw-display-layer-container .bwt-index-search-form-wrap {
+    width: 82%;
   }
 
   .bw-display-layer .promo-message .international {
@@ -1278,7 +1313,7 @@ input, textarea {
 
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
     max-width: 500px;
-    min-width: 250px;
+    min-width: 280px;
     height: 100% !important;
   }
 
@@ -1293,7 +1328,7 @@ input, textarea {
   }
 
   .bw-display-layer .bwt-index-search-filters .bwt-bigmap-container {
-    margin-bottom: 20px;
+    margin: 20px;
   }
 
   .bw-display-layer .bwt-index-search-container {
@@ -1310,6 +1345,16 @@ input, textarea {
 
   .bw-display-layer-container .book-appointment-button.search-appointment-modal {
     margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .bw-display-layer .bwt-store-list li {
+    padding: 10px !important;
+  }
+
+  .bw-display-layer ul.bwt-store-list {
+    max-width: 300px;
   }
 }
 
@@ -1341,7 +1386,7 @@ input, textarea {
   }
 
   .bw-display-layer .bwt-store-list li .bwt-store-actions {
-    margin-top: 0;
+    margin-top: 10px;
     float: right;
   }
 

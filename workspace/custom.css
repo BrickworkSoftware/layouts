@@ -1490,6 +1490,19 @@ input, textarea {
 
 /* Event Show Page Styling */
 
+.bw-display-layer .bwt-event-show .bwt-back-to-store-link {
+  color: #231F20;
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #231F20;
+  letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-event-show,
+.bw-display-layer .bwt-events-other-events {
+  max-width: 1200px;
+  margin: 120px auto 50px;
+}
 
 /* Event Index Page Styling */
 

@@ -1629,10 +1629,6 @@ td.bwt-store-hours-table-date-column:after {
     flex-direction: column;
     align-items: center;
   }
-   
-  .bwt-appointment-modal-button-wrapper {
-    left: 10%;
-  }
   .bwt-store-service-content {
    text-align: center !important;
    padding: 20px !important;

@@ -1051,7 +1051,7 @@ input, textarea {
 }
 
 .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container,
-.bw-display-layer .bwt-store-list li .store-info {
+.bw-display-layer .bwt-search-results-container .bwt-search-results .bwt-store-list li .store-info {
   width: 100%;
   max-width: 100%;
 }
@@ -1127,6 +1127,12 @@ input, textarea {
   font-size: 18px;
   color: #231F20;
   letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-index .bwt-store-main-wrapper .bwt-store-main .bwt-store-map-pin {
+  top: 42%;
+  left: 48%;
+  margin-left: 0;
 }
 
 .bw-display-layer .bwt-index {
@@ -1208,6 +1214,7 @@ input, textarea {
 }
 
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-email-link .bwt-store-email-link-text a {
   font-family: "Gotham-Medium", Arial, sans-serif !important;
   font-size: 16px;
@@ -1574,7 +1581,7 @@ td.bwt-store-hours-table-date-column:after {
    .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
      width: 100% !important;
    }
-   .bwt-store-email-link, .bwt-store-social-link {
+   .bw-display-layer .bwt-store-show .bwt-store-email-link, .bw-display-layer .bwt-store-show .bwt-store-social-link {
      display: none !important;
    }
 
@@ -1689,7 +1696,7 @@ td.bwt-store-hours-table-date-column:after {
    display:block;
    text-transform:uppercase;
    font-weight: 600;
-   font-size 24px !important;
+   font-size: 24px !important;
    letter-spacing: 2px !important;
   }
   .bwt-store-feature:hover .bwt-store-feature-title {
@@ -1740,9 +1747,10 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 
-/* Event Show Page Styling */
+/* Event Show/Index Page Styling */
 
-.bw-display-layer .bwt-event-show .bwt-back-to-store-link {
+.bw-display-layer .bwt-event-show .bwt-back-to-store-link,
+.bw-display-layer .bwt-event-index .bwt-back-to-store-link {
   color: #231F20;
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
   font-size: 18px;
@@ -1769,11 +1777,13 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bw-display-layer .bwt-events-main .bwt-event-image-container .bwt-events-image,
+.bw-display-layer .bwt-event-results .bwt-event-image-container .bwt-events-image,
 .bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-image {
   max-width: 730px;
 }
 
 .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
+.bwt-event-results .bwt-event-container .bwt-event-datetime,
 .bw-display-layer h4.bwt-nearby-event-date {
   position: absolute;
   top: -40px;
@@ -1826,15 +1836,30 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bwt-event-details-container .bwt-event-details-date-time .bwt-event-details-dates,
+.bwt-event-container .bwt-event-info .bwt-event-datetime .bwt-event-details-dates,
 .bwt-event-details-container .bwt-event-details-date-time .bwt-event-details-times {
   font-family: "Gotham-Medium", Arial, sans-serif;
   font-size: 16px;
   color: #B99E82;
   letter-spacing: 1px;
+  display: inline;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results-container .bwt-event-container .bwt-event-info-container {
+  padding-left: 0;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
+  top: -80px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+  margin-top: 70px;
 }
 
 .bw-display-layer .bwt-event-header .bwt-event-details-title,
 .bw-display-layer .bwt-nearby-event-info-body .bwt-nearby-event-title,
+.bwt-event-results .bwt-event-container .bwt-event-details-title,
 .bw-display-layer .bwt-events-more-events .bwt-store-features-title h2 {
   margin-bottom: 0;
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
@@ -1868,11 +1893,22 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 #bwt-rsvp-button .bwt-event-details-signup-button-copy,
-.bw-display-layer .bwt-events-other-events .bwt-nearby-event-info .bwt-nearby-event-link-container a {
+.bw-display-layer .bwt-events-other-events .bwt-nearby-event-info .bwt-nearby-event-link-container a,
+.bw-display-layer .bwt-event-info .bwt-store-event-link-container .bwt-store-event-link {
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
   font-size: 18px;
   letter-spacing: 2px;
   font-size: 18px;
+}
+
+.bw-display-layer .bwt-event-info .bwt-event-info-container {
+  position: relative;
+}
+
+.bw-display-layer .bwt-event-info .bwt-store-event-link-container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .bwt-event-details-signup #bwt-rsvp-button {
@@ -1893,13 +1929,15 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-description,
+.bwt-event-results .bwt-event-container .bwt-event-description,
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
   font-family: "Gotham-Light", Arial, sans-serif;
   letter-spacing: 0.5px;
   line-height: 26px;
 }
 
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons .bwt-social-icon {
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons .bwt-social-icon,
+.bwt-event-results .bwt-event-bottom-content .bwt-share-buttons .bwt-social-icon {
   margin-right: 10px;
   width: 40px;
   height: 40px;
@@ -1907,16 +1945,19 @@ td.bwt-store-hours-table-date-column:after {
   margin-bottom: 20px;
 }
 
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description,
+.bwt-event-results .bwt-event-container .bwt-event-description {
   margin-bottom: 20px;
 }
 
-.bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+.bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a,
+.bwt-event-results-container .bwt-store-event-link-container a {
   width: 80% !important;
 }
 
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container,
-.bw-display-layer .bwt-nearby-event-info-body {
+.bw-display-layer .bwt-nearby-event-info-body,
+.bwt-event-results .bwt-event-container .bwt-event-info {
   position: relative;
   margin-top: 50px;
 }
@@ -2037,8 +2078,6 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 0;
   }
 }
-
-/* Event Index Page Styling */
 
 
 /* Appointment Modal Styling */

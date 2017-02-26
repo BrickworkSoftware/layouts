@@ -1130,7 +1130,7 @@ input, textarea {
 }
 
 .bw-display-layer .bwt-index .bwt-store-main-wrapper .bwt-store-main .bwt-store-map-pin {
-  top: 42%;
+  top: 40%;
   left: 48%;
   margin-left: 0;
 }
@@ -1376,6 +1376,11 @@ input, textarea {
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .store-info {
     width: 100%;
   }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
+    max-width: 750px;
+  }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 799px) {
@@ -1606,7 +1611,7 @@ td.bwt-store-hours-table-date-column:after {
     line-height: 36px;
   }
 
-   .bw-display-layer .bwt-back-to-store-link {
+   .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
     background: rgba(0,0,0,0.40) !important;
     font-size: 16px !important;
     color: #fff !important;
@@ -1614,7 +1619,7 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px;
     height: 55px;
   }
-  .bwt-back-to-store-prefix:before {
+  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
     margin-left: 20px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{

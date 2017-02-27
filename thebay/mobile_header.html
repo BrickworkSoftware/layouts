@@ -1,0 +1,74 @@
+<script>
+  // Mobile Nav
+  $(document).on("click", "#nav-toggle", function() {
+    $(".tb-header").removeClass("active-search");
+    $(".tb-header").toggleClass("active-nav");
+  });
+
+  $(document).on("click", "#search-toggle", function() {
+    $(".tb-header").removeClass("active-nav");
+    $(".tb-header").toggleClass("active-search");
+  });
+
+  
+  $(function() {
+    $('#search-form').submit(function(){
+      var value = $('#search-form :input').val();
+      if (value) {
+        submitForm(value);
+      }
+      return false;
+    });
+  });
+</script>
+
+<div class="site_header show-for-small-only">
+<div class="tb-header">
+  <div class="tb-header-container">
+    <div class="tb-top-header">
+      <div class="tb-nav-wrapper-left">
+        <div class="tb-hamburger icon-hamburger" id="nav-toggle">
+            <i class="fa fa-bars"> </i>
+        </div>
+      </div>
+      <div class="tb-logo-wrapper">
+        <a id="WC_ContentAreaESpot_links_3_1" href="http://www.thebay.com/webapp/wcs/stores/servlet/ClickInfo?evtype=CpgnClick&amp;mpe_id=10829&amp;intv_id=85283&amp;storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;URL=StoreView%3ferrorViewName%3dAjaxOrderItemDisplayView%26storeId%3d10701">
+          <img id="logo-image" src="http://www.thebay.com//wcsstore/TheBay/logo_en.png" alt="" border="0">
+        </a>
+      </div>
+      <div class="tb-nav-wrapper-right">
+        <div class="tb-search icon-search-o" id="search-toggle">
+          <i class="fa fa-search"> </i>
+        </div>
+      </div>
+    </div>
+    <div class="tb-bottom-nav">
+      <ol class="tb-area-links">
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/HBCBrandsListView?storeId=10701&amp;catalogId=10652&amp;langId=-24" class="nav">Brands</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel" class="nav">Women</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes" class="nav">Shoes</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags" class="nav">Handbags</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories" class="nav">Accessories</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty" class="nav">Beauty</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/men" class="nav">Men</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids" class="nav">Kids</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids-toys" class="nav">Toys</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home" class="nav">Home</a></li>
+        <li><a href="/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany" class="nav">HBC</a></li>
+        <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more" class="nav">More</a></li>
+        <li><a href="/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;showResultsPage=true&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;pageSize=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=&amp;storeId=10701&amp;facetLabel=SALE" class="nav">SALE</a></li>
+      </ol>
+    </div>
+    <div class="tb-bottom-search">
+      <div class="tb-search-form">
+        <form id="search-form">
+          <div class="search-form-input-container">
+            <input type="text" class="search-form-input" placeholder="Search...">
+            <div class="fa fa-times close-search icon-cross" id="search-toggle"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

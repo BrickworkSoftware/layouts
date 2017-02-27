@@ -1201,8 +1201,8 @@ input, textarea {
   color: #231F20;
   letter-spacing: 0;
   line-height: 38px;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .bw-display-layer .bwt-store-location-details-wrapper .bwt-store-address-line {
@@ -1217,7 +1217,7 @@ input, textarea {
 .bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-email-link .bwt-store-email-link-text a {
   font-family: "Gotham-Medium", Arial, sans-serif !important;
-  font-size: 16px;
+  font-size: 15px;
   color: #231F20;
   letter-spacing: 0.5px;
   line-height: 26px;
@@ -1323,7 +1323,7 @@ input, textarea {
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
     max-width: 500px;
     min-width: 280px !important;
-    height: 100% !important;
+    overflow: scroll;
   }
 
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap:before {
@@ -2016,18 +2016,21 @@ td.bwt-store-hours-table-date-column:after {
     order: 2;
     padding-right: 0;
     margin: 0 auto;
-    width: 90%;
+    width: 90% !important;
     max-width: 620px;
   }
 
   .bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-info {
     padding-right: 0;
     text-align: center;
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
   }
 
   .bw-display-layer .bwt-nearby-event-info h4.bwt-nearby-event-date {
-    position: relative;
-    top: -80px;
+    width: 100%;
+    display: block;
   }
 
   .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-info-body {
@@ -2063,8 +2066,12 @@ td.bwt-store-hours-table-date-column:after {
 
 @media screen and (max-width: 640px) {
   .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
-    position: relative;
-    top: -80px;
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main,
+  .bw-display-layer .bwt-events-other-events {
+    padding: 0 0 !important;
   }
 
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper,
@@ -2075,12 +2082,22 @@ td.bwt-store-hours-table-date-column:after {
     width: 100%;
   }
 
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-title,
+  .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-title {
+    margin-bottom: 0 !important;
+    line-height: 50px;
+  }
+
   .bwt-events-main .bwt-event-details .bwt-store-actions {
     margin-bottom: 20px;
   }
 
   .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
     margin-top: 0;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
+    margin-bottom: 0;
   }
 }
 

@@ -1023,6 +1023,10 @@ input, textarea {
   height: 50px;
 }
 
+.bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
+  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Drop%20Pin.png");
+}
+
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
   margin: auto;
   margin-top: -10px !important;
@@ -1035,6 +1039,12 @@ input, textarea {
 .bw-display-layer-container {
   padding-top: 80px;
   max-width: 1440px !important;
+}
+
+.bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .upcoming-event-container {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 
 .bw-display-layer-container .bwt-index .bwt-scroll-assist {

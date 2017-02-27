@@ -1090,18 +1090,19 @@ input, textarea {
   font-size: 2em;
   color: white;
   margin-bottom: 25px;
-}
-
-.bw-display-layer .promo-message .international {
-  font-size: 1em;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 0.08em;
-  font-family: "Gotham Light", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .bw-display-layer .bwt-index-header-container .promo-message .international {
   display: block;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 0.08em;
+  font-family: "Gotham Light", Arial, sans-serif;
+}
+
+.bw-display-layer .bwt-store-contact-info .bwt-store-email-link {
+  color: #B9A283;
 }
 
 .bw-display-layer .bwt-index-header-container .promo-message,
@@ -1178,22 +1179,17 @@ input, textarea {
   margin: 0 0;
 }
 
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child > .store-info {
+.bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child {
   margin-top: 0;
+  border: 1px solid #E1E0DF;
+  box-shadow: 1px 1px 4px 0 #E1E0DF;
+  border-radius: 3px;
 }
 
 .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
   position: absolute;
   left: 64%;
   bottom: 26px;
-}
-
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:hover,
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:active,
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:focus {
-  border: 1px solid #E1E0DF;
-  box-shadow: 1px 1px 4px 0 #E1E0DF;
-  border-radius: 3px;
 }
 
 .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
@@ -1485,9 +1481,26 @@ input, textarea {
     min-width: 300px !important;
   }
 
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child {
+    min-height: 370px;
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child .bwt-store-actions {
+    bottom: 30px;
+  }
+
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
     left: 55%;
     bottom: 62px;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-address-line {
+    line-height: 20px;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-contact-info .bwt-store-phone-number,
+  .bw-display-layer .bwt-index .bwt-store-contact-info .bwt-store-email-link {
+    line-height: 16px !important;
   }
 
   .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container {
@@ -1533,6 +1546,12 @@ input, textarea {
 
   .bw-display-layer .bwt-index-search-form-container {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list .bwt-store-actions {
+    width: 32% !important;
   }
 }
 

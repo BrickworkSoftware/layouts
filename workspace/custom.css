@@ -1827,7 +1827,7 @@ td.bwt-store-hours-table-date-column:after {
  .bwt-back-to-store-prefix {
     top: 40% !important;
   }
-  .bwt-store-map-pin-holder{
+  .bwt-store-show .bwt-store-map-pin-holder{
    margin-top: 30px;
   }
 }
@@ -2122,6 +2122,11 @@ td.bwt-store-hours-table-date-column:after {
     max-width: 620px;
   }
 
+  .bw-display-layer .bwt-events-main .bwt-events-image:before,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before {
+    padding-top: 60% !important;
+  }
+
   .bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-info {
     padding-right: 0;
     text-align: center;
@@ -2208,6 +2213,17 @@ td.bwt-store-hours-table-date-column:after {
 
   .bwt-event-results .bwt-event-container .bwt-event-description {
     margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bw-display-layer .bwt-events-main .bwt-events-image:before,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before {
+    padding-top: 90% !important;
+  }
+
+  .bw-display-layer .bwt-events-other-events .bwt-events-more-events .bwt-nearby-event-image-container {
+    padding: 3px !important;
   }
 }
 

@@ -1,33 +1,9 @@
-<script>
-  // Mobile Nav
-  $(document).on("click", "#nav-toggle", function() {
-    $(".tb-header").removeClass("active-search");
-    $(".tb-header").toggleClass("active-nav");
-  });
-
-  $(document).on("click", "#search-toggle", function() {
-    $(".tb-header").removeClass("active-nav");
-    $(".tb-header").toggleClass("active-search");
-  });
-
-  
-  $(function() {
-    $('#search-form').submit(function(){
-      var value = $('#search-form :input').val();
-      if (value) {
-        submitForm(value);
-      }
-      return false;
-    });
-  });
-</script>
-
 <div class="site_header show-for-small-only">
 <div class="tb-header">
   <div class="tb-header-container">
     <div class="tb-top-header">
       <div class="tb-nav-wrapper-left">
-        <div class="tb-hamburger icon-hamburger" id="nav-toggle">
+        <div class="tb-hamburger icon-hamburger nav-toggle">
             <i class="fa fa-bars"> </i>
         </div>
       </div>
@@ -37,7 +13,7 @@
         </a>
       </div>
       <div class="tb-nav-wrapper-right">
-        <div class="tb-search icon-search-o" id="search-toggle">
+        <div class="tb-search icon-search-o search-toggle">
           <i class="fa fa-search"> </i>
         </div>
       </div>
@@ -64,7 +40,7 @@
         <form id="search-form">
           <div class="search-form-input-container">
             <input type="text" class="search-form-input" placeholder="Search...">
-            <div class="fa fa-times close-search icon-cross" id="search-toggle"></div>
+            <div class="fa fa-times close-search icon-cross search-toggle"></div>
           </div>
         </form>
       </div>
@@ -72,3 +48,30 @@
   </div>
 </div>
 </div>
+
+<script>
+  // Mobile Nav
+    $('.nav-toggle').each(function (index, id) {
+      $(this).click(function() {
+        $(".tb-header").removeClass("active-search");
+        $(".tb-header").toggleClass("active-nav");
+      });
+    });
+
+    $('.search-toggle').each(function (index, id) {
+      $(this).click(function() {
+        $(".tb-header").removeClass("active-nav");
+        $(".tb-header").toggleClass("active-search");
+      });
+    });
+    
+    $(function() {
+      $('#search-form').submit(function(){
+        var value = $('#search-form :input').val();
+        if (value) {
+          submitForm(value);
+        }
+        return false;
+      });
+    });
+</script>

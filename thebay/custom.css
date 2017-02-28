@@ -1,4 +1,14 @@
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1024px) {
+  .show-for-small-only {
+    display: block !important;
+  }
+  .show-for-medium-up {
+    display: none !important;
+  }
+  .show-for-large-only {
+    display: none !important;
+  }
+
 	/* Header & Footer Styling */
   .tb-header {
     margin: 0 auto;
@@ -41,10 +51,6 @@
 
   .tb-logo-wrapper {
     width: 80%;
-  }
-
-  .tb-logo-wrapper img {
-    width: 90%;
   }
 
   .tb-logo-wrapper #logo-image {
@@ -234,4 +240,16 @@
     padding:0 10px;
   }
 
+}
+
+@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .tb-logo-wrapper img {
+    width: 50% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .tb-logo-wrapper img {
+    width: 90% !important;
+  }
 }

@@ -1663,6 +1663,10 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 900;
 }
 
+.bw-display-layer .bwt-store-show .bwt-stores-nearby{
+    display: none !important;
+}
+
 
 /*font-family,size,weight for store page*/
 .bwt-store-show .bwt-store-main-info .bwt-store-map-button{

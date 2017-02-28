@@ -2222,10 +2222,6 @@ td.bwt-store-hours-table-date-column:after {
     .bwt-store-feature-description{
        margin-top: 60px;
     }
-    .bwt-store-event-body-wrapper {
-      display: table;
-       margin-left: 20px;
-    }
     .bwt-store-event-title {
       display: table-footer-group;
       line-height: 45px;
@@ -2298,11 +2294,11 @@ td.bwt-store-hours-table-date-column:after {
       width: 60% !important;
       order: 1;
     }
-    .bwt-store-event-body-wrapper {
+    .bwt-store-show .bwt-store-event-body-wrapper {
       order: 2;
       margin-left: 413px;
-      margin-top: -381px;
-      margin-bottom:150px;
+      margin-top: -403px;
+      margin-bottom:40px;
       width: 35% !important;
     }
    .bwt-store-event-cal-wrapper.bwt-hide-on-mobile {

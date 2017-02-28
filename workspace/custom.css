@@ -1037,6 +1037,7 @@ input, textarea {
 /* Store Index Page Styling */
 
 .bw-display-layer-container 
+  padding-top: 80px;
   max-width: 1440px !important;
 }
 

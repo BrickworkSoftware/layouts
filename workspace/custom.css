@@ -1040,7 +1040,7 @@ input, textarea {
 
 /* Store Index Page Styling */
 
-.bw-display-layer-container {
+.bw-display-layer-container
   padding-top: 80px;
   max-width: 1440px !important;
 }
@@ -2907,4 +2907,4 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 
-/* Appointment Modal Styling*/
+/* Appointment Modal Styling */

@@ -2000,7 +2000,7 @@ td.bwt-store-hours-table-date-column:after {
     order: 4;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours,
-  .bwt-back-to-store-link {
+  .bw-display-layer .bwt-store-show  .bwt-back-to-store-link {
     display: none !important;
   }
 }

@@ -2890,10 +2890,6 @@ td.bwt-store-hours-table-date-column:after {
     padding-right: 20px;
   }
 
-  .bwt-event-results .bwt-event-container .bwt-event-details-title {
-    line-height: 50px;
-  }
-
   .bw-display-layer .bwt-event-results .bwt-event-container .bwt-event-top-content {
     margin-bottom: 0;
   }
@@ -2912,6 +2908,19 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
     top: -50px;
   }
+
+  .bwt-event-results .bwt-event-container .bwt-event-details-title {
+    line-height: 45px;
+    font-size: 22px;
+  }
+
+  .bwt-event-results .bwt-event-container .bwt-event-description {
+    line-height: 16px;
+  }
+
+  .bwt-event-container .bwt-event-info .bwt-event-datetime .bwt-event-details-dates {
+    line-height: 18px;
+  }
 }
 
 @media screen and (min-width: 641px) {
@@ -2919,6 +2928,10 @@ td.bwt-store-hours-table-date-column:after {
     position: absolute;
     right: 0;
     top: -80px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
+    left: 8px;
   }
 
   .bw-display-layer .bwt-event-container .bwt-event-info .bwt-share-buttons {
@@ -2986,7 +2999,7 @@ td.bwt-store-hours-table-date-column:after {
   }
 
   .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
-    top: -55px !important;
+    top: -65px !important;
   }
 
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper,
@@ -3015,8 +3028,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-bottom: 20px;
   }
 
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description,
-  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
     margin-top: 0 !important;
   }
 
@@ -3030,6 +3042,10 @@ td.bwt-store-hours-table-date-column:after {
 
   .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
     margin-bottom:  10px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-bottom-content .bwt-share-buttons {
+    margin: 20px auto 0;
   }
 }
 

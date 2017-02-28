@@ -1036,8 +1036,7 @@ input, textarea {
 
 /* Store Index Page Styling */
 
-.bw-display-layer-container {
-  padding-top: 80px;
+.bw-display-layer-container 
   max-width: 1440px !important;
 }
 
@@ -1784,6 +1783,7 @@ td.bwt-store-hours-table-date-column:after {
     color: #FFFFFF !important;
     letter-spacing: 2px !important;
     line-height: 18px !important;
+    left: 35px !important;
   }
 
      .bwt-store-show .bwt-store-main-info .bwt-store-phone-number{
@@ -2084,7 +2084,7 @@ td.bwt-store-hours-table-date-column:after {
         margin-top: 10px;
       }
 
-     a.i.fa.fa-envelope.fa-2x, a.i.fa.fa-instagram.fa-2x {
+     a.i.fa.fa-envelope, a.i.fa.fa-instagram {
        color: white;
        background: #231F20;
        border-radius: 70px;
@@ -2092,6 +2092,9 @@ td.bwt-store-hours-table-date-column:after {
        margin-right: 15px;
      }
 
+     a.bwt-store-event-link {
+       margin: 0 !important;
+    }
      .bw-display-layer .bwt-show-for-medium-up {
        display: block;
        font-size: 16px;
@@ -2316,6 +2319,9 @@ td.bwt-store-hours-table-date-column:after {
      width: 50% !important;
   }
 
+  a.bwt-store-event-link {
+    margin: 0 !important;
+  }
  .bwt-store-call-title{
   font-size: 60px !important;
   color: #231f20;
@@ -2370,7 +2376,7 @@ td.bwt-store-hours-table-date-column:after {
       margin-top: 10px;
     }
 
-   a.i.fa.fa-envelope.fa-2x, a.i.fa.fa-instagram.fa-2x {
+   a.i.fa.fa-envelope, a.i.fa.fa-instagram {
      color: white;
      background: #231F20;
      border-radius: 70px;

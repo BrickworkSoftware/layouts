@@ -1427,7 +1427,7 @@ input, textarea {
 
 /* Store Show Page Styling */
 
- .bwt-store-header-details {
+  .bwt-store-header-details {
     display: none;
  }
 
@@ -1521,16 +1521,665 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 900;
 }
 
-@media only screen and (min-width: 641px){
+
+/*font-family,size,weight for store page*/
+.bwt-store-show .bwt-store-main-info .bwt-store-map-button{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.78px !important;
+    line-height: 18px !important;
+    background: #F2F1EF !important;
+    border: 2px solid #E1E0DF !important;
+    border-radius: 3px !important;
+    font-weight: 600 !important;
+  }
+
+  .bwt-store-show .bwt-store-event-link-container{
+    font-family: "YWFTUltramagnetic",  Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+    line-height: 18px !important;
+  }
+
+  .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+  }
+  .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+  }
+  .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+  }
+
+  .bwt-store-show .bwt-store-event-dates{
+    font-family: "Gotham-Light", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #B99E82 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 26px !important;
+    margin-top: 15px !important;
+  }
+
+  .bwt-store-show .bwt-store-event-title{
+     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+     font-size: 24px !important;
+     color: #231F20 !important;
+     letter-spacing: 0 !important;
+  }
+     .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location h3{
+     font-family: "Gotham-Bold", Arial, sans-serif !important;
+     font-size: 16px !important;
+     color: #231F20 !important;
+     letter-spacing: 1.5px !important;
+     line-height: 16px !important;
+  }
+   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3{
+     font-family: "Gotham-Bold", Arial, sans-serif  !important;
+     font-size: 16px !important;
+     color: #231F20 !important;
+     letter-spacing: 1.5px !important;
+     line-height: 16px !important;
+   }
+  .bwt-store-show .bwt-store-main-info .ui-accordion-content{
+     font-family: "Gotham-Light", Arial, sans-serif !important;
+     font-size: 16px !important;
+     color: #231F20 !important;
+     letter-spacing: 0.5px !important;
+     line-height: 26px !important;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
+     font-family: "Gotham-Light", Arial, sans-serif !important;
+     color: #231F20 !important;
+     letter-spacing: 0.5px !important;
+     line-height: 26px !important;
+  }
+  .bwt-store-show h2.bwt-store-section-title{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bwt-store-show .bwt-store-services-description{
+    font-family: "Gotham-Light", Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 36px !important;
+  }
+  .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-title{
+     font-family: "Gotham-Bold", Arial, sans-serif !important ;
+     font-size: 24px !important;
+     color: #231F20 !important;
+     letter-spacing: 1.5px !important;
+  }
+  .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
+     font-family: "Gotham-Bold", Arial, sans-serif !important ;
+     font-size: 18px !important;
+     color: #231F20 !important;
+     letter-spacing: 1.5px !important;
+  }
+  .bwt-store-show .bwt-store-service-description{
+     font-family: "Gotham-Light;", Arial, sans-serif !important ;
+     font-size: 16px !important;
+     color: #231F20 !important;
+     letter-spacing: 1.5px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 2px !important;
+    line-height: 18px !important;
+  }
+
+     .bwt-store-show .bwt-store-main-info .bwt-store-phone-number{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0.5px !important;
+    line-height: 26px !important;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-store-hours h3{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 16px !important;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 14px;
+    color: #11000E;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    color: #231F20 !important;
+    font-weight: 600;
+    font-size: 16px;
+  }
+   .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a{
+   font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+   font-size: 36px !important;
+   color: #231F20;
+   letter-spacing: 0;
+ }
+ .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
+   font-family: "Gotham-Light", Arial, sans-serif !important;
+   letter-spacing: 0 !important;
+   line-height: 26px !important;
+   font-size: 16px !important;
+  }
+
+ .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-details{
+   font-family: "Gotham-Bold", Arial, sans-serif !important;
+   font-size: 16px;
+   color: #231F20;
+   letter-spacing: 1.5px;
+   line-height: 16px;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3{
+     font-family: "Gotham-Bold", Arial, sans-serif !important;
+   }
+
+
+
+/*reponsive store page for mobile */
+@media only screen and (max-width: 767px) and (min-width: 320px){
+ .bwt-store-show .bwt-store-alert-container .store-alert-container{
+     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+     font-size: 30px !important;
+     color: rgba(155,154,155,0.64) !important;
+     letter-spacing: 3.33px !important;
+     background: #FFFFFF !important;
+     font-weight: 600 !important;
+  }
+  .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a{
+   font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+   font-size: 18px !important;
+   color: #231F20;
+   letter-spacing: 0;
+  }
+ .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-details{
+   text-align: left;
+   font-family: "Gotham-Bold", Arial, sans-serif !important;
+   font-size: 16px;
+   color: #231F20;
+   letter-spacing: 1.5px;
+   line-height: 16px;
+  }
+   .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3{
+     font-family: "Gotham-Bold", Arial, sans-serif !important;
+   }
+  .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-hours{
+     text-align: left;
+     margin-top: 15px;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-mobile-only{
+    text-align:left;
+   }
+
+  .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-description{
+    padding-left: 25px !important;
+    padding-right: 15px !important;
+    text-align: left;
+   }
+  .bwt-store-show .bwt-store-main-info .bwt-store-map{
+   order: 1 !important;
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-mobile-only{
+   order: 2 !important;
+ }
+ .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
+  width: 100% !important;
+ }
+ .bwt-store-service-container {
+    border: 0px solid #E1E0DF !important; 
+    margin-top: 82.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px !important;
+}
+ .bwt-store-service-image {
+    width: 75px !Important;
+    background: #F2F1EF;
+    border-radius: 100%;
+    margin-top: -82.5px;
+    background-size: 50% !important;
+ }
+
+ .bwt-store-show .bwt-store-service-container .bwt-store-service-content{
+  text-align: inherit !important;
+ }
+ .bwt-store-feature-cover {
+    background: rgba(0,0,0,0.3) !important;
+  }
+  .bwt-store-feature-title {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px !important;
+ }
+ .bwt-store-feature-description {
+    margin-top: 40px;
+  }
+ .bwt-store-show .bwt-store-special-hours-link {
+    color: #231f20 !important;
+  }
+  .bwt-store-hours-key-container-mobile .bwt-special-key .bwt-special-box{
+    background: #231f20 !important;
+   color: #fff !important;
+  }
+  .bwt-store-hours-key-container-mobile .bwt-closed-key .bwt-closed-box{
+   background: #E2E3E4 !important;
+   color: #fff !important;
+ }  
+
+ .bwt-store-show .bwt-store-main-info .bwt-store-phone-number{
+   border: 0px !important;
+   font-weight: 600 !important;
+   width:100% !important;
+   padding: 0px !important; 
+  }
+  .bwt-store-show .bwt-store-main-info .bwt-mobile-only, .bwt-store-show .bwt-store-main-info .bwt-store-social-link, .bwt-store-show .bwt-store-main-info .bwt-store-email-link{
+    display: none !important;
+  }
+  a.i.fa.fa-envelope.fa-2x, a.i.fa.fa-instagram.fa-2x {
+    color: white;
+    background: #231F20;
+    border-radius: 70px;
+    padding: 10px;
+    margin-right: 15px;
+ }
+  a.i.fa.fa-envelope, a.i.fa.fa-instagram {
+    color: white;
+    background: #231F20;
+    border-radius: 70px;
+    padding: 10px;
+    margin-right: 15px;
+ }
+ .bwt-store-main-info .bwt-store-link-icons.bwt-mobile-only {
+    display: block !important;
+  }
+  .bw-display-layer .bwt-store-location-services.bwt-hide-on-mobile {
+    display: block !important;
+    text-align: left;
+    order: 4;
+    padding-left: 25px;
+    padding-right: 15px;
+  }
+
+  .bwt-store-show .bwt-store-event-body{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+   .bwt-store-show .bwt-store-event-dates{
+    order: 1;
+  }
+  .bwt-store-show .bwt-store-event-title{
+     order: 2;
+  }
+   .bwt-store-show .bwt-store-event-description{
+     order: 3;  
+  }
+  .bwt-store-show .bwt-store-event-link-container{
+    order: 4;
+  }
+  .bwt-store-special-hours, .bwt-back-to-store-link{
+    display: none !important;
+  }
+}
+
+
+/*responsive store page for tablet*/
+@media only screen and (max-width: 992px) and (min-width: 768px){
+   .bwt-store-main-info {
+      position: relative;
+    }
+   .bwt-store-map {
+      width: 50% !important;
+       padding-left: 55px !important;
+       height: 250px !important;
+    }
+    .bwt-store-show-primary-details {
+      width: 50% !important;
+      padding-left: 55px !important;
+    }
+    .bwt-store-show-primary-hours {
+      width: 50% !important;
+      padding-left: 55px !important;
+    }
+    .bwt-store-hours {
+      margin-top: 15px;
+     }
+    .bwt-store-show-primary-description {
+      width: 50% !important;
+       padding-left: 55px !important;
+       position: absolute;
+       clear: none !important;
+       float: none !important;
+       top: 350px;
+   }
+   .bwt-store-call-modal {
+       width: 50% !important;
+    }
+   .bwt-store-call-title{
+     font-size: 60px !important;
+     color: #231f20;
+     text-transform: capitalize !important;
+     font-weight: 600 !important;
+   }
+    .bwt-store-call-input {
+       background: #F2F1EF !important;
+     }
+     .bwt-store-call-placeholder {
+       font-size: 16px !important;
+       color: #8D8B8A !important;
+       background: transparent !important;
+     }
+
+     .bwt-store-call-button:disabled{
+        color: #fff !important;
+        border-color: transparent !important;
+        background: #231f20 !important;
+        cursor: not-allowed !important;
+        width: 50% !important;
+        font-weight: 900;
+   }
+    .bwt-store-hours-modal{
+       width: 80% !important;
+     }
+     .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper{
+      font-size: 16px !important;
+     }
+     .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
+         background-color: #F2F1EF !important;
+         font-size: 24px !important;
+         color: #B99E82 !important;
+         text-transform: uppercase;
+         font-weight: 900;
+         height: 85px;
+         width: 96% !important;
+     }
+     .bw-display-layer .bwt-store-show .bwt-store-banner-info-container {
+        background-color: #F2F1EF !important;
+        padding: 50px;
+        color: #231F20;
+     }
+
+     .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
+        width: 100% !important;
+     }
+     .bwt-store-email-link, .bwt-store-social-link {
+      display: none !important;
+     }
+     
+     .bwt-store-link-icons {
+        margin-top: 10px;
+      }
+
+     a.i.fa.fa-envelope.fa-2x, a.i.fa.fa-instagram.fa-2x {
+       color: white;
+       background: #231F20;
+       border-radius: 70px;
+       padding: 10px;
+       margin-right: 15px;
+     }
+
+     .bw-display-layer .bwt-show-for-medium-up {
+       display: block;
+       font-size: 16px;
+       font-weight: 600;
+       color: #231F20;
+       letter-spacing: 1.5px;
+       line-height: 36px;
+    }
+     
+     .bw-display-layer .bwt-back-to-store-link {
+        background: rgba(0,0,0,0.3) !important;
+        font-size: 16px !important;
+        color: #fff !important;
+        padding: 20px;
+        width: 250px;
+        height: 55px;
+     }
+     .bwt-back-to-store-prefix:before {
+        margin-left: 20px;
+     }
+
+     .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{
+         font-weight: 900;
+      }
+      .bw-display-layer .bwt-store-show .bwt-store-special-hours-link{
+         color: #231F20 !important;
+      }
+      .bwt-store-main-description p{
+          width: 250px;
+          height:260px;
+     }
+     
+     .bwt-store-service-image {
+       width: 165px !Important;
+       background: #F2F1EF;
+       border-radius: 100%;
+       margin-top: -82.5px;
+       background-size: 80px !important;
+     }
+
+     .bwt-store-service-container {
+      min-height: 450px !important;
+      width: 330px;
+       margin-top: 82.5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     }
+    
+     .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
+       display: inherit !important;
+     }
+     
+    .bwt-store-service-content {
+       text-align: center !important;
+       padding: 20px !important;
+    }
+    .bwt-store-service-title {
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+    .bwt-store-show .bwt-store-service-description {
+      font-size: 14px !important;
+      margin-top: -10px !important;
+    }
+    .bwt-store-show .bwt-store-special-hours{
+      display: none !important;
+    }
+    .ui-datepicker-title {
+      color: #B99E82 !important;
+    }
+    .bw-display-layer .bwt-store-show .ui-datepicker th {
+      border: 0px solid #E1E0DF !important;
+      color: #BAA381;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+     thead {
+        border-bottom: 1px solid #BAA381;
+        border-top: 1px solid #BAA381;
+    }
+    .bwt-event-search-container.bwt-hide-on-mobile {
+        margin-right: 70px !important;
+    }
+
+    .bwt-event-search-container.bwt-hide-on-mobile:after {
+      content: ">";
+      font-weight: 600;
+      font-size: large;
+      margin-left: 10px;
+    }
+    a.bwt-event-search-link {
+      font-weight: 600;
+    }
+    section#events {
+      margin-top: 100px;
+    }
+    .bwt-store-events {
+      border: 0px solid #E1E0DF !important; 
+    }
+    .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
+      background: #F2F1EF !important;
+    }
+   .bwt-store-features-container .bwt-store-feature{
+      width: 50% !important;
+    }
+    .bwt-store-feature-cover {
+      background: rgba(0,0,0,0.3) !important;
+    }
+     .bwt-store-feature-title {
+         display:block;
+         text-transform:uppercase;
+         font-weight: 600;
+         font-size 24px !important;
+         letter-spacing: 2px !important;
+     }
+    .bwt-store-feature:hover .bwt-store-feature-title {
+      display: none !important;
+    }
+    .bwt-store-feature-description{
+       margin-top: 60px;
+    }
+    .bwt-store-event-body-wrapper {
+      display: table;
+       margin-left: 20px;
+    }
+    .bwt-store-event-title {
+      display: table-footer-group;
+      line-height: 45px;
+    }
+    .bwt-store-event-dates {
+      display: table-header-group;
+      color: #B99E82;
+    }
+    .bwt-store-show .bwt-store-event-link-container {
+     margin: 0 !important;
+     font-size: 16px !important;
+   }
+   .bwt-store-event-image-container {
+      margin-bottom: 30px;
+    }
+     a.ui-state-default.ui-state-active {
+        background: #F2F1EF !important;
+    }
+    .ui-datepicker .ui-datepicker-today .ui-state-default {
+      background-color: #F2F1EF !important;
+    }
+    .bwt-store-event-description {
+      margin: 0px !important;
+    }
+    .bwt-store-events {
+      max-width: 100% !important;
+    }
+    .bwt-back-to-search-text {
+      margin-top: 5px;
+   }
+   .bwt-back-to-store-prefix {
+      top: 40% !important;
+    }
+    .bwt-store-map-pin-holder{
+      margin-top: 30px;
+    }
+      .bwt-store-events {
+      display: flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      flex-direction: column;
+      flex-wrap: wrap;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-direction: column;
+      -ms-flex-wrap: wrap;
+    }
+   .bwt-store-events-list.slick-initialized.slick-slider {
+      order: 1;
+      width: 100% !important;
+    }
+   .bwt-store-event-image-wrapper {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .bwt-store-show .bwt-store-event-image-container {
+      width: 60% !important;
+      order: 1;
+    }
+    .bwt-store-event-body-wrapper {
+      order: 2;
+      margin-left: 413px;
+      margin-top: -381px;
+      margin-bottom:150px;
+      width: 35% !important;
+    }
+   .bwt-store-event-cal-wrapper.bwt-hide-on-mobile {
+      order: 2;
+      width: 100% !important;
+   }
+    div#bwt-store-event-calendar {
+      width: 100% !important;
+    }
+    table.ui-datepicker-calendar {
+      width: 70% !important;
+    }
+}
+
+
+/* responsive store page for laptop */
+@media only screen and (min-width: 1024px){
   .bwt-store-call-modal {
      width: 50% !important;
   }
-  .bwt-store-call-title{
-    font-size: 60px !important;
-    color: #231f20;
-    text-transform: capitalize !important;
-    font-weight: 600 !important;
-  }
+
+ .bwt-store-call-title{
+  font-size: 60px !important;
+  color: #231f20;
+  text-transform: capitalize !important;
+  font-weight: 600 !important;
+ }
+
    .bwt-store-call-input {
      background: #F2F1EF !important;
    }
@@ -1539,6 +2188,7 @@ td.bwt-store-hours-table-date-column:after {
      color: #8D8B8A !important;
      background: transparent !important;
    }
+
    .bwt-store-call-button:disabled{
     color: #fff !important;
     border-color: transparent !important;
@@ -1546,30 +2196,31 @@ td.bwt-store-hours-table-date-column:after {
     cursor: not-allowed !important;
     width: 50% !important;
     font-weight: 900;
-  }
+ }
   .bwt-store-hours-modal{
      width: 80% !important;
    }
-  .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
-    background-color: #F2F1EF !important;
-    font-size: 24px !important;
-    color: #B99E82 !important;
-    text-transform: uppercase;
-    font-weight: 900;
-    height: 85px;
-    width: 97.5% !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-banner-info-container {
-    background-color: #F2F1EF !important;
-    padding: 50px;
-    color: #231F20;
-  }
+
+   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
+       background-color: #F2F1EF !important;
+       font-size: 24px !important;
+       color: #B99E82 !important;
+       text-transform: uppercase;
+       font-weight: 900;
+       height: 85px;
+       width: 97.5% !important;
+   }
+   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container {
+      background-color: #F2F1EF !important;
+      padding: 50px;
+      color: #231F20;
+   }
 
    .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
-     width: 100% !important;
+      width: 100% !important;
    }
    .bwt-store-email-link, .bwt-store-social-link {
-     display: none !important;
+    display: none !important;
    }
    
    .bwt-store-link-icons {
@@ -1585,63 +2236,62 @@ td.bwt-store-hours-table-date-column:after {
    }
 
    .bw-display-layer .bwt-show-for-medium-up {
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
-    color: #231F20;
-    letter-spacing: 1.5px;
-    line-height: 36px;
+     display: block;
+     font-size: 16px;
+     font-weight: 600;
+     color: #231F20;
+     letter-spacing: 1.5px;
+     line-height: 36px;
   }
    
    .bw-display-layer .bwt-back-to-store-link {
-    background: rgba(0,0,0,0.40) !important;
-    font-size: 16px !important;
-    color: #fff !important;
-    padding: 20px;
-    width: 250px;
-    height: 55px;
-  }
-  .bwt-back-to-store-prefix:before {
-    margin-left: 20px;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{
-    font-weight: 900;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-special-hours-link{
-    color: #231F20 !important;
-  }
-  .bwt-store-main-description p{
-    width: 250px;
-    height:260px;
-  }
+      background: rgba(0,0,0,0.3) !important;
+      font-size: 16px !important;
+      color: #fff !important;
+      padding: 20px;
+      width: 250px;
+      height: 55px;
+   }
+   .bwt-back-to-store-prefix:before {
+      margin-left: 20px;
+   }
+
+   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{
+       font-weight: 900;
+    }
+    .bw-display-layer .bwt-store-show .bwt-store-special-hours-link{
+       color: #231F20 !important;
+    }
+    .bwt-store-main-description p{
+        width: 250px;
+        height:260px;
+   }
    
-  .bwt-store-service-image {
-    width: 165px !Important;
-    background: #F2F1EF;
-    border-radius: 100%;
-    margin-top: -82.5px;
-  }
-  .bwt-store-service-container {
+   .bwt-store-service-image {
+     width: 165px !Important;
+     background: #F2F1EF;
+     border-radius: 100%;
+     margin-top: -82.5px;
+     background-size: 82.5px !important;
+   }
+   .bwt-store-service-container {
     min-height: 450px !important;
     width: 330px;
-    margin-top: 82.5px;
+     margin-top: 82.5px;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+   }
    
-  .bwt-appointment-modal-button-wrapper {
-    left: 10%;
-  }
   .bwt-store-service-content {
-   text-align: center !important;
-   padding: 40px !important;
+     text-align: center !important;
+     padding: 20px !important;
   }
   .bwt-store-service-title {
     font-weight: 600;
     text-transform: uppercase;
   }
-  .bwt-store-service-description {
+  .bwt-store-show .bwt-store-service-description {
     font-size: 14px;
   }
   .ui-datepicker-title {
@@ -1653,13 +2303,12 @@ td.bwt-store-hours-table-date-column:after {
     text-transform: uppercase;
     font-size: 13px;
   }
-
-  thead {
-    border-bottom: 1px solid #BAA381;
-    border-top: 1px solid #BAA381;
+   thead {
+      border-bottom: 1px solid #BAA381;
+      border-top: 1px solid #BAA381;
   }
   .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 70px !important;
+      margin-right: 70px !important;
   }
 
   .bwt-event-search-container.bwt-hide-on-mobile:after {
@@ -1680,25 +2329,26 @@ td.bwt-store-hours-table-date-column:after {
   .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
     background: #F2F1EF !important;
   }
+
   .bwt-store-feature-cover {
     background: rgba(0,0,0,0.3) !important;
   }
-  .bwt-store-feature-title {
-   display:block;
-   text-transform:uppercase;
-   font-weight: 600;
-   font-size 24px !important;
-   letter-spacing: 2px !important;
-  }
+   .bwt-store-feature-title {
+       display:block;
+       text-transform:uppercase;
+       font-weight: 600;
+       font-size 24px !important;
+       letter-spacing: 2px !important;
+   }
   .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
   .bwt-store-feature-description{
-    margin-top: 60px;
+     margin-top: 60px;
   }
   .bwt-store-event-body-wrapper {
     display: table;
-    margin-left: 20px;
+     margin-left: 20px;
   }
   .bwt-store-event-title {
     display: table-footer-group;
@@ -1708,14 +2358,18 @@ td.bwt-store-hours-table-date-column:after {
     display: table-header-group;
     color: #B99E82;
   }
-  .bwt-store-event-link-container {
-    margin: 0 !important;
+  .bwt-store-show .bwt-store-event-link-container {
+   margin: 0 !important;
+ }
+  .bwt-store-show .bwt-appointment-modal-button-wrapper{
+    font-size: 16px !important;
   }
-  .bwt-store-event-image-container {
+
+ .bwt-store-event-image-container {
     margin-bottom: 30px;
   }
-  a.ui-state-default.ui-state-active {
-    background: #F2F1EF !important;
+   a.ui-state-default.ui-state-active {
+      background: #F2F1EF !important;
   }
   .ui-datepicker .ui-datepicker-today .ui-state-default {
     background-color: #F2F1EF !important;

@@ -1023,6 +1023,10 @@ input, textarea {
   height: 50px;
 }
 
+.bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
+  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Drop%20Pin.png");
+}
+
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
   margin: auto;
   margin-top: -10px !important;
@@ -1037,6 +1041,16 @@ input, textarea {
   max-width: 1440px !important;
 }
 
+.bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .upcoming-event-container {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.bw-display-layer-container .bwt-index .bwt-scroll-assist {
+  display: none !important;
+}
+
 .bw-display-layer-container .bwt-index-header-container {
   margin-top: 0 !important;
   background-repeat: no-repeat;
@@ -1048,6 +1062,12 @@ input, textarea {
 
 .bw-display-layer .bwt-store-actions a.bwt-explore-store {
   width: 100%;
+}
+
+.bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container,
+.bw-display-layer .bwt-search-results-container .bwt-search-results .bwt-store-list li .store-info {
+  width: 100%;
+  max-width: 100%;
 }
 
 .bw-display-layer .bwt-index-search-form-container .bwt-index-search-form-submit {
@@ -1070,18 +1090,19 @@ input, textarea {
   font-size: 2em;
   color: white;
   margin-bottom: 25px;
-}
-
-.bw-display-layer .promo-message .international {
-  font-size: 1em;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 0.08em;
-  font-family: "Gotham Light", Arial, sans-serif;
+  font-weight: 500;
 }
 
 .bw-display-layer .bwt-index-header-container .promo-message .international {
   display: block;
+  font-size: 1em;
+  color: white;
+  letter-spacing: 0.08em;
+  font-family: "Gotham Light", Arial, sans-serif;
+}
+
+.bw-display-layer .bwt-store-contact-info .bwt-store-email-link {
+  color: #B9A283;
 }
 
 .bw-display-layer .bwt-index-header-container .promo-message,
@@ -1111,9 +1132,9 @@ input, textarea {
 
 .bw-display-layer .bwt-expand-button-collapsed-icon,
 .bw-display-layer .bwt-expand-button-expanded-icon {
-  right: -30px;
+  right: -40px;
   position: absolute;
-  top: -6px;
+  top: -4px;
 }
 
 .bw-display-layer .bwt-index-search-filters .bwt-index-search-results-map-button {
@@ -1121,6 +1142,12 @@ input, textarea {
   font-size: 18px;
   color: #231F20;
   letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-index .bwt-store-main-wrapper .bwt-store-main .bwt-store-map-pin {
+  top: 40%;
+  left: 48%;
+  margin-left: 0;
 }
 
 .bw-display-layer .bwt-index {
@@ -1140,27 +1167,29 @@ input, textarea {
   max-width: 800px;
   min-height: 400px;
   margin-bottom: 20px;
+  position: relative;
+}
+
+.bw-display-layer .bwt-index .bwt-upcoming-event {
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-search-results ul.bwt-store-list li .store-info {
   margin: 0 0;
 }
 
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child > .store-info {
+.bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child {
   margin-top: 0;
-}
-
-.bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
-  position: relative;
-  margin-top: 60px;
-}
-
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:hover,
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:active,
-.bw-display-layer .bwt-search-results ul.bwt-store-list li:focus {
   border: 1px solid #E1E0DF;
   box-shadow: 1px 1px 4px 0 #E1E0DF;
   border-radius: 3px;
+}
+
+.bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
+  position: absolute;
+  left: 64%;
+  bottom: 26px;
 }
 
 .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
@@ -1172,7 +1201,6 @@ input, textarea {
 .bw-display-layer .leaflet-popup-content-wrapper {
   border: 1px solid #E1E0DF;
   box-shadow: 1px 1px 4px 0 #E1E0DF;
-  border-radius: 3px 3px 3px 0 0 0 3px;
 }
 
 .bw-display-layer .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
@@ -1189,8 +1217,8 @@ input, textarea {
   color: #231F20;
   letter-spacing: 0;
   line-height: 38px;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .bw-display-layer .bwt-store-location-details-wrapper .bwt-store-address-line {
@@ -1201,10 +1229,15 @@ input, textarea {
   line-height: 26px;
 }
 
-.bw-display-layer .bwt-store-phone-number-link-text,
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text {
+  left: 30px !important;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-phone-number-link-text,
+.bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-email-link .bwt-store-email-link-text a {
-  font-family: "Gotham-Medium", Arial, sans-serif;
-  font-size: 16px;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 15px;
   color: #231F20;
   letter-spacing: 0.5px;
   line-height: 26px;
@@ -1234,7 +1267,7 @@ input, textarea {
 }
 
 .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container {
-  display: none;
+  min-width: 420px !important;
 }
 
 .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container {
@@ -1253,6 +1286,10 @@ input, textarea {
   color: #BAA381;
 }
 
+.bw-display-layer .bwt-index .bwt-store-map-pin .bwt-store-map-pin-holder {
+  margin-top: 0 !important;
+}
+
 .bw-display-layer .bwt-search-results .bwt-pagination-container .bwt-pagination {
   font-size: 0;
   color: transparent;
@@ -1266,6 +1303,10 @@ input, textarea {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
   }
 
+  .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
+    padding-bottom: 0 !important;
+  }
+
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container,
@@ -1273,6 +1314,58 @@ input, textarea {
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-main-wrapper {
     min-height: 280px !important;
     min-width: 280px !important;
+  }
+
+  .bw-display-layer .leaflet-popup-close-button + .leaflet-popup-content-wrapper .leaflet-popup-content {
+    padding: 10px;
+  }
+
+  .bw-display-layer .bwt-map-popup .bwt-map-popup-container {
+    max-width: 180px !important;
+    margin: 0 auto;
+  }
+
+  .bw-display-layer .leaflet-popup-content .bwt-store-location-details-wrapper .bwt-store-location-details .store-detail-name {
+    margin: 0 5px;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 0;
+  }
+
+  .bw-display-layer .leaflet-popup-close-button {
+    right: 0 !important;
+    top: 0 !important;
+  }
+
+  .bw-display-layer .leaflet-popup-content a.bwt-explore-store {
+    margin: 0 !important;
+  }
+
+  .bw-display-layer .leaflet-popup-content a.bwt-explore-store {
+    padding: 5px !important;
+  }
+
+  .bw-display-layer .leaflet-popup-content .bwt-store-location-details-wrapper .bwt-store-address-line,
+  .bw-display-layer .leaflet-popup-content .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
+  .bw-display-layer .leaflet-popup-content .bwt-store-email-link .bwt-store-email-link-text a,
+  .bw-display-layer .leaflet-popup-content a.bwt-explore-store {
+    font-size: 12px !important;
+    line-height: 15px;
+  }
+
+  .bw-display-layer .leaflet-popup-content .bwt-store-location-details-wrapper .bwt-store-address-line {
+    margin-top: 10px;
+  }
+
+  .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container {
+    min-width: 280px !important;
+    width: 280px !important;
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
+    position: relative;
+    left: 0;
+    bottom: 0;
   }
 
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
@@ -1286,6 +1379,10 @@ input, textarea {
     width: 100%;
     float: none;
     display: block;
+  }
+
+  .bw-display-layer .bwt-store-state-normal {
+    margin-bottom: 20px;
   }
 
   .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
@@ -1310,7 +1407,8 @@ input, textarea {
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
     max-width: 500px;
     min-width: 280px !important;
-    height: 100% !important;
+    max-height: 280px;
+    overflow: scroll;
   }
 
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap:before {
@@ -1321,6 +1419,7 @@ input, textarea {
 
   .bw-display-layer .bwt-index-search-filters .map-toggle {
     width: 300px;
+    margin-bottom: 0 !important;
   }
 
   .bw-display-layer .bwt-index-search-filters .bwt-bigmap-container {
@@ -1332,12 +1431,13 @@ input, textarea {
   }
 
   .bw-display-layer .bwt-expand-button-collapsed-icon, .bwt-expand-button-expanded-icon {
-    right: 50px !important;
+    right: 65px !important;
   }
 
   .bw-display-layer .bwt-hide-map-button,
   .bw-display-layer .bwt-index-search-results-notice-map-action {
     text-align: center !important;
+    left: -15px;
   }
 
   .bw-display-layer .book-appointment-button.search-appointment-modal {
@@ -1348,6 +1448,10 @@ input, textarea {
 @media only screen and (max-width: 360px) {
   .bw-display-layer .bwt-search-results ul.bwt-store-list li {
     padding: 10px !important;
+  }
+
+  .bw-display-layer .bwt-index-search-filters .map-toggle {
+    margin-bottom: 10px !important;
   }
 
   .bw-display-layer .bwt-search-results ul.bwt-store-list {
@@ -1363,6 +1467,11 @@ input, textarea {
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .store-info {
     width: 100%;
   }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
+    max-width: 750px;
+  }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 799px) {
@@ -1372,19 +1481,47 @@ input, textarea {
     min-width: 300px !important;
   }
 
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child {
+    min-height: 370px;
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child .bwt-store-actions {
+    bottom: 30px;
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
+    left: 55%;
+    bottom: 62px;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-address-line {
+    line-height: 20px;
+  }
+
+  .bw-display-layer .bwt-index .bwt-store-contact-info .bwt-store-phone-number,
+  .bw-display-layer .bwt-index .bwt-store-contact-info .bwt-store-email-link {
+    line-height: 16px !important;
+  }
+
+  .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container {
+    min-width: 300px !important;
+  }
+
   .bw-display-layer .bwt-store-state-normal {
     width: 55%;
   }
 
-  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
-  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-contact-info,
-  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-actions {
-    width: 45%;
+  .bw-display-layer .bwt-store-location-details-wrapper .bwt-store-location-details .store-detail-name {
+    margin-bottom: 15px;
   }
 
-  .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
-    margin-top: 10px;
-    float: right;
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-actions {
+    width: 40%;
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-contact-info {
+    width: 45%;
   }
 
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container {
@@ -1409,6 +1546,12 @@ input, textarea {
 
   .bw-display-layer .bwt-index-search-form-container {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list .bwt-store-actions {
+    width: 32% !important;
   }
 }
 
@@ -2219,10 +2362,10 @@ td.bwt-store-hours-table-date-column:after {
    .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
       width: 100% !important;
    }
-   .bwt-store-email-link, .bwt-store-social-link {
-    display: none !important;
+   .bw-display-layer .bwt-store-show .bwt-store-email-link, .bw-display-layer .bwt-store-show .bwt-store-social-link {
+     display: none !important;
    }
-   
+
    .bwt-store-link-icons {
       margin-top: 10px;
     }
@@ -2274,7 +2417,36 @@ td.bwt-store-hours-table-date-column:after {
      margin-top: -82.5px;
      background-size: 82.5px !important;
    }
-   .bwt-store-service-container {
+
+   .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
+    background: rgba(0,0,0,0.40) !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    padding: 20px;
+    width: 250px;
+    height: 55px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
+    margin-left: 20px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column{
+    font-weight: 900;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-special-hours-link{
+    color: #231F20 !important;
+  }
+  .bwt-store-main-description p{
+    width: 250px;
+    height:260px;
+  }
+
+  .bwt-store-service-image {
+    width: 165px !Important;
+    background: #F2F1EF;
+    border-radius: 100%;
+    margin-top: -82.5px;
+  }
+  .bwt-store-service-container {
     min-height: 450px !important;
     width: 330px;
      margin-top: 82.5px;
@@ -2324,7 +2496,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 100px;
   }
   .bwt-store-events {
-    border: 0px solid #E1E0DF !important; 
+    border: 0px solid #E1E0DF !important;
   }
   .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next{
     background: #F2F1EF !important;
@@ -2333,13 +2505,14 @@ td.bwt-store-hours-table-date-column:after {
   .bwt-store-feature-cover {
     background: rgba(0,0,0,0.3) !important;
   }
-   .bwt-store-feature-title {
-       display:block;
-       text-transform:uppercase;
-       font-weight: 600;
-       font-size 24px !important;
-       letter-spacing: 2px !important;
-   }
+
+  .bwt-store-feature-title {
+   display:block;
+   text-transform:uppercase;
+   font-weight: 600;
+   font-size: 24px !important;
+   letter-spacing: 2px !important;
+  }
   .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
@@ -2386,29 +2559,479 @@ td.bwt-store-hours-table-date-column:after {
  .bwt-back-to-store-prefix {
     top: 40% !important;
   }
-  .bwt-store-map-pin-holder{
+  .bwt-store-show .bwt-store-map-pin-holder{
    margin-top: 30px;
   }
 }
 
 
-/* Event Show Page Styling */
+/* Event Show/Index Page Styling */
 
-.bw-display-layer .bwt-event-show .bwt-back-to-store-link {
+.bw-display-layer .bwt-event-show .bwt-back-to-store-link,
+.bw-display-layer .bwt-event-index .bwt-back-to-store-link {
   color: #231F20;
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
   font-size: 18px;
-  color: #231F20;
   letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-social-email.bwt-social-icon:before {
+  content: "\f0e0" !important;
 }
 
 .bw-display-layer .bwt-event-show,
 .bw-display-layer .bwt-events-other-events {
   max-width: 1200px;
-  margin: 120px auto 50px !important;
+  margin: 50px auto;
 }
 
-/* Event Index Page Styling */
+.bw-display-layer .bwt-event-show {
+  margin: 100px auto 50px !important;
+}
+
+.bwt-event-header .bwt-event-details-title,
+.bwt-nearby-event-info .bwt-nearby-event-title {
+  margin-bottom: 0;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-contact-info .bwt-store-email-link {
+  display: block;
+}
+
+.bw-display-layer .bwt-events-main .bwt-event-image-container .bwt-events-image,
+.bw-display-layer .bwt-event-results .bwt-event-image-container .bwt-events-image,
+.bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-image {
+  max-width: 750px !important;
+}
+
+.bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
+.bwt-event-results .bwt-event-container .bwt-event-datetime,
+.bw-display-layer h4.bwt-nearby-event-date {
+  position: absolute;
+  top: -40px;
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 16px;
+  color: #B99E82;
+  letter-spacing: 1px;
+}
+
+.bw-display-layer .bwt-event-details .bwt-event-store-location .store-info {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.bwt-events-main .bwt-event-details .bwt-store-contact-info {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  -ms-flex-order: 3;
+  -webkit-order: 3;
+  order: 3;
+}
+
+.bwt-events-main .bwt-event-details .bwt-store-actions {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+
+.bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions {
+  display: block !important;
+  border: none;
+  text-decoration: underline;
+  color: #B9A283;
+  line-height: 26px;
+  text-transform: none;
+  padding: 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.bwt-event-details-container .bwt-event-details-date-time .bwt-event-details-dates,
+.bwt-event-container .bwt-event-info .bwt-event-datetime .bwt-event-details-dates,
+.bwt-event-details-container .bwt-event-details-date-time .bwt-event-details-times {
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 16px;
+  color: #B99E82;
+  letter-spacing: 1px;
+  display: inline;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results-container .bwt-event-container .bwt-event-info-container {
+  padding-left: 0;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
+  top: -80px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+  margin-top: 70px;
+}
+
+.bw-display-layer .bwt-event-header .bwt-event-details-title,
+.bw-display-layer .bwt-nearby-event-info-body .bwt-nearby-event-title,
+.bwt-event-results .bwt-event-container .bwt-event-details-title,
+.bw-display-layer .bwt-events-more-events .bwt-store-features-title h2 {
+  margin-bottom: 0;
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 24px;
+  color: #231F20;
+  letter-spacing: 0;
+}
+
+.bw-display-layer .bwt-events-more-events .bwt-store-features-title h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-event-search-link-container .bwt-event-search-link {
+  background: #F2F1EF;
+  border: 2px solid #E1E0DF;
+  border-radius: 3px;
+  font-family: "Ultramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #231F20;
+  letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-events-more-events .slick-dots li.slick-active button:before {
+  background-color: #BAA381;
+  color: #BAA381;
+}
+
+.bw-display-layer .bwt-events-more-events .slick-dots li button:before {
+  color: #BAA381;
+}
+
+#bwt-rsvp-button .bwt-event-details-signup-button-copy,
+.bw-display-layer .bwt-events-other-events .bwt-nearby-event-info .bwt-nearby-event-link-container a,
+.bw-display-layer .bwt-event-info .bwt-store-event-link-container .bwt-store-event-link {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+  height: 100%;
+}
+
+.bw-display-layer .bwt-event-info .bwt-store-event-link-container {
+  position: absolute;
+  left: 0;
+  bottom: 55px;
+  width: 100%;
+}
+
+.bwt-event-details-signup #bwt-rsvp-button {
+  margin-bottom: 15px;
+}
+
+.bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper .bwt-store-location-details h2.store-detail-name,
+.bwt-events-main .bwt-event-details .bwt-get-directions {
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+.bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-address,
+.bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-contact-info {
+  margin-bottom: 0;
+}
+
+.bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-description,
+.bwt-event-results .bwt-event-container .bwt-event-description,
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
+  font-family: "Gotham-Light", Arial, sans-serif;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  overflow: scroll;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons .bwt-social-icon,
+.bwt-event-results .bwt-event-bottom-content .bwt-share-buttons .bwt-social-icon {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description,
+.bwt-event-results .bwt-event-container .bwt-event-description {
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-local-nav .bwt-local-link a,
+.bw-display-layer .bwt-event-index .bwt-local-nav .bwt-local-link {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 16px;
+  color: #B99E82;
+  letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-local-nav .active.bwt-local-link a {
+  color: #231F20;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a,
+.bwt-event-results-container .bwt-store-event-link-container a {
+  width: 80% !important;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container,
+.bw-display-layer .bwt-nearby-event-info-body,
+.bwt-event-results .bwt-event-container .bwt-event-info {
+  position: relative;
+  margin-top: 50px;
+}
+
+.bw-display-layer .bwt-event-show a.bwt-store-main-index-link .bwt-back-to-store-link {
+  top: -80px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index {
+  margin-top: 90px !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-image-container,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-hide-on-mobile,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only,
+  .bw-display-layer .bwt-events-other-events .bwt-events-more-events .bwt-nearby-event-image-container,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
+  .bw-display-layer .bwt-events-other-events .bwt-events-more-events .bwt-nearby-event-info {
+    width: 100%;
+    float: none;
+    display: block;
+    max-width: 680px;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-hide-on-mobile,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    padding-right: 0;
+    margin: 0 auto;
+    width: 90% !important;
+    max-width: 620px;
+  }
+
+  .bw-display-layer .bwt-events-main .bwt-events-image:before,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before {
+    padding-top: 60% !important;
+  }
+
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-info {
+    padding-right: 0;
+    text-align: center;
+    width: 90%;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+
+  .bw-display-layer .bwt-nearby-event-info h4.bwt-nearby-event-date {
+    width: 100%;
+    display: block;
+  }
+
+  .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-info-body {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions {
+    float: left;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 0;
+    padding-right: 20px;
+  }
+
+  .bwt-event-results .bwt-event-container .bwt-event-details-title {
+    line-height: 50px;
+  }
+
+  .bw-display-layer .bwt-event-results .bwt-event-container .bwt-event-top-content {
+    margin-bottom: 0;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions {
+    clear: left;
+  }
+
+  .bw-display-layer .bwt-events-main .bwt-event-details .bwt-event-store-location,
+  .bwt-event-show .bwt-event-details .bwt-event-social-container {
+    width: 50%;
+    display: inline-block;
+    padding-left: 40px;
+  }
+
+  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
+    top: -50px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .bw-display-layer .bwt-event-index .bwt-local-nav {
+    position: absolute;
+    right: 0;
+    top: -80px;
+  }
+
+  .bw-display-layer .bwt-event-container .bwt-event-info .bwt-share-buttons {
+    position: absolute;
+    bottom: 110px;
+    margin-top: 0 !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    padding-top: 30px;
+    border-top: 1px solid #E1E0DF;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 800px) {
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
+    width: 55%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 40%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    max-width: 95% !important;
+  }
+
+  .bwt-event-results .bwt-event-container .bwt-event-description {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .bw-display-layer .bwt-events-main .bwt-events-image:before,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before {
+    padding-top: 90% !important;
+  }
+
+  .bw-display-layer .bwt-events-other-events .bwt-events-more-events .bwt-nearby-event-image-container {
+    padding: 3px !important;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
+    padding-top: 63% !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
+  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
+    padding-top: 60% !important;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main,
+  .bw-display-layer .bwt-events-other-events {
+    padding: 0 0 !important;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+    margin-top: 70px !important;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
+    top: -55px !important;
+  }
+
+  .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper,
+  .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-contact-info,
+  .bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 100% !important;
+    padding: 0 0;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-title,
+  .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-title {
+    margin-bottom: 0 !important;
+    line-height: 50px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-results-container .bwt-event-container .bwt-event-info-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .bwt-events-main .bwt-event-details .bwt-store-actions {
+    margin-bottom: 20px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description,
+  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
+    margin-top: 0 !important;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-store-event-link-container .bwt-store-event-link {
+    margin-top: 25px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    border-top: 0;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
+    margin-bottom:  10px;
+  }
+}
 
 
 /* Appointment Modal Styling */

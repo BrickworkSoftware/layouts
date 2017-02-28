@@ -1904,6 +1904,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
+    border-radius: 3px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
     border: 0px solid #E1E0DF !important;
@@ -2084,6 +2085,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
+    border-radius: 3px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-email-link,
   .bwt-store-social-link {
@@ -2102,6 +2104,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     margin: 0 !important;
+    border-radius: 3px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-show-for-medium-up {
     display: block;
@@ -2177,7 +2180,9 @@ td.bwt-store-hours-table-date-column:after {
     border-top: 1px solid #BAA381;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 70px !important;
+    position: absolute;
+    margin-top: 920px !important;
+    left: 330px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile:after {
     content: ">";
@@ -2189,6 +2194,9 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
   }
   .bw-display-layer .bwt-store-show section#events {
+    margin-top: 100px;
+  }
+  .bw-display-layer .bwt-store-show section#features {
     margin-top: 100px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
@@ -2244,9 +2252,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-events {
     max-width: 100% !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-back-to-search-text {
-    margin-top: 5px;
-  }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix {
     top: 40% !important;
   }
@@ -2293,7 +2298,6 @@ td.bwt-store-hours-table-date-column:after {
     order: 2;
     margin-left: 413px;
     margin-top: -403px;
-    margin-bottom: 40px;
     width: 35% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-cal-wrapper.bwt-hide-on-mobile {
@@ -2317,6 +2321,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     margin: 0 !important;
+    border-radius: 3px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-call-title {
     font-size: 60px !important;
@@ -2359,6 +2364,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
+    border-radius: 3px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-email-link,
   .bw-display-layer .bwt-store-show .bwt-store-social-link {
@@ -2505,6 +2511,14 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
     margin-top: 60px;
   }
+
+  .bw-display-layer .bwt-store-show .ui-datepicker th {
+    border: 0px solid #E1E0DF !important;
+    color: #BAA381;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+
   .bw-display-layer .bwt-store-show .bwt-store-event-body-wrapper {
     display: table;
     margin-left: 20px;
@@ -2523,6 +2537,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
+    left: 35px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-image-container {
     margin-bottom: 30px;
@@ -2538,9 +2553,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     max-width: 100% !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-back-to-search-text {
-    margin-top: 5px;
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix {
     top: 40% !important;

@@ -1010,7 +1010,7 @@ input, textarea {
 .bw-display-layer-container .bwt-index .bwt-index-header-container a.brickwork-button,
 .bw-display-layer-container .bwt-index .bwt-index-header-container a.brickwork-button:hover,
 .bw-display-layer .bwt-index a.bwt-explore-store,
-.bw-display-layer .bwt-event-info .bwt-store-event-link-container .bwt-store-event-link,
+.bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-results-container .bwt-store-event-link-container .bwt-store-event-link,
 .bw-display-layer .bwt-index a.bwt-explore-store:hover {
   font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
   font-size: 18px !important;
@@ -1388,7 +1388,7 @@ input, textarea {
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header-container {
     height: 260px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
   }
   .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
     padding-bottom: 0 !important;
@@ -1522,7 +1522,7 @@ input, textarea {
 
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .bw-display-layer .bwt-index-header-container {
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
   }
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .store-info {
     width: 100%;
@@ -2687,7 +2687,8 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 2px;
 }
 
-.bw-display-layer .bwt-event-index .bwt-social-email.bwt-social-icon:before {
+.bw-display-layer .bwt-event-index .bwt-social-email.bwt-social-icon:before,
+.bw-display-layer .bwt-event-show .bwt-social-email.bwt-social-icon:before {
   content: "\f0e0" !important;
 }
 
@@ -2706,7 +2707,8 @@ td.bwt-store-hours-table-date-column:after {
   margin-bottom: 0;
 }
 
-.bw-display-layer .bwt-event-index .bwt-share-button {
+.bw-display-layer .bwt-event-index .bwt-share-buttons .bwt-share-button,
+.bw-display-layer .bwt-event-show .bwt-share-buttons .bwt-share-button {
   margin-right: 20px;
 }
 
@@ -2760,7 +2762,7 @@ td.bwt-store-hours-table-date-column:after {
   width: 268px;
 }
 
-.bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions {
+.bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions {
   display: block !important;
   border: none;
   text-decoration: underline;
@@ -2770,6 +2772,7 @@ td.bwt-store-hours-table-date-column:after {
   padding: 0;
   text-align: left;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 .bwt-event-details-container .bwt-event-details-date-time .bwt-event-details-dates,
@@ -2877,6 +2880,8 @@ td.bwt-store-hours-table-date-column:after {
 
 .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-description,
 .bwt-event-results .bwt-event-container .bwt-event-description,
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-legal,
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-actions .bwt-events-promo
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details .bwt-event-details-description {
   font-family: "Gotham-Light", Arial, sans-serif;
   letter-spacing: 0.5px;
@@ -3079,6 +3084,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
   .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
     width: 100%;
+  }
+  .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions {
+    text-align: center;
   }
   .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
     padding-top: 60% !important;

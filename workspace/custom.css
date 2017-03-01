@@ -2866,6 +2866,10 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 2px;
 }
 
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-title {
+  line-height: 36px;
+}
+
 .bw-display-layer .bwt-event-index .bwt-local-nav .active.bwt-local-link a {
   color: #231F20;
 }
@@ -3035,10 +3039,6 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 @media screen and (max-width: 640px) {
-  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
-  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
-    width: 100%;
-  }
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-actions .bwt-get-directions {
     text-align: center;
   }
@@ -3052,10 +3052,18 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-info {
     margin-top: 82px !important;
   }
-  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime {
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container {
+    margin-top: 70px !important;
+  }
+  .bw-display-layer .bwt-event-index .bwt-event-results .bwt-event-container .bwt-event-datetime,
+  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
     top: -82px !important;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
+    top: -85px;
   }
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper,
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-contact-info,
@@ -3067,10 +3075,9 @@ td.bwt-store-hours-table-date-column:after {
     max-width: 100% !important;
     padding: 0 0;
   }
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-title,
-  .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-title {
-    margin-bottom: 0 !important;
-    line-height: 50px;
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-image-container,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
+    margin-bottom: 0;
   }
   .bw-display-layer .bwt-event-index .bwt-event-results-container .bwt-event-container .bwt-event-info-container {
     width: 90%;
@@ -3087,9 +3094,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer-container .bw-display-layer .bwt-event-index {
     border-top: 0;
-  }
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-mobile-only {
-    margin-bottom: 10px;
   }
   .bw-display-layer .bwt-event-index .bwt-event-bottom-content .bwt-share-buttons {
     margin: 20px auto 0;

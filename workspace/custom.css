@@ -2372,7 +2372,8 @@ td.bwt-store-hours-table-date-column:after {
     top: 40% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-map-pin-holder {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     display: flex;

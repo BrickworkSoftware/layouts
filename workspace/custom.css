@@ -1247,6 +1247,10 @@ input, textarea {
   letter-spacing: 2px;
 }
 
+.bw-display-layer .bwt-index .bwt-index-search-filters .bwt-index-search-results {
+  margin-top: 20px;
+}
+
 .bw-display-layer .bwt-index .bwt-store-main-wrapper .bwt-store-main .bwt-store-map-pin {
   top: 40%;
   left: 48%;
@@ -1562,7 +1566,7 @@ input, textarea {
     max-width: 750px;
   }
   .bw-display-layer .bwt-index .bwt-index-search-filters .map-toggle {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 }
 

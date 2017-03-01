@@ -1313,7 +1313,7 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-pin-holder, .bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-pin-holder,
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder, .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin, .bwt-events-map-pin {
-  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/images/location.svg) no-repeat !important;
+  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/the_bay/location.svg) no-repeat !important;
   background-position: center center;
     background-size: contain;
     width: 30px;

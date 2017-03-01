@@ -1953,6 +1953,10 @@ td.bwt-store-hours-table-date-column:after {
     background: #FFFFFF !important;
     font-weight: 600 !important;
   }
+  button.slick-prev, button.slick-next::before {
+    display: none !important;
+  }
+
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     font-size: 18px !important;
@@ -2060,8 +2064,14 @@ td.bwt-store-hours-table-date-column:after {
     display: block !important;
     text-align: left;
     order: 4;
-    padding-left: 25px;
+    padding-left: 0px;
     padding-right: 15px;
+  }
+  #subscription-container {
+    display: none;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-header-title{
+    margin-top: 10px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-body {
     display: -webkit-box;
@@ -2119,7 +2129,10 @@ td.bwt-store-hours-table-date-column:after {
     padding-left: 55px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-hours {
-    margin-top: 15px;
+    margin-top: 40px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-section {
+    margin-top: 85px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary-description {
     width: 50% !important;
@@ -2163,6 +2176,7 @@ td.bwt-store-hours-table-date-column:after {
     width: 40% !important;
     float: right;
     margin-right: -66px;
+    border: 0px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
     background-color: #F2F1EF !important;
@@ -2263,7 +2277,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
     font-size: 14px !important;
-    margin-top: -10px !important;
+    margin-top: 20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours {
     display: none !important;
@@ -2559,7 +2573,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;
-    padding: 20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-title {
     font-weight: 600;
@@ -2673,7 +2686,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-map-pin-holder {
     margin-top: 50px;
   }
-  #subscription-container {
+  .bw-display-layer .bwt-store-show #subscription-container {
     display: none;
   }
 }

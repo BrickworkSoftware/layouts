@@ -2252,12 +2252,13 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     font-size: 24px !important;
     letter-spacing: 2px !important;
+    margin-top:20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-title {
     display: table-footer-group;

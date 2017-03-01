@@ -2794,6 +2794,11 @@ td.bwt-store-hours-table-date-column:after {
 .bw-display-layer .bwt-event-results .bwt-event-image-container .bwt-events-image,
 .bw-display-layer .bwt-events-other-events .bwt-nearby-events-container .bwt-nearby-event-image {
   max-width: 750px !important;
+  margin-bottom: 0;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-nearby-events-container {
+  margin-bottom: 80px;
 }
 
 .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
@@ -2889,6 +2894,10 @@ td.bwt-store-hours-table-date-column:after {
 .bw-display-layer .bwt-events-more-events .bwt-store-features-title h2 {
   font-size: 36px;
   margin-bottom: 30px;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-event-search-link-container {
+  margin-top: 40px;
 }
 
 .bw-display-layer .bwt-events-other-events .bwt-event-search-link-container .bwt-event-search-link {
@@ -2989,6 +2998,10 @@ td.bwt-store-hours-table-date-column:after {
   font-size: 16px;
   color: #B99E82;
   letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-events-more-events .bwt-nearby-events-container .slick-dots {
+  bottom: -58px;
 }
 
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-title {

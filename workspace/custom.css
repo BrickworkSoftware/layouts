@@ -1965,6 +1965,9 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 1.5px;
     line-height: 16px;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length {
+    display: none !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3 {
     font-family: "Gotham-Bold", Arial, sans-serif !important;
   }
@@ -2243,7 +2246,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 30px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length {
-    display: inherit !important;
+    display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;

@@ -1543,6 +1543,9 @@ input, textarea {
 .bw-display-layer .bwt-store-show .bwt-store-header-details {
   display: none;
 }
+.bw-display-layer .bwt-store-show .bwt-scroll-assist{
+  display:  none !important;
+}
 
 .bw-display-layer .bwt-store-show .bwt-modal-store-hours-title {
   color: #B99E82;
@@ -2013,6 +2016,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info {
     position: relative;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-services-list{
+    display: none;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-map {
     width: 50% !important;
     padding-left: 55px !important;
@@ -2068,6 +2074,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
+    width: 40% !important;
+    float: right;
+    margin-right: -66px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
     background-color: #F2F1EF !important;
@@ -2135,18 +2144,22 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px;
     height: 260px;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-service{
+    width:100% !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-service-image {
-    width: 165px !Important;
+    width: 22.7% !important;
     border-radius: 100%;
-    margin-top: -82.5px;
+    margin-top: 82.5px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 79px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
-    min-height: 450px !important;
-    width: 330px;
-    margin-top: 82.5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    min-height: 360px !important;
+    min-width: 730px;
+    display: inline-block;
+    margin-top: 30px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length {
     display: inherit !important;
@@ -2154,6 +2167,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;
     padding: 20px !important;
+    width: 50%;
+    float: right;
+    margin-top: 68px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-title {
     font-weight: 600;
@@ -2318,6 +2334,9 @@ td.bwt-store-hours-table-date-column:after {
 @media only screen and (min-width: 1024px) {
   .bw-display-layer .bwt-store-show .bwt-store-call-modal {
     width: 50% !important;
+  }
+  .bwt-store-service-list-for-disabled-slide.bwt-show-for-medium-up {
+    display: none !important;
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     margin: 0 !important;

@@ -1107,7 +1107,7 @@ input, textarea {
 }
 
 .bw-display-layer .bwt-index .bwt-index-header {
-  padding-top: 7%;
+  padding-top: 5%;
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -1273,7 +1273,6 @@ input, textarea {
   box-shadow: 1px 1px 4px 0 #E1E0DF;
   border-radius: 3px;
   max-width: 740px;
-  height: 420px;
   box-sizing: content-box;
 }
 

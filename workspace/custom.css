@@ -1007,8 +1007,8 @@ input, textarea {
 
 /* Black Button Styling */
 
-.bw-display-layer-container .book-appointment-button.search-appointment-modal,
-.bw-display-layer-container .book-appointment-button.search-appointment-modal:hover,
+.bw-display-layer-container .bwt-index-header-container a.brickwork-button,
+.bw-display-layer-container .bwt-index-header-container a.brickwork-button:hover,
 .bw-display-layer a.bwt-explore-store,
 .bw-display-layer a.bwt-explore-store:hover {
   font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
@@ -1082,7 +1082,14 @@ input, textarea {
   max-width: 100%;
 }
 
-.bw-display-layer .bwt-index-search-form-container .bwt-index-search-form-submit {
+.bw-display-layer .bwt-index .bwt-index-header-container .international,
+.bw-display-layer .bwt-index .bwt-index-search-form-container {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.bw-display-layer .bwt-index .bwt-index-search-form-container .bwt-index-search-form-submit {
   font-size: 21px;
   right: 0px;
   padding: 10px 16px;
@@ -1090,38 +1097,87 @@ input, textarea {
   border: 1px solid #E1E0DF;
 }
 
-.bw-display-layer .book-appointment-button.search-appointment-modal {
-  margin-top: 35px;
-}
-
-.bw-display-layer .bwt-index-header {
+.bw-display-layer .bwt-index .bwt-index-header {
   padding-top: 7%;
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
 }
 
 .bw-display-layer .bwt-index-header-container .bwt-index-main-title {
-  font-size: 2em;
+  font-size: 18px;
   color: white;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
   font-weight: 500;
+  width: 100%;
+
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
 }
 
-.bw-display-layer .bwt-index-header-container .promo-message .international {
+.bw-display-layer .bwt-index-header-container .international {
   display: block;
-  font-size: 1em;
+  font-size: 16px;
   color: white;
+  max-width: 400px;
   letter-spacing: 0.08em;
   font-family: "Gotham Light", Arial, sans-serif;
   text-align: justify;
+  line-height: 32px;
+  margin-bottom: 20px;
+
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+}
+
+.bw-display-layer .book-appointment-button.search-appointment-modal {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -ms-flex-order: 4;
+  -webkit-order: 4;
+  order: 4;
+  width: 100%;
+  display: block;
+}
+
+.bw-display-layer .bwt-index-header-container a.brickwork-button {
+  padding: 20px 30px;
+  margin: 0 auto;
+}
+
+.bw-display-layer .bwt-index-search-form-container {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  -ms-flex-order: 3;
+  -webkit-order: 3;
+  order: 3;
+}
+
+.bw-display-layer .bwt-index-search-form {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.bw-display-layer .bwt-index-search-form-container .bwt-index-search-form-wrap {
+  width: 100%;
 }
 
 .bw-display-layer .bwt-store-contact-info .bwt-store-email-link {
   color: #B9A283;
-}
-
-.bw-display-layer .bwt-index-header-container .promo-message,
-.bw-display-layer .bwt-index-search-form-container {
-  width: 60%;
-  margin: 0 auto;
 }
 
 .bw-display-layer .bwt-index-header-container .call-to-action,
@@ -1137,14 +1193,24 @@ input, textarea {
   max-width: 745px;
 }
 
-.bw-display-layer .bwt-expand-button-collapsed-icon .fa.fa-angle-down,
-.bw-display-layer .bwt-expand-button-expanded-icon .fa.fa-angle-up {
+.bw-display-layer .bwt-index .bwt-event-arrow::after {
+  content: "\f105";
+  position: absolute;
+  color: white;
+  left: 90%;
+  top: 33%;
+  font-size: 26px;
+  font-family: FontAwesome;
+}
+
+.bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon .fa.fa-angle-down,
+.bw-display-layer .bwt-index .bwt-expand-button-expanded-icon .fa.fa-angle-up {
   font-size: 40px;
   color: #231F20;
 }
 
-.bw-display-layer .bwt-expand-button-collapsed-icon,
-.bw-display-layer .bwt-expand-button-expanded-icon {
+.bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
+.bw-display-layer .bwt-index .bwt-expand-button-expanded-icon {
   right: -40px;
   position: absolute;
   top: -4px;
@@ -1183,9 +1249,13 @@ input, textarea {
   position: relative;
 }
 
-.bw-display-layer .bwt-index .bwt-upcoming-event {
-  font-family: "Gotham-Medium", Arial, sans-serif;
+.bw-display-layer .bwt-index .bwt-store-body-wrapper .bwt-upcoming-event {
   text-transform: uppercase;
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: 24px;
 }
 
 .bw-display-layer .bwt-search-results ul.bwt-store-list li .store-info {
@@ -1201,7 +1271,7 @@ input, textarea {
 
 .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
   position: absolute;
-  left: 64%;
+  left: 500px;
   bottom: 26px;
 }
 
@@ -1242,10 +1312,6 @@ input, textarea {
   line-height: 26px;
 }
 
-.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text {
-  left: 30px !important;
-}
-
 .bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
 .bw-display-layer .bwt-store-email-link .bwt-store-email-link-text a {
@@ -1269,6 +1335,7 @@ input, textarea {
 
 .bw-display-layer .bwt-store-state-normal {
   width: 65%;
+  max-width: 470px;
   float: left;
   display: inline-block;
 }
@@ -1310,6 +1377,10 @@ input, textarea {
   margin-top: 35px;
 }
 
+.bw-display-layer .bwt-index .bwt-map-popup .bwt-map-popup-container {
+  width: 100%;
+}
+
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header-container {
     height: 260px;
@@ -1317,6 +1388,9 @@ input, textarea {
   }
   .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
     padding-bottom: 0 !important;
+  }
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text {
+    left: 30px !important;
   }
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
@@ -1367,8 +1441,6 @@ input, textarea {
     position: relative;
     left: 0;
     bottom: 0;
-  }
-  .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
     margin-top: 10px;
   }
   .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
@@ -1394,7 +1466,7 @@ input, textarea {
   .bw-display-layer #bwt-search-form .bwt-index-search-form-wrap {
     width: 82%;
   }
-  .bw-display-layer .promo-message .main .international {
+  .bw-display-layer .bwt-index-header-container .international {
     display: none;
   }
   .bw-display-layer .bwt-index-search-filters #bwt-bigmap {
@@ -1463,6 +1535,9 @@ input, textarea {
     min-height: 300px !important;
     min-width: 300px !important;
   }
+  .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text {
+    left: 30px !important;
+  }
   .bw-display-layer .bwt-search-results ul.bwt-store-list li:first-child {
     min-height: 370px;
   }
@@ -1502,16 +1577,13 @@ input, textarea {
 }
 
 @media only screen and (min-width: 641px) and (max-width: 680px) {
-  .bw-display-layer .bwt-search-results ul.bwt-store-list li {
-    padding: 15px !important;
-  }
   .bw-display-layer .bwt-index-search-container {
-    padding: 10px;
+    padding: 5px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-  .bw-display-layer .bwt-index-header-container .promo-message {
+  .bw-display-layer .bwt-index-header-container .international {
     width: 80%;
   }
   .bw-display-layer .bwt-index-search-form-container {
@@ -1534,6 +1606,12 @@ input, textarea {
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header-container {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Desktop%20%281%29.png');
+  }
+
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-contact-info,
+  .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-actions {
+    padding-right: 20px;
   }
 }
 

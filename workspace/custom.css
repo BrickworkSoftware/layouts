@@ -1636,17 +1636,17 @@ td.bwt-store-hours-table-date-column:after {
 .bw-display-layer .bwt-store-show a.i.fa.fa-instagram:before {
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/instagram.svg");
 }
-.fa-angle-left:before{
-  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg") !important;
+.bw-display-layer .bwt-store-services-list .slick-prev:before, .bw-display-layer .bwt-store-events-list .slick-prev:before, .bw-display-layer .bwt-stores-nearby-list .slick-prev:before, .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg) !important;
 }
-.fa-angle-right:before{
-  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg") !important;
+.bw-display-layer .bwt-store-services-list .slick-next:before, .bw-display-layer .bwt-store-events-list .slick-next:before, .bw-display-layer .bwt-stores-nearby-list .slick-next:before, .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg) !important;
 }
-.fa-angle-up:before{
-  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg") !important;
+.bw-display-layer .bwt-scroll-assist:before, .bw-display-layer .bwt-store-show .bwt-store-services-info-title.ui-state-active:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg) !important;
 }
-.fa-angle-down:before {
-  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/down_arrow.svg") !important;
+.bw-display-layer .bwt-store-show .bwt-store-services-info-title:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/down_arrow.svg) !important;
 }
 
 

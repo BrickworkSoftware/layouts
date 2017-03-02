@@ -1195,7 +1195,7 @@ input, textarea {
 
 .bw-display-layer .bwt-index-search-filters .map-toggle {
   margin: 0 auto;
-  max-width: 740px;
+  max-width: 725px;
 }
 
 .bw-display-layer .bwt-index .bwt-event-arrow::after {
@@ -1260,6 +1260,14 @@ input, textarea {
   position: relative;
 }
 
+.bw-display-layer .bwt-index .bwt-index-search-filters .map-toggle {
+  margin-top: 30px;
+}
+
+.bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li:first-child {
+  margin-top: 30px;
+}
+
 .bw-display-layer .bwt-index .bwt-store-body-wrapper .bwt-upcoming-event {
   text-transform: uppercase;
   font-family: "YWFTUltramagnetic", Arial, sans-serif;
@@ -1280,10 +1288,6 @@ input, textarea {
   border-radius: 3px;
   max-width: 740px;
   box-sizing: content-box;
-}
-
-.bw-display-layer .bwt-index .bwt-index-search-filters .map-toggle {
-  margin-top: 20px;
 }
 
 .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
@@ -1395,15 +1399,11 @@ input, textarea {
 }
 
 .bw-display-layer .bwt-index .bwt-index-search-filters .bwt-bigmap-container {
-  margin-bottom: 0;
+  margin: 0 auto !important;
 }
 
 .bw-display-layer .bwt-index .bwt-map-popup .bwt-map-popup-container {
   width: 100%;
-}
-
-.bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li:first-child {
-  margin-top: 40px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1412,7 +1412,7 @@ input, textarea {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
   }
   .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
-    padding-bottom: 0 !important;
+    padding: 0 !important;
   }
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text {
     left: 30px !important;
@@ -1525,9 +1525,6 @@ input, textarea {
     width: 300px;
     margin-bottom: 0 !important;
   }
-  .bw-display-layer .bwt-index-search-filters .bwt-bigmap-container {
-    margin: 20px !important;
-  }
   .bw-display-layer .bwt-index .bwt-index-search-container {
     width: auto;
   }
@@ -1543,15 +1540,15 @@ input, textarea {
   .bw-display-layer .book-appointment-button.search-appointment-modal {
     margin-top: 10px;
   }
+  .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li:first-child {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 360px) {
   .bw-display-layer .bwt-search-results ul.bwt-store-list li {
     padding: 10px !important;
     margin-bottom: 40px;
-  }
-  .bw-display-layer .bwt-index-search-filters .map-toggle {
-    margin-bottom: 10px !important;
   }
   .bw-display-layer .bwt-search-results ul.bwt-store-list {
     max-width: 300px;
@@ -1569,6 +1566,12 @@ input, textarea {
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
     max-width: 750px;
   }
+  .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li:first-child {
+    margin-top: 40px;
+  }
+  .bw-display-layer .bwt-index .bwt-index-search-filters .map-toggle {
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 641px) and (max-width: 849px) {
@@ -1584,17 +1587,18 @@ input, textarea {
   }
   .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
     left: 478px;
+    bottom: 19px;
   }
   .bw-display-layer .bwt-index .bwt-store-state-normal {
     width: 460px;
-  }
-  .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
-    bottom: 19px;
   }
   .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-location-details-wrapper,
   .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-contact-info,
   .bw-display-layer .bwt-search-results ul.bwt-store-list .bwt-store-actions {
     width: 250px;
+  }
+  .bw-display-layer .bwt-index-search-filters .map-toggle {
+    max-width: 668px;
   }
 }
 
@@ -1627,6 +1631,9 @@ input, textarea {
   }
   .bw-display-layer .bwt-index .bwt-store-state-normal {
     width: 330px;
+  }
+  .bw-display-layer .bwt-index-search-filters .map-toggle {
+    max-width: 535px;
   }
   .bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
     left: 345px;
@@ -1680,12 +1687,6 @@ input, textarea {
   }
   .bw-display-layer .bwt-index-search-form-container {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 860px) and (min-width: 641px) {
-  .bw-display-layer .bwt-index-search-filters .map-toggle {
-    margin-right: 50px;
   }
 }
 

@@ -1636,16 +1636,16 @@ td.bwt-store-hours-table-date-column:after {
 .bw-display-layer .bwt-store-show a.i.fa.fa-instagram:before {
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/instagram.svg");
 }
-.bw-display-layer .bwt-store-show .fa-angle-left:before{
+.fa-angle-left:before{
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg") !important;
 }
-.bw-display-layer .bwt-store-show .fa-angle-right:before{
+.fa-angle-right:before{
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg") !important;
 }
-.bw-display-layer .bwt-store-show .fa-angle-up:before{
+.fa-angle-up:before{
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg") !important;
 }
-.bw-display-layer .bwt-store-show .fa-angle-down:before {
+.fa-angle-down:before {
   content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/down_arrow.svg") !important;
 }
 

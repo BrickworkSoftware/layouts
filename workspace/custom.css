@@ -2128,7 +2128,7 @@ td.bwt-store-hours-table-date-column:after {
     padding-left: 0px;
     padding-right: 15px;
   }
-  #subscription-container {
+  .bw-display-layer .bwt-store-show #subscription-container {
     display: none;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-title{
@@ -2327,7 +2327,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;
-    padding: 20px !important;
     width: 50%;
     float: right;
     margin-top: 68px;
@@ -2488,6 +2487,9 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show table.ui-datepicker-calendar {
     width: 70% !important;
+  }
+  .bw-display-layer .bwt-store-show #subscription-container {
+    display: none;
   }
 }
 

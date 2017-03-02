@@ -2214,7 +2214,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
     position: absolute;
-    margin-top: 920px !important;
+    margin-top: 850px !important;
     left: 330px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile:after {
@@ -2333,7 +2333,7 @@ td.bwt-store-hours-table-date-column:after {
     order: 2;
     margin-left: 413px;
     margin-top: -403px;
-    width: 35% !important;
+    width: 30% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-cal-wrapper.bwt-hide-on-mobile {
     order: 2;

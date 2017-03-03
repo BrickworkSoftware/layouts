@@ -3374,12 +3374,25 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .bw-display-layer .bwt-event-show .bwt-back-to-store-link {
+    left: 30%;
+    right: 20%;
+  }
+  .bw-display-layer .bwt-events-main .bwt-nearby-event-image,
+  .bw-display-layer .bwt-events-main .bwt-events-image,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image,
+  .bw-display-layer .bwt-events-other-events .bwt-events-image {
+    max-width: 640px !important;
+  }
   .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
     padding-top: 60% !important;
   }
   .bw-display-layer .bwt-event-show .bwt-events-main,
   .bw-display-layer .bwt-events-other-events {
     padding: 0 0 !important;
+  }
+  .bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix {
+    left: -5%;
   }
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-location-details-wrapper,
   .bw-display-layer .bwt-events-main .bwt-event-details .bwt-store-contact-info,
@@ -3411,18 +3424,20 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-index .bwt-event-bottom-content .bwt-share-buttons {
     margin: 20px auto 0;
   }
-  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time {
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
   .bw-display-layer .bwt-event-index .bwt-event-results-container .bwt-event-container .bwt-event-info-container {
     width: 90%;
     margin: 0 auto;
   }
   .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
+  .bw-display-layer .bwt-nearby-event-info h4.bwt-nearby-event-date,
   .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info .bwt-nearby-event-description {
     width: 80% !important;
     margin: 0 auto;
+  }
+  .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,
+  .bw-display-layer .bwt-nearby-event-info h4.bwt-nearby-event-date {
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
   .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info {
     padding-right: 0 !important;

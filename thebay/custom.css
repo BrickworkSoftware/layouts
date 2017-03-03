@@ -265,7 +265,7 @@
   -moz-osx-font-smoothing: grayscale !important;
   -webkit-font-smoothing: antialiased !important;
 }
-.bw-display-layer .bwt-event-details-title,
+
 .bw-display-layer .bwt-store-event-title,
 .bw-display-layer .bwt-event-details-date-time,
 .bw-display-layer .bwt-store-event-dates,
@@ -277,8 +277,6 @@
 }
 .bw-display-layer-container a#bwt-rsvp-button:active,
 .bw-display-layer-container a#bwt-rsvp-button:hover,
-.bw-display-layer-container a.bwt-events-main-store-link:hover,
-.bw-display-layer-container a.bwt-events-main-store-link:active,
 .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:hover,
 .bw-display-layer-container .bwt-index .bwt-index-search-form-submit:active {
   color: #FFF !important;
@@ -286,8 +284,7 @@
   background-color: #222222 !important;
   border: 2px solid #222222 !important;
 }
-a#bwt-rsvp-button:hover span.bwt-event-details-signup-button-copy,
-a#bwt-rsvp-button:active span.bwt-event-details-signup-button-copy,
+
 .bwt-index-search-form-submit:active span.bwt-index-search-form-submit-text,
 .bwt-index-search-form-submit:hover span.bwt-index-search-form-submit-text,
 div.bwt-store-service-body a.brickwork-button:hover,
@@ -331,11 +328,13 @@ a#bwt-rsvp-button span.bwt-event-details-signup-button-copy,
 .bw-display-layer-container .bwt-store-services-appointment .bwt-store-services-appointment-link a {
   color: #222222 !important;
   font-family: 'proxima-nova', Sans-Serif !important;
+  font-weight: 600 !important;
 }
 a#bwt-store-phone-number-link .bwt-store-phone-number-link-text{
   color: #222222 !important;
   font-family: 'proxima-nova', Sans-Serif !important;
   padding-bottom: 0px !important;
+  font-size: 12px !important;
 }
 .bw-app .bw-display-layer-container button:disabled {
   background-color: #E8E8E8 !important;
@@ -482,7 +481,8 @@ header.bwt-store-header h4.bwt-store-header-details {
 }
 h2.bwt-event-details-title,
 header.bwt-store-header h3.bwt-store-header-title a,
-.bw-app .bw-display-layer-container h2.bwt-index-main-title {
+.bw-app .bw-display-layer-container h2.bwt-index-main-title,
+.bw-display-layer .bwt-event-details-title {
   color: #222222 !important;
   font-size: 28px !important;
   letter-spacing: 0.75px !important;
@@ -883,6 +883,9 @@ div.bwt-event-details-signup a#bwt-rsvp-button {
 .bw-display-layer .bwt-store-hours-special .bwt-store-special-hours-link-text {
   letter-spacing: 0.1rem;
 }
+
+
+.bw-display-layer .bwt-index .bwt-store-upcoming-event-link:hover a,
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:focus,
 div.bwt-store-upcoming-event-link a:hover,
@@ -896,9 +899,7 @@ div.bwt-store-hours div.bwt-store-special-hours:hover,
 }
 .bw-display-layer .bwt-index .bwt-store-header-title a:hover,
 .bw-display-layer .bwt-index .bwt-store-header-title a:focus,
-div.bwt-store-upcoming-event-link a:hover,
 div.bwt-store-event-body h3.bwt-store-event-title a:hover,
-div.bwt-store-services-appointment-link a:hover,
 header.bwt-store-header h3.bwt-store-header-title a:hover {
   text-decoration: underline !important;
 }
@@ -1155,7 +1156,8 @@ padding-bottom: 0px !important;
   display: block !important;
   float: left !important;
 }
-.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix:before, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix:before {
+.bw-display-layer .bwt-index .bwt-store-phone-number-link-prefix:before, .bw-display-layer .bwt-store-show .bwt-store-phone-number-link-prefix:before,
+.bw-display-layer .bwt-store-event-show .bwt-store-phone-number-link-prefix:before {
   font-family: "hbc-icons" !important;
   content: "\e904" !important;
   display: block !important;
@@ -1311,7 +1313,7 @@ div.bwt-store-hours-special-title {
 
 .bw-display-layer .bwt-index .bwt-store-list .bwt-store-map-pin-holder, .bw-display-layer .bwt-index .bwt-store-list .bwt-events-map-pin-holder,
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder, .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin, .bwt-events-map-pin {
-  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/images/location.svg) no-repeat !important;
+  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/the_bay/location.svg) no-repeat !important;
   background-position: center center;
     background-size: contain;
     width: 30px;
@@ -1573,10 +1575,8 @@ button.slick-next, button.slick-prev {
   font-size: 13px !important;
   color: #222222 !important;
 }
-.leaflet-popup-pane .leaflet-popup .leaflet-popup-close-button {background-image: none !important;}
-.leaflet-popup-pane .leaflet-popup .leaflet-popup-close-button:after {
-  font-family: "hbc-icons" !important;
-  content: "\e92b" !important;
+.bw-display-layer .leaflet-popup-pane .leaflet-popup .leaflet-popup-close-button {
+  background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/the_bay/cross.svg) !important;
 }
 
 .leaflet-popup-pane .leaflet-popup .bwt-link-container .bwt-google-link {
@@ -1732,7 +1732,6 @@ button.slick-next, button.slick-prev {
 
 .bw-display-layer .bwt-store-show .bwt-store-map-button, .bw-display-layer .bwt-store-show .bwt-events-map-button {border-radius: 0px !important;}
 
-/*ul.bwt-store-nav-list li a*/
 .bw-display-layer-container .bwt-store-show .bwt-store-nav-list li a {
   font-family: "proxima-nova", sans-serif !important;
   color: #FFF !important;
@@ -1769,3 +1768,299 @@ div.bwt-store-service div.bwt-store-service-body .bwt-appointment-modal-button-w
 i.fa-search, i.fa-bars {display: none !important;}
 
 .bw-display-layer .bwt-store-show .bwt-mobile-carousel-controls-feedback { background: #f5f5f5 !important;}
+
+@media only screen and (min-width: 32.063em) {
+  .bw-display-layer .bwt-event-details-main-row {
+    border: 0px !important;
+  }
+  .bw-display-layer .bwt-event-details-main-container {
+    border-bottom: 1px solid #cccccc !important;
+    padding-bottom: 40px !important;
+  }
+}
+
+.bw-display-layer .bwt-events-more-events-title {display: block !important;}
+
+
+.bw-display-layer .bwt-events-main-store-link, div.bwt-event-details-signup a#bwt-rsvp-button {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  padding: 7px 12px !important;
+  color: #222222 !important;
+  border: 2px solid #222222 !important;
+  border-radius: 0px !important;
+}
+
+.bw-display-layer .bwt-events-main-store-link:hover, .bw-display-layer .bwt-events-main-store-link:active,
+div.bwt-event-details-signup a#bwt-rsvp-button:hover, div.bwt-event-details-signup a#bwt-rsvp-button:active {
+  color: #084985 !important;
+  border: 2px solid #084985 !important;
+  background: none !important;
+}
+a#bwt-rsvp-button:hover span.bwt-event-details-signup-button-copy, a#bwt-rsvp-button:active span.bwt-event-details-signup-button-copy {
+  color: #084985 !important;
+}
+
+.bw-display-layer .bwt-event-details-phone-prompt .bwt-store-phone-number {
+  margin-top: 0rem !important;
+  padding-top: 0rem !important;
+}
+
+/*Event carrousel dots*/
+.slick-dots li button[type="button"]:before, .slick-dots li.slick-active button[type="button"]:before {display: none !important;}
+.slick-dots li.slick-active button[type="button"] {
+  background: #cccccc !important;
+  border-radius: 50%;
+  opacity: 1 !important;
+  width: 9px !important;
+  height: 9px !important;
+}
+.slick-dots li button[type="button"] {
+  background: #FFF !important;
+  opacity: 1 !important;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  width: 9px !important;
+  height: 9px !important;
+}
+.slick-dots li button[type="button"]:hover {
+  background: #FFF !important;
+  opacity: 1 !important;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+}
+
+.slick-dots li.slick-active button[type="button"]:hover {
+  background: #cccccc !important;
+}
+
+.slick-dots li {
+  height: 0px !important;
+  width: 0px !important;
+  margin-right: 20px !important;
+}
+
+.slick-dots {bottom: -55px !important;}
+
+/*Modals*/
+.bw-appointment-step-container-choose-time .bw-appointment-step-container-title {display: block !important;}
+.appointment-rsvp-container h1, .appointment-rsvp-container .title h1, 
+.appointment-rsvp-container .store-container .store-name h1,
+.appointment-rsvp-container #appointment-confirmation .confirmation_title {
+  font-family: "adobe-caslon-pro", serif !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.75px !important;
+  color: #222222 !important;
+}
+
+.bw-appointment-header {font-family: "proxima-nova", sans-serif !important;}
+.bw-appointment-header-column a, .bw-appointment-header-column span {
+  font-weight: normal !important;
+  text-transform: capitalize !important;
+  font-size: 12px !important;
+}
+
+.bw-appointment-header-column.selected, .bw-appointment-header-column.selected a,
+.bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
+  color: #222222 !important;
+  font-size: 12px !important;
+}
+
+.bw-appointment-service-link-name {
+    color: #222222 !important;
+    font-weight: 600 !important;
+    font-size: 22px !important;
+    font-family: "adobe-caslon-pro", serif !important;
+    text-transform: capitalize !important;
+}
+
+.bw-appointment-service-link-description {
+    color: #222222 !important;
+    font-weight: normal !important;
+    font-size: 18px !important;
+    font-family: "proxima-nova", sans-serif !important;
+    font-style: normal !important;
+}
+
+.bw-appointment-service-link {
+  border: 2px solid #222222 !important;
+}
+
+.bw-appointment-service-link:active, .bw-appointment-service-link:hover, .bw-appointment-service-link:focus {
+  border: 2px solid #084985 !important;
+}
+.bw-appointment-service-link:hover > .bw-appointment-service-link-name,
+.bw-appointment-service-link:active > .bw-appointment-service-link-name,
+.bw-appointment-service-link:focus > .bw-appointment-service-link-name,
+.bw-appointment-service-link:hover > .bw-appointment-service-link-description,
+.bw-appointment-service-link:active > .bw-appointment-service-link-description,
+.bw-appointment-service-link:focus > .bw-appointment-service-link-description {
+  color: #084985 !important;
+}
+.appointment-rsvp-container .store-container .address h4, .appointment-rsvp-container .store-container .address h6,
+.appointment-rsvp-container .store-container .address table td b, .appointment-rsvp-container .store-container .address table,
+.appointment-rsvp-container .store-container .store-name .ribbon-banner a, .appointment-rsvp-container .local-stores h3,
+.appointment-rsvp-container .local-stores .search h3  {
+  font-weight: normal !important;
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  color: #222222 !important;
+  font-style: normal !important;
+}
+.appointment-rsvp-container .store-container .address table td {
+  text-align: left !important;
+}
+.appointment-rsvp-container .store-container .address table td b {text-transform: lowercase !important;}
+
+input#search {
+  font-family: "proxima-nova", sans-serif !important;
+  color: #222222 !important;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container .button-clean, button#confirm_appointment_button, .bw-confirmation-close-button, .bwt-events-rsvp-modal-button,
+.bwt-store-call-button {
+  background: #222222 !important;
+  padding: 7px 12px !important;
+  font-family: "proxima-nova",sans-serif !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+  color: #FFF !important;
+  border: 2px solid #222222 !important;
+}
+.bw-confirmation-close-button {border: 2px solid #222222 !important;}
+.bwt-events-rsvp-modal-button:hover, .bwt-events-rsvp-modal-button:focus,
+.bwt-store-call-button:hover, .bwt-store-call-button:active{border: 2px solid #084985 !important;}
+
+.appointment-rsvp-container .button-clean:hover, 
+.appointment-rsvp-container .button-clean:active,
+button#confirm_appointment_button:hover, 
+button#confirm_appointment_button:active,
+.bw-confirmation-close-button:hover,
+.bw-confirmation-close-button:active,
+.bwt-events-rsvp-modal-button:hover,
+.bwt-events-rsvp-modal-button:active,
+.bwt-store-call-button:hover,
+.bwt-store-call-button:active {
+  background: #084985 !important;
+  border: 2px solid #084985 !important;
+}
+
+.search_header .date_selection_container {background: #f5f5f5 !important;}
+
+.search_header .date_selection_container .active.date_selector {border: 2px solid #222222 !important;}
+.search_header .date_selection_container .unavilable.date_selector {border: 2px solid #f5f5f5 !important;}
+.search_header .date_selection_container .date_selector {border-width: 2px !important;}
+
+.search_header .date_selection_container .active.date_selector:hover, .search_header .date_selection_container .active.date_selector:active,
+.search_header .date_selection_container .active.date_selector:focus, .search_header .date_selection_container .active.selected.date_selector {
+  background: #FFF !important;
+  color: #084985 !important;
+  border: 2px solid #084985 !important;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title, 
+input#appointment_date::-webkit-input-placeholder,
+input#appointment_date::-moz-placeholder,
+input#appointment_date:-ms-input-placeholder,
+input#appointment_date:-moz-placeholder {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #222222 !important;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .segment_name {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: #222222 !important;
+}
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  color: #222222 !important;
+}
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover {
+  background: #084985 !important;
+  color: #FFF !important;
+}
+
+.bwt-appt-input-placeholder {
+  font-family: "proxima-nova", sans-serif !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #cccccc !important;
+}
+
+.bwt-appt-input-placeholder {
+  font-family: "proxima-nova", sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #cccccc !important;
+}
+
+.appointment-rsvp-container input[type="text"], 
+.appointment-rsvp-container input[type="email"], 
+.appointment-rsvp-container input[type="date"], 
+.appointment-rsvp-container textarea {
+  font-family: "proxima-nova", sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #222222 !important;
+  font-size: 14px !important;
+}
+
+.appointment-rsvp-container #appointment-confirmation .details {
+  font-family: "proxima-nova", sans-serif !important;
+  color: #222222 !important;
+  font-size: 14px !important;
+}
+
+.bwt-store-call-title, .bwt-store-call-response-title, .bwt-events-rsvp-modal-title, .bwt-events-rsvp-success-title {  
+  font-family: "adobe-caslon-pro", serif !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.75px !important;
+  color: #222222 !important;
+}
+.bwt-store-call-description, .bwt-store-call-response-details, .bwt-events-rsvp-modal-description, .bwt-events-rsvp-success-details {
+  font-family: "proxima-nova", sans-serif !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #222222 !important;
+  font-size: 14px !important;
+}
+.bwt-store-call-input, .bwt-events-rsvp-modal-input, .bwt-store-appt-modal-input {
+  border-radius: 0px !important;
+}
+
+a.close-reveal-modal:after {content: "" !important;}
+a.close-reveal-modal:before {
+  font-family: "hbc-icons" !important;
+  content: "\e92b" !important;
+}
+
+.bwt-store-call-modal a.close-reveal-modal, .bwt-events-rsvp-modal a.bw-appointment-header-close, div#id .close-reveal-modal {
+  font-size: 14px !important;
+}
+
+@media only screen and (max-width: 54em) {
+  .bw-appointment-header-column.completed a {color: #cccccc !important;}
+}

@@ -2350,6 +2350,13 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     margin: 0 !important;
     border-radius: 3px !important;
+    width: 200px !important;
+    height: 55px !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {  
+    margin-left: 90px !important;
+    margin-right: 95px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-show-for-medium-up {
     display: block;

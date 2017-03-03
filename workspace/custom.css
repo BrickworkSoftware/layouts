@@ -3194,6 +3194,7 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 1px;
   margin-top: 8px;
   margin-bottom: 22px;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {

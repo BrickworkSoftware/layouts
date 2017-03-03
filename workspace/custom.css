@@ -3092,6 +3092,7 @@ td.bwt-store-hours-table-date-column:after {
   font-size: 16px;
   color: #B99E82;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-events-more-events .bwt-nearby-events-container .slick-dots {
@@ -3329,7 +3330,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-index .bwt-local-nav {
     position: absolute;
     right: 0;
-    top: -69px;
+    top: -65px;
   }
   .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
     left: 8px;

@@ -2563,6 +2563,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-call-modal {
     width: 50% !important;
   }
+  .bwt-store-event-body {
+    width: 420px;
+  }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
     margin-left: 80px;

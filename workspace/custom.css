@@ -709,7 +709,7 @@ input, textarea {
 .site-footer {
   display: block;
   margin-top: 55px;
-  padding: 0 0 45px 0;
+  padding: 0;
   width: 100%;
 }
 
@@ -820,6 +820,25 @@ input, textarea {
 
 .site-footer__newsletter .newsletter__submit .icon path {
   fill: #4e5054;
+}
+
+.site-footer .dealer-resources {
+  background: #393536;
+  color: #baa381;
+  padding: 30px 0;
+  margin: 30px 0 0 0;
+}
+
+.site-footer .dealer-resources a {
+    color: #baa381;
+    font-family: "gotham-medium",Arial,sans-serif;
+    font-size: 0.8em;
+}
+
+.site-footer .dealer-resources a .icon-lock {
+    margin: -1px 2px 0 0;
+    vertical-align: top;
+    width: 10px;
 }
 
 @media only screen and (min-width: 750px) {
@@ -1756,12 +1775,10 @@ input, textarea {
   background: #B99E82 !important;
   color: #fff;
 }
-
 .bw-display-layer .bwt-store-show .bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box {
   background: #E2E3E4 !important;
   color: #fff !important;
 }
-
 .bwt-modal-store-hours-subtitle {
   border-bottom: 1px solid #B99E82;
   padding-bottom: 10px;
@@ -1769,18 +1786,15 @@ input, textarea {
   font-size: 12px;
   font-weight: 500;
 }
-
 .bwt-modal-store-hours-days {
   border-bottom: 1px solid #B99E82 !important;
   text-transform: uppercase;
 }
-
 .bwt-modal-store-hours-days li {
   color: #BAA381 !important;
   font-weight: 400 !important;
   font-size: 12px !important;
 }
-
 .bwt-modal-store-hours-title {
   font-size: 18px !important;
   font-weight: 400 !important;
@@ -1788,53 +1802,63 @@ input, textarea {
   padding-bottom: 10px;
   line-height: 20px;
 }
-
 .bwt-today:before {
   border: 1px solid #F2F1EF !important;
   border-radius: 0 !important;
   background: #F2F1EF;
 }
-
 .bwt-today,
 .bwt-open-day,
 .bwt-closed-day {
   color: #231F20 !important;
 }
-
 .bwt-special .bwt-store-hour-date {
   color: #231F20 !important;
 }
-
 .bwt-store-hour-range {
   color: #B99E82;
 }
-
 .bwt-store-hours-regular-wrapper .bwt-store-hours-special-title,
 .bwt-store-hours-table tr {
   color: #231f20 !important;
 }
-
 .bwt-store-hour-name {
   color: #231f20;
 }
-
 .bwt-store-hours-regular-wrapper .bwt-store-hours-special-title {
   text-transform: uppercase;
   letter-spacing: 1.5px;
   line-height: 16px;
 }
-
 .bwt-store-hours-regular-wrapper .bwt-store-hours-table .bwt-store-hours-table-hours-column {
   text-align: left !important;
 }
-
 td.bwt-store-hours-table-date-column:after {
   content: ":";
   font-weight: 900;
 }
-
 .bw-display-layer .bwt-store-show .bwt-stores-nearby {
   display: none !important;
+}
+
+/* icons for store page */
+.bw-display-layer .bwt-store-show a.i.fa.fa-envelope:before {
+  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/email.svg");
+}
+.bw-display-layer .bwt-store-show a.i.fa.fa-instagram:before {
+  content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/instagram.png");
+}
+.bw-display-layer .bwt-store-services-list .slick-prev:before, .bw-display-layer .bwt-store-events-list .slick-prev:before, .bw-display-layer .bwt-stores-nearby-list .slick-prev:before, .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg) !important;
+}
+.bw-display-layer .bwt-store-services-list .slick-next:before, .bw-display-layer .bwt-store-events-list .slick-next:before, .bw-display-layer .bwt-stores-nearby-list .slick-next:before, .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg) !important;
+}
+.bw-display-layer .bwt-scroll-assist:before, .bw-display-layer .bwt-store-show .bwt-store-services-info-title.ui-state-active:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg) !important;
+}
+.bw-display-layer .bwt-store-show .bwt-store-services-info-title:before {
+  content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/down_arrow.svg) !important;
 }
 
 
@@ -1902,6 +1926,7 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 0.5px !important;
   line-height: 26px !important;
   margin-top: 15px !important;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-event-title {
@@ -2064,6 +2089,10 @@ td.bwt-store-hours-table-date-column:after {
     background: #FFFFFF !important;
     font-weight: 600 !important;
   }
+  button.slick-prev, button.slick-next::before {
+    display: none !important;
+  }
+
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     font-size: 18px !important;
@@ -2158,10 +2187,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
   a.i.fa.fa-instagram {
-    color: white;
-    background: #231F20;
-    border-radius: 70px;
-    padding: 10px;
     margin-right: 15px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-link-icons.bwt-mobile-only {
@@ -2171,8 +2196,14 @@ td.bwt-store-hours-table-date-column:after {
     display: block !important;
     text-align: left;
     order: 4;
-    padding-left: 25px;
+    padding-left: 0px;
     padding-right: 15px;
+  }
+  .bw-display-layer .bwt-store-show #subscription-container {
+    display: none;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-header-title{
+    margin-top: 10px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-body {
     display: -webkit-box;
@@ -2230,7 +2261,10 @@ td.bwt-store-hours-table-date-column:after {
     padding-left: 55px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-hours {
-    margin-top: 15px;
+    margin-top: 40px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-section {
+    margin-top: 85px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary-description {
     width: 50% !important;
@@ -2274,6 +2308,7 @@ td.bwt-store-hours-table-date-column:after {
     width: 40% !important;
     float: right;
     margin-right: -66px;
+    border: 0px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
     background-color: #F2F1EF !important;
@@ -2302,10 +2337,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
   a.i.fa.fa-instagram {
-    color: white;
-    background: #231F20;
-    border-radius: 70px;
-    padding: 10px;
     margin-right: 15px;
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
@@ -2327,6 +2358,10 @@ td.bwt-store-hours-table-date-column:after {
     padding: 20px;
     width: 250px;
     height: 55px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
+    margin-left: 20px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/back_arrow.svg) !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column {
     font-weight: 900;
@@ -2360,7 +2395,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;
-    padding: 20px !important;
     width: 50%;
     float: right;
     margin-top: 68px;
@@ -2371,13 +2405,14 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
     font-size: 14px !important;
-    margin-top: -10px !important;
+    margin-top: 20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker-title {
     color: #B99E82 !important;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker th {
     border: 0px solid #E1E0DF !important;
@@ -2391,11 +2426,11 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
     position: absolute;
-    margin-top: 920px !important;
+    margin-top: 850px !important;
     left: 330px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile:after {
-    content: ">";
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right.svg");
     font-weight: 600;
     font-size: large;
     margin-left: 10px;
@@ -2412,10 +2447,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-events {
     border: 0px solid #E1E0DF !important;
   }
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev,
-  .ui-datepicker .ui-datepicker-next {
-    background: #F2F1EF !important;
-  }
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
     width: 50% !important;
   }
@@ -2428,12 +2459,13 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     font-size: 24px !important;
     letter-spacing: 2px !important;
+    margin-top:20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-title {
     display: table-footer-group;
@@ -2452,6 +2484,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.ui-state-default.ui-state-active {
     background: #F2F1EF !important;
+    border-radius: 3px;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-today .ui-state-default {
     background-color: #F2F1EF !important;
@@ -2462,11 +2495,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-events {
     max-width: 100% !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix {
-    top: 40% !important;
-  }
   .bw-display-layer .bwt-store-show .bwt-store-map-pin-holder {
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     display: flex;
@@ -2508,7 +2539,7 @@ td.bwt-store-hours-table-date-column:after {
     order: 2;
     margin-left: 413px;
     margin-top: -403px;
-    width: 35% !important;
+    width: 30% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-cal-wrapper.bwt-hide-on-mobile {
     order: 2;
@@ -2520,6 +2551,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show table.ui-datepicker-calendar {
     width: 70% !important;
   }
+  .bw-display-layer .bwt-store-show #subscription-container {
+    display: none;
+  }
 }
 
 
@@ -2529,12 +2563,22 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-call-modal {
     width: 50% !important;
   }
+  .bwt-store-event-body {
+    width: 420px;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
     display: none !important;
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     margin: 0 !important;
     border-radius: 3px !important;
+    width: 250px !important;
+    height: 55px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-call-title {
     font-size: 60px !important;
@@ -2588,10 +2632,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
   .bw-display-layer .bwt-store-show a.i.fa.fa-instagram {
-    color: white;
-    background: #231F20;
-    border-radius: 70px;
-    padding: 10px;
     margin-right: 15px;
   }
   .bwt-store-service-list-for-disabled-slide.bwt-show-for-medium-up {
@@ -2612,9 +2652,6 @@ td.bwt-store-hours-table-date-column:after {
     padding: 20px;
     width: 250px;
     height: 55px;
-  }
-  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
-    margin-left: 20px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column {
     font-weight: 900;
@@ -2641,6 +2678,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
     margin-left: 20px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/back_arrow.svg) !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column {
     font-weight: 900;
@@ -2667,7 +2705,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-content {
     text-align: center !important;
-    padding: 20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-title {
     font-weight: 600;
@@ -2678,6 +2715,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .ui-datepicker-title {
     color: #B99E82 !important;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show .ui-datepicker th {
     border: 0px solid #E1E0DF !important;
@@ -2690,10 +2728,10 @@ td.bwt-store-hours-table-date-column:after {
     border-top: 1px solid #BAA381;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 70px !important;
+    margin-right: 200px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile:after {
-    content: ">";
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right.svg");
     font-weight: 600;
     font-size: large;
     margin-left: 10px;
@@ -2706,10 +2744,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     border: 0px solid #E1E0DF !important;
-  }
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev,
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next {
-    background: #F2F1EF !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover {
     background: rgba(0, 0, 0, 0.3) !important;
@@ -2754,17 +2788,29 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
-    left: 35px !important;
-     margin-top: 45px !important;
+    left: 45px !important;
+    margin-top: 45px !important;
+    border: 0px !important;
+    padding: 0px !important;
+    width: 250px !important;
+    height: 55px !important;
+  }
+  .bw-display-layer .bwt-store-show a.brickwork-button {
+    border: 0px !important;
+    padding: 0px !important;
+    margin-top: 20px !important;
   }
    .bw-display-layer .bwt-store-show .bwt-store-events-header .bwt-store-section-title {
      margin-left: 190px;
    }
-  .bw-display-layer .bwt-store-show .bwt-store-event-image-container {
-    margin-bottom: 30px;
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
+	  margin-bottom: 30px;
+    width: 420px !important;
+    height: 250px !important;
   }
   .bw-display-layer .bwt-store-show a.ui-state-default.ui-state-active {
     background: #F2F1EF !important;
+    border-radius: 3px;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-today .ui-state-default {
     background-color: #F2F1EF !important;
@@ -2772,16 +2818,16 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-event-description {
     margin: 0px !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-event-description p{
+    line-height: 26px !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     max-width: 100% !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix {
-    top: 40% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-map-pin-holder {
     margin-top: 50px;
   }
-  #subscription-container {
+  .bw-display-layer .bwt-store-show #subscription-container {
     display: none;
   }
 }
@@ -3139,7 +3185,7 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-link-container {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,

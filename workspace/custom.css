@@ -2566,7 +2566,7 @@ td.bwt-store-hours-table-date-column:after {
   .bwt-store-event-body {
     width: 420px;
   }
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
     margin-left: 80px;
     margin-right: 80px;
@@ -3185,7 +3185,7 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bw-display-layer .bwt-nearby-event-info .bwt-nearby-event-link-container {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 
 .bw-display-layer .bwt-event-details .bwt-event-details-container .bwt-event-details-date-time,

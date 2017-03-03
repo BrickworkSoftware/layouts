@@ -3358,7 +3358,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
     left: 8px;
-    top: -60px;
+    top: -60px !important;
   }
   .bw-display-layer .bwt-event-container .bwt-event-info .bwt-share-buttons {
     position: absolute;

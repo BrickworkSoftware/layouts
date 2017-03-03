@@ -2847,6 +2847,10 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 2px;
 }
 
+.bw-display-layer .bwt-event-index .bwt-back-to-store-link {
+  font-size: 16px;
+}
+
 .bw-display-layer .bwt-event-show,
 .bw-display-layer .bwt-events-other-events {
   max-width: 1093px;
@@ -2981,9 +2985,14 @@ td.bwt-store-hours-table-date-column:after {
   line-height: 18px;
 }
 
-.bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix:before {
+.bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix:before,
+.bw-display-layer .bwt-event-index .bwt-back-to-store-link .bwt-back-to-store-prefix:before {
   content: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/back_to_store_arrow.svg");
   line-height: 27px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-back-to-store-link .bwt-back-to-store-prefix {
+  top: 30%;
 }
 
 .bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix {
@@ -3330,7 +3339,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-event-index .bwt-local-nav {
     position: absolute;
     right: 0;
-    top: -65px;
+    top: -68px;
   }
   .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
     left: 8px;

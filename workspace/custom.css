@@ -2563,9 +2563,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-call-modal {
     width: 50% !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
-    height: 250px;
-  }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
     margin-left: 80px;
@@ -2728,7 +2725,7 @@ td.bwt-store-hours-table-date-column:after {
     border-top: 1px solid #BAA381;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 70px !important;
+    margin-right: 200px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile:after {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right.svg");
@@ -2803,9 +2800,10 @@ td.bwt-store-hours-table-date-column:after {
    .bw-display-layer .bwt-store-show .bwt-store-events-header .bwt-store-section-title {
      margin-left: 190px;
    }
-  .bw-display-layer .bwt-store-show .bwt-store-event-image-container {
-    margin-bottom: 30px;
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
+	  margin-bottom: 30px;
     width: 420px !important;
+    height: 250px !important;
   }
   .bw-display-layer .bwt-store-show a.ui-state-default.ui-state-active {
     background: #F2F1EF !important;

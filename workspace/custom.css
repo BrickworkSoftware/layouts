@@ -2158,6 +2158,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover {
     background: rgba(0, 0, 0, 0.3) !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-feature-cover:hover{
+    background: rgba(0, 0, 0, 0.8) ;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-feature-title {
     display: block;
     text-transform: uppercase;
@@ -2474,6 +2477,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover {
     background: rgba(0, 0, 0, 0.3) !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-feature-cover:hover {
+    background: rgba(0, 0, 0, 0.8) !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-feature-title {
     display: block;
     text-transform: uppercase;
@@ -2775,6 +2781,9 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover {
     background: rgba(0, 0, 0, 0.3) !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-feature-cover:hover {
+    background: rgba(0, 0, 0, 0.8);
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-title {
     display: block;

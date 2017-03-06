@@ -1924,7 +1924,7 @@ td.bwt-store-hours-table-date-column:after {
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-event-dates {
-  font-family: "Gotham-Light", Arial, sans-serif !important;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #B99E82 !important;
   letter-spacing: 0.5px !important;
@@ -2764,6 +2764,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show section#events, .bw-display-layer .bwt-store-show section#features {
     margin-top: 150px;
   }
+  .bw-display-layer .bwt-store-show section#events{
+    border-bottom: 2px solid #231F20;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     border: 0px solid #E1E0DF !important;
   }
@@ -2854,9 +2857,14 @@ td.bwt-store-hours-table-date-column:after {
   }
 }
 
+/*store show page for brick work larger screens*/
 @media only screen and (min-width: 1440px){
  .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
     margin-right: 250px !important;
+ }
+ .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-calendar {
+    width: 540px;
+    height: 470px;
  }
 }
 

@@ -2206,7 +2206,7 @@ td.bwt-store-hours-table-date-column:after {
     display: none;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-title{
-    margin-top: 10px;
+    margin-top: 10px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-body {
     display: -webkit-box;

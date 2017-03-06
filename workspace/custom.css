@@ -2449,6 +2449,8 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     font-size: large;
     margin-left: 10px;
+    float: right;
+    line-height: 27px;
   }
   .bw-display-layer .bwt-store-show a.bwt-event-search-link {
     font-weight: 600;
@@ -2631,8 +2633,9 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container {
     background-color: #F2F1EF !important;
-    padding: 50px;
+    padding: 60px;
     color: #231F20;
+    vertical-align: middle;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info{
     max-width: 100% !important;
@@ -2775,7 +2778,7 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     font-size: 24px !important;
     letter-spacing: 2px !important;
-    margin-top: 30px !important;
+    margin-top: 20px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;

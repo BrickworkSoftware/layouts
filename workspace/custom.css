@@ -2101,8 +2101,8 @@ td.bwt-store-hours-table-date-column:after {
     border: 0px !important;
     width: 250px !important;
     height: 55px !important;
-    margin-right: -25px !important;
-    margin-left: 25px !important;
+    margin-right: -20px !important;
+    margin-left: 20px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     padding: 0px !important;
@@ -2257,10 +2257,14 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.bwt-store-event-link {
     height: 55px !important;
+    margin-left: 5px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours,
   .bw-display-layer .bwt-store-show  .bwt-back-to-store-link {
     display: none !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover {
+    background: rgba(0,0,0,0.9) !important;
   }
 }
 
@@ -2511,6 +2515,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover {
+    background: rgba(0,0,0,0.9) !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
     margin-top: 40px;
   }
@@ -2667,6 +2674,9 @@ td.bwt-store-hours-table-date-column:after {
     color: #231F20;
     vertical-align: middle;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-map-pin.default-map-pin {
+    top: 20%;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-main-info{
     max-width: 100% !important;
   }
@@ -2804,6 +2814,9 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover:hover {
     background: rgba(0, 0, 0, 0.8) !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover {
+    background: rgba(0,0,0,0.9) !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-title {
     display: block;

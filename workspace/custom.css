@@ -2485,6 +2485,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.bwt-event-search-link {
     font-weight: 600;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show section#events {
     margin-top: 100px;
@@ -2799,6 +2800,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show a.bwt-event-search-link {
     font-weight: 600;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show section#events, .bw-display-layer .bwt-store-show section#features {
     margin-top: 150px;

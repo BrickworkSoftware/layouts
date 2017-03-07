@@ -2113,8 +2113,8 @@ td.bwt-store-hours-table-date-column:after {
     border: 0px !important;
     width: 250px !important;
     height: 55px !important;
-    margin-right: -20px !important;
-    margin-left: 20px !important;
+    margin-right: -24px !important;
+    margin-left: 24px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     padding: 0px !important;
@@ -2193,6 +2193,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
     margin-top: 40px;
+    margin-left: 15px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
     color: #231f20 !important;
@@ -2238,6 +2239,9 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-map-pin-holder {
     margin-top: 40px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-map-pin.default-map-pin {
+    top: 20%;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-body {
     display: -webkit-box;
@@ -2533,6 +2537,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
     margin-top: 40px;
+    margin-left: 15px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-title {
     display: table-footer-group;
@@ -2683,7 +2688,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container {
     background-color: #F2F1EF !important;
-    padding: 60px;
+    padding: 55px;
     color: #231F20;
     vertical-align: middle;
   }
@@ -2845,6 +2850,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
     margin-top: 60px;
+    margin-left: 25px;
   }
 
   .bw-display-layer .bwt-store-show .ui-datepicker th {
@@ -2919,7 +2925,7 @@ td.bwt-store-hours-table-date-column:after {
 /*store show page for brick work larger screens*/
 @media only screen and (min-width: 1440px){
  .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 250px !important;
+    margin-right: 270px !important;
  }
  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-calendar {
     width: 540px;

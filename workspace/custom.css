@@ -3614,6 +3614,7 @@ td.bwt-store-hours-table-date-column:after {
     color: #231F20;
     letter-spacing: 1.5px;
     line-height: 16px;
+    text-transform: uppercase;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table {
     font-family: "Gotham-Medium", Arial, sans-serif;
@@ -3696,5 +3697,20 @@ td.bwt-store-hours-table-date-column:after {
     width: 53px;
     border-bottom: 2px solid #E1E0DF;
     background: #F2F1EF;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location::-webkit-input-placeholder {
+    font-family: "Gotham-Light", Arial, sans-serif;
+    font-size: 16px;
+    color: #4E4F54;
+    letter-spacing: 0;
+    padding-left: 15px;
+    text-transform: capitalize;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3 {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+    text-transform: uppercase;
   }
 }

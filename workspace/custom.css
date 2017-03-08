@@ -3624,3 +3624,61 @@ td.bwt-store-hours-table-date-column:after {
 
 
 /* Appointment Modal Styling */
+@media screen and (min-width: 1024px) {
+   /*fonts for appointment modal*/
+  .bw-iframe-container .bw-appointment-services .bwt-store-service-title {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 24px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+  }
+  .bw-iframe-container .bw-appointment-services .bw-appointment-service-link {
+    width: 330px;
+    min-height: 449.8px;
+    margin-top: 82.5px;
+  }
+  .bw-iframe-container .bw-appointment-services .bw-appointment-service-link .image-active {
+    width: 165px;
+    height: 165px;
+    margin-top: -82.5px;
+    border-radius: 100%;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-store-service-content {
+    text-align: center;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-store-service-description {
+    font-family: "Gotham-Light", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    text-align: center;
+    padding: 10px;
+    width: 294px;
+    height: 104px;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
+    width: 250px;
+    height: 55px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper {
+    width: 250px;
+    height: 55px;
+    border-radius: 3px;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+    bottom: 45.8px;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-store-service-length {
+    display: none;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
+    width: 250px;
+    height: 55px;
+  }
+}

@@ -1857,3 +1857,5 @@ body .bw-display-layer-container {
     background: none !important;
   }
 }
+
+.header-nav-flyout {display: none !important; }

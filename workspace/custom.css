@@ -3528,12 +3528,17 @@ td.bwt-store-hours-table-date-column:after {
     width: 330px;
     min-height: 449.8px;
     margin-top: 82.5px;
+    background: #FFFFFF;
+    border: 0 solid #E1E0DF;
+    box-shadow: 1px 1px 4px 0 #E1E0DF;
+    border-radius: 3px;
   }
   .bw-iframe-container .bw-appointment-services .bw-appointment-service-link .image-active {
     width: 165px;
     height: 165px;
     margin-top: -82.5px;
     border-radius: 100%;
+    border: 2px solid #E1E0DF;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-content {
     text-align: center;
@@ -3566,11 +3571,130 @@ td.bwt-store-hours-table-date-column:after {
     right: 40px;
     bottom: 45.8px;
   }
+  .bw-iframe-container .bw-appointment-services .bwt-store-map-pin-holder {
+    margin-top: 20px;
+  }
+  .bw-iframe-container .bw-appointment-services .small-12.centered.nearest-store {
+    margin-left: -5px;
+  }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-length {
     display: none;
   }
-  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
-    width: 250px;
-    height: 55px;
+  .bw-iframe-container .bwt-appointment-choose-store .store-detail-name {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 36px;
+    color: #231F20;
+    letter-spacing: 0;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-address {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-contact-info.bwt-hide-on-mobile {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link-text {
+    font-family: "Gotham-Medium";
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link-text a {
+    color: #BAA993 !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3 {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    color: #11000E;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-content {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-info-title::before {
+    margin-top: 0px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores h3 {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .container {
+    border: 0px;
+    background: #F2F1EF;
+    width: 280px;
+    min-height: 192px
+  }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .bwt-store-location-details {
+    padding: 15px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .bwt-store-address-line {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 26px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .bwt-show-for-medium-up {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location {
+    min-width: 280px !important;
+    min-height: 55px;
+    background: #FFFFFF;
+    border: 2px solid #E1E0DF;
+    border-radius: 3px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-search-button {
+    left: 225px;
+    height: 53px;
+    width: 53px;
+    border-bottom: 2px solid #E1E0DF;
+    background: #F2F1EF;
   }
 }

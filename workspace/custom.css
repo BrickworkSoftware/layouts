@@ -1433,6 +1433,10 @@ input, textarea {
   left: 30%;
 }
 
+.bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
+  max-width: 100%;
+}
+
 .bw-display-layer .bwt-index .store-info .store-event-calendar-date {
   top: 10px;
   font-size: 18px;

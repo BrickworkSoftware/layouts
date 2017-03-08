@@ -1435,6 +1435,7 @@ input, textarea {
 
 .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
   max-width: 100%;
+  left: 25%;
 }
 
 .bw-display-layer .bwt-index .store-info .store-event-calendar-date {
@@ -1528,7 +1529,8 @@ input, textarea {
   }
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
     top: 19% !important;
-    max-width: 59% !important;
+    max-width: 65% !important;
+    left: 30% !important;
   }
   .bw-display-layer .bwt-search-results ul.bwt-store-list li .bwt-store-actions {
     position: relative;
@@ -1714,8 +1716,9 @@ input, textarea {
     bottom: 18px;
   }
   .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
-    width: 50% !important;
     top: 19% !important;
+    left: 30% !important;
+    max-width: 65% !important;
   }
   .bw-display-layer .bwt-index .bwt-store-location-details-wrapper .bwt-store-address-line {
     line-height: 20px;
@@ -2400,8 +2403,8 @@ td.bwt-store-hours-table-date-column:after {
     width: 200px !important;
     height: 55px !important;
   }
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
-  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {  
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
     margin-left: 90px !important;
     margin-right: 95px !important;
   }

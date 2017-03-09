@@ -3806,7 +3806,7 @@ td.bwt-store-hours-table-date-column:after {
     height: 53px;
     width: 53px;
     border-bottom: 2px solid #E1E0DF;
-    background: #F2F1EF;
+    background: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/search_square.svg");
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location::-webkit-input-placeholder {
     font-family: "Gotham-Light", Arial, sans-serif;
@@ -3858,14 +3858,14 @@ td.bwt-store-hours-table-date-column:after {
     height: 55px;
   }
   .bw-iframe-container .appointment-rsvp-container input[type="text"].cal_field {
-    background: url(//uat.brickworksoftware.com/assets/icons/calendaricon-54bed14cd054eba3fac7661c262b2b46.png) no-repeat 200px center;
-    background-size: 24px 24px;
+    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
   }
   .bw-iframe-container .date-group input[type="text"] {
     text-align: left !important;
-    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     color: #231F20 !important;
-    letter-spacing: 1px;
+    letter-spacing: 1px !important;
+    padding-left: 25px !important;
   }
   .bw-iframe-container .search_header .date_selection_container .day-date-row {
     width: 1015px;
@@ -3879,6 +3879,8 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector {
     width: 145px;
     height: 140px;
+    border: 0 solid #E1E0DF !important;
+    border-radius: 3px 0 0 3px !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .dayname_only {
     font-family: "Gotham-Bold", Arial, sans-serif;
@@ -3899,14 +3901,53 @@ td.bwt-store-hours-table-date-column:after {
     color: #231F20;
     letter-spacing: 1.5px;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover {
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover {
     background: #231F20;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .num_available {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 36px !important;
+   }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .segment_name {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+  }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
+    background: #F2F1EF;
+    border: 0 solid #E1E0DF;
+    border-radius: 3px;
+    width: 286px;
+  }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header {
+    width: 286px;
+    height: 139px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:hover{
+    background-color: #F2F1EF !important;
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 12px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.12px !important;
+    line-height: 36px !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link{
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 12px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.12px !important;
+    line-height: 36px !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector:hover .big_day,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector:hover .small_day,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector.selected .big_day,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector.selected .small_day,
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector:hover .dayname_only {
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector:hover .dayname_only,
+   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .date_selection_container .day-date-row .date_selector.selected .dayname_only {
     color: white !important;
   }
 }

@@ -4101,4 +4101,17 @@ td.bwt-store-hours-table-date-column:after {
   .fa-angle-right:before, .bw-load-next-dates:before{
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/right_arrow_appt_modal.svg") !important;
   }
+  #questions-wrapper .input.check_boxes span.checkbox label {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  #questions-wrapper .input.check_boxes span.checkbox input {
+    width: 100%;
+  }
+  [data-abide] .error small.error {
+    width: 500px !important;
+  }
 }

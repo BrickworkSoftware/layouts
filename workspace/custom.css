@@ -1798,11 +1798,7 @@ input, textarea {
   background: #B99E82 !important;
   color: #fff;
 }
-.bw-display-layer .bwt-store-show .bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box {
-  background: #E2E3E4 !important;
-  color: #fff !important;
-}
-.bwt-store-hours-key-container-desktop .bwt-closed-box{
+.bwt-store-hours-key-container-desktop .bwt-closed-key .bwt-closed-box{
   background: #E2E3E4 !important;
   color: #fff !important;
 }
@@ -3888,8 +3884,8 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .search_header .date_selection_container .day-date-row {
     width: 1015px;
     max-width: none;
-    margin-left: -65px !important;
-    margin-right: 65px !important;
+    margin-left: -55px !important;
+    margin-right: 55px !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .day-date-column {
     width: 145px;
@@ -4063,5 +4059,46 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container textarea#appointment_customer_message {
     width: 500px;
     height: 102px;
+  }
+  .bw-iframe-container .active .bwt-appt-input-placeholder {
+    margin-top: -10px;
+    font-size: 10px;
+  }
+  .bw-iframe-container .appointment-rsvp-container #appointment-confirmation .confirmation_title {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 60px;
+    color: #231F20;
+    letter-spacing: 0;
+  }
+  .bw-iframe-container .appointment-rsvp-container #appointment-confirmation .details {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 24px;
+    color: #231F20;
+    letter-spacing: 0;
+    line-height: 40px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    width: 250px;
+    height: 55px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates,
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-next-dates {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    top: 50%;
+    margin-left: -14px;
+    margin-right: 12px;
+  }
+  .fa-angle-left:before, .bw-load-previous-dates:before {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/left_arrow_appt_modal.svg") !important;
+  }
+  .fa-angle-right:before, .bw-load-next-dates:before{
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/right_arrow_appt_modal.svg") !important;
   }
 }

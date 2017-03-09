@@ -4053,7 +4053,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-iframe-container #confirm_appointment_button {
     float: left;
-    width: 250px;
+    width: 250px !important;
     height: 55px;
   }
   .bw-iframe-container textarea#appointment_customer_message {
@@ -4076,6 +4076,13 @@ td.bwt-store-hours-table-date-column:after {
     color: #231F20;
     letter-spacing: 0;
     line-height: 40px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .control-label {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
     width: 250px;
@@ -4102,11 +4109,11 @@ td.bwt-store-hours-table-date-column:after {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/right_arrow_appt_modal.svg") !important;
   }
   #questions-wrapper .input.check_boxes span.checkbox label {
-    font-family: "Gotham-Bold", Arial, sans-serif;
-    font-size: 16px;
-    color: #231F20;
-    letter-spacing: 1.5px;
-    line-height: 16px;
+  font-family: "Gotham-Book", Arial, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  letter-spacing: 0;
+  line-height: 16px;
   }
   #questions-wrapper .input.check_boxes span.checkbox input {
     width: 100%;

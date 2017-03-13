@@ -2849,6 +2849,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show section#events{
     border-bottom: 2px solid #231F20;
+    min-width: 1160px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events {
     border: 0px solid #E1E0DF !important;
@@ -2874,7 +2875,7 @@ td.bwt-store-hours-table-date-column:after {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 25px;
   }
 

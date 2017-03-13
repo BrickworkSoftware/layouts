@@ -2659,6 +2659,10 @@ td.bwt-store-hours-table-date-column:after {
   .bwt-store-event-body {
     width: 420px;
   }
+  .bwt-store-show.bwt-soft-hidden {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
     margin-left: 80px;

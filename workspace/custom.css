@@ -2127,9 +2127,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-left: 24px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
-    padding: 0px !important;
-    border: 0px !important;
-    margin-top: 20px !important;
+    margin-top: 0px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
@@ -2204,9 +2202,13 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     letter-spacing: 2px !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 40px;
-    margin-left: 15px;
+    margin-left: 10px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
     color: #231f20 !important;
@@ -2374,9 +2376,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-right: -70px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
-    padding: 0px !important;
-    margin: 0px !important;
-    margin-top: 17px !important;
+    margin-top: 0px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
     background-color: #F2F1EF !important;
@@ -2657,7 +2657,10 @@ td.bwt-store-hours-table-date-column:after {
     width: 50% !important;
   }
   .bwt-store-event-body {
-    width: 420px;
+    width: 400px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
+    margin-left: 20px;
   }
   .bwt-store-show.bwt-soft-hidden {
     max-width: 1100px;
@@ -2912,9 +2915,8 @@ td.bwt-store-hours-table-date-column:after {
     height: 55px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
-    border: 0px !important;
-    padding: 0px !important;
-    margin-top: 20px !important;
+    margin-top: 0px !important;
+    width:250px;
   }
    .bw-display-layer .bwt-store-show .bwt-store-events-header .bwt-store-section-title {
      margin-left: 190px;
@@ -2962,12 +2964,22 @@ td.bwt-store-hours-table-date-column:after {
 /*store show page for brick work larger screens*/
 @media only screen and (min-width: 1440px){
  .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 270px !important;
+    margin-right: 130px !important;
  }
  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-calendar {
     width: 540px;
     height: 470px;
+    margin-left: -30px;
  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
+    margin-left: 50px;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next, 
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -10px;
+  }
 }
 
 /* Event Show/Index Page Styling */

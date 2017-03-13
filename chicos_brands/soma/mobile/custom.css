@@ -157,7 +157,7 @@ body {
 .bw-display-layer .bwt-index-search-form-submit-text,
 .bw-display-layer .bwt-event-details-location-title,
 .bw-display-layer .bwt-pagination {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
 }
 
 .bw-display-layer .bwt-store-show-primary .bwt-store-header-title a {
@@ -199,14 +199,14 @@ body {
 .bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
 .bw-display-layer .bwt-index-search-form-submit-text,
 .bw-display-layer a.bwt-store-event-link {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
   font-style: italic;
   text-transform: capitalize !important;
   font-size: 0.85rem;
 }
 
 .bw-display-layer .bwt-appointment-modal-button-wrapper .brickwork-button {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
   font-style: italic;
   font-size: 15px !important;
   text-transform: none !important;
@@ -259,11 +259,11 @@ body {
 }
 
 .bwt-store-call-modal .bwt-store-call-title, .bwt-store-call-modal .bwt-store-call-response-title, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-title, .bwt-events-rsvp-modal .bwt-events-rsvp-success-title, .bwt-events-rsvp-modal .bwt-events-rsvp-failure-title {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
 }
 
 .bwt-store-call-modal .bwt-store-call-response-button, .bwt-store-call-modal .bwt-store-call-button, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-button, .bwt-events-rsvp-modal .bwt-events-rsvp-success-button {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
   font-style: italic;
   font-size: 15px !important;
   text-transform: none !important;  
@@ -290,12 +290,15 @@ body {
 /* iFrame Styling */
 
 @font-face {
-  font-family: 'BentonModernOne';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf') format("opentype");
+  font-family: "BentonModernDisplay";
+  src: url("http://soma.com/web_assets/fonts/bentonModernDisplay/58eb3312-f28a-4514-a563-d42faa3f7c5b-2.eot");
+  src: url("http://soma.com/web_assets/fonts/bentonModernDisplay/58eb3312-f28a-4514-a563-d42faa3f7c5b-2.eot?") format("embedded-opentype"), url("http://soma.com/web_assets/fonts/bentonModernDisplay/58eb3312-f28a-4514-a563-d42faa3f7c5b-3.woff") format("woff"), url("http://soma.com/web_assets/fonts/bentonModernDisplay/58eb3312-f28a-4514-a563-d42faa3f7c5b-1.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
 
 .appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
-  font-family: "BentonModernOne", Georgia, Times, serif !important;
+  font-family: "BentonModernDisplay", Georgia, Times, serif !important;
 }
 
 .appointment-rsvp-container .bwt-store-header-title {

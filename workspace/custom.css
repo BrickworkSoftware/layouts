@@ -3692,6 +3692,308 @@ td.bwt-store-hours-table-date-column:after {
 
 
 /* Appointment Modal Styling */
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .bw-appointment-header-column.selected a, 
+  .bw-appointment-header-column.selected span {
+    background: #BFA68C !important;
+  }
+  .bw-iframe-container h1, .bw-iframe-container .title h1, 
+  .bw-iframe-container .confirmation_title, .bw-iframe-container .bw-appointment-step-container-title {
+    font-family: "YWFTUltramagnetic",  Arial, sans-serif !important ;
+    font-size: 18px !important;
+    color: #B99E82 !important;
+    letter-spacing: 2px !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-title:after {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/right_arrow_biege.svg");
+  }
+  .bw-appointment-service.bw-appointment-service-link.bwt-store-service-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 82.5px;
+    min-height: 400px !important;
+  }
+  .bw-appointment-service .bwt-store-service-description {
+    text-align: center;
+  }
+  .bw-appointment-service .bwt-store-service-image {
+    margin-top: -55.5px;
+  }
+  .bw-appointment-service .bwt-store-service-image img.image-active {
+    border-radius: 100%;
+    width: 50% !important;
+    height: 50% !important;
+  }
+  .bwt-store-header-columns .bwt-store-main-alert {
+    display: none;
+  }
+  .bwt-store-location-details-wrapper .bwt-store-location-details {
+    text-align: left !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours {
+    text-align: left;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table {
+    text-align: left;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link {
+    margin: 0px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores h3 {
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .container {
+    border: 0px solid #F2F1EF !important;
+    background: #F2F1EF;
+    width: 280px;
+    height: 189px;
+    padding: 20px;
+  }
+  .bw-iframe-container .bwt-store-location-details .store-detail-name{
+    display: none !important
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 16px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-header, 
+  .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset, 
+  .bw-iframe-container .bwt-appointment-choose-store .ui-state-default{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 36px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #11000E !important;
+    letter-spacing: 1.5px !important;
+    line-height: 36px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table .bwt-store-hours-table-date-column{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #11000E !important;
+    letter-spacing: 1.5px !important;
+    line-height: 36px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name {
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 36px !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3{
+    font-family: "Gotham-Bold", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-header-title{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #231F20;
+    letter-spacing: 0;
+  }
+  .bw-iframe-container .bwt-store-address {
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+    line-height: 27px !important;
+  }
+  .bw-iframe-container .bwt-show-for-small-only {
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location{
+    background: #FFFFFF;
+    border: 2px solid #E1E0DF;
+    border-radius: 3px;
+    width: 280px;
+    height: 55px;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location::-webkit-input-placeholder {
+    padding-left: 15px;
+    font-family: Gotham-Light;
+    font-size: 16px;
+    color: #4E4F54;
+    letter-spacing: 0;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-search-button {
+    width: 56px;
+    height: 53px;
+    background: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/search_square.svg) !important;
+    border-bottom: 2px solid #E1E0DF;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options #mobile_date_select {
+    width: 250px;
+    height: 55px;
+  }
+  .appointment-rsvp-container input[type="date"].cal_field {
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg) no-repeat 190px center;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options #mobile_date_select {
+    text-align: left !important;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    color: #231F20 !important;
+    letter-spacing: 1px !important;
+    padding-left: 25px !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .day-date-column {
+    width: 100px;
+    height: 97px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates, .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-next-dates {
+    top: 100%;
+    margin-left: 9px;
+    margin-right: 9px;
+  }
+  .search_header .date_selection_container .day-date-row {
+    width: 300px !important;
+    margin-left: -22px !important;
+    background: #FFFFFF;
+    border-radius: 3px 0 0 3px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector{
+    height: 97px !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .day-date-column {
+    padding: 0px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected .dayname_only {
+    margin-top: -10px;
+    background: #231F20 !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .small_day{
+    margin-top: -11px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .day-title {
+    display: none;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots {
+    margin-top: 50px !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
+    background: #F2F1EF;
+    border: 0 solid #E1E0DF;
+    border-radius: 3px;
+    width: 286px;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:hover, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus {
+    background-color: #F2F1EF !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .small_day{
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 12px;
+    color: #231F20;
+    letter-spacing: 1.33px;
+  }
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .segment_name{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 1.5px !important;
+  }
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available{
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 12px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 36px !important;
+  }
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover{
+    color: #231F20 !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container input {
+    background: #F2F1EF;
+  }
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-input-placeholder {
+    background: transparent;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    color: #8D8B8A;
+    letter-spacing: 0;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .control-label {
+    margin-bottom: 5px;
+    font-family: "Gotham-Bold", Arial,sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 1.5px;
+    line-height: 16px;
+  }
+  #questions-wrapper .input.check_boxes span.radio label, 
+  #questions-wrapper .input.check_boxes span.checkbox label, 
+  #questions-wrapper .input.radio_buttons span.radio label, 
+  #questions-wrapper .input.radio_buttons span.checkbox label{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 16px !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    width: 250px;
+    height: 55px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-button-wrapper {
+    width: 250px;
+    height: 55px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
+    margin-top: -25px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-email-field.active.filled,
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-name-field.active.filled {
+    margin-top: 27px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-message-field.bwt-appointment-customer-message.active {
+    margin-top: 50px;
+  }
+  .appointment-rsvp-container #appointment-confirmation .confirmation_title{
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 50px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container #appointment-confirmation .details{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 32px !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    width: 250px;
+    height: 55px;
+    border-radius: 3px;
+  }
+}
 @media screen and (min-width: 1024px) {
    /*fonts for appointment modal*/
   .bw-iframe-container .bw-appointment-services .bwt-store-service-title {

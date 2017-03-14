@@ -2122,8 +2122,9 @@ td.bwt-store-hours-table-date-column:after {
     border: 0px !important;
     width: 250px !important;
     height: 55px !important;
-    margin-right: -24px !important;
+    margin-right: 23px !important;
     margin-left: 24px !important;
+    margin-top: 180px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     margin-top: 0px !important;
@@ -2371,13 +2372,12 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
-    float: right;
-    margin-right: -66px;
+    margin-left: 65px;
+    margin-top: 80px;
     border: 0px !important;
     padding: 0px !important;
     width: 250px !important;
     height: 55px !important;
-    margin-right: -70px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     margin-top: 0px !important;
@@ -2930,8 +2930,8 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
-    left: 45px !important;
-    margin-top: 50px !important;
+    margin-top: 190px !important;
+    margin-left: 24px;
     border: 0px !important;
     padding: 0px !important;
     width: 250px !important;
@@ -2987,7 +2987,7 @@ td.bwt-store-hours-table-date-column:after {
 /*store show page for brick work larger screens*/
 @media only screen and (min-width: 1440px){
  .bw-display-layer .bwt-store-show .bwt-event-search-container.bwt-hide-on-mobile {
-    margin-right: 130px !important;
+    margin-right: 70px !important;
  }
  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-calendar {
     width: 540px;

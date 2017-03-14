@@ -4516,8 +4516,8 @@ td.bwt-store-hours-table-date-column:after {
     width: 500px !important;
   }
 }
+/*appointment modal styling for desktop*/
 @media screen and (min-width: 1024px) {
-   /*fonts for appointment modal*/
   .bw-iframe-container .bw-appointment-services .bwt-store-service-title {
     font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 24px;
@@ -4759,18 +4759,7 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 1px !important;
     padding-left: 25px !important;
   }
-  .bw-iframe-container .search_header .date_selection_container .day-date-row {
-    width: 1015px;
-    max-width: none;
-    margin-left: -55px !important;
-    margin-right: 55px !important;
-  }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .day-date-column {
-    width: 145px;
-    height: 140px;
-  }
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector {
-    width: 145px;
     height: 140px;
     background: #F2F1EF;
     border: 0 solid #E1E0DF !important;
@@ -4977,8 +4966,8 @@ td.bwt-store-hours-table-date-column:after {
     background: none;
     box-shadow: none;
     top: 50%;
-    margin-left: -14px;
-    margin-right: 12px;
+    margin-left: 40px;
+    margin-right: 75px;
   }
   .fa-angle-left:before, .bw-load-previous-dates:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/left_arrow_appt_modal.svg") !important;

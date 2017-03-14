@@ -3789,6 +3789,14 @@ td.bwt-store-hours-table-date-column:after {
   .bwt-store-location-details-wrapper .bwt-store-location-details {
     text-align: left !important;
   }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-banner-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+  }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours {
     text-align: left;
   }
@@ -3868,6 +3876,7 @@ td.bwt-store-hours-table-date-column:after {
     font-size: 18px !important;
     color: #231F20;
     letter-spacing: 0;
+    margin-top: 12px;
   }
   .bw-iframe-container .bwt-store-address {
     font-family: "Gotham-Book", Arial, sans-serif !important;
@@ -4024,10 +4033,12 @@ td.bwt-store-hours-table-date-column:after {
     height: 55px;
   }
   .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
-    margin-top: -25px;
+    margin-top: -15px;
+    font-size: 8px;
   }
   .bw-iframe-container .appointment-enterinfo-container .bwt-appt-email-field.active.filled,
-  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-name-field.active.filled {
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-name-field.active.filled,
+  .bw-iframe-container .appointment-enterinfo-container .bwt-appt-message-field.active {
     margin-top: 27px;
   }
   .bw-iframe-container .appointment-enterinfo-container .bwt-appt-message-field.bwt-appointment-customer-message.active {

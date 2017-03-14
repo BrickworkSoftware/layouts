@@ -2823,6 +2823,14 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .ui-datepicker-title {
     color: #B99E82 !important;
     text-transform: uppercase;
+    margin-left: 160px;
+    margin-right: 150px;
+  }
+
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev, 
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next {
+    float: left;
+    height: 4px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show .ui-datepicker th {
     border: 0px solid #E1E0DF !important;

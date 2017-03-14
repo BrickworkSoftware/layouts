@@ -2496,7 +2496,7 @@ td.bwt-store-hours-table-date-column:after {
     line-height: 36px;
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
-    background: rgba(0, 0, 0, 0.3) !important;
+    background: rgba(35,31,32,0.70) !important;
     font-size: 16px !important;
     color: #fff !important;
     padding: 20px;

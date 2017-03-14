@@ -2136,7 +2136,13 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container{
-    margin-top: 30%;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%) !important;
+    left: 50%;
+    width: 200px !important;
+    top: 35% !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-details {
     text-align: left;

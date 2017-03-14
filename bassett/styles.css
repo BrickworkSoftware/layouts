@@ -190,3 +190,4 @@ ul.associates-grid li .associate-info h6.associate_name { font-family: MuseoSlab
 .appointment-rsvp-container .button:hover {
   background-color: #02bce5;
 }
+.bwt-appointment-customer-message {display: none !important; }

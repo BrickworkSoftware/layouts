@@ -1089,8 +1089,7 @@ input, textarea {
 
 .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .upcoming-event-container,
 .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-future-opening-container {
-  opacity: 1;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(35,31,32,0.70) !important;
   color: white;
 }
 
@@ -1789,8 +1788,11 @@ input, textarea {
 .bw-display-layer .bwt-store-show .bwt-store-future-opening .bwt-store-future-opening-text {
   font-family: "YWFTUltramagnetic";
   font-size: 18px !important;
-  opacity: 1;
   letter-spacing: 2px;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-future-opening-container {
+  background: rgba(155,154,155,0.33) !important;
 }
 
 .bwt-special-day.ui-tabs-anchor {
@@ -3749,11 +3751,11 @@ td.bwt-store-hours-table-date-column:after {
 
 /* Appointment Modal Styling */
 @media only screen and (max-width: 767px) and (min-width: 320px) {
-  .bw-appointment-header-column.selected a, 
+  .bw-appointment-header-column.selected a,
   .bw-appointment-header-column.selected span {
     background: #BFA68C !important;
   }
-  .bw-iframe-container h1, .bw-iframe-container .title h1, 
+  .bw-iframe-container h1, .bw-iframe-container .title h1,
   .bw-iframe-container .confirmation_title, .bw-iframe-container .bw-appointment-step-container-title {
     font-family: "YWFTUltramagnetic",  Arial, sans-serif !important ;
     font-size: 18px !important;
@@ -3815,8 +3817,8 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     display: none !important
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -3824,8 +3826,8 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 1.5px !important;
     line-height: 16px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-header, 
-  .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset, 
+  .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-header,
+  .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
   .bw-iframe-container .bwt-appointment-choose-store .ui-state-default{
     font-family: "Gotham-Book", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -3940,8 +3942,8 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: -10px;
     background: #231F20 !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only, 
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only,
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .small_day{
     margin-top: -11px;
   }
@@ -3957,13 +3959,13 @@ td.bwt-store-hours-table-date-column:after {
     border-radius: 3px;
     width: 286px;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:hover, 
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:hover,
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus {
     background-color: #F2F1EF !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only, 
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only,
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .small_day{
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 12px;
@@ -4003,9 +4005,9 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 1.5px;
     line-height: 16px;
   }
-  #questions-wrapper .input.check_boxes span.radio label, 
-  #questions-wrapper .input.check_boxes span.checkbox label, 
-  #questions-wrapper .input.radio_buttons span.radio label, 
+  #questions-wrapper .input.check_boxes span.radio label,
+  #questions-wrapper .input.check_boxes span.checkbox label,
+  #questions-wrapper .input.radio_buttons span.radio label,
   #questions-wrapper .input.radio_buttons span.checkbox label{
     font-family: "Gotham-Book", Arial, sans-serif !important;
     font-size: 16px !important;

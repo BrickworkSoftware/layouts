@@ -3917,7 +3917,7 @@ td.bwt-store-hours-table-date-column:after {
     display: none;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots {
-    margin-top: 50px !important;
+    margin-top: 80px !important;
   }
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
     background: #F2F1EF;
@@ -4750,6 +4750,10 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-iframe-container .appointment-rsvp-container input[type="text"].cal_field {
     background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
+  }
+  .bw-iframe-container .appointment-rsvp-container input[type="date"].cal_field:focus{
+    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
+    background-size: contain;
   }
   .bw-iframe-container .date-group input[type="text"] {
     text-align: left !important;

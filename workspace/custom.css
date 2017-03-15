@@ -2254,13 +2254,10 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     letter-spacing: 2px !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content{
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-left: 10px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
     color: #231f20 !important;
@@ -2371,6 +2368,11 @@ td.bwt-store-hours-table-date-column:after {
     width: 50% !important;
     padding-left: 55px !important;
     height: 250px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary-hours,
   .bw-display-layer .bwt-store-show .bwt-store-show-primary-details {
@@ -2629,10 +2631,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover {
     background: rgba(0,0,0,0.9) !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 20px;
-    margin-left: 15px;
-  }
   .bw-display-layer .bwt-store-show .bwt-store-event-title {
     display: table-footer-group;
     line-height: 45px;
@@ -2779,6 +2777,11 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-hours-modal {
     width: 80% !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container {
     background-color: #F2F1EF !important;
@@ -2958,11 +2961,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature:hover .bwt-store-feature-title {
     display: none !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-feature-description {
-    margin-top: 20px;
-    margin-left: 25px;
-  }
-
   .bw-display-layer .bwt-store-show .ui-datepicker th {
     border: 0px solid #E1E0DF !important;
     color: #BAA381;
@@ -5049,5 +5047,26 @@ td.bwt-store-hours-table-date-column:after {
   }
   [data-abide] .error small.error {
     width: 500px !important;
+  }
+  #questions-wrapper select, 
+  #questions-wrapper select:active, 
+  #questions-wrapper select:hover {
+    border-color: transparent;
+    width: 500px;
+    height: 45px;
+    padding: 11px;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px !important;
+    padding-left: 25px;
+    color: #8D8B8A !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    background-color: #F2F1EF !important;
+  }
+  select:hover {
+    background-color: #F2F1EF !important;
+  }
+  #questions-wrapper select {
+    background: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/down_arrow.svg) no-repeat 470px center;
   }
 }

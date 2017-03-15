@@ -4338,7 +4338,6 @@ td.bwt-store-hours-table-date-column:after {
     padding-left: 25px !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector {
-    width: 145px;
     height: 140px;
     background: #F2F1EF;
     border: 0 solid #E1E0DF !important;
@@ -4545,7 +4544,7 @@ td.bwt-store-hours-table-date-column:after {
     background: none;
     box-shadow: none;
     top: 50%;
-    margin-left: 70px;
+    margin-left: 83px;
     margin-right: 100px;
   }
   .fa-angle-left:before, .bw-load-previous-dates:before {
@@ -4748,7 +4747,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .bwt-appointment-choose-store .bwt-search-button {
     left: 225px;
     height: 53px;
-    width: 53px;
+    width: 56px;
     border-bottom: 2px solid #E1E0DF;
     background: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/search_square.svg");
   }
@@ -4948,7 +4947,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   #ui-datepicker-div {
     width: 250px !important;
-    height: 240px !important;
+    height: 255px !important;
   }
   a.ui-datepicker-prev.ui-corner-all:hover {
     border: none !important;

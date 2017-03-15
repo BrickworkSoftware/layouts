@@ -3867,6 +3867,10 @@ td.bwt-store-hours-table-date-column:after {
   .appointment-rsvp-container input[type="date"].cal_field {
     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg) no-repeat 190px center;
   }
+  .appointment-rsvp-container input[type="date"].cal_field:focus{
+    background: none !important;
+    background-size: contain;
+  }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options #mobile_date_select {
     text-align: left !important;
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
@@ -3911,7 +3915,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .dayname_only, 
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .big_day, 
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .small_day{
-    margin-top: -11px;
+    margin-top: -6px;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .day-title {
     display: none;
@@ -4147,6 +4151,10 @@ td.bwt-store-hours-table-date-column:after {
   }
   .appointment-rsvp-container input[type="date"].cal_field {
     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg) no-repeat 190px center;
+  }
+  .appointment-rsvp-container input[type="date"].cal_field:focus{
+    background: none !important;
+    background-size: contain;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options #mobile_date_select {
     text-align: left !important;
@@ -4750,10 +4758,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bw-iframe-container .appointment-rsvp-container input[type="text"].cal_field {
     background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
-  }
-  .bw-iframe-container .appointment-rsvp-container input[type="date"].cal_field:focus{
-    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
-    background-size: contain;
   }
   .bw-iframe-container .date-group input[type="text"] {
     text-align: left !important;

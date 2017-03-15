@@ -4378,6 +4378,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
     background: white;
+    margin-bottom: 6px;
   }
   .ui-widget-header .ui-icon {
      background-image: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg") !important;
@@ -4523,6 +4524,8 @@ td.bwt-store-hours-table-date-column:after {
     width: 500px !important;
   }
 }
+
+
 /*appointment modal styling for desktop*/
 @media screen and (min-width: 1024px) {
   .bw-iframe-container .bw-appointment-services .bwt-store-service-title {
@@ -4873,7 +4876,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .ui-datepicker table{
     border: 0px !important;
-    margin-top: 20px;
+    margin-top: 2px;
   }
   .ui-datepicker thead {
     border-bottom: 1px solid #BAA381;
@@ -4903,7 +4906,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   #ui-datepicker-div {
     width: 250px !important;
-    height: 255px !important;
+    height: 240px !important;
   }
   a.ui-datepicker-prev.ui-corner-all:hover {
     border: none !important;

@@ -4027,7 +4027,7 @@ td.bwt-store-hours-table-date-column:after {
 
 
 /*appointment modal for tablet*/
-@media only screen and (max-width: 992px) and (min-width: 768px) {
+@media only screen and (max-width: 992px) and (min-width: 768px){
   .bw-iframe-container .bw-appointment-services .bwt-store-service-title {
     font-family: "Gotham-Bold", Arial, sans-serif;
     font-size: 24px;

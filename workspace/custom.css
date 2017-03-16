@@ -4128,14 +4128,14 @@ td.bwt-store-hours-table-date-column:after {
   input[type="radio"] + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 34%;
+    margin-left: -24px;
   }
     input[type="radio"]:checked + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 31%;
+    margin-left: -24px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
     font-family: "YWFTUltramagnetic", Arial, sans-serif;
@@ -4199,6 +4199,17 @@ td.bwt-store-hours-table-date-column:after {
     color: #FFFFFF;
     letter-spacing: 2px;
     line-height: 18px;
+  }
+  #questions-wrapper .input.radio_buttons span.radio label {
+    margin-right: 4%;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
+    margin-left: 3%;
   }
 }
 
@@ -4755,14 +4766,14 @@ td.bwt-store-hours-table-date-column:after {
   input[type="radio"] + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 34%;
+    margin-left: -24px;
   }
     input[type="radio"]:checked + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 31%;
+    margin-left: -24px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
     font-family: "YWFTUltramagnetic", Arial, sans-serif;
@@ -4826,6 +4837,17 @@ td.bwt-store-hours-table-date-column:after {
     color: #FFFFFF;
     letter-spacing: 2px;
     line-height: 18px;
+  }
+  #questions-wrapper .input.radio_buttons span.radio label {
+    margin-right: 4%;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
+    margin-left: 3%;
   }
 }
 
@@ -5357,14 +5379,14 @@ td.bwt-store-hours-table-date-column:after {
   input[type="radio"] + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 34%;
+    margin-left: -24px;
   }
     input[type="radio"]:checked + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
     position: absolute;
-    top: 24%;
-    margin-left: -35px;
+    top: 31%;
+    margin-left: -24px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
     font-family: "YWFTUltramagnetic", Arial, sans-serif;
@@ -5428,5 +5450,16 @@ td.bwt-store-hours-table-date-column:after {
     color: #FFFFFF;
     letter-spacing: 2px;
     line-height: 18px;
+  }
+  #questions-wrapper .input.radio_buttons span.radio label {
+    margin-right: 4%;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
+    margin-left: 3%;
   }
 }

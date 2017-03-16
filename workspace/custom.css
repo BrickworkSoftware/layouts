@@ -4080,6 +4080,126 @@ td.bwt-store-hours-table-date-column:after {
     height: 55px;
     border-radius: 3px;
   }
+  #questions-wrapper select, 
+  #questions-wrapper select:active, 
+  #questions-wrapper select:hover {
+    border-color: transparent;
+    width: 500px;
+    height: 45px;
+    padding: 11px;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px !important;
+    padding-left: 25px;
+    color: #8D8B8A !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    background-color: #F2F1EF !important;
+  }
+  select:hover {
+    background-color: #F2F1EF !important;
+  }
+  #questions-wrapper select {
+    background: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/appointment_down_arrow.svg") no-repeat 470px center;
+  }
+  input[type=checkbox]{
+    display: none;
+  }
+  input[type=checkbox] + label:before {
+    position: absolute;
+    top: 33%;
+    margin-left: -24px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_uncheckedbox.svg) !important;
+  }
+  input[type=checkbox]:checked + label:before {
+    position: absolute;
+    top: 33%;
+    margin-left: -24px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_checked_box.svg) !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .checkbox{
+    margin-left: 15px;
+  }
+  #questions-wrapper .input.radio_buttons span.radio input {
+    width: 50px !important;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  input[type="radio"] + label:before {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
+    position: absolute;
+    top: 24%;
+    margin-left: -35px;
+  }
+    input[type="radio"]:checked + label:before {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
+    position: absolute;
+    top: 24%;
+    margin-left: -35px;
+  }
+  .bw-display-layer .bwt-appointment-cancel h2 {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 60px;
+    color: #231F20;
+    letter-spacing: 0;
+  }
+  .bw-display-layer .bwt-appointment-cancel .bwt-divide {
+    display: none;
+  }
+  .bwt-appointment-cancel p b {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 24px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 40px !important;
+  }
+  .bwt-appointment-cancel p {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  .bwt-cancel-store-appointment a {
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    color: #BAA381 !important;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
+    width: 250px;
+    height: 55px;
+    padding: 0px;
+  }
+  .bwt-appointment-cancel {
+    display: flex;
+    flex-direction: column;
+  }
+  .bwt-cancel-store-appointment {
+    order: 3;
+    margin-top: 20px;
+  }
+  #questions-wrapper .input.check_boxes span.checkbox.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  #questions-wrapper .input.radio_buttons span.radio.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
+  }
 }
 
 
@@ -4586,6 +4706,126 @@ td.bwt-store-hours-table-date-column:after {
   }
   [data-abide] .error small.error {
     width: 500px !important;
+  }
+  #questions-wrapper select, 
+  #questions-wrapper select:active, 
+  #questions-wrapper select:hover {
+    border-color: transparent;
+    width: 500px;
+    height: 45px;
+    padding: 11px;
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px !important;
+    padding-left: 25px;
+    color: #8D8B8A !important;
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+    background-color: #F2F1EF !important;
+  }
+  select:hover {
+    background-color: #F2F1EF !important;
+  }
+  #questions-wrapper select {
+    background: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/appointment_down_arrow.svg") no-repeat 470px center;
+  }
+  input[type=checkbox]{
+    display: none;
+  }
+  input[type=checkbox] + label:before {
+    position: absolute;
+    top: 33%;
+    margin-left: -24px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_uncheckedbox.svg) !important;
+  }
+  input[type=checkbox]:checked + label:before {
+    position: absolute;
+    top: 33%;
+    margin-left: -24px;
+    content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_checked_box.svg) !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .checkbox{
+    margin-left: 15px;
+  }
+  #questions-wrapper .input.radio_buttons span.radio input {
+    width: 50px !important;
+  }
+  input[type="radio"]{
+    display: none;
+  }
+  input[type="radio"] + label:before {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
+    position: absolute;
+    top: 24%;
+    margin-left: -35px;
+  }
+    input[type="radio"]:checked + label:before {
+    content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
+    position: absolute;
+    top: 24%;
+    margin-left: -35px;
+  }
+  .bw-display-layer .bwt-appointment-cancel h2 {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 60px;
+    color: #231F20;
+    letter-spacing: 0;
+  }
+  .bw-display-layer .bwt-appointment-cancel .bwt-divide {
+    display: none;
+  }
+  .bwt-appointment-cancel p b {
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 24px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 40px !important;
+  }
+  .bwt-appointment-cancel p {
+    font-family: "Gotham-Book", Arial, sans-serif;
+    font-size: 16px;
+    color: #231F20;
+    letter-spacing: 0.5px;
+    line-height: 36px;
+  }
+  .bwt-cancel-store-appointment a {
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    color: #BAA381 !important;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
+    width: 250px;
+    height: 55px;
+    padding: 0px;
+  }
+  .bwt-appointment-cancel {
+    display: flex;
+    flex-direction: column;
+  }
+  .bwt-cancel-store-appointment {
+    order: 3;
+    margin-top: 20px;
+  }
+  #questions-wrapper .input.check_boxes span.checkbox.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  #questions-wrapper .input.radio_buttons span.radio.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
   }
 }
 
@@ -5173,5 +5413,20 @@ td.bwt-store-hours-table-date-column:after {
   .bwt-cancel-store-appointment {
     order: 3;
     margin-top: 20px;
+  }
+  #questions-wrapper .input.check_boxes span.checkbox.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  #questions-wrapper .input.radio_buttons span.radio.error label {
+    margin-top: 13px;
+    color: white !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
   }
 }

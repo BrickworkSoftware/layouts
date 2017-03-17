@@ -271,6 +271,8 @@ svg.icon:not(.icon--full-color) path {
   font-family: "Gotham-Book", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  margin: 0 auto;
+  max-width: 1440px;
   padding: 0 45px;
   width: 100%;
 }
@@ -708,7 +710,8 @@ input, textarea {
 
 .site-footer {
   display: block;
-  margin-top: 55px;
+  margin: 55px auto 0 auto;
+  max-width: 1440px;
   padding: 0;
   width: 100%;
 }
@@ -823,22 +826,22 @@ input, textarea {
 }
 
 .site-footer .dealer-resources {
-  background: #393536;
+  background: #231f20;
   color: #baa381;
-  padding: 30px 0;
+  padding: 0 0 30px 0;
   margin: 30px 0 0 0;
 }
 
 .site-footer .dealer-resources a {
     color: #baa381;
     font-family: "gotham-medium",Arial,sans-serif;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .site-footer .dealer-resources a .icon-lock {
-    margin: -1px 2px 0 0;
+    margin: 1px 2px 0 0;
     vertical-align: top;
-    width: 10px;
+    width: 12px;
 }
 
 @media only screen and (min-width: 750px) {

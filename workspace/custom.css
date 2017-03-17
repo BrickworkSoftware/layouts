@@ -4106,7 +4106,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   input[type=checkbox] + label:before {
     position: absolute;
-    top: 33%;
     margin-left: -24px;
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_uncheckedbox.svg) !important;
   }
@@ -4128,14 +4127,12 @@ td.bwt-store-hours-table-date-column:after {
   input[type="radio"] + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_unchecked.svg") !important;
     position: absolute;
-    top: 34%;
     margin-left: -24px;
   }
     input[type="radio"]:checked + label:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/radio_button_checked.svg") !important;
     position: absolute;
-    top: 31%;
-    margin-left: -24px;
+    top: 21px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
     font-family: "YWFTUltramagnetic", Arial, sans-serif;

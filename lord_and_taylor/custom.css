@@ -1366,3 +1366,5 @@ button.slick-next, button.slick-prev {
 }
 
 .lt-search-form .search-form-input-container input.search-form-input {width: 80% !important;}
+
+#footer .footer_map .sign_up {display: none !important; }

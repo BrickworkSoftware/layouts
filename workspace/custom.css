@@ -2166,6 +2166,10 @@ td.bwt-store-hours-table-date-column:after {
   button.slick-prev, button.slick-next::before {
     display: none !important;
   }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location, 
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores{
+    float: left;
+  }
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     padding: 0px !important;
     border: 0px !important;
@@ -3981,6 +3985,8 @@ td.bwt-store-hours-table-date-column:after {
     border: 0 solid #E1E0DF;
     border-radius: 3px;
     width: 286px;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:hover,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
@@ -4045,6 +4051,7 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .appointment-enterinfo-container .bwt-appt-button-wrapper {
     width: 250px;
     height: 55px;
+    margin: 0 auto;
   }
   .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
     margin-top: -15px;
@@ -4082,6 +4089,11 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px;
     height: 55px;
     border-radius: 3px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
   }
   #questions-wrapper select, 
   #questions-wrapper select:active, 
@@ -4114,7 +4126,6 @@ td.bwt-store-hours-table-date-column:after {
   }
   input[type=checkbox]:checked + label:before {
     position: absolute;
-    top: 33%;
     margin-left: -24px;
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_checked_box.svg) !important;
   }

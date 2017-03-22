@@ -4184,11 +4184,18 @@ td.bwt-store-hours-table-date-column:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
     width: 250px;
     height: 55px;
-    padding: 0px;
+    margin: 0 auto;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
+    height: 55px;
+    padding: 6px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
+    border: 6px solid #231F20;
   }
   .bwt-appointment-cancel {
     display: flex;
@@ -4196,7 +4203,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bwt-cancel-store-appointment {
     order: 3;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   #questions-wrapper .input.check_boxes span.checkbox.error label {
     margin-top: 13px;
@@ -4822,11 +4829,18 @@ td.bwt-store-hours-table-date-column:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
     width: 250px;
     height: 55px;
-    padding: 0px;
+    margin: 0 auto;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
+    height: 55px;
+    padding: 6px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
+    border: 6px solid #231F20;
   }
   .bwt-appointment-cancel {
     display: flex;
@@ -4834,7 +4848,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bwt-cancel-store-appointment {
     order: 3;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   #questions-wrapper .input.check_boxes span.checkbox.error label {
     margin-top: 13px;
@@ -5435,11 +5449,18 @@ td.bwt-store-hours-table-date-column:after {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
     width: 250px;
     height: 55px;
-    padding: 0px;
+    margin: 0 auto;
+  }
+  .bwt-reschedule-store-appointment .reschedule-appointment-button a.brickwork-button {
+    height: 55px;
+    padding: 6px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    line-height: 18px;
+    border: 6px solid #231F20;
   }
   .bwt-appointment-cancel {
     display: flex;
@@ -5447,7 +5468,7 @@ td.bwt-store-hours-table-date-column:after {
   }
   .bwt-cancel-store-appointment {
     order: 3;
-    margin-top: 20px;
+    margin-top: 40px;
   }
   #questions-wrapper .input.check_boxes span.checkbox.error label {
     margin-top: 13px;

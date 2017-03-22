@@ -2114,6 +2114,7 @@ td.bwt-store-hours-table-date-column:after {
   color: #11000E;
   letter-spacing: 0;
   line-height: 24px;
+  float: right;
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column {

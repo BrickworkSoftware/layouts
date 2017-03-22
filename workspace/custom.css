@@ -2303,6 +2303,9 @@ td.bwt-store-hours-table-date-column:after {
     padding-left: 0px;
     padding-right: 15px;
   }
+  .bw-iframe-container .bwt-store-location-details .choose-store-link .store-detail-name {
+    display: block !important;
+  }
   .bw-display-layer .bwt-store-show #subscription-container {
     display: none;
   }
@@ -3826,7 +3829,6 @@ td.bwt-store-hours-table-date-column:after {
     background: #F2F1EF;
     width: 280px;
     height: 189px;
-    padding: 20px;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     display: none !important

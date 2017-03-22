@@ -4120,6 +4120,7 @@ td.bwt-store-hours-table-date-column:after {
   input[type=checkbox] + label:before {
     position: absolute;
     margin-left: -24px;
+    margin-top: -1%;
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/new_uncheckedbox.svg) !important;
   }
   input[type=checkbox]:checked + label:before {

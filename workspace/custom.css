@@ -4146,8 +4146,8 @@ td.bwt-store-hours-table-date-column:after {
     top: 21px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
-    font-family: "YWFTUltramagnetic", Arial, sans-serif;
-    font-size: 60px;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 40px;
     color: #231F20;
     letter-spacing: 0;
   }
@@ -4784,7 +4784,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-left: -24px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
-    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     font-size: 60px;
     color: #231F20;
     letter-spacing: 0;
@@ -5397,7 +5397,7 @@ td.bwt-store-hours-table-date-column:after {
     margin-left: -24px;
   }
   .bw-display-layer .bwt-appointment-cancel h2 {
-    font-family: "YWFTUltramagnetic", Arial, sans-serif;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     font-size: 60px;
     color: #231F20;
     letter-spacing: 0;

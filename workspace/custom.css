@@ -834,12 +834,12 @@ input, textarea {
 
 .site-footer .dealer-resources a {
     color: #baa381;
-    font-family: "gotham-medium",Arial,sans-serif;
+    font-family: "gotham-book",Arial,sans-serif;
     font-size: 1em;
 }
 
 .site-footer .dealer-resources a .icon-lock {
-    margin: 1px 2px 0 0;
+    margin: -2px 2px 0 0;
     vertical-align: top;
     width: 12px;
 }

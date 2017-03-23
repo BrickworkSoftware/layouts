@@ -5498,4 +5498,11 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
     margin-left: 3%;
   }
+	/*Nik Go-Live Edits */
+.bw-display-layer-container .bwt-index .bwt-index-header-container a.brickwork-button {
+    display: none;
+}
+.bw-display-layer .bwt-index .bwt-index-header-container .international {
+text-align: center !important; 
+}
 }

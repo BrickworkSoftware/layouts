@@ -2153,6 +2153,20 @@ td.bwt-store-hours-table-date-column:after {
   font-family: "Gotham-Bold", Arial, sans-serif !important;
 }
 
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link .bwt-store-email-link-text a,
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link a {
+  color: #B9A283 !important;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 16px !important;
+  letter-spacing: 0.5px !important;
+  line-height: 26px !important;
+  text-decoration: underline !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-link-icons {
+  display: none !important;
+}
+
 /*reponsive store page for mobile */
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
@@ -2284,9 +2298,7 @@ td.bwt-store-hours-table-date-column:after {
     width: 100% !important;
     padding: 0px !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-mobile-only,
-  .bwt-store-show .bwt-store-main-info .bwt-store-social-link,
-  .bwt-store-show .bwt-store-main-info .bwt-store-email-link {
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-mobile-only {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
@@ -2477,10 +2489,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
     border-radius: 3px !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-email-link,
-  .bwt-store-social-link {
-    display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-link-icons {
     margin-top: 10px;
@@ -2817,13 +2825,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
     border-radius: 3px !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-email-link,
-  .bw-display-layer .bwt-store-show .bwt-store-social-link {
-    display: none !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-link-icons {
-    margin-top: 10px;
   }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
   .bw-display-layer .bwt-store-show a.i.fa.fa-instagram {

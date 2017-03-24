@@ -1,0 +1,77 @@
+<div class="site_header show-for-small-only">
+<div class="tb-header">
+  <div class="tb-header-container">
+    <div class="tb-top-header">
+      <div class="tb-nav-wrapper-left">
+        <div class="tb-hamburger icon-hamburger nav-toggle">
+            <i class="fa fa-bars"> </i>
+        </div>
+      </div>
+      <div class="tb-logo-wrapper">
+        <a id="WC_ContentAreaESpot_links_3_1" href="http://www.labaie.com/webapp/wcs/stores/servlet/ClickInfo?evtype=CpgnClick&amp;mpe_id=10829&amp;intv_id=85283&amp;storeId=10701&amp;catalogId=10652&amp;langId=-25&amp;URL=StoreView%3ferrorViewName%3dAjaxOrderItemDisplayView%26storeId%3d10701">
+          <img id="logo-image" src="//s3.amazonaws.com/assets.brickworksoftware.com/the_bay/La_Baie_logo_fr.png" alt="" border="0" style="width:300px; height:20px;">
+        </a>
+      </div>
+      <div class="tb-nav-wrapper-right">
+        <div class="tb-search icon-search-o search-toggle">
+          <i class="fa fa-search"> </i>
+        </div>
+      </div>
+    </div>
+    <div class="tb-bottom-nav">
+      <ol class="tb-area-links">
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/HBCBrandsListView?storeId=10701&amp;catalogId=10652&amp;langId=-25 " class="nav">Marques</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/femmes" class="nav">Femme</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/chaussures" class="nav">Chaussures</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/sacs-a-mains" class="nav">Sacs Á Main</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/bijoux-accessoires" class="nav">Accessories</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/beaute" class="nav">Beauté</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/hommes" class="nav">Homme</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/enfants" class="nav">Enfants</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/enfants/jouets-enfants" class="nav">Jouets</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/maison" class="nav">Maison</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/brand/hudsonsbaycompany" class="nav">HBC</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/en-plus" class="nav">Plus</a></li>
+        <li><a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/SearchDisplay?&amp;searchType=1000&amp;showResultsPage=true&amp;langId=-25&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;pageSize=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=&amp;storeId=10701&amp;facetLabel=SOLDE" class="nav">SOLDE</a></li>
+      </ol>
+    </div>
+    <div class="tb-bottom-search">
+      <div class="tb-search-form">
+        <form id="search-form">
+          <div class="search-form-input-container">
+            <input type="text" class="search-form-input" placeholder="Type to Search">
+            <div class="fa fa-times close-search icon-cross search-toggle"></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<script>
+  // Mobile Nav
+    $('.nav-toggle').each(function (index, id) {
+      $(this).click(function() {
+        $(".tb-header").removeClass("active-search");
+        $(".tb-header").toggleClass("active-nav");
+      });
+    });
+
+    $('.search-toggle').each(function (index, id) {
+      $(this).click(function() {
+        $(".tb-header").removeClass("active-nav");
+        $(".tb-header").toggleClass("active-search");
+      });
+    });
+    
+    $(function() {
+      $('#search-form').submit(function(){
+        var value = $('#search-form :input').val();
+        if (value) {
+          submitForm(value);
+        }
+        return false;
+      });
+    });
+</script>

@@ -2181,7 +2181,7 @@ td.bwt-store-hours-table-date-column:after {
   button.slick-prev, button.slick-next::before {
     display: none !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location,
   .bw-iframe-container .bwt-appointment-choose-store .local-stores{
     float: left;
   }
@@ -3760,6 +3760,10 @@ td.bwt-store-hours-table-date-column:after {
 
 
 /* Appointment Modal Styling */
+.bw-iframe-container .appointment-rsvp-container input[type="text"].cal_field {
+  background: url("//s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
+}
+
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .bw-appointment-header-column.selected a,
   .bw-appointment-header-column.selected span {
@@ -3959,10 +3963,10 @@ td.bwt-store-hours-table-date-column:after {
   .fa-angle-right:before, .bw-load-next-dates:before {
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/right_arrow_appt_modal.svg) !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates,
   .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-next-dates{
     border-radius: 0% !important;
-    color: transparent; 
+    color: transparent;
     box-shadow: none;
     width: 70px !important;
   }
@@ -4099,8 +4103,8 @@ td.bwt-store-hours-table-date-column:after {
     letter-spacing: 2px;
     line-height: 18px;
   }
-  #questions-wrapper select, 
-  #questions-wrapper select:active, 
+  #questions-wrapper select,
+  #questions-wrapper select:active,
   #questions-wrapper select:hover {
     border-color: transparent;
     width: 500px;
@@ -4236,6 +4240,71 @@ td.bwt-store-hours-table-date-column:after {
   }
 }
 
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+  background: white;
+  margin-bottom: 6px;
+}
+.ui-widget-header .ui-icon {
+   background-image: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg") !important;
+   width: 54px;
+   height: 54px;
+   margin-top: 10px !important;
+}
+.ui-datepicker .ui-datepicker-prev {
+  height: 0px;
+}
+.ui-icon-circle-triangle-w {
+  background-position: inherit;
+  margin-top: 1px !important;
+}
+span.ui-icon.ui-icon-circle-triangle-e {
+  background-position: inherit;
+  background-image: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg") !important;
+  margin-top: -7px !important;
+  margin-left: -20px;
+}
+.ui-datepicker table{
+  border: 0px !important;
+  margin-top: 20px;
+}
+.ui-datepicker thead {
+  border-bottom: 1px solid #BAA381;
+  border-top: 1px solid #BAA381;
+}
+.ui-datepicker .ui-state-default {
+  background: none;
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 12px;
+  color: #231F20;
+}
+table tr:nth-of-type(even) {
+  background: none;
+}
+.ui-datepicker-calendar thead tr th {
+  font-family: "Gotham-Medium", Arial, sans-serif;
+  font-size: 12px;
+  color: #BAA381;
+  letter-spacing: 1.5px;
+}
+.ui-datepicker .ui-datepicker-title {
+  font-family: "YWFTUltramagnetic", Arial, sans-serif;
+  font-size: 18px;
+  color: #B99E82;
+  line-height: 20px;
+  margin-top: 15px;
+}
+#ui-datepicker-div {
+  width: 250px !important;
+  height: 240px !important;
+}
+a.ui-datepicker-prev.ui-corner-all:hover {
+  border: none !important;
+  background: none !important;
+}
+a.ui-datepicker-next.ui-corner-all:hover {
+  border: none !important;
+  background: none !important;
+}
 
 /*appointment modal for tablet*/
 @media only screen and (max-width: 992px) and (min-width: 768px) {
@@ -4494,9 +4563,6 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px;
     height: 55px;
   }
-  .bw-iframe-container .appointment-rsvp-container input[type="text"].cal_field {
-    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/date_picker.svg") no-repeat 190px center;
-  }
   .bw-iframe-container .date-group input[type="text"] {
     text-align: left !important;
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
@@ -4587,71 +4653,6 @@ td.bwt-store-hours-table-date-column:after {
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled:hover {
     border: 0px !important;
   }
-  .ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
-    background: white;
-    margin-bottom: 6px;
-  }
-  .ui-widget-header .ui-icon {
-     background-image: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_left_button.svg") !important;
-     width: 54px;
-     height: 54px;
-     margin-top: 10px !important;
-  }
-  .ui-datepicker .ui-datepicker-prev {
-    height: 0px;
-  }
-  .ui-icon-circle-triangle-w {
-    background-position: inherit;
-    margin-top: 1px !important;
-  }
-  span.ui-icon.ui-icon-circle-triangle-e {
-    background-position: inherit;
-    background-image: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/arrow_right_button.svg") !important;
-    margin-top: -7px !important;
-    margin-left: -20px;
-  }
-  .ui-datepicker table{
-    border: 0px !important;
-    margin-top: 20px;
-  }
-  .ui-datepicker thead {
-    border-bottom: 1px solid #BAA381;
-    border-top: 1px solid #BAA381;
-  }
-  .ui-datepicker .ui-state-default {
-    background: none;
-    font-family: "Gotham-Medium", Arial, sans-serif;
-    font-size: 12px;
-    color: #231F20;
-  }
-  table tr:nth-of-type(even) {
-    background: none;
-  }
-  .ui-datepicker-calendar thead tr th {
-    font-family: "Gotham-Medium", Arial, sans-serif;
-    font-size: 12px;
-    color: #BAA381;
-    letter-spacing: 1.5px;
-  }
-  .ui-datepicker .ui-datepicker-title {
-    font-family: "YWFTUltramagnetic", Arial, sans-serif;
-    font-size: 18px;
-    color: #B99E82;
-    line-height: 20px;
-     margin-top: 15px;
-  }
-  #ui-datepicker-div {
-    width: 250px !important;
-    height: 240px !important;
-  }
-  a.ui-datepicker-prev.ui-corner-all:hover {
-    border: none !important;
-    background: none !important;
-  }
-  a.ui-datepicker-next.ui-corner-all:hover {
-    border: none !important;
-    background: none !important;
-  }
   .bw-iframe-container .appointment-enterinfo-container .bwt-appt-input-placeholder {
     font-family: "Gotham-Book", Arial, sans-serif;
     font-size: 16px;
@@ -4741,8 +4742,8 @@ td.bwt-store-hours-table-date-column:after {
   [data-abide] .error small.error {
     width: 500px !important;
   }
-  #questions-wrapper select, 
-  #questions-wrapper select:active, 
+  #questions-wrapper select,
+  #questions-wrapper select:active,
   #questions-wrapper select:hover {
     border-color: transparent;
     width: 500px;
@@ -5361,8 +5362,8 @@ td.bwt-store-hours-table-date-column:after {
   [data-abide] .error small.error {
     width: 500px !important;
   }
-  #questions-wrapper select, 
-  #questions-wrapper select:active, 
+  #questions-wrapper select,
+  #questions-wrapper select:active,
   #questions-wrapper select:hover {
     border-color: transparent;
     width: 500px;
@@ -5500,10 +5501,11 @@ td.bwt-store-hours-table-date-column:after {
     margin-left: 3%;
   }
 	/*Nik Go-Live Edits */
-.bw-display-layer-container .bwt-index .bwt-index-header-container a.brickwork-button {
+  .bw-display-layer-container .bwt-index .bwt-index-header-container a.brickwork-button {
     display: none;
-}
-.bw-display-layer .bwt-index .bwt-index-header-container .international {
-text-align: center !important; 
-}
+  }
+
+  .bw-display-layer .bwt-index .bwt-index-header-container .international {
+    text-align: center !important;
+  }
 }

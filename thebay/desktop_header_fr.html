@@ -1,0 +1,1615 @@
+<script type="text/javascript">
+  $(function() {
+    $('#CatalogSearchForm').submit(function(){
+      var value = $('#SimpleSearchForm_SearchTerm').val();
+      if (value) {
+        submitForm(value);
+      }
+      return false;
+    });
+  });
+</script>
+
+<ul id="header_top_tool" style="width: 960px; margin: 0px auto;">
+  <input type="hidden" id="fromContextDat" name="fromContextDat" value="0" class="ssaket">
+  <input type="hidden" id="fromWcParam" name="fromWcParam" value="112788587">
+  <input type="hidden" id="envrUserType" name="envrUserType" value="G">
+  <input type="hidden" id="homePageURL" name="homePageURL" value="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay">
+  <input type="hidden" id="LABAIEDOMAIN" name="LABAIEDOMAIN" value="">
+  <input type="hidden" id="THEBAYDOMAIN" name="THEBAYDOMAIN" value="">
+  <li>
+    <a href="//locationsqa.thebay.com/en-ca">English</a></li>
+  <li>
+    <a href="http://flyers.thebay.com/flyers/thebay?locale=en&amp;type=1&amp;auto_locate=true" target="_blank">View Flyer</a></li>
+  <li class="last">
+    <a href="http://www.thebay.com/webapp/wcs/stores/servlet/StoreLocatorDisplayView?catalogId=10652&amp;langId=-24&amp;storeId=10701" class="h_tnav_but" id="WC_LTHeader_Link_3">Store Locator</a>
+  </li>
+</ul>
+
+<div id="header_content" style="width: 960px; margin: 0px auto;">
+   <div class="header">
+      <div class="genericESpot" id="WC_ContentAreaESpot_div_1_10829">
+         <div class="caption" style="display:none" id="WC_ContentAreaESpot_div_2_10829">[headerSpot1]</div>
+         <div class="ESpotInfo" id="WC_ContentAreaESpotInfo_10829">
+            <a href="#" onclick="showESpotInfoPopup('ESpotInfo_popup_headerSpot1'); return false;">
+               <div class="ESpotInfoIcon"></div>
+            </a>
+         </div>
+         <div class="ad" id="ad_10829">
+            <a id="WC_ContentAreaESpot_links_3_1" href="http://www.thebay.com/webapp/wcs/stores/servlet/ClickInfo?evtype=CpgnClick&amp;mpe_id=10829&amp;intv_id=85283&amp;storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;URL=StoreView%3ferrorViewName%3dAjaxOrderItemDisplayView%26storeId%3d10701">
+            <img src="//s3.amazonaws.com/assets.brickworksoftware.com/the_bay/La_Baie_logo_fr.png" alt="" border="0" style="width:300px; height:20px;">
+            </a>
+         </div>
+      </div>
+   </div>
+   <div class="header_search">
+      <div class="header_search_subwarp" id="headerSearchSubwarp">
+         <form name="CatalogSearchForm" action="SearchDisplay" method="get" id="CatalogSearchForm">
+            <input type="hidden" name="storeId" value="10701" id="WC_CachedHeaderDisplay_FormInput_storeId_In_CatalogSearchForm_1">
+            <input type="hidden" name="catalogId" value="10652" id="WC_CachedHeaderDisplay_FormInput_catalogId_In_CatalogSearchForm_1">
+            <input type="hidden" name="langId" value="-24" id="WC_CachedHeaderDisplay_FormInput_langId_In_CatalogSearchForm_1">
+            <input type="hidden" name="pageSize" value="12" id="WC_CachedHeaderDisplay_FormInput_pageSize_In_CatalogSearchForm_1">
+            <input type="hidden" name="beginIndex" value="0" id="WC_CachedHeaderDisplay_FormInput_beginIndex_In_CatalogSearchForm_1">
+            <input type="hidden" name="sType" value="SimpleSearch" id="WC_CachedHeaderDisplay_FormInput_sType_In_CatalogSearchForm_1">
+            <input type="hidden" name="resultCatEntryType" value="2" id="WC_CachedHeaderDisplay_FormInput_resultType_In_CatalogSearchForm_1">
+            <input type="hidden" name="showResultsPage" value="true" id="WC_CachedHeaderDisplay_input_1">
+            <input type="hidden" name="pageView" value="image" id="WC_CachedHeaderDisplay_input_2">
+            <input type="hidden" name="searchSource" value="Q" id="WC_CachedHeaderDisplay_FormInput_searchSource_In_CatalogSearchForm_1">
+            <label for="SimpleSearchForm_SearchTerm" class="nodisplay">Search</label>
+            <div class="search_tab">
+               <div id="searchTextHolder" class="nodisplay">Search</div>
+               <meta name="CommerceSearch" content="storeId_10701">
+               <div class="search_tab">
+                  <input id="SimpleSearchForm_SearchTerm" maxlength="65" accesskey="0" size="18" name="searchTerm" type="text" class="search" value="Search" onclick="if(this.value=='Search'){this.value=''}" onblur="if(this.value==''){this.value='Search'}">
+                  <a class="actions" href="JavaScript:document.CatalogSearchForm.searchTerm.value=stripBackSlash(trim(document.CatalogSearchForm.searchTerm.value));document.CatalogSearchForm.action=getAbsoluteURL()+'AjaxCatalogSearchView'; submitSpecifiedForm(document.CatalogSearchForm);">
+                  <input type="image" src="http://www.thebay.com/wcsstore/TheBay/images/header_search_bt.gif" class="search_bt submit" onclick="JavaScript:stripBackSlash(document.CatalogSearchForm.searchTerm.value); document.cookie='lastSearchTerm='+trim(document.CatalogSearchForm.searchTerm.value)+';path=/'">
+                  </a>
+               </div>
+               <script type="text/javascript">
+                  // The primary Array to hold all static search suggestions
+                  var staticContent = new Array();
+                  
+                  // The titles of each search grouping
+                  var staticContentHeaders = new Array();
+                  var staticContentHeaderHistory = "History"
+                  
+                  // The auto suggest container ID's
+                  var staticContentSectionDiv = ["autoSuggestStatic_1", "autoSuggestStatic_2", "autoSuggestStatic_3"];
+               </script>
+               <div dojotype="wc.widget.RefreshArea" widgetid="AutoSuggestCachedSuggestions" controllerid="AutoSuggestCachedSuggestionsController" id="autoSuggestCachedSuggestions_div" role="wairole:region" waistate:live="polite" waistate:atomic="true" waistate:relevant="all" style="display:none;">
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+
+</div>
+
+
+
+<ul id="main_nav" style="width: 960px; margin: 0px auto;">
+   <form name="kleinfeldSearchForm" id="kleinfeldSearchForm" style="width: 100%;">
+      <input type="hidden" id="kleinfeldCategoryURL" value="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/Kleinfeld">                
+   </form>
+   <!-- Drop Down - START --><!-- Drop Down - END -->
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/HBCBrandsListView?storeId=10701&amp;catalogId=10652&amp;langId=-25" class="nav">Marques</a>
+      <!-- Drop Down - START --><!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/femmes" class="nav">Femme</a>
+      <!-- Drop Down - START -->
+      <div id="men3" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/new-arrivals-women">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/dresses">Dresses</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/evening-dresses">Evening Gowns</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/tops">Tops</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/womens-jeans">Jeans</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/sweaters">Sweaters</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/blazers">Blazers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/pants">Pants &amp; Leggings</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/activewear">Activewear</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/womens-coats">Coats &amp; Jackets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/vests">Vests</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/womens-pants-jumpsuits-rompers">Jumpsuits &amp; Rompers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/womens-shorts">Shorts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/skirts">Skirts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/swimwear">Swimwear &amp; Cover-Ups</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/Suits">Suiting</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/intimate-apparel">Bras, Panties &amp; Lingerie</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/shapewear">Shapewear</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/sleepwear">Sleepwear &amp; Lounge</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/hosiery">Hosiery &amp; Socks</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/plus-size">Plus Size</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/petites">Petites</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-shoes">Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags">Handbags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories">Jewellery &amp; Accessories</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">TODAY ONLY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/704-flash-w-35offnewarrivals">35% off New Arrivals</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/NavSearchDisplay?sType=SimpleSearch&amp;urlRequestType=Base&amp;catalogId=10652&amp;categoryId=659163&amp;pageView=image&amp;showResultsPage=true&amp;urlLangId=-24&amp;beginIndex=0&amp;resultCatEntryType=&amp;langId=-24&amp;top_category=133659&amp;storeId=10701">Online Only</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">FEATURED SHOPS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/contemporaryshop">The Contemporary Shop</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/content-view/designer-shop">The Designer Edit</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/bq-officewear">The Officewear Shop</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/2016-resort-shop">The Resort Shop</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/wedding-shop">The Wedding Shop</a></li>
+                  <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/featured-shops">Show All</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Trends</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/feminine-allure">Portrait of a Lady</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/bq-contemporary-melroseplace">Melrose Place</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/bq-designer-buyerspicks">Buyers' Picks</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+            </div>
+            <div class="subnav_right_list">
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/TOPSHOP/womens-apparel">TOPSHOP</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/TOPSHOP-SALE">End-of-Season Sale</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/Topshop">New Arrivals</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/Kleinfeld">Kleinfeld</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">HBC Stripes</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/canadianolympicteamcollection">Olympic</a></li>
+               </ul>
+            </div>
+         </div>
+         <!---- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel">Shop All Women</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/chaussures" class="nav">Chaussures</a>
+      <!-- Drop Down - START -->
+      <div id="men4" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/shoes-new-arrivals">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-shoes">Women's Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-boots">Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/wide-calf-boots">Wide Calf Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/winter-boots">Winter Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/rain-boots">Rain Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/booties-shooties">Ankle Booties</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/tall-boots">Tall Boots</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-boots">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-sandals">Sandals</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/wedges-sandals">Wedge Sandals</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/flats">Flat Sandals</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/flip-flops--jellies">Flip-Flops</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/high-heel-sandals">Heeled Sandals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/pumps">Heels &amp; Pumps</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/wedges">Wedges</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/mid-heels">Mid Heels</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/stilettos-high-heels">Stiletto &amp; High Heels</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/partyandeveningshoes">Party &amp; Evening Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-sneakers">Sneakers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/loafers-oxfords">Loafers &amp; Oxfords</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfort-shoes">Comfort Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfortshoes-boots">Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfortshoes-loafers">Loafers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfortshoes-flats">Flats</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfortshoes-pumps-wedges">Pumps &amp; Wedges</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfort+shoes-sandals">Sandals</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comfort-shoes">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-flats">Flats</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/espadrilles">Espadrilles</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/hiking-shoes">Hiking &amp; Outdoors</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/safety-shoes">Safety Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/womens-slippers">Slippers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/mens-shoes">Men's Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-shoes">Kids' Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/shoe-care---insole">Shoe Care &amp; Insoles</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">FEATURED SHOPS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/content-view/designershoes">Designer Shoe Shop</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/comtemporary-shoes">Contemporary Shoes</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes/special-sizes-shoes">Extended Sizes</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/wedding-shop">The Wedding Shop</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/shoes">Shop All Shoes</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/sacs-a-mains" class="nav">Sacs Á Main</a>
+      <!-- Drop Down - START -->
+      <div id="men5" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/new-arrivals-handbags">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/bestsellers-handbags">Best Sellers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/handbags-166780--24">Handbags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/crossbodybags">Crossbody Bags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/totes">Totes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/satchels">Satchels</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/shoulder-bags">Shoulder Bags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/clutches-evening">Clutches &amp; Evening</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/backpacks-duffle-bags">Backpacks &amp; Duffle Bags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/gym-bags-womens">Gym Bags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/handbag-accessories">Handbag Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/wallets-cases">Wallets &amp; Cases</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/wallets">Wallets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/wristlets">Wristlets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/card-cases-coin-purses">Card Cases &amp; Coin Purses</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/tech-phone-accessories">Tech Accessories &amp; Cases</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/cosmetic-bags-pouches">Cosmetic Bags</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/wallets-cases">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/luggage-backpacks">Luggage</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/luggage">Suitcases</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/luggage-sets-collections">Luggage Sets &amp; Collections</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/garment-bags">Garment Bags</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/totes-duffle-bags">Totes &amp; Duffle Bags</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/sport-bags">Sport Bags</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/luggage-backpacks">Show All</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">TODAY ONLY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=167102&amp;top_category=133654&amp;storeId=10701&amp;facetLabel=SALE">75% Off Ricardo Beverly Hills Luggage Collections, Plus up to 65% off other luggage</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">FEATURED SHOPS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/BQ-2014Contemporary-HB">Contemporary Handbags</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/bq-designer-handbags">Designer Handbags</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/wedding-shop">The Wedding Shop</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Featured Brands</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/COACH/handbags">Coach</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/laurenralphlauren/handbags">Lauren Ralph Lauren</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/fossil/handbags">Fossil</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/calvinklein/handbags">Calvin Klein</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">HBC Stripes</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags">Shop All Handbags</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/bijoux-accessoires" class="nav">Accessories</a>
+      <!-- Drop Down - START -->
+      <div id="men6" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/new-arrivals">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/bestsellers-jewellery-accessories">Best Sellers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fine-jewellery">Fine Jewellery</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fine-jewellery-earrings">Earrings </a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/necklaces">Necklaces </a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fine-jewellery-bracelets">Bracelets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fine-jewellery-rings">Rings </a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/engagementandwedding">Engagement &amp; Wedding</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fine-jewellery">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fashion-jewellery">Fashion Jewellery</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fashion-jewellery-earrings">Earrings</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/jewellery-necklaces">Necklaces</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/jewellery-bracelets">Bracelets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/jewellery-rings">Rings</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/jewellery-specialoccasion">Special Occasion</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/fashion-jewellery">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/sunglasses">Sunglasses &amp; Reading Glasses</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/Accessories">Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/scarvesgloveshats">Hats, Scarves &amp; Gloves</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/capes-ponchos">Capes &amp; Ponchos</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/belts">Belts</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/tech-phone-accessories">Tech Accessories &amp; Cases</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/umbrellas">Umbrellas</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/Accessories">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/watches">Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/luxurywatches">Luxury Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/womens-watches">Women's Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/mens-watches">Men's Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/kidswatches">Kids' Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/smarttechwatches">Smart &amp; Sport Watches</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/watches">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/jewellerywatchboxes">Jewellery &amp; Watch Boxes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-accessories">Men's Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids--accessories">Kids' Accessories</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">FEATURED SHOPS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/EFFY-RedBox">Red Box Jewellery</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories/BQ-2014Contemporary-J">Contemporary Jewellery and Accessories</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/wedding-shop">The Wedding Shop</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/content-view/BayOpticiansPg">Optical</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">HBC Stripes</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/canadianolympicteamcollection">Olympic</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/jewellery-accessories">Shop All Jewellery &amp; Accessories</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/beaute" class="nav">Beauté</a>
+      <!-- Drop Down - START -->
+      <div id="men7" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/Beauty-New-Arrivals">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/beauty-best-sellers">Best Sellers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/gift-sets">Gift Sets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/makeup">Makeup</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/eyes">Eyes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/lips">Lips</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/face">Face</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/makeup-sets-and-palettes">Eye Makeup Sets &amp; Palettes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/makeup-remover">Makeup Remover</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/makeup">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare">Skin Care</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-cleansers">Cleansers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-moisturizers">Moisturizers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-treatments-masks">Treatments &amp; Masks</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/sun-care">Sun Screens &amp; Self Tanners</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/tools">Skin Care Tools</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/fragrance">Fragrance</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/womens-perfume">Women's Perfume</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/mens-cologne">Men's Cologne</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/scented-lotion-shower-gel">Scented Lotions &amp; Shower Gels</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/fragrance-giftsets">Fragrance Sets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/fragrance-rollerballs-and-travel-sizes">Rollerballs &amp; Travel Sizes</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/fragrance">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/bath-body">Bath &amp; Body</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/hair-care">Hair Care</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/nails">Nails</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/mens-grooming-and-cologne">Men's Grooming &amp; Cologne</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/beauty-brushes-tools">Tools &amp; Brushes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/travel-size-beauty-discovery-sets">Travel &amp; Discovery Sets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/fragrance-rollerballs-and-travel-sizes">Rollerballs &amp; Travel Sizes</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Skincare for All Ages</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-20s">In Your 20's</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-30s">In Your 30's</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-40s">In Your 40's</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/skincare-50s-plus">In Your 50's +</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/gift-with-purchases">Gifts With Purchase</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/lanc%C3%B4me/beauty">Lancôme Free Gift </a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/esteelauder/beauty">Estee Lauder: Spend $50+ and Receive Free Gift</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/SearchDisplay?facet=xf_sale_clearance:Y&amp;langId=-24&amp;urlRequestType=Base&amp;categoryId=133652&amp;sType=SimpleSearch&amp;searchType=1000&amp;top_category=133652&amp;facetLabel=SALE&amp;catalogId=10652&amp;pageView=image&amp;storeId=10701&amp;beginIndex=0">Beauty Deals</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/SearchDisplay?facet=mfName_ntk_cs%3AM.A.C|ads_f6_ntk_cs%3AY&amp;langId=-24&amp;urlRequestType=Base&amp;showResultsPage=truec9&amp;sType=SimpleSearch&amp;searchType=1000&amp;facetLabel=M.A.C|Sale&amp;catalogId=10652&amp;storeId=10701&amp;manufacturer=M.A.C ">40% off: MAC Goodbyes</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">What's New</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/shadscents-12459--24">MAC Shadescents</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Clinique+Fresh+Pressed&amp;x=0&amp;y=0&amp;facetLabel=%20Fresh%20Pressed">New! Clinique Fresh Pressed</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+            </div>
+            <div class="subnav_right_list">
+               <ul>
+                  <li class="first">Featured Brands</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/HBCChanelLandingView?sType=SimpleSearch&amp;facet=297651&amp;catalogId=10652&amp;showResultsPage=true&amp;beginIndex=0&amp;langId=-24&amp;top_category=133659&amp;searchType=1000&amp;storeId=10701&amp;facetLabel=CHANEL">CHANEL</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/mac/beauty">M.A.C</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/HERMÈS/beauty">HERMÈS</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/burberry/beauty">BURBERRY</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty">Shop All Beauty</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/hommes" class="nav">Homme</a>
+      <!-- Drop Down - START -->
+      <div id="men8" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-new-arrivals">New Arrivals</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/bigandtall">Big &amp; Tall</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-coats-jackets">Coats &amp; Jackets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/suits">Suits &amp; Tuxedos</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-blazers">Sport Coats &amp; Blazers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-shirts">Shirts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-sweaters">Sweaters</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-sweatshirts">Sweatshirts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-pants">Pants</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-jeans">Jeans</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/men-shorts">Shorts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-swimwear">Swimwear</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/men-s-activewear">Activewear</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/lounge-sleepwear">Sleepwear</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/ties-bowties">Ties &amp; Bow Ties</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/underwear---socks--24">Underwear &amp; Socks</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/beauty/mens-grooming-and-cologne">Men's Grooming &amp; Cologne</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-accessories">Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/MENS-Accessories-Sunglasses">Sunglasses</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/MENS-Accessories-Umbrellas">Umbrellas</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/MensScarvesGlovesHats">Hats, Scarves &amp; Gloves</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/MENS-Accessories-BagsCases">Bags &amp; Backpacks</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/MENS-Accessories-Wallets">Wallets</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-accessories">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-shoes">Men's Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-boots">Boots</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-dress-shoes">Dress Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/casual-mens-shoes">Casual Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-casual-sneakers">Sneakers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/athleticshoes">Athletic &amp; Running Shoes</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-shoes">Show All</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">SALES AND EVENTS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=xf_ads_f8%3AY&amp;categoryId=166742&amp;top_category=133658&amp;storeId=10701&amp;facetLabel=CLEARANCE">New Markdowns: Men’s Footwear</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=564675&amp;top_category=133657&amp;storeId=10701&amp;facetLabel=SALE">30% off Select Suits, Suit Separates &amp; Sport Coats</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=166742&amp;top_category=133658&amp;storeId=10701&amp;facetLabel=SALE">30% Off Select Men's Shoes</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=168350&amp;top_category=133657&amp;storeId=10701&amp;facetLabel=SALE">Buy 1, Get 1 50% Off on Select Underwear</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Shops</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/content-view/men-designer-brands">Men's Designer Brands</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/mens-contemporary-brands">Streetwear Style</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Featured Brands</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/poloralphlauren/mens">Polo Ralph Lauren</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/calvinklein/mens">Calvin Klein</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/tommyhilfiger/mens">Tommy Hilfiger</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/underarmour/mens">Under Armour</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+            </div>
+            <div class="subnav_right_list">
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/TOPMAN/mens">TOPMAN</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/TOPMAN-SALE">End-of-Season Sale</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens/topman-new-arrivals-en">New Arrivals</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">HBC Stripes</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/canadianolympicteamcollection">Olympic</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/mens">Shop All Men</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/enfants" class="nav">Enfants</a>
+      <!-- Drop Down - START -->
+      <div id="men9" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-clothing-0-36-months">Baby Clothing</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-baby-girls">Baby Girls (0-24 Months)</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-baby-boys">Baby Boys (0-24 Months)</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-clothing-collections">Clothing Collections</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-clothing-socks-accessories">Socks &amp; Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/nursery-furniture">Nursery Furniture &amp; Décor</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/cribs-bassinets-toddler-beds">Cribs &amp; Toddler Beds</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/crib-mattresses-mattress-pads">Crib Mattresses</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/strollers-car-seats">Strollers, Car Seats &amp; Travel</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-toys-activity">Baby Toys &amp; Activity</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-feeding">Baby Feeding</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-health-safety">Baby Health &amp; Safety</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/bath-potty-diapering">Bath, Potty &amp; Diapering</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/girls-apparel">Girls Clothing</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/girls-2-6">Girls (2-6)</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/girls-7-16">Girls (7-16)</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/boys-apparel">Boys Clothing</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/boys-2-7">Boys (2-7)</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/boys-820">Boys (8-20)</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids--accessories">Kids' Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-luggage">Kids' Luggage</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-backpacks">Backpacks</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/KID%27S-HatsScarvesAndGloves">Hats &amp; Gloves</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kidswatches">Kids' Watches</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-sunglasses">Sunglasses</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids--accessories">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-shoes">Kids' Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-shoes">Baby Shoes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/boots-166779--24">Boots</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-toys">Kids' Toys</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/building-sets-blocks">Building Sets &amp; Blocks</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/action-figures-playsets">Action Figures &amp; Playsets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/dolls-playsets">Dolls &amp; Playsets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/arts-crafts">Arts &amp; Crafts</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/science-discovery">Science &amp; Discovery</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-toys">Show All</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">SALES AND EVENTS</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/BQ-2014-KidsSpecialOccasion">30% Off Select Dresswear</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Shops</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/must-have-kids-toys">Must-Have Toys</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/bq-kids-coats-jackets">Outerwear</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/BQ-2014-KidsSpecialOccasion">Dresswear</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/bq-kids-pyjamas">Sleepwear</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">Featured Brands</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/chaps/kids">Chaps</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/ralphlaurenchildrenswear/kids">Ralph Lauren Childrenswear</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/guess/kids">Guess</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/levis/kids">Levi's</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/canadianolympicteamcollection">Olympic</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids">Shop All Kids</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/enfants/jouets-enfants" class="nav">Jouets</a>
+      <!-- Drop Down - START -->
+      <div id="men10" class="subpannel">
+         <!-- Specialty Group 1 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/NavSearchDisplay?sType=SimpleSearch&amp;urlRequestType=Base&amp;catalogId=10652&amp;categoryId=699651&amp;pageView=image&amp;showResultsPage=true&amp;urlLangId=-24&amp;beginIndex=0&amp;resultCatEntryType=&amp;langId=-24&amp;top_category=675152&amp;storeId=10701">Must-Have Toys</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Star+Wars&amp;x=0&amp;y=0&amp;facetLabel=Star%20Wars&amp;categoryId=133656">STAR WARS</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Trolls&amp;x=0&amp;y=0&amp;facetLabel=Trolls%20&amp;categoryId=133656">Trolls </a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Paw+Patrol&amp;x=0&amp;y=0&amp;facetLabel=Paw%20Patrol&amp;categoryId=133656">Paw Patrol</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=disney&amp;x=0&amp;y=0&amp;facetLabel=Disney&amp;categoryId=133656">Disney</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Frozen&amp;x=0&amp;y=0&amp;facetLabel=Disney%20Frozen&amp;categoryId=133656">Disney Frozen</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=marvel&amp;x=0&amp;y=0&amp;facetLabel=marvel&amp;categoryId=133656">Marvel</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=Meccano&amp;x=0&amp;y=0&amp;facetLabel=Meccano&amp;categoryId=133656">MECCANO</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=barbie&amp;x=0&amp;y=0&amp;facetLabel=barbie&amp;categoryId=133656">Barbie</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/calicocritters/kids/kids-toys ">CALICO CRITTERS</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10701&amp;catalogId=10652&amp;langId=-24&amp;pageSize=120&amp;sType=SimpleSearch&amp;resultCatEntryType=2&amp;showResultsPage=true&amp;searchSource=Q&amp;searchTerm=sesame+street&amp;x=0&amp;y=0&amp;facetLabel=Sesame%20Street&amp;categoryId=133656">SESAME STREET</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/building-sets-blocks">Building Sets &amp; Blocks</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/action-figures-playsets">Action Figures &amp; Playsets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/dolls-playsets">Dolls &amp; Playsets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/arts-crafts">Arts &amp; Crafts</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/science-discovery">Science &amp; Discovery</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/games-puzzles">Games &amp; Puzzles</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/learning-toys">Learning Toys</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/trains-vehicles-remote-control">Trains, Vehicles &amp; Remote Control</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/outdoor-play">Outdoor Play</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/dress-up-pretend-play">Dress-Up &amp; Pretend Play</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/plush-toys-stuffed-animals">Plush Toys</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/toddler-preschool-toys">Toddler &amp; Preschool Toys</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/baby-toys-activity">Baby Toys &amp; Activity</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">What's New</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/NavSearchDisplay?sType=SimpleSearch&amp;urlRequestType=Base&amp;catalogId=10652&amp;categoryId=708163&amp;pageView=image&amp;showResultsPage=true&amp;urlLangId=-24&amp;beginIndex=0&amp;resultCatEntryType=&amp;langId=-24&amp;top_category=675152&amp;storeId=10701">LEGO: DC Superhero Girls</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/NavSearchDisplay?sType=SimpleSearch&amp;urlRequestType=Base&amp;catalogId=10652&amp;categoryId=708162&amp;pageView=image&amp;showResultsPage=true&amp;urlLangId=-24&amp;beginIndex=0&amp;resultCatEntryType=&amp;langId=-24&amp;top_category=675152&amp;storeId=10701">LEGO: Batman Movie</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=514162&amp;top_category=133656&amp;storeId=10701&amp;facetLabel=SALE">Sales and Events</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/lego/kids/kids-toys">LEGO</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/crayola/kids/kids-toys">CRAYOLA</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/ourgeneration/kids/kids-toys">OUR GENERATION</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/brio/kids/kids-toys">BRIO</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/guidecraftinc/kids/kids-toys">GUIDECRAFT</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/playmobil/kids/kids-toys">PLAYMOBIL</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/melissa-doug/kids/kids-toys">Melissa &amp; Doug</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/vtech">VTECH</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/fisherprice/kids">FISHER PRICE</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/kids/kids-toys">Shop All Toys</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/maison" class="nav">Maison</a>
+      <!-- Drop Down - START -->
+      <div id="men11" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Kitchen">Kitchen</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/cookware--24">Cookware</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/GadgetsUtensils">Gadgets &amp; Utensils</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Knives-Accessories">Knives &amp; Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Bakeware">Bakeware</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/small-appliances">Small Appliances</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Juicers-Blenders">Juicers &amp; Blenders</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Mixers">Mixers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/CoffeeTea-EspressoMachines">Espresso Machines</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/Toasters-ToasterOvens">Toasters &amp; Toaster Ovens</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/major-appliances">Major Appliances</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/washers-dryers">Washers &amp; Dryers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/refrigerators">Refrigerators</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/stoves---ovens">Stoves &amp; Ovens</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/dishwashers">Dishwashers</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bedding-">Bedding</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bed-basics">Pillows &amp; Duvets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bedding-sets--fashions">Sheets &amp; Bedding Sets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bedding-collections">Bedding Collections</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/mattresses">Mattresses &amp; Bed Frames</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bath">Bath</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/towels-mats">Bath &amp; Hand Towels</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bath-mats-rugs">Bath Mats &amp; Rugs</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bathroom-accessories-hardware">Bathroom Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/dining-entertaining">Dining</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/dinnerware-serveware">Dinnerware &amp; Serveware</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/glassware-bar">Glassware &amp; Bar</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/flatware-cutlery">Cutlery</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/table-cloths--runners">Table Linens &amp; Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/furniture">Furniture</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/living-room">Living Room</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/bedroom">Bedroom</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/dining-room">Dining Room</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/office-furniture">Home Office</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/window-coverings">Window Coverings</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/home--decor">Home Decor</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/area-rugs">Area Rugs</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/artwork-mirrors">Wall Art &amp; Mirrors</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/throw-pillows">Throw Pillows</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/lighting">Lighting</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/vacuums-floorcare">Vacuums &amp; Floorcare</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/home-care">Laundry &amp; Cleaning</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/storage-organization">Home Organization</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/HOME-OutdoorLiving">Patio &amp; Outdoor</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/home-gym-fitness-equipment">Fitness Equipment</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/gourmet-gifts">Food &amp; Gift Baskets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/electronics">Electronics</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/handbags/luggage-backpacks">Luggage</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/luggage">Suitcases</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/luggage-sets-collections">Sets &amp; Collections</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/back-packs">Backpacks &amp; Crossbodies</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/totes-duffle-bags">Totes &amp; Duffle Bags</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">TODAY ONLY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=167102&amp;top_category=133654&amp;storeId=10701&amp;facetLabel=SALE">75% Off Ricardo Beverly Hills Luggage Collections, Plus up to 65% off other luggage</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">DEAL OF THE DAY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/small-appliances">$89.99 Cuisinart 12-Cup Coffee Maker, Plus, 25% off Select Small Appliances</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">HBC Stripes</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/canadianolympicteamcollection">Olympic</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home">Shop All Home</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/brand/hudsonsbaycompany" class="nav">HBC</a>
+      <!-- Drop Down - START -->
+      <div id="men12" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/hudsons-bay-company-collection-point-blankets">Point Blankets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/home/bedding-sets--fashions">Throws &amp; Cushions</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/home/dining-entertaining">Table Top &amp; Entertaining</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/home/Kitchen">Kitchen</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/mens">Men</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/womens-apparel">Women</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/kids">Kids &amp; Baby</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/jewellery-accessories">Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/more/pet-supplies">Dog</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany/home/HOME-OutdoorLiving">Outdoor</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START --><!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/brand/hudsonsbaycompany">Shop All HBC</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/labaie/search/en-plus" class="nav">Plus</a>
+      <!-- Drop Down - START -->
+      <div id="men13" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/fitness-equipment-accessories">Fitness Equipment &amp; Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/home-gym-equipment">Exercise Equipment</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/fitnesstracker">Fitness Trackers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/sport-bags">Sport Bags</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/water-bottles">Water Bottles</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/sports-fan-zone">Jerseys &amp; Fan Gear</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/hockey-jerseys-apparel">NHL</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/baseball-jerseys-apparel">MLB</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/basketball-jerseys-apparel">NBA</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/football-jerseys-apparel">NFL</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/costumes-novelties">Costumes &amp; Novelties</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/electronics">Electronics &amp; Audio</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/headphones-speakers-">Headphones &amp; Speakers</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/records---players">Records &amp; Players</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/tech-toys">Tech Gadgets &amp; Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+         </div>
+         <div class="subnav_left">
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/baby-gear">Baby Gear</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/nursery-furniture">Nursery Furniture &amp; Decor</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/strollers-car-seats">Strollers, Car Seats &amp; Travel</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/baby-toys-activity">Baby Toys &amp; Activity</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/baby-feeding">Baby Feeding</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/bath-potty-diapering">Bath, Potty &amp; Diapering</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/baby-gear">Show All</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/gourmet-gifts">Food &amp; Gift Baskets</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/pet-supplies">Pet Supplies</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/pet-feeding-accessories">Feeding &amp; Accessories</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/pet-beds">Pet Beds &amp; Blankets</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/dog-clothes">Dog Clothes</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/dog---cat-toys">Dog &amp; Cat Toys</a></li>
+               <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/pet-grooming">Grooming</a></li>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more/pet-supplies">Show All</a></li>
+            </ul>
+         </div>
+         <!-- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=708153&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=167052&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Up to 50% off Select Holiday Chocolates</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=708153&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=168287&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Save on Select Pet Supplies</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/more">Shop All More</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+   <li class="submenu">
+      <a href="http://www.labaie.com/webapp/wcs/stores/servlet/fr/SearchDisplay?&amp;searchType=1000&amp;showResultsPage=true&amp;langId=-25&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;pageSize=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=&amp;storeId=10701&amp;facetLabel=SOLDE" class="nav">Soldes</a>
+      <!-- Drop Down - START -->
+      <div id="men14" class="subpannel">
+         <!-- Specialty Group 1 - START --><!-- Specialty Group 1 - END --><!-- Primary Group - START -->
+         <div class="subnav_left">
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133659&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133659&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Women</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133658&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133658&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Shoes</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133653&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133653&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Handbags</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133655&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133655&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Jewellery &amp; Accessories</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133657&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133657&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Men</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133656&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133656&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Kids</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133654&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=133654&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Home</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133653&amp;catalogId=10652&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=167102&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">Luggage</a></li>
+            </ul>
+            <!-- If L2 Category requires line break -->
+            <ul>
+               <li><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?sType=SimpleSearch&amp;top_category=133651&amp;catalogId=10652&amp;facet=xf_sale_clearance:Y&amp;categoryId=133651&amp;storeId=10701&amp;langId=-24&amp;facetLabel=SALE">HBC Collections</a></li>
+            </ul>
+         </div>
+         <!--- Primary Group - END --><!-- Specialty Group 2 - START -->
+         <div class="subnav_right subnav_right_height01">
+            <div class="subnav_right_list">
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">TODAY ONLY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=167102&amp;top_category=133654&amp;storeId=10701&amp;facetLabel=SALE">75% Off Ricardo Beverly Hills Luggage Collections, Plus up to 65% off other luggage</a></li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/womens-apparel/704-flash-w-35offnewarrivals">35% off Women's New Arrivals</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first">DEAL OF THE DAY</li>
+                  <!-- For redirect to  CHANEL  Home page-->
+                  <li><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/thebay/search/home/small-appliances">$89.99 Cuisinart 12-Cup Coffee Maker, Plus, 25% off Select Small Appliances</a></li>
+               </ul>
+               <!-- If L2 Category requires line break -->
+               <ul>
+                  <li class="first"><a class="first" href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;showResultsPage=true&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;pageSize=&amp;catalogId=10652&amp;pageView=image&amp;facet=xf_ads_f8:Y&amp;categoryId=&amp;storeId=10701&amp;facetLabel=CLEARANCE">Clearance</a></li>
+               </ul>
+            </div>
+         </div>
+         <!-- Specialty Group 2 - END -->
+         <div class="clear"></div>
+         <!-- SHOP ALL - START -->
+         <div class="subnav_down"><a href="http://www.thebay.com/webapp/wcs/stores/servlet/en/SearchDisplay?&amp;searchType=1000&amp;showResultsPage=true&amp;langId=-24&amp;beginIndex=0&amp;sType=SimpleSearch&amp;metaData=&amp;pageSize=&amp;catalogId=10652&amp;pageView=image&amp;facet=ads_f6_ntk_cs:Y&amp;categoryId=&amp;storeId=10701&amp;facetLabel=SALE">Shop All SALE</a></div>
+         <!-- SHOP ALL - END -->
+      </div>
+      <!-- Drop Down - END -->
+   </li>
+</ul>
+
+<!--
+<script type="text/javascript">
+   var mainNav = $("ul#main_nav");
+   var submenus = mainNav.children('li.submenu');
+
+   $('.submenu').each(function () {
+      $(this).mouseover(function () {
+         var rightOffset = mainNav.width() - $(this).position().left;
+         $(this).find(".subnav_right").css({ height: "420px" });
+         var subpannel = $(this).children('.subpannel');
+         if (subpannel != undefined) {
+            subpannel.show();
+            if (subpannel.width() <= rightOffset) subpannel.css({right: "auto"})
+         }
+         $(this).find('a.nav').addClass("current")
+      })
+      $(this).mouseout(function () {
+         $(this).children('a.nav').removeClass("current")
+         $(this).parent().find(".subnav_right").css({height:""});
+         var subpannel = $(this).children('.subpannel');
+         if (subpannel != undefined) {
+            subpannel.hide();
+         }
+      })
+   })
+</script>
+-->

@@ -17053,16 +17053,140 @@ html .clear:after {
 /* Event Index */
 
 
-/* Event Show */
+/* Event Show page */
 
 
 /* Store Show */
 
+/*general styling*/
+.bw-display-layer table td,
+.bw-display-layer .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active,
+.bw-display-layer .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+  border: none !important;
+}
 
-/* Call and Special Hours Modal */
+/*reponsive store page for laptop */
+@media only screen and (min-width: 1024px){
+  .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container{
+    background: #D2461D !important;
+    border-radius: 3px;
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 0 !important;
+    height: 60px;
+  }
+  .fa-chevron-left:before, .bw-display-layer .bwt-back-to-store-prefix:before {
+    color: white;
+  }
+  .bw-display-layer .bwt-store-show .bwt-back-to-search-text{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-banner-info-container{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%, -50%) !important;
+    left: 50%;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-header-title {
+    margin-bottom: 0px !important;
+    border-bottom: 1px solid #bbbbbb !important;
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    padding: 15px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-header-details {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-size: 15px;
+    color: #2B3033;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-top: 10px;
+  }
+  .bw-display-layer .bwt-store-show header.bwt-store-header {
+    border-bottom: none !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button{
+    width: 100% !important;
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 1.5px !important;
+    background: #D2461D !important;
+    border: 2px solid #D2461D !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 16px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-address{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-phone-number-link-text,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link a,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link-text a{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #D2461D !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-link-icons {
+    display: none;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 30px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location h3{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 16px !important;
+    padding: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 36px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-info-title::before{
+    margin-top: 17px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location{
+    margin-bottom: 0px !important;
+  }
+}
 
+/* end of store page*/
 
-/* Opening and Upcoming Banner */
 
 
 /* Appointment Modal */

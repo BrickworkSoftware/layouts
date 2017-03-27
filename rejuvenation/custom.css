@@ -1,3 +1,40 @@
+/* Fonts */
+@font-face {
+  font-family: 'Gotham-Medium';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-A';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Medium.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-B';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  font-weight: 600;
+  font-style: normal;
+  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Book.otf');
+}
+
+
 /* Client Header and Footer CSS */
 @charset "UTF-8";
 .formtastic, .formtastic ul, .formtastic ol, .formtastic li, .formtastic fieldset, .formtastic legend, .formtastic input, .formtastic button, .formtastic textarea, .formtastic select, .formtastic p {
@@ -17042,6 +17079,88 @@ html .clear:after {
 
 .swatch label {
   cursor: pointer;
+}
+
+/* Map Pin Styling */
+
+.bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list .bwt-store-map-pin-holder,
+.bw-display-layer .bwt-index .bwt-search-results ul.bwt-store-list .bwt-events-map-pin-holder,
+.bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder,
+.bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin,
+.bwt-events-map-pin {
+  background: url("///assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png") no-repeat !important;
+  background-position: center center;
+  background-size: contain;
+  width: 30px;
+  height: 50px;
+}
+
+.bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
+  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png");
+}
+
+.bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
+  margin: auto;
+  margin-top: -10px !important;
+}
+
+.bwt-stores-nearby-list .bwt-local-store-map-pin img,
+.bwt-events-map-pin img {
+  display: none !important;
+}
+
+/* Button Styling */
+/* Primary button with Red bg color */
+.bw-display-layer .bwt-index .bwt-get-directions,
+.bw-display-layer .bwt-index a.brickwork-button {
+  -webkit-transition: background-color 0.2s ease 0s;
+  transition: background-color 0.2s ease 0s;
+  background: #d04727;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  height: 45px;
+  letter-spacing: 0.09rem;
+  padding: 15px 24px;
+  text-align: center;
+  border-radius: 0;
+  letter-spacing: 1.5px;
+}
+
+.bw-display-layer .bwt-index .bwt-get-directions:hover,
+.bw-display-layer .bwt-index a.brickwork-button:hover {
+  background: #414042;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  letter-spacing: 1.5px;
+  height: 45px;
+}
+
+/* Secondary button with White bg and red text */
+.bw-display-layer .bwt-index a.bwt-explore-store {
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+  background: transparent;
+  border: none;
+  box-shadow: inset 0 0 0 1px #d04727;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  color: #d04727;
+  border-radius: 0;
+  letter-spacing: 1.5px;
+  height: 45px;
+}
+
+.bw-display-layer .bwt-index a.bwt-explore-store:hover {
+  background: #fff;
+  border: none;
+  box-shadow: inset 0 0 0 1px #414042;
+  color: #414042;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  border-radius: 0;
+  letter-spacing: 1.5px;
+  height: 45px;
 }
 
 /* Store Index */

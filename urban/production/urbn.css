@@ -1,0 +1,497 @@
+/*css for global html banner */
+@media (min-width: 700px) {
+.top-banner {
+    padding: 13px 0;
+    width:100%;
+  } 
+}
+
+@media only screen and (min-width: 641px) {
+  .promo-text-1-color h3 {
+      color: #ffffff !important;
+  }
+}
+
+.top-banner {
+  width: 100%;
+  background-color: #bf29d2;
+  padding: 18px 0 20px;
+  text-align: center;
+}
+
+.promo-text-1-color h2 {
+  color: #ffffff;
+}
+
+.promo-text-1-color h3 {
+  color: #ffffff !important;
+}
+
+@media (min-width: 1080px) {
+  .promo-text h3, .promo-text h2, .top-banner .banner-shoptags {
+      display: inline;
+  }
+
+  .promo-text h3 {
+      color: #ffffff !important;
+      font-family: helvetica;
+      font-weight:normal;
+      font-size: 12px;
+      padding: 5px 20px;
+      position: relative;
+      bottom: 0px;
+      max-width: 83%;
+      margin: 0 auto;
+  }
+}
+
+.promo-text h2 {
+  font-family: "Francois One", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  max-width: 83%;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+
+.top-banner .banner-shoptags {
+  width: 100%;
+  margin-top: 7px;
+  max-width: 83%;
+  margin: 0 auto 2px auto;
+  padding-left: 20px;
+  bottom: 3px;
+}
+
+.top-banner .banner-shoptags a {
+  color: #ffffff !important;
+  border-bottom: 1px solid #ffffff;
+  font-size: 12px;
+  padding-bottom: 0;
+  margin-right: 15px;
+}
+
+.top-banner .banner-shoptags a:hover {
+  border-bottom: none;
+}
+
+/*end css for global html banner */
+
+.bwt-store-hours-modal .bwt-modal-store-hours-title {
+  color: #007a5c !important;
+}
+
+.bwt-store-hours-modal .bwt-special-day {
+  color: #007a5c !important;
+}
+
+.bwt-store-hours-modal div.bwt-special-box {
+  color: #007a5c !important;
+  background-color: #007a5c !important;   
+}
+
+.bwt-store-hours-modal .bwt-special-title {
+    color: #007a5c !important;
+}
+
+.bwt-store-hours-modal .bwt-closed-title {
+    color: #FF0000 !important;
+}
+
+.bwt-store-hours-modal div.bwt-closed-box {
+  color: #FF0000 !important;
+  background-color: #FF0000 !important;
+        opacity: 1.0 !important;    
+}
+
+.bwt-store-hours-modal .bwt-special-closed {
+  color: #FF0000 !important;
+        opacity: 1.0 !important;  
+}
+
+.bwt-store-hours-modal .bwt-special {
+  color: #007a5c !important;  
+}
+
+.bwt-store-hours-modal .ui-state-active div:hover {
+    border: 1px solid;
+    border-radius: 50%;
+    height: 31px;
+    width: 31px;
+    top: -4.5px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    color: #cccccc;
+}
+
+.bwt-store-hours-modal .bwt-today div:hover{
+  border: 0px !important;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-selected-container {
+  background: none !important;
+}
+
+.bwt-store-hours-calender-wrapper {
+  box-shadow: none !important;
+}
+
+.bwt-store-hours-calender-container {
+  border: 1px solid #eeeeee;
+}
+
+.bwt-store-hours-modal .bwt-store-hour-date {
+ border-bottom: 0px !important;
+ margin-bottom: 0px !important;
+}
+
+.close-reveal-modal:after {
+  font-size: 18px;
+}
+
+.bwt-modal-store-hours-days {
+  text-transform: capitalize;
+}
+
+.bwt-closed-box:after {
+  content: "" !important;
+}
+
+.bwt-special-closed:before {
+  content: "" !important;
+}
+
+.bwt-store-hours-regular-wrapper {
+  padding-top: 30px !important;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-calender-title {
+  font-size: 14px !important;
+  color: rgb(34, 34, 34) !important;
+  font-weight: bold !important;
+}
+
+
+
+/* hide secondary footer */
+
+@media only screen and (min-width: 1025px) {
+.bw-display-layer .footer {
+    display: none;
+}
+}
+
+/* end hide secondary footer */
+
+
+body {
+  margin-top: 0px !important; 
+}
+
+.bw-display-layer .bwt-index .bwt-index-main-title, .bw-display-layer, .body {
+  margin-top: 0 !important; 
+}
+
+.bw-display-layer .bwt-store-main-wrapper-mobile {
+  margin-bottom: 0; }
+
+.sitespect-mobile-sitestrip {
+  display: none !important; }
+
+@media screen and (max-width: 640px) {
+.bw-display-layer .bwt-index .bwt-index-header-container {
+  margin-top: 50px !important;
+}
+}
+
+@media screen and (min-width: 640px) {
+  body .row .bw-display-layer .slick-dots li button:before {
+    font-size: 35px !important; 
+  }
+}
+
+.urban-nav,
+.client_footer,
+.links,
+.cheetah-form h4,
+.social-header {
+  font-family: sans-serif !important;
+  font-size: 11px !important; }
+
+.bw-display-layer {
+  margin: 0px auto; 
+}
+
+.row .bwt-index {
+  margin-top: 0 !important; 
+}
+
+.footer {
+  text-align: center;
+  margin: -20px 0;
+  font-size: 10px; 
+}
+
+.footer a {
+  border: none; 
+}
+
+.bwt-store-contextual-subtitle,
+.bwt-store-contextual-copy {
+  display: none !important; }
+
+.small-12 {
+  width: 100% !important; }
+
+@media only screen and (min-width: 641px) {
+  .row .bw-display-layer .slick-dots li button:before {
+    font-size: 40px !important; } }
+
+@media (max-width: 1024px) {
+  .footer-full-wrapper {
+    display: none; } }
+
+.bw-display-layer .bwt-index .bwt-pagination-container, .bw-display-layer .bwt-company-directory .bwt-pagination-container, .bw-display-layer .bwt-stores-nearby-list .bwt-pagination-container, .bw-display-layer .bwt-stores-nearby-list-mobile .bwt-pagination-container {
+  padding-bottom: 55px !important; }
+
+.bw-display-layer .bwt-cancel-rsvp-only {
+  text-align: center;
+  padding-top: 50px; }
+
+.bwt-cancel-rsvp-only p.bwt-event-rsvp-status {
+  font-size: 11px;
+  color: #888;
+  line-height: 19px; }
+
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+  padding-top: 30px;
+  margin: 0 auto;
+  max-width: 40%; }
+
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button {
+  background-color: #fff;
+  border: 1px solid #aaa;
+  color: #888;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: 'Helvetica';
+  padding: 15px; }
+
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button:hover {
+  background-color: #222;
+  color: #fff; }
+
+@media only screen and (min-width: 40.063em) {
+  .bwt-cancel-rsvp-only .bw-display-layer.bwt-cancel-rsvp-only {
+    padding-top: 80px; }
+  .bwt-cancel-rsvp-only p.bwt-event-rsvp-status {
+    font-size: 12px; }
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button {
+    font-size: 14px; }
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+    max-width: 20%; } }
+
+@media only screen and (min-width: 60.063em) {
+  .bwt-cancel-rsvp-only p.bwt-event-rsvp-status {
+    font-size: 11px; }
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button #cancel-rsvp.button {
+    font-size: 12px; }
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+    max-width: 14%;
+    margin-bottom: 14%; } }
+
+/*RSVP Button Style*/
+#bwt-rsvp-button, #bwt-rsvp-create, .bwt-events-rsvp-success-button {
+  color: #fff !important;
+  background-color: #222222 !important;
+  font-weight: bold !important;
+        font-size: 18px !important;
+        border: 1px solid #222222 !important;
+        transition: all 0s !important;
+        letter-spacing: 0.5px !important;
+        text-transform: capitalize !important;
+}
+
+#bwt-rsvp-button:hover, #bwt-rsvp-create:hover, .bwt-events-rsvp-success-button:hover {
+   color: #222222 !important;
+   background-color: #fff !important;
+   border: solid 1px #222222 !important;
+   transition: all 0s !important;
+}
+
+
+.bw-display-layer-container .small-12 {
+       padding-left: 0 !important;
+       padding-right: 0 !important;
+}
+
+@media (min-width: 40.063em) and (max-width: 64em) {
+       .row .bwt-index {
+             margin-top: 80px !important; }
+       .bw-display-layer .bwt-store-show-top {
+             margin-top: 80px !important; }
+}
+
+a.bwt-pagination:hover { color: #fff !important; }
+
+/*Rich Relevance tray*/
+.new-arrivals-product {
+    width: 15.5%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px !important;
+}
+
+.rr-recs {
+    white-space: nowrap;
+    margin: 0 auto !important;
+    width: 1280px;
+}
+
+.product-title {
+    white-space: normal;
+}
+
+
+/* hide store contact email*/
+
+.bwt-store-details-content ul.ui-tabs-nav li.bwt-large-only:nth-child(2) {
+    display: none!important;
+}
+
+/*end hide store contact email*/
+
+
+
+
+/*start custom store banner*/
+
+.custom-store-banner {
+     text-align: center;
+     margin-bottom: 45px !important;
+     width: 100%;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     max-width: 73.46rem;
+}
+
+@media only screen and (max-width:1219px) {
+.custom-store-banner {
+    padding-left: 2.08333% !important;
+    padding-right: 2.08333% !important;
+}
+}
+
+/*end custom store banner*/
+
+
+/*start holiday hours styling*/
+.bwt-store-hours-modal .bwt-modal-store-hours-title {
+  color: #00ae88 !important;
+}
+
+.bwt-store-hours-modal .bwt-special-day {
+  color: #00ae88 !important;
+}
+
+.bwt-store-hours-modal div.bwt-special-box {
+  color: #00ae88 !important;
+  background-color: #00ae88 !important;   
+}
+
+.bwt-store-hours-modal .bwt-special-closed {
+  color: #FF0000 !important; 
+}
+
+.bwt-store-hours-modal .bwt-special {
+  color: #00ae88 !important;  
+}
+
+.bwt-store-hours-modal .bwt-closed-title {
+  margin-left: -5px !important;
+}
+
+.bw-appointment-header-close {
+      border-bottom: none;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-regular-wrapper .bwt-store-hours {
+  visibility: hidden;
+}
+
+.bwt-store-hours-modal .bwt-store-hours-regular-wrapper  {
+  padding: 0 !important;
+}
+
+.bwt-store-hours-regular-wrapper .bwt-store-hours-special-title:after {
+  content: 'Store Hours';
+  visibility: visible;
+  font-size: 20px;
+  margin-left: -95px;
+}
+
+@media only screen and (min-width: 866px) {
+.bwt-store-hours-regular-wrapper .bwt-store-hours-special-title:after {
+  margin-left: -40%;
+}
+}
+
+.bwt-store-hours-modal .bwt-store-hours-key-container-desktop .bwt-special-box {
+   background: #00ae88 !important;
+   color: #00ae88 !important;
+}
+
+/* .bwt-store-hours-modal a#ui-id-68 {
+   color: #00ae88 !important;
+} */
+
+.bwt-store-hours-calender-title {
+  visibility: hidden;
+  margin-left: -17%;
+}
+
+.bwt-store-hours-calender-title:after {
+  content: 'Holiday Hours';
+  visibility: visible;
+  color: #00ae88 !important;
+}
+
+.bwt-store-hours-calender {
+  border-left: none !important;
+}
+
+.bwt-store-hours-key-container-desktop .bwt-special-key {
+  margin-right: 20px !important;
+}
+
+.bwt-store-hours-calender .bwt-closed-key {
+  margin-left: 10px;
+}
+
+.reveal-modal .close-reveal-modal {
+  padding: 0 !important;
+  padding-top: 10px !important;
+}
+
+/*end holiday hours styling*/
+
+
+/*a15 nav test start*/
+
+
+.li .c-tiered-main-navigation__li--level-1 {
+    float: left !important;
+    margin: 0 10px !important;
+    text-align: center !important;
+    color: #222 !important;
+}
+
+
+/*a15 nav test end*/
+
+/*header modifications*/
+li.dom-utility-currency, .c-site-search__a--inner, .c-site-search__img {display: none !important;}

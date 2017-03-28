@@ -17478,6 +17478,11 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-show-email-signup{
     display: none !important;
   }
+  
+  /*nearby stores*/
+  .bw-display-layer .bwt-store-show .bwt-stores-nearby {
+    display: none;
+  }
 }
 
 /* end of store page*/

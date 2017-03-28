@@ -17183,6 +17183,9 @@ html .clear:after {
 .bw-display-layer .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
   border: none !important;
 }
+.bw-display-layer .ui-state-highlight, .ui-widget-content .ui-state-highlight {
+  background: none !important;
+}
 
 /*reponsive store page for laptop */
 @media only screen and (min-width: 1024px){
@@ -17219,7 +17222,7 @@ html .clear:after {
     font-size: 36px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
-    padding: 15px;
+    padding: 15px 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
     font-family: "TimesNewRomanPSMT", Arial, sans-serif;
@@ -17240,6 +17243,7 @@ html .clear:after {
     letter-spacing: 1.5px !important;
     background: #D2461D !important;
     border: 2px solid #D2461D !important;
+    border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3{
     font-family: "Gotham-Bold", Arial, sans-serif !important;
@@ -17248,7 +17252,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-address{
+  .bw-display-layer .bwt-store-show .bwt-store-address,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
@@ -17267,7 +17272,9 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-link-icons {
     display: none;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table {
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
@@ -17301,6 +17308,175 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location{
     margin-bottom: 0px !important;
+  }
+
+  /*store services section*/
+  .bw-display-layer .bwt-store-show h2.bwt-store-section-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size:  14px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
+    width: 40% !important;
+    margin-top: 30%;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content{
+    margin-top: 15%;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 25px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 10px 0;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-description{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+    min-height: 132px;
+  }
+  .bw-display-layer .bwt-store-show a.brickwork-button{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    background: #D2461D !important;
+    border: none !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 1.5px !important;
+    line-height: 11px !important;
+    border-radius: 0 !important;
+  }
+
+  /*store event section page*/
+  .bw-display-layer .bwt-store-show .bwt-store-events-header .bwt-event-search-container{
+    margin-right: 10px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-event-search-container a{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #D2461D !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-events{
+    border-bottom-width: 1px !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #252525 !important;
+    line-height: 20px !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev{
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker th{
+    text-align: center;
+  }
+  .ui-datepicker-calendar thead tr th span {
+    font-family: "ProximaNova-Regular", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #4A4A4A !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker td span{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #2B3033 !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker td a {
+    border: 1px solid #000000 !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-today .ui-state-default{
+    background-color: #D2461D !important;
+    color: #ffffff !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
+    width: 420px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
+    height: 250px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-dates{
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #4A4A4A !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 10px !important;
+    padding: 0;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-description{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-link{
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+    background: #D2461D !important;
+    border-radius: 0 !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 1.5px !important;
+    line-height: 15px !important;
+    border: none !important;
+  }
+
+  /*store featre section styling*/
+  .bw-display-layer .bwt-store-show .bwt-store-feature-cover{
+    background: rgba(0,0,0,0.2) !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover{
+    background: #2B3033 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content,
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 30px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 0 !important;
+    line-height: 30px !important;
+  }
+
+  /*email subscription*/
+  .bw-display-layer .bwt-store-show .bwt-store-show-email-signup{
+    display: none !important;
   }
 }
 

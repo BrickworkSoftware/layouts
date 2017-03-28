@@ -17324,7 +17324,7 @@ html .clear:after {
     letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
-    width: 40% !important;
+    width: 25% !important;
     margin-top: 30%;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content{
@@ -17478,7 +17478,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-show-email-signup{
     display: none !important;
   }
-  
+
   /*nearby stores*/
   .bw-display-layer .bwt-store-show .bwt-stores-nearby {
     display: none;

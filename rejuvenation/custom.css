@@ -17119,7 +17119,7 @@ html .clear:after {
   border: none;
   color: #fff;
   display: inline-block;
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   height: 45px;
   letter-spacing: 0.09rem;
   padding: 15px 24px;
@@ -17145,7 +17145,7 @@ html .clear:after {
   background: transparent;
   border: none;
   box-shadow: inset 0 0 0 1px #d04727;
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   color: #d04727;
   border-radius: 0;
   letter-spacing: 1.5px;
@@ -17157,7 +17157,7 @@ html .clear:after {
   border: none;
   box-shadow: inset 0 0 0 1px #414042;
   color: #414042;
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   border-radius: 0;
   letter-spacing: 1.5px;
   height: 45px;
@@ -17180,6 +17180,7 @@ html .clear:after {
   letter-spacing: 0;
   padding-top: 95px;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-header-container {
@@ -17195,9 +17196,9 @@ html .clear:after {
 }
 
 .bw-display-layer .bwt-index-header-container .bwt-index-search-form-input {
-  opacity: 0.4;
+  height: 53px;
   font-family: Gotham-Medium;
-  font-size: 15px;
+  font-size: 16px;
   color: #2B3033;
   letter-spacing: 0;
 }
@@ -17206,6 +17207,24 @@ html .clear:after {
   width: 400px;
   height: 55px;
   border: 1px solid #77787B;
+  border-radius: none;
+}
+
+.bw-display-layer .bwt-index-header-container .bwt-index-search-form-submit {
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  right: -1px;
+  height: 55px;
+  background: #77787B;
+  padding: 0px 21px 0 22px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index-header-container .call-to-action {
+  font-family: TimesNewRomanPSMT;
+  color: #FFFFFF;
+  margin-top: 5px;
+  margin-bottom: 22px;
 }
 
 .bw-display-layer .bwt-index-header-container .bwt-index-search-form-wrap {
@@ -17213,15 +17232,113 @@ html .clear:after {
   padding-right: 61px;
 }
 
+.bw-display-layer .bwt-index a.brickwork-button,
+.bw-display-layer .bwt-index a.brickwork-button:hover {
+  width: 250px;
+  font-family: Gotham-Bold;
+  line-height: 12px;
+}
+
 .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
-  max-width: 1299px;
+  max-width: 1160px;
+  float: none;
+  margin: 0 auto;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
+  min-height: 350px;
+  min-width: 350px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-explore-store,
+.bw-display-layer-container .bw-display-layer .bwt-get-directions {
+  width: 350px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-list li .store-info {
+  max-width: 350px;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+  width: 350px;
+  height: 100px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index-filters-expand-button,
+.bw-display-layer-container .bw-display-layer .bwt-index-search-results-map-button {
+  font-family: Gotham-Medium;
+  font-size: 12px;
+  color: #2B3033;
+  letter-spacing: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
+  font-family: Gotham-Medium;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-location-details .store-detail-name {
+  font-family: Gotham-Medium;
+  font-size: 25px;
+  padding-top: 29px;
+  padding-bottom: 13px;
+  color: #252525;
+  letter-spacing: 0;
+}
+
+.bw-display-layer .bwt-store-address .bwt-store-address-line {
+  font-family: TimesNewRomanPSMT;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-address,
+.bw-display-layer-container .bw-display-layer .bwt-store-contact-info {
+  margin-bottom: 20px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-phone-number {
+  margin-bottom: 10px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-phone-number a,
+.bw-display-layer-container .bw-display-layer .bwt-store-email-link a,
+.bw-display-layer-container .bw-display-layer .bwt-store-email-link {
+  font-family: Gotham-Medium;
+  font-size: 16px;
+  color: #D04727;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index-store-body-details-distance-hours {
+  font-family: Gotham-Medium;
+  font-size: 12px;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin: 0 0 20px 0;
 }
 
 /* large store index */
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
     height: 506px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Desktop%20%281%29.png');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
   }
 }
 
@@ -17229,7 +17346,7 @@ html .clear:after {
 @media only screen and (min-width: 641px) and (max-width: 1024px) {
   .bw-display-layer .bwt-index-header {
     height: 495px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Tablet%20%281%29.png');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
   }
 }
 
@@ -17237,13 +17354,32 @@ html .clear:after {
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header {
     height: 380px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Hero-Image-Mobile%20%281%29.png');
+    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_mobile.png');
   }
-}
 
-@media only screen and (max-width: 1000px) {
-  nav.main ul.top-level {
-    display: none !important;
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
+    min-height: 320px;
+    min-width: 320px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+    width: 320px;
+    height: 92px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li .store-info {
+    max-width: 320px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-explore-store,
+  .bw-display-layer-container .bw-display-layer .bwt-get-directions {
+    width: 320px;
   }
 }
 

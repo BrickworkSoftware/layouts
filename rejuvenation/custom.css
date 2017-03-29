@@ -17113,10 +17113,10 @@ html .clear:after {
 /* Primary button with Red bg color */
 .bw-display-layer .bwt-index .bwt-get-directions,
 .bw-display-layer .bwt-index a.brickwork-button {
-  -webkit-transition: background-color 0.2s ease 0s;
-  transition: background-color 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
   background: #d04727;
-  border: none;
+  border: 1px solid #d04727;
   color: #fff;
   display: inline-block;
   font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
@@ -17132,7 +17132,7 @@ html .clear:after {
 .bw-display-layer .bwt-index a.brickwork-button:hover {
   background: #414042;
   color: #fff;
-  border: none;
+  border: 1px solid #414042;
   border-radius: 0;
   letter-spacing: 1.5px;
   height: 45px;
@@ -17143,8 +17143,8 @@ html .clear:after {
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   background: transparent;
-  border: none;
-  box-shadow: inset 0 0 0 1px #d04727;
+  border: 1px solid #d04727;
+  /*box-shadow: inset 0 0 0 1px #d04727;*/
   font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   color: #d04727;
   border-radius: 0;
@@ -17154,8 +17154,8 @@ html .clear:after {
 
 .bw-display-layer .bwt-index a.bwt-explore-store:hover {
   background: #fff;
-  border: none;
-  box-shadow: inset 0 0 0 1px #414042;
+  border: 1px solid #414042;
+  /*box-shadow: inset 0 0 0 1px #414042;*/
   color: #414042;
   font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   border-radius: 0;

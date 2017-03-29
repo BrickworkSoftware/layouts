@@ -17220,6 +17220,19 @@ html .clear:after {
   padding: 0px 21px 0 22px;
 }
 
+.bw-display-layer .bwt-index-header-container:hover .bwt-index-search-form-submit {
+  background: #2b3033;
+  color: white;
+}
+
+.bw-display-layer .bwt-index-header-container:hover .bwt-index-search-form-wrap {
+  border: 1px solid #2b3033;
+}
+
+.bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container .bwt-index-search-results-notice-details {
+  display: none;
+}
+
 .bw-display-layer-container .bw-display-layer .bwt-index-header-container .call-to-action {
   font-family: TimesNewRomanPSMT;
   color: #FFFFFF;
@@ -17340,6 +17353,10 @@ html .clear:after {
     height: 506px;
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
   }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li {
+    min-height: 790px;
+  }
 }
 
 /* tablet store index */
@@ -17347,6 +17364,10 @@ html .clear:after {
   .bw-display-layer .bwt-index-header {
     height: 495px;
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li {
+    min-height: 790px;
   }
 }
 

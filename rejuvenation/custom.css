@@ -17206,12 +17206,12 @@ html .clear:after {
   padding: 0px 21px 0 22px;
 }
 
-.bw-display-layer .bwt-index-header-container:hover .bwt-index-search-form-submit {
+.bw-display-layer .bwt-index-search-form-wrap:hover .bwt-index-search-form-submit {
   background: #2b3033;
   color: white;
 }
 
-.bw-display-layer .bwt-index-header-container:hover .bwt-index-search-form-wrap {
+.bw-display-layer-container .bw-display-layer .bwt-index-search-form-wrap:hover {
   border: 1px solid #2b3033;
 }
 

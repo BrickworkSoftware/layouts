@@ -55,9 +55,6 @@
 
 </div>
 </li>
-<li class="lpcontainer">
-<div id="livechatlink"><div id="LPMcontainer-1489787920362-0" class="LPMcontainer LPMoverlay" role="button" tabindex="0" style="margin: 0px; padding: 0px; border-style: solid; border-width: 0px; outline-color: rgb(106, 159, 177); outline-width: 2px; font-style: normal; font-weight: normal; font-variant-ligatures: normal; font-variant-caps: normal; list-style: none outside none; letter-spacing: normal; line-height: normal; text-decoration: none; vertical-align: baseline; white-space: normal; word-spacing: normal; background-repeat: repeat-x; background-position: left bottom; cursor: auto; display: block; position: relative; top: 0px; left: 0px;"><a data-lp-event="click" class="liveperson" style="padding-right: 8px; margin-right: 10px; cursor: pointer; " rel="nofollow">Live Chat</a></div></div>
-</li>
 <li>
 <a href="//www.rejuvenation.com/content/trade" class="last">Trade &amp; Contract</a>
 </li>
@@ -81,6 +78,30 @@
 </div>
 </div>
 <div class="end"><a id="gtmEcatInNav" class="not-mobile" href="//www.rejuvenation.com/content/inspiration/view_ecatalog?pub_id=5934rulo6qo&amp;slug=late-spring-2017"><img src="//s3.amazonaws.com/rejuvenation-static/ecat/ecat_nav_2017_book2.jpg" alt="Flip Through our NEW Look Book"></a>
+
+<script>
+  //<![CDATA[
+    // NOTE: define searchTerm globally to be used for the searchRouter
+    window.searchTerm     = _.escape("")
+    var elasticHosts      = ["https://251a506566f18dc3000.qbox.io","https://251a506566f18dc3001.qbox.io","https://251a506566f18dc3002.qbox.io"]
+    var categoryIndexName = "production-categories"
+    var productIndexName  = "production-products-categories"
+    var productAutoCompleteModel = new Rejuvenation.Models.ProductAutocompleteQuery({
+      text: '',
+      elasticHosts: elasticHosts,
+      indexName: productIndexName,
+      previewModeTime: 1489773875
+    })
+    var categoryAutoCompleteModel = new Rejuvenation.Models.CategoryAutocompleteQuery({
+      text: '',
+      elasticHosts: elasticHosts,
+      indexName: categoryIndexName
+    })
+    new Rejuvenation.Views.SearchBox({el: $("#header-search.js-replace-search"), productAutoComplete: productAutoCompleteModel, categoryAutoComplete: categoryAutoCompleteModel, searchTerm: window.searchTerm})
+    new Rejuvenation.Views.CategoryAutoCompleteDropdown({ el: $("#header-search .js-replace-autocomplete .categories"), model: categoryAutoCompleteModel})
+    new Rejuvenation.Views.ProductAutoCompleteDropdown({ el: $("#header-search .js-replace-autocomplete .products"), model: productAutoCompleteModel})
+  //]]>
+</script>
 
 <div class="search js-replace-search" id="header-search"><form class="search-wrapper" accept-charset="utf-8" action="//www.rejuvenation.com/search" method="get">
   <input id="q" name="q" type="text" tabindex="1" placeholder="Search" autocomplete="off" value="">

@@ -7,21 +7,7 @@
 }
 
 @font-face {
-  font-family: 'Gotham-A';
-  font-weight: 600;
-  font-style: normal;
-  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Medium.otf');
-}
-
-@font-face {
   font-family: 'Gotham-Bold';
-  font-weight: 600;
-  font-style: normal;
-  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Bold.otf');
-}
-
-@font-face {
-  font-family: 'Gotham-B';
   font-weight: 600;
   font-style: normal;
   src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Bold.otf');

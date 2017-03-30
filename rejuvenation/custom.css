@@ -17105,7 +17105,7 @@ html .clear:after {
   border: 1px solid #d04727;
   color: #fff;
   display: inline-block;
-  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   height: 45px;
   letter-spacing: 0.09rem;
   padding: 15px 24px;
@@ -17131,7 +17131,7 @@ html .clear:after {
   background: transparent;
   border: 1px solid #d04727;
   /*box-shadow: inset 0 0 0 1px #d04727;*/
-  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   color: #d04727;
   border-radius: 0;
   letter-spacing: 1.5px;
@@ -17143,7 +17143,7 @@ html .clear:after {
   border: 1px solid #414042;
   /*box-shadow: inset 0 0 0 1px #414042;*/
   color: #414042;
-  font: 700 12px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   border-radius: 0;
   letter-spacing: 1.5px;
   height: 45px;
@@ -17155,7 +17155,8 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index {
-  max-width: 1440px;
+  max-width: 1420px;
+  margin: 0 auto;
   margin-top: -95px;
 }
 
@@ -17171,6 +17172,7 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-index-header-container {
   margin-top: 95px;
+  margin-bottom: 75px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-header {
@@ -17233,13 +17235,20 @@ html .clear:after {
 
 .bw-display-layer .bwt-index a.brickwork-button,
 .bw-display-layer .bwt-index a.brickwork-button:hover {
-  width: 250px;
-  font-family: Gotham-Bold;
-  line-height: 12px;
+  width: 290px;
+  height: 55px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
 }
 
 .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
-  max-width: 1160px;
+  max-width: 1158px;
+  float: none;
+  margin: 0 auto;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index-search-filters .bwt-index-search-results {
+  max-width: 1150px;
   float: none;
   margin: 0 auto;
 }
@@ -17333,6 +17342,50 @@ html .clear:after {
   margin: 0 0 20px 0;
 }
 
+.bwt-index-search-results-map-button .fa-angle-down:before,
+.bwt-index-search-filter-link .fa-angle-down:before {
+  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_down.svg');
+}
+
+.bwt-index-search-results-map-button .fa-angle-up:before,
+.bwt-index-search-filter-link .fa-angle-up:before {
+  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_up.svg');
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-expand-button-collapsed-icon,
+.bw-display-layer-container .bw-display-layer .bwt-expand-button-expanded-icon {
+  padding-left: 14px;
+}
+
+.bw-display-layer-container .leaflet-popup-content-wrapper .bwt-store-location-details .store-detail-name {
+  font-size: 18px;
+  line-height: 18px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-store-address,
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-store-contact-info,
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-index-store-body-details-distance-hours {
+  margin-bottom: 15px;
+}
+
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper a.bwt-explore-store:hover,
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper a.bwt-explore-store,
+.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-get-directions {
+  margin-bottom: 0;
+  width: 228px;
+}
+
+.bw-display-layer-container .bw-display-layer .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
+  padding: 20px;
+  width: 268px;
+}
+
+.bw-display-layer-container .leaflet-popup-content-wrapper .bwt-map-popup {
+  padding: 0 !important;
+}
+
 /* large store index */
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
@@ -17342,6 +17395,22 @@ html .clear:after {
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li {
     min-height: 790px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index {
+    padding: 0 40px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filters .bwt-bigmap-container .leaflet-container {
+    height: 598px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1035px) {
+  header .inner-wrapper,
+  .site-banner .inner-wrapper,
+  footer .inner-wrapper {
+    padding: 0 25px;
   }
 }
 

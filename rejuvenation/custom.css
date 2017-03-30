@@ -17150,14 +17150,11 @@ html .clear:after {
 }
 
 /* Store Index */
-.bw-display-layer-container {
-  // display: none;
-}
-
 .bw-display-layer-container .bw-display-layer .bwt-index {
   max-width: 1420px;
   margin: 0 auto;
   margin-top: -95px;
+  position: relative;
 }
 
 .bw-display-layer .bwt-index .bwt-index-main-title {
@@ -17466,8 +17463,11 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-index-search-container {
     width: 320px;
   }
-}
 
+  .bw-display-layer .bwt-index-header-container .bwt-index-search-form-wrap {
+    width: 290px;
+  }
+}
 
 /* Event Index */
 

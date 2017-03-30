@@ -3392,7 +3392,7 @@ header .inner-wrapper, .site-banner .inner-wrapper, footer .inner-wrapper {
 }
 
 @media screen and (max-width: 460px) {
-  .row {
+  .site_header .row {
     margin: 6px 0;
   }
   .two-col {
@@ -3402,7 +3402,7 @@ header .inner-wrapper, .site-banner .inner-wrapper, footer .inner-wrapper {
   }
 }
 
-table {
+.site_header table {
   border-collapse: collapse;
   font-size: 15px;
   line-height: 1.33333;
@@ -3410,7 +3410,7 @@ table {
   padding: 0;
 }
 
-table tr, table th, table td {
+.site_header table tr, .site_header table th, .site_header table td {
   border-collapse: collapse;
   font-family: "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
   margin: 0;
@@ -3418,18 +3418,18 @@ table tr, table th, table td {
   vertical-align: top;
 }
 
-table th {
+.site_header table th {
   border: 1px solid #ccc;
   font-weight: bold;
   padding: 5px;
 }
 
-table td {
+.site_header table td {
   border: 1px solid #ccc;
   padding: 5px;
 }
 
-table.border th, table.border td {
+.site_header table.border th, .site_header table.border td {
   border: 1px solid #ccc;
   padding: 6px;
 }
@@ -16879,7 +16879,7 @@ html .clear:after {
   text-align: left;
 }
 
-.row {
+.site_header .row {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -16891,18 +16891,18 @@ html .clear:after {
   width: 100%
 }
 
-.row p {
+.site_header .row p {
   padding: 0;
 }
 
-.row.justify {
+.site_header .row.justify {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
-.row.end {
+.site_header .row.end {
   margin: 30px 0;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -16910,7 +16910,7 @@ html .clear:after {
   justify-content: flex-end;
 }
 
-.row>h1, .row>h2, .row>h3, .row>h4, .row>h5, .row>h6 {
+.site_header .row>h1, .site_header .row>h2, .site_header .row>h3, .site_header .row>h4, .site_header .row>h5, .site_header .row>h6 {
   width: 100%
 }
 
@@ -17151,7 +17151,7 @@ html .clear:after {
 
 /* Store Index */
 .bw-display-layer-container {
-  display: inline-block;
+  // display: none;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index {

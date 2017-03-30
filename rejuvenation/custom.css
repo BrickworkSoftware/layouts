@@ -17208,7 +17208,7 @@ html .clear:after {
     transform: translate(-50%, -50%) !important;
     width: 290px !important;
     height: 100px !important;
-    top: 61% !important;
+    top: 51% !important;
   }
   .bw-display-layer .bwt-store-show header.bwt-store-header {
     border-bottom: none !important;
@@ -17243,6 +17243,10 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 16px !important;
     text-align: left !important;
+    padding: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-info-title::before{
+    margin-top: 21px !important
   }
   .bw-display-layer .bwt-store-show .bwt-store-address, 
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line {
@@ -17286,6 +17290,9 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link{
     text-align: left !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours {
+    margin-top: 20px;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-link-icons {
     display: none !important;
   }
@@ -17324,6 +17331,155 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 22px !important;
     text-align: left !important;
+  }
+
+  /*store services for mobile*/
+  .bw-display-layer .bwt-store-show h2.bwt-store-section-title {
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 14px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container{
+    border: none !important;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
+    width: 22.7% !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-title{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+    text-align: center !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-description {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+    min-height: 300px;
+  }
+  .bw-display-layer .bwt-store-show a.brickwork-button {
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    background: #D2461D !important;
+    border: none !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 1.5px !important;
+    line-height: 11px !important;
+    border-radius: 0 !important;
+    padding: 13px !important;
+  }
+  .bw-display-layer .bwt-store-services-list .slick-prev, 
+  .bw-display-layer .bwt-store-events-list .slick-prev, 
+  .bw-display-layer .bwt-stores-nearby-list .slick-prev {
+    top: 3% !important;
+    margin-left: 43px !important;
+  }
+  .bw-display-layer .bwt-store-services-list .slick-next, 
+  .bw-display-layer .bwt-store-events-list .slick-next, 
+  .bw-display-layer .bwt-stores-nearby-list .slick-next {
+    top: 3% !important;
+    margin-right: 43px !important;
+  }
+
+  /*store events for mobile*/
+  .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
+    width: 320px !important;
+    height: 190px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-dates {
+    font-family: "Gotham-Book", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #4A4A4A !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 10px !important;
+    padding: 0;
+    display: table-header-group;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-title {
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0;
+    display: table-footer-group;
+    line-height: 45px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-description {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 16px !important;
+    color: #252525 !important;
+    letter-spacing: 0 !important;
+    line-height: 22px !important;
+    margin: 0px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-link {
+    font-family: "Gotham-Bold", Arial, sans-serif !important;
+    width: 100% !important;
+    margin: 20px 0 !important;
+    background: #D2461D !important;
+    border-radius: 0 !important;
+    font-size: 15px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 1.5px !important;
+    line-height: 15px !important;
+    border: none !important;
+  }
+
+  /*store feature styling for mobile*/
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content, 
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title {
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 30px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description, 
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description, 
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 24px !important;
+    color: #FFFFFF !important;
+    letter-spacing: 0 !important;
+    line-height: 30px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-feature-cover {
+    background: rgba(0,0,0,0.2) !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover{
+    background: #2B3033 !important;
+  }
+
+  /*store page email subscription*/
+  .bw-display-layer .bwt-store-show .bwt-store-show-email-signup-container {
+    display: none;
   }
 }
 /*end of mobile styling*/

@@ -17151,7 +17151,7 @@ html .clear:after {
 
 /* Store Index */
 .bw-display-layer-container {
-  display: block;
+  display: inline-block;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index {
@@ -17253,32 +17253,32 @@ html .clear:after {
   margin: 0 auto;
 }
 
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
   min-height: 350px;
   min-width: 350px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-explore-store,
-.bw-display-layer-container .bw-display-layer .bwt-get-directions {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-explore-store,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions {
   width: 350px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-list li .store-info {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li .store-info {
   max-width: 350px;
 }
 
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .upcoming-event-container,
+.bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
   width: 350px;
   height: 100px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-list {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list {
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -17297,7 +17297,7 @@ html .clear:after {
   text-transform: uppercase;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-location-details .store-detail-name {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-location-details .store-detail-name {
   font-family: Gotham-Medium;
   font-size: 25px;
   padding-top: 29px;
@@ -17306,25 +17306,25 @@ html .clear:after {
   letter-spacing: 0;
 }
 
-.bw-display-layer .bwt-store-address .bwt-store-address-line {
+.bw-display-layer .bwt-index .bwt-store-address .bwt-store-address-line {
   font-family: TimesNewRomanPSMT;
   color: #252525;
   letter-spacing: 0;
   line-height: 22px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-address,
-.bw-display-layer-container .bw-display-layer .bwt-store-contact-info {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-address,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-contact-info {
   margin-bottom: 20px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-phone-number {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-phone-number {
   margin-bottom: 10px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-phone-number a,
-.bw-display-layer-container .bw-display-layer .bwt-store-email-link a,
-.bw-display-layer-container .bw-display-layer .bwt-store-email-link {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-phone-number a,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-email-link a,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-email-link {
   font-family: Gotham-Medium;
   font-size: 16px;
   color: #D04727;
@@ -17352,38 +17352,46 @@ html .clear:after {
   content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_up.svg');
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-expand-button-collapsed-icon,
-.bw-display-layer-container .bw-display-layer .bwt-expand-button-expanded-icon {
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-expanded-icon {
   padding-left: 14px;
 }
 
-.bw-display-layer-container .leaflet-popup-content-wrapper .bwt-store-location-details .store-detail-name {
+.bw-display-layer-container .bwt-index .leaflet-popup-content-wrapper .bwt-store-location-details .store-detail-name {
   font-size: 18px;
   line-height: 18px;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-store-address,
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-store-contact-info,
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-index-store-body-details-distance-hours {
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper .bwt-store-address,
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper .bwt-store-contact-info,
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper .bwt-index-store-body-details-distance-hours {
   margin-bottom: 15px;
 }
 
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper a.bwt-explore-store:hover,
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper a.bwt-explore-store,
-.bw-display-layer-container .bw-display-layer .leaflet-popup-content-wrapper .bwt-get-directions {
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper a.bwt-explore-store:hover,
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper a.bwt-explore-store,
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-content-wrapper .bwt-get-directions {
   margin-bottom: 0;
   width: 228px;
 }
 
-.bw-display-layer-container .bw-display-layer .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
+.bw-display-layer-container .bw-display-layer .bwt-index .leaflet-popup-close-button+.leaflet-popup-content-wrapper .leaflet-popup-content {
   padding: 20px;
   width: 268px;
 }
 
 .bw-display-layer-container .leaflet-popup-content-wrapper .bwt-map-popup {
   padding: 0 !important;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
+  padding-bottom: 15px;
+}
+
+.bw-display-layer .bwt-index .bwt-scroll-assist {
+  display: none !important;
 }
 
 /* large store index */
@@ -17394,7 +17402,7 @@ html .clear:after {
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li {
-    min-height: 790px;
+    min-height: 785px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index {
@@ -17421,7 +17429,7 @@ html .clear:after {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
   }
 
-  .bw-display-layer-container .bw-display-layer .bwt-store-list li {
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
     min-height: 790px;
   }
 }
@@ -17433,28 +17441,29 @@ html .clear:after {
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_mobile.png');
   }
 
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper {
     min-height: 320px;
     min-width: 320px;
   }
 
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
-  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .upcoming-event-container,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
     width: 320px;
     height: 92px;
   }
 
-  .bw-display-layer-container .bw-display-layer .bwt-store-list li .store-info {
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li .store-info {
     max-width: 320px;
   }
 
-  .bw-display-layer-container .bw-display-layer .bwt-explore-store,
-  .bw-display-layer-container .bw-display-layer .bwt-get-directions {
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-explore-store,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-container {
     width: 320px;
   }
 }

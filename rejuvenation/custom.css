@@ -17266,7 +17266,7 @@ html .clear:after {
     position: absolute;
     clear: none !important;
     float: none !important;
-    top: 870px;
+    top: 920px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3{
     font-family: "Gotham-Bold", Arial, sans-serif !important;
@@ -17338,14 +17338,14 @@ html .clear:after {
     letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service {
-    width: 750px !important;
+    width: 100% !important;
     padding: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
     min-height: 360px !important;
-    min-width: 730px;
+    min-width: 100%;
     display: inline-block;
-    margin-top: 30px;
+    margin: 0 auto;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content{
     text-align: center !important;

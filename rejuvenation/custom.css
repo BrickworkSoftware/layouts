@@ -17186,6 +17186,9 @@ html .clear:after {
 .bw-display-layer .ui-state-highlight, .ui-widget-content .ui-state-highlight {
   background: none !important;
 }
+.bw-display-layer .bwt-store-show .bwt-store-services-info-title.ui-state-active::before {
+  content: url(//assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg);
+}
 
 /*responsive for mobile*/
 @media only screen and (max-width: 767px) and (min-width: 320px) {
@@ -17352,6 +17355,9 @@ html .clear:after {
     flex-direction: column;
     align-items: center;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-service{
+    width: 20% !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
     width: 22.7% !important;
   }
@@ -17480,6 +17486,10 @@ html .clear:after {
   /*store page email subscription*/
   .bw-display-layer .bwt-store-show .bwt-store-show-email-signup-container {
     display: none;
+  }
+  /*nearby stores*/
+  .bw-display-layer .bwt-store-show .bwt-stores-nearby{
+    display: none !important;
   }
 }
 /*end of mobile styling*/

@@ -17448,7 +17448,8 @@ html .clear:after {
   header .inner-wrapper,
   .site-banner .inner-wrapper,
   footer .inner-wrapper {
-    padding: 0 25px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
 
@@ -17612,6 +17613,21 @@ html .clear:after {
     text-align: right;
     float: right;
   }
+}
+
+/* Upcoming Event Banner and Store Opening Alerts */
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+  background: rgba(0, 0, 0, 0.59);
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-store-future-opening-text,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-event-text,
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
+  font-family: Gotham-Medium;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 /* Event Index */

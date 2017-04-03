@@ -17394,6 +17394,36 @@ html .clear:after {
   display: none !important;
 }
 
+.bw-display-layer-container .bw-display-layer .bwt-index-filter-list .bwt-filters-features-title {
+  font-family: Gotham-Medium;
+  font-size: 15px;
+  color: #231F20;
+  letter-spacing: 0;
+}
+
+.bw-display-layer .bwt-index .bwt-filters-features-list label {
+  font-family: Gotham-Book, "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #231F20;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index .facet + .bwt-filter-feature-checkbox-label .icon-field {
+  background: #FFFFFF;
+  border: 1px solid #959899;
+  border-radius: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-index .facet:checked + .bwt-filter-feature-checkbox-label .icon-field {
+  color: #2B3033 !important;
+}
+
+
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-filters-features-list .fa-check::before {
+  font-family: FontAwesome !important;
+}
+
 /* large store index */
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
@@ -17423,7 +17453,7 @@ html .clear:after {
 }
 
 /* tablet store index */
-@media only screen and (min-width: 641px) and (max-width: 1024px) {
+@media only screen and (min-width: 641px) and (max-width: 1199px) {
   .bw-display-layer .bwt-index-header {
     height: 495px;
     background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
@@ -17431,6 +17461,67 @@ html .clear:after {
 
   .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
     min-height: 790px;
+    width: 50%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list {
+    margin-top: 20px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-header-container .bwt-index-search-form-input {
+    font-size: 12px
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-container {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
+    max-width: 775px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list > li:nth-of-type(3n+1) {
+    clear: none;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list > li:nth-of-type(2n+1) {
+    clear: both;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info {
+    margin-top: -33px;
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 799px) {
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-store-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-events-map-image,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper,
+  .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-body-image-container,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li .store-info {
+    min-height: 320px;
+    min-width: 320px;
+    width: 320px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .upcoming-event-container,
+  .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
+    width: 320px;
+    height: 92px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-explore-store,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions {
+    width: 320px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info {
+    margin-top: -51px;
   }
 }
 
@@ -17455,6 +17546,11 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
     width: 320px;
     height: 92px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-filters-features-list .fa-check::before {
+    font-size: 11px;
+    line-height: 13px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li .store-info {

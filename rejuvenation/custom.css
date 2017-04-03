@@ -17102,10 +17102,11 @@ html .clear:after {
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   background: #d04727;
-  border: 1px solid #d04727;
+  border: none;
+  box-shadow: inset 0 0 0 1px #d04727;
   color: #fff;
   display: inline-block;
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 15px "Gotham Medium", "Gotham A", Arial, Helvetica, sans-serif;
   height: 45px;
   letter-spacing: 0.09rem;
   padding: 15px 24px;
@@ -17118,7 +17119,8 @@ html .clear:after {
 .bw-display-layer .bwt-index a.brickwork-button:hover {
   background: #414042;
   color: #fff;
-  border: 1px solid #414042;
+  border: none;
+  box-shadow: inset 0 0 0 1px #414042;
   border-radius: 0;
   letter-spacing: 1.5px;
   height: 45px;
@@ -17129,9 +17131,9 @@ html .clear:after {
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   background: transparent;
-  border: 1px solid #d04727;
-  /*box-shadow: inset 0 0 0 1px #d04727;*/
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  border: none;
+  box-shadow: inset 0 0 0 1px #d04727;
+  font: 15px "Gotham Medium", "Gotham A", Arial, Helvetica, sans-serif;
   color: #d04727;
   border-radius: 0;
   letter-spacing: 1.5px;
@@ -17140,10 +17142,10 @@ html .clear:after {
 
 .bw-display-layer .bwt-index a.bwt-explore-store:hover {
   background: #fff;
-  border: 1px solid #414042;
-  /*box-shadow: inset 0 0 0 1px #414042;*/
+  border: none;
+  box-shadow: inset 0 0 0 1px #414042;
   color: #414042;
-  font: 700 15px "Gotham A", "Gotham B", Arial, Helvetica, sans-serif;
+  font: 15px "Gotham Medium", "Gotham A", Arial, Helvetica, sans-serif;
   border-radius: 0;
   letter-spacing: 1.5px;
   height: 45px;
@@ -17232,10 +17234,10 @@ html .clear:after {
 
 .bw-display-layer .bwt-index a.brickwork-button,
 .bw-display-layer .bwt-index a.brickwork-button:hover {
-  width: 290px;
-  height: 55px;
+  width: 250px;
+  height: 45px;
   letter-spacing: 1.5px;
-  line-height: 25px;
+  font-size: 12px;
 }
 
 .bw-display-layer .bwt-index-search-container .bwt-index-search-filters-container {
@@ -17291,6 +17293,7 @@ html .clear:after {
 .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
   font-family: Gotham-Medium;
   letter-spacing: 0.75px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
@@ -17459,13 +17462,59 @@ html .clear:after {
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .bwt-explore-store,
-  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions {
+    width: 292px;
+  }
+
   .bw-display-layer-container .bw-display-layer .bwt-index-search-container {
     width: 320px;
   }
 
+  .bw-display-layer .bwt-index .bwt-store-location-details-wrapper,
+  .bw-display-layer .bwt-index .bwt-store-contact-info,
+  .bw-display-layer .bwt-index .bwt-index-store-body-details-distance-hours,
+  .bw-display-layer .bwt-index .bwt-store-actions,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle {
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .bw-display-layer .bwt-index-header-container .bwt-index-search-form-wrap {
     width: 290px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-hide-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-results-notice-map-action,
+  .bw-display-layer .bwt-index .bwt-index-search-results-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle .bwt-index-filters-expand-button {
+    text-align: left;
+    float: none;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-header-container .bwt-index-search-form-input {
+    font-size: 12px
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-filters {
+    display: block;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-expanded-icon {
+    text-align: right;
+    float: right;
   }
 }
 

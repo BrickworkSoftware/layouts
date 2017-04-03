@@ -7643,7 +7643,6 @@ main .content .checkout-step-indicator a {
   margin: 1px 0 0 0;
   border-width: 0;
   text-transform: uppercase;
-  width: 50%
 }
 
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
@@ -17189,6 +17188,12 @@ html .clear:after {
 .bw-display-layer .bwt-store-show .bwt-store-services-info-title.ui-state-active::before {
   content: url(//assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg);
 }
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
+  float: right;
+}
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column:after {
+  content: ":";
+}
 
 /*responsive for mobile*/
 @media only screen and (max-width: 767px) and (min-width: 320px) {
@@ -18215,6 +18220,121 @@ html .clear:after {
   }
 }
 
+/*store special hours general styling*/
+.bw-display-layer .bwt-store-show .bwt-store-hours-special-title, 
+.bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
+  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #231F20 !important;
+  letter-spacing: 0 !important;
+  line-height: 30px !important;
+}
+td.bwt-store-hours-table-hours-column, 
+td.bwt-store-hours-table-date-column{
+  border: none !important;
+  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+  line-height: 30px !important;
+  padding: 0 !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-regular-wrapper {
+  padding: 0 35px 0 24px !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-title{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 18px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+}
+.bwt-store-hours-modal .bwt-modal-store-hours-wrapper .bwt-modal-store-hours-subtitle{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 14px !important;
+  color: #252525 !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-day-number .bwt-special-day, 
+.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-day-number .bwt-open-day {
+  background: none !important;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 12px !important;
+  color: #252525 !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-days li{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 12px !important;
+  color: #252525 !important;
+  letter-spacing: 1.5px !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-special-title{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-selected-container .bwt-store-hour-date{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 24px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-selected-container .bwt-store-hour-name{
+  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+  line-height: 22px !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-selected-container .bwt-store-hour-range{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 16px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+}
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-special-title, 
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-closed-title, 
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-mobile .bwt-special-title, 
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-mobile .bwt-closed-title{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 12px !important;
+  color: #252525 !important;
+}
+
+/*call modal*/
+.bwt-store-call-modal .bwt-store-call-placeholder{
+  background: none !important;
+  opacity: 0.4;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 15px !important;
+  color: #2B3033 !important;
+  letter-spacing: 0 !important;
+}
+.bwt-store-call-modal .bwt-store-call-input{
+  background: transparent !important;
+  border: 1px solid #77787B !important;
+}
+.bwt-store-call-modal .bwt-store-call-button{
+  background: #D2461D !important;
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 15px !important;
+  color: #FFFFFF !important;
+  letter-spacing: 1.5px !important;
+  line-height: 15px !important;
+  border: none !important;
+}
+.active .bwt-store-call-field .bwt-store-call-placeholder{
+  top: -11px !important;
+  left: -11px;
+}
+.bwt-store-call-modal .bwt-store-call-title{
+  font-family: "Gotham-Medium", Arial, sans-serif !important;
+  font-size: 36px !important;
+  color: #252525 !important;
+  letter-spacing: 0 !important;
+  padding: 0;
+}
 /* end of store page*/
 
 

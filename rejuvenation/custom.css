@@ -17777,6 +17777,9 @@ html .clear:after {
     line-height: 16px;
     margin-top: 10px;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours{
+    padding-left: 0 !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3, 
@@ -18207,9 +18210,8 @@ html .clear:after {
     margin-top: 68px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
-    margin-top: 30%;
-    width: 22.7% !important;
-    margin-top: 82.5px;
+    width: 16% !important;
+    margin-top: 150px;
     float: left;
     margin-right: 50px;
     margin-left: 79px;

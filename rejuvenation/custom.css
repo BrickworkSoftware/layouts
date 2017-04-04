@@ -17074,7 +17074,7 @@ html .clear:after {
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder,
 .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin,
 .bwt-events-map-pin {
-  background: url("///assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/rejuvenation_map_pin.png") no-repeat !important;
+  background: url("//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/rejuvenation_map_pin.png") no-repeat !important;
   background-position: center center;
   background-size: contain;
   width: 60px;

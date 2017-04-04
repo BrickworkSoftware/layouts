@@ -17710,7 +17710,7 @@ html .clear:after {
 /*responsive for mobile*/
 @media only screen and (max-width: 767px) and (min-width: 320px) {
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container{
-    background: #D2461D  !important;
+    background: #D04727   !important;
     border-radius: 3px;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -17801,7 +17801,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link-text a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #D04727  !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
     text-align: left;
@@ -17840,8 +17840,8 @@ html .clear:after {
     font-size: 15px !important;
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #D04727  !important;
+    border: 2px solid #D04727  !important;
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p {
@@ -17904,7 +17904,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border: none !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -17962,7 +17962,7 @@ html .clear:after {
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     width: 100% !important;
     margin: 20px 0 !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border-radius: 0 !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -18016,7 +18016,7 @@ html .clear:after {
 /*responsive store page for tablet*/
 @media only screen and (max-width: 992px) and (min-width: 768px) {
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container{
-    background: #D2461D !important;
+    background: #D04727  !important;
     border-radius: 3px;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -18076,8 +18076,8 @@ html .clear:after {
     font-size: 15px !important;
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #D04727  !important;
+    border: 2px solid #D04727  !important;
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary-hours,
@@ -18117,7 +18117,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link-text a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #D04727  !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
@@ -18227,7 +18227,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show a.brickwork-button{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border: none !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -18266,7 +18266,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-event-search-container a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #D04727  !important;
     letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-title{
@@ -18297,7 +18297,7 @@ html .clear:after {
     border: 1px solid #000000 !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-today .ui-state-default{
-    background-color: #D2461D !important;
+    background-color: #D04727  !important;
     color: #ffffff !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
@@ -18365,7 +18365,7 @@ html .clear:after {
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     width: 100% !important;
     margin: 20px 0 !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border-radius: 0 !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -18434,7 +18434,7 @@ html .clear:after {
 /*reponsive store page for laptop */
 @media only screen and (min-width: 1024px){
   .bw-display-layer .bwt-store-show .bwt-store-alert-container .store-alert-container{
-    background: #D2461D !important;
+    background: #D04727  !important;
     border-radius: 3px;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -18485,8 +18485,8 @@ html .clear:after {
     font-size: 15px !important;
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #D04727  !important;
+    border: 2px solid #D04727  !important;
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
@@ -18512,7 +18512,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link-text a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #D04727  !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
@@ -18602,7 +18602,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show a.brickwork-button{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border: none !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -18618,7 +18618,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-event-search-container a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #D04727  !important;
     letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events{
@@ -18652,7 +18652,7 @@ html .clear:after {
     border: 1px solid #000000 !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-today .ui-state-default{
-    background-color: #D2461D !important;
+    background-color: #D04727  !important;
     color: #ffffff !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper {
@@ -18688,7 +18688,7 @@ html .clear:after {
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     width: 100% !important;
     margin: 20px 0 !important;
-    background: #D2461D !important;
+    background: #D04727  !important;
     border-radius: 0 !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -18828,7 +18828,7 @@ td.bwt-store-hours-table-date-column{
   border: 1px solid #77787B !important;
 }
 .bwt-store-call-modal .bwt-store-call-button{
-  background: #D2461D !important;
+  background: #D04727  !important;
   font-family: "Gotham-Medium", Arial, sans-serif !important;
   font-size: 15px !important;
   color: #FFFFFF !important;

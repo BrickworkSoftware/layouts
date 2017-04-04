@@ -17074,15 +17074,15 @@ html .clear:after {
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder,
 .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin,
 .bwt-events-map-pin {
-  background: url("///assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png") no-repeat !important;
+  background: url("///assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/rejuvenation_map_pin.png") no-repeat !important;
   background-position: center center;
   background-size: contain;
-  width: 30px;
-  height: 50px;
+  width: 60px;
+  height: 69px;
 }
 
 .bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
-  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png");
+  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/rejuvenation_map_pin.png");
 }
 
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
@@ -17622,12 +17622,63 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-store-future-opening-text,
+.bw-display-layer-container .bw-display-layer .bwt-store-future-opening .bwt-store-future-opening-text,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-event-text,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
   font-family: Gotham-Medium;
   letter-spacing: 0;
   line-height: 24px;
+  text-transform: uppercase;
+}
+
+.bw-display-layer-container .bw-display-layer .store-event-calendar-image {
+  background: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/calendar_icon.svg) center center no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 3px;
+}
+
+.bw-display-layer-container .bw-display-layer .store-event-calendar-date-month {
+  display: inline-block;
+  font-family: Gotham-Medium;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+.bw-display-layer-container .bw-display-layer .store-event-calendar-date {
+  display: inherit;
+  font-size: 18px;
+  top: 10px;
+}
+
+.bw-display-layer-container .bw-display-layer .store-event-calendar-image {
+  left: 18px;
+  top: 19px;
+  bottom: 21px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-future-opening-container .store-event-calendar-image {
+  display: none;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  top: 37%;
+  left: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-arrow:after {
+  content: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/upcoming_event_arrow.svg);
+  right: 10px;
+  position: absolute;
+  top: 40%;
 }
 
 /* Event Index */

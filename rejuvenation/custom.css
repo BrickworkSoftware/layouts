@@ -615,7 +615,7 @@ div.clue-top-rounded .cluetip-arrows {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("fancybox_sprite.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_sprite.png");
 }
 
 #fancybox-loading {
@@ -633,7 +633,7 @@ div.clue-top-rounded .cluetip-arrows {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("fancybox_loading.gif") center center no-repeat;
+  background: url("//rejuvenation.s3.amazonaws.com/fancybox_loading.gif") center center no-repeat;
 }
 
 .fancybox-close {
@@ -653,7 +653,7 @@ div.clue-top-rounded .cluetip-arrows {
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url("blank.gif");
+  background: transparent url("//rejuvenation.s3.amazonaws.com/blank.gif");
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040;
 }
@@ -721,7 +721,7 @@ div.clue-top-rounded .cluetip-arrows {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("fancybox_overlay.png");
+  background: url("//rejuvenation.s3.amazonaws.com/fancybox_overlay.png");
 }
 
 .fancybox-overlay-fixed {
@@ -792,11 +792,11 @@ div.clue-top-rounded .cluetip-arrows {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("fancybox_sprite@2x.png");
+    background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_sprite@2x.png");
     background-size: 44px 152px;
   }
   #fancybox-loading div {
-    background-image: url("fancybox_loading@2x.gif");
+    background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_loading@2x.gif");
     background-size: 24px 24px;
   }
 }
@@ -1233,33 +1233,35 @@ div.clue-top-rounded .cluetip-arrows {
   height: 16px;
 }
 
-.ui-icon, .ui-widget-content .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+/* Cant load this images from their page */
+
+/*.ui-icon, .ui-widget-content .ui-icon {
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-widget-header .ui-icon {
-  background-image: url("images/ui-icons_FFF_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_FFF_256x240.png");
 }
 
 .ui-state-default .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-state-active .ui-icon {
-  background-image: url("images/ui-icons_d04727_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_d04727_256x240.png");
 }
 
 .ui-state-highlight .ui-icon {
-  background-image: url("images/ui-icons_FFF_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_FFF_256x240.png");
 }
 
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-  background-image: url("images/ui-icons_cd0a0a_256x240.png");
-}
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_cd0a0a_256x240.png");
+}*/
 
 .ui-icon-blank {
   background-position: 16px 16px;
@@ -9005,7 +9007,7 @@ footer .social .sites ul li {
   }
 }
 
-header {
+.site_header header {
   background: #fff;
   border-bottom: 1px solid #dcddde;
   display: -webkit-box;
@@ -9020,7 +9022,7 @@ header {
   z-index: 700;
 }
 
-header>* {
+.site_header header>* {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9032,7 +9034,7 @@ header>* {
   width: 100%
 }
 
-header .inner-wrapper {
+.site_header header .inner-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9586,7 +9588,7 @@ header nav.info .end {
 }
 
 @media screen and (max-width: 670px) {
-  header {
+  .site_header header {
     border-color: #bbbbbd;
   }
   header #cart-pop .cart, header #cart-pop .cart:hover {
@@ -15078,7 +15080,7 @@ main .content.pip .breadcrumb ul li.icon-chevron-right {
 }
 
 .product-renderer .no-render .no-render-icon::before {
-  background-image: url("/assets/sprite.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/assets/sprite.png");
   background-position: -1161px -1050px;
   background-repeat: no-repeat;
   content: "";
@@ -16410,7 +16412,7 @@ input.uniform-input, select.uniform-multiselect, textarea.uniform {
 }
 
 input.uniform-input.active, select.uniform-multiselect.active, textarea.uniform.active {
-  background: url("/assets/uniform-bg-input-focus.png") repeat-x 0 0;
+  background: url("//rejuvenation.s3.amazonaws.com/assets/uniform-bg-input-focus.png") repeat-x 0 0;
 }
 
 div.checker input, input[type="search"], input[type="search"]:active {
@@ -17303,6 +17305,7 @@ html .clear:after {
   padding-bottom: 13px;
   color: #252525;
   letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-index .bwt-store-address .bwt-store-address-line {
@@ -17330,6 +17333,7 @@ html .clear:after {
   letter-spacing: 0;
   line-height: 24px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-store-body-details-distance-hours {
@@ -17339,6 +17343,7 @@ html .clear:after {
   letter-spacing: 0;
   line-height: 24px;
   margin: 0 0 20px 0;
+  text-transform: uppercase;
 }
 
 .bwt-index-search-results-map-button .fa-angle-down:before,

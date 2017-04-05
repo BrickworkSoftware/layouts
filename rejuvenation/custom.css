@@ -17354,7 +17354,7 @@ html .clear:after {
 
 .bwt-index-search-results-map-button .fa-angle-up:before,
 .bwt-index-search-filter-link .fa-angle-up:before {
-  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_up.svg');
+  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/transit_arrow_up.svg');
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
@@ -17620,6 +17620,51 @@ html .clear:after {
   }
 }
 
+@media only screen and (min-width: 641px) and (max-width: 699px) {
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle {
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-hide-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-results-notice-map-action,
+  .bw-display-layer .bwt-index .bwt-index-search-results-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle .bwt-index-filters-expand-button {
+    text-align: left;
+    float: none;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-filters {
+    display: block;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-expanded-icon {
+    text-align: right;
+    float: right;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list {
+    margin-top: 50px;
+  }
+}
+
 /* Upcoming Event Banner and Store Opening Alerts */
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
@@ -17686,10 +17731,94 @@ html .clear:after {
   top: 40%;
 }
 
+/* Event Show */
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events,
+.bw-display-layer-container .bw-display-layer .bwt-event-index,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+  max-width: 1071px;
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix:before,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix:before {
+  color: #2B3033;
+  content: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/back_to_store_arrow_black.svg);
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix {
+  top: 18.3px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
+  top: -64px;
+  left: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text {
+  font-family: Gotham-Medium;
+  font-size: 15px;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-details-title,
+.bw-display-layer-container .bw-display-layer .bwt-nearby-event-title,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content {
+  font-family: Gotham-Medium;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 28px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-details-dates,
+.bw-display-layer-container .bw-display-layer .bwt-event-details-times,
+.bw-display-layer-container .bw-display-layer .bwt-nearby-event-date {
+  font-family: Gotham-Book;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-top: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-back-to-store-link .bwt-back-to-store-prefix {
+  left: 0%;
+}
+
+.bw-display-layer .bwt-event-show h4.bwt-event-details-times,
+.bw-display-layer .bwt-event-show h4.bwt-event-details-dates {
+  width: auto !important;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+  margin-top: 0;
+}
+
+.bw-display-layer .bwt-event-show h4.bwt-event-details-dates:after {
+  content: ",";
+  margin-left: -3px;
+}
+
+/* Event Show large */
+
+@media screen and (min-width: 1025px) {
+
+}
+
+/* Event Show tablet */
+
+/* Event Show mobile */
+
 /* Event Index */
-
-
-/* Event Show page */
 
 
 /* Store Show */

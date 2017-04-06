@@ -17695,7 +17695,7 @@ html .clear:after {
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
     width: 290px !important;
-    height: 110px !important;
+    height: 120px !important;
     top: 51% !important;
   }
   .bw-display-layer .bwt-store-show header.bwt-store-header {
@@ -17723,6 +17723,9 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours{
     padding-left: 0 !important;
+  }
+  .bw-display-layer .bwt-store-special-hours{
+    text-align: left;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
@@ -17845,6 +17848,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-service{
     width: 20% !important;
+    height: 400px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
     width: 22.7% !important;
@@ -17871,7 +17875,13 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
-    min-height: 300px;
+    min-height: 100px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
+    text-align: center;
+    padding: 0px !important;
+    border: 0px !important;
+    width: 250px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -17901,6 +17911,9 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
     width: 320px !important;
     height: 190px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-event-body-wrapper {
+    margin-top: 30px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-dates {
     font-family: "Gotham-Book", Arial, sans-serif !important;
@@ -17932,7 +17945,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-event-link {
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     width: 100% !important;
-    margin: 20px 0 !important;
+    margin: 20px 0 20px 10px !important;
     background: #D04727  !important;
     border-radius: 0 !important;
     font-size: 15px !important;
@@ -17955,6 +17968,9 @@ html .clear:after {
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-feature {
+    max-width: none !important;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description, 
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description, 
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
@@ -17970,7 +17986,6 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-cover{
     background: #2B3033 !important;
   }
-
   /*store page email subscription*/
   .bw-display-layer .bwt-store-show .bwt-store-show-email-signup-container {
     display: none;
@@ -18064,6 +18079,10 @@ html .clear:after {
     clear: none !important;
     float: none !important;
     top: 920px;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
+    display: block;
+    padding-right: 0px !important; 
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
@@ -18311,8 +18330,6 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     padding: 0;
-    display: table-footer-group;
-    line-height: 45px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-dates{
     font-family: "Gotham-Book", Arial, sans-serif !important;
@@ -18321,7 +18338,6 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 10px !important;
     padding: 0;
-    display: table-header-group;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;

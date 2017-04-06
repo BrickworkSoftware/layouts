@@ -17438,7 +17438,7 @@ html .clear:after {
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
     height: 506px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
+    background-image: url('https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_desktop.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li {
@@ -17467,7 +17467,7 @@ html .clear:after {
 @media only screen and (min-width: 641px) and (max-width: 1199px) {
   .bw-display-layer .bwt-index-header {
     height: 495px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
+    background-image: url('https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_desktop.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
@@ -17540,7 +17540,7 @@ html .clear:after {
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header {
     height: 380px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_mobile.png');
+    background-image: url('https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_mobile.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,

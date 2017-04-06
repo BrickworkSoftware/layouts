@@ -3,21 +3,21 @@
   font-family: 'Gotham-Medium';
   font-weight: 600;
   font-style: normal;
-  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Medium.otf');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/Gotham-Medium.otf');
 }
 
 @font-face {
   font-family: 'Gotham-Bold';
   font-weight: 600;
   font-style: normal;
-  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Bold.otf');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/Gotham-Bold.otf');
 }
 
 @font-face {
   font-family: 'Gotham-Book';
   font-weight: 600;
   font-style: normal;
-  src: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/Gotham-Book.otf');
+  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/Gotham-Book.otf');
 }
 
 
@@ -615,7 +615,7 @@ div.clue-top-rounded .cluetip-arrows {
 }
 
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-  background-image: url("fancybox_sprite.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_sprite.png");
 }
 
 #fancybox-loading {
@@ -633,7 +633,7 @@ div.clue-top-rounded .cluetip-arrows {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url("fancybox_loading.gif") center center no-repeat;
+  background: url("//rejuvenation.s3.amazonaws.com/fancybox_loading.gif") center center no-repeat;
 }
 
 .fancybox-close {
@@ -653,7 +653,7 @@ div.clue-top-rounded .cluetip-arrows {
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url("blank.gif");
+  background: transparent url("//rejuvenation.s3.amazonaws.com/blank.gif");
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040;
 }
@@ -721,7 +721,7 @@ div.clue-top-rounded .cluetip-arrows {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url("fancybox_overlay.png");
+  background: url("//rejuvenation.s3.amazonaws.com/fancybox_overlay.png");
 }
 
 .fancybox-overlay-fixed {
@@ -792,11 +792,11 @@ div.clue-top-rounded .cluetip-arrows {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
-    background-image: url("fancybox_sprite@2x.png");
+    background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_sprite@2x.png");
     background-size: 44px 152px;
   }
   #fancybox-loading div {
-    background-image: url("fancybox_loading@2x.gif");
+    background-image: url("//rejuvenation.s3.amazonaws.com/fancybox_loading@2x.gif");
     background-size: 24px 24px;
   }
 }
@@ -1233,33 +1233,35 @@ div.clue-top-rounded .cluetip-arrows {
   height: 16px;
 }
 
-.ui-icon, .ui-widget-content .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+/* Cant load this images from their page */
+
+/*.ui-icon, .ui-widget-content .ui-icon {
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-widget-header .ui-icon {
-  background-image: url("images/ui-icons_FFF_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_FFF_256x240.png");
 }
 
 .ui-state-default .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
-  background-image: url("images/ui-icons_2b3033_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_2b3033_256x240.png");
 }
 
 .ui-state-active .ui-icon {
-  background-image: url("images/ui-icons_d04727_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_d04727_256x240.png");
 }
 
 .ui-state-highlight .ui-icon {
-  background-image: url("images/ui-icons_FFF_256x240.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_FFF_256x240.png");
 }
 
 .ui-state-error .ui-icon, .ui-state-error-text .ui-icon {
-  background-image: url("images/ui-icons_cd0a0a_256x240.png");
-}
+  background-image: url("//rejuvenation.s3.amazonaws.com/images/ui-icons_cd0a0a_256x240.png");
+}*/
 
 .ui-icon-blank {
   background-position: 16px 16px;
@@ -9005,7 +9007,7 @@ footer .social .sites ul li {
   }
 }
 
-header {
+.site_header header {
   background: #fff;
   border-bottom: 1px solid #dcddde;
   display: -webkit-box;
@@ -9020,7 +9022,7 @@ header {
   z-index: 700;
 }
 
-header>* {
+.site_header header>* {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9032,7 +9034,7 @@ header>* {
   width: 100%
 }
 
-header .inner-wrapper {
+.site_header header .inner-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9586,7 +9588,7 @@ header nav.info .end {
 }
 
 @media screen and (max-width: 670px) {
-  header {
+  .site_header header {
     border-color: #bbbbbd;
   }
   header #cart-pop .cart, header #cart-pop .cart:hover {
@@ -15078,7 +15080,7 @@ main .content.pip .breadcrumb ul li.icon-chevron-right {
 }
 
 .product-renderer .no-render .no-render-icon::before {
-  background-image: url("/assets/sprite.png");
+  background-image: url("//rejuvenation.s3.amazonaws.com/assets/sprite.png");
   background-position: -1161px -1050px;
   background-repeat: no-repeat;
   content: "";
@@ -16410,7 +16412,7 @@ input.uniform-input, select.uniform-multiselect, textarea.uniform {
 }
 
 input.uniform-input.active, select.uniform-multiselect.active, textarea.uniform.active {
-  background: url("/assets/uniform-bg-input-focus.png") repeat-x 0 0;
+  background: url("//rejuvenation.s3.amazonaws.com/assets/uniform-bg-input-focus.png") repeat-x 0 0;
 }
 
 div.checker input, input[type="search"], input[type="search"]:active {
@@ -17073,15 +17075,15 @@ html .clear:after {
 .bw-display-layer .bwt-store-show-main .bwt-store-map-pin-holder,
 .bwt-store-map-pin-holder, .bwt-stores-nearby-list .bwt-local-store-map-pin,
 .bwt-events-map-pin {
-  background: url("///assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png") no-repeat !important;
+  background: url("//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/rejuvenation_map_pin.png") no-repeat !important;
   background-position: center center;
   background-size: contain;
-  width: 30px;
-  height: 50px;
+  width: 60px;
+  height: 69px;
 }
 
 .bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
-  content: url("//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/map_pin.png");
+  content: url("//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/rejuvenation_map_pin.png");
 }
 
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
@@ -17097,7 +17099,11 @@ html .clear:after {
 /* Button Styling */
 /* Primary button with Red bg color */
 .bw-display-layer .bwt-index .bwt-get-directions,
-.bw-display-layer .bwt-index a.brickwork-button {
+.bw-display-layer .bwt-index a.brickwork-button,
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions {
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   background: #d04727;
@@ -17115,7 +17121,11 @@ html .clear:after {
 }
 
 .bw-display-layer .bwt-index .bwt-get-directions:hover,
-.bw-display-layer .bwt-index a.brickwork-button:hover {
+.bw-display-layer .bwt-index a.brickwork-button:hover,
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button:hover,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link:hover,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a:hover,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions:hover {
   background: #414042;
   color: #fff;
   border: none;
@@ -17303,6 +17313,7 @@ html .clear:after {
   padding-bottom: 13px;
   color: #252525;
   letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .bw-display-layer .bwt-index .bwt-store-address .bwt-store-address-line {
@@ -17330,6 +17341,7 @@ html .clear:after {
   letter-spacing: 0;
   line-height: 24px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-store-body-details-distance-hours {
@@ -17339,16 +17351,17 @@ html .clear:after {
   letter-spacing: 0;
   line-height: 24px;
   margin: 0 0 20px 0;
+  text-transform: uppercase;
 }
 
 .bwt-index-search-results-map-button .fa-angle-down:before,
 .bwt-index-search-filter-link .fa-angle-down:before {
-  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_down.svg');
+  content: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/view_map_down.svg');
 }
 
 .bwt-index-search-results-map-button .fa-angle-up:before,
 .bwt-index-search-filter-link .fa-angle-up:before {
-  content: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/view_map_up.svg');
+  content: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/transit_arrow_up.svg');
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
@@ -17389,7 +17402,7 @@ html .clear:after {
   padding-bottom: 15px;
 }
 
-.bw-display-layer .bwt-index .bwt-scroll-assist {
+.bw-display-layer .bwt-scroll-assist {
   display: none !important;
 }
 
@@ -17427,7 +17440,7 @@ html .clear:after {
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
     height: 506px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
+    background-image: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_desktop.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li {
@@ -17456,7 +17469,7 @@ html .clear:after {
 @media only screen and (min-width: 641px) and (max-width: 1199px) {
   .bw-display-layer .bwt-index-header {
     height: 495px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_desktop.png');
+    background-image: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_desktop.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
@@ -17529,7 +17542,7 @@ html .clear:after {
 @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-index-header {
     height: 380px;
-    background-image: url('//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/hero_mobile.png');
+    background-image: url('//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/hero_mobile.png');
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-index .store-info .bwt-store-body-wrapper .bwt-store-body-image-container .bwt-index-store-image,
@@ -17614,6 +17627,51 @@ html .clear:after {
   }
 }
 
+@media only screen and (min-width: 641px) and (max-width: 699px) {
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list li {
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle {
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-hide-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-results-notice-map-action,
+  .bw-display-layer .bwt-index .bwt-index-search-results-map-button,
+  .bw-display-layer-container .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle .bwt-index-filters-expand-button {
+    text-align: left;
+    float: none;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-filters {
+    display: block;
+    width: 292px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-collapsed-icon,
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-expand-button-expanded-icon {
+    text-align: right;
+    float: right;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-index .bwt-store-list {
+    margin-top: 50px;
+  }
+}
+
 /* Upcoming Event Banner and Store Opening Alerts */
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .upcoming-event-container,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening-container {
@@ -17621,18 +17679,412 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-text,
-.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-store-future-opening-text,
+.bw-display-layer-container .bw-display-layer .bwt-store-future-opening .bwt-store-future-opening-text,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-event-text,
 .bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
   font-family: Gotham-Medium;
   letter-spacing: 0;
   line-height: 24px;
+  text-transform: uppercase;
 }
 
-/* Event Index */
+.bw-display-layer-container .bw-display-layer .store-event-calendar-image {
+  background: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/calendar_icon.svg) center center no-repeat;
+  width: 60px;
+  height: 60px;
+  border-radius: 3px;
+}
 
+.bw-display-layer-container .bw-display-layer .store-event-calendar-date-month {
+  display: inline-block;
+  font-family: Gotham-Medium;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
 
-/* Event Show page */
+.bw-display-layer-container .bw-display-layer .store-event-calendar-date {
+  display: inherit;
+  font-size: 18px;
+  top: 10px;
+}
+
+.bw-display-layer-container .bw-display-layer .store-event-calendar-image {
+  left: 18px;
+  top: 19px;
+  bottom: 21px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-future-opening-container .store-event-calendar-image {
+  display: none;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-future-opening .bwt-store-future-opening-text {
+  text-align: center;
+  max-width: 100%;
+  width: 100%;
+  top: 37%;
+  left: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-upcoming-event .bwt-event-arrow:after {
+  content: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/upcoming_event_arrow.svg);
+  right: 10px;
+  position: absolute;
+  top: 40%;
+}
+
+/* Event Show */
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events,
+.bw-display-layer-container .bw-display-layer .bwt-event-index,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+  margin: 0 auto;
+  margin-top: 80px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix:before,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix:before {
+  color: #2B3033;
+  content: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/back_to_store_arrow_black.svg);
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix {
+  top: 18.3px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
+  top: -64px;
+  left: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text {
+  font-family: Gotham-Medium;
+  font-size: 15px;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-title,
+.bw-display-layer-container .bw-display-layer .bwt-nearby-event-title,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content {
+  font-family: Gotham-Medium;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 28px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-nearby-event-date,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+  font-family: Gotham-Book;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-top: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-link .bwt-back-to-store-prefix {
+  left: 0%;
+}
+
+.bw-display-layer .bwt-event-show h4.bwt-event-details-times,
+.bw-display-layer .bwt-event-index .bwt-event-details-times,
+.bw-display-layer .bwt-event-index .bwt-event-details-dates,
+.bw-display-layer .bwt-event-show h4.bwt-event-details-dates {
+  display: inline;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+  margin-top: 0;
+}
+
+.bw-display-layer .bwt-event-show h4.bwt-event-details-dates:after,
+.bw-display-layer .bwt-event-index .bwt-event-details-dates:after {
+  content: ",";
+  margin-left: -3px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-description,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-events-promo,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-description {
+  margin-top: 6px;
+  font-family: TimesNewRomanPSMT;
+  font-size: 15px;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content {
+  -ms-box-orient: horizontal;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container,
+.bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-event-description {
+  -webkit-box-ordinal-group: 1;
+  -moz-box-ordinal-group: 1;
+  -ms-flex-order: 1;
+  -webkit-order: 1;
+  order: 1;
+  width: 100%;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container {
+  margin-bottom: 21px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-actions,
+.bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
+  -webkit-box-ordinal-group: 2;
+  -moz-box-ordinal-group: 2;
+  -ms-flex-order: 2;
+  -webkit-order: 2;
+  order: 2;
+  width: 100%;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-actions {
+  margin-top: 0 !important;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-social-container,
+.bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+  -webkit-box-ordinal-group: 3;
+  -moz-box-ordinal-group: 3;
+  -ms-flex-order: 3;
+  -webkit-order: 3;
+  order: 3;
+  width: 100%;
+}
+
+.bwt-event-index .bwt-share-buttons,
+.bwt-event-index .bwt-store-event-link-container {
+  width: 291px;
+}
+
+.bwt-event-index .bwt-store-event-link-container {
+  margin-top: 16.5px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
+  font-family: Gotham-Medium;
+  font-size: 18px;
+  color: #939497;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .active.bwt-local-link a {
+  color: #d04727;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-events-promo {
+  margin-top: 0 !important;
+}
+
+.bw-display-layer-container.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
+.bw-display-layer-container.bw-display-layer .bwt-event-index .bwt-store-event-link {
+  margin-bottom: 27px;
+}
+
+.bw-display-layer .bwt-event-index .bwt-share-buttons {
+  margin: 0 auto;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-store-location {
+  -webkit-box-ordinal-group: 4;
+  -moz-box-ordinal-group: 4;
+  -ms-flex-order: 4;
+  -webkit-order: 4;
+  order: 4;
+  width: 100%;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-legal p {
+  padding-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .fa-facebook-f:before,
+.bw-display-layer-container .bw-display-layer .fa-facebook:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-facebook:before,
+.bw-display-layer-container .bw-display-layer .fa-twitter:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-twitter:before,
+.bw-display-layer-container .bw-display-layer .fa-envelope-o:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-email:before {
+  color: #939497 !important;
+  font-size: 20px;
+  font-family: "rejuvenation-icons" !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: normal !important;
+  line-height: 1;
+  speak: none;
+  text-transform: none !important;
+}
+
+.bw-display-layer-container .bw-display-layer .fa-facebook-f:hover:before,
+.bw-display-layer-container .bw-display-layer .fa-facebook:hover:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-facebook:hover:before,
+.bw-display-layer-container .bw-display-layer .fa-twitter:hover:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-twitter:hover:before,
+.bw-display-layer-container .bw-display-layer .fa-envelope-o:hover:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-email:hover:before {
+  color: #d04727;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-facebook,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-twitter,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-email {
+  background-color: white !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before,
+.bw-display-layer .bwt-social-icon.bwt-social-facebook:before {
+  content: "\f020";
+}
+
+.bw-display-layer-container .bw-display-layer .fa-twitter:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-twitter:before {
+  content: "\f021";
+}
+
+.bw-display-layer-container .bw-display-layer .fa-envelope-o:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-email:before {
+  content: "\f030";
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions {
+  font-weight: normal;
+  width: 100%;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-share-buttons {
+  text-align: center;
+  margin-left: -7px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image:before,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
+  padding-top: 60.8%;
+}
+
+/* Event Show large */
+
+@media screen and (min-width: 1025px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+    max-width: 1071px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {
+    max-width: 740px;
+    width: 740px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-details,
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-nearby-event-info,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-event-details,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info {
+    width: 331px;
+    padding-right: 40px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 331px;
+    padding-left: 40px;
+  }
+}
+
+/* Event Show tablet */
+
+@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+    max-width: 728px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image {
+    max-width: 680px;
+    width: 680px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
+    max-width: 415px;
+    width: 415px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {
+    max-height: 252.3px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
+    padding-top: 60.79% !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    position: relative;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 313px;
+    padding-left: 22px;
+  }
+
+  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+    position: relative;
+  }
+}
+
+/* Event Show mobile */
+
+@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image:before,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
+    padding-top: 59.5%;
+  }
+}
 
 
 /* Store Show */
@@ -17647,7 +18099,7 @@ html .clear:after {
   background: none !important;
 }
 .bw-display-layer .bwt-store-show .bwt-store-services-info-title.ui-state-active::before {
-  content: url(//assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/up_arrow.svg);
+  content: url(//s3.amazonaws.com/assets.brickworksoftware.com/workspace/icons/up_arrow.svg);
 }
 .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
   float: right;
@@ -17664,12 +18116,18 @@ html .clear:after {
   border: none !important;
   height: 38px;
 }
-.bw-display-layer .bwt-appointment-modal-button-wrapper a.brickwork-button, 
+.bw-display-layer .bwt-appointment-modal-button-wrapper a.brickwork-button,
 .bw-display-layer .bwt-appointment-modal-button-wrapper a.brickwork-button:hover{
   background: #414042 !important;
   color: #fff;
   border: none !important;
   height: 41px;
+}
+
+#bwt-store-event-calendar .ui-state-disabled,
+#bwt-store-event-calendar .ui-widget-content .ui-state-disabled,
+#bwt-store-event-calendar .ui-widget-header .ui-state-disabled {
+  opacity: 1;
 }
 
 /*responsive for mobile*/
@@ -17728,8 +18186,8 @@ html .clear:after {
     text-align: left;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -17742,7 +18200,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-services-info-title::before{
     margin-top: 21px !important
   }
-  .bw-display-layer .bwt-store-show .bwt-store-address, 
+  .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line {
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -17751,8 +18209,8 @@ html .clear:after {
     line-height: 22px !important;
     text-align: left !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table, 
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column {
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -17770,8 +18228,8 @@ html .clear:after {
     text-align: left !important;
     padding: 0 !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-phone-number-link-text, 
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link a, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-phone-number-link-text,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link a,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link-text a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -17780,7 +18238,7 @@ html .clear:after {
     line-height: 22px !important;
     text-align: left;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-email-link,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-social-link{
     text-align: left !important;
   }
@@ -17807,7 +18265,7 @@ html .clear:after {
     padding-left: 0px;
     padding-right: 15px;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-events-map-button{
     width: 100% !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -17894,14 +18352,14 @@ html .clear:after {
     border-radius: 0 !important;
     padding: 13px !important;
   }
-  .bw-display-layer .bwt-store-services-list .slick-prev, 
-  .bw-display-layer .bwt-store-events-list .slick-prev, 
+  .bw-display-layer .bwt-store-services-list .slick-prev,
+  .bw-display-layer .bwt-store-events-list .slick-prev,
   .bw-display-layer .bwt-stores-nearby-list .slick-prev {
     top: 3% !important;
     margin-left: 43px !important;
   }
-  .bw-display-layer .bwt-store-services-list .slick-next, 
-  .bw-display-layer .bwt-store-events-list .slick-next, 
+  .bw-display-layer .bwt-store-services-list .slick-next,
+  .bw-display-layer .bwt-store-events-list .slick-next,
   .bw-display-layer .bwt-stores-nearby-list .slick-next {
     top: 3% !important;
     margin-right: 43px !important;
@@ -17961,7 +18419,7 @@ html .clear:after {
     flex-direction: column;
     align-items: center;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content, 
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 30px !important;
@@ -17971,8 +18429,8 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-feature {
     max-width: none !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description, 
-  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description, 
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 24px !important;
@@ -18085,8 +18543,8 @@ html .clear:after {
     padding-right: 0px !important; 
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location h3{
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -18476,8 +18934,8 @@ html .clear:after {
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3, 
-  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3, 
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3,
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-services-and-location h3{
     font-family: "Gotham-Bold", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -18719,7 +19177,7 @@ html .clear:after {
 }
 
 /*store special hours general styling*/
-.bw-display-layer .bwt-store-show .bwt-store-hours-special-title, 
+.bw-display-layer .bwt-store-show .bwt-store-hours-special-title,
 .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
   font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
   font-size: 16px !important;
@@ -18727,7 +19185,7 @@ html .clear:after {
   letter-spacing: 0 !important;
   line-height: 30px !important;
 }
-td.bwt-store-hours-table-hours-column, 
+td.bwt-store-hours-table-hours-column,
 td.bwt-store-hours-table-date-column{
   border: none !important;
   font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
@@ -18752,7 +19210,7 @@ td.bwt-store-hours-table-date-column{
   font-size: 14px !important;
   color: #252525 !important;
 }
-.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-day-number .bwt-special-day, 
+.bwt-modal-store-hours-wrapper .bwt-modal-store-hours-day-number .bwt-special-day,
 .bwt-modal-store-hours-wrapper .bwt-modal-store-hours-day-number .bwt-open-day {
   background: none !important;
   font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -18791,13 +19249,21 @@ td.bwt-store-hours-table-date-column{
   color: #252525 !important;
   letter-spacing: 0 !important;
 }
-.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-special-title, 
-.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-closed-title, 
-.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-mobile .bwt-special-title, 
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-special-title,
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-desktop .bwt-closed-title,
+.bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-mobile .bwt-special-title,
 .bwt-modal-store-hours-wrapper .bwt-store-hours-key-container-mobile .bwt-closed-title{
   font-family: "Gotham-Medium", Arial, sans-serif !important;
   font-size: 12px !important;
   color: #252525 !important;
+}
+
+.bwt-store-hours-modal .ui-tabs .ui-tabs-nav li a {
+  background-color: white;
+}
+
+.bwt-store-hours-modal .bwt-special-closed:before {
+  content: "";
 }
 
 /*call modal*/

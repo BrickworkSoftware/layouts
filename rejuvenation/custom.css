@@ -18284,6 +18284,10 @@ html .clear:after {
     line-height: 22px !important;
     text-align: left !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
+    display: block;
+    padding-right: 0px !important; 
+  }
 
   /*store services for mobile*/
   .bw-display-layer .bwt-store-show h2.bwt-store-section-title {
@@ -18537,10 +18541,6 @@ html .clear:after {
     clear: none !important;
     float: none !important;
     top: 920px;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
-    display: block;
-    padding-right: 0px !important; 
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-location-details-title h3,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours h3,
@@ -19142,6 +19142,11 @@ html .clear:after {
   }
 
   /*store featre section styling*/
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .bw-display-layer .bwt-store-show .bwt-store-feature-cover{
     background: rgba(0,0,0,0.2) !important;
   }

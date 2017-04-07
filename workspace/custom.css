@@ -2085,6 +2085,7 @@ td.bwt-store-hours-table-date-column:after {
   color: #231F20 !important;
   letter-spacing: 1.5px !important;
   line-height: 26px;
+  height: 100px;
 }
 
 .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {

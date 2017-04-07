@@ -17961,9 +17961,9 @@ html .clear:after {
   border-radius: 0 !important;
 }
 
-.fa-facebook-f:before,
-.fa-facebook:before,
-.bw-display-layer .bwt-social-icon.bwt-social-facebook:before {
+.bw-display-layer-container .bw-display-layer .fa-facebook-f:before,
+.bw-display-layer-container .bw-display-layer .fa-facebook:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-facebook:before {
   content: "\f020";
 }
 

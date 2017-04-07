@@ -17738,7 +17738,7 @@ html .clear:after {
   top: 40%;
 }
 
-/* Event Show */
+/* Event Show/Index */
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
@@ -17748,6 +17748,10 @@ html .clear:after {
   margin-top: 80px;
   padding-left: 0;
   padding-right: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index {
+  margin-bottom: 80px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix:before,
@@ -17778,7 +17782,8 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-title,
 .bw-display-layer-container .bw-display-layer .bwt-nearby-event-title,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content {
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-details-title {
   font-family: Gotham-Medium;
   color: #252525;
   letter-spacing: 0;
@@ -17790,11 +17795,14 @@ html .clear:after {
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-nearby-event-date,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime,
+.bw-display-layer-container .bw-display-layer .bwt-event-details-dates,
+.bw-display-layer-container .bw-display-layer .bwt-event-details-times, .bw-display-layer .bwt-nearby-event-date {
   font-family: Gotham-Book;
   letter-spacing: 0;
   line-height: 26px;
   padding-top: 0;
+  text-transform: uppercase;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix,
@@ -17802,21 +17810,8 @@ html .clear:after {
   left: 0%;
 }
 
-.bw-display-layer .bwt-event-show h4.bwt-event-details-times,
-.bw-display-layer .bwt-event-index .bwt-event-details-times,
-.bw-display-layer .bwt-event-index .bwt-event-details-dates,
-.bw-display-layer .bwt-event-show h4.bwt-event-details-dates {
-  display: inline;
-}
-
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
   margin-top: 0;
-}
-
-.bw-display-layer .bwt-event-show h4.bwt-event-details-dates:after,
-.bw-display-layer .bwt-event-index .bwt-event-details-dates:after {
-  content: ",";
-  margin-left: -3px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-description,
@@ -17826,7 +17821,6 @@ html .clear:after {
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-description {
   margin-top: 6px;
   font-family: TimesNewRomanPSMT;
-  font-size: 15px;
   color: #252525;
   letter-spacing: 0;
   line-height: 20px;
@@ -18001,7 +17995,27 @@ html .clear:after {
   padding-top: 60.8%;
 }
 
-/* Event Show large */
+.bw-display-layer-container .bw-display-layer .bwt-events-image {
+  margin-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+  border-bottom: 1px solid #BBBBBB;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-results {
+  padding-top: 20px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link,
+.bw-display-layer .bwt-event-details-title,
+.bw-display-layer .bwt-nearby-event-title {
+  text-transform: uppercase;
+}
+
+/* Event Show/Index large */
 
 @media screen and (min-width: 1025px) {
   .bw-display-layer-container .bw-display-layer .bwt-event-show,
@@ -18013,7 +18027,8 @@ html .clear:after {
 
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image,
-  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
     max-width: 740px;
     width: 740px;
   }
@@ -18029,10 +18044,32 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
     width: 331px;
     padding-left: 40px;
+    position: relative;
+  }
+
+  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
+    position: absolute;
+    bottom: 85px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-nearby-event-date,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime,
+  .bw-display-layer-container .bw-display-layer .bwt-event-details-dates,
+  .bw-display-layer-container .bw-display-layer .bwt-event-details-times,
+  .bw-display-layer .bwt-nearby-event-date {
+    font-size: 18px !important;
   }
 }
 
-/* Event Show tablet */
+/* Event Show/Index tablet */
 
 @media screen and (max-width: 1024px) and (min-width: 641px) {
   .bw-display-layer-container .bw-display-layer .bwt-event-show,
@@ -18071,18 +18108,153 @@ html .clear:after {
     padding-left: 22px;
   }
 
-  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    left: -2px;
+    width: 415px;
+    position: absolute;
+    top: 252px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container {
     position: relative;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-store-event-link-container {
+    position: absolute;
+    top: 235px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    padding-bottom: 110px;
   }
 }
 
-/* Event Show mobile */
+@media screen and (max-width: 749px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 281px;
+    padding-left: 20px;
+  }
 
-@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
+    max-width: 350px;
+    width: 350px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    max-width: 641px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    width: 350px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    top: 212px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-store-event-link-container {
+    top: 195px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link {
+    width: 261px;
+  }
+}
+
+/* Event Show/Index mobile */
+
+@media screen and (max-width: 640px) {
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image:before,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before,
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
     padding-top: 59.5%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    margin-bottom: 50px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-link {
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text {
+    display: inline;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix {
+    position: relative;
+    display: inline;
+    top: 1px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
+    font-size: 14px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .bwt-event-index .bwt-store-event-link-container {
+    margin: 0 auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link-container .bwt-store-event-link {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-time.bwt-event-details-dates {
+    display: block;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .event-title {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .event-title {
+    margin-bottom: 10px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+    margin-top: 25.6px;
+    margin-bottom: 22px;
   }
 }
 

@@ -18566,10 +18566,38 @@ html .clear:after {
     margin-bottom: 22px;
   }
 
-  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info {
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container .bwt-event-header {
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  .bw-display-layer-container .bwt-event-show .bwt-events-main .bwt-event-details-signup,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+    max-width: 291px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details {
     padding-right: 0;
     width: 90.6%;
+    margin: 0 auto;
+    margin-top: 25.6px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+    margin-top: 30px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image {
+    margin-bottom: 25.6px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup {
+    margin: 30px auto;
   }
 }
 

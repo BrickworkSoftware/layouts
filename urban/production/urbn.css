@@ -495,3 +495,8 @@ a.bwt-pagination:hover { color: #fff !important; }
 
 /*header modifications*/
 li.dom-utility-currency, .c-site-search__a--inner, .c-site-search__img {display: none !important;}
+
+.has-modal-open {
+position: relative;
+overflow: auto;
+}

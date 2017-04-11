@@ -509,3 +509,9 @@ overflow: auto;
 .bw-display-layer #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day {
     width: 15% !important;
 }
+/*desktop header padding for event page*/
+@media only screen and (min-width: 1025px) {
+.bwt-events-event-details {
+    margin-top: 100px !important;
+}
+}

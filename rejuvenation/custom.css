@@ -19380,6 +19380,7 @@ td.bwt-store-hours-table-date-column{
     color: #252525 !important;
     letter-spacing: 1px !important;
     line-height: 22px !important;
+    min-height: 300px;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 250px !important;

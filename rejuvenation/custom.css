@@ -18457,7 +18457,7 @@ html .clear:after {
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description,
-  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
     max-height: 100%;
   }
 

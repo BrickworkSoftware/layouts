@@ -19824,6 +19824,10 @@ td.bwt-store-hours-table-date-column{
 /* end of store page*/
 
 
+
+
+
+/*syle Appointment modal*/
 @media only screen and (max-width: 767px) and (min-width: 320px){
   /*appointment header*/
   .bw-appointment-header-column.selected a, 
@@ -20192,6 +20196,60 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
   }
+
+  /*Appointment confirmation*/
+  .bw-iframe-container #appointment-confirmation .confirmation_title {
+    font-family: "Gotham-Medium", Arial,sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    color: #231F20 !important;
+    font-size: 20px !important;
+    letter-spacing: 0 !important;
+    line-height: 24px !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #231F20 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p b {
+    font-weight: 100;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    background: #D2461D;
+    border: none;
+    margin-top: 0;
+    height: 50px;
+    width: 250px;
+  }
+
+  /*Apontment reschedule*/
+  .bw-display-layer .bwt-appointment-cancel h2{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-appointment-cancel .bwt-divide{
+    display: none !important;
+  }
+  .bwt-appointment-cancel p{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 40px !important;
+  }
+    .bwt-appointment-cancel p b{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    font-weight: 100;
+  }
 }
 /*end of mobile*/
 
@@ -20511,6 +20569,11 @@ td.bwt-store-hours-table-date-column{
     color: #252525 !important;
     letter-spacing: 0 !important;
   }
+  label.collection_check_boxes, 
+  label.collection_radio_buttons{
+    padding: 15px 0px !important;
+    margin-left: 2px !important;
+  }
   .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .control-label{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
@@ -20548,6 +20611,60 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
+  }
+
+    /*Appointment confirmation*/
+  .bw-iframe-container #appointment-confirmation .confirmation_title {
+    font-family: "Gotham-Medium", Arial,sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 24px !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #231F20 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p b {
+    font-weight: 100;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    background: #D2461D;
+    border: none;
+    margin-top: 0;
+    height: 50px;
+    width: 250px;
+  }
+
+  /*Apontment reschedule*/
+  .bw-display-layer .bwt-appointment-cancel h2{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-appointment-cancel .bwt-divide{
+    display: none !important;
+  }
+  .bwt-appointment-cancel p{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 40px !important;
+  }
+    .bwt-appointment-cancel p b{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    font-weight: 100;
   }
 }
 
@@ -20912,6 +21029,60 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
     float: left;
+  }
+
+    /*Appointment confirmation*/
+  .bw-iframe-container #appointment-confirmation .confirmation_title {
+    font-family: "Gotham-Medium", Arial,sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 24px !important;
+  }
+   .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 18px !important;
+    color: #231F20 !important;
+  }
+  .bw-iframe-container #appointment-confirmation .details p b {
+    font-weight: 100;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    background: #D2461D;
+    border: none;
+    margin-top: 0;
+    height: 50px;
+    width: 250px;
+  }
+
+  /*Apontment reschedule*/
+  .bw-display-layer .bwt-appointment-cancel h2{
+    font-family: "Gotham-Medium", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+  }
+  .bw-display-layer .bwt-appointment-cancel .bwt-divide{
+    display: none !important;
+  }
+  .bwt-appointment-cancel p{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
+    line-height: 40px !important;
+  }
+    .bwt-appointment-cancel p b{
+    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-size: 20px !important;
+    color: #231F20 !important;
+    font-weight: 100;
   }
 }
 

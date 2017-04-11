@@ -19857,7 +19857,8 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .nearest-store a.choose-store-link:hover,
   .bw-iframe-container .bwt-appt-modal-button:hover, 
   .bw-iframe-container .nearest-store a.choose-store-link:hover, .bw-iframe-container #confirm_appointment_button:hover,
-  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover{
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover,
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button:hover{
     background: #414042 !important;
     color: #fff !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20227,7 +20228,7 @@ td.bwt-store-hours-table-date-column{
     width: 250px;
   }
 
-  /*Apontment reschedule*/
+ /*Appointment reschedule*/
   .bw-display-layer .bwt-appointment-cancel h2{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 36px !important;
@@ -20237,18 +20238,45 @@ td.bwt-store-hours-table-date-column{
   .bw-display-layer .bwt-appointment-cancel .bwt-divide{
     display: none !important;
   }
-  .bwt-appointment-cancel p{
+  .bw-display-layer .bwt-appointment-cancel p{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
-    .bwt-appointment-cancel p b{
+  .bw-display-layer .bwt-appointment-cancel p b{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
+  }
+  .bw-display-layer .bwt-appointment-cancel {
+    margin: 85px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment {
+    order: 2;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment a{
+    color: #D2461D !important; 
+  }
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button {
+    width: 290px;
+    height: 55px;
+    padding: 10px;
+    background: #D2461D;
+    border: none;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
   }
 }
 /*end of mobile*/
@@ -20331,7 +20359,8 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .nearest-store a.choose-store-link:hover,
   .bw-iframe-container .bwt-appt-modal-button:hover, 
   .bw-iframe-container .nearest-store a.choose-store-link:hover, .bw-iframe-container #confirm_appointment_button:hover,
-  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover{
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover,
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button:hover{
     background: #414042 !important;
     color: #fff !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20643,7 +20672,7 @@ td.bwt-store-hours-table-date-column{
     width: 250px;
   }
 
-  /*Apontment reschedule*/
+ /*Appointment reschedule*/
   .bw-display-layer .bwt-appointment-cancel h2{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 36px !important;
@@ -20653,18 +20682,45 @@ td.bwt-store-hours-table-date-column{
   .bw-display-layer .bwt-appointment-cancel .bwt-divide{
     display: none !important;
   }
-  .bwt-appointment-cancel p{
+  .bw-display-layer .bwt-appointment-cancel p{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
-    .bwt-appointment-cancel p b{
+  .bw-display-layer .bwt-appointment-cancel p b{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
+  }
+  .bw-display-layer .bwt-appointment-cancel {
+    margin: 85px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment {
+    order: 2;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment a{
+    color: #D2461D !important; 
+  }
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button {
+    width: 290px;
+    height: 55px;
+    padding: 10px;
+    background: #D2461D;
+    border: none;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
   }
 }
 
@@ -20747,7 +20803,8 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .nearest-store a.choose-store-link:hover,
   .bw-iframe-container .bwt-appt-modal-button:hover, 
   .bw-iframe-container .nearest-store a.choose-store-link:hover, .bw-iframe-container #confirm_appointment_button:hover,
-  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover{
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link:hover,
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button:hover{
     background: #414042 !important;
     color: #fff !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -21071,18 +21128,45 @@ td.bwt-store-hours-table-date-column{
   .bw-display-layer .bwt-appointment-cancel .bwt-divide{
     display: none !important;
   }
-  .bwt-appointment-cancel p{
+  .bw-display-layer .bwt-appointment-cancel p{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
-    .bwt-appointment-cancel p b{
+  .bw-display-layer .bwt-appointment-cancel p b{
     font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
+  }
+  .bw-display-layer .bwt-appointment-cancel {
+    margin: 85px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment {
+    order: 2;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  .bw-display-layer .bwt-cancel-store-appointment a{
+    color: #D2461D !important; 
+  }
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button {
+    width: 290px;
+    height: 55px;
+    padding: 10px;
+    background: #D2461D;
+    border: none;
+    font-family: "Gotham-Medium", Arial, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
   }
 }
 

@@ -17098,9 +17098,9 @@ html .clear:after {
 
 /* Button Styling */
 /* Primary button with Red bg color */
-.bw-display-layer .bwt-index .bwt-get-directions,
-.bw-display-layer .bwt-index a.brickwork-button,
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions,
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions {
@@ -17120,9 +17120,9 @@ html .clear:after {
   letter-spacing: 1.5px;
 }
 
-.bw-display-layer .bwt-index .bwt-get-directions:hover,
-.bw-display-layer .bwt-index a.brickwork-button:hover,
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button:hover,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions:hover,
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button:hover,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button:hover,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link:hover,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a:hover,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions:hover {
@@ -17773,6 +17773,12 @@ html .clear:after {
   left: 0;
 }
 
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal {
+  max-height: 40px;
+  overflow: scroll;
+  margin-top: 15px !important;
+}
+
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text {
   font-family: Gotham-Medium;
@@ -18019,7 +18025,7 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description {
-  max-height: 115px;
+  max-height: 104px;
   overflow: scroll;
 }
 
@@ -18140,6 +18146,10 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-event-details-times,
   .bw-display-layer-container .bw-display-layer .bwt-nearby-event-date {
     font-size: 18px !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times {
+    padding-bottom: 0px;
   }
 
   .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
@@ -18281,7 +18291,7 @@ html .clear:after {
     max-width: 628px;
     margin: auto;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image-container {
@@ -18447,7 +18457,8 @@ html .clear:after {
     padding-top: 59.5%;
   }
 
-  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal {
     max-height: 100%;
   }
 
@@ -18564,11 +18575,6 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
     margin-top: 25.6px;
     margin-bottom: 22px;
-  }
-
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container .bwt-event-header {
-    height: 30px;
-    margin-bottom: 10px;
   }
 
   .bw-display-layer-container .bwt-event-show .bwt-events-main .bwt-event-details-signup,

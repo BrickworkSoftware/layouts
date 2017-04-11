@@ -19612,6 +19612,9 @@ td.bwt-store-hours-table-date-column{
     background: #D2461D !important;
     color: #fff !important;
   }
+  #ui-datepicker-div table.ui-datepicker-calendar {
+    background: white;
+  }
 
   /*appointment information*/
   .bw-iframe-container .appointment-enterinfo-container .bwt-appt-input-placeholder{
@@ -20052,6 +20055,9 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus{
     background: #D2461D !important;
     color: #fff !important;
+  }
+  #ui-datepicker-div table.ui-datepicker-calendar {
+    background: white;
   }
 
   /*your information*/
@@ -20503,6 +20509,9 @@ td.bwt-store-hours-table-date-column{
   a.disabled.segment_header img, 
   a.segment_header img {
     margin: 0 auto;
+  }
+  #ui-datepicker-div table.ui-datepicker-calendar{
+    background: white;
   }
 
   /*your information*/

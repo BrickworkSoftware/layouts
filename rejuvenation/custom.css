@@ -17773,10 +17773,9 @@ html .clear:after {
   left: 0;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal {
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
   max-height: 40px;
   overflow: scroll;
-  margin-top: 15px !important;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,

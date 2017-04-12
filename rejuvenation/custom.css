@@ -17232,7 +17232,7 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-header-container .call-to-action {
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #FFFFFF;
   margin-top: 5px;
   margin-bottom: 22px;
@@ -17319,7 +17319,7 @@ html .clear:after {
 }
 
 .bw-display-layer .bwt-index .bwt-store-address .bwt-store-address-line {
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #252525;
   letter-spacing: 0;
   line-height: 22px;
@@ -17831,7 +17831,7 @@ html .clear:after {
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-description,
 .bw-display-layer-container .bw-display-layer .bwt-nearby-event-description p {
   margin-top: 6px;
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #252525;
   letter-spacing: 0;
   line-height: 20px;
@@ -17985,7 +17985,7 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-store-address-line {
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   font-size: 18px;
   color: #252525;
   letter-spacing: 1.12px;
@@ -18692,7 +18692,7 @@ html .clear:after {
     color: #252525 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -18722,7 +18722,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18732,7 +18732,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18769,7 +18769,7 @@ html .clear:after {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18797,7 +18797,7 @@ html .clear:after {
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18806,7 +18806,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
     display: block;
-    padding-right: 0px !important; 
+    padding-right: 0px !important;
   }
 
   /*store services for mobile*/
@@ -18852,7 +18852,7 @@ html .clear:after {
     text-align: center !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18917,7 +18917,7 @@ html .clear:after {
     line-height: 45px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18958,7 +18958,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -19021,7 +19021,7 @@ html .clear:after {
     padding: 15px 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -19076,7 +19076,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19097,7 +19097,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19112,14 +19112,14 @@ html .clear:after {
     padding: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 36px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19187,7 +19187,7 @@ html .clear:after {
     margin-top: 17px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19321,7 +19321,7 @@ html .clear:after {
     padding: 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19378,7 +19378,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -19436,7 +19436,7 @@ html .clear:after {
     padding: 15px 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -19468,7 +19468,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19489,7 +19489,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19504,7 +19504,7 @@ html .clear:after {
     padding: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19514,7 +19514,7 @@ html .clear:after {
     margin-top: 17px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19561,7 +19561,7 @@ html .clear:after {
     margin-bottom: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19647,7 +19647,7 @@ html .clear:after {
     padding: 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19690,7 +19690,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -19711,7 +19711,7 @@ html .clear:after {
 /*store special hours general styling*/
 .bw-display-layer .bwt-store-show .bwt-store-hours-special-title,
 .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #231F20 !important;
   letter-spacing: 0 !important;
@@ -19720,7 +19720,7 @@ html .clear:after {
 td.bwt-store-hours-table-hours-column,
 td.bwt-store-hours-table-date-column{
   border: none !important;
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #252525 !important;
   letter-spacing: 0 !important;
@@ -19769,7 +19769,7 @@ td.bwt-store-hours-table-date-column{
   letter-spacing: 0 !important;
 }
 .bwt-modal-store-hours-wrapper .bwt-store-hours-selected-container .bwt-store-hour-name{
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #252525 !important;
   letter-spacing: 0 !important;
@@ -19840,17 +19840,17 @@ td.bwt-store-hours-table-date-column{
 /*syle Appointment modal*/
 @media only screen and (max-width: 767px) and (min-width: 320px){
   /*appointment header*/
-  .bw-appointment-header-column.selected a, 
+  .bw-appointment-header-column.selected a,
   .bw-appointment-header-column.selected span {
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
-  .bw-iframe-container h1, 
-  .bw-iframe-container .title h1, 
-  .bw-iframe-container .confirmation_title, 
+  .bw-iframe-container h1,
+  .bw-iframe-container .title h1,
+  .bw-iframe-container .confirmation_title,
   .bw-iframe-container .bw-appointment-step-container-title {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
   .bw-iframe-container .bw-appointment-step-container-title:after,
@@ -19900,7 +19900,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 1px !important;
@@ -19909,7 +19909,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 250px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 12px !important;
     color: #FFFFFF !important;
@@ -19939,7 +19939,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link{
     margin: 30px 0px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -19955,15 +19955,15 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19984,7 +19984,7 @@ td.bwt-store-hours-table-date-column{
     content: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/transit_arrow_up.svg) !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19994,12 +19994,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -20115,22 +20115,22 @@ td.bwt-store-hours-table-date-column{
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled:hover {
    border: 1px solid #e6e6e6;
   }
-  a.disabled.segment_header img, 
+  a.disabled.segment_header img,
   a.segment_header img {
     margin: 0 auto;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
     border-radius: 3px;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus{
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   #ui-datepicker-div table.ui-datepicker-calendar {
@@ -20202,8 +20202,8 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     float:left;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
@@ -20220,14 +20220,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     color: #231F20 !important;
     font-size: 20px !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
   .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -20235,7 +20235,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -20253,14 +20253,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -20279,13 +20279,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;
@@ -20307,10 +20307,10 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after, 
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after,
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column span:after {
     left: 93%;
     top: auto !important;
@@ -20351,7 +20351,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20359,7 +20359,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 290px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -20382,7 +20382,7 @@ td.bwt-store-hours-table-date-column{
 
   /*choose a store*/
   .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link{
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -20397,11 +20397,11 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
-  .bw-iframe-container .bwt-index-store-body-details-distance-hours, 
-  .bw-iframe-container .bwt-store-phone-number, 
-  .bw-iframe-container .bwt-store-email-link, 
+  .bw-iframe-container .bwt-index-store-body-details-distance-hours,
+  .bw-iframe-container .bwt-store-phone-number,
+  .bw-iframe-container .bwt-store-email-link,
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -20411,12 +20411,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -20424,9 +20424,9 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20559,22 +20559,22 @@ td.bwt-store-hours-table-date-column{
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled:hover {
    border: 1px solid #e6e6e6;
   }
-  a.disabled.segment_header img, 
+  a.disabled.segment_header img,
   a.segment_header img {
     margin: 0 auto;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
     border-radius: 3px;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus{
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   #ui-datepicker-div table.ui-datepicker-calendar {
@@ -20642,15 +20642,15 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  label.collection_check_boxes, 
+  label.collection_check_boxes,
   label.collection_radio_buttons {
     padding: 12px 5px;
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     width: 290px !important;
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     float:left;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
@@ -20667,14 +20667,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
   .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -20682,7 +20682,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -20700,14 +20700,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -20726,13 +20726,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;
@@ -20753,10 +20753,10 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after, 
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after,
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column span:after {
     left: 93%;
     top: auto !important;
@@ -20797,7 +20797,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20805,7 +20805,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 290px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -20841,7 +20841,7 @@ td.bwt-store-hours-table-date-column{
     font-size: 15px !important;
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     border:none !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section{
@@ -20855,11 +20855,11 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
-  .bw-iframe-container .bwt-index-store-body-details-distance-hours, 
-  .bw-iframe-container .bwt-store-phone-number, 
-  .bw-iframe-container .bwt-store-email-link, 
+  .bw-iframe-container .bwt-index-store-body-details-distance-hours,
+  .bw-iframe-container .bwt-store-phone-number,
+  .bw-iframe-container .bwt-store-email-link,
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -20869,12 +20869,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -20882,9 +20882,9 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20970,11 +20970,11 @@ td.bwt-store-hours-table-date-column{
     color: #2B3033 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover {
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates,
   .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-next-dates {
       border-radius: 0 !important;
       background: none !important;
@@ -20987,7 +20987,7 @@ td.bwt-store-hours-table-date-column{
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/appt_modal_right_arrow.svg) !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover {
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link {
@@ -21091,15 +21091,15 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  label.collection_check_boxes, 
+  label.collection_check_boxes,
   label.collection_radio_buttons {
     padding: 12px 5px;
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     width:290px !important;
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -21116,14 +21116,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
    .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -21131,7 +21131,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -21149,14 +21149,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -21175,13 +21175,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;

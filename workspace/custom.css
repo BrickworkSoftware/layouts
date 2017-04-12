@@ -2276,10 +2276,12 @@ td.bwt-store-hours-table-date-column:after {
     font-weight: 600;
     letter-spacing: 2px !important;
   }
-  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .bw-display-layer .bwt-store-show .bwt-store-feature-description {
+    margin-left: 5%;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-content{
+    top: 50% !important;
+    transform: translateY(-50%) !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
     color: #231f20 !important;

@@ -17986,7 +17986,7 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container.bwt-hide-on-mobile {
-  margin-top: 11px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -18287,7 +18287,7 @@ html .clear:after {
     max-width: 628px;
     margin: auto;
     position: relative;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image-container {

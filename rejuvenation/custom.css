@@ -17870,10 +17870,6 @@ html .clear:after {
   color: #d04727;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-events-promo {
-  margin-top: 0 !important;
-}
-
 .bw-display-layer-container.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
 .bw-display-layer-container.bw-display-layer .bwt-event-index .bwt-store-event-link {
   margin-bottom: 27px;
@@ -18027,11 +18023,6 @@ html .clear:after {
   padding: 15px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description {
-  max-height: 104px;
-  overflow: scroll;
-}
-
 /* Event Show/Index large */
 
 @media screen and (min-width: 1025px) {
@@ -18155,27 +18146,15 @@ html .clear:after {
     padding-bottom: 0px;
   }
 
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons,
   .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
-  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container.bwt-hide-on-mobile {
-    position: absolute;
-    width: 291px;
-    top: 330px;
-  }
-
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons {
-    position: absolute;
-    top: 392px;
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container.bwt-hide-on-mobile,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-store-location {
     width: 291px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-share-buttons {
     padding-left: 40px;
-  }
-
-  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-store-location {
-    position: absolute;
-    top: 450px;
-    width: 291px !important;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-show {
@@ -18307,26 +18286,8 @@ html .clear:after {
     padding-left: 24px;
   }
 
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description p,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
-    margin-top: 0;
-  }
-
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event {
-    position: relative;
-  }
-
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
-    position: absolute;
-    bottom: 0;
-    width: 284px;
-  }
-
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description {
-    max-height: 64px;
-    overflow: scroll;
-  }
-
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description p {
     margin-top: 0;
   }
 
@@ -18458,11 +18419,6 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before,
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
     padding-top: 59.5%;
-  }
-
-  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description,
-  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
-    max-height: 100%;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {

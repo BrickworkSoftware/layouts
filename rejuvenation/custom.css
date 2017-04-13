@@ -3512,7 +3512,11 @@ h4 {
   font-weight: bold;
 }
 
-h4, h5 {
+h4 {
+  font-size: 15px;
+}
+
+h5 {
   font-size: 15px;
   text-transform: uppercase;
 }
@@ -17098,9 +17102,9 @@ html .clear:after {
 
 /* Button Styling */
 /* Primary button with Red bg color */
-.bw-display-layer .bwt-index .bwt-get-directions,
-.bw-display-layer .bwt-index a.brickwork-button,
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions,
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions {
@@ -17120,9 +17124,9 @@ html .clear:after {
   letter-spacing: 1.5px;
 }
 
-.bw-display-layer .bwt-index .bwt-get-directions:hover,
-.bw-display-layer .bwt-index a.brickwork-button:hover,
-.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button:hover,
+.bw-display-layer-container .bw-display-layer .bwt-index .bwt-get-directions:hover,
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button:hover,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-rsvp-signup-button:hover,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link:hover,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a:hover,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions:hover {
@@ -17136,7 +17140,8 @@ html .clear:after {
 }
 
 /* Secondary button with White bg and red text */
-.bw-display-layer .bwt-index a.bwt-explore-store {
+.bw-display-layer .bwt-index a.bwt-explore-store,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-event-search-link {
   -webkit-transition: all 0.2s ease 0s;
   transition: all 0.2s ease 0s;
   background: transparent;
@@ -17149,7 +17154,8 @@ html .clear:after {
   height: 45px;
 }
 
-.bw-display-layer .bwt-index a.bwt-explore-store:hover {
+.bw-display-layer .bwt-index a.bwt-explore-store:hover,
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-event-search-link:hover {
   background: #fff;
   border: none;
   box-shadow: inset 0 0 0 1px #414042;
@@ -17230,7 +17236,7 @@ html .clear:after {
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-index-header-container .call-to-action {
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #FFFFFF;
   margin-top: 5px;
   margin-bottom: 22px;
@@ -17317,7 +17323,7 @@ html .clear:after {
 }
 
 .bw-display-layer .bwt-index .bwt-store-address .bwt-store-address-line {
-  font-family: TimesNewRomanPSMT;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #252525;
   letter-spacing: 0;
   line-height: 22px;
@@ -17738,7 +17744,7 @@ html .clear:after {
   top: 40%;
 }
 
-/* Event Show */
+/* Event Show/Index */
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show,
 .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
@@ -17748,6 +17754,10 @@ html .clear:after {
   margin-top: 80px;
   padding-left: 0;
   padding-right: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index {
+  margin-bottom: 80px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix:before,
@@ -17767,6 +17777,11 @@ html .clear:after {
   left: 0;
 }
 
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
+  max-height: 40px;
+  overflow: scroll;
+}
+
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text {
   font-family: Gotham-Medium;
@@ -17778,23 +17793,30 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-title,
 .bw-display-layer-container .bw-display-layer .bwt-nearby-event-title,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content {
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-top-content,
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-details-title,
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .store-detail-name {
   font-family: Gotham-Medium;
   color: #252525;
   letter-spacing: 0;
   line-height: 28px;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 24px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-nearby-event-date,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime,
+.bw-display-layer-container .bw-display-layer .bwt-event-details-dates,
+.bw-display-layer-container .bw-display-layer .bwt-event-details-times,
+.bw-display-layer-container .bw-display-layer .bwt-nearby-event-date {
   font-family: Gotham-Book;
   letter-spacing: 0;
   line-height: 26px;
   padding-top: 0;
+  text-transform: uppercase;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link .bwt-back-to-store-prefix,
@@ -17802,86 +17824,37 @@ html .clear:after {
   left: 0%;
 }
 
-.bw-display-layer .bwt-event-show h4.bwt-event-details-times,
-.bw-display-layer .bwt-event-index .bwt-event-details-times,
-.bw-display-layer .bwt-event-index .bwt-event-details-dates,
-.bw-display-layer .bwt-event-show h4.bwt-event-details-dates {
-  display: inline;
-}
-
 .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
   margin-top: 0;
-}
-
-.bw-display-layer .bwt-event-show h4.bwt-event-details-dates:after,
-.bw-display-layer .bwt-event-index .bwt-event-details-dates:after {
-  content: ",";
-  margin-left: -3px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-description,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal,
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-events-promo,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-description {
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-description,
+.bw-display-layer-container .bw-display-layer .bwt-nearby-event-description p {
   margin-top: 6px;
-  font-family: TimesNewRomanPSMT;
-  font-size: 15px;
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
   color: #252525;
   letter-spacing: 0;
   line-height: 20px;
-}
-
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content {
-  -ms-box-orient: horizontal;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: flex;
-
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-}
-
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container,
-.bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-event-description {
-  -webkit-box-ordinal-group: 1;
-  -moz-box-ordinal-group: 1;
-  -ms-flex-order: 1;
-  -webkit-order: 1;
-  order: 1;
-  width: 100%;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container {
   margin-bottom: 21px;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-actions,
-.bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
-  -webkit-box-ordinal-group: 2;
-  -moz-box-ordinal-group: 2;
-  -ms-flex-order: 2;
-  -webkit-order: 2;
-  order: 2;
-  width: 100%;
-}
-
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-actions {
   margin-top: 0 !important;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-social-container,
-.bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
-  -webkit-box-ordinal-group: 3;
-  -moz-box-ordinal-group: 3;
-  -ms-flex-order: 3;
-  -webkit-order: 3;
-  order: 3;
-  width: 100%;
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
+  font-family: Gotham-Medium;
+  font-size: 18px;
+  color: #939497;
+  letter-spacing: 0;
+  line-height: 22px;
 }
 
 .bwt-event-index .bwt-share-buttons,
@@ -17891,14 +17864,6 @@ html .clear:after {
 
 .bwt-event-index .bwt-store-event-link-container {
   margin-top: 16.5px;
-}
-
-.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
-  font-family: Gotham-Medium;
-  font-size: 18px;
-  color: #939497;
-  letter-spacing: 0;
-  line-height: 22px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-index .active.bwt-local-link a {
@@ -17916,15 +17881,6 @@ html .clear:after {
 
 .bw-display-layer .bwt-event-index .bwt-share-buttons {
   margin: 0 auto;
-}
-
-.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-store-location {
-  -webkit-box-ordinal-group: 4;
-  -moz-box-ordinal-group: 4;
-  -ms-flex-order: 4;
-  -webkit-order: 4;
-  order: 4;
-  width: 100%;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-legal p {
@@ -17967,9 +17923,9 @@ html .clear:after {
   border-radius: 0 !important;
 }
 
-.fa-facebook-f:before,
-.fa-facebook:before,
-.bw-display-layer .bwt-social-icon.bwt-social-facebook:before {
+.bw-display-layer-container .bw-display-layer .fa-facebook-f:before,
+.bw-display-layer-container .bw-display-layer .fa-facebook:before,
+.bw-display-layer-container .bw-display-layer .bwt-social-icon.bwt-social-facebook:before {
   content: "\f020";
 }
 
@@ -17992,7 +17948,6 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-share-buttons {
   text-align: center;
-  margin-left: -7px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image:before,
@@ -18001,7 +17956,83 @@ html .clear:after {
   padding-top: 60.8%;
 }
 
-/* Event Show large */
+.bw-display-layer-container .bw-display-layer .bwt-events-image {
+  margin-bottom: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+  border-bottom: 1px solid #BBBBBB;
+  padding-top: 0;
+  padding-bottom: 50px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-results {
+  padding-top: 20px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link,
+.bw-display-layer .bwt-event-details-title,
+.bw-display-layer .bwt-nearby-event-title {
+  text-transform: uppercase;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates {
+  padding-bottom: 0;
+}
+
+.bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-store-location li {
+  list-style-type: none;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show {
+  margin-bottom: 50px !important;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-store-address-line {
+  font-family: "TimesNewRomanPSMT", "Times New Roman";
+  font-size: 18px;
+  color: #252525;
+  letter-spacing: 1.12px;
+  line-height: 24px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-phone-number-link-text {
+  font-family: Gotham-Medium;
+  font-size: 18px;
+  color: #d04727;
+  letter-spacing: 1.12px;
+  line-height: 24px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-store-contact-info {
+  margin-bottom: 35px;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-store-features-title h2.bwt-store-section-title {
+  font-family: Gotham-Medium;
+  font-size: 36px;
+  color: #252525;
+  letter-spacing: 0;
+  line-height: 36px;
+  margin-bottom: 47px;
+  padding: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+  margin-top: 0;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-event-search-link {
+  width: 291px;
+  padding: 15px;
+}
+
+.bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description {
+  max-height: 104px;
+  overflow: scroll;
+}
+
+/* Event Show/Index large */
 
 @media screen and (min-width: 1025px) {
   .bw-display-layer-container .bw-display-layer .bwt-event-show,
@@ -18011,11 +18042,78 @@ html .clear:after {
     max-width: 1071px;
   }
 
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container,
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-event-description {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-actions,
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-social-container,
+  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-store-location {
+    -webkit-box-ordinal-group: 4;
+    -moz-box-ordinal-group: 4;
+    -ms-flex-order: 4;
+    -webkit-order: 4;
+    order: 4;
+    width: 100%;
+  }
+
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image,
-  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image-container,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
     max-width: 740px;
     width: 740px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-hide-on-mobile {
+    width: 740px;
+    height: 450px;
+    float: left;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-image-container {
+    float: none;
+    width: 740px;
+    height: 450px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-details,
@@ -18029,29 +18127,245 @@ html .clear:after {
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
     width: 331px;
     padding-left: 40px;
+    position: relative;
+  }
+
+  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+    bottom: 15px;
+    left: 0;
+    position: absolute;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
+    position: absolute;
+    bottom: 85px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-nearby-event-date,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime,
+  .bw-display-layer-container .bw-display-layer .bwt-event-details-dates,
+  .bw-display-layer-container .bw-display-layer .bwt-event-details-times,
+  .bw-display-layer-container .bw-display-layer .bwt-nearby-event-date {
+    font-size: 18px !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-times {
+    padding-bottom: 0px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container.bwt-hide-on-mobile {
+    position: absolute;
+    width: 291px;
+    top: 330px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-share-buttons {
+    position: absolute;
+    top: 392px;
+    width: 291px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    padding-left: 40px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-store-location {
+    position: absolute;
+    top: 450px;
+    width: 291px !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show {
+    min-height: 700px;
+    margin-bottom: 50px !important;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .store-detail-name {
+    margin-bottom: 21px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    float: left;
   }
 }
 
-/* Event Show tablet */
+@media screen and (max-width: 1079px) and (min-width: 1025px) {
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
+    max-width: 550px;
+    width: 550px;
+  }
 
-@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-hide-on-mobile {
+    width: 550px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-image-container {
+    width: 550px;
+  }
+
   .bw-display-layer-container .bw-display-layer .bwt-event-show,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
   .bw-display-layer-container .bw-display-layer .bwt-event-index,
   .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+    max-width: 881px;
+  }
+
+  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+    bottom: 0px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content .bwt-hide-on-mobile {
+    position: absolute;
+    bottom: 70px;
+  }
+}
+
+/* Event Show/Index tablet */
+
+@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
     max-width: 728px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image,
-  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image {
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show {
     max-width: 680px;
     width: 680px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before {
+    padding-top: 59.5%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image {
+    max-width: 420px;
+    width: 420px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-image-container,
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-details {
+    display: block;
+    float: none;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-hide-on-mobile {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    width: 100%;
+    margin-bottom: 30.5px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-event-details, .bw-display-layer .bwt-events-main .bwt-nearby-event-info, .bw-display-layer .bwt-events-other-events .bwt-event-details,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info {
+    padding-right: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    width: 92.4%;
+    max-width: 628px;
+    margin: auto;
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image-container {
+    float: left;
+    width: 420px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info {
+    width: 308px;
+    padding-left: 24px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event {
+    position: relative;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+    position: absolute;
+    bottom: 0;
+    width: 284px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description {
+    max-height: 64px;
+    overflow: scroll;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description p {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-date {
+    padding-bottom: 7px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-container,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions {
+    float: left;
+    width: 337px;
+    padding-right: 46px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-actions {
+    clear: left;
+  }
+
+  .bw-display-layer .bwt-events-main .bwt-event-details .bwt-event-store-location,
+  .bw-display-layer .bwt-event-show .bwt-event-details .bwt-event-social-container {
+    display: inline-block;
+    width: 291px;
+  }
+
+  .bw-display-layer .bwt-event-show .bwt-event-details .bwt-event-social-container {
+    margin-bottom: 35px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
     max-width: 415px;
     width: 415px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-store-actions {
+    position: absolute;
+    bottom: 0;
+    width: 291px;
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image {
@@ -18071,18 +18385,228 @@ html .clear:after {
     padding-left: 22px;
   }
 
-  .bw-display-layer .bwt-event-index [data-bw-component="ShareButtons"] {
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    left: -2px;
+    width: 415px;
+    position: absolute;
+    top: 252px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container {
     position: relative;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-store-event-link-container {
+    position: absolute;
+    top: 235px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    padding-bottom: 110px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-nav {
+    position: absolute;
+    top: -70px;
+    right: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
+    font-size: 15px;
   }
 }
 
-/* Event Show mobile */
+@media screen and (max-width: 749px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 281px;
+    padding-left: 20px;
+  }
 
-@media screen and (max-width: 1024px) and (min-width: 641px) {
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image,
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-image-container {
+    max-width: 350px;
+    width: 350px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    max-width: 641px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    width: 350px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-share-buttons {
+    top: 212px;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-store-event-link-container {
+    top: 195px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link {
+    width: 261px;
+  }
+}
+
+/* Event Show/Index mobile */
+
+@media screen and (max-width: 640px) {
   .bw-display-layer-container .bw-display-layer .bwt-events-main .bwt-events-image:before,
   .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image:before,
   .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-events-image:before {
     padding-top: 59.5%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-description,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
+    max-height: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-upcoming-event-container {
+    margin-bottom: 50px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-link,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-link {
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-text,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text {
+    display: inline;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-back-to-store-prefix,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix {
+    position: relative;
+    display: inline;
+    top: 1px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-prefix {
+    top: 0.5px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-local-link a {
+    font-size: 14px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info-container {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  .bwt-event-index .bwt-store-event-link-container {
+    margin: 0 auto;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-store-event-link-container .bwt-store-event-link {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-time.bwt-event-details-dates {
+    display: block;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-info,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-info-body {
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .event-title,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container .bwt-event-details-date-time,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-title {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .bwt-event-bottom-content,
+  .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-container .bwt-event-header,
+  .bw-display-layer .bwt-events-other-events .bwt-nearby-event-description {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-description {
+    -webkit-box-ordinal-group: 3;
+    -moz-box-ordinal-group: 3;
+    -ms-flex-order: 3;
+    -webkit-order: 3;
+    order: 3;
+    width: 100%;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal {
+    -webkit-box-ordinal-group: 4;
+    -moz-box-ordinal-group: 4;
+    -ms-flex-order: 4;
+    -webkit-order: 4;
+    order: 4;
+    width: 100%;
+  }
+
+  .bw-display-layer .bwt-event-index .bwt-event-container .event-title {
+    margin-bottom: 10px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-index .bwt-event-datetime {
+    margin-top: 25.6px;
+    margin-bottom: 22px;
+  }
+
+  .bw-display-layer-container .bwt-event-show .bwt-events-main .bwt-event-details-signup,
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-get-directions,
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+    max-width: 291px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events {
+    margin-top: 0;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details {
+    padding-right: 0;
+    width: 90.6%;
+    margin: 0 auto;
+    margin-top: 25.6px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+    margin-top: 30px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-events-other-events .bwt-nearby-event-image {
+    margin-bottom: 25.6px;
+  }
+
+  .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-details-signup {
+    margin: 30px auto;
   }
 }
 
@@ -18172,7 +18696,7 @@ html .clear:after {
     color: #252525 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -18202,7 +18726,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18212,7 +18736,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18249,11 +18773,11 @@ html .clear:after {
     display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 36px !important;
+    line-height: 22px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map {
     order: 1 !important;
@@ -18277,7 +18801,7 @@ html .clear:after {
     border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18286,7 +18810,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
     display: block;
-    padding-right: 0px !important; 
+    padding-right: 0px !important;
   }
 
   /*store services for mobile*/
@@ -18332,7 +18856,7 @@ html .clear:after {
     text-align: center !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18397,7 +18921,7 @@ html .clear:after {
     line-height: 45px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18438,7 +18962,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -18501,7 +19025,7 @@ html .clear:after {
     padding: 15px 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -18556,7 +19080,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18577,7 +19101,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18592,14 +19116,14 @@ html .clear:after {
     padding: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 36px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18667,7 +19191,7 @@ html .clear:after {
     margin-top: 17px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18801,7 +19325,7 @@ html .clear:after {
     padding: 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -18858,7 +19382,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -18916,7 +19440,7 @@ html .clear:after {
     padding: 15px 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
     font-size: 15px;
     color: #2B3033;
     letter-spacing: 0;
@@ -18948,7 +19472,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-address,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18969,7 +19493,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column,
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18984,7 +19508,7 @@ html .clear:after {
     padding: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -18994,7 +19518,7 @@ html .clear:after {
     margin-top: 17px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19041,7 +19565,7 @@ html .clear:after {
     margin-bottom: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19127,7 +19651,7 @@ html .clear:after {
     padding: 0;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19170,7 +19694,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 24px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
@@ -19191,7 +19715,7 @@ html .clear:after {
 /*store special hours general styling*/
 .bw-display-layer .bwt-store-show .bwt-store-hours-special-title,
 .bw-display-layer .bwt-store-show .bwt-store-special-hours-link {
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #231F20 !important;
   letter-spacing: 0 !important;
@@ -19200,7 +19724,7 @@ html .clear:after {
 td.bwt-store-hours-table-hours-column,
 td.bwt-store-hours-table-date-column{
   border: none !important;
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #252525 !important;
   letter-spacing: 0 !important;
@@ -19249,7 +19773,7 @@ td.bwt-store-hours-table-date-column{
   letter-spacing: 0 !important;
 }
 .bwt-modal-store-hours-wrapper .bwt-store-hours-selected-container .bwt-store-hour-name{
-  font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+  font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #252525 !important;
   letter-spacing: 0 !important;
@@ -19324,15 +19848,15 @@ td.bwt-store-hours-table-date-column{
   .bw-appointment-header-column.completed span,
   .bw-appointment-header-column.selected a, 
   .bw-appointment-header-column.selected span {
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
-  .bw-iframe-container h1, 
-  .bw-iframe-container .title h1, 
-  .bw-iframe-container .confirmation_title, 
+  .bw-iframe-container h1,
+  .bw-iframe-container .title h1,
+  .bw-iframe-container .confirmation_title,
   .bw-iframe-container .bw-appointment-step-container-title {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
   .bw-iframe-container .bw-appointment-step-container-title:after,
@@ -19382,7 +19906,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 1px !important;
@@ -19391,7 +19915,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 250px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 12px !important;
     color: #FFFFFF !important;
@@ -19421,7 +19945,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link{
     margin: 30px 0px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -19437,15 +19961,15 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19466,7 +19990,7 @@ td.bwt-store-hours-table-date-column{
     content: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/transit_arrow_up.svg) !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-accordion-content{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19476,12 +20000,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -19597,22 +20121,22 @@ td.bwt-store-hours-table-date-column{
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled:hover {
    border: 1px solid #e6e6e6;
   }
-  a.disabled.segment_header img, 
+  a.disabled.segment_header img,
   a.segment_header img {
     margin: 0 auto;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
     border-radius: 3px;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus{
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   #ui-datepicker-div table.ui-datepicker-calendar {
@@ -19684,8 +20208,8 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     float:left;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
@@ -19702,14 +20226,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     color: #231F20 !important;
     font-size: 20px !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
   .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -19717,7 +20241,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -19735,14 +20259,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -19761,13 +20285,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;
@@ -19789,10 +20313,10 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after, 
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after,
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column span:after {
     left: 93%;
     top: auto !important;
@@ -19833,7 +20357,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -19841,7 +20365,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 290px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -19864,7 +20388,7 @@ td.bwt-store-hours-table-date-column{
 
   /*choose a store*/
   .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link{
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -19879,11 +20403,11 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
-  .bw-iframe-container .bwt-index-store-body-details-distance-hours, 
-  .bw-iframe-container .bwt-store-phone-number, 
-  .bw-iframe-container .bwt-store-email-link, 
+  .bw-iframe-container .bwt-index-store-body-details-distance-hours,
+  .bw-iframe-container .bwt-store-phone-number,
+  .bw-iframe-container .bwt-store-email-link,
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -19893,12 +20417,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -19906,9 +20430,9 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20041,22 +20565,22 @@ td.bwt-store-hours-table-date-column{
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled:hover {
    border: 1px solid #e6e6e6;
   }
-  a.disabled.segment_header img, 
+  a.disabled.segment_header img,
   a.segment_header img {
     margin: 0 auto;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header:hover{
-    background: #D2461D !important;
+    background: #d04727 !important;
     border-radius: 3px;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
-  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:active,
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link:focus{
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   #ui-datepicker-div table.ui-datepicker-calendar {
@@ -20124,15 +20648,15 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  label.collection_check_boxes, 
+  label.collection_check_boxes,
   label.collection_radio_buttons {
     padding: 12px 5px;
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     width: 290px !important;
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     float:left;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
@@ -20149,14 +20673,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
   .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -20164,7 +20688,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -20182,14 +20706,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -20208,13 +20732,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;
@@ -20235,10 +20759,10 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 18px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after, 
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column a:after,
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column span:after {
     left: 93%;
     top: auto !important;
@@ -20279,7 +20803,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-description{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20287,7 +20811,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link{
     min-width: 290px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -20323,7 +20847,7 @@ td.bwt-store-hours-table-date-column{
     font-size: 15px !important;
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
-    background: #D2461D !important;
+    background: #d04727 !important;
     border:none !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section{
@@ -20337,11 +20861,11 @@ td.bwt-store-hours-table-date-column{
     line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
-  .bw-iframe-container .bwt-index-store-body-details-distance-hours, 
-  .bw-iframe-container .bwt-store-phone-number, 
-  .bw-iframe-container .bwt-store-email-link, 
+  .bw-iframe-container .bwt-index-store-body-details-distance-hours,
+  .bw-iframe-container .bwt-store-phone-number,
+  .bw-iframe-container .bwt-store-email-link,
   .bw-iframe-container .bwt-store-address-line{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
@@ -20351,12 +20875,12 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-email-link a{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
-    color: #D2461D !important;
+    color: #d04727 !important;
     letter-spacing: 0 !important;
     line-height: 22px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3, 
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours h3,
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-location-details-title h3,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
@@ -20364,9 +20888,9 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column, 
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
@@ -20452,11 +20976,11 @@ td.bwt-store-hours-table-date-column{
     color: #2B3033 !important;
     letter-spacing: 0 !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector.selected,
   .bw-iframe-container .bw-appointment-step-container-choose-time .date_selection_container .day-date-row .date_selector:hover {
-    background: #D2461D !important;
+    background: #d04727 !important;
   }
-  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates, 
+  .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-previous-dates,
   .bw-iframe-container .bw-appointment-step-container-choose-time .bw-load-next-dates {
       border-radius: 0 !important;
       background: none !important;
@@ -20469,7 +20993,7 @@ td.bwt-store-hours-table-date-column{
     content: url(http://assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/appt_modal_right_arrow.svg) !important;
   }
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover {
-    background: #D2461D !important;
+    background: #d04727 !important;
     color: #fff !important;
   }
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options .appointment-slots .choose-time-slot-link.appointment_link {
@@ -20573,15 +21097,15 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     line-height: 16px !important;
   }
-  label.collection_check_boxes, 
+  label.collection_check_boxes,
   label.collection_radio_buttons {
     padding: 12px 5px;
   }
   .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button{
     width:290px !important;
     height: 55px !important;
-    background: #D2461D !important;
-    border: 2px solid #D2461D !important;
+    background: #d04727 !important;
+    border: 2px solid #d04727 !important;
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #FFFFFF !important;
@@ -20598,14 +21122,14 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
    .bw-iframe-container #appointment-confirmation .details p:nth-child(2) {
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 18px !important;
     color: #231F20 !important;
   }
@@ -20613,7 +21137,7 @@ td.bwt-store-hours-table-date-column{
     font-weight: 100;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    background: #D2461D;
+    background: #d04727;
     border: none;
     margin-top: 0;
     height: 50px;
@@ -20631,14 +21155,14 @@ td.bwt-store-hours-table-date-column{
     display: none !important;
   }
   .bw-display-layer .bwt-appointment-cancel p{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 40px !important;
   }
   .bw-display-layer .bwt-appointment-cancel p b{
-    font-family: "TimesNewRomanPSMT", Arial, sans-serif !important;
+    font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     font-size: 20px !important;
     color: #231F20 !important;
     font-weight: 100;
@@ -20657,13 +21181,13 @@ td.bwt-store-hours-table-date-column{
     line-height: 36px;
   }
   .bw-display-layer .bwt-cancel-store-appointment a{
-    color: #D2461D !important; 
+    color: #d04727 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
     height: 55px;
     padding: 10px;
-    background: #D2461D;
+    background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
     font-size: 15px;

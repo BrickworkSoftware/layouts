@@ -1973,11 +1973,16 @@ td.bwt-store-hours-table-date-column:after {
   line-height: 20px !important;
 }
 
-.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description {
-  font-family: "Gotham-book", Arial, sans-serif !important;
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
+  font-family: "Gotham-Light", Arial, sans-serif !important;
   font-size: 16px !important;
   color: #FFFFFF !important;
-  letter-spacing: 2px !important;
+  letter-spacing: 0.5px !important;
+  line-height: 36px !important;
+}
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url{
+  font-weight: 600 !important;
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-title {
@@ -2048,6 +2053,7 @@ td.bwt-store-hours-table-date-column:after {
   color: #231F20 !important;
   letter-spacing: 0.5px !important;
   line-height: 26px !important;
+  font-size: 16px !important;
 }
 
 .bw-display-layer .bwt-store-show h2.bwt-store-section-title {
@@ -2085,6 +2091,7 @@ td.bwt-store-hours-table-date-column:after {
   color: #231F20 !important;
   letter-spacing: 1.5px !important;
   line-height: 26px;
+  height: 100px;
 }
 
 .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
@@ -2113,11 +2120,12 @@ td.bwt-store-hours-table-date-column:after {
 
 .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column {
   font-family: "Gotham-Book", Arial, sans-serif !important;
-  font-size: 14px;
+  font-size: 16px;
   color: #11000E;
   letter-spacing: 0;
   line-height: 24px;
   float: right;
+  margin-right: -24px;
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-date-column {
@@ -2165,6 +2173,10 @@ td.bwt-store-hours-table-date-column:after {
 
 .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-link-icons {
   display: none !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table tr {
+  display: inherit !important;
 }
 
 /*reponsive store page for mobile */
@@ -2247,6 +2259,9 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-map-button {
     width: 100% !important;
     border-radius: 3px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-hours-table-hours-column{
+    margin-right: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
     border: 0px solid #E1E0DF !important;
@@ -2519,8 +2534,10 @@ td.bwt-store-hours-table-date-column:after {
     line-height: 36px;
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
-    background: rgba(35,31,32,0.70) !important;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
     font-size: 16px !important;
+    letter-spacing: 2px !important;
+    background: rgba(35,31,32,0.70) !important;
     color: #fff !important;
     padding: 20px;
     width: 250px;
@@ -2830,6 +2847,10 @@ td.bwt-store-hours-table-date-column:after {
     width: 100% !important;
     border-radius: 3px !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-show-primary-hours {
+    margin-right: 60px;
+    margin-left: -60px;
+  }
   .bw-display-layer .bwt-store-show a.i.fa.fa-envelope,
   .bw-display-layer .bwt-store-show a.i.fa.fa-instagram {
     margin-right: 15px;
@@ -2846,7 +2867,9 @@ td.bwt-store-hours-table-date-column:after {
     line-height: 36px;
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
-    background: rgba(0, 0, 0, 0.3) !important;
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    letter-spacing: 2px !important;
+    background: rgba(0, 0, 0, 0.40) !important;
     font-size: 16px !important;
     color: #fff !important;
     padding: 20px;
@@ -2867,14 +2890,6 @@ td.bwt-store-hours-table-date-column:after {
     width: 165px !Important;
     border-radius: 100%;
     margin-top: -82.5px;
-  }
-  .bw-display-layer .bwt-store-show .bwt-back-to-store-link {
-    background: rgba(0, 0, 0, 0.40) !important;
-    font-size: 16px !important;
-    color: #fff !important;
-    padding: 20px;
-    width: 250px;
-    height: 55px;
   }
   .bw-display-layer .bwt-store-show .bwt-back-to-store-prefix:before {
     margin-left: 20px;
@@ -3052,6 +3067,10 @@ td.bwt-store-hours-table-date-column:after {
     align-items: center;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-title {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+    font-size: 36px !important;
+    color: #231F20 !important;
+    letter-spacing: 0 !important;
     margin-bottom: 0 !important;
   }
 }

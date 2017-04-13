@@ -500,3 +500,18 @@ li.dom-utility-currency, .c-site-search__a--inner, .c-site-search__img {display:
 position: relative;
 overflow: auto;
 }
+
+/*event date picker modifications*/
+.ui-datepicker-title {
+    padding-top: 5px !important;
+    margin-left: 42% !important;
+}
+.bw-display-layer #bwt-store-event-calendar table.ui-datepicker-calendar tr td.ui-datepicker-current-day {
+    width: 15% !important;
+}
+/*desktop header padding for event page*/
+@media only screen and (min-width: 1025px) {
+.bwt-events-event-details {
+    margin-top: 100px !important;
+}
+}

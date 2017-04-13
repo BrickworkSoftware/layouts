@@ -21203,5 +21203,10 @@ td.bwt-store-hours-table-date-column{
   .slick-dots {
     display: none !important;
   }
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+  .bwt-store-hours-table-hours-column {
+    text-align: right !important;
+}
+}
 }
 

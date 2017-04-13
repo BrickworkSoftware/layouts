@@ -19844,7 +19844,9 @@ td.bwt-store-hours-table-date-column{
 /*syle Appointment modal*/
 @media only screen and (max-width: 767px) and (min-width: 320px){
   /*appointment header*/
-  .bw-appointment-header-column.selected a,
+  .bw-appointment-header-column.completed a, 
+  .bw-appointment-header-column.completed span,
+  .bw-appointment-header-column.selected a, 
   .bw-appointment-header-column.selected span {
     background: #d04727 !important;
   }

@@ -3512,7 +3512,11 @@ h4 {
   font-weight: bold;
 }
 
-h4, h5 {
+h4 {
+  font-size: 15px;
+}
+
+h5 {
   font-size: 15px;
   text-transform: uppercase;
 }

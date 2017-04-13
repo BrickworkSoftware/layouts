@@ -21200,5 +21200,8 @@ td.bwt-store-hours-table-date-column{
     input[type="checkbox"] {
     margin: 0 0 .5rem 0 !important;
 }
+  .slick-dots {
+    display: none !important;
+  }
 }
 

@@ -21272,7 +21272,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours {
     letter-spacing: 0 !important;
-    text-transform: uppercase !important;
+    text-transform: capitalize !important;
   }
 
   .bw-display-layer .bwt-store-show .bwt-store-services-header div.bwt-store-services-description {
@@ -21280,6 +21280,18 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link a.appointment_link.button {
     border-radius: 0 !important;
+  }
+    .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link {
+    border-radius: 0px !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    border-radius: 0px !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    border-radius: 0px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    display: none !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-description {
     display: none !important;

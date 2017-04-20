@@ -19948,7 +19948,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     border: none !important;
     min-width: 100% !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20217,7 +20217,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
   /*Appointment confirmation*/
@@ -20249,7 +20249,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
  /*Appointment reschedule*/
@@ -20396,7 +20396,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     border:none !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20670,7 +20670,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
     /*Appointment confirmation*/
@@ -20701,7 +20701,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
  /*Appointment reschedule*/
@@ -20858,7 +20858,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     background: #d04727 !important;
     border:none !important;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section{
     width: 40% !important;
@@ -21126,7 +21126,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
     float: left;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
     /*Appointment confirmation*/
@@ -21157,7 +21157,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
 
   /*Apontment reschedule*/
@@ -21221,19 +21221,19 @@ td.bwt-store-hours-table-date-column{
     }
   }
   .bw-iframe-container .button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container #confirm_appointment_button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .nearest-store a.choose-store-link {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   @media only screen and (min-width: 1024px) {
   .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
@@ -21260,7 +21260,7 @@ td.bwt-store-hours-table-date-column{
     padding-bottom: 20px !important;
   }
   .bwt-events-rsvp-modal-button, .bwt-events-rsvp-success-button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
     z-index: 1 !important;
@@ -21270,11 +21270,16 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     text-transform: uppercase !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours {
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+  }
+
   .bw-display-layer .bwt-store-show .bwt-store-services-header div.bwt-store-services-description {
     display: none !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link a.appointment_link.button {
-    border-radius: 0px !important;
+    border-radius: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-description {
     display: none !important;

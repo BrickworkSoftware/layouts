@@ -19134,8 +19134,8 @@ html .clear:after {
     margin-top: 68px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
-    width: 16% !important;
-    margin-top: 150px;
+    width: 25% !important;
+    margin-top: 125px;
     float: left;
     margin-right: 50px;
     margin-left: 79px;
@@ -19948,6 +19948,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     border: none !important;
     min-width: 100% !important;
+    border-radius: 0px !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20216,6 +20217,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
+    border-radius: 0px !important;
   }
 
   /*Appointment confirmation*/
@@ -20247,6 +20249,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0px !important;
   }
 
  /*Appointment reschedule*/
@@ -20393,6 +20396,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     border:none !important;
+    border-radius: 0px !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20666,6 +20670,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
+    border-radius: 0px !important;
   }
 
     /*Appointment confirmation*/
@@ -20696,6 +20701,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0px !important;
   }
 
  /*Appointment reschedule*/
@@ -20852,6 +20858,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     background: #d04727 !important;
     border:none !important;
+    border-radius: 0px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section{
     width: 40% !important;
@@ -21119,6 +21126,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
     float: left;
+    border-radius: 0px !important;
   }
 
     /*Appointment confirmation*/
@@ -21149,6 +21157,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0px !important;
   }
 
   /*Apontment reschedule*/
@@ -21259,19 +21268,14 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details span {
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-header div.bwt-store-services-description {
     display: none !important;
   }
-  .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link {
-    border-radius: 0px !important;
-  }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link a.appointment_link.button {
     border-radius: 0px !important;
   }
-  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
-    border-radius: 0px !important;
-  }
-  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
-    border-radius: 0px !important;
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    display: none !important;
   }

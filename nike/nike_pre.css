@@ -27,14 +27,14 @@
   
 /*NTC and NRC Links*/
 .bwt-store-service-body-container .nikeRunTrainLinks {
-	color: #fa5400 !important;
-	text-decoration: underline !important;
+  color: #fa5400 !important;
+  text-decoration: underline !important;
 }
 
 .nikeRunTrainLinks {
-	padding: 0px !important;	
-	background: none !important;
-	border: 0px !important;
+  padding: 0px !important;  
+  background: none !important;
+  border: 0px !important;
 }
 
 /* Stop confirm button from breaking box on iPhone5 */
@@ -77,31 +77,31 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 
 /* Nearby Stores Link Store Page Desktop*/
 .bwt-stores-nearby-link {
-	color: #000 !important;
+  color: #000 !important;
 }
 
 .bwt-stores-nearby-link:hover {
-	color: #fa5400 !important;
+  color: #fa5400 !important;
 }
 
 /*NRC and NTC Links*/
 @media only screen and (min-width: 32.125em) {
-	.bwt-store-service-body-container .nikeRunTrainLinks {
-		padding: 10px 18px !important;
-	    display: inline-block !important;
-	    text-decoration: none !important;
-	    text-align: center !important;
-	    color: #000 !important;
-	    background: #ffffff !important;
-	    border: 2px solid #e5e5e5 !important;
-	    border-radius: 2px !important;
-	}
+  .bwt-store-service-body-container .nikeRunTrainLinks {
+    padding: 10px 18px !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      text-align: center !important;
+      color: #000 !important;
+      background: #ffffff !important;
+      border: 2px solid #e5e5e5 !important;
+      border-radius: 2px !important;
+  }
 }
 
 @media only screen and (min-width: 32.125em) {
-	.bwt-store-service-body-container .nikeRunTrainLinks:hover {
-		color: #fa5400 !important;
-	}
+  .bwt-store-service-body-container .nikeRunTrainLinks:hover {
+    color: #fa5400 !important;
+  }
 }
 
 @media only screen and (min-width: 32.125em) {
@@ -121,24 +121,24 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 }
 
 @media only screen and (max-width: 32.064em) {
-	.bwt-store-service-body-container .nikeRunTrainLinks {
-		padding: 10px 18px !important;
-	    display: inline-block !important;
-	    text-decoration: none !important;
-	    text-align: center !important;
-	    color: #ffffff !important;
-	    background: #000 !important;
-	    border: 1px solid #000 !important;
-	    border-radius: 2px !important;
-	    -webkit-transition: all 0.2s ease-out !important;
-	    transition: all 0.2s ease-out !important;
-	}
+  .bwt-store-service-body-container .nikeRunTrainLinks {
+    padding: 10px 18px !important;
+      display: inline-block !important;
+      text-decoration: none !important;
+      text-align: center !important;
+      color: #ffffff !important;
+      background: #000 !important;
+      border: 1px solid #000 !important;
+      border-radius: 2px !important;
+      -webkit-transition: all 0.2s ease-out !important;
+      transition: all 0.2s ease-out !important;
+  }
 }
 
 .bwt-index-store-services .nikeRunTrainLinks {
-	padding: 0px !important;
-	background: none !important;
-	border: 0px !important;
+  padding: 0px !important;
+  background: none !important;
+  border: 0px !important;
 }
 
 .bwt-appointment-submit { color: #000 !important; }
@@ -167,12 +167,7 @@ span.bwt-store-main-alert, div.bwt-index-nearby-store-distance {font-size: 14px 
 
 /* Appointment Modal Legal*/
 .bwt-email-opt-field input[type=checkbox]:checked+label { 
-  background: none !important;
-  font-family: Helvetica;
-  font-size: 12px;
-  color: #111111;
-  line-height: 20px;
-  padding: 0;
+  background: none !important; 
   }
 
 input#customer_email_opt_in { display: none !important; }
@@ -187,10 +182,10 @@ textarea#question_194 { display: none !important; }
 
 /* Questions v2 Syle Updates*/
 @media only screen and (min-width: 514px){
-	.row.btw-appt-name-email-fields {
-		width: 100%;
-		float: left !important;
-	}
+  .row.btw-appt-name-email-fields {
+    width: 100%;
+    float: left !important;
+  }
 
   .q_contact span.checkbox {
     width: auto !important;
@@ -280,14 +275,6 @@ textarea#question_194 { display: none !important; }
 
 .bwt-appt-input-placeholder {
   position: static;
-	font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
-}
-
-.show-for-large-up,
-.show-for-medium-down,
-label.check_boxes,
-span.checkbox,
-div.input.check_boxes, {
   font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
 }
 
@@ -296,7 +283,7 @@ div.input.check_boxes, {
 label.check_boxes,
 span.checkbox,
 div.input.check_boxes, {
-  font-family: "TradeGothic", Helvetica, sans-serif !important;
+  font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
 }
 
 .bw-appointment-step-container small.error {display: none !important;}
@@ -328,24 +315,24 @@ div.input.check_boxes, {
       width: 100%;
       text-align: center;
       top: -45px;
-	}
+  }
 }
 
 @media only screen and (min-width: 32.063em) {
-	.bw-display-layer .bwt-hide-on-mobile, .bw-display-layer .bwt-company-directory .bwt-index-header-container {
-		display: block !important;
-	}
+  .bw-display-layer .bwt-hide-on-mobile, .bw-display-layer .bwt-company-directory .bwt-index-header-container {
+    display: block !important;
+  }
 }
 
 .bwt-company-us-states {
-	width: 66.66%;
-	float: left;
-	margin-bottom: 25px;
+  width: 66.66%;
+  float: left;
+  margin-bottom: 25px;
 }
 
 .bwt-company-us-state-table .bwt-company-state {
-	width: 20%;
-	float: left;
+  width: 20%;
+  float: left;
 }
 
 .bwt-company-us-state-list {width: 100%;}

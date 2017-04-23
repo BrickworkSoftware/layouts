@@ -167,7 +167,12 @@ span.bwt-store-main-alert, div.bwt-index-nearby-store-distance {font-size: 14px 
 
 /* Appointment Modal Legal*/
 .bwt-email-opt-field input[type=checkbox]:checked+label { 
-  background: none !important; 
+  background: none !important;
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #111111;
+  line-height: 20px;
+  padding: 0;
   }
 
 input#customer_email_opt_in { display: none !important; }
@@ -181,7 +186,7 @@ label.bwt-rsvp-email-opt-placeholder {
 textarea#question_194 { display: none !important; }
 
 /* Questions v2 Syle Updates*/
-@media only screen and (min-width: 650px){
+@media only screen and (min-width: 514px){
 	.row.btw-appt-name-email-fields {
 		width: 100%;
 		float: left !important;
@@ -204,22 +209,86 @@ textarea#question_194 { display: none !important; }
   .q_type {
   }
 
-  .row.questions_1,
-  .row.phone_number {
+  .row.gender,
+  .row.q_phone {
     width: 50%;
     display: inline-block;
   }
+
+  input.gender {
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #8D8D8D;
+    line-height: 12px;
+  }
+}
+
+@media only screen and (max-width: 513px){
+  .contact_pref_test span.radio {
+    width: 100% !important;
+    display: inline-block;
+  }
+
+  .q_privacy span.checkbox {
+    width: 100% !important;
+  }
+
+  .contact_pref_test span.radio input.contact_pref_test {
+    height: auto !important;
+  }
+}
+
+.contact_pref_test span.radio {
+  width: auto;
+}
+
+.contact_pref_test label.radio_buttons {
+  margin-bottom: 19px;
+  line-height: 19px;
+  font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
+  font-weight: bold !important;
+  font-size: 14px;
+  color: #111111;
+}
+
+.contact_pref_test span.radio input.contact_pref_test {
+  height: auto !important;
 }
 
 .bwt-appt-message-field input, .bwt-appt-message-field input[type="text"], .bw-appointment-step-container input {
   height: 100px !important;
 }
 
+.bw-appointment-step-container input.q_phone {
+  height: 60px !important;
+}
+
 .bw-appointment-step-container #name, .bw-appointment-step-container #email, .bw-appointment-step-container .questions_1 input {height: 60px !important;}
+
+.questions_1 label.show-for-large-up,
+.questions_1 label.show-for-medium-down {
+  margin-top: 0 !important;
+}
+
+.questions_1 input.questions_1,
+.questions_1 input.questions_1:focus {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #8D8D8D;
+  line-height: 12px;
+}
 
 .bwt-appt-input-placeholder {
   position: static;
-	font-family: "TradeGothic", Helvetica, sans-serif !important;
+	font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
+}
+
+.show-for-large-up,
+.show-for-medium-down,
+label.check_boxes,
+span.checkbox,
+div.input.check_boxes, {
+  font-family: "TradeGothic", Helvetica-Bold, sans-serif !important;
 }
 
 .show-for-large-up,

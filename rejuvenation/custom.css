@@ -11378,15 +11378,15 @@ nav.main .dropdown li.img p {
 }
 
 .search input::-webkit-input-placeholder {
-  color: #b2b2b2 !important;
+  color: #636262 !important;
 }
 
 .search input::-moz-placeholder {
-  color: #b2b2b2 !important;
+  color: #636262 !important;
 }
 
 .search input:-ms-input-placeholder {
-  color: #b2b2b2 !important;
+  color: #636262 !important;
 }
 
 .search input:hover, .search input:focus {
@@ -17404,10 +17404,6 @@ html .clear:after {
   padding: 0 !important;
 }
 
-.bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
-  padding-bottom: 15px;
-}
-
 .bw-display-layer .bwt-scroll-assist {
   display: none !important;
 }
@@ -17779,7 +17775,8 @@ html .clear:after {
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-events-main .bwt-event-legal p {
   max-height: 40px;
-  overflow: scroll;
+  overflow: scroll
+  font-size: 10px;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-back-to-store-text,
@@ -17803,6 +17800,7 @@ html .clear:after {
   padding-top: 0;
   padding-bottom: 0;
   font-size: 24px;
+  text-transform: uppercase !important;
 }
 
 .bw-display-layer-container .bw-display-layer .bwt-event-show .bwt-event-details-dates,
@@ -17998,7 +17996,7 @@ html .clear:after {
   font-family: "TimesNewRomanPSMT", "Times New Roman";
   font-size: 18px;
   color: #252525;
-  letter-spacing: 1.12px;
+  letter-spacing: 0px !important;
   line-height: 24px;
 }
 
@@ -18657,6 +18655,7 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     padding: 5px 0;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
     color: #252525 !important;
@@ -18671,6 +18670,7 @@ html .clear:after {
   }
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours{
     padding-left: 0 !important;
+    letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-special-hours{
     text-align: left;
@@ -18777,6 +18777,7 @@ html .clear:after {
   .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-distance{
     display: block;
     padding-right: 0px !important;
+    letter-spacing: 0 !important;
   }
 
   /*store services for mobile*/
@@ -18785,6 +18786,7 @@ html .clear:after {
     font-size: 36px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-description {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -18812,6 +18814,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     text-align: center !important;
+    margin-left: 10px !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -18820,6 +18824,7 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     text-align: center !important;
+    margin-left: 10px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
@@ -18828,6 +18833,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 22px !important;
     min-height: 100px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     text-align: center;
@@ -18885,6 +18892,7 @@ html .clear:after {
     padding: 0;
     display: table-footer-group;
     line-height: 45px;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-description {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
@@ -18921,6 +18929,7 @@ html .clear:after {
     font-size: 30px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-feature {
     max-width: none !important;
@@ -18989,6 +18998,7 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     padding: 15px 0;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
@@ -19086,7 +19096,7 @@ html .clear:after {
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 36px !important;
+    line-height: 22px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-main-info .bwt-store-main-description p{
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
@@ -19105,6 +19115,7 @@ html .clear:after {
     font-size: 36px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service {
     width: 100% !important;
@@ -19123,8 +19134,8 @@ html .clear:after {
     margin-top: 68px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
-    width: 16% !important;
-    margin-top: 150px;
+    width: 25% !important;
+    margin-top: 125px;
     float: left;
     margin-right: 50px;
     margin-left: 79px;
@@ -19145,6 +19156,8 @@ html .clear:after {
     padding: 10px 0;
     font-weight: 600;
     text-transform: uppercase;
+    margin-left: 10px !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19152,6 +19165,7 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
+    margin-left: 10px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-info-title::before{
     margin-top: 17px !important;
@@ -19163,6 +19177,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 22px !important;
     min-height: 132px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19207,12 +19223,14 @@ html .clear:after {
     font-size: 16px !important;
     color: #D04727  !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-title{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
-    font-size: 36px !important;
+    font-size: 24px !important;
     color: #252525 !important;
-    line-height: 20px !important;
+    line-height: 24px !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev{
@@ -19281,6 +19299,7 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     padding: 0;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-dates{
     font-family: "Gotham-Book", Arial, sans-serif !important;
@@ -19344,6 +19363,7 @@ html .clear:after {
     font-size: 30px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
@@ -19404,6 +19424,7 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     padding: 15px 0;
+    text-transform: uppercase;
   }
   .bw-display-layer .bwt-store-show .bwt-store-header-details {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif;
@@ -19478,7 +19499,7 @@ html .clear:after {
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 36px !important;
+    line-height: 22px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-info-title::before{
     margin-top: 17px !important;
@@ -19500,6 +19521,7 @@ html .clear:after {
     font-size: 36px !important;
     color: #252525 !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-services-description{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19508,8 +19530,6 @@ html .clear:after {
     letter-spacing: 0 !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
-    width: 25% !important;
-    margin-top: 30% !important;
     margin: 0 auto;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content{
@@ -19522,6 +19542,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     padding: 10px 0;
+    margin-left: 10px !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-length{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19529,6 +19551,7 @@ html .clear:after {
     color: #252525 !important;
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
+    margin-left: 10px !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-description{
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
@@ -19537,6 +19560,8 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 22px !important;
     min-height: 170px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19558,15 +19583,17 @@ html .clear:after {
     font-size: 16px !important;
     color: #D04727  !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-events{
     border-bottom-width: 1px !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-title{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
-    font-size: 36px !important;
+    font-size: 24px !important;
     color: #252525 !important;
     line-height: 20px !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-next,
   .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-prev{
@@ -19607,6 +19634,7 @@ html .clear:after {
     letter-spacing: 0 !important;
     margin-bottom: 0 !important;
     padding: 0;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-event-dates{
     font-family: "Gotham-Book", Arial, sans-serif !important;
@@ -19656,6 +19684,7 @@ html .clear:after {
     font-size: 30px !important;
     color: #FFFFFF !important;
     letter-spacing: 0 !important;
+    text-transform: uppercase !important;
   }
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature:hover .bwt-store-feature-description,
   .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-description,
@@ -19858,6 +19887,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-content h3{
     text-align: left !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bw-appointment-services .bwt-store-service-title {
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19918,6 +19948,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     border: none !important;
     min-width: 100% !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19925,6 +19956,7 @@ td.bwt-store-hours-table-date-column{
     color: #252525 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-store-address-line{
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
@@ -19978,13 +20010,13 @@ td.bwt-store-hours-table-date-column{
     color: #252525 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores h3{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -19992,7 +20024,9 @@ td.bwt-store-hours-table-date-column{
     color: #252525 !important;
     letter-spacing: 0 !important;
     text-align: center;
-    line-height: 35px !important;
+    line-height: 25px !important;
+    padding-right: 15px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores .bwt-modal-store-search-location-field#location{
     border-radius: 0 !important;
@@ -20149,7 +20183,7 @@ td.bwt-store-hours-table-date-column{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #231F20 !important;
-    letter-spacing: 1.67px !important;
+    letter-spacing: 1px !important;
     text-transform: uppercase;
   }
   input[type=checkbox] + label,
@@ -20183,19 +20217,20 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
+    border-radius: 0 !important;
   }
 
   /*Appointment confirmation*/
   .bw-iframe-container #appointment-confirmation .confirmation_title {
     font-family: "Gotham-Medium", Arial,sans-serif !important;
-    font-size: 36px !important;
+    font-size: 18px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
   }
   .bw-iframe-container #appointment-confirmation .details p {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
     color: #231F20 !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
   }
@@ -20206,6 +20241,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container #appointment-confirmation .details p b {
     font-weight: 100;
+    font-size: 18px !important;
   }
   .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
     background: #d04727;
@@ -20213,6 +20249,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0 !important;
   }
 
  /*Appointment reschedule*/
@@ -20256,8 +20293,6 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
-    height: 55px;
-    padding: 10px;
     background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
@@ -20361,6 +20396,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     border:none !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20368,6 +20404,7 @@ td.bwt-store-hours-table-date-column{
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
   .bw-iframe-container .bwt-index-store-body-details-distance-hours,
@@ -20396,6 +20433,7 @@ td.bwt-store-hours-table-date-column{
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
@@ -20427,7 +20465,6 @@ td.bwt-store-hours-table-date-column{
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20436,6 +20473,8 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     text-align: center;
     line-height: 35px !important;
+    padding-right: 15px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores {
     width: auto !important;
@@ -20561,7 +20600,7 @@ td.bwt-store-hours-table-date-column{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 14px !important;
     color: #252525 !important;
-    letter-spacing: 0 !important;
+    letter-spacing: 1px !important;
   }
   .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder{
     margin-top: -15px;
@@ -20598,7 +20637,7 @@ td.bwt-store-hours-table-date-column{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #231F20 !important;
-    letter-spacing: 1.67px !important;
+    letter-spacing: 1px !important;
   }
   input[type=checkbox] + label,
   input[type=radio] + label{
@@ -20631,6 +20670,7 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF !important;
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
+    border-radius: 0 !important;
   }
 
     /*Appointment confirmation*/
@@ -20642,7 +20682,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container #appointment-confirmation .details p {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
@@ -20661,6 +20701,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0 !important;
   }
 
  /*Appointment reschedule*/
@@ -20817,6 +20858,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     background: #d04727 !important;
     border:none !important;
+    border-radius: 0 !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section{
     width: 40% !important;
@@ -20827,6 +20869,7 @@ td.bwt-store-hours-table-date-column{
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset,
   .bw-iframe-container .bwt-index-store-body-details-distance-hours,
@@ -20855,6 +20898,7 @@ td.bwt-store-hours-table-date-column{
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 16px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column,
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-date-column{
@@ -20886,7 +20930,6 @@ td.bwt-store-hours-table-date-column{
     font-size: 16px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
-    line-height: 16px !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -20895,6 +20938,8 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 0 !important;
     text-align: center;
     line-height: 35px !important;
+    padding-right: 15px !important;
+    text-transform: uppercase !important;
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores {
     width: auto !important;
@@ -21081,6 +21126,7 @@ td.bwt-store-hours-table-date-column{
     letter-spacing: 1.5px !important;
     line-height: 14px !important;
     float: left;
+    border-radius: 0 !important;
   }
 
     /*Appointment confirmation*/
@@ -21092,7 +21138,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container #appointment-confirmation .details p {
     font-family: "TimesNewRomanPSMT", "Times New Roman", Arial, sans-serif !important;
-    font-size: 20px !important;
+    font-size: 18px !important;
     color: #231F20 !important;
     letter-spacing: 0 !important;
     line-height: 24px !important;
@@ -21111,6 +21157,7 @@ td.bwt-store-hours-table-date-column{
     margin-top: 0;
     height: 50px;
     width: 250px;
+    border-radius: 0 !important;
   }
 
   /*Apontment reschedule*/
@@ -21154,8 +21201,6 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-display-layer .reschedule-appointment-button a.brickwork-button {
     width: 290px;
-    height: 55px;
-    padding: 10px;
     background: #d04727;
     border: none;
     font-family: "Gotham-Medium", Arial, sans-serif;
@@ -21163,16 +21208,91 @@ td.bwt-store-hours-table-date-column{
     color: #FFFFFF;
     letter-spacing: 1.5px;
   }
-    input[type="checkbox"] {
+/*Niks Edits*/
+  input[type="checkbox"] {
     margin: 0 0 .5rem 0 !important;
-}
+  }
   .slick-dots {
     display: none !important;
   }
   @media only screen and (max-width: 767px) and (min-width: 320px) {
   .bwt-store-hours-table-hours-column {
     text-align: right !important;
-}
-}
-}
+    }
+  }
+  .bw-iframe-container .button {
+    border-radius: 0 !important;
+  }
+  .bw-iframe-container #confirm_appointment_button {
+    border-radius: 0 !important;
+  }
+  .bw-iframe-container .nearest-store a.choose-store-link {
+    border-radius: 0 !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    border-radius: 0 !important;
+  }
+  .bw-display-layer .reschedule-appointment-button a.brickwork-button {
+    border-radius: 0 !important;
+  }
+  @media only screen and (min-width: 1024px) {
+  .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
+    margin-top: -10px !important;
+    }
+  }
+  .bw-iframe-container .appointment-enterinfo-container {
+    letter-spacing: .5px !important;
+  }
+  .bw-display-layer .bwt-index-search-filter-link .bwt-index-filters-toggle {
+    display: none !important;
+  }
+  .bw-display-layer .bwt-index-search-filters {
+    margin-top: -60px !important;
+    margin-bottom: -25px!important;
+  }
+  .active .bwt-rsvp-first-name-placeholder {
+    padding-bottom: 20px !important;
+  }
+   .active .bwt-rsvp-last-name-placeholder {
+    padding-bottom: 20px !important;
+  }
+   .active .bwt-rsvp-email-placeholder {
+    padding-bottom: 20px !important;
+  }
+  .bwt-events-rsvp-modal-button, .bwt-events-rsvp-success-button {
+    border-radius: 0 !important;
+  }
+  .first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
+    z-index: 1 !important;
+    color: #252525 !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-header-details span {
+    letter-spacing: 0 !important;
+    text-transform: uppercase !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-header-details-hours {
+    letter-spacing: 0 !important;
+    text-transform: capitalize !important;
+  }
 
+  .bw-display-layer .bwt-store-show .bwt-store-services-header div.bwt-store-services-description {
+    display: none !important;
+  }
+  .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link a.appointment_link.button {
+    border-radius: 0 !important;
+  }
+    .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link {
+    border-radius: 0px !important;
+  }
+  .bw-iframe-container .appointment-enterinfo-container button#confirm_appointment_button {
+    border-radius: 0px !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bw-confirmation-close-button {
+    border-radius: 0px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    display: none !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    display: none !important;
+  }

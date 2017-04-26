@@ -17441,6 +17441,21 @@ html .clear:after {
   margin-bottom: 45px;
 }
 
+.bw-display-layer .bwt-index-search-form-wrap .add-clear-span a {
+  display: none;
+}
+
+.bw-display-layer-container .bw-display-layer  .bwt-index-search-form-submit-icon .fa-search:before {
+  font-family: "rejuvenation-icons" !important;
+  content: "" !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: normal !important;
+  line-height: 1;
+  speak: none;
+  text-transform: none !important
+}
+
 /* large store index */
 @media only screen and (min-width: 1025px) {
   .bw-display-layer .bwt-index-header {
@@ -17509,7 +17524,7 @@ html .clear:after {
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info {
-    // margin-top: -33px;
+    margin-top: -26px;
   }
 }
 
@@ -17539,7 +17554,7 @@ html .clear:after {
   }
 
   .bw-display-layer-container .bw-display-layer .bwt-store-list li:first-child > .store-info {
-    margin-top: -44px;
+    margin-top: -26px;
   }
 }
 
@@ -19187,7 +19202,14 @@ html .clear:after {
     text-align: center !important;
     width: 50%;
     float: right;
-    margin-top: 68px;
+    margin-top: 5%;
+    margin-right: 30px;
+    max-width: 300px;
+  }
+
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content a.brickwork-button,
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content a.brickwork-button:hover {
+    width: 265px;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-image{
     width: 25% !important;
@@ -19233,8 +19255,6 @@ html .clear:after {
     letter-spacing: 0 !important;
     line-height: 22px !important;
     min-height: 132px;
-    margin-left: 10px !important;
-    margin-right: 10px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
@@ -21350,4 +21370,9 @@ input[type="checkbox"] {
 }
 .bw-display-layer .bwt-store-show .bwt-store-services-description {
   display: none !important;
+}
+.bw-display-layer-container .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature .bwt-store-feature-external-url {
+  font-family: 'Gotham-Medium' !important;
+  text-transform: uppercase !important;
+  font-size: 20px !important;
 }

@@ -20257,7 +20257,7 @@ td.bwt-store-hours-table-date-column{
     font-family: "Gotham-Medium", Arial, sans-serif !important;
     font-size: 15px !important;
     color: #231F20 !important;
-    letter-spacing: 1px !important;
+    letter-spacing: 0.5px !important;
     text-transform: uppercase;
   }
   input[type=checkbox] + label,
@@ -20378,7 +20378,7 @@ td.bwt-store-hours-table-date-column{
 /*end of mobile*/
 
 
-@media only screen and (max-width: 992px) and (min-width: 768px){
+@media only screen and (max-width: 992px) and (min-width: 767px){
   /*appointment header*/
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.selected span,
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a,
@@ -21375,4 +21375,30 @@ input[type="checkbox"] {
   font-family: 'Gotham-Medium' !important;
   text-transform: uppercase !important;
   font-size: 20px !important;
+}
+.bw-iframe-container .appointment-enterinfo-container input {
+  letter-spacing: 0.5px !important;
+}
+@media only screen and (min-width: 1024px) {
+  .bwt-appointment-choose-store > .large-8 {
+    width: 70% !important;
+    border-right: 1px solid #BBBBBB;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-show-primary .bwt-store-main-section {
+    width: 47.5% !important;
+  }
+}
+.bw-iframe-container .appointment-rsvp-container .bwt-appointment-submit[disabled] {
+  opacity: 0.5 !important;
+}
+.bw-iframe-container .appointment-rsvp-container [data-abide] .error small.error,
+.bw-iframe-container .appointment-rsvp-container [data-abide] .error span.error,
+.bw-iframe-container .appointment-rsvp-container [data-abide] span.error,
+.bw-iframe-container .appointment-rsvp-container [data-abide] small.error {
+  padding: .05rem .5625rem;
+  margin-bottom: 24.5px;
+}
+
+.bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
+  background-color: transparent;
 }

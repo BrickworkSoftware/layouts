@@ -21338,8 +21338,9 @@ input[type="checkbox"] {
   border-radius: 0 !important;
 }
 .first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
-  z-index: 1 !important;
+  z-index: 0 !important;
   color: #252525 !important;
+  background: transparent !important;
 }
 .bw-display-layer .bwt-store-show .bwt-store-header-details span {
   letter-spacing: 0 !important;
@@ -21349,7 +21350,6 @@ input[type="checkbox"] {
   letter-spacing: 0 !important;
   text-transform: capitalize !important;
 }
-
 .bw-display-layer .bwt-store-show .bwt-store-services-header div.bwt-store-services-description {
   display: none !important;
 }

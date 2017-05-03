@@ -21337,8 +21337,8 @@ input[type="checkbox"] {
 .bwt-events-rsvp-modal-button, .bwt-events-rsvp-success-button {
   border-radius: 0 !important;
 }
-.first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
-  z-index: 0 !important;
+.bwt-rsvp-first-name-placeholder, .bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
+  z-index: 1 !important;
   color: #252525 !important;
   background: transparent !important;
 }

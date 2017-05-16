@@ -5532,8 +5532,34 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-display-layer .bwt-store-show .bwt-store-service-description {
     padding-left: 15px !important;
     padding-right: 15px !important;
+    letter-spacing: .5px !important;
   }
+  /*HOLD
   .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content {
-    padding-top: 20px !important;
+    padding-top: 40px !important;
+    */
   }
+  .bw-display-layer .bwt-store-show a.brickwork-button {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+  }
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column span {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;    
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .nearest-store .choose-store-link {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+  }
+  .bw-display-layer .bwt-store-show .ui-datepicker .ui-datepicker-title {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-event-search-container a {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
+  }
+  .bw-iframe-container .bwt-appointment-choose-store .local-stores h3 {
+    padding-left: 20px !important;
+  }
+  @media only screen and (max-width: 640px) {
+  .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
+  font-size: 20px !important;
+  }
+}
 }

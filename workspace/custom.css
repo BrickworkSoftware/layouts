@@ -5554,6 +5554,9 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-display-layer .bwt-store-show .bwt-event-search-container a {
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-event-link {
+    font-family: "YWFTUltramagnetic", Arial, sans-serif !important;    
+  }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores h3 {
     padding-left: 20px !important;
   }

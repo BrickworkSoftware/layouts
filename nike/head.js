@@ -1,8 +1,8 @@
 <script>
 var y = document.cookie;
 var y = y.split(';');
-var country = ''; 
-var lang = ''; 
+var country = 'us'; 
+var lang = 'en_US'; 
 for(var i=0; i<y.length; i++) { 
 	var check = y[i].split('='); 
 	if(check[0] == ' NIKE_COMMERCE_COUNTRY') { 

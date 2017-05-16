@@ -5526,4 +5526,14 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-display-layer .bwt-index .bwt-index-header-container .international {
     text-align: center !important;
   }
+  .bw-display-layer .bwt-store-show .bwt-store-services-description {
+    display: none !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-description {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content {
+    padding-top: 20px !important;
+  }
 }

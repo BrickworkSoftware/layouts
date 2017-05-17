@@ -3014,10 +3014,11 @@ td.bwt-store-hours-table-date-column:after {
   .bw-display-layer .bwt-store-show .bwt-store-event-link-container {
     margin: 0 !important;
   }
+  /*nik edited*/
   .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
     font-size: 16px !important;
     border-radius: 3px !important;
-    margin-top: 190px !important;
+    margin-top: 150px !important;
     margin-left: 24px;
     border: 0px !important;
     padding: 0px !important;
@@ -5534,10 +5535,8 @@ a.ui-datepicker-next.ui-corner-all:hover {
     padding-right: 15px !important;
     letter-spacing: .5px !important;
   }
-  /*HOLD
-  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content {
-    padding-top: 40px !important;
-    */
+  .bw-display-layer .bwt-store-show .bwt-store-service-container .bwt-store-service-content .bwt-store-service-title {
+    padding-top: 30px !important;
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     font-family: "YWFTUltramagnetic", Arial, sans-serif !important;
@@ -5563,6 +5562,14 @@ a.ui-datepicker-next.ui-corner-all:hover {
   @media only screen and (max-width: 640px) {
   .bw-display-layer .bwt-store-show .bwt-store-banner-info-container .bwt-store-header-title a {
   font-size: 20px !important;
+    }
   }
-}
+  .bw-display-layer .bwt-store-show .bwt-store-service-description {
+    font-family: "Gotham-Light", Arial, sans-serif !important;
+  }
+  @media only screen and (min-width: 1024px) {
+    .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
+      margin-top: 150px !important;
+    }
+  }
 }

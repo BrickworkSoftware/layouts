@@ -5572,4 +5572,12 @@ a.ui-datepicker-next.ui-corner-all:hover {
       margin-top: 150px !important;
     }
   }
+  @media screen and (min-width: 1024px) {
+  .bw-iframe-container .bwt-appointment-choose-store .store-detail-name {
+   padding-right: 40px !important;
+    }
+   }
+  .bw-iframe-container .bwt-appointment-choose-store #service-appointment-stores .container.row .bwt-store-location-details .store-detail-name {
+    padding-right: 0px !important;
+  }  
 }

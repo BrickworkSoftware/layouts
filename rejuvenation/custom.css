@@ -21402,3 +21402,6 @@ input[type="checkbox"] {
 .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
   background-color: transparent;
 }
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button {
+  display: none !important;
+}

@@ -105,3 +105,6 @@
   .bw-display-layer .bwt-store-blog-index-link {
     display: none !important;
   }
+.bwt-local-nav-blog-link {
+	display: none !important;
+}

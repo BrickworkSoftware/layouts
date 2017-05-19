@@ -76,8 +76,8 @@ p
 .row .bw-display-layer .bwt-stores-nearby-alert
 {
     font-style: normal;
+
     color: #000;
-    font-size: 15px;
 }
 
 .bw-display-layer .bwt-store-address-line
@@ -373,6 +373,11 @@ p
 .bw-display-layer .bwt-store-event-title a
 {
     font-size: 26px;
+}
+
+.bw-display-layer .bwt-stores-nearby .bwt-stores-nearby-list li
+{
+     vertical-align: top;
 }
 
 /* Grad */

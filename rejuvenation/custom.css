@@ -21431,3 +21431,7 @@ input[type="checkbox"] {
     width: 100%;
 
 }
+/*Hide Book An Appointment Button*/
+.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button {
+	display: none !important;
+}

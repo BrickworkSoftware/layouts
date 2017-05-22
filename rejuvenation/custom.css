@@ -20009,6 +20009,11 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table{
     text-align: left !important;
   }
+  .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours {
+    float: left;
+  }
+
+
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-and-location{
     margin-top: 30px !important;
     margin: initial;
@@ -20052,7 +20057,11 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column{
     float: right !important;
+    text-align: right;
   }
+ .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours{
+    float:left;
+}
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-services-info-title::before{
     margin-top: 3px !important;
     content: url(//assets.brickworksoftware.com.s3.amazonaws.com/rejuvenation/icons/transit_arrow_down.svg) !important;
@@ -20119,7 +20128,8 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-search-button{
     height: 55px;
     width: 55px;
-    background: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/appt_search_icon.png);
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/REJ_search%20%281%29.svg);
+    background-position: center; 
   }
   .bw-iframe-container .bwt-appointment-choose-store .local-stores {
     float: left;
@@ -20522,7 +20532,11 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column {
     float: right !important;
+    text-align: right;
   }
+.bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours {
+   float:left;
+}
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset {
     margin-top: 20px;
   }
@@ -20576,8 +20590,9 @@ td.bwt-store-hours-table-date-column{
   .bw-iframe-container .bwt-appointment-choose-store .bwt-search-button{
     height: 55px;
     width: 55px;
-    background: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/appt_search_icon.png);
-  }
+     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/REJ_search%20%281%29.svg);
+    background-position: center; 
+     }
 
   /*choose time*/
   .bw-iframe-container .bw-appointment-step-container-choose-time #appointment-options #mobile_date_select,
@@ -20987,6 +21002,7 @@ td.bwt-store-hours-table-date-column{
   }
   .bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours-table td.bwt-store-hours-table-hours-column {
     float: right !important;
+    text-align: right;
   }
   .bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset {
     margin-top: 20px;
@@ -21045,7 +21061,8 @@ td.bwt-store-hours-table-date-column{
     left: 234px;
     height: 55px;
     width: 55px;
-    background: url(//s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/appt_search_icon.png);
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/rejuvenation/icons/REJ_search%20%281%29.svg);
+    background-position: center; 
   }
 
   /*choose time*/
@@ -21402,6 +21419,15 @@ input[type="checkbox"] {
 .bw-iframe-container .appointment-enterinfo-container .active .bwt-appt-input-placeholder {
   background-color: transparent;
 }
-.bw-display-layer-container .bw-display-layer .bwt-index a.brickwork-button {
-  display: none !important;
+
+.bw-iframe-container .bwt-appointment-choose-store .bwt-store-hours {
+  float:left !important;
+  
+}
+
+.bw-iframe-container .bwt-appointment-choose-store .ui-helper-reset {
+  margin-top: 20px;
+    float: right;
+    width: 100%;
+
 }

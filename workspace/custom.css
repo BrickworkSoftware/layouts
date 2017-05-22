@@ -4696,6 +4696,8 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-iframe-container textarea#appointment_customer_message {
     width: 500px;
     height: 102px;
+    background: #F2F1EF !important;
+    resize: none;
   }
   .bw-iframe-container .active .bwt-appt-input-placeholder {
     margin-top: -10px;

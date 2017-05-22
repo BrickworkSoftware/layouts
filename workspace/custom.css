@@ -654,6 +654,7 @@ input, textarea, select {
   margin: 0;
 }
 
+
 input, textarea {
   padding: 8px 15px;
 }
@@ -4699,6 +4700,13 @@ a.ui-datepicker-next.ui-corner-all:hover {
     background: #F2F1EF !important;
     resize: none;
   }
+  .bw-iframe-container .bwt-appointment_customer_message.active textarea#appointment_customer_message {
+    width: 500px;
+    height: 102px;
+    background: #fff !important;
+    resize: none;
+  }
+
   .bw-iframe-container .active .bwt-appt-input-placeholder {
     margin-top: -10px;
     font-size: 10px;

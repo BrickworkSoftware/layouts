@@ -2204,8 +2204,9 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px !important;
     height: 55px !important;
     margin-right: 23px !important;
-    margin-left: 24px !important;
+    /*margin-left: 24px !important;*/
     margin-top: 180px !important;
+
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     margin-top: 0px !important;
@@ -2269,8 +2270,10 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 82.5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     min-height: 400px !important;
+    -moz-align-items:center;
+    -webkit-align-items: stretch;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-image {
     width: 75px !Important;
@@ -2568,6 +2571,13 @@ td.bwt-store-hours-table-date-column:after {
     float: left;
     margin-right: 50px;
     margin-left: 79px;
+
+    /* Iphone media query*/
+    @media only screen 
+      and (-webkit-min-device-pixel-ratio: 3){
+        position:relative;
+        left:100px;
+    }
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
     min-height: 360px !important;
@@ -3034,7 +3044,7 @@ td.bwt-store-hours-table-date-column:after {
      margin-left: 190px;
    }
   .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
-	  margin-bottom: 30px;
+    margin-bottom: 30px;
     width: 420px !important;
     height: 250px !important;
   }
@@ -4755,7 +4765,6 @@ a.ui-datepicker-next.ui-corner-all:hover {
     top: 50%;
     margin-left: 83px;
     margin-right: 100px;
-    z-index:3;
   }
   .fa-angle-left:before, .bw-load-previous-dates:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/left_arrow_appt_modal.svg") !important;
@@ -4953,6 +4962,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
     text-align: center;
     padding: 10px;
     width: 294px;
+    height: 104px;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
     width: 250px;
@@ -5383,7 +5393,6 @@ a.ui-datepicker-next.ui-corner-all:hover {
     top: 50%;
     margin-left: 40px;
     margin-right: 75px;
-    z-index: 3;
   }
   .fa-angle-left:before, .bw-load-previous-dates:before {
     content: url("http://assets.brickworksoftware.com.s3.amazonaws.com/workspace/icons/left_arrow_appt_modal.svg") !important;
@@ -5542,7 +5551,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
     margin-left: 3%;
   }
-	/*Nik Go-Live Edits */
+  /*Nik Go-Live Edits */
   .bw-display-layer .bwt-index .bwt-index-header-container .international {
     text-align: center !important;
   }

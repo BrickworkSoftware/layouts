@@ -6,6 +6,7 @@
   	text-align: center;
   }
 </style>
+
 <noscript>
 	<style type="text/css" scoped>
 		.La.auto {
@@ -2272,37 +2273,8 @@ jQuery(function ($) {
 <input type="hidden" value="tumidev" id="omnAcc"/>
 <input type="hidden" name="tracerProdCode" id="tracerProdCode" value=""/>
 <input type="hidden" value="" id="prdCat" name="notomni"/>
-	<!-- Omniture snippet -->
-<script type="text/javascript">
-
-<!--
-	/* Get the AppMeasurement instance */
-	var s=s_gi("tumidev")
-
-	/* Events */
-	s.events="event39"
-
-	/* Traffic Variables. */
-	s.prop13="en_US"
-	s.prop14="USD"
-	s.prop15="US"
-	s.server=window.location.hostname
-	s.prop30=window.location.pathname
-	s.prop2="Browse"
-	s.prop34="[Breadcrumb Trail]"
-
-
-		s.prop34="Home Page"
-		s.prop2="Home"
 	
-		s.prop34="Category:HeaderAndFooter"
-		s.prop2="Category"
-	
-	s.pageName=s.eVar43=s.prop13+":"+s.prop34
-	/* Conversion Variables */
-	/* Final s_code declaration */
-	var s_code=s.t();if(s_code)document.write(s_code);//-->
-</script>
+
 <script>
 ;(function(){
     var tags = ['link', 'script', 'img', 'audo', 'video', 'frame'], 
@@ -2338,3 +2310,16 @@ jQuery(function ($) {
     }
 })();
 </script>
+<script>
+    $(document).ready(function() {
+    	$('.ctnr-header').find('a').each(function(i, el){ 
+      		$(el).attr('href', 'https://tumi.com' + $(el).attr('href')) 
+      	});
+      	$('#top-nav').find('a').each(function(i, el){ 
+      		$(el).attr('href', 'https://tumi.com' + $(el).attr('href')) 
+      	});
+      	$('.ctnr-footer').find('a').each(function(i, el){ 
+      		$(el).attr('href', 'https://tumi.com' + $(el).attr('href')) 
+      	});
+    });
+  </script>

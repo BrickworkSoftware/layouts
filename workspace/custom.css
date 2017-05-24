@@ -4391,6 +4391,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
     text-align: center;
     padding: 10px;
     width: 294px;
+    word-break: break-word;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
     width: 250px;
@@ -4977,6 +4978,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
     padding: 10px;
     width: 294px;
     height: 104px;
+    word-break: break-word;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
     width: 250px;

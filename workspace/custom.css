@@ -2107,7 +2107,7 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 1.5px !important;
   line-height: 26px;
   height: 100px;
-  word-break: break-all;
+  word-break: break-all !important;
 }
 
 .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {

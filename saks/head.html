@@ -1,0 +1,200 @@
+<link rel="icon" type="image/png" href="//www.saksfifthavenue.com/static/images/icon/favicon.png">
+<!--[if IE]><link rel="SHORTCUT ICON" href="/static/images/icon/favicon.ico"/><![endif]-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta name="fragment" content="!">
+
+<!-- Load fonts. Normally this would be loaded on the hosted page already -->
+<script src="https://use.typekit.net/joi2aux.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+<link rel="stylesheet" href="//content.hbc.com/content/frontend/4-3-0/styles/framework_commons_saks.css" type="text/css">
+<script type="text/javascript" src="//content.hbc.com/content/frontend/4-3-0/scripts/modernizr.js"></script>
+<script type="text/javascript" src="//content.hbc.com/content/frontend/4-3-0/scripts/framework_polyfill.js"></script>
+
+<script> function myModalFunction() {     window.open('//widgets.stores.saks.com/stores/new-york/services/chat/components/window-2.0?room=request&from=sidebar&external_link=true','Saks Fifth Avenue','resizable,height=748,width=370') } </script>
+
+<style>
+.serviceCustomContent {
+	text-align: center;
+	width: 60%;
+	margin: auto;
+}
+
+.serviceCustomContent > p, .serviceCustomContent > li, .serviceCustomContent .simplelist {
+	font-family: 'GothamNarrow-Book', sans-serif;
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+	letter-spacing: 0px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.serviceCustomContent > h2 {
+	font-family: 'bodoni-urw', serif;
+	font-size: 22px;
+	color: #000000;
+	font-style: normal;
+	letter-spacing: normal;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.serviceCustomContent > h3 {
+	font-family: 'GothamNarrow-Book', sans-serif;
+	font-size: 18px; 
+	line-height: 22px;
+	font-weight: 600 !important;
+}
+.serviceCustomContent > a {
+	font-family: 'GothamNarrow-Book', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 20px;
+	letter-spacing: 0px;
+	font-style: normal;
+	text-decoration: underline;
+}
+
+ul.simpleList {
+	list-style: none !important;
+}
+.serviceCustomContent p a {text-decoration: underline;}
+hr.customDivider {
+	border-top: 2px solid #000000 !important;
+	width: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*Salesfloor Integration*/
+#salesFloorButton {
+		background-color: #000000;
+		border: 2px solid #000000;
+		padding: 12px 7px;
+        font-family: "GothamNarrow-Bold", sans-serif;
+		font-size: 12px;
+		letter-spacing: 0px;
+		line-height: 14px;
+		color: #FFF;
+		text-decoration: none;
+		text-transform: uppercase;
+		width: 100%;
+	}
+		
+#salesFloorButton:hover, #salesFloorButton:active, #salesFloorButton:visited {
+		background-color: #404040;
+		border: 2px solid #404040;
+        cursor: pointer;
+}
+
+.bwCustomContent {
+	display: flex;
+	align-items: center;
+	flex-wrap: no-wrap;
+}
+
+@media only screen and (min-width: 992px) {
+	.bwCustomContent {
+		width: 100%;
+		height: 400px;
+		display: flex;
+		align-items: center;
+	}
+	.bwCustomContentBlockLeft {
+		display: flex;
+		margin-right: 35px;
+		flex: 0 0 66.66%;
+		height: 385px;
+		max-width: 66.66%;
+	}
+	.bwCustomContentBlockRight {
+		flex: 0 0 33.33%;
+		padding-right: 25px;
+	}
+	.bwCustomContent h4.customTitle, .bwCustomContent .customDescription, .bwCustomContent .customLocation {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.bwCustomContent {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+	}
+	.bwCustomContentBlockLeft {
+		display: flex;
+		margin-right: 35px;
+		flex: 0 0 50%;
+		height: 250px;
+	}
+	.bwCustomContentBlockRight {
+		flex: 0 0 50%;
+		padding-right: 25px;
+	}
+	.bwCustomContent h4.customTitle, .bwCustomContent .customDescription, .bwCustomContent .customLocation {
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 1px) and (max-width: 767px) {
+	.bwCustomContent {
+		width: 100%;
+		height: auto;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.bwCustomContentBlockLeft {
+		display: flex;
+		flex: 0 0 100%;
+		height: 234px;
+	}
+	.bwCustomContentBlockRight {
+		flex: 0 0 100% !important;
+		padding: 25px;
+	}
+	.bwCustomContent h4.customTitle, .bwCustomContent .customDescription, .bwCustomContent .customLocation {
+		text-align: center;
+	}
+}
+
+.bwCustomContentBlockLeft > img {
+	width: 100%;
+	height: 100%;
+}
+
+.bwCustomContent h4.customTitle {
+	font-family: "bodoni-urw", serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-style: italic;
+	letter-spacing: 1.2px;
+	color: #000000;
+	margin: 0 !important;
+}
+
+.bwCustomContent .customDescription {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: "GothamNarrow-Book", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 18px;
+	letter-spacing: 0px;
+}
+
+.bwCustomContent .customLocation {
+	font-family: "GothamNarrow-Medium", sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.3px;
+	color: #000000;
+	font-weight: 400;
+	padding-top: 10px;
+}
+</style>

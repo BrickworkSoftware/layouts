@@ -654,6 +654,7 @@ input, textarea, select {
   margin: 0;
 }
 
+
 input, textarea {
   padding: 8px 15px;
 }
@@ -1067,6 +1068,9 @@ input, textarea {
 .bw-display-layer .bwt-index .bwt-map #bwt-bigmap .default-map-pin {
   content: url("//assets.brickworksoftware.com.s3.amazonaws.com/workspace/Drop%20Pin.png");
 }
+
+
+
 
 .bwt-stores-nearby-store-detail-link .bwt-local-store-map-pin {
   margin: auto;
@@ -1506,11 +1510,22 @@ input, textarea {
   }
   .bw-display-layer .leaflet-popup-content a.bwt-explore-store {
     margin: 0 !important;
-    padding: 5px !important;
     width: 180px !important;
     padding: 12px !important;
     height: 40px !important;
+
+
   }
+
+  .bw-display-layer .leaflet-popup-content a.bwt-explore-store:hover {
+    margin: 0 !important;
+    width: 180px !important;
+    padding: 12px !important;
+    height: 40px !important;
+    font-size: 12px !important;
+  }
+
+  /* Map store locator needs to be not resizing on hover in mobile */
   .bw-display-layer .leaflet-popup-content .bwt-store-location-details-wrapper .bwt-store-address-line,
   .bw-display-layer .leaflet-popup-content .bwt-store-phone-number .bwt-store-phone-number-link .bwt-store-phone-number-link-text,
   .bw-display-layer .leaflet-popup-content .bwt-store-email-link .bwt-store-email-link-text a,
@@ -2092,6 +2107,8 @@ td.bwt-store-hours-table-date-column:after {
   letter-spacing: 1.5px !important;
   line-height: 26px;
   height: 100px;
+  word-break: break-all !important;
+  min-height: 120px !important;
 }
 
 .bw-display-layer .bwt-store-show .bwt-appointment-modal-button-wrapper {
@@ -2203,8 +2220,9 @@ td.bwt-store-hours-table-date-column:after {
     width: 250px !important;
     height: 55px !important;
     margin-right: 23px !important;
-    margin-left: 24px !important;
+    /*margin-left: 24px !important;*/
     margin-top: 180px !important;
+
   }
   .bw-display-layer .bwt-store-show a.brickwork-button {
     margin-top: 0px !important;
@@ -2268,8 +2286,10 @@ td.bwt-store-hours-table-date-column:after {
     margin-top: 82.5px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     min-height: 400px !important;
+    -moz-align-items:center;
+    -webkit-align-items: stretch;
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-image {
     width: 75px !Important;
@@ -2567,6 +2587,13 @@ td.bwt-store-hours-table-date-column:after {
     float: left;
     margin-right: 50px;
     margin-left: 79px;
+
+    /* Iphone media query*/
+    @media only screen 
+      and (-webkit-min-device-pixel-ratio: 3){
+        position:relative;
+        left:100px;
+    }
   }
   .bw-display-layer .bwt-store-show .bwt-store-service-container {
     min-height: 360px !important;
@@ -3033,7 +3060,7 @@ td.bwt-store-hours-table-date-column:after {
      margin-left: 190px;
    }
   .bw-display-layer .bwt-store-show .bwt-store-event-image-wrapper .bwt-store-event-image-container{
-	  margin-bottom: 30px;
+    margin-bottom: 30px;
     width: 420px !important;
     height: 250px !important;
   }
@@ -4366,6 +4393,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
     text-align: center;
     padding: 10px;
     width: 294px;
+    word-break: break-word;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
     width: 250px;
@@ -4696,7 +4724,16 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-iframe-container textarea#appointment_customer_message {
     width: 500px;
     height: 102px;
+    background: #F2F1EF !important;
+    resize: none;
   }
+  .bw-iframe-container textarea#appointment_customer_message:focus {
+    width: 500px;
+    height: 102px;
+    background: #fff !important;
+    resize: none;
+  }
+
   .bw-iframe-container .active .bwt-appt-input-placeholder {
     margin-top: -10px;
     font-size: 10px;
@@ -4943,6 +4980,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
     padding: 10px;
     width: 294px;
     height: 104px;
+    word-break: break-word;
   }
   .bw-iframe-container .bw-appointment-services .bwt-appointment-modal-button-wrapper .appointment_link {
     width: 250px;
@@ -5316,6 +5354,14 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-iframe-container textarea#appointment_customer_message {
     width: 500px;
     height: 102px;
+    background: #F2F1EF !important;
+    resize: none;
+  }
+  .bw-iframe-container  textarea#appointment_customer_message:focus {
+    width: 500px;
+    height: 102px;
+    background: #fff !important;
+    resize: none;
   }
   .bw-iframe-container .active .bwt-appt-input-placeholder {
     margin-top: -10px;
@@ -5523,7 +5569,7 @@ a.ui-datepicker-next.ui-corner-all:hover {
   .bw-iframe-container .appointment-enterinfo-container #questions-wrapper .radio {
     margin-left: 3%;
   }
-	/*Nik Go-Live Edits */
+  /*Nik Go-Live Edits */
   .bw-display-layer .bwt-index .bwt-index-header-container .international {
     text-align: center !important;
   }

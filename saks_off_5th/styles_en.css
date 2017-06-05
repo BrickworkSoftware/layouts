@@ -1859,3 +1859,8 @@ body .bw-display-layer-container {
 }
 
 .header-nav-flyout {display: none !important; }
+
+/*Show More Button*/
+.bw-display-layer .bwt-index .bwt-pagination-container {
+   margin: 10rem 0 5rem 0 !important;
+}

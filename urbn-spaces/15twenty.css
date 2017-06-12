@@ -100,11 +100,3 @@
    border: solid 1px #222222;
    transition: all 0s !important;
 }
-
-/*HIDE BLOG*/
-  .bw-display-layer .bwt-store-blog-index-link {
-    display: none !important;
-  }
-.bwt-local-nav-blog-link {
-	display: none !important;
-}

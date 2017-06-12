@@ -63,27 +63,8 @@
 .bw-display-layer h3,
 .bw-display-layer h4,
 .bw-display-layer h5,
-.bw-display-layer h6,
-.bw-display-layer .store-detail-name {
+.bw-display-layer h6 {
   text-transform: lowercase;
-}
-
-.bwt-store-address-line,
-.bwt-event-date,
-.bwt-local-link,
-.bwt-event-index .pagination,
-.bwt-index-header .bwt-index-main-title,
-.bwt-pagination-container .bwt-pagination,
-.bw-call-to-action,
-.bwt-index-filters-expand-button,
-.bwt-index-search-results-map-button {
-  text-transform: uppercase;
-}
-
-.bwt-upcoming-event .bwt-event-text {
-  text-transform: lowercase;
-  font-family: serif;
-  font-style: italic;
 }
 
 .bw-display-layer #appointment-confirmation,
@@ -227,8 +208,7 @@
   content: url("//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/images/ksny_pin.png") !important;
 }
 
-.row .bw-display-layer .promo-message .call-to-action,
-.row .bw-display-layer .book-appointment-button {
+.row .bw-display-layer .promo-message .call-to-action, .row .bw-display-layer .book-appointment-button {
   display: block;
 }
 
@@ -240,70 +220,83 @@
   margin: 30px 0px;
 }
 
-.bw-display-layer .book-appointment-button:not(:empty):after {
-  display: block;
-}
-
-.bw-display-layer .promo-message .call-to-action {
-  margin: 1px !important;
-}
-
-.bw-display-layer .bwt-filters-features-title {
-  border-bottom: 0.5px solid #aaa;
-  padding: 10px 0 ;
-  margin: 20px 0;
-}
-
-.bw-display-layer .bwt-filters {
-  margin: 20px 0;
-}
-
-.bwt-index .bwt-store-info-and-action .bwt-store-email {
-  display: none;
-}
-
-.bw-display-layer .bwt-store-info-and-action .bwt-store-actions {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.bw-display-layer .bwt-store-info-and-action .bwt-store-actions .bwt-index-store-body-details-explore-link .bwt-store-link {
-  float: right;
-}
-
-@media only screen and (min-width: 32.063em) {
-  .bw-display-layer .bwt-store-list li:first-child > .store-info {
-    border: #000 solid 3px;
-  }
-
-  .bw-display-layer .bwt-store-list li:first-child > .store-info .nearest-store {
-    text-align: center;
-    text-transform: uppercase;
-  }
-}
-
-.bw-display-layer .bwt-filters-features-list .bwt-filter-features-list-item {
-  padding: 15px 10px !important;
-}
-
-.bw-display-layer .bwt-index-search-form .bwt-index-search-form-wrap {
-  padding: 0 65px 0 45px;
-}
-
 @media screen and (max-width: 480px) {
   .row #appointment-container .day-date-column .dayname_only {
     font-size: 9px !important;
   }
 }
 
-.bw-display-layer .promo-message .bwt-hide-on-mobile,
-.bwt-index-search-container .promo-message .bwt-hide-on-mobile,
-.bwt-index-search-container .promo-message .international,
-.bwt-index-search-form-location-button {
+.bw-display-layer .promo-message .bwt-hide-on-mobile, .bwt-index-search-container .promo-message .bwt-hide-on-mobile {
   display: block !important;
 }
 
 .bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature h4 {
   padding: 0;
+}
+
+.bwt-index-search-form-location-button {
+  display: block;
+}
+.bw-display-layer .bwt-store-featured-associate-name {
+    font-family: NewBaskervilleITCbyBT-Roman !important;
+    font-size: 24px !important;
+    letter-spacing: 0.75px;
+    line-height: 30px !important;
+    opacity: 1;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: #231F20;
+    word-break: break-all;
+    text-transform: lowercase;
+}
+
+
+/* Appointment Modal Store Muses */
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a{
+  border:1px none !important;
+}
+
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li img{
+  border: 3px solid black;
+  padding: 3%;
+  height: 256px !important;
+  width: 256px !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info {
+  background: #fff !important;
+  color: #000 !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info *{
+  background: #fff !important;
+  color: #000 !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6{
+  font-family: NewBaskervilleITCbyBT-Roman;
+  font-size: 24px;
+  color: #231F20;
+  letter-spacing: 0.75px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6::before{
+  content: '_';
+  position: relative;
+  bottom: 8px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p{
+  font-family: KateSans-Regular !important;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 1.3px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p::before{
+  content: 'Specializes in:';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
+  display: block;
+  line-height: 15px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-contenthover {
+  display: none;
 }

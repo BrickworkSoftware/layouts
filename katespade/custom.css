@@ -300,3 +300,13 @@
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-contenthover {
   display: none;
 }
+.bw-display-layer .book-appointment-button:not(:empty):hover {
+  background: #48a642 !important;
+  border-color: #48a642 !important;
+  color: #fff !important;
+}
+.bw-display-layer .bwt-pagination-container .bwt-pagination:hover {
+  background: #48a642 !important;
+  border-color: #48a642 !important;
+  color: #fff !important;
+}

@@ -310,3 +310,11 @@
   border-color: #48a642 !important;
   color: #fff !important;
 }
+.bw-display-layer .bwt-pagination-container .bwt-pagination {
+  color: #fff !important;
+  background: #000 !important;
+  font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.1rem !important;
+  font-size: 0.875rem !important;
+  padding: 10px 30px !important;
+}

@@ -318,3 +318,9 @@
   font-size: 0.875rem !important;
   padding: 10px 30px !important;
 }
+.bw-display-layer .bwt-store-show .bwt-store-event-description {
+	font-size: .9rem !important;
+}
+.bw-display-layer .bwt-events-main .bwt-event-details-container {
+	padding-bottom: 15px !important;
+}

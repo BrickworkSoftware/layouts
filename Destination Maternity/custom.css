@@ -1,5 +1,5 @@
-  
-.pt_storefront div {
+
+  .pt_storefront div {
     box-sizing: initial;
   }
   @media only screen and (max-width: 767px) {
@@ -103,6 +103,7 @@
     font-family: 'Lato', sans-serif !important;
     color: #222222;
     letter-spacing: 0.21px;
+    margin-bottom: 27px;
   }
   .appointment-rsvp-container h1,
   .appointment-rsvp-container h2 {
@@ -330,6 +331,7 @@ textarea {
   display: inline-table !important;
   font-size: 15px;
   vertical-align: top;
+  line-height: 18px;
 }
 .appointment-rsvp-container .store-container .address table:first-of-type::before {
   content: 'Hours';
@@ -419,7 +421,7 @@ width: 85%;
 .bw-appointment-service-link::after {
   content: 'Request An Appointment';
   border: 1px solid black;
-  display: inline-block;
+  display: none;
   margin: 0 auto;
   font-family: 'Lato';
   padding: 7%;

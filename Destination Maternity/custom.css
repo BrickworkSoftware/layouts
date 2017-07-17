@@ -1269,3 +1269,34 @@ fieldset {
   border-bottom: 1px none;
   border-top: 1px none;
 }
+
+.appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+  font-family: 'Lato';
+  font-weight: normal;
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+}
+
+@media (min-width: 560px) {
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0.25px;
+    line-height: 18px;
+  }
+}
+
+@media (min-width: 300px) {
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0.25px;
+    line-height: 18px;
+  }
+}

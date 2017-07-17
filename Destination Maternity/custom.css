@@ -1300,3 +1300,7 @@ fieldset {
     line-height: 18px;
   }
 }
+
+.bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
+    color: #333;
+  }

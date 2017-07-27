@@ -3,6 +3,11 @@ td {
 padding: 0 !important
 }
 
+
+
+
+
+
   .pt_storefront div {
     box-sizing: initial;
   }
@@ -567,25 +572,37 @@ font-weight: normal;
 .bwt-appointment-cancel::before {
  content: 'Your Upcoming Appointment';
  display: inline-block;
- border-bottom: 1px solid #ccc;
+ border-bottom: 1px solid #e3e3e3;
  font-family: 'Lato';
+ font-weight: bold;
  font-size: 24px;
  color: #333;
  text-transform: uppercase;
  letter-spacing: 0.5px;
- margin-top: 3%;
- padding-bottom: 3%;
+ margin-top: 50px;
+ padding-bottom: 19.5px;
  width: 100%;
 }
 .bwt-appointment-cancel p {
- padding: 0 !important;
  font-family: 'Lato';
+ margin-bottom: 30px;
+ margin-left: 15px;
 }
 .bwt-appointment-cancel hr {
+ display: none;
  visibility: hidden;
 }
 .bwt-appointment-cancel * {
   font-family: 'Lato' !important;
+}
+.bwt-appointment-cancel h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 0.21px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 15px;
 }
 .bwt-appointment-cancel p > b {
   font-size: 16px;
@@ -594,14 +611,15 @@ font-weight: normal;
 }
 .bwt-cancel-store-appointment {
  
-       width: 40%;
+    width: 40%;
     height: 60px;
     padding: 3%;
     background: #411B63;
     color: white;
     cursor: pointer;
     font-family: 'lato';
-    margin-bottom: 3%;
+    margin-bottom: 50px;
+    margin-left: 15px;
     line-height: 20px;
     text-align: center;
     padding: 1.2rem 0;
@@ -609,6 +627,11 @@ font-weight: normal;
 .bwt-cancel-store-appointment a {
  color: white;
  font-size: 14px;
+ letter-spacing: 0;
+ text-transform: uppercase;
+}
+.bwt-cancel-store-appointment a:hover {
+  color: white;
 }
 
 /* Small Devices */
@@ -1216,7 +1239,7 @@ font-weight: normal;
   }
   .bwt-appointment-cancel, .bwt-cancel-rsvp-only {
     width: 50%;
-    margin: 0 25%;
+    margin: 0 25% 50px;
   }
 }
 
@@ -1475,3 +1498,6 @@ font-weight: normal;
   color: #333333;
   letter-spacing: 0.21px;
 }
+
+/*Hide header banner*/
+.header-banner, .header-banner-bottom { display: none !important; }

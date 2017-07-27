@@ -3,11 +3,6 @@ td {
 padding: 0 !important
 }
 
-
-
-
-
-
   .pt_storefront div {
     box-sizing: initial;
   }
@@ -106,13 +101,21 @@ padding: 0 !important
   }
   .appointment-rsvp-container #appointment-confirmation .confirmation_title{
     font-family: 'Lato';
+    font-weight: bold;
     font-size: 24px;
+    color: #333333;
+    letter-spacing: 0.5px;
   }
   .search_header .date_selection_container .date_selector:hover,
   .search_header .date_selection_container .date_selector.selected,
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
   .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit {
     background: #411B63 !important;
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0.21px;
   }
   .search_header .date_selection_container {
     background: none !important;
@@ -174,7 +177,7 @@ padding: 0 !important
   }
   .appointment-rsvp-container h1,
   .appointment-rsvp-container h2 {
-    border-bottom: 1px solid #ccc !important;
+    border-bottom: 1px solid #e3e3e3 !important;
     text-align: left !important;
     font-family: 'Lato', sans-serif !important;
     font-weight: bold !important;
@@ -335,12 +338,15 @@ padding: 0 !important
     font-weight: 200;
    
   }
-  .appointment-rsvp-container .store-container .address table .fa.fa-mobile {
+  .appointment-rsvp-container .store-container .address table:last-of-type td:first-of-type .fa.fa-mobile {
     font-family: FontAwesome !important;
     font-size: 15px !important;
     display: none;
+    
   }
-
+  .appointment-rsvp-container .store-container .address table:last-of-type td:first-of-type{ 
+   display: none !important;
+}
   .appointment-rsvp-container .store-container .address table .phone {
     font-size: 15px;
     
@@ -490,7 +496,7 @@ width: 85%;
 }
 
 .appointment-rsvp-container #appointment-options #appointment_date  {
-  margin-left: 41%;
+  margin-left: 39%;
 }
 
 .appointment-rsvp-container .store-container .address table tr td:first-of-type::after {
@@ -530,12 +536,13 @@ font-weight: normal;
 .appointment-rsvp-container .appointment-enterinfo-container form::before {
   content: 'Your Details';
   display: inline-block;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #e3e3e3;
   font-family: 'Lato';
+  font-weight: bold;
   font-size: 24px;
   color: #333333;
   letter-spacing: 0.5px;
-
+  text-transform: uppercase;
 }
 
 .bwt-cancel-rsvp-only::before {
@@ -616,7 +623,7 @@ font-weight: normal;
 
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
     font-size: 20px !important;
-    margin-top: 30px !important;
+    margin-top: 40px !important;
     border-bottom: 3px solid #e3e3e3;
     padding-bottom: 4%;
   }
@@ -832,9 +839,6 @@ font-weight: normal;
     .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:15%;
   }
-  .appointment-rsvp-container .store-container .address table .phone {
-    margin-left: -5%;
-  }
   /* Choose Date */
   .appointment-rsvp-container #appointment-options #mobile_date_select {
     width: 150px;
@@ -904,8 +908,8 @@ font-weight: normal;
       /* Choose services */
 
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
-    font-size: 20px !important;
-    margin-top: 30px !important;
+    font-size: 24px !important;
+    margin-top: 20px !important;
     border-bottom: 3px solid #e3e3e3;
     padding-bottom: 4%;
   }
@@ -1133,12 +1137,12 @@ font-weight: normal;
     display: none;
   }
   .appointment-rsvp-container #appointment-options #appointment_date {
-    width: 160px;
-    margin-left: 41%;
+    width: 250px;
+    margin-left: 39%;
     float: none !important;
     border: 1px solid #E3E3E3;
     border-radius: 3px;
-    margin-bottom: 4%;
+    margin-bottom: 40px;
   }
   .appointment-rsvp-container #appointment-options #mobile_date_select #inner-editor {
     font-family: 'Lato';
@@ -1195,7 +1199,7 @@ font-weight: normal;
   }
   .appointment-rsvp-container #appointment-confirmation {
     width: 50%;
-    margin: 20px 25%;
+    margin-left: 100px;
     text-align:left;
   }
   .appointment-rsvp-container #appointment-confirmation .details {
@@ -1254,7 +1258,7 @@ font-weight: normal;
     margin-top:20%;
   }
   .appointment-rsvp-container #appointment-options #appointment_date {
-    margin-left: 43% ;
+    margin-left: 39% ;
   }
   .bwt-cancel-rsvp-only {
     text-align: left;
@@ -1321,6 +1325,7 @@ font-weight: normal;
   } 
   .appointment-rsvp-container .store-container .address table td {
     margin-top: 0%;
+    line-height: 18px;
   }
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
     font-size: 20px;
@@ -1423,6 +1428,11 @@ font-weight: normal;
     }
   }
   .bwt-appt-input-placeholder{
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 12px;
+    color: #666666;
+    letter-spacing: 0.5px;
     text-transform: capitalize;
   }
   .bwt-appt-name-field label {
@@ -1439,4 +1449,29 @@ font-weight: normal;
 
 .appointment-rsvp-container input[type="text"], .appointment-rsvp-container input[type="email"], .appointment-rsvp-container input[type="date"], .appointment-rsvp-container input[type="tel"], .appointment-rsvp-container textarea {
   font-size: 12px;
+}
+
+.appointment-rsvp-container #select-appointment-time #appointment_date {
+  margin-top: 20.5px;
+}
+
+.appointment-rsvp-container #appointment-confirmation .details {
+  width: 120%;
+  font-family: 'Lato';
+  font-size: 12px;
+  color: #666666;
+  letter-spacing: 0.25px;
+  line-height: 18px;
+  text-transform: none !important;
+  padding-top: 0;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .disabled.segment_header .num_available {
+  color: #e3e3e3;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link {
+  font-size: 12px;
+  color: #333333;
+  letter-spacing: 0.21px;
 }

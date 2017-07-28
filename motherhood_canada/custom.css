@@ -1,12 +1,18 @@
   
 td {
-padding: 0 !important
+padding: 0 !important;
 }
 
+@media (max-width: 767px) {
+  div[class^='Grid_row']:first-of-type{
+    display: block !important;
+  }
 
-
-
-
+  div[class^='SearchHero_title_']{
+    display: block !important;
+    margin: 45px 0 20px 0 !important;
+  }
+}
 
   .pt_storefront div {
     box-sizing: initial;

@@ -1,3 +1,5 @@
+<style>
+
   
 td {
 padding: 0 !important;
@@ -1439,7 +1441,7 @@ font-weight: normal;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/DMAT/Email+Footer+Asset_PLACEHOLDER.jpg);
+    background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/Motherhood+Canada/maternity-locator-footer-coupons-mhcanada-2017.png);
   }
   .footer-col-1 {
     padding-top: 15px !important;
@@ -1507,3 +1509,4 @@ font-weight: normal;
 
 /*Hide header banner*/
 .header-banner, .header-banner-bottom { display: none !important; }
+</style>

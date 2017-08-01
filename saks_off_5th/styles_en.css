@@ -71,6 +71,9 @@ a#bwt-rsvp-button:active span.bwt-event-details-signup-button-copy {
   color: #D51B5D !important;
 }
 
+.bw-display-layer .bwt-store-map-link {
+  min-width: 319px;
+} 
 
 .bwt-index-search-form-submit:active span.bwt-index-search-form-submit-text,
 .bwt-index-search-form-submit:hover span.bwt-index-search-form-submit-text,

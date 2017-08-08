@@ -190,7 +190,26 @@
 .bwt-store-map-button-mobile {
   font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
 }
+#appointment-container ul.associates-grid li .associate-info div:first-of-type {
+  padding: 4% !important;
+  margin: 36px auto !important;
+}
+#appointment-container ul.associates-grid li .associate-info div:first-of-type:hover {
+  background:#48a642;
+  border-color: #48a642;
+  color: #fff;
+}
+@media(max-width:320px){
+  .associates_cointainer .associate_label {
+  margin-left: -17px;
+}
+}
+@media (max-width:490px){
+  #appointment-container ul.associates-grid li .associate-info div:first-of-type {
+  padding: 3% !important;
 
+}
+}
 .bwt-filters-features-title {
   font-family: 'FuturaPT-Heavy', sans-serif !important;
 }
@@ -267,10 +286,7 @@
   background: #fff !important;
   color: #000 !important;
 }
-.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info *{
-  background: #fff !important;
-  color: #000 !important;
-}
+
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6{
   font-family: NewBaskervilleITCbyBT-Roman;
   font-size: 24px;
@@ -283,10 +299,11 @@
   bottom: 8px;
 }
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p{
-  font-family: KateSans-Regular !important;
+  font-family: NewBaskervilleITCbyBT-Roman !important;
   font-size: 13px;
   color: #000000;
   letter-spacing: 1.3px;
+  min-height: 55px;
 }
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p::before{
   content: 'Specializes in:';
@@ -318,9 +335,111 @@
   font-size: 0.875rem !important;
   padding: 10px 30px !important;
 }
+/* Event Adjustments */
 .bw-display-layer .bwt-store-show .bwt-store-event-description {
-	font-size: .9rem !important;
+  font-size: .9rem !important;
 }
 .bw-display-layer .bwt-events-main .bwt-event-details-container {
-	padding-bottom: 15px !important;
+  padding-bottom: 15px !important;
 }
+/* Store Feature Spacing */
+.bw-display-layer .bwt-store-show .bwt-store-feature {
+  width: 20% !important;
+}
+/* Store Index Image */
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
+  display: none !important;
+}
+
+label {
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif !important;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #ccc;
+  text-transform: lowercase;
+}
+
+div.checkboxes span.checkbox input.check_boxes {opacity: 0;}
+
+div.checkboxes span.checkbox input.check_boxes::before {
+  padding: 0px 10px 10px 30px;
+  cursor: pointer;
+  background: url(//uat.brickworksoftware.com/chicos/unchecked.png) no-repeat;
+  background-size: 13px
+}
+
+select {
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif !important;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: #ccc;
+  background-color: #fff;
+  text-transform: lowercase;
+}
+
+select:hover {
+  background-color: #fff;
+}
+
+#questions-wrapper select {
+  padding: 15px;
+}
+
+ #appointment-container #enter-contact-info label {
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 0;
+    margin: 0 0;
+    text-transform: uppercase;
+  }
+
+#appointment-container #enter-contact-info input[type="checkbox"]:not(:checked),
+#appointment-container #enter-contact-info  input[type="checkbox"]:checked {
+    position: absolute !important;
+    left: -9999px;
+  }
+
+  // checkbox aspect
+
+#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::before,
+#appointment-container #enter-contact-info [type="checkbox"]:checked + label::before {
+    content: '';
+    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/david_yurman/icons/store_filter_unchecked_box.svg") no-repeat;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+  }
+
+  // checked mark aspect
+#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::after,
+#appointment-container #enter-contact-info [type="checkbox"]:checked + label::after {
+    content: '';
+    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/david_yurman/icons/store_filter_checked_box.svg") no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 2px; left: 0px;
+    width: 14px; height: 14px;
+  }
+
+#appointment-container #enter-contact-info input[type="checkbox"]:not(:checked) + label,
+#appointment-container #enter-contact-info input[type="checkbox"]:checked + label {
+    position: relative;
+    display: block;
+    padding: 5px 0px 0px 25px;
+    cursor: pointer;
+  }
+
+  // checked mark aspect changes
+#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::after {
+    opacity: 0;
+    transform: scale(0);
+  }
+
+#appointment-container #enter-contact-info [type="checkbox"]:checked + label::after {
+    opacity: 1;
+    transform: scale(1);
+  }

@@ -443,3 +443,7 @@ select:hover {
     opacity: 1;
     transform: scale(1);
   }
+/* Store Feature Spacing */
+.bw-display-layer .bwt-store-show .bwt-store-feature {
+  width: 20% !important;
+}

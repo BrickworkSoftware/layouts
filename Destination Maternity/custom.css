@@ -1,11 +1,18 @@
-<style>
- td {
-  padding: 0 !important;
+  
+td {
+padding: 0 !important;
 }
-  .row {
-    margin-left: auto !important;
-    margin-right: auto !important;
+
+@media (max-width: 767px) {
+  div[class^='Grid_row']:first-of-type{
+    display: block !important;
   }
+
+  div[class^='SearchHero_title_']{
+    display: block !important;
+    margin: 45px 0 20px 0 !important;
+  }
+}
 
   .pt_storefront div {
     box-sizing: initial;
@@ -15,23 +22,32 @@
       float: right;
       position: relative;
       right: 18px;
+      
     }
     nav[role=navigation] {
       background: #fff;
       z-index: 10;
     }
+    .footer-container .footer-item.footer-col-2 .footer-connect {
+      padding: 0 1em 3em;
+    }
   }
+
+  #events .slide-wrapper {
+    min-height: 420px;
+  }
+
   @media only screen and (min-width: 767px) {
     nav[role=navigation] {
       background: #FFF !important;
       z-index: 9999 !important;
     }
   }
-  #enter-contact-info .bwt-appt-button-wrapper {
-    text-align: left;
-  }
   /* FIREFOX SPECIFIC STYLINGS ONLY */
-  
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
   @-moz-document url-prefix() {
     .appointment-rsvp-container .store-container .store-name h1 {
       word-break: break-all;
@@ -40,9 +56,6 @@
       transform: scale(2);
       color: #666;
       top: -2px;
-    }
-    .appointment-rsvp-container #appointment-options .month {
-      margin-bottom:  4%;
     }
   }
   @media screen and (-ms-high-contrast: active),
@@ -53,23 +66,82 @@
     display: none !important;
   }
   /* Global settings */
+  fieldset {
+    border: 1px none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  fieldset input[type="text"] {
+    box-shadow: none !important;
+    height: 2.75rem !important;
+  }
+  fieldset #placeholder, ::-webkit-input-placeholder {
+    font-family: 'Lato' !important;
+  }
+  fieldset button[type='submit']{
+    line-height: 2.5rem !important;
+  }
+  .ulitity-mobile {
+    overflow: hidden;
+  }
   
+  .utility-mobile form fieldset input[type="text"] {
+    box-shadow: none !important;
+    height: 1.75rem !important;
+    }
+   .utility-mobile form  fieldset button[type='submit']{
+    line-height: 1.5rem !important;
+    }
+  
+  #enter-contact-info .bwt-appt-button-wrapper {
+    text-align: left;
+  }
   img {
     color: rgba(0, 0, 0, 0);
   }
   .bw-appointment-header-close {
     opacity: 0;
   }
+  div[class*='row'] .large-9.columns:first-of-type {
+    width: 100%;
+  }
+   div[class*='row'] .large-9.columns:first-of-type .title h1 {
+    margin-left: 0 !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+   }
+  
   .bw-appointment-header-column::before {
-    zoom: 2.5;
+    
     color: #666;
-    top: -2px;
+    top: -11px !important;
+    left: 0px !important;
+  }
+  .bw-iframe-container .bw-appointment-step-container-title:after,
+  .bw-iframe-container .appointment-rsvp-container .title h1:after,
+  .bw-iframe-container .choose_time_text:after{
+    display: none !important;
+  }
+  .appointment-rsvp-container #appointment-confirmation .details{
+    color: #666;
+  }
+  .appointment-rsvp-container #appointment-confirmation .confirmation_title{
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    letter-spacing: 0.5px;
   }
   .search_header .date_selection_container .date_selector:hover,
   .search_header .date_selection_container .date_selector.selected,
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover,
   .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit {
     background: #277EAF !important;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 0;
+    border: none;
   }
   .search_header .date_selection_container {
     background: none !important;
@@ -84,8 +156,9 @@
     text-align: center;
   }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
-    background: #277EAF;
+    background:  #277EAF;
     color: #FFFFFF;
+    font-size: 14px;
   }
   .appointment-rsvp-container .store-container .store-name .ribbon-banner {
     display: none;
@@ -100,34 +173,49 @@
   .bw-appointment-header-column.selected {
     text-align: center;
   }
-  .bw-appointment-header-column.selected {
+  .appointment-rsvp-container .store-container .address table {
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+  .bw-appointment-header-column.selected span {
     font-family: 'Lato', sans-serif;
-    font-size: 12px;
-    font-weight: ;
-    color: #333333;
+    font-size: 15px;
+    font-weight: bold !important;
     letter-spacing: 0.25px;
     line-height: 27px !important;
     font-weight: 700;
   }
+  .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+
+ font-size: 12px;
+ color: #666;
+ line-height: 18px;
+ font-weight: normal;
+ letter-spacing: 0.25px;
+}
   .bw-appointment-service-link {
     padding: 15px;
+    width: 90% !important;
   }
   .bw-appointment-service-link-name {
     text-align: left;
     font-family: 'Lato', sans-serif !important;
-    color: #222222;
-    letter-spacing: 0.21px;
-    margin-bottom: 27px;
+    color: #222222 !important;
+    letter-spacing: 0.21px !important;
+    width: 100% !important;
   }
-  .appointment-rsvp-container h1,
-  .appointment-rsvp-container h2 {
-    border-bottom: 1px solid #e3e3e3 !important;
+  .appointment-rsvp-container h1 {
+    border-bottom: 1px solid #e3e3e3 ;
     text-align: left !important;
     font-family: 'PlayfairDisplay', serif !important;
+    font-weight: normal !important;
     font-style: italic !important;
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+    color: #333333 !important;
     letter-spacing: 0.25px !important;
-    padding-bottom: 19.5px !important;
-    text-transform: none;
+    padding-bottom: 20px !important;
+    margin-top: 45px !important;
   }
   .appointment-rsvp-container .store-container .store-name h1 {
     font-family: 'Lato', sans-serif !important;
@@ -138,48 +226,40 @@
     font-weight: 700 !important;
     letter-spacing: 0.21px !important;
     margin-bottom: 0% !important;
-    font-style: normal !important;
   }
   .bw-appointment-service-link .bw-appointment-service-link-description {
-    font-size: 12px;
-    font-family: GothamNarrow-Book, sans-serif;
+    font-size: 12px !important;
+    font-family: GothamNarrow-Book, sans-serif !important;
     font-style: normal !important;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 18px;
     text-align: left;
+    max-width: 100% !important;
   }
   /* Global --- Stores */
-  
-  .appointment-rsvp-container .store-container .bw-appointment-store-address::before {
-    content: 'Location';
-    color: black !important;
-    font-size: 12px;
-    font-weight: bold;
-    display: inline-block;
-    width: 60%;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    margin-bottom: 1%;
+.bwt-store-header-title{
+    border: 1px none !important;
   }
-  .appointment-rsvp-container .store-container .bw-appointment-store-address table:first-of-type::before {
-    content: 'Hours';
-    color: black !important;
-    font-size: 12px;
-    font-weight: bold;
-    display: inline-block;
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-    margin-bottom: 0%;
+  .bwt-store-header-title a {
+    font-size: 20px !important;
+    color: #222 !important;
+    letter-spacing: 0.21px !important;
+    font-weight: bold !important;
   }
-  .appointment-rsvp-container .store-container .bw-appointment-store-address table:last-of-type::before {
-    content: 'Contact';
-    color: black !important;
-    font-size: 12px;
+ 
+  .bw-appointment-store-address .store_miles_away, .bw-appointment-store-address .store_open_hours {
+    display: none !important;
+  }
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
+    font-family:'Lato';
+  }
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available {
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
-    display: inline-block;
+    color: #333;
     text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.21px;
   }
   .appointment-rsvp-container .store-container * {
     text-align: left;
@@ -199,7 +279,7 @@
     word-break: break-word;
     font-weight: 700 !important;
     letter-spacing: 0.21px !important;
-    margin-top: 7% !important;
+    
   }
   .local-stores {
     display: block !important;
@@ -213,7 +293,7 @@
       margin-bottom: 12%;
     }
   }
-  .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
+  .large-3.hide-for-small-down.columns::after {
     content: 'More stores nearby';
     display: block;
     text-transform: uppercase;
@@ -229,6 +309,7 @@
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 3%;
     width: 85%;
+    margin-top:10%;
   }
   .appointment-rsvp-container .local-stores .search {
     border-color: rgba(0, 0, 0, 0);
@@ -254,7 +335,9 @@
     text-align: left !important;
   }
   /* Date Selection - Global Settings */
-  
+  .bw-iframe-container .choose_time_text {
+    margin-left: 0 !important;
+  }
   .appointment-rsvp-container .store-container .bw-appointment-store-address hr {
     display: none;
   }
@@ -265,22 +348,28 @@
   .appointment-rsvp-container .store-container .bw-appointment-store-address h4,
   .appointment-rsvp-container .store-container .bw-appointment-store-address h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 12px !important;
+    font-size: 12px ;
     color: #666666;
     letter-spacing: 0.25px;
-    line-height: 18px;
+    
     font-weight: 200;
-    margin-top: 0.5%;
+   
   }
-  .appointment-rsvp-container .store-container .address table:last-of-type tbody tr > td:first-of-type {
-  display: none !important;
+  .bw-iframe-container .day_segment img {
+    display: block !important;
+    height: 24px;
+    width: 24px;
+    margin: 0px auto 10px;
   }
-  .appointment-rsvp-container .store-container .address table .fa.fa-mobile {
+  .appointment-rsvp-container .store-container .address table:last-of-type td:first-of-type .fa.fa-mobile {
     font-family: FontAwesome !important;
     font-size: 15px !important;
     display: none;
+    
   }
-
+  .appointment-rsvp-container .store-container .address table:last-of-type td:first-of-type{ 
+   display: none !important;
+}
   .appointment-rsvp-container .store-container .address table .phone {
     font-size: 15px;
     
@@ -294,6 +383,7 @@
   .search_header .date_selection_container .date_selector .dayname_only {
     font-size: 20px;
     font-weight: 700;
+    font-family: 'Lato';
   }
   /*Vendor settings */
   
@@ -316,11 +406,15 @@ textarea {
 .bw-appointment-service-link {
   text-align: left;
 }
+.bw-appointment-service-link-duration {
+  visibility: hidden;
+}
 .bw-appointment-service-link-name, .bw-appointment-step-container-title, .appointment-rsvp-container .title h1 {
-  text-transform: capitalize;
-  color: #222;
-  letter-spacing: 0.21px;
-    
+  font-family: 'Lato' !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: #222 !important;
+  letter-spacing: 0.21px !important;
 }
 .appointment-rsvp-container .store-container {
   border: 1px none !important;
@@ -330,9 +424,6 @@ textarea {
 }
 .appointment-rsvp-container .store-container .store-name h1 {
   text-align: left; 
-}
-.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link{
-  color: #333 !important;
 }
 /*.appointment-rsvp-container .store-container .address h4:first-of-type::before {
   content: 'Location';
@@ -345,33 +436,35 @@ textarea {
   width: 100%;
   margin-bottom: 4%;
 }*/
+.bwt-index-store-title-container h4,.bwt-index-store-primary-container h4, .bw-appointment-store-address h4 {
+  font-size: 12px !important;
+  color: #333333 !important;
+  letter-spacing: 0.21px !important;
+  line-height: 12px !important;
+  font-weight: bold !important;
+}
+.bw-appointment-store-address div.medium-7 {
+  margin-top:6% !important;
+}
+.bw-appointment-store-address div.medium-12 {
+  margin-bottom:5% !important;
+} 
 .appointment-rsvp-container .store-container .store-name .ribbon-banner, .appointment-rsvp-container .store-container .address hr {
   display: none;
 }
+.bw-iframe-container .appointment-rsvp-container .store-container .address td {
+  width: auto !important;
+}
 .appointment-rsvp-container .store-container .address table td {
-  display: inline-table !important;
+  display: inline-block!important;
   font-size: 15px;
   vertical-align: top;
-  line-height: 18px;
 }
-.appointment-rsvp-container .store-container .address table:first-of-type::before {
-  content: 'Hours';
-  font-family:'Lato';
-  font-size: 12px;
-  letter-spacing: 1px;
-  line-height: 12px;
-  color: #4A4A4A;
-  margin-bottom: 0%;
+
+.appointment-rsvp-container .store-container .address table:first-of-type tbody tr:first-of-type {
+  display: none;
 }
-.appointment-rsvp-container .store-container .address table:last-of-type::before {
-  content:'Contact';
-  font-family: 'Lato';
-  font-size: 12px;
-  letter-spacing: 1px;
-  line-height: 12px;
-  color: #4a4a4a;
-  margin-bottom: 1%;
-}
+
 .appointment-rsvp-container .local-stores .search {
   border: 1px none !important;
 }
@@ -385,6 +478,7 @@ textarea {
 
 .bwt-store-call-field label, .bwt-rsvp-first-name-field label, .bwt-rsvp-last-name-field label, .bwt-rsvp-email-field label, .bwt-email-opt-field label, .bwt-appt-name-field label, .bwt-appt-email-field label, .bwt-appt-message-field label{
   font-family: 'Lato' !important;
+  text-transform: capitalize;
 }
 
 .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
@@ -427,10 +521,13 @@ width: 85%;
   content: ':';
 }
 
-/*.appointment-rsvp-container #appointment-options #appointment_date  {
-  margin-left: 41%;
-}*/
-
+.bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date   {
+  margin: 3% auto 0% !important;
+}
+.bw-iframe-container .choose_time_text {
+  padding-bottom: 20px;
+  border-bottom:1px solid #e3e3e3;
+}
 .appointment-rsvp-container .store-container .address table tr td:first-of-type::after {
   content: ':';
 }
@@ -438,10 +535,7 @@ width: 85%;
     color: rgba(0,0,0,0);
   }
 
-.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header.disabled .num_available {
-    color: #666 !important;
-    font-weight: 400 !important;
-  }
+
 .bw-appointment-service-link::after {
   content: 'Request An Appointment';
   border: 1px solid black;
@@ -473,102 +567,161 @@ font-weight: normal;
   display: inline-block;
   border-bottom: 1px solid #e3e3e3;
   font-family: 'PlayfairDisplay', serif;
+  font-style: italic;
+  font-weight: normal;
   font-size: 20px;
   color: #333333;
   letter-spacing: 0.42px;
-  font-style: italic;
-  padding-bottom: 30px;
 }
 
 .bwt-cancel-rsvp-only::before {
   content: 'Your Upcoming Event';
   display: inline-block;
-  border-bottom: 1px solid #e3e3e3;
-  font-family: 'PlayfairDisplay', serif;
-  font-size: 20px;
-  color: #333333;
-  text-transform: capitalize;
-  letter-spacing: 0.25px;
-  margin-top: 60px;
-  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  font-family: 'Lato';
+  font-size: 24px;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 3%;
+  padding-bottom: 3%;
 }
 .bwt-cancel-rsvp-only {
   padding: 0 !important;
 }
+.bwt-cancel-rsvp-only p {
+  margin: 2rem 0;
+}
+
 .bwt-appointment-cancel::before {
  content: 'Your Upcoming Appointment';
  display: inline-block;
  border-bottom: 1px solid #e3e3e3;
- font-family: 'PlayfairDisplay', serif;
- font-style: italic;
- font-size: 20px;
- color: #333333;
- text-transform: capitalize;
- letter-spacing: 0.25px;
- margin-top: 60px;
- padding-bottom: 20px;
- width: 100%;
-}
-.bwt-appointment-cancel h2 {
  font-family: 'Lato';
  font-weight: bold;
- font-size: 20px;
- color: #222222;
- letter-spacing: 0.21px;
- text-transform: capitalize;
- margin-top: 42px;
- margin-left: 10px;
- margin-bottom: 15px;
+ font-size: 24px;
+ color: #333;
+ text-transform: uppercase;
+ letter-spacing: 0.5px;
+ margin-top: 50px;
+ padding-bottom: 19.5px;
+ width: 100%;
 }
 .bwt-appointment-cancel p {
  font-family: 'Lato';
- font-size: 20px;
- color: #222222;
- letter-spacing: 0.21px;
  margin-bottom: 30px;
- margin-left: 10px;
+ margin-left: 15px;
 }
 .bwt-appointment-cancel hr {
  display: none;
+ visibility: hidden;
 }
-
+.bwt-appointment-cancel * {
+  font-family: 'Lato' !important;
+}
+.bwt-appointment-cancel h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #222222;
+  letter-spacing: 0.21px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+.bwt-appointment-cancel p > b {
+  font-size: 16px;
+  display: inline-block;
+  margin-bottom: 2%;
+}
 .bwt-cancel-store-appointment {
-
-    width: 50%;
+ 
+    width: 40%;
+    height: 60px;
+    padding: 3%;
     background: #277EAF;
+    color: white;
     cursor: pointer;
-    font-family: 'Lato';
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-    margin-bottom: 3%;
-    letter-spacing: 0;
-    line-height: 10px;
+    font-family: 'lato';
+    margin-bottom: 50px;
+    margin-left: 15px;
+    line-height: 20px;
     text-align: center;
     padding: 1.2rem 0;
-    margin-left: 10px;
-    margin-bottom: 154px;
 }
 .bwt-cancel-store-appointment a {
-  color: #FFFFFF;
+ color: white;
+ font-size: 14px;
+ letter-spacing: 0;
+ text-transform: uppercase;
 }
 .bwt-cancel-store-appointment a:hover {
-  color: #FFFFFF;
+  color: white;
+}
+.appointment-rsvp-container .store-container {
+  border:1px none !important;
 }
 /* Small Devices */
+div[class*='Modal_component_'] .skylight_dialog {
+  padding: 0 !important;
+}
+.row.bw-iframe-container .small-12.columns:first-of-type{
+  padding: 0 !important;
+}
+#enter-contact-info {
+  padding: 0% 1%;
+}
+#enter-contact-info .bwt-appt-name-field, #enter-contact-info .bwt-appt-email-field, #enter-contact-info .bwt-appt-message-field.bwt-appointment-customer-message  {
+  padding: 0px 0px !important;
+}
+ .bw-iframe-container .appointment-rsvp-container .store-container .address{
+  float:left;
+  margin:0 !important;
+ }
 
 @media (min-width: 300px) {
+div[class*='Modal_component_'] .skylight_dialog {
+  padding: 0 !important;
+}
+.row.bw-iframe-container .small-12.columns:first-of-type{
+  padding: 0 !important;
+}
+
+#appointment-container > .row:last-of-type {
+  display:flex;
+  flex-direction: column;
+}
+.large-3.hide-for-small-down.columns {
+    float: none;
+    display:block !important;
+    order:1;
+    width:90%;
+    margin:0 auto !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container .store-container .address{
+    border: none !important;
+    float: none;
+    width: 80%;
+    padding-left: 45px;
+  }
+.bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
+    border-left: 1px solid white;
+    background: #277EAF;
+  }
 
   /* Choose services */
 
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
+    font-family: 'PlayfairDisplay', serif !important;
+    font-style: italic !important;
+    font-weight: normal !important;
     font-size: 20px !important;
-    margin-top: 30px !important;
-    border-bottom: 3px solid #e3e3e3;
-    padding-bottom: 4%;
+    color: #222222 !important;
+    letter-spacing: 0.25px !important;
+    margin-top: 40px !important;
+    padding-left: 10px;
   }
   .bw-appointment-header-column.selected a, .bw-appointment-header-column.selected span {
-     background: #277EAF;
+    background: #277EAF;
   }
   .bw-appointment-header-column a, 
   .bw-appointment-header-column span{
@@ -577,7 +730,7 @@ font-weight: normal;
   }
   .bw-appointment-service-link {
     border: 1px solid #E3E3E3;
-    width: 90%;
+    width: 90% !important;
     padding: 15px;
     line-height: 24px;
     font-size: 20px !important;
@@ -623,9 +776,17 @@ font-weight: normal;
     margin-top:20%;
   }
   /* Choose Date */
+
+  .appointment-rsvp-container #select-appointment-time h1 {
+    display: flex !important;
+    flex-direction: column-reverse;
+    border-bottom: none !important;
+  }
+
+
   .appointment-rsvp-container #appointment-options #mobile_date_select {
     width: 150px;
-    margin-left: 30%;
+    display: inline-block !important;
     float: none !important;
     border: 1px solid #E3E3E3;
     border-radius: 3px;
@@ -645,17 +806,21 @@ font-weight: normal;
   }
   .search_header .date_selection_container .date_selector .big_day {
     font-size: 26px;
-    line-height: 2rem;
+    line-height: 1rem;
+    padding-top: 11%;
   }
   .search_header .date_selection_container .date_selector .big_day, .search_header .date_selection_container .date_selector .small_day, .search_header .date_selection_container .date_selector .dayname_only {
-    font-size: 10px;
+    font-size: 11px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    margin-top: 12px;
   }
   /* Enter Details */ 
   .appointment-rsvp-container .appointment-enterinfo-container {
     width: 100%;
     margin-left: 0 !important;
   }
-  .bwt-appt-name-field label {
+  .bwt-appt-name-field label, .bwt-appt-email-field label, .bwt-appt-message-field label{
     font-size: 12px;
     color: #333;
     letter-spacing: 0.21px;
@@ -671,10 +836,10 @@ font-weight: normal;
   }
   .appointment-rsvp-container .appointment-enterinfo-container form::before  {
     width: 100%;
+    margin-bottom: 5%;
   }
   .bwt-store-call-field, .bwt-rsvp-first-name-field, .bwt-rsvp-last-name-field, .bwt-rsvp-email-field, .bwt-email-opt-field, .bwt-appt-name-field, .bwt-appt-email-field, .bwt-appt-message-field {
     width: 100%;
-    padding: 0 !important;
   }
   .appointment-rsvp-container #appointment-confirmation {
     width: 100%;
@@ -688,10 +853,9 @@ font-weight: normal;
     border-bottom: 1px none !important;
     border-top: 1px none !important;
     margin-left: 0 !important;
-    text-transform: none;
+    text-transform: capitalize;
     font-weight: 400;
     font-size: 12px;
-    font-family: 'Lato' !important;
   }
   .bwt-cancel-rsvp-only::before {
     margin-bottom: 2%;
@@ -704,8 +868,14 @@ font-weight: normal;
     margin: 0px 7%;
     text-align: left;
   }
-  .bwt-event-rsvp-cancel-button {
-    width: 51%;
+  .bwt-event-rsvp-cancel-button, .bwt-cancel-store-appointment {
+    width: 60%;
+  }
+  .appointment-rsvp-container .store-container .store-name, .appointment-rsvp-container .store-container .bw-appointment-store-address {
+    margin-left: 5%;
+  }
+  .bw-load-previous-dates, .bw-load-next-dates {
+    top: 42%;
   }
 }
 /* For landscape modes and some phones */
@@ -725,12 +895,13 @@ font-weight: normal;
   }
   .bw-appointment-service-link {
     border: 1px solid #E3E3E3;
-    width: 90%;
+    width: 90% !important;
     padding: 15px;
     line-height: 24px;
     font-size: 20px !important;
     min-height: 276px;
-    max-width: 47%;
+    
+    
   }
   .bw-appointment-service-link-description {
     font-family:'Lato' !important;
@@ -773,13 +944,10 @@ font-weight: normal;
     .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:15%;
   }
-  /*.appointment-rsvp-container .store-container .address table .phone {
-    
-  }*/
   /* Choose Date */
   .appointment-rsvp-container #appointment-options #mobile_date_select {
     width: 150px;
-    margin-left: 30%;
+    
     float: none !important;
     border: 1px solid #E3E3E3;
     border-radius: 3px;
@@ -792,15 +960,16 @@ font-weight: normal;
     line-height: 18px;
   }
   .search_header .date_selection_container .date_selector {
-    height: 90px;
+    height: 101px;
   }
   .search_header .date_selection_container .date_selector .dayname_only {
     padding: 1.5rem 0;
-    font-size: 10px;
+    font-size: 20px;
+    letter-spacing: 0.25px;
   }
   .search_header .date_selection_container .date_selector .big_day {
-    font-size: 20px;
-    line-height: 2rem;
+    font-size: 26px;
+    line-height: 2.75rem;
   }
   .bw-load-previous-dates, .bw-load-next-dates {
     top: 42%;
@@ -836,30 +1005,29 @@ font-weight: normal;
    .bw-appointment-header-column a, 
   .bw-appointment-header-column span{
     height: 12px !important;
-    font-size: 12px;
-    letter-spacing: 0.25px;
-    line-height: 12px;
+    font-size: 15px;
   }  
   .bw-appointment-header-feedback {
     font-size: 12px;
-    color: #666666;
-    letter-spacing: 0.25px;
-    line-height: 18px;
-    margin-top: 10px;
   }
   
       /* Choose services */
 
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
-    font-size: 20px !important;
-    margin-top: 30px !important;
-    border-bottom: 3px solid #e3e3e3;
-    padding-bottom: 4%;
+    font-family: 'PlayfairDisplay', serif !important;
+    font-style: italic !important;
+    font-weight: normal !important;
+    font-size: 24px !important;
+    color: #333333 !important;
+    letter-spacing: 0.5px !important;
+    margin-top: 20px !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+    padding-bottom: 20px !important;
   }
   
   .bw-appointment-service-link {
     border: 1px solid #E3E3E3;
-    width: 30%;
+    width: 30% !important;
     padding: 15px;
     line-height: 24px;
     font-size: 20px !important;
@@ -975,10 +1143,22 @@ font-weight: normal;
 }  
  /* Most large devices  aka ipad Pros*/
 @media (min-width: 873px) {
+  .appointment-rsvp-container {
+    padding:10px !important;
+  }
       .appointment-rsvp-container .title {
       display: inherit !important;
      }
-     
+     .bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
+    color: #333;
+    background: none !important;
+    border-left: 1px none;
+    font-family: 'Lato' !important;
+    font-weight: bold !important;
+  }
+  .bw-iframe-container .bw-appointment-header-feedback{
+    display: block !important;
+  }
      .bw-appointment-header-column.selected span {
     background: none !important;
   }
@@ -986,7 +1166,7 @@ font-weight: normal;
 
   .bw-appointment-service-link {
     border: 1px solid #E3E3E3;
-    
+    width: 30% !important;
     padding: 15px;
     line-height: 24px;
     font-size: 20px !important;
@@ -1007,6 +1187,10 @@ font-weight: normal;
 
   }
   /* Choose Stores */
+#appointment-container > .row:last-of-type {
+  display: block !important;
+}
+
   .appointment-rsvp-container .store-container {
     
     display: -webkit-box; 
@@ -1018,7 +1202,18 @@ font-weight: normal;
     flex-wrap: wrap;
     flex-direction: column;
   }
-    .appointment-rsvp-container .store-container .store-name {
+  .large-3.hide-for-small-down.columns {
+    float: right;
+    order:0;
+    width:25%;
+  }
+  .bw-iframe-container .appointment-rsvp-container .store-container .address {
+    width: 50%;
+    padding-top: 0;
+    margin-left: 30px !important;
+    padding-top: 80px !important;
+  }
+  .appointment-rsvp-container .store-container .store-name {
     flex: 0 0 0% !important;
     width: 33%;
   }
@@ -1028,24 +1223,40 @@ font-weight: normal;
   .bw-appointment-store-address {
     padding-left: 0;
   }
-  .appointment-rsvp-container .store-container .map {
+  .appointment-rsvp-container .store-container .map{
     display: inherit !important;
-    width: 66%;
+    width: 450px !important;
     height: 100%;
     float:left;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-right: 0;
+    margin-left: 0;
     order: -1;
+    padding: 0 !important;
   }
+  .appointment-rsvp-container .store-container .map .map-for-choose-store{
+    width: 100%;
+  }
+  .appointment-rsvp-container .store-container .map img {
+    height: 100%;
+  }
+
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    margin-top: 0 !important;
+    order:0;
+  }
+
+
+
+
   .bw-load-previous-dates, .bw-load-next-dates {
-    top: 60%;
+    top: 35% !important;
   }
-  .appointment-rsvp-container .store-container .store-name,
-  .appointment-rsvp-container .store-container .bw-appointment-store-address {
-     flex: 5;
-     min-height: 70px;
-     margin-bottom: 0%;
-     margin-left: 0%;
+     .appointment-rsvp-container .store-container .store-name,
+    .appointment-rsvp-container .store-container .bw-appointment-store-address {
+      flex: 5;
+      min-height: 70px;
+      margin-bottom: 0%;
+      margin-left: 0%;
     }
   /*.appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
     width: 100% !important;
@@ -1063,30 +1274,21 @@ font-weight: normal;
   }
   .appointment-rsvp-container .store-container .small-12.centered {
     width: 33%;
-    float: right;
-    
+  
   }
    .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:20%;
   }
   /* Choose Date */
-   .appointment-rsvp-container #appointment-options .month {
-    display: -webkit-box; 
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    justify-content: center;
-  }
   .appointment-rsvp-container #appointment-options #mobile_date_select {
-    display: none;
+    display: none !important;
   }
   .appointment-rsvp-container #appointment-options #appointment_date {
-    width: 30%;
+        margin-left: 39%;
     float: none !important;
     border: 1px solid #E3E3E3;
     border-radius: 3px;
-    margin-bottom: 4%;
+    margin-bottom: 40px;
   }
   .appointment-rsvp-container #appointment-options #mobile_date_select #inner-editor {
     font-family: 'Lato';
@@ -1095,6 +1297,9 @@ font-weight: normal;
     letter-spacing: 0.33px;
     line-height: 18px;
   }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
+    width: 20% !important;
+  }
   .search_header .date_selection_container .date_selector {
     height: 128px;
   }
@@ -1102,11 +1307,14 @@ font-weight: normal;
     padding: 2.6rem 0;
   }
   .search_header .date_selection_container .date_selector .big_day {
-    font-size: 26px;
-    line-height: 3.5rem;
+    font-size: 20px;
+    line-height: 2rem;
+    padding-top: 20%;
+    letter-spacing: 0.25px;
   }
   .search_header .date_selection_container .date_selector .small_day {
-    font-size: 16px;
+    font-size: 20px;
+    letter-spacing: 0.25px;
   }
   /* Enter Details */ 
   .appointment-rsvp-container .appointment-enterinfo-container {
@@ -1137,10 +1345,11 @@ font-weight: normal;
   .appointment-rsvp-container .appointment-enterinfo-container form::before  {
     width: 50%;
     margin: 0 25%;
-    margin-bottom: 4%;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
   }
   .appointment-rsvp-container #appointment-confirmation {
-    width: 100%;
+    width: 50%;
     margin-left: 100px;
     text-align:left;
   }
@@ -1157,23 +1366,23 @@ font-weight: normal;
     text-align: left;
   }
   .bwt-appointment-cancel, .bwt-cancel-rsvp-only {
-   width: 50%;
-   margin: 0 25%;
- }
+    width: 50%;
+    margin: 0 25% 50px;
+  }
+  .day_container.row {
+    max-width: 900px !important;
+  }
+  
+
 }
 
 /* Larger displays ---- Not completely 4k compatible */
  @media (min-width: 1200px) {
   .appointment-rsvp-container .store-container .map {
-    height:100%;
-    width: 60%;
+    height: 100%;
+    width: 66%;
   }
-  .appointment-rsvp-container .store-container {
-    height: 600px;
-  }
-  .appointment-rsvp-container .store-container .store-name, .appointment-rsvp-container .store-container .bw-appointment-store-address {
-    min-height: 100px;
-  }
+
 /*  .appointment-rsvp-container .store-container .small-12.centered {
     
     margin-left: 0%;
@@ -1181,58 +1390,122 @@ font-weight: normal;
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:15%;
   }
-  /*.appointment-rsvp-container #appointment-options #appointment_date {
+  .appointment-rsvp-container #appointment-options #appointment_date {
     margin-left: 46%;
-  }*/
-  /*.bwt-cancel-rsvp-only {
-    text-align: left;
-    width: 39vw;
-    padding: 0 25%;
-    margin: 0px 38.5%;
-    text-align: left;
-  }*/
- }
+  }
 
- @media (min-width: 1200px) and (max-height: 800px){
-  .appointment-rsvp-container .store-container .map {
-    height:100%;
-    width: 58%;
-  }
-  .appointment-rsvp-container .store-container {
-    height: 500px;
-  }
-  .appointment-rsvp-container .store-container .store-name, .appointment-rsvp-container .store-container .bw-appointment-store-address {
-    min-height: 55px;
+  .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
+    margin-top: -25% !important;
   }
  }
+ @media (min-width: 1200px) and (max-height: 800px){ 
+  .appointment-rsvp-container .store-container {
+    height: 510px;
+  }
+  .appointment-rsvp-container .store-container .map {
+    height: 100%;
+    width: 66%;
+  }
+
+}
 /* 4k screens */
  @media (min-width: 1200px) and (max-height: 900px){
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:20%;
   }
-  /*.appointment-rsvp-container #appointment-options #appointment_date {
-    margin-left: 43% ;
-  }*/
- /* .bwt-cancel-rsvp-only {
+  .appointment-rsvp-container #appointment-options #appointment_date {
+    margin-left: 39% ;
+  }
+  .bwt-cancel-rsvp-only {
     text-align: left;
-    width: 39vw;
+    width: 50%
     padding: 0 25%;
-    margin: 0px 44%;
+    
     text-align: left;
-  }*/
+  }
+  .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
+    margin-top: 0 !important;
+  }
  }
-@media (min-width: 1920px) {
-  .appointment-rsvp-container .store-container {
-    height: 1040px;
+
+
+ @media (min-width: 1920px){
+  .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
+    margin-top:13%;
+  }
+  .appointment-rsvp-container #appointment-options #appointment_date {
+    margin-left: 46% ;
+  }
+  .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
+    width: 100% !important;
+    margin-left: -3% !important;
+    margin-top: -70px !important;
+    position: relative;
+    bottom: 7vh;
+    height: 49px;
+    font-size: 15px;
+    
+  }
+  .appointment-rsvp-container .store-container .bw-appointment-store-address::before {
+    font-size: 16px ;
+    letter-spacing: 1.21px;
+  }
+   .appointment-rsvp-container .store-container .store-name h1 {
+    font-size: 36px !important;
   }
   .appointment-rsvp-container .store-container .map {
-  
-    width: 63%;
+    height: 100%;
+    width: 59%;
+    overflow:hidden;
   }
-}
+  .appointment-rsvp-container .store-container .address h4:first-of-type::before,
+   .appointment-rsvp-container .store-container .address table:first-of-type::before,.appointment-rsvp-container .store-container .address table:last-of-type::before {
+    font-size: 16px;
+    margin-top: 10%;
+  }
+  .appointment-rsvp-container .store-container .address h4, .appointment-rsvp-container .store-container .address h6, .appointment-rsvp-container .store-container .address table td {
+    font-size: 15px !important;
+  }
+  .appointment-rsvp-container .store-container .address table {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .appointment-rsvp-container .store-container .store-name,
+    .appointment-rsvp-container .store-container .bw-appointment-store-address{
+      width: 38%;
+    }
+    .appointment-rsvp-container .store-container .small-12.centered {
+    width: 33%;
+    float: none;
+    margin-left: 62%;
+  } 
+  .appointment-rsvp-container .store-container .address table td {
+    margin-top: 0%;
+    line-height: 18px;
+  }
+  .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
+    font-size: 20px;
+  }
+ .appointment-rsvp-container .local-stores #search_button {
+    right: 58px !important;
+  }
+  
+  .choose-store-link div .name_distance h4{
+    font-size: 18px !important;
 
+  }
+  .choose-store-link div .name_distance .distance {
+    font-size: 16px !important;
+    
+  }
 
-
+  .bw-appointment-step-container-title, .appointment-rsvp-container .title h1  {
+    font-size: 30px !important;
+  }
+  .bw-load-previous-dates, .bw-load-next-dates {
+    top: 65%;
+  }
+ }
 
   @media (-ms-high-contrast: active),
   (-ms-high-contrast: none) {
@@ -1293,7 +1566,7 @@ font-weight: normal;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/DMAT/Email+Footer+Asset_PLACEHOLDER.jpg);
+    background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/Motherhood+Canada/maternity-locator-footer-coupons-mhcanada-2017.png);
   }
   .footer-col-1 {
     padding-top: 15px !important;
@@ -1310,150 +1583,129 @@ font-weight: normal;
       max-height: 350px;
     }
   }
-
-.bwt-appt-input-placeholder {
-    font-size: 12px;
-    font-family: "Lato", sans-serif;
-    text-transform: capitalize;
-    padding: 0 0.5rem;
-    top: 35%;
-    left: 2rem;
-    z-index: 100;
-    color: #666666;
-    letter-spacing: 0.5px;
-}
-
-.bwt-store-call-field label, .bwt-rsvp-first-name-field label, .bwt-rsvp-last-name-field label, .bwt-rsvp-email-field label, .bwt-email-opt-field label, .bwt-appt-name-field label, .bwt-appt-email-field label, .bwt-appt-message-field label {
+  .bwt-appt-input-placeholder{
+    font-family: 'Lato';
+    font-weight: normal;
     font-size: 12px;
     color: #666666;
     letter-spacing: 0.5px;
     text-transform: capitalize;
+    left: 1rem;
+  }
+  .bwt-appt-name-field label {
+    text-transform: capitalize;
+  }
+
+.appointment-rsvp-container .button-clean {
+  font-family: 'Lato';
+  font-weight: normal !important;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 10px;
 }
 
-fieldset {
-    border: 1px none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-  fieldset input[type="text"] {
-    box-shadow: none !important;
-    height: 2.75rem !important;
-  }
-  fieldset #placeholder, ::-webkit-input-placeholder {
-    font-family: 'Lato' !important;
-  }
-  fieldset button[type='submit']{
-    line-height: 2.5rem !important;
-  }
+.appointment-rsvp-container input[type="text"], .appointment-rsvp-container input[type="email"], .appointment-rsvp-container input[type="date"], .appointment-rsvp-container input[type="tel"], .appointment-rsvp-container textarea {
+  font-size: 12px;
+  border:1px solid #e6e6e6 !important;
+  margin-bottom: 15px;
+}
 
-
-  .utility-mobile form fieldset input[type="text"] {
-    box-shadow: none !important;
-    height: 1.75rem !important;
-    }
-   .utility-mobile form  fieldset button[type='submit']{
-    line-height: 1.5rem !important;
-    }
-
+.appointment-rsvp-container #select-appointment-time #appointment_date {
+  margin-top: 20.5px;
+}
 
 .appointment-rsvp-container #appointment-confirmation .details {
-  text-align: left;
-  border-bottom: 1px none;
-  border-top: 1px none;
-}
-
-.appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+  width: 100%;
   font-family: 'Lato';
-  font-weight: normal;
   font-size: 12px;
   color: #666666;
   letter-spacing: 0.25px;
   line-height: 18px;
+  text-transform: none !important;
+  padding-top: 0;
 }
 
-@media (min-width: 560px) {
-  .appointment-rsvp-container #appointment-options #mobile_date_select {
-    font-family: 'Lato';
-    font-weight: normal;
-    font-size: 12px;
-    color: #666666;
-    letter-spacing: 0.25px;
-    line-height: 18px;
-  }
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .disabled.segment_header .num_available {
+  color: #e3e3e3;
 }
 
-@media (min-width: 300px) {
-  .appointment-rsvp-container #appointment-options #mobile_date_select {
-    font-family: 'Lato';
-    font-weight: normal;
-    font-size: 12px;
-    color: #666666;
-    letter-spacing: 0.25px;
-    line-height: 18px;
-  }
-}
-
-.bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
-    color: #333;
-  }
-
-@media only screen and (max-width: 54em) {
-  .bw-appointment-header-column.completed a, .bw-appointment-header-column.completed span {
-    background: #277EAF;
-    color: transparent !important;
-  }
-}
-
-.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available {
-  font-weight: bold;
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link {
   font-size: 12px;
   color: #333333;
   letter-spacing: 0.21px;
-  line-height: 12px;
-  text-transform: uppercase;
+}
+.bw-confirmation-close-button {
+ visibility: hidden !important;
+}
+/*Hide header banner*/
+.header-banner, .header-banner-bottom { display: none !important; }
+
+.bw-iframe-container a.appointment_link.brickwork-button {
+  opacity: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.appointment-rsvp-container #appointment-confirmation {
-  margin-top: 189px;
-  padding: 0;
+.bw-appointment-step-container-title {
+  margin-bottom: 82px;
 }
 
-.appointment-rsvp-container #appointment-confirmation .confirmation_title {
-  font-family: 'Playfair Display' !important;
-  font-weight: 300;
-  font-style: italic;
-  font-size: 26px;
-  color: #333333;
-  letter-spacing: 0.25px;
-  
-  text-rendering: optimizelegibility;
-
-}
-.appointment-rsvp-container #appointment-confirmation .confirmation_title::before {
-  text-transform: lowercase;
-}
-.appointment-rsvp-container #appointment-confirmation .details {
-  font-family: 'Lato' !important;
-  font-size: 12px;
-  color: #666666;
-  letter-spacing: 0.25px;
-  line-height: 18px;
-  padding-top: 20px;
-  margin-top: 0;
+.bw-iframe-container .bw-appointment-service .bw-appointment-service-link-description {
   text-transform: none;
 }
 
-.bw-appointment-store-address::before{
-  color: black;
-}
-.bw-confirmation-close-button {
-  background: #277eaf !important;
+.bw-iframe-container .appointment-rsvp-container .store-container .address h4 {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  color: #333333 !important;
+  letter-spacing: 0.21px !important;
+  line-height: 12px !important;
 }
 
-/*Hide header banner*/
-.header-banner { display: none !important; }
-
-.bwt-appointment-cancel {
-margin: 150px 0;
+.appointment-rsvp-container h2 {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: bold !important;
+  font-size: 20px !important;
+  color: #222222 !important;
+  letter-spacing: 0.21px !important;
+  margin-bottom: 20px;
 }
-</style>
+
+.appointment-rsvp-container .local-stores .container:first-of-type {
+  margin-top: 35px;
+}
+
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+  text-transform: capitalize;
+}
+
+@media (min-width: 300px) and (max-width: 873px) {
+  .bw-iframe-container .bw-appointment-step-container-title {
+    padding-left: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 873px) {
+  .search_header .date_selection_container .date_selector .dayname_only {
+    font-size: 12px;
+  }
+}
+
+.bw-iframe-container input[type] {
+  padding: 12px 12px;
+}
+
+@media (min-width: 300px) and (max-width: 873px) {
+  .appointment-rsvp-container .appointment-enterinfo-container {
+    padding: 10%;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 873px) {
+  .bw-appointment-header-column.selected span {
+    color: #277EAF;
+  }
+}

@@ -243,6 +243,7 @@
   .row #appointment-container .day-date-column .dayname_only {
     font-size: 9px !important;
   }
+
 }
 
 .bw-display-layer .promo-message .bwt-hide-on-mobile, .bwt-index-search-container .promo-message .bwt-hide-on-mobile {
@@ -443,3 +444,105 @@ select:hover {
     opacity: 1;
     transform: scale(1);
   }
+=======
+}
+
+.bw-display-layer .promo-message .bwt-hide-on-mobile, .bwt-index-search-container .promo-message .bwt-hide-on-mobile {
+  display: block !important;
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-features-container .bwt-store-feature h4 {
+  padding: 0;
+}
+
+.bwt-index-search-form-location-button {
+  display: block;
+}
+.bw-display-layer .bwt-store-featured-associate-name {
+    font-family: NewBaskervilleITCbyBT-Roman !important;
+    font-size: 24px !important;
+    letter-spacing: 0.75px;
+    line-height: 30px !important;
+    opacity: 1;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    color: #231F20;
+    word-break: break-all;
+    text-transform: lowercase;
+}
+
+
+/* Appointment Modal Store Muses */
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a{
+  border:1px none !important;
+}
+
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li img{
+  border: 3px solid black;
+  padding: 3%;
+  height: 256px !important;
+  width: 256px !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info {
+  background: #fff !important;
+  color: #000 !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info *{
+  background: #fff !important;
+  color: #000 !important;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6{
+  font-family: NewBaskervilleITCbyBT-Roman;
+  font-size: 24px;
+  color: #231F20;
+  letter-spacing: 0.75px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6::before{
+  content: '_';
+  position: relative;
+  bottom: 8px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p{
+  font-family: KateSans-Regular !important;
+  font-size: 13px;
+  color: #000000;
+  letter-spacing: 1.3px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p::before{
+  content: 'Specializes in:';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
+  display: block;
+  line-height: 15px;
+}
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-contenthover {
+  display: none;
+}
+.bw-display-layer .book-appointment-button:not(:empty):hover {
+  background: #48a642 !important;
+  border-color: #48a642 !important;
+  color: #fff !important;
+}
+.bw-display-layer .bwt-pagination-container .bwt-pagination:hover {
+  background: #48a642 !important;
+  border-color: #48a642 !important;
+  color: #fff !important;
+}
+.bw-display-layer .bwt-pagination-container .bwt-pagination {
+  color: #fff !important;
+  background: #000 !important;
+  font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
+  letter-spacing: 0.1rem !important;
+  font-size: 0.875rem !important;
+  padding: 10px 30px !important;
+}
+.bw-display-layer .bwt-store-show .bwt-store-event-description {
+	font-size: .9rem !important;
+}
+.bw-display-layer .bwt-events-main .bwt-event-details-container {
+	padding-bottom: 15px !important;
+}
+

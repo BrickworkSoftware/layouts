@@ -1,12 +1,20 @@
 <style>
+
   footer{
     z-index: 1;
  }
   .footer{
   	display: none;
   }
-  #breadcrumb{
-  	display: none;
+#breadcrumb{
+       display: none;
+}
+ .util-nav-line2 .menu-close-btn {
+    height: 100% !important;
+  }
+  .util-nav-line2 .icon-x, .util-nav-line2 .icon-search-lg {
+    position: relative !important;
+    top: 20px !important;
   }
 </style>
 
@@ -917,167 +925,7 @@ window.onload = function() {
 </div>
 
 
-
-<script type="text/javascript">
-$(document).ready(function() {
-
-    if (!$('body').hasClass('mq_small') && $("#firstTimeEmailSignupPopup div").length > 0) {
-
-        emailEntrySignupPopup();
-    }
-
- /*   $(".close-overlay").on('click',function() {
-        $.cookie("isFirstTimeUser", "no", {
-            expires: 365,
-            path: '/'
-        });
-        $.magnificPopup.close();
-    });*/
-
-
-
-	$.magnificPopup.instance.close = function () {
-	   $.cookie("isFirstTimeUser", "no", {
-				expires: 365,
-				path: '/'
-			});
-
-     $.magnificPopup.proto.close.call(this);
-	};
-	
-});
-
-
-function emailEntrySignupPopup() {
-    if ($.cookie("isFirstTimeUser") != "no" && (!$('body').hasClass('page-privacypolicyPage')) && typeof flashSaleFlag == 'undefined') {
-        $.cookie("isFirstTimeUser", "yes", {
-            expires: 365,
-            path: '/'
-        });
-
-        $("#emailsignupmodal").on('click',function() {
-            registerForNewsLetterEntrySignUp();
-        });
-
-        $.magnificPopup
-            .open({
-                items: {
-                    src: $('#firstTimeEmailSignupPopup')
-                },
-                type: 'inline',
-				focus: '.ctnr-mfp-close',
-                //closeMarkup: '<div title="%title%" class="close-overlay mfp-close ctnr-mfp-close"><span class="icon icon-x mfp-close"></span></div>',
-                //closeBtnInside: true,
-                //modal: true,
-                callbacks: {
-                    open: function() {
-                        setTimeout("$('.mfp-bg').height($(document).height())", 1500);
-                    }
-
-                }
-            });
-    }
-}
-
-
-function registerForNewsLetterEntrySignUp() {
-
-    var email = $("#emailEntrySignupInput").val();
-    var successMsg, errorMsg, duplicateEmail;
-
-    if (checkEmailEntrySignUp()) {
-        $('.loaderformodalsuccess').removeClass('hidden');
-        var ajax_url = ACC.config.contextPath + "/view/EmailSignupModalComponentController/signupnewsletter";
-        $.ajax({
-            url: ajax_url,
-            type: "POST",
-            cache: false,
-            dataType: "text",
-            data: {
-                checkDuplicate: 1,
-                email: email,
-                source: "emaillayover"
-            },
-            success: function(data) {
-
-                var emailPopup = $("#firstTimeEmailSignupPopup");
-
-                successMsg = $(emailPopup).find("#responseSuccessMsgEntrySignUp");
-                errorMsg = $(emailPopup).find("#responseInvalidEmailEntrySignUp");
-                duplicateEmail = $(emailPopup).find("#responseDuplicateMsgEntrySignUp");
-
-
-                if (data == 'true') {
-                    footerMsg = duplicateEmail;
-                    $('#newsletteremaildFooter').val('');
-                } else {
-                    footerMsg = successMsg;
-                }
-
-                if (footerMsg.length > 0) {
-                    $(footerMsg).show();
-                }
-                $('.loaderformodalsuccess').addClass('hidden');
-               
-                //$("#incentiveMessageEntrySignUp").show();
-
-                $.cookie("isFirstTimeUser", "no", {
-                    expires: 365,
-                    path: '/'
-                });
-                setTimeout(function() {
-                    $.magnificPopup.close();
-
-                }, 2500);
-
-            }
-        });
-    }
-
-}
-
-
-/*
-
-var ajax_url = ACC.config.contextPath + "/view/ResponsiveNewsletterComponentController/signupnewsletter";     
-              $.ajax({
-                    url: ajax_url,
-                    type: "POST",
-                    cache:false,
-                    dataType: "text",
-                    data: {
-                        email: email,
-                    source: 'firstTimeUser'
-        
-                    },
-                    success: function (data) {
-
-                    }});
-
-
-*/
-
-
-function checkEmailEntrySignUp() {
-
-    var email = $("#emailEntrySignupInput").val();
-    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-    var emailPopup = $("#firstTimeEmailSignupPopup");
-
-    $(emailPopup).find("#responseSuccessMsgEntrySignUp").hide();
-    $(emailPopup).find("#responseDuplicateMsgEntrySignUp").hide();
-    $(emailPopup).find("#responseInvalidEmailEntrySignUp").hide();
-
-    if (!filter.test(email)) {
-        var footerMsg = document.getElementById("responseInvalidEmailEntrySignUp");
-        footerMsg.style.display = "block";
-        email.focus;
-        $('#newsletteremaildFooter').val('');
-        return false;
-    }
-    return true;
-}
-</script></div><div class="content"><script type="text/javascript">
+</div><div class="content"><script type="text/javascript">
 	$(function(){
 		if($(window).width()>=768){
 			$(".nav-main.is-open").css("opacity",1);
@@ -1883,7 +1731,7 @@ window.tm.defaults.loginPanel.messages.pwstrength = {
 	/* _______________ can edit below this line _______________ */
 	janrain.settings.actionText = ' ';
 	janrain.settings.tokenAction = 'event';
-	janrain.settings.tokenUrl = 'https://www.stg-hybris-akamai.tumi.com/auth/socialLogin';
+	janrain.settings.tokenUrl = 'https://www.tumi.com/auth/socialLogin';
 	janrain.settings.language = 'en';
 	/* _______________ can edit above this line _______________ */
 
@@ -2202,17 +2050,17 @@ jQuery(function ($) {
 </div></form><div id="ariaStatusMsg" class="skip" role="status" aria-relevant="text"
       aria-live="polite"></div>
 
-   <script>var ctx = "http://www.stg-hybris-akamai.tumi.com:443"</script>
+   <script>var ctx = "http://www.tumi.com:443"</script>
 
 <script type="text/javascript">
 		if(typeof Tumi == "undefined" || !Tumi){ var Tumi = (function(){return{};})(); }
 		if(typeof Tumi.vars == "undefined" || !Tumi.vars){ Tumi.vars = (function(){return{};})(); }
 </script>
 
-<script type="text/javascript" src="https://www.stg-hybris-akamai.tumi.com/_ui/desktop/common/js/bundle/vendor.min.js?v=1493153149"></script>
-		<script type="text/javascript" src="https://www.stg-hybris-akamai.tumi.com/_ui/desktop/common/js/bundle/main.min.js?v=1493153149"></script>
-		<script type="text/javascript" src="https://www.stg-hybris-akamai.tumi.com/_ui/desktop/common/js/dist/le-mtagconfig.min.js?v=1493153149"></script>
-		<script type="text/javascript" src="https://www.stg-hybris-akamai.tumi.com/_ui/desktop/common/js/bundle/bundle.min.js?v=1493153149"></script>
+<script type="text/javascript" src="https://www.tumi.com/_ui/desktop/common/js/bundle/vendor.min.js?v=1493153149"></script>
+		<script type="text/javascript" src="https://www.tumi.com/_ui/desktop/common/js/bundle/main.min.js?v=1493153149"></script>
+		<script type="text/javascript" src="https://www.tumi.com/_ui/desktop/common/js/dist/le-mtagconfig.min.js?v=1493153149"></script>
+		<script type="text/javascript" src="https://www.tumi.com/_ui/desktop/common/js/bundle/bundle.min.js?v=1493153149"></script>
 
 
 
@@ -2223,7 +2071,7 @@ jQuery(function ($) {
 			});
 		});
 	</script>
-<script type="text/javascript" src="https://www.stg-hybris-akamai.tumi.com/_ui/desktop/common/js/dist/carousel/jquery.ui.widget.min.js?v=1493153149"></script>
+<script type="text/javascript" src="https://www.tumi.com/_ui/desktop/common/js/dist/carousel/jquery.ui.widget.min.js?v=1493153149"></script>
 		<script>
 	var base = '/_ui/desktop/common/js/',
 		page_js = '',

@@ -447,3 +447,8 @@ select:hover {
 .bw-display-layer .bwt-store-show .bwt-store-feature {
   width: 20% !important;
 }
+@media only screen and (max-width: 640px) {
+.bw-display-layer .bwt-store-show .bwt-store-feature {
+    height: 15px !important;
+	}
+}

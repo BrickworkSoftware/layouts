@@ -3,10 +3,12 @@ td {
 padding: 0 !important;
 }
 
+div[class*='Flagship_component'] div[class*='Flagship_services'] {
+  padding-bottom: 0px !important;
+}
 .slick-dots{
 display: none !important;
 }
-
 .slick-slide {
 height: inherit !important;
 opacity: 1 !important;
@@ -247,6 +249,10 @@ input.check_boxes {
 
 @media only screen and (max-width: 54em) {
   .bw-appointment-header-row .small-5 {
-    float: right;
+    float: left;
   }
+}
+
+[class*="column"]+[class*="column"]:last-child {
+  float: left;
 }

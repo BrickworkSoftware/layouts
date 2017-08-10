@@ -449,6 +449,11 @@ select:hover {
 }
 @media only screen and (max-width: 640px) {
 .bw-display-layer .bwt-store-show .bwt-store-feature {
-    height: 15px !important;
+    height: 35px !important;
+	}
+}
+@media only screen and (max-width: 640px) {
+.bw-display-layer .bwt-store-show .bwt-store-feature {
+    width: 100% !important;
 	}
 }

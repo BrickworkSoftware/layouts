@@ -222,3 +222,9 @@ span.bwt-store-header-details-hours {
     display: none;
 }
 .bw-display-layer .footer a{color:#fff !important;}
+
+@media only screen and (max-width: 599px) {
+	.bw-display-layer .bwt-store-event-show .bwt-details-container {
+		display: inline !important;
+	}
+}

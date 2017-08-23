@@ -1,0 +1,313 @@
+<div id="footer-wrapper">
+  <script>
+    var arrLPvars = [
+        {
+          "type": "cart",  //MANDATORY
+          "total": "",  //TOTAL VALUE OF THE CART AFTER DISCOUNT
+        },
+        {
+          "type": "prodView",  //MANDATORY
+          "products": [{  //ARRAY OF PRODUCTS
+              "product": {
+                "name": "",  //PRODUCT NAME
+                "category": "",  //PRODUCT CATEGORY NAME
+              }
+          }]
+        },
+        {
+          "type": "ctmrinfo",  //MANDATORY
+          "info": {
+            "customerId": "",
+          }
+        },
+        {
+          "type": "mrktInfo",  //MANDATORY
+          "info": {
+            "affiliate": "",
+            "campaignId": ""
+          }
+        }
+      ];
+      lpTag.sdes.push(arrLPvars);
+      lpTag.section = ["Home Page"];
+    
+      //wishlistID is being mapped to customerID and so is searchterm to affiliate and search result to campaign id as new Live Engage does not have the same exact variables.
+  </script>
+  <footer id="footer">
+    <div id="footer-inner">
+      <div class="group-closed footer-group">
+        <h3 class="icon-plus-circled">Contact Us</h3>
+        <ul class="footer-group-content footer-links">
+          <li>
+            <div id="lpButtonDiv-footer"></div>
+          </li>
+          <li><a href="tel:1-888-398-7626">1-888-DYURMAN (1-888-398-7626)</a></li>
+          <li><a href="//www.davidyurman.com/assistance/email.html">EMAIL US</a></li>
+          <li><a href="//www.davidyurman.com/store.html">FIND A STORE</a></li>
+          <li><a href="mailto:wedding@davidyurman.com">WEDDING SPECIALIST</a></li>
+        </ul>
+      </div>
+      <div id="lpButtonDiv-footer-mobile"></div>
+      <div class="group-closed footer-group">
+        <h3 class="icon-plus-circled">Assistance</h3>
+        <ul class="footer-group-content footer-links">
+          <li><a href="//www.davidyurman.com/assistance/track-orders.html">Track Your Order</a></li>
+          <li><a href="//www.davidyurman.com/assistance/shipping.html">Shipping</a></li>
+          <li><a href="//www.davidyurman.com/assistance/return-and-exchange.html">Returns &amp; Exchanges</a></li>
+          <li><a href="//www.davidyurman.com/assistance/faq.html">FAQs</a></li>
+          <li><a href="//www.davidyurman.com/services/care-and-repair.html">Care &amp; Repair</a></li>
+        </ul>
+      </div>
+      <div class="group-closed footer-group">
+        <h3 class="icon-plus-circled">Services</h3>
+        <ul class="footer-group-content footer-links">
+          <li><a href="//www.davidyurman.com/assistance/size-guide.html">Size Charts</a></li>
+          <li><a href="//www.davidyurman.com/services/customer-care.html">Customer Care</a></li>
+          <li><a href="//www.davidyurman.com/products/gifts/gift-card-gc00000.html">Gift Cards</a></li>
+          <li><a href="//www.davidyurman.com/services/request-catalog.html">Request a Catalog</a></li>
+        </ul>
+      </div>
+      <div class="group-closed footer-group">
+        <h3 class="icon-plus-circled">Our Company</h3>
+        <ul class="footer-group-content footer-links">
+          <li><a href="//www.davidyurman.com/david-yurman/about-us.html">About Us</a></li>
+          <li><a href="//www.davidyurman.com/world-of-yurman.html">World of Yurman</a></li>
+          <li><a href="//www.davidyurman.com/david-yurman/terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="//www.davidyurman.com/david-yurman/privacy-policy.html">Privacy Notice</a></li>
+          <li><a href="//www.davidyurman.com/david-yurman/california-privacy-rights.html">California Privacy Rights</a></li>
+        </ul>
+      </div>
+      <div class="section-menu"></div>
+      <div class="footer-group group-closed" id="footer-group-newsletter">
+        <h3 class="icon-plus-circled">Become a DY Insider</h3>
+        <div class="footer-group-content">
+          <input type="hidden" id="urlLink" name="urlLink" value="/email-signup.html">
+          <form id="subscribeEmailForm" class="frm-signup-txt">
+            <div class="frm-signup">
+              <div class="frm-signup-txt">
+                <input id="subscribeEmailId" placeholder="Email Address" required="true" type="email" name="email" title="Email Address">
+              </div>
+              <input type="submit" value="Submit" id="subscribeEmailBtn">
+            </div>
+          </form>
+          <div id="frm-signup-success" class="hide">
+            <div class="frm-signup-success">
+              <h3>Thank You for Signing Up</h3>
+              <div class="success-content">You will receive previews of the latest collections and news available only to email subscribers.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-group" id="footer-group-social">
+        <h3>Follow Us</h3>
+        <div class="footer-links-title">
+          <li>Women</li>
+        </div>
+        <ul class="social-list">
+          <li><a href="https://www.facebook.com/DavidYurman" class="icon-facebook-squared"><span>Facebook</span></a></li>
+          <li><a href="https://twitter.com/DavidYurman" class="icon-twitter"><span>Twitter</span></a></li>
+          <li><a href="https://pinterest.com/davidyurman" class="icon-pinterest-circled"><span>Pinterest</span></a></li>
+          <li><a href="https://instagram.com/davidyurman" class="icon-instagram"><span>Instagram</span></a></li>
+          <li><a href="http://www.youtube.com/davidyurmanvideo" class="icon-youtube"><span>YouTube</span></a></li>
+          <li><a href="https://plus.google.com/+davidyurman/posts" class="icon-gplus"><span>Google+</span></a></li>
+        </ul>
+        <div class="footer-links-title">
+          <li>Men</li>
+        </div>
+        <ul class="social-list">
+          <!--		
+		
+		 --->
+          <li><a href="https://instagram.com/davidyurmanmen/" class="icon-instagram"><span></span></a></li>
+          <!--		
+		
+--->	</ul>
+      </div>
+    </div>
+  </footer>
+  <div class="activity-indicator"></div>
+</div>
+<script type="text/javascript" src="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/js/le-mtagconfig.js"></script><script type="text/javascript">
+  function logout() {
+    /*$('<form action="/content/david-yurman.commerce.logout.html?resource=\/content\/david\u002Dyurman\/en_us.html"></form>').appendTo('body').submit();*/
+  
+    var origin = window.location.origin;
+    window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fuser\x2Flogin.html';
+  }
+</script><script>
+  // facebook
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+</script><script type="text/javascript">
+  function logout() {
+  	/*$('<form action="/content/david-yurman.commerce.logout.html?resource=\/#.html"></form>').appendTo('body').submit();*/
+  
+  
+  	var baseStoreId = $('#baseStoreId').val();
+  	var origin = window.location.origin;
+  	if(baseStoreId == 'eps'){
+  		window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fcontent\x2Fdavid-yurman\x2Feps_en_us\x2Fuser\x2Flogin.html';
+  	} else {
+  		window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fuser\x2Flogin.html';
+  	}
+  
+  }
+</script><script type="text/html" id="tpl-menu-bag-wish-list-prompt">
+  <div class="sb-add-to-wish-list">
+  			<div>Would you like to add to your wish list?</div>
+  
+  
+  
+                          <a href="/user/login.html?sku={{product}}" class="sb-wish-list-prompt-yes-login">Yes</a>
+  
+  
+  				<button class="sb-wish-list-prompt-no">No</button>
+              </div>
+  		</div>
+</script><script type="text/html" id="tpl-menu-bag-item">
+  <div class="sb-product-image">
+  			<img src="{{imageUrl}}?$bag_product$" alt="{{{info}}}" width="89px">
+  		</div>
+  		<div class="sb-product-details">
+  			<div class="sb-product-name"><a class="action-link" href="{{productUrl}}.html">{{{info}}}</a></div>
+  			<div class="sb-product-price">
+  				{{#discountPrice}}
+  					<span class="price-strike">{{basePrice.formattedValue}}</span>&nbsp;<span class="price-color-red">{{discountPrice}}</span>
+  				{{/discountPrice}}
+  				{{^discountPrice}}
+  					<span>{{basePrice.formattedValue}}</span>
+  				{{/discountPrice}}
+  			</div>
+              <div class="sb-product-quantity">Qty: {{quantity}}</div>
+  			<div class="sb-product-remove"><a class="action-link remove" href="#">Remove</a></div>
+  		</div>
+</script><script type="text/html" id="tpl-menu-bag-new">
+  <div class="sb-title">
+  			You added <strong>"{{addedName}}"</strong> to your shopping bag
+  		</div>
+  		<div class="activity-indicator-bag"></div>
+  		<ul class="sb-products">
+  			<!-- products go here -->
+  		</ul>
+  		<div class="sb-footer">
+  			<div class="sb-bag-link">
+  				<a class="action-link" href="/user/shopping-bag.html">View Bag</a>
+  			</div>
+  			<a class="btn btn--atb" href="/user/checkout.html">Checkout</a>
+  		</div>
+</script><script type="text/html" id="tpl-menu-bag-all">
+  <div class="sb-title">
+  			<span class="sb-count"><strong>{{productCount}}</strong> item(s)</span> in your bag
+  		</div>
+  		<div class="sb-shipping">
+  			Get complimentary shipping with any order.<br><a class="action-link" href="/assistance/shipping.html">See details</a>
+  		</div>
+  		<div class="activity-indicator-bag"></div>
+  		<ul class="sb-products">
+  			<!-- products go here -->
+  		</ul>
+  		<div class="sb-footer">
+  			<div class="sb-bag-link">
+  				<a class="action-link" href="/user/shopping-bag.html">View Bag</a>
+  			</div>
+  			<a class="btn btn--atb" href="/user/checkout.html">Checkout</a>
+  		</div>
+</script><script type="text/html" id="tpl-menu-bag-new-mobile">
+  <div class="sb-title">
+              You added <strong>"{{addedName}}"</strong> to your shopping bag
+          </div>
+          <div class="activity-indicator-bag"></div>
+</script><script src="//media.richrelevance.com/rrserver/js/1.0/p13n.js"></script><script charset="utf-8" type="text/javascript">
+  var R3_COMMON = new r3_common();
+          R3_COMMON.setApiKey("a517e7ae0aaca14b");
+          R3_COMMON.setBaseUrl(window.location.protocol + "//" + "recs" + ".richrelevance.com/rrserver/");
+          R3_COMMON.setClickthruServer(window.location.protocol + "//" + window.location.host);
+  
+          var regex = new RegExp("HybrisSession=([^;]+)");
+          var hybrisSessionCookie = regex.exec(document.cookie);
+          var sessionId = "n28jautq84qyh9m5dethqlbj";
+          var userId =  "anonymous";
+  
+          if( hybrisSessionCookie != null ){
+          	var hybrisSessionJSON = JSON.parse( decodeURIComponent(hybrisSessionCookie[1]) );
+              sessionId = hybrisSessionJSON.sessionid;
+          }
+  
+          if("anonymous" == userId){
+              userId = sessionId;
+          }
+  
+          R3_COMMON.setSessionId(sessionId);
+          R3_COMMON.setUserId(userId);
+</script><script charset="utf-8" type="text/javascript">
+  R3_COMMON.addPlacementType("error_page.rr1");
+  
+      var R3_ERROR = new r3_error();
+  
+      r3();
+</script><script type="text/html" id="tpl-rich-relevance">
+  {{#products}}
+      <div class="product">
+          <div class="image">
+              <a href="{{url}}">
+                  <img src="{{imageUrl}}" alt="{{name}}">
+              </a>
+          </div>
+          <div class="caption">
+              <div class="name"><a href="{{url}}">{{name}}</a></div>
+              <div class="price">{{price}}</div>
+          </div>
+      </div>
+      {{/products}}
+</script><script>
+  DY.registerComponent('not-found');
+</script><script>
+  var arrLPvars = [
+      {
+        "type": "cart",  //MANDATORY
+        "total": "",  //TOTAL VALUE OF THE CART AFTER DISCOUNT
+      },
+      {
+        "type": "prodView",  //MANDATORY
+        "products": [{  //ARRAY OF PRODUCTS
+            "product": {
+              "name": "",  //PRODUCT NAME
+              "category": "",  //PRODUCT CATEGORY NAME
+            }
+        }]
+      },
+      {
+        "type": "ctmrinfo",  //MANDATORY
+        "info": {
+          "customerId": "",
+        }
+      },
+      {
+        "type": "mrktInfo",  //MANDATORY
+        "info": {
+          "affiliate": "",
+          "campaignId": ""
+        }
+      }
+    ];
+    lpTag.sdes.push(arrLPvars);
+    lpTag.section = ["Home Page"];
+  
+    //wishlistID is being mapped to customerID and so is searchterm to affiliate and search result to campaign id as new Live Engage does not have the same exact variables.
+</script><script data-main="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/basefooter/js/config" src="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/basefooter/js/vendor/require.js"></script><script type="text/javascript">
+  DY.registerComponent('common');
+</script><script type="text/javascript">
+  var MTIProjectId='ef8d9979-1fb2-4b6c-a24f-82cb98e6a6fc';
+    (function() {
+        var mtiTracking = document.createElement('script');
+        mtiTracking.type='text/javascript';
+        mtiTracking.async='true';
+        mtiTracking.src=('https:'==document.location.protocol?'https:':'http:')+'//fast.fonts.net/t/trackingCode.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild( mtiTracking );
+    })();
+</script><script type="text/javascript" id="mpelid" src="//davidyurman.mpeasylink.com/mpel/mpel.js" async></script>

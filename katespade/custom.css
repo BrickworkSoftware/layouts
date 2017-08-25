@@ -457,3 +457,11 @@ select:hover {
     width: 100% !important;
 	}
 }
+/* Store Feature Spacing */
+.bw-display-layer .bwt-store-show .bwt-store-feature {
+  width: 20% !important;
+}
+/* Store Index Image */
+.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
+  display: none !important;
+}

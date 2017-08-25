@@ -378,4 +378,6 @@ a { color: inherit !important; }
 h3.bw-display-layer .bwt-store-show .bwt-store-hours {
   margin-top: 0px !important;
 }
+a.bwt-store-map-button-mobile .bwt-mobile-only { color: white !important; }
+a.bw-display-layer .bwt-store-show .brickwork-button { color: white !important; }
 

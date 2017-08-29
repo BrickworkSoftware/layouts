@@ -1,4 +1,4 @@
-
+<style>
 td {
 padding: 0 !important;
 }
@@ -14,6 +14,20 @@ opacity: 1 !important;
 
 #brickworkapp {
     margin-top: 60px;
+}
+
+.bw-appointment-service-link-name {
+  font-style: normal;
+  color: black;
+  font-family: "Minion";
+  font-size: 18px;
+}
+
+.bw-appointment-service-link-description {
+  font-style: normal;
+  color: black;
+  font-family: "Minion";
+  font-size: 14px;
 }
 
 .bwt-appointment-cancel {
@@ -97,12 +111,7 @@ input.check_boxes:checked::after{
 .bw-appointment-step-container {margin-top: 0rem !important;}
 .appointment-rsvp-container .appointment-enterinfo-container {margin-top: 0px !important;}
 
-.bw-appointment-header-column:first-child{
-   display: none;
-}
-
 .bw-appointment-header-column.small-5{
-  width: 33%;
   text-align: center;
 }
 .bw-appointment-header-feedback::before {
@@ -246,7 +255,11 @@ input.check_boxes {
 }
 
 @media only screen and (max-width: 54em) {
+  .bw-appointment-header-row {
+    display: flex;
+  }
   .bw-appointment-header-row .small-5 {
     float: right;
   }
 }
+</style>

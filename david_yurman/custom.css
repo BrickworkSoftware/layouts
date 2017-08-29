@@ -30,6 +30,19 @@ opacity: 1 !important;
   font-size: 14px;
 }
 
+.bw-appointment-step-container .bw-appointment-step-container-title {
+  margin-top: 3.75rem;
+}
+
+.appointment_link.bw-appointment-service-link {
+  border: 1px solid #666666;
+  min-width: 240px;
+}
+
+.appointment-rsvp-container .bw-appointment-header {
+  padding: 0 7px 15px;
+}
+
 .bwt-appointment-cancel {
 margin: 150px 0;
 font-family: "Minion W01",Georgia,serif;

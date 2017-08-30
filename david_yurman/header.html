@@ -1,168 +1,958 @@
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="google-site-verification" content="8x7RhWhXUaND9yxKNWKnhi3LaBi9epE2cS6mmdg-LxU">
-  <meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <title>Test</title>
-  <!-- sdesktop favicon -->
-  <script type="text/javascript" src="dtagent_ICA23bjprstvx_6000500121015.js" data-dtconfig="rid=RID_1645771714|rpid=1494620565|domain=davidyurman.com|lab=1|bandwidth=300|tp=500,50,0,1|reportUrl=dynaTraceMonitor|agentUri=dtagent_ICA23bjprstvx_6000500121015.js"></script><link rel="shortcut icon" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/favicon.ico" type="image/x-icon">
-  <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-  <link rel="apple-touch-icon-precomposed" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-precomposed.png">
-  <!-- For the iPad mini and the first- and second-generation iPad on iOS â¤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-72x72-precomposed.png">
-  <!-- For the iPad mini and the first- and second-generation iPad on iOS â¥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-76x76-precomposed.png">
-  <!-- For iPhone with high-resolution Retina display running iOS â¤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-114x114-precomposed.png">
-  <!-- For iPhone with high-resolution Retina display running iOS â¥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-120x120-precomposed.png">
-  <!-- For iPad with high-resolution Retina display running iOS â¤ 6: -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-144x144-precomposed.png">
-  <!-- For iPad with high-resolution Retina display running iOS â¥ 7: -->
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base/images/apple-touch-icon-152x152-precomposed.png">
-  <!-- Canonical URL for page -->
-  <link rel="canonical" href="http://www.davidyurman.com">
-  <meta name="keywords" content="">
-  <meta name="description" content="">
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<div class="mobilenavigation parbase mobileHeaderNavigation">
+  <!-- cq:includeClientLib categories="cq.shared"/-->
+  <script type="text/javascript">
+    function logout() {
+      /*$('<form action="/content/david-yurman.commerce.logout.html?resource=\/content\/david\u002Dyurman\/en_us.html"></form>').appendTo('body').submit();*/
     
-      ga('create', 'UA-43193054-1', 'auto');
-      ga('require', 'linkid');
-      ga('send', 'pageview');
-  </script>
-  <!--<script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite/csrf.js"></script>
--->
-  <link rel="stylesheet" href="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base.css" type="text/css">
-  <script type="text/javascript" src="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/base.js"></script>
-  <script>
-    (function () {
-    
-      if ( typeof window.CustomEvent === "function" ) return false;
-    
-        function CustomEvent ( event, params ) {
-          params = params || { bubbles: false, cancelable: false, detail: undefined };
-          var evt = document.createEvent( 'CustomEvent' );
-          evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
-          return evt;
-         }
-    
-        CustomEvent.prototype = window.Event.prototype;
-    
-        window.CustomEvent = CustomEvent;
-      })();
-    
-      var DY = {
-        env : {
-          jsPath : '/etc/designs/davidyurman/clientlibs/basefooter/js',
-          cssPath : '/etc/designs/davidyurman/clientlibs/base/css',
-          imagesPath : '/etc/designs/davidyurman/clientlibs/base/images'
-        },
-        components : []
-      };
-      DY.registerComponent = function(name) {
-        if (DY.components.indexOf(name) == -1) {
-          DY.components.push(name);
-    
-          var customObj = {"detail": name};
-          console.log("customObj == " + JSON.stringify(customObj));
-    
-          var myEvent = new CustomEvent("NewComponentPushed", customObj);
-          document.body.dispatchEvent(myEvent);
-        }
-      };
-      Modernizr.load([
-        {
-          test: window.matchMedia,
-          nope: [
-                DY.env.jsPath + '/vendor/matchMedia.js',
-                DY.env.jsPath + '/vendor/matchMedia.addListener.js'
-          ]
-            }
-      ]);
-  </script>
-  <script type="text/javascript" src="//www.davidyurman.com/etc/designs/davidyurman/clientlibs/basefooter/js/vendor/EasyLink/mp_linkcode.js"></script>
-  <!-- mp_snippet_begins -->
-  <script>
-    MP.UrlLang='mp_js_current_lang';
-    MP.SrcUrl=decodeURIComponent('mp_js_orgin_url');
-    MP.oSite=decodeURIComponent('mp_js_origin_baseUrl');
-    MP.tSite=decodeURIComponent('mp_js_translated_baseUrl');
-    MP.init();
-    var mp_langLink = function() {
-        var langlinks = document.querySelectorAll('.langLink');
-        for (var i = 0; i < langlinks.length; i++) {
-            langlinks.item(i).onclick = function() {
-                MP.init();
-                var lang = this.getAttribute('data-lang');
-                var url = this.getAttribute('data-href');
-                var tSite = MP.tSite.replace(/(https?:\/\/|\/?$)/g,'');
-                url = url.replace(/(https?:\/\/|\/?$)/g,'');
-                MP.switchLanguage(tSite.search(url)!=-1?MP.oSite:url, lang, true);
-                return false;
-            }
-        }
-    };
-    if(window.addEventListener){
-    	window.addEventListener('load',mp_langLink,false);
-    }else if(window.attachEvent){
-    	window.attachEvent('onload',mp_langLink);
+      var origin = window.location.origin;
+      window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fuser\x2Flogin.html';
     }
   </script>
-  <!-- mp_snippet_ends -->
-  <!--  cq:includeClientLib categories="cq.foundation-main"/ -->
-  <!-- cq:include script="stats.jsp" /-->
-  <!-- LivePerson-->
-  <script type="text/javascript">
-    var lpTag = lpTag || {}; lpTag.vars = lpTag.vars || []; lpTag.dbs = lpTag.dbs || [];lpTag.sdes = lpTag.sdes||[];
-        lpTag.section = 'default';
-  </script>
-  <script type="text/javascript">
-    DY.languageHeader = "";
-    	function setDomainAwareCookie(name, value, parameters){
-    		var cookieDomain = ".davidyurman.com";
-    		if (cookieDomain !== undefined && cookieDomain !== ""){
-    			parameters.domain = cookieDomain;
-    		}
-    		$.cookie(name, value, parameters);
-    	}
-  </script>
-  <script type="text/javascript" src="//nexus.ensighten.com/davidyurman/dev/Bootstrap.js"></script>
-  <!-- Including the UV API script-->
-  <script>
-    !function(){function n(){function n(n){p.level=n}function e(n,e){p.info(n,"event emitted"),e=c(e||{}),e.meta=e.meta||{},e.meta.type=n,u.push(e),r(),v.listeners=f(v.listeners,function(n){return!n.disposed})}function o(n,e,o){function r(){return p.info("Replaying events"),t(function(){s(v.events,function(t){c.disposed||l(n,t.meta.type)&&e.call(o,t)})}),f}function i(){return p.info("Disposing event handler"),c.disposed=!0,f}p.info("Attaching event handler for",n);var c={type:n,callback:e,disposed:!1,context:o||window};v.listeners.push(c);var f={replay:r,dispose:i};return f}function t(n){p.info("Calling event handlers"),a++;try{n()}catch(n){p.error("UV API Error",n.stack)}a--,r()}function r(){if(0===u.length&&p.info("No more events to process"),u.length>0&&a>0&&p.info("Event will be processed later"),u.length>0&&0===a){p.info("Processing event");var n=u.shift();v.events.push(n),t(function(){s(v.listeners,function(e){if(!e.disposed&&l(e.type,n.meta.type))try{e.callback.call(e.context,n)}catch(n){p.error("Error emitting UV event",n.stack)}})})}}function i(n,e,o){var t=v.on(n,function(){e.apply(o||window,arguments),t.dispose()});return t}function s(n,e){for(var o=n.length,t=0;t<o;t++)e(n[t],t)}function c(n){var e={};for(var o in n)n.hasOwnProperty(o)&&(e[o]=n[o]);return e}function l(n,e){return"string"==typeof n?n===e:n.test(e)}function f(n,e){for(var o=n.length,t=[],r=0;r<o;r++)e(n[r])&&t.push(n[r]);return t}var u=[],a=0,p={info:function(){p.level>n.INFO||console&&console.info&&console.info.apply(console,arguments)},error:function(){p.level>n.ERROR||console&&console.error&&console.error.apply(console,arguments)}};n.ALL=0,n.INFO=1,n.ERROR=2,n.OFF=3,n(n.ERROR);var v={on:o,emit:e,once:i,events:[],listeners:[],logLevel:n};return v}"object"==typeof module&&module.exports?module.exports=n:window&&void 0===window.uv&&(window.uv=n())}();
-  </script>
-  <!-- Including the smartserve.js script  for Production -->
-  <!-- <script src='//dd6zx4ibq538k.cloudfront.net/smartserve-4894.js' async defer></script> -->
-  <!-- Including the smartserve.js script  for Stage-->
-  <script src="//dd6zx4ibq538k.cloudfront.net/smartserve-4894.js" async defer></script>
-  <!-- Open Graph tags https://developers.facebook.com/docs/reference/opengraph/ -->
-  <meta property="fb:app_id" content="261071300642523">
-  <!-- og:image is a link to the default image used for social sharing if the share link does not specify one -->
-  <meta property="og:image" content="http://images.davidyurman.com/image/0/0/e46c7016-f7cc-46ec-b2be-dc7be15711a1.jpg">
-  <!-- og:title is the page title used for social sharing -->
-  <meta property="og:title" content="Test">
-  <!-- og:url is the canonical URL used for social sharing -->
-  <meta property="og:url" content="http://www.davidyurman.com/test.html">
-  <!-- og:site_name is the site name used for social sharing -->
-  <meta property="og:site_name" content="David Yurman">
-  <!-- og:type is the page type used for social sharing -->
-  <!-- relevant types are product and product.group -->
-  <meta property="og:type" content="product">
-  <!-- For Pinterest, products require the following meta tags -->
-  <!-- additional tags can be found documented here: https://developers.pinterest.com/rich_pins/ -->
-  <!--[if lt IE 9]>
-    <link rel="stylesheet" href="/etc/designs/davidyurman/clientlibs/base/css/print.css">
-  <![endif]-->
-</head>
-<style type="text/css">
-  /*
-  #nav-Women .pnav-sub.nav-drop {
-      display: block !important;
-  }
-  */
-</style>
+  <nav id="nav-mobile" class="mm-menu mm-horizontal mm-front">
+    <div class="menu-panel mm-panel mm-opened mm-current" id="mm-m0-p0">
+      <form id="frm-search" method="GET" action="/search.html">
+        <div class="frm-search-txt">
+          <input type="text" placeholder="Search" name="keyword" title="search" id="mobileSearchBox">
+          <div id="mobileSearchResults"></div>
+        </div>
+        <input type="submit" value="Submit" id="mobileSearchBtn">
+      </form>
+      <ul class="menu-main">
+        <li class="menu-parent menu-closed" data-active-group="category">
+          <div class="menu-parent-title" data-target="//www.davidyurman.com/products/women.html">
+            Women
+                    <span class="expandCollapseIcon"></span>
+          </div>
+          <div class="menu-child-content">
+            <ul class="menu-child-groups">
+              <li data-open="category">Categories</li>
+              <li data-open="collection">Collections</li>
+              <li data-open="shops">DY Shops</li>
+            </ul>
+            <ul data-group="category" class="menu-child-items">
+              <!-- Category Landing page title section -->
+              <li class="menu-landing-pageLink " data-target="//www.davidyurman.com/products/women.html">Discover Women's</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/new-designs.html">New Designs</li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Earrings</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/earrings.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/earrings/chandelier.html?section=0" class="cppLink">Chandelier </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/earrings/drop.html?section=0" class="cppLink">Drop </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/earrings/hoop.html?section=0" class="cppLink">Hoop </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/earrings/stud.html?section=0" class="cppLink">Stud </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Bracelets</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/bracelets.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/bracelets/bangle.html?section=0" class="cppLink">Bangle </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/bracelets/bead.html?section=0" class="cppLink">Bead </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/bracelets/chain.html?section=0" class="cppLink">Chain </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/bracelets/cuff.html?section=0" class="cppLink">Cuff </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/bracelets/linked.html?section=0" class="cppLink">Linked </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Necklaces &amp; Chains</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/necklaces-and-chains.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/amulets.html?section=0" class="cppLink">Amulets </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/bead.html?section=0" class="cppLink">Bead </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/chain.html?section=0" class="cppLink">Chain </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/chain-with-station.html?section=0" class="cppLink">Chain with Station </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/collar.html?section=0" class="cppLink">Collar </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/pearls.html?section=0" class="cppLink">Pearls </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/enhancer.html?section=0" class="cppLink">Pendant </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/pendant.html?section=0" class="cppLink">Pendant Necklace </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/necklaces-and-chains/lariat.html?section=0" class="cppLink">Y Necklace </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Rings</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/rings.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/rings/band.html?section=0" class="cppLink">Band </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/rings/statement.html?section=0" class="cppLink">Statement </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/rings/petite.html?section=0" class="cppLink">Petite </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/rings/signet-pinky.html?section=0" class="cppLink">Signet </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/women/rings/wedding-bands.html?section=0" class="cppLink">Wedding Bands </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/women/watches.html">Watches</li>
+            </ul>
+            <ul data-group="collection" class="menu-child-items">
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/albion.html">Albion®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/belmont.html">Belmont®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/bijoux.html">Bijoux</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/cable.html">Cable</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/cable-buckle-collection.html">Cable Buckle® Collection</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/cable-collectible.html">Cable Collectibles®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/cable-wrap.html">Cable Wrap</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/chain.html">Chain</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/chatelaine.html">Chatelaine®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/confetti.html">Confetti</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/continuance.html">Continuance®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/crossover.html">The Crossover® Collection</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/dy-bel-aire.html">DY Bel Aire</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/logo.html">DY Signature</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/guilin.html">Guilin</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/the-hampton-cable-collection.html">Hampton Cable Collection®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/helena.html">Helena</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/labyrinth.html">Labyrinth®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/midnight-ice.html">Midnight Ice®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/mobile.html">Mobile</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/mustique.html">Mustique</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/oceanica.html">Oceanica</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/osetra.html">Osetra®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/pave-flex.html">Pavéflex</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/pearl-classics.html">Pearl Classics</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/petite-pave.html">Petite Pavé</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/pinky-rings.html">Pinky Rings</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/pure-form.html">Pure Form®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/renaissance.html">DY Renaissance®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/sculpted-cable.html">Sculpted Cable</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/solari.html">Solari</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/starburst.html">Starburst</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/stax.html">Stax</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/supernova.html">Supernova</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/tempo.html">Tempo</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/venetian-quatrefoil.html">Venetian Quatrefoil®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/wheaton.html">Wheaton®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/willow.html">Willow</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/wisteria.html">Wisteria</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/women/collections/x-collection.html">X Collection</a>
+              </li>
+            </ul>
+            <ul data-group="shops" class="menu-child-items">
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/gold.html" class="cppLink">The Gold Shop</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/silver.html" class="cppLink">The Silver Shop</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/pearl.html" class="cppLink">The Pearl Shop</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/jewelry-under-500.html" class="cppLink">Jewelry Under $500</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/jewelry-under-1000.html" class="cppLink">Jewelry Under $1000</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/women/dy-shops/dy-bel-aire-shop.html" class="cppLink">The DY Bel Aire Shop</a>
+              </li>
+            </ul>
+            <div class="scroll-fade"></div>
+          </div>
+        </li>
+        <li class="menu-parent menu-closed" data-active-group="category">
+          <div class="menu-parent-title" data-target="//www.davidyurman.com/products/men.html">
+            Men
+                    <span class="expandCollapseIcon"></span>
+          </div>
+          <div class="menu-child-content">
+            <ul class="menu-child-groups">
+              <li data-open="category">Categories</li>
+              <li data-open="collection">Collections</li>
+              <li data-open="shops">DY Shops</li>
+            </ul>
+            <ul data-group="category" class="menu-child-items">
+              <!-- Category Landing page title section -->
+              <li class="menu-landing-pageLink " data-target="//www.davidyurman.com/products/men.html">Discover Men's</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/new-designs.html">New Designs</li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Bracelets</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/bracelets.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/bracelets/bead.html?section=0" class="cppLink">Bead </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/bracelets/cuff.html?section=0" class="cppLink">Cuff </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/bracelets/chain.html?section=0" class="cppLink">Chain </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/bracelets/leather.html?section=0" class="cppLink">Leather </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/bracelets/rubber-and-cord.html?section=0" class="cppLink">Rubber and Cord </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Chains &amp; Pendants</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/necklaces-and-tags.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/necklaces-and-tags/amulets.html?section=0" class="cppLink">Amulets </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/necklaces-and-tags/bead.html?section=0" class="cppLink">Bead </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/necklaces-and-tags/chain.html?section=0" class="cppLink">Chain </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/necklaces-and-tags/pendants.html?section=0" class="cppLink">Pendants </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/necklaces-and-tags/tags.html?section=0" class="cppLink">Tags </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Rings</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/rings.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/rings/band.html?section=0" class="cppLink">Band </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/rings/signet.html?section=0" class="cppLink">Signet </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/rings/wedding-bands.html?section=0" class="cppLink">Wedding Bands </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">Accessories</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/accessories.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/accessories/belt-buckle.html?section=0" class="cppLink">Belt Buckle </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/accessories/cufflinks-and-studsets.html?section=0" class="cppLink">Cufflinks and Studsets </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/accessories/keychain.html?section=0" class="cppLink">Keychain </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/accessories/knife.html?section=0" class="cppLink">Knife </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/men/accessories/money-clip.html?section=0" class="cppLink">Money Clip </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/men/watches.html">Watches</li>
+            </ul>
+            <ul data-group="collection" class="menu-child-items">
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/anvil.html">Anvil</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/armory.html">Armory®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/cable-classic.html">Cable Classics Collection®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/the-chain-collection.html">Chain</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/chevron.html">Chevron</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/amulets.html">David Yurman Amulets Collection</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/exotic-stone.html">Exotic Stone</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/forged-carbon.html">Forged Carbon</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/fortune.html">DY Fortune</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/frontier.html">Frontier</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/graphic-cable.html">Graphic Cable</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/hex.html">Hex</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/knife-edge.html">Knife Edge</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/maritime.html">Maritime®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/meteorite.html">Meteorite</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/modern-cable.html">Modern Cable</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/naturals.html">Naturals Collection®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/pave.html">Pavé</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/petrvs.html">Petrvs®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/skull.html">Skull</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/spiritual-beads.html">Spiritual Beads</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/streamline.html">Streamline®</a>
+              </li>
+              <li class="sub-category-li">
+                <a class="cppLink" href="#" data-target="//www.davidyurman.com/products/men/collections/waves.html">Waves</a>
+              </li>
+            </ul>
+            <ul data-group="shops" class="menu-child-items">
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/men/dy-shops/jewelry-under-500.html" class="cppLink">Jewelry Under $500</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/men/dy-shops/jewelry-under-1000.html" class="cppLink">Jewelry Under $1000</a>
+              </li>
+              <li class="sub-category-li">
+                <a href="#" data-target="//www.davidyurman.com/products/men/dy-shops/mens-iconics.html" class="cppLink">Men's Iconics</a>
+              </li>
+            </ul>
+            <div class="scroll-fade"></div>
+          </div>
+        </li>
+        <li class="menu-parent menu-closed" data-active-group="category">
+          <div class="menu-parent-title" data-target="//www.davidyurman.com/products/gifts.html">
+            Gifts
+                    <span class="expandCollapseIcon"></span>
+          </div>
+          <div class="menu-child-content">
+            <ul data-group="category" class="menu-child-items">
+              <!-- Category Landing page title section -->
+              <li class="menu-landing-pageLink " data-target="//www.davidyurman.com/products/gifts.html">Discover Gifts</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/gifts/for-her.html">For Her</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/gifts/for-him.html">For Him</li>
+              <li class="categoryLink menu-child-link">
+                <span class="categoryExpandCollapseIcon subcategoryHeader"></span>
+                <a href="#" class="subcategoryHeader">For Kids</a>
+                <ul class="paddingLeft0">
+                  <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/gifts/for-kids.html">View All</li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/gifts/for-kids/for-girls.html?section=0" class="cppLink">For Girls </a>
+                  </li>
+                  <li class="sub-category-li">
+                    <a href="#" data-target="//www.davidyurman.com/products/gifts/for-kids/for-boys.html?section=0" class="cppLink">For Boys </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/gifts/for-home.html">For Home</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/gifts/gift-card-gc00000.html">Gift Card</li>
+            </ul>
+            <ul data-group="collection" class="menu-child-items">
+            </ul>
+            <ul data-group="shops" class="menu-child-items">
+            </ul>
+            <div class="scroll-fade"></div>
+          </div>
+        </li>
+        <li class="menu-parent menu-closed" data-active-group="category">
+          <div class="menu-parent-title" data-target="//www.davidyurman.com/products/wedding.html">
+            Engagement
+                    <span class="expandCollapseIcon"></span>
+          </div>
+          <div class="menu-child-content">
+            <ul data-group="category" class="menu-child-items">
+              <!-- Category Landing page title section -->
+              <li class="menu-landing-pageLink " data-target="//www.davidyurman.com/products/wedding.html">Discover Engagement</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/engagement-rings.html">Engagement Rings</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/wedding-bands.html">Wedding Bands</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/wedding-gifts.html">Wedding Gifts</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/wedding-jewelry.html">Wedding Jewelry</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/diamonds-and-artistry.html">Diamonds &amp; Artistry</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/products/wedding/book-an-appointment.html">Book an Appointment</li>
+            </ul>
+            <ul data-group="collection" class="menu-child-items">
+            </ul>
+            <ul data-group="shops" class="menu-child-items">
+            </ul>
+            <div class="scroll-fade"></div>
+          </div>
+        </li>
+        <li class="menu-parent menu-closed" data-active-group="category">
+          <div class="menu-parent-title" data-target="//www.davidyurman.com/world-of-yurman.html">
+            World of Yurman
+                    <span class="expandCollapseIcon"></span>
+          </div>
+          <div class="menu-child-content">
+            <ul data-group="category" class="menu-child-items">
+              <!-- Category Landing page title section -->
+              <li class="menu-landing-pageLink " data-target="//www.davidyurman.com/world-of-yurman.html">Discover World of Yurman</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/pure-form.html">Pure Form</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/summer-2017.html">Summer Styles</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/david-yurman-iconics.html">David Yurman Iconics</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/hex-collection.html">Hex Collection</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/dy-bel-aire.html">DY Bel Aire</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/young-artists.html">The David Yurman Young Artist Prize</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/heritage.html">Heritage</li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/high-jewelry.html">High Jewelry </li>
+              <li class="menu-landing-pageLink" data-target="//www.davidyurman.com/world-of-yurman/films.html">Films</li>
+            </ul>
+            <ul data-group="collection" class="menu-child-items">
+            </ul>
+            <ul data-group="shops" class="menu-child-items">
+            </ul>
+            <div class="scroll-fade"></div>
+          </div>
+        </li>
+      </ul>
+      <ul class="menu-extra">
+        <li class="findstore"><a href="//www.davidyurman.com/store.html" class="icon-location">Find a Store</a></li>
+        <li class="register"><a href="//www.davidyurman.com/user/login.html" class="icon-user">Register/Login</a></li>
+        <li class="languages">
+          <!--mp_global_switch_begins-->
+          <a mporgnav class="user-locale" href="#" onclick="return chooser();function chooser(){var script=document.createElement('SCRIPT');script.src='https://davidyurman.mpeasylink.com/mpel/mpel_chooser.js';document.body.appendChild(script);return false;}" title="Global Switch">Choose Language</a>
+          <!--mp_global_switch_ends-->
+        </li>
+      </ul>
+      <ul class="menu-contactus hide">
+        <li>
+          <h3 class="headerTxt">Contact Customer Service</h3>
+        </li>
+        <li>
+        </li>
+        <li class="contactNum"><a href="tel:1-888-398-7626">1-888-DYURMAN (1-888-398-7626)</a></li>
+        <li class="chat-with-us">
+          <div id="lpButtonDiv-customerservice"></div>
+        </li>
+        <li class="emailUs"><a href="//www.davidyurman.com/assistance/email.html">EMAIL US</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<div id="header-wrapper" class="">
+  <header id="header">
+    <div id="header-inner">
+      <div id="menu-toggle-container">
+        <a href="#nav-mobile" id="menu-toggle"><span>Main Menu</span></a>
+      </div>
+      <div id="logo">
+        <div class="logo">
+          <a href="//www.davidyurman.com/"><img src="//www.davidyurman.com/etc/designs/davidyurman/_jcr_content/homepage/logo.img.png/1392317390971.png" alt="Home" title="David Yurman"></a>
+        </div>
+      </div>
+      <div id="upper-nav-container">
+        <div class="upper-nav-item">
+          <div class="parbase topnav" id="nav-top-links">
+            <!-- cq:includeClientLib categories="cq.shared"/ -->
+            <input type="hidden" id="baseStoreId" value="dy">
+            <ul id="quick-links">
+              <li class="quick-link-languages pnav-top">
+                <!--mp_global_switch_begins-->
+                <a class="user-locale icon-globe" onclick="return chooser(); function chooser(){MP.SrcUrl=unescape('mp_js_orgin_url'); MP.UrlLang='mp_js_current_lang'; MP.oSite=decodeURIComponent('mp_js_origin_baseUrl');MP.tSite=decodeURIComponent('mp_js_translated_baseUrl'); MP.init();var script=document.createElement('SCRIPT'); script.src='https://davidyurman.mpeasylink.com/mpel/mpel_chooser.js'; document.body.appendChild(script);return false;}" href="#" mporgnav="true">Language</a>
+                <!--mp_global_switch_ends-->
+              </li>
+              <li class="quick-link-newsletter ql-drop">
+                <a class="icon-mail" href="//www.davidyurman.com/email-signup.html">Sign Up </a>
+                <div class="ql-drop-container">
+                  <div class="ql-drop-content dbtip">
+                    <h4 class="signup-title">Sign up to receive our emails</h4>
+                    <form id="newsletter-add" class="field-container field-text">
+                      <input type="hidden" name="PAGESOURCE" value="header">
+                      <input type="hidden" id="emailUrl" value="/email-signup.html">
+                      <div class="field-container field-text">
+                        <input type="text" id="emailIdText" name="email" placeholder="Email Address" title="Email Address">
+                      </div>
+                      <input class="btn" type="submit" value="Submit" id="newsletter-add-btn">
+                    </form>
+                  </div>
+                </div>
+              </li>
+              <li class="quick-link-store ql-drop">
+                <a class="icon-location" href="//www.davidyurman.com/store.html">Find a Store</a>
+                <div class="parbase storeflyout">
+                  <div class="ql-drop-container">
+                    <div class="ql-drop-content dbtip">
+                      <h4>Locate a David Yurman boutique near you</h4>
+                      <form id="store-zip-search" action="/store.html" data-geocode-error="A location could not be determined. Please modify your query and try again.">
+                        <div class="field-container field-text">
+                          <label for="zip-search-zip">Search by Zip/Postal Code</label>
+                          <input id="zip-search-zip" type="text" name="query" class="search-query-field">
+                          <input type="hidden" name="lat" class="field-lat">
+                          <input type="hidden" name="lng" class="field-lng">
+                        </div>
+                        <button class="btn">Find</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="quick-link-login ql-drop" title="Sign in"><a class="icon-user" href="//www.davidyurman.com/user/login.html">Register/Login</a></li>
+            </ul>
+            <script type="text/javascript">
+              function logout() {
+              	/*$('<form action="/content/david-yurman.commerce.logout.html?resource=\/#.html"></form>').appendTo('body').submit();*/
+              
+              
+              	var baseStoreId = $('#baseStoreId').val();
+              	var origin = window.location.origin;
+              	if(baseStoreId == 'eps'){
+              		window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fcontent\x2Fdavid-yurman\x2Feps_en_us\x2Fuser\x2Flogin.html';
+              	} else {
+              		window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fuser\x2Flogin.html';
+              	}
+              
+              }
+            </script>
+          </div>
+        </div>
+        <div class="upper-nav-item">
+          <div class="parbase shoppingbagflyout">
+            <div id="shop-bag-container">
+              <div class="mobile-search">
+                <a href="javascript:void(0)">
+                  <span class="icon-search"></span>
+                </a>
+              </div>
+              <div class="shop-bag-label">
+                <a href="//www.davidyurman.com/user/shopping-bag.html">
+                  <span class="shop-bag-label-text">
+                    My Bag
+		    </span>
+                </a>
+              </div>
+              <div class="shop-bag-count">
+                <a href="//www.davidyurman.com/user/shopping-bag.html">0</a>
+              </div>
+              <div id="shop-bag-drop" class="nav-drop">
+                <div id="shop-bag" class="dbtip"></div>
+              </div>
+              <script type="text/html" id="tpl-menu-bag-wish-list-prompt">
+                <div class="sb-add-to-wish-list">
+                			<div>Would you like to add to your wish list?</div>
+                
+                
+                
+                                        <a href="/user/login.html?sku={{product}}" class="sb-wish-list-prompt-yes-login">Yes</a>
+                
+                
+                				<button class="sb-wish-list-prompt-no">No</button>
+                            </div>
+                		</div>
+              </script>
+              <script type="text/html" id="tpl-menu-bag-item">
+                <div class="sb-product-image">
+                			<img src="{{imageUrl}}?$bag_product$" alt="{{{info}}}" width="89px">
+                		</div>
+                		<div class="sb-product-details">
+                			<div class="sb-product-name"><a class="action-link" href="{{productUrl}}.html">{{{info}}}</a></div>
+                			<div class="sb-product-price">
+                				{{#discountPrice}}
+                					<span class="price-strike">{{basePrice.formattedValue}}</span>&nbsp;<span class="price-color-red">{{discountPrice}}</span>
+                				{{/discountPrice}}
+                				{{^discountPrice}}
+                					<span>{{basePrice.formattedValue}}</span>
+                				{{/discountPrice}}
+                			</div>
+                            <div class="sb-product-quantity">Qty: {{quantity}}</div>
+                			<div class="sb-product-remove"><a class="action-link remove" href="#">Remove</a></div>
+                		</div>
+              </script>
+              <script type="text/html" id="tpl-menu-bag-new">
+                <div class="sb-title">
+                			You added <strong>"{{addedName}}"</strong> to your shopping bag
+                		</div>
+                		<div class="activity-indicator-bag"></div>
+                		<ul class="sb-products">
+                			<!-- products go here -->
+                		</ul>
+                		<div class="sb-footer">
+                			<div class="sb-bag-link">
+                				<a class="action-link" href="/user/shopping-bag.html">View Bag</a>
+                			</div>
+                			<a class="btn btn--atb" href="/user/checkout.html">Checkout</a>
+                		</div>
+              </script>
+              <script type="text/html" id="tpl-menu-bag-all">
+                <div class="sb-title">
+                			<span class="sb-count"><strong>{{productCount}}</strong> item(s)</span> in your bag
+                		</div>
+                		<div class="sb-shipping">
+                			Get complimentary shipping with any order.<br><a class="action-link" href="/assistance/shipping.html">See details</a>
+                		</div>
+                		<div class="activity-indicator-bag"></div>
+                		<ul class="sb-products">
+                			<!-- products go here -->
+                		</ul>
+                		<div class="sb-footer">
+                			<div class="sb-bag-link">
+                				<a class="action-link" href="/user/shopping-bag.html">View Bag</a>
+                			</div>
+                			<a class="btn btn--atb" href="/user/checkout.html">Checkout</a>
+                		</div>
+              </script>
+              <script type="text/html" id="tpl-menu-bag-new-mobile">
+                <div class="sb-title">
+                            You added <strong>"{{addedName}}"</strong> to your shopping bag
+                        </div>
+                        <div class="activity-indicator-bag"></div>
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="lower-nav-container">
+        <div class="nav-wrapper">
+          <div class="headerNavigation parbase headernavigation">
+            <!-- #nav -->
+            <div id="nav-primary">
+              <ul class="pnav">
+                <li id="nav-Women" class="pnav-top has-children">
+                  <a href="//www.davidyurman.com/products/women.html">Women</a>
+                  <div class="pnav-sub nav-drop">
+                    <div class="nav-drop-container">
+                      <div class="subnav-wrapper">
+                        <label class="subnav-title title-text-italic font-type-didot track-0 font-size-15pt">Shop Women</label>
+                        <ul>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/new-designs.html">New Designs</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/earrings.html">Earrings</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/bracelets.html">Bracelets</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/necklaces-and-chains.html">Necklaces &amp; Chains</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/rings.html">Rings</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/women/watches.html">Watches</a></li>
+                        </ul>
+                      </div>
+                      <div class="header-promo-wrapper">
+                        <div class="meganavpromo_aac4 meganavpromo">
+                          <div class="right-mega-nav">
+                            <div class="title-text-mega title-text-italic letter-spacing-0 font-type-didot track-0 font-size-15pt">Featured Collection</div>
+                            <a href="//www.davidyurman.com/world-of-yurman/pure-form.html"><img class="img-mega" src="//img.davidyurman.com/is/image/DavidYurman/MEGANAV%2DWOMENS%2D20170816?%24mktg%24" alt=""></a>
+                            <div class="promo-box-mega">
+                              <div class="auto-center">
+                                <div class="promo-text-header font-type-didot track-0 font-size-36pt">Pure Form</div>
+                                <p class="font-type-minion-regular track-100 font-size-17pt">Sculptural designs. Sleek lines.<br>
+                                  Modern metals.</p>
+                                <a href="//www.davidyurman.com/world-of-yurman/pure-form.html" class="border">EXPLORE</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="nav-Men" class="pnav-top has-children">
+                  <a href="//www.davidyurman.com/products/men.html">Men</a>
+                  <div class="pnav-sub nav-drop">
+                    <div class="nav-drop-container">
+                      <div class="subnav-wrapper">
+                        <label class="subnav-title title-text-italic font-type-didot track-0 font-size-15pt">Shop Men</label>
+                        <ul>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/new-designs.html">New Designs</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/bracelets.html">Bracelets</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/necklaces-and-tags.html">Chains &amp; Pendants</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/rings.html">Rings</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/accessories.html">Accessories</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/men/watches.html">Watches</a></li>
+                        </ul>
+                      </div>
+                      <div class="header-promo-wrapper">
+                        <div class="meganavpromo_1fd0 meganavpromo">
+                          <div class="right-mega-nav">
+                            <div class="title-text-mega title-text-italic letter-spacing-0 font-type-didot track-0 font-size-15pt">Featured Collection</div>
+                            <a href="//www.davidyurman.com/world-of-yurman/hex-collection.html"><img class="img-mega" src="//img.davidyurman.com/is/image/DavidYurman/MEGANAV%2DMENS%2D20170816?%24mktg%24" alt=""></a>
+                            <div class="promo-box-mega">
+                              <div class="auto-center">
+                                <div class="promo-text-header font-type-didot track-0 font-size-36pt">Introducing Hex</div>
+                                <p class="font-type-minion-regular track-100 font-size-17pt">A new collection for men that fuses engineered rubber and silver or 18k gold. </p>
+                                <a href="//www.davidyurman.com/world-of-yurman/hex-collection.html" class="border">EXPLORE</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="nav-Engagement" class="pnav-top has-children">
+                  <a href="//www.davidyurman.com/products/wedding.html">Engagement</a>
+                  <div class="pnav-sub nav-drop">
+                    <div class="nav-drop-container">
+                      <div class="subnav-wrapper">
+                        <label class="subnav-title title-text-italic font-type-didot track-0 font-size-15pt">Engagement</label>
+                        <ul>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/engagement-rings.html">Engagement Rings</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/wedding-bands.html">Wedding Bands</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/wedding-gifts.html">Wedding Gifts</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/wedding-jewelry.html">Wedding Jewelry</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/diamonds-and-artistry.html">Diamonds &amp; Artistry</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/wedding/book-an-appointment.html">Book an Appointment</a></li>
+                        </ul>
+                      </div>
+                      <div class="header-promo-wrapper">
+                        <div class="meganavpromo_2b83 meganavpromo">
+                          <div class="right-mega-nav">
+                            <div class="title-text-mega title-text-italic letter-spacing-0 font-type-didot track-0 font-size-15pt">Engagement Ring Collections</div>
+                            <a href="//www.davidyurman.com/products/wedding/engagement-rings.html"><img class="img-mega" src="//s7d2.scene7.com/is/image/DavidYurman/nav%5Fengagement37?%24mktg%24" alt=""></a>
+                            <div class="promo-box-mega">
+                              <div class="auto-center">
+                                <div class="promo-text-header font-type-didot track-0 font-size-36pt">Beyond Perfect</div>
+                                <p class="font-type-minion-regular track-100 font-size-17pt">Engagement rings designed with<br>
+                                  love and crafted to last.</p>
+                                <a href="//www.davidyurman.com/products/wedding/engagement-rings.html" class="border">EXPLORE NOW</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="nav-Gifts" class="pnav-top has-children">
+                  <a href="//www.davidyurman.com/products/gifts.html">Gifts</a>
+                  <div class="pnav-sub nav-drop">
+                    <div class="nav-drop-container">
+                      <div class="subnav-wrapper">
+                        <label class="subnav-title title-text-italic font-type-didot track-0 font-size-15pt">Shop Gifts</label>
+                        <ul>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/gifts/for-her.html">For Her</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/gifts/for-him.html">For Him</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/gifts/for-kids.html">For Kids</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/gifts/for-home.html">For Home</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/products/gifts/gift-card-gc00000.html">Gift Card</a></li>
+                        </ul>
+                      </div>
+                      <div class="header-promo-wrapper">
+                        <div class="meganavpromo_3a02 meganavpromo">
+                          <div class="right-mega-nav">
+                            <div class="title-text-mega title-text-italic letter-spacing-0 font-type-didot track-0 font-size-15pt">David Yurman Iconics</div>
+                            <a href="//www.davidyurman.com/world-of-yurman/david-yurman-iconics.html"><img class="img-mega" src="//img.davidyurman.com/is/image/DavidYurman/MEGANAV%2DGIFTS%2D20170816?%24mktg%24" alt=""></a>
+                            <div class="promo-box-mega">
+                              <div class="auto-center">
+                                <div class="promo-text-header font-type-didot track-0 font-size-36pt">Forever Classic</div>
+                                <p class="font-type-minion-regular track-100 font-size-17pt">Give her the gift of a timeless David Yurman design. </p>
+                                <a href="//www.davidyurman.com/world-of-yurman/david-yurman-iconics.html" class="border">EXPLORE</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li id="nav-World of Yurman" class="pnav-top has-children">
+                  <a href="//www.davidyurman.com/world-of-yurman.html">World of Yurman</a>
+                  <div class="pnav-sub nav-drop">
+                    <div class="nav-drop-container">
+                      <div class="subnav-wrapper">
+                        <label class="subnav-title title-text-italic font-type-didot track-0 font-size-15pt">World Of Yurman</label>
+                        <ul>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/pure-form.html">Pure Form</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/summer-2017.html">Summer Styles</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/david-yurman-iconics.html">David Yurman Iconics</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/hex-collection.html">Hex Collection</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/dy-bel-aire.html">DY Bel Aire</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/young-artists.html">The David Yurman Young Artist Prize</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/heritage.html">Heritage</a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/high-jewelry.html">High Jewelry </a></li>
+                          <li><a class="font-type-minion-regular track-100 font-size-15pt" href="//www.davidyurman.com/world-of-yurman/films.html">Films</a></li>
+                        </ul>
+                      </div>
+                      <div class="header-promo-wrapper">
+                        <div class="meganavpromo_3e8a meganavpromo">
+                          <div class="right-mega-nav">
+                            <div class="title-text-mega title-text-italic letter-spacing-0 font-type-didot track-0 font-size-15pt">Featured Collection</div>
+                            <a href="//www.davidyurman.com/world-of-yurman/pure-form.html"><img class="img-mega" src="//img.davidyurman.com/is/image/DavidYurman/MEGANAV%2DWOY%2D20170816?%24mktg%24" alt=""></a>
+                            <div class="promo-box-mega">
+                              <div class="auto-center">
+                                <div class="promo-text-header font-type-didot track-0 font-size-36pt">Pure Form</div>
+                                <p class="font-type-minion-regular track-100 font-size-17pt">Discover the sculptural beauty of Pure Form<sup>®</sup>,<br>
+                                  crafted with modern mixed metals.</p>
+                                <a href="//www.davidyurman.com/world-of-yurman/pure-form.html" class="border">EXPLORE</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <style type="text/css">
+              /*
+              #nav-Women .pnav-sub.nav-drop {
+                  display: block !important;
+              }
+              */
+            </style>
+          </div>
+        </div>
+        <div class="search-wrapper">
+          <div class="search parbase" id="search-container">
+            <div class="search" id="nav-bar-searchwrapper">
+              <span class="search-btn"></span>
+              <span class="search-text">Search</span>
+            </div>
+            <div id="search-box" class="search-box">
+              <form class="search-form" method="GET" action="/search.html" id="search-form">
+                <input name="keyword" type="text" placeholder="Search" title="search" id="search-input-box">
+                <div id="results"></div>
+                <!-- <div class="search-icon"><a class="search-btn" id="search-input-btn"></a></div> -->
+                <button type="submit" class="search-input-btn" id="search-input-btn"><span class="icon-search"></span></button>
+                <!-- <input class="search-submit icon-search" type="submit" value="Submit" > -->
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mobile search bar -->
+    <div class="header-search-bar-mobile">
+      <form class="search-form" method="GET" action="/search.html" id="search-form-mobile">
+        <input name="keyword" type="text" title="search" id="search-input-box-mobile" autofocus>
+        <div id="results-mobile"></div>
+        <button type="submit" class="search-input-btn-mobile" id="search-input-btn-mobile"><span class="icon-search"></span></button>
+      </form>
+    </div>
+  </header>
+</div>

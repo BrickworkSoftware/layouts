@@ -270,7 +270,9 @@
     text-transform: lowercase;
 }
 
-
+/*.search_header .date_selection_container .day-date-column:hover, #appointment-container .bw-appointment-services .bw-appointment-service-link .appointment_link {
+  color: #fff !important;
+}*/
 /* Appointment Modal Store Muses */
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a{
   border:1px none !important;
@@ -464,4 +466,33 @@ select:hover {
 /* Store Index Image */
 .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
   display: none !important;
+}
+
+.appointment-rsvp-container #appointment-confirmation {
+  padding: 35px 0;
+}
+
+.appointment-rsvp-container #appointment-confirmation .details {
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
+  border-top: none;
+  border-bottom: none;
+}
+
+#appointment-container #appointment-confirmation::before {
+  position: absolute;
+  content: '';
+  width: 90%;
+  height: 16px;
+  left: 5%;
+  z-index: 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+#appointment-container #appointment-confirmation .confirmation_title {
+  font-size: 24px;
+  position: relative;
+  margin: 0;
+  background: #fff;
+  padding: 0 20px;
+  display: inline-block;
 }

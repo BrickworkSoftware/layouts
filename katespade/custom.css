@@ -502,3 +502,10 @@ select:hover {
     width: 31% !important;
   }
 }
+
+@media only screen and (max-width: 640px) {
+  #appointment-container .bw-appointment-step-container-title, #appointment-container .title h1 {
+    margin: -10px;
+    padding: 0;
+  }
+}

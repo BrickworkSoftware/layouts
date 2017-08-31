@@ -190,26 +190,7 @@
 .bwt-store-map-button-mobile {
   font-family: "FuturaPT-Medium", Helvetica, Arial, sans-serif !important;
 }
-#appointment-container ul.associates-grid li .associate-info div:first-of-type {
-  padding: 4% !important;
-  margin: 36px auto !important;
-}
-#appointment-container ul.associates-grid li .associate-info div:first-of-type:hover {
-  background:#48a642;
-  border-color: #48a642;
-  color: #fff;
-}
-@media(max-width:320px){
-  .associates_cointainer .associate_label {
-  margin-left: -17px;
-}
-}
-@media (max-width:490px){
-  #appointment-container ul.associates-grid li .associate-info div:first-of-type {
-  padding: 3% !important;
 
-}
-}
 .bwt-filters-features-title {
   font-family: 'FuturaPT-Heavy', sans-serif !important;
 }
@@ -270,9 +251,7 @@
     text-transform: lowercase;
 }
 
-/*.search_header .date_selection_container .day-date-column:hover, #appointment-container .bw-appointment-services .bw-appointment-service-link .appointment_link {
-  color: #fff !important;
-}*/
+
 /* Appointment Modal Store Muses */
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a{
   border:1px none !important;
@@ -288,7 +267,10 @@
   background: #fff !important;
   color: #000 !important;
 }
-
+.row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info *{
+  background: #fff !important;
+  color: #000 !important;
+}
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info h6{
   font-family: NewBaskervilleITCbyBT-Roman;
   font-size: 24px;
@@ -301,11 +283,10 @@
   bottom: 8px;
 }
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p{
-  font-family: NewBaskervilleITCbyBT-Roman !important;
+  font-family: KateSans-Regular !important;
   font-size: 13px;
   color: #000000;
   letter-spacing: 1.3px;
-  min-height: 55px;
 }
 .row #appointment-container #choose-associate .associates_cointainer .associates-grid li a .associate-info p::before{
   content: 'Specializes in:';
@@ -339,112 +320,15 @@
 }
 /* Event Adjustments */
 .bw-display-layer .bwt-store-show .bwt-store-event-description {
-  font-size: .9rem !important;
+	font-size: .9rem !important;
 }
 .bw-display-layer .bwt-events-main .bwt-event-details-container {
-  padding-bottom: 15px !important;
-}
-/* Store Feature Spacing */
-.bw-display-layer .bwt-store-show .bwt-store-feature {
-  width: 20% !important;
+	padding-bottom: 15px !important;
 }
 /* Store Index Image */
 .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
   display: none !important;
 }
-
-label {
-  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif !important;
-  font-size: 13px;
-  letter-spacing: 0;
-  color: #ccc;
-  text-transform: lowercase;
-}
-
-div.checkboxes span.checkbox input.check_boxes {opacity: 0;}
-
-div.checkboxes span.checkbox input.check_boxes::before {
-  padding: 0px 10px 10px 30px;
-  cursor: pointer;
-  background: url(//uat.brickworksoftware.com/chicos/unchecked.png) no-repeat;
-  background-size: 13px
-}
-
-select {
-  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif !important;
-  font-size: 13px;
-  letter-spacing: 0;
-  color: #ccc;
-  background-color: #fff;
-  text-transform: lowercase;
-}
-
-select:hover {
-  background-color: #fff;
-}
-
-#questions-wrapper select {
-  padding: 15px;
-}
-
- #appointment-container #enter-contact-info label {
-    padding: 0.5rem 0;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-    letter-spacing: 0;
-    margin: 0 0;
-    text-transform: uppercase;
-  }
-
-#appointment-container #enter-contact-info input[type="checkbox"]:not(:checked),
-#appointment-container #enter-contact-info  input[type="checkbox"]:checked {
-    position: absolute !important;
-    left: -9999px;
-  }
-
-  // checkbox aspect
-
-#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::before,
-#appointment-container #enter-contact-info [type="checkbox"]:checked + label::before {
-    content: '';
-    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/david_yurman/icons/store_filter_unchecked_box.svg") no-repeat;
-    position: absolute;
-    left: 0;
-    top: 2px;
-    width: 14px;
-    height: 14px;
-  }
-
-  // checked mark aspect
-#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::after,
-#appointment-container #enter-contact-info [type="checkbox"]:checked + label::after {
-    content: '';
-    background: url("https://s3.amazonaws.com/assets.brickworksoftware.com/david_yurman/icons/store_filter_checked_box.svg") no-repeat;
-    background-size: contain;
-    position: absolute;
-    top: 2px; left: 0px;
-    width: 14px; height: 14px;
-  }
-
-#appointment-container #enter-contact-info input[type="checkbox"]:not(:checked) + label,
-#appointment-container #enter-contact-info input[type="checkbox"]:checked + label {
-    position: relative;
-    display: block;
-    padding: 5px 0px 0px 25px;
-    cursor: pointer;
-  }
-
-  // checked mark aspect changes
-#appointment-container #enter-contact-info [type="checkbox"]:not(:checked) + label::after {
-    opacity: 0;
-    transform: scale(0);
-  }
-
-#appointment-container #enter-contact-info [type="checkbox"]:checked + label::after {
-    opacity: 1;
-    transform: scale(1);
-  }
 /* Store Feature Spacing */
 .bw-display-layer .bwt-store-show .bwt-store-feature {
   width: 20% !important;
@@ -459,13 +343,87 @@ select:hover {
     width: 100% !important;
 	}
 }
-/* Store Feature Spacing */
-.bw-display-layer .bwt-store-show .bwt-store-feature {
-  width: 20% !important;
+
+nav[role="navigation"] .menu-category a.has-sub-menu {
+    text-decoration: none;
 }
-/* Store Index Image */
-.bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
-  display: none !important;
+
+
+.bw-display-layer .bwt-index-search-form-input, .bw-display-layer .bwt-store-show-email-signup-input, .bw-display-layer .bwt-stores-nearby-search-form-input, .bw-display-layer input[type="text"].bwt-stores-nearby-search-form-input {
+padding: 0
+}
+
+.bwt-index-search-form-location-button,
+.bw-display-layer .footer a {
+display: none;
+}
+a.brickwork-button { color: white !important; }
+.bw-display-layer .bwt-store-show .bwt-store-survey .bwt-store-survey-link .bwt-store-link { color: white !important; }
+h2.store-detail-name { color: black !important; }
+a { color: inherit !important; }
+.bwt-store-services-info-title { padding-left: 0px !important; }
+.bw-display-layer .bwt-store-show .ui-datepicker td a:hover, .bw-display-layer .bwt-store-show .ui-datepicker td a.ui-state-active {
+  background: #fff !important;
+}
+.bw-display-layer .bwt-index-search-form-location-button, .bw-display-layer .bwt-index-search-form-submit, .bw-display-layer .bwt-stores-nearby-search-form-button {
+  background: transparent !important;
+}
+.bwt-store-link:hover {
+  background: #48a642 !important;
+  border-color: #48a642 !important;
+}
+h3.bw-display-layer .bwt-store-show .bwt-store-hours {
+  margin-top: 0px !important;
+}
+a.bwt-store-map-button-mobile .bwt-mobile-only { color: white !important; }
+a.bw-display-layer .bwt-store-show .brickwork-button { color: white !important; }
+
+#questions-wrapper select {
+background-color: #fff;
+}
+
+#enter-contact-info .first-name, 
+#enter-contact-info .last-name, 
+#enter-contact-info .email {
+top: 50%;
+}
+
+#appointment-container .bw-appointment-services .bw-appointment-service-link .appointment_link {
+  color: #fff !important;
+}
+
+#appointment-container .nearest-store a.choose-store-link, #appointment-container #confirm_appointment_button {
+  color: #fff !important;
+}
+
+#appointment-container .day-date-column .dayname_only:hover {
+  color: #fff !important;
+}
+
+#appointment-container .date_selector .big_day, #appointment-container .date_selector .small_day:hover {
+  color: #fff !important;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover {
+  color: #fff !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .bw-display-layer .bwt-store-show .bwt-store-show-primary .bwt-store-map-button-mobile {
+    color: #fff !important;
+  }
+}
+
+.bw-display-layer .bwt-events-main .bwt-event-details-rsvp-signup-button {
+  color: #fff !important;
+}
+
+.bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
+  color: #fff !important;
+}
+
+.bw-display-layer .bwt-event-index .bwt-store-event-link {
+  color: #fff !important;
 }
 
 .appointment-rsvp-container #appointment-confirmation {
@@ -500,6 +458,9 @@ select:hover {
 @media only screen and (min-width: 641px) {
   .bw-display-layer .bwt-store-show .bwt-store-main-section {
     width: 31% !important;
+  }
+  .bw-display-layer .bwt-store-show .bwt-store-main-section:nth-of-type(4) {
+    display: none;
   }
 }
 

@@ -470,3 +470,7 @@ top: 50%;
     padding: 0;
   }
 }
+
+.bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
+  color: #ccc;
+}

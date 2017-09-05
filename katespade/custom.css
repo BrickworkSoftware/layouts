@@ -199,6 +199,10 @@
   max-width: none;
 }
 
+input#location::placeholder {
+  font-family: "NewBaskervilleStd-Italic", sans-serif !important;
+}
+
 .bwt-store-map-pin-holder,
 .bwt-events-map-pin-holder {
   background: url("//s3.amazonaws.com/assets.brickworksoftware.com/kate_spade/images/ksny_pin.png") no-repeat !important;

@@ -32,6 +32,9 @@
 }
 
 @media (min-width: 768px){
+  .bwt-index-filters-toggle {
+    display: none !important;
+  }
   .bw-display-layer .bwt-index-filter-list.bwt-hidden {
   display: block !important;
   }

@@ -478,3 +478,13 @@ top: 50%;
 .bw-appointment-header-column.completed, .bw-appointment-header-column.completed a {
   color: #ccc;
 }
+
+.bw-appointment-step-container#enter-contact-info {
+  margin-top: 3rem;
+}
+
+@media only screen and (max-device-width : 768px) {
+  .bw-appointment-header .completed a {
+    color: #cccccc !important;
+  }
+}

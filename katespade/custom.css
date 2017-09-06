@@ -488,3 +488,7 @@ top: 50%;
     color: #cccccc !important;
   }
 }
+
+strong, b {
+  font-weight: normal;
+}

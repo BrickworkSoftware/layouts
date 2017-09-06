@@ -31,8 +31,10 @@
   display: none;
 }
 
-.bw-display-layer .bwt-index-filter-list.bwt-hidden {
+@media (min-width: 768px){
+  .bw-display-layer .bwt-index-filter-list.bwt-hidden {
   display: block !important;
+  }
 }
 
 .bwt-types-container, .bw-display-layer label.hidden, .bwt-upcoming-event-container, .bwt-index-store-events-and-services, .bwt-sub-nav.bwt-hide-on-mobile * {

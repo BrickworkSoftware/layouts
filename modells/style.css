@@ -228,3 +228,255 @@ span.bwt-store-header-details-hours {
 		display: inline !important;
 	}
 }
+
+/*Modells Additions*/
+
+#bwt-company-directory {
+  max-width: 992px;
+  margin: 0 auto;
+}
+#bwt-company-directory div {
+  position: relative;
+}
+#bwt-company-directory .bwt-index-main-title {
+  display: none;
+}
+#bwt-company-directory .bwt-company-directory-wrapper {
+  width: 100%;
+}
+#bwt-company-directory .bwt-index-header-container {
+  padding: 0 30px 25px 30px;
+  margin-top: -20px;
+}
+#bwt-company-directory .bwt-index-header-container:before {
+  content: "All Store Locations";
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  display: block;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-wrap {
+  height: 80px;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-submit {
+  position: relative;
+  background: #5a79a5;
+  padding: 0 15px;
+  border: none;
+  height: 48px;
+  color: #fff;
+  top: -52px;
+  left: 4px;
+  z-index: 1;
+  -webkit-transition: 0.15s ease all;
+  transition: 0.15s ease all;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-submit:hover {
+  opacity: 0.85;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-submit:hover .fa-search {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-submit .bwt-index-search-form-submit-text {
+  display: none;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-submit .bwt-index-search-form-submit-icon .fa-search {
+  position: relative;
+  font-size: 18px;
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-location-button {
+  background: url("//production.brickworksoftware.com/assets/templates/slim_pro_2/location-target_black-9d85da053caea24bddbd3da07c8526c1.svg") 100px 5px no-repeat;
+  position: relative;
+  background-size: 12px;
+  padding-right: 18px;
+  font-size: 12px;
+  opacity: 0.5;
+  border: none;
+  float: right;
+  top: 82px;
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-location-button:after {
+  content: 'find my location';
+  display: block;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-form-location-button:hover {
+  opacity: 0.7;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-input-wrap {
+  position: relative;
+  width: 100%;
+}
+#bwt-company-directory .bwt-index-header-container .bwt-index-search-input-wrap input {
+  padding: 16px 30px 16px 60px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  width: 100%;
+}
+#bwt-company-directory .bwt-company-us-states {
+  margin-bottom: 20px;
+  padding: 0 30px;
+  float: left;
+  width: 100%;
+}
+#bwt-company-directory .bwt-company-us-states .bwt-directory-header {
+  display: none;
+}
+#bwt-company-directory .bwt-company-us-states h3 {
+  text-transform: uppercase;
+  padding: 10px 15px;
+}
+#bwt-company-directory .bwt-company-us-states ul {
+  margin: 0 0 0 30px;
+}
+#bwt-company-directory .bwt-company-us-states li {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  list-style: none;
+  width: 19%;
+  float: left;
+}
+#bwt-company-directory .bwt-company-us-states li:nth-child(2) a {
+  padding: 5px 0;
+  letter-spacing: -0.04em;
+}
+#bwt-company-directory .bwt-company-us-states li a {
+  letter-spacing: 0.025em;
+  background: #f0f0f0;
+  white-space: nowrap;
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+#bwt-company-directory .bwt-company-us-states li a:hover {
+  opacity: 0.8;
+  color: #405574;
+}
+#bwt-company-directory .bwt-company-us-state-list {
+  padding: 0 30px;
+  -webkit-column-count: 3;
+     -moz-column-count: 3;
+          column-count: 3;
+}
+#bwt-company-directory .bwt-directory-state-desktop {
+  margin-bottom: 20px;
+  border-right: 1px solid #f7f7f7;
+  -webkit-column-break-inside: avoid;
+  column-break-inside: avoid;
+}
+#bwt-company-directory .bwt-directory-state-desktop:first-of-type {
+  margin-top: -3px;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-directory-store-wrapper {
+  display: block;
+  margin: 10px 0 10px 15px;
+}
+#bwt-company-directory .bwt-directory-state-desktop h6 {
+  text-transform: uppercase;
+  background: #f7f7f7;
+  padding: 5px 15px;
+  font-size: 15px;
+  font-weight: 700;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-city-wrapper {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-directions-container,
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-link-container {
+  line-height: 0.95;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-directions-container a,
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-link-container a {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  color: #5a79a5;
+  -webkit-transition: 0.25s ease all;
+  transition: 0.25s ease all;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-directions-container a:hover,
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-link-container a:hover {
+  color: #434e5d;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-address-container {
+  font-size: 12px;
+  color: #777;
+}
+#bwt-company-directory .bwt-directory-state-desktop .bwt-store-address-title {
+  display: none;
+}
+#bwt-company-directory .bwt-company-outside-countries {
+  display: none;
+}
+#bwt-company-directory .bwt-hide-on-mobile {
+  display: block !important;
+}
+#bwt-company-directory .bwt-mobile-only {
+  display: none !important;
+}
+#bwt-company-directory ::-webkit-input-placeholder {
+  color: #999;
+}
+#bwt-company-directory ::-moz-placeholder {
+  color: #999;
+}
+#bwt-company-directory :-ms-input-placeholder {
+  color: #999;
+}
+#bwt-company-directory ::placeholder {
+  color: #999;
+}
+@media (max-width: 800px) {
+  #bwt-company-directory .bwt-company-us-states {
+    padding: 0;
+  }
+  #bwt-company-directory .bwt-company-us-states li {
+    width: 32%;
+  }
+}
+@media (max-width: 650px) {
+  #bwt-company-directory .bwt-company-us-state-list {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+  }
+  #bwt-company-directory .bwt-company-us-states li {
+    width: 47.5%;
+  }
+}
+@media (max-width: 550px) {
+  #bwt-company-directory .bwt-company-us-state-list {
+    padding: 0 5px;
+    -webkit-column-count: 1;
+       -moz-column-count: 1;
+            column-count: 1;
+  }
+  #bwt-company-directory .bwt-company-us-states li {
+    font-size: 15px;
+    width: 98%;
+  }
+  #bwt-company-directory .bwt-index-header-container {
+    padding: 0 5px 30px 5px;
+  }
+  #bwt-company-directory .bwt-company-us-states ul {
+    margin: 0 0 0 5px;
+  }
+}

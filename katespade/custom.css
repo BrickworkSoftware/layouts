@@ -436,7 +436,11 @@ top: 50%;
 .appointment-rsvp-container #appointment-confirmation {
   padding: 35px 0;
 }
-
+[data-abide] span.error {
+  display: inline-block !important; 
+  background: red !important;
+  padding: 3px !important;
+}
 .appointment-rsvp-container #appointment-confirmation .details {
   font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
   border-top: none;
@@ -499,6 +503,7 @@ strong, b {
 /* Questions V2 */
 #enter-contact-info .bwt-appt-input-placeholder, #questions-wrapper .bwt-appt-input-placeholder,
 #questions-wrapper select, #questions-wrapper .Checkboxes label, #questions-wrapper .Checkboxes span, 
-#questions-wrapper .Radio label, #questions-wrapper .Radio span, #enter-contact-info .error, #questions-wrapper .error {
+#questions-wrapper .Radio label, #questions-wrapper .Radio span, #enter-contact-info .error, #questions-wrapper .error,
+#appointment-container #enter-contact-info .bwt-appt-input-placeholder, #appointment-container #enter-contact-info label {
   text-transform: uppercase !important;
 }

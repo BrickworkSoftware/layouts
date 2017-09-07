@@ -229,7 +229,9 @@ input#location::placeholder {
     font-size: 9px !important;
   }
 }
-
+#appointment-container .bw-appointment-services .bw-appointment-service-link-description p {
+  font-size: 12px !important;
+}
 .bw-display-layer .promo-message .bwt-hide-on-mobile, .bwt-index-search-container .promo-message .bwt-hide-on-mobile {
   display: block !important;
 }

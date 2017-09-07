@@ -472,15 +472,6 @@ top: 50%;
   display: inline-block;
 }
 
-@media only screen and (min-width: 641px) {
-  .bw-display-layer .bwt-store-show .bwt-store-main-section {
-    width: 31% !important;
-  }
-  .bw-display-layer .bwt-store-show .bwt-store-main-section:nth-of-type(4) {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   #appointment-container .bw-appointment-step-container-title, #appointment-container .title h1 {
     margin: -10px;

@@ -391,7 +391,7 @@ background-color: #fff;
 #enter-contact-info .first-name, 
 #enter-contact-info .last-name, 
 #enter-contact-info .email {
-top: 50%;
+  top: 20%;
 }
 
 #appointment-container .bw-appointment-services .bw-appointment-service-link .appointment_link {

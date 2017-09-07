@@ -324,10 +324,10 @@ input#location::placeholder {
 }
 /* Event Adjustments */
 .bw-display-layer .bwt-store-show .bwt-store-event-description {
-	font-size: .9rem !important;
+  font-size: .9rem !important;
 }
 .bw-display-layer .bwt-events-main .bwt-event-details-container {
-	padding-bottom: 15px !important;
+  padding-bottom: 15px !important;
 }
 /* Store Index Image */
 .bw-display-layer .store-info .bwt-store-body-wrapper .bwt-store-outer-body-wrapper .bwt-store-body-image-container .bwt-index-store-image {
@@ -340,12 +340,12 @@ input#location::placeholder {
 @media only screen and (max-width: 640px) {
 .bw-display-layer .bwt-store-show .bwt-store-feature {
     height: 35px !important;
-	}
+  }
 }
 @media only screen and (max-width: 640px) {
 .bw-display-layer .bwt-store-show .bwt-store-feature {
     width: 100% !important;
-	}
+  }
 }
 
 nav[role="navigation"] .menu-category a.has-sub-menu {
@@ -491,4 +491,11 @@ top: 50%;
 
 strong, b {
   font-weight: normal;
+}
+
+/* Questions V2 */
+#enter-contact-info .bwt-appt-input-placeholder, #questions-wrapper .bwt-appt-input-placeholder,
+#questions-wrapper select, #questions-wrapper .Checkboxes label, #questions-wrapper .Checkboxes span, 
+#questions-wrapper .Radio label, #questions-wrapper .Radio span, #enter-contact-info .error, #questions-wrapper .error {
+  text-transform: uppercase !important;
 }

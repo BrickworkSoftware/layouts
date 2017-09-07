@@ -404,7 +404,7 @@ top: 50%;
   color: #fff !important;
 }
 
-#appointment-container .date_selector .big_day, #appointment-container .date_selector .small_day:hover {
+#appointment-container .date_selector .big_day:hover, #appointment-container .date_selector .small_day:hover {
   color: #fff !important;
 }
 

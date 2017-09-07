@@ -404,10 +404,6 @@ top: 50%;
   color: #fff !important;
 }
 
-#appointment-container .date_selector .big_day:hover, #appointment-container .date_selector .small_day:hover {
-  color: #fff !important;
-}
-
 .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_body a.appointment_link:hover {
   color: #fff !important;
 }
@@ -425,7 +421,14 @@ top: 50%;
 .bw-display-layer .bwt-events-other-events .bwt-nearby-event-link-container a {
   color: #fff !important;
 }
-
+#appointment-container .date_selector:hover *, .search_header .date_selection_container .date_selector.selected {
+  color: #fff !important;
+}
+#questions-wrapper select, #questions-wrapper select:active, #questions-wrapper select:hover {
+  border-color: #e6e6e6 !important;
+  color: #ccc ;
+  font-family: "NewBaskervilleStd-Roman", Helvetica, Arial, sans-serif;
+}
 .bw-display-layer .bwt-event-index .bwt-store-event-link {
   color: #fff !important;
 }

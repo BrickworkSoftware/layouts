@@ -279,4 +279,7 @@ input.check_boxes {
 .address table.large-7 {
   width: 60% !important;
 }
+.Flagship_info_2fB7h div:nth-child(2) {
+	display: none !important;
+}
 </style>

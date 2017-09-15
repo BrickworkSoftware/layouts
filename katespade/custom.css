@@ -499,10 +499,23 @@ strong, b {
   font-weight: normal;
 }
 
+#appointment-container .bwt-store-location-details a{
+  pointer-events: none !important;
+}
+
+#appointment-container .local-stores .bwt-store-location-details a {
+  pointer-events: auto !important;
+}
+
 /* Questions V2 */
 #enter-contact-info .bwt-appt-input-placeholder, #questions-wrapper .bwt-appt-input-placeholder,
 #questions-wrapper select, #questions-wrapper .Checkboxes label, #questions-wrapper .Checkboxes span, 
 #questions-wrapper .Radio label, #questions-wrapper .Radio span, #enter-contact-info .error, #questions-wrapper .error,
 #appointment-container #enter-contact-info .bwt-appt-input-placeholder, #appointment-container #enter-contact-info label {
   text-transform: uppercase !important;
+}
+
+.bw-display-layer .bwt-store-features-section .bwt-store-features-title {
+  margin-top: 20px !important;
+  margin-bottom: 0px !important;
 }

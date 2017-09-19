@@ -37,6 +37,7 @@ opacity: 1 !important;
 .appointment_link.bw-appointment-service-link {
   border: 1px solid #666666;
   min-width: 240px;
+  min-height: 300px;
 }
 
 .appointment-rsvp-container .bw-appointment-header {
@@ -276,10 +277,15 @@ input.check_boxes {
   }
 }
 
-.address table.large-7 {
-  width: 60% !important;
+@media (min-width: 873px) {
+  .address table.large-7 {
+    width: 60% !important;
+  }
 }
-.Flagship_info_2fB7h div:nth-child(2) {
-	display: none !important;
+
+@media screen and (max-width: 736px ) {
+  .address table td {
+    text-align: left !important;
+  }
 }
 </style>

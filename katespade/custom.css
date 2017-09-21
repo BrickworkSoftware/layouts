@@ -524,6 +524,12 @@ strong, b {
   height: 0% !important;
   width: 0% !important;
 }
+@media screen and (min-width: 768px){
+  #appointment-container #enter-contact-info .checkbox input[type=checkbox]+label, 
+  #appointment-container #enter-contact-info .radio input[type=radio]+label {
+  padding: 2px 0px 5px 30px;
+  }
+}
 @media screen and (max-width: 768px){
   #appointment-container #enter-contact-info .checkbox input[type=checkbox]+label {
     width: 44%;

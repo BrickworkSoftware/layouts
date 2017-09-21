@@ -532,6 +532,10 @@ strong, b {
   #appointment-container #enter-contact-info .checkbox input[type=checkbox]+label {
     padding-top: 1px;
   }
+  #appointment-container #enter-contact-info .checkbox.error {
+    width: 49.4%;
+    margin: 0;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -546,5 +550,9 @@ strong, b {
   }
   #appointment-container #enter-contact-info .radio input[type=radio]+label{
     padding-top: 2px;
+  }
+   #appointment-container #enter-contact-info .checkbox.error {
+    width: 86%;
+    margin: 0;
   }
 } 

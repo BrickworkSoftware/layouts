@@ -1,7 +1,52 @@
-<header>                   
-<div style="width:600px; margin:0 auto;">
+<header>
+<style>
+@media screen and (min-width: 768px) {
+  #header-image-logo-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px){
+  header,body  {
+    min-width: 768px !important;
+    width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  
+
+  #header-image-logo-container {
+    width: 250px !important;
+  }
+  .banner-logo-viewport {
+    margin: 0 7%;
+  }
+  #header-image-logo-container #header-image-logo {
+    height: 7%;
+    width: 100%;
+  }
+  header .sign-in-links .search, li#shopping-basket {
+    display: block !important;
+  }
+
+}
+@media (min-width: 320px) and (max-width: 414px) {
+  header,body  {
+    width: 100%;
+  }
+  #header-image-logo-container {
+    width: 45% !important;
+    margin: 0 23%;
+  }
+  #header-image-logo-container #header-image-logo {
+    height: 100%;
+  }
+}
+
+</style>    
+<div id='header-image-logo-container'>
      <a href="https://demoretailer.com" title="Demotretailer" class="banner-logo-viewport">
-       <img src="https://s3.amazonaws.com/assets.brickworksoftware.com/demo_retailer/header_image.png" height="200" width="600" border="0" align="center"   >
+       <img src="https://s3.amazonaws.com/assets.brickworksoftware.com/demo_retailer/header_image.png" height="200" width="600" border="0" align="center"  id='header-image-logo'  >
       </a>
        </div>          
     <section class="sign-in-links" id="sign-in-links">

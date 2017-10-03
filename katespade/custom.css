@@ -542,6 +542,10 @@ strong, b {
     width: 49.4%;
     margin: 0;
   }
+  #footer .shell .spade-icon img {
+    height: 25px !important;
+    width: 24px !important;
+  }
 }
 
 @media screen and (max-width: 414px) {

@@ -288,4 +288,8 @@ input.check_boxes {
     text-align: left !important;
   }
 }
+
+body.keyboard-on #middle {
+  padding-top: 0px !important;
+}
 </style>

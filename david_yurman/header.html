@@ -6,6 +6,91 @@
     
       var origin = window.location.origin;
       window.location.href = origin + '/content/david-yurman.commerce.logout.html?resource=\x2Fuser\x2Flogin.html';
+      
+      /* DY HEADER Clickablity fix */
+      var menuCollections = document.getElementsByClassName('menu-parent');
+      var menuChild = document.getElementsByClassName('menu-child-link');
+      var menuGroup = document.getElementsByClassName('menu-child-groups');
+      var menuItems = document.getElementsByClassName('menu-child-items');
+      var menuLinks = document.getElementsByClassName('cppLink');
+      var menuTopLinks = document.getElementsByClassName('menu-landing-pageLink');
+      var menuChi = [];      
+      var menuCol = [];
+      var menuGro = [];
+      var menuIte = [];
+      var menuLin = [];
+      var menuTLin = [];
+      for(let x=0; x < menuCollections.length; x++) {
+        menuCol.push(menuCollections[x]);
+      }
+      for(let x=0; x < menuChild.length; x++) {
+        menuChi.push(menuChild[x]);
+      }
+      for(let x=0; x < menuGroup.length; x++) {
+        menuGro.push(menuGroup[x]);
+      }
+      for(let x=0; x < menuItems.length; x++) {
+        menuIte.push(menuItems[x]);
+      }
+      for(let x=0; x < menuLinks.length; x++) {
+        menuLin.push(menuLinks[x]);
+      }
+      for(let x=0; x < menuTopLinks.length; x++) {
+        menuTLin.push(menuTopLinks[x]);
+      }
+     
+      menuTLin.forEach(function(menuT){
+        menuT.addEventListener('click',function(event){
+          window.open(menuT.attributes[1].nodeValue);
+        })
+      })
+
+      menuLin.forEach(function(menuLink){
+        menuLink.href = menuLink.attributes[1].nodeValue;
+      })
+
+      menuGro.forEach(function(menug,index){
+        menug.addEventListener('click',function(event){
+          event.preventDefault();
+          for(let x=0; x < menug.children.length; x++){
+            menug.children[x].style.background = '#1e1e1e';
+          }
+          menuIte.forEach(function(itemed){
+            itemed.style.display = 'none';
+            if(itemed.attributes[0].nodeValue == event.target.attributes[0].nodeValue){
+              itemed.style.display = 'block';
+              event.target.style.cssText = 'background: #474747; color: #9f9f9f;'
+            }
+          })
+        },false)
+      })
+
+
+      menuCol.forEach(function(menud,index){
+
+        menud.addEventListener('click',function(event){
+         event.preventDefault();
+         if(event.target.classList == 'menu-parent-title'){
+           menuCol.forEach(function(hideem){
+            hideem.classList.add('menu-closed');
+            hideem.children[menud.children.length-1].style.display ='none';
+           })
+           menud.classList.remove('menu-closed');
+           menud.children[menud.children.length-1].style.display ='block';        
+         }       
+        },false);
+      });
+
+      menuChi.forEach(function(innerMenu){
+        innerMenu.addEventListener('click',function(event){
+            menuChi.forEach(function(hideChild){
+              hideChild.children[hideChild.children.length-1].style.display = 'none';
+              console.log(hideChild);
+            })
+            innerMenu.children[innerMenu.children.length-1].style.display = 'block';
+          
+        },false)
+      })
     }
   </script>
   <nav id="nav-mobile" class="mm-menu mm-horizontal mm-front">

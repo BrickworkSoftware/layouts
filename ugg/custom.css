@@ -2147,4 +2147,7 @@ img { color: rgba(0,0,0,0); }
 .bw-display-layer .footer {
   display: none;
 }
+
+/*Hide nearest store link from header*/
+.js-choose-store { display: none !important; }
 </style> 

@@ -1,0 +1,60 @@
+<style>
+td {
+padding: 0 !important
+}
+
+.bwt-cancel-rsvp-only {
+  padding: 0 25%;
+}
+
+.bwt-event-rsvp-title {
+  margin-top: 80px !important;
+  font-family: 'Rokkitt';
+  font-weight: 400;
+  font-size: 33px;
+  color: #000000;
+  letter-spacing: 0.6px;
+  line-height: 35px;
+  border-bottom: 1px solid #E3E3E3;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  max-width: 500px;
+}
+
+.bwt-event-rsvp-status {
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.29px;
+  line-height: 18px;
+  padding-left: 5%;
+}
+
+.bwt-event-rsvp-cancel-button {
+  padding-left: 5%;
+}
+
+.bwt-event-rsvp-cancel-button a {
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 10px;
+  background: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.bwt-event-rsvp-cancel-button a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.bw-display-layer .footer {
+  display: none;
+}
+
+</style>

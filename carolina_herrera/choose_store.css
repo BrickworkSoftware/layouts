@@ -22,13 +22,23 @@
     width: 50%;
   }
 }
-
+@media (min-width: 375px) and (max-width: 769px) {
+   .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
+    width: 100%;
+   }
+}
 @media (max-width: 375px) {
   .bw-appointment-header-column a, .bw-appointment-header-column span {
     height: 10px;
   }
+  .bw-appointment-header-column.selected, 
+  .bw-appointment-header-column.selected a,
+  .bw-appointment-header-column.completed, 
+  .bw-appointment-header-column.completed a {
+    background-color: #666;
+  }
   .bw-iframe-container .bw-appointment-header-row .small-5 {
-    color: #d8d8d8;
+    background-color: #d8d8d8;
   }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 13px;

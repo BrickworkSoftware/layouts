@@ -16,12 +16,6 @@
   color: #666666;
 }
 
-@media (max-width: 992px) {
-  .bw-iframe-container .day-date-column .date_selector .small_day {
-    padding-bottom: 21px;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   .bw-iframe-container .dayname_only {
     font-size: 16px !important;
@@ -29,9 +23,16 @@
 
   .search_header .date_selection_container .date_selector .small_day {
     font-size: 16px;
+    padding-bottom: 21px;
   }
 
   .search_header .date_selection_container .date_selector {
     width: 105%;
+  }
+}
+
+@media (max-width: 992px) {
+  .search_header .date_selection_container .date_selector .small_day {
+    padding-bottom: 22px !important;
   }
 }

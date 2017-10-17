@@ -1,12 +1,11 @@
-/*
-   Choose Store for Carolina Herrera 
 
-*/
-
-@media (max-width: 667px) {
+<style>
+  @media (max-width: 667px) {
   .appointment-rsvp-container {
 
     background: green;
 
   }
 }
+
+</style>

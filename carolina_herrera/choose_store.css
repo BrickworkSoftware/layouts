@@ -4,7 +4,7 @@
 */
 
 @media (max-width: 667px) {
-  .appointment-rsvp-container.bwt-appointment-choose-time {
+  .appointment-rsvp-container {
 
     background: green;
 

@@ -24,6 +24,12 @@
 }
 
 @media (max-width: 375px) {
+  .bw-appointment-header-column a, .bw-appointment-header-column span {
+    height: 10px;
+  }
+  .bw-iframe-container .bw-appointment-header-row .small-5 {
+    color: #d8d8d8;
+  }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 13px;
   }

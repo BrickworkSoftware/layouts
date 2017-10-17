@@ -1,10 +1,21 @@
 
-
-  @media (max-width: 667px) {
-  .bwt-appointment-choose-time > div:last-of-type .address {
-
-    background: none;
+@media (min-width: 998px) {
+  .bw-iframe-container .appointment-rsvp-container .store-container {
+    display: flex;
+  }
+  .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
+    font-size: 11px;
 
   }
+  .bw-iframe-container a.choose-store-link.appointment-link.button-clean + table {
+    display: none;
+  }
+  .bw-iframe-container #service-appointment-stores h6, .bw-iframe-container #service-appointment-stores h4{
+    font-size: 12px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores .select_store_button {
+    width: 50%;
+  }
 }
+
 

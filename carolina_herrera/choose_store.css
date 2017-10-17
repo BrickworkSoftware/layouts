@@ -48,6 +48,7 @@
   }
   .bw-iframe-container .appointment-rsvp-container .service-appointment-stores {
     width: 77%;
+    margin-left: 17%;
   }
   .bw-iframe-container #service-appointment-stores div:first-of-type .name_distance {
     font-size: 11px; 

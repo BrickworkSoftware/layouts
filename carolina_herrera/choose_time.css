@@ -9,6 +9,7 @@
 
 .appointment-rsvp-container #appointment-options #mobile_date_select {
   font-size: 12px;
+  color: #000000;
 }
 
 .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available {

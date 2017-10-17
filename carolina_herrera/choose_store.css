@@ -34,9 +34,9 @@
   .bw-appointment-header-column.selected, 
   .bw-appointment-header-column.selected a,
   .bw-appointment-header-column.completed, 
-  .bw-appointment-header-column.completed a,
-  .bw-appointment-header-column.selected a, 
-  .bw-appointment-header-column.selected span {
+  .bw-appointment-header-column.completed a, 
+  .bw-appointment-header-column.selected span,
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a {
     background-color: #666 !important;
     color: rgba(0,0,0,0) !important;
   }

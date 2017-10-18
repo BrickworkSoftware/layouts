@@ -84,6 +84,12 @@
   .bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
     margin-top: 1.5rem !important;
   }
+  .appointment-rsvp-container .appointment-enterinfo-container {
+    margin-top: 0 !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container #enter-contact-info {
+    margin-top: 1rem !important;
+  }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 13px;
   }

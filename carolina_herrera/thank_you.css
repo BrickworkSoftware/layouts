@@ -2,3 +2,23 @@
   Thank You
 */
 
+#appointment-confirmation .confirmation_title {
+  font-size: 20px;
+}
+
+#appointment-confirmation .details {
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.bw-iframe-container #appointment-confirmation .button.bw-confirmation-close-button {
+  max-width: 248px;
+  max-height: 28px;
+}
+
+@media (min-width: 1200px) {
+  #appointment-confirmation .details {
+    max-width: 344px;
+  }
+}

@@ -15,6 +15,7 @@
 .bw-iframe-container #appointment-confirmation .button.bw-confirmation-close-button {
   max-width: 248px;
   max-height: 28px;
+  font-size: 11px;
 }
 
 @media (min-width: 1200px) {

@@ -24,5 +24,5 @@ label.bwt-rsvp-email-opt-placeholder.fancy-input {
 }
 
 #confirm_appointment_button:hover {
-  border: inherit;
+  border: 1px solid #666666;
 }

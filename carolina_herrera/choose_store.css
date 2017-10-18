@@ -72,6 +72,13 @@
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed span {
     color: #000;
   }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+  .bw-iframe-container .appointment-rsvp-container #search_button {
+    bottom: 0 !important;
+  }
 }
 
 /* Tablet only */

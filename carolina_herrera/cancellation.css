@@ -1,0 +1,29 @@
+
+.bwt-appointment-cancel {
+  width: 18%;
+  display: flex;
+  flex-direction: column; 
+}
+.bwt-appointment-cancel hr {
+  display: none;
+}
+.bwt-appointment-cancel p {
+  color: #000;
+  font-weight: bold;
+}
+.bwt-appointment-cancel b {
+  font-weight: normal !important;
+  color: #666 !important;
+}
+.bwt-cancel-store-appointment {
+  order: 1;
+  margin-top: 4%;
+}
+.bwt-cancel-store-appointment a {
+  color: #666 !important;
+}
+
+.bwt-reschedule-store-appointment a {
+  color: #fff;
+  text-decoration: none;
+}

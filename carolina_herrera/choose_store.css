@@ -95,6 +95,9 @@
     width: 80%;
     padding-bottom: 2%;
   }
+  .bw-iframe-container .appointment-rsvp-container .title h1:after {
+    margin-left: 60.7%;
+  }
 }
 
 /* Tablet only */

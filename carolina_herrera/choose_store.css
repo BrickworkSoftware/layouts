@@ -6,8 +6,8 @@
   margin-left: -2px;
 }
 .store-container .map.large-7.medium-6.hide-for-small-down.columns {
-  max-height: 375px;
-  min-height: 375px;
+  max-height: 395px;
+  min-height: 395px;
   max-width: 330px;
   padding: 0;
 }
@@ -19,6 +19,9 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
     pointer-events: auto;
   }  
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    padding: 0;
+  }
 }
 
 @media (min-width: 780px) {

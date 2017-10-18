@@ -4,9 +4,14 @@
 }
 
 
-@media (min-width: 961px) {
+@media (min-width: 780px) {
   .bw-iframe-container .appointment-rsvp-container .store-container {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
     display: flex;
+    
   }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 11px;

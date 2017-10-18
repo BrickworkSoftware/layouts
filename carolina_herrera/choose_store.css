@@ -3,11 +3,10 @@
   font-weight: normal;
 }
 @-moz-document url-prefix() { 
-  .bw-iframe-container .appointment-rsvp-container .local-stores .container {
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
     pointer-events: auto;
   }  
 }
-
 
 @media (min-width: 780px) {
   .bw-iframe-container .appointment-rsvp-container .store-container {

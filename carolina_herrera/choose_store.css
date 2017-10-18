@@ -62,7 +62,9 @@
       width: 100%;
   }
 
-
+  .bw-iframe-container .appointment-rsvp-container .local-stores {
+    margin-top: 2%;
+  }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) {
     margin-top: 6%;
   }

@@ -20,7 +20,11 @@
   padding: 8px 5px 8px 40px;
 }
 
-.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+.ui-datepicker {
+  width: 24% !important;
+}
+
+/*.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
   left: 66% !important;
 }
 
@@ -28,7 +32,7 @@
   .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
     left: 57% !important;
   }
-}
+}*/
 
 @media only screen and (max-width: 640px) {
   .bw-iframe-container .dayname_only {
@@ -51,9 +55,9 @@
     margin-left: 0% !important;
   }
 
-  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+/*  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
     left: 16% !important;
-  }
+  }*/
 }
 
 @media only screen and (max-width: 400px) {
@@ -65,13 +69,13 @@
     font-size: 12px;
   }
 
-  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+/*  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
     left: 10% !important;
-  }
+  }*/
 }
 
-@media only screen and (max-width: 320px) {
+/*@media only screen and (max-width: 320px) {
   .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
     left: 3% !important;
   }
-}
+}*/

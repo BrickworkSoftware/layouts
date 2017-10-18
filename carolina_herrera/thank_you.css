@@ -16,6 +16,8 @@
   max-width: 248px;
   max-height: 28px;
   font-size: 11px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 @media (min-width: 1200px) {

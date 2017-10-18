@@ -33,3 +33,15 @@
   color: #fff !important;
   text-decoration: none !important;
 }
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .bwt-appointment-cancel {
+    width: 33%;
+  }
+}
+
+@media (max-width: 414px) {
+  .bwt-appointment-cancel {
+    width: 80%;
+  }
+}

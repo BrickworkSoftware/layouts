@@ -87,6 +87,7 @@
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores {
     max-height: 407px;
+    min-height: 407px;
   }
   .bw-iframe-container #service-appointment-stores h6 {
     margin-top: 5px;
@@ -97,6 +98,10 @@
   }
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 62.7%;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    padding: 10px;
+    font-size: 12px;
   }
 }
 

@@ -21,7 +21,13 @@
 }
 
 .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
-  left: 630px !important;
+  left: 66% !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    left: 57% !important;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -46,7 +52,7 @@
   }
 
   .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
-    left: 66px !important;
+    left: 16% !important;
   }
 }
 
@@ -60,6 +66,12 @@
   }
 
   .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
-    left: 35px !important;
+    left: 10% !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+    left: 3% !important;
   }
 }

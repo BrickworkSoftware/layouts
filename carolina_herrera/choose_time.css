@@ -20,6 +20,10 @@
   padding: 8px 5px 8px 40px;
 }
 
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+  left: 66px !important;
+}
+
 @media only screen and (max-width: 640px) {
   .bw-iframe-container .dayname_only {
     font-size: 16px !important;

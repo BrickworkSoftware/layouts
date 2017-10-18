@@ -23,6 +23,7 @@
 }
 .bw-iframe-container a.choose-store-link.appointment-link.button-clean {
   padding: 9px !important;
+  font-size: 11px; 
 }
 /* Firefox */
 @-moz-document url-prefix() { 
@@ -58,7 +59,7 @@
     width: 50%;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container {
-    margin-top: 5%;
+    margin-top: 2%;
   }
   .bw-appointment-step-container {
     margin-top: 3rem;
@@ -95,6 +96,7 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     width: 80%;
     padding-bottom: 2%;
+    font-size: 11px;
   }
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 62.7%;

@@ -31,7 +31,7 @@
     width: 50%;
   }
 }
-@media (min-width: 375px) and (max-width: 769px) {
+@media (min-width: 560px) and (max-width: 769px) {
   .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
       width: 100%;
   }

@@ -63,6 +63,15 @@
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time {
     margin-top: 2rem;
   }
+  .bw-appointment-header-column.selected, 
+  .bw-appointment-header-column.selected a, 
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a {
+    color: #666;
+  }
+  .bw-appointment-header-column.selected span,
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed span {
+    color: #000;
+  }
 }
 
 /* Tablet only */

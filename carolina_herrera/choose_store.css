@@ -90,7 +90,12 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     padding-bottom: 1%;
   }
-
+  .bw-iframe-container .appointment-rsvp-container .store-container .address table {
+    width: 65%;
+  }
+  .bw-iframe-container a.choose-store-link.appointment-link.button-clean + table {
+    display: none;
+  }
 }
 
 /* Tablets and mobile */

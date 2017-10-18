@@ -77,6 +77,17 @@
     background-color: #d8d8d8;
     color: rgba(0,0,0,0) !important;
   }
+  .bw-iframe-container .appointment-rsvp-container .title h1, 
+  .bw-appointment-step-container, 
+  .bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
+    margin-top: 1.5rem !important;
+  }
+  .appointment-rsvp-container .appointment-enterinfo-container {
+    margin-top: 0 !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container #enter-contact-info {
+    margin-top: 0rem !important;
+  }
 }
 @media (max-width: 414px) {
   .bw-iframe-container .appointment-rsvp-container .title h1, 

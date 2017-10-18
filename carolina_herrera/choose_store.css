@@ -1,4 +1,4 @@
-
+/* General */
 .bw-iframe-container .store_open_hours span b {
   font-weight: normal;
 }
@@ -15,6 +15,8 @@
   width: 100%;
   margin-left: -10px;
 }
+
+/* Firefox */
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
     pointer-events: auto;
@@ -24,6 +26,7 @@
   }
 }
 
+/* Desktop only */
 @media (min-width: 780px) {
   .bw-iframe-container .appointment-rsvp-container .store-container {
     display: -webkit-box; 
@@ -50,6 +53,8 @@
     margin-top: 5%;
   }
 }
+
+/* Tablet only */
 @media (min-width: 560px) and (max-width: 769px) {
   .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
       width: 100%;
@@ -85,6 +90,8 @@
   }
 
 }
+
+/* Tablets and mobile */
 @media (max-width: 769px) {
   .bw-appointment-header-column a, .bw-appointment-header-column span {
     height: 10px;
@@ -116,8 +123,7 @@
   }
 }
 
-/* Mobiles - Including */
-
+/* Mobiles - Including 6plus and larger phone displays */
 @media (max-width: 414px) {
   .bw-iframe-container .appointment-rsvp-container .title h1, 
   .bw-appointment-step-container, 
@@ -165,6 +171,7 @@
   }
 }
 
+/* Iphone 5 and below */
 @media (max-width: 320px){
    .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 11px;

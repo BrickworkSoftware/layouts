@@ -41,7 +41,7 @@
     margin-left: 0% !important;
   }
 
-  .ui-datepicker .ui-widget .ui-widget-content .ui-helper-clearfix .ui-corner-all {
+  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
     left: 66px !important;
   }
 }

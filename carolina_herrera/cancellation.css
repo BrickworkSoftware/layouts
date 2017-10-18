@@ -12,7 +12,9 @@
 }
 .bwt-appointment-cancel p {
   color: #000;
-  font-weight: bold;
+  font-size: 11px !important;
+  line-height: 18px;
+  letter-spacing: 0;
 }
 .bwt-appointment-cancel a {
   text-transform: uppercase;

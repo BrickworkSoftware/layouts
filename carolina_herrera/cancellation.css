@@ -11,6 +11,12 @@
   color: #000;
   font-weight: bold;
 }
+.bwt-appointment-cancel a {
+  text-decoration: none !important
+}
+.bwt-appointment-cancel a:hover {
+  opacity: 0.7;
+}
 .bwt-appointment-cancel b {
   font-weight: normal !important;
   color: #666 !important;
@@ -24,6 +30,6 @@
 }
 
 .bwt-reschedule-store-appointment a {
-  color: #fff;
-  text-decoration: none;
+  color: #fff !important;
+  text-decoration: none !important;
 }

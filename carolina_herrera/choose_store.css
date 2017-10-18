@@ -78,6 +78,9 @@
   }
 }
 @media (max-width: 375px) {
+  .bw-iframe-container .appointment-rsvp-container .title h1 {
+    margin-top: 2.5rem;
+  }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 13px;
   }

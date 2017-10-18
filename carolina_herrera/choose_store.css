@@ -2,11 +2,11 @@
 .bw-iframe-container .store_open_hours span b {
   font-weight: normal;
 }
-
-.bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) .select_store_button {
-  pointer-events: auto;
-}  
-
+@-moz-document url-prefix() { 
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
+    pointer-events: auto;
+  }  
+}
 
 @media (min-width: 780px) {
   .bw-iframe-container .appointment-rsvp-container .store-container {

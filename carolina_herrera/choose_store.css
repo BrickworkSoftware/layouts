@@ -79,6 +79,12 @@
   .bw-iframe-container .appointment-rsvp-container #search_button {
     bottom: 0 !important;
   }
+  .bw-iframe-container .appointment-rsvp-container .local-stores {
+    max-height: 407px;
+  }
+  .bw-iframe-container #service-appointment-stores h6 {
+    margin-top: 5px;
+  }
 }
 
 /* Tablet only */

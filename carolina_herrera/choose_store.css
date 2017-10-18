@@ -5,7 +5,16 @@
 .bw-iframe-container .appointment-rsvp-container .store-container .address table {
   margin-left: -2px;
 }
-
+.store-container .map.large-7.medium-6.hide-for-small-down.columns {
+  max-height: 375px;
+  min-height: 375px;
+  max-width: 330px;
+  padding: 0;
+}
+.store-container .map.large-7.medium-6.hide-for-small-down.columns .map-for-choose-store {
+  width: 100%;
+  margin-left: -10px;
+}
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
     pointer-events: auto;
@@ -34,6 +43,9 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores .select_store_button {
     width: 50%;
   }
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container {
+    margin-top: 5%;
+  }
 }
 @media (min-width: 560px) and (max-width: 769px) {
   .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
@@ -43,6 +55,9 @@
 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) {
     margin-top: 6%;
+  }
+   .bw-iframe-container .appointment-rsvp-container .local-stores .container:last-of-type {
+    display: none;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) .select_store_button {
     margin-top:  28px;
@@ -97,6 +112,9 @@
     margin-top: 0rem !important;
   }
 }
+
+/* Mobiles - Including */
+
 @media (max-width: 414px) {
   .bw-iframe-container .appointment-rsvp-container .title h1, 
   .bw-appointment-step-container, 

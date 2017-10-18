@@ -34,10 +34,10 @@
 
 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) {
-    margin-top: 7%;
+    margin-top: 6%;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) .select_store_button {
-    margin-top:  38px;
+    margin-top:  28px;
   }
   .appointment-rsvp-container > div:last-of-type > .large-4.medium-6.columns.end {
     width: 100%;

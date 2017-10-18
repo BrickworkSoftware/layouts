@@ -20,16 +20,8 @@
   padding: 8px 5px 8px 40px;
 }
 
-@media (min-width: 992px) {
-  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
-    left: 685px !important;
-  }
-}
-
-@media (min-width: 641px) and (max-width: 991px) {
-  .ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
-    left: 435px !important;
-  }
+.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all {
+  left: 485px !important;
 }
 
 @media only screen and (max-width: 640px) {

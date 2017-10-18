@@ -53,9 +53,13 @@
     display: -webkit-flex; 
     display: flex;
     flex-wrap: wrap;
+    margin-top: 2%;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container {
     flex: 0 0 50%;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores:before {
+    padding-bottom: 1%;
   }
 
 }

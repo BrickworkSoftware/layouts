@@ -2,6 +2,10 @@
 .bw-iframe-container .store_open_hours span b {
   font-weight: normal;
 }
+.bw-iframe-container .appointment-rsvp-container .store-container .address table {
+  margin-left: -2px;
+}
+
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
     pointer-events: auto;
@@ -137,5 +141,20 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     width: 55%;
     margin-left: 16%;
+  }
+}
+
+@media (max-width: 320px){
+   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
+    font-size: 11px;
+  }
+  .bw-iframe-container .bwt-store-address, 
+  .bw-iframe-container .appointment-rsvp-container .store-container .address td, 
+  .bw-appointment-store-address > div > table + div + div + div, 
+  .bw-appointment-store-address > div > table + div + div {
+    font-size: 11px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .service-appointment-stores {
+    width: 90%;
   }
 }

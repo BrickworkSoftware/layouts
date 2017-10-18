@@ -22,7 +22,7 @@
   display: none;
 }
 .bw-iframe-container a.choose-store-link.appointment-link.button-clean {
-  padding: 9px;
+  padding: 9px !important;
 }
 /* Firefox */
 @-moz-document url-prefix() { 
@@ -90,6 +90,10 @@
   }
   .bw-iframe-container #service-appointment-stores h6 {
     margin-top: 5px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores:before {
+    width: 80%;
+    padding-bottom: 2%;
   }
 }
 

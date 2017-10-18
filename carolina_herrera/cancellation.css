@@ -15,7 +15,6 @@
   font-weight: bold;
 }
 .bwt-appointment-cancel a {
-  text-decoration: none !important;
   text-transform: uppercase;
 }
 .bwt-appointment-cancel a:hover {

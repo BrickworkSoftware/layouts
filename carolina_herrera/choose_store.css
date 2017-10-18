@@ -54,6 +54,15 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores .container {
     margin-top: 5%;
   }
+  .bw-appointment-step-container {
+    margin-top: 3rem;
+  }
+   .bw-iframe-container .appointment-rsvp-container .title h1 {
+    margin-top: 1.5rem;
+  }
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time {
+    margin-top: 0rem;
+  }
 }
 
 /* Tablet only */
@@ -128,6 +137,7 @@
   .bw-iframe-container .appointment-rsvp-container #enter-contact-info {
     margin-top: 0rem !important;
   }
+
 }
 
 /* Mobiles - Including 6plus and larger phone displays */

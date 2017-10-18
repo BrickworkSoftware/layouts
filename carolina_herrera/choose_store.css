@@ -11,7 +11,7 @@
     display: -ms-flexbox;
     display: -webkit-flex; 
     display: flex;
-    
+
   }
   .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 11px;
@@ -28,9 +28,32 @@
   }
 }
 @media (min-width: 375px) and (max-width: 769px) {
-   .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
+  .bw-iframe-container .appointment-rsvp-container .store-container > div:nth-child(2) > div:first-of-type {
+      width: 100%;
+  }
+
+
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) {
+    margin-top: 7%;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container:nth-child(2) .select_store_button {
+    margin-top:  38px;
+  }
+  .appointment-rsvp-container > div:last-of-type > .large-4.medium-6.columns.end {
     width: 100%;
-   }
+  }
+  .service-appointment-stores {
+    display: -webkit-box; 
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container {
+    flex: 0 0 50%;
+  }
+
 }
 @media (max-width: 769px) {
   .bw-appointment-header-column a, .bw-appointment-header-column span {

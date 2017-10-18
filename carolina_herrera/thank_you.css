@@ -21,8 +21,12 @@
   padding-bottom: 6px;
 }
 
-@media (min-width: 1200px) {
+#appointment-confirmation .details {
+  max-width: 344px;
+}
+
+@media (max-device-width: 767px) {
   #appointment-confirmation .details {
-    max-width: 344px;
+    max-width: 259px;
   }
 }

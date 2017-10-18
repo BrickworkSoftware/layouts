@@ -4,8 +4,25 @@
 */
 .bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
   margin-top: -1rem;
+  color: #000000;
 }
 
 .bw-iframe-container .bwt-appt-message-field .bwt-email-opt-field {
   margin-top: 0;
+}
+
+label.bwt-rsvp-email-opt-placeholder.fancy-input {
+  margin-left: 0;
+}
+
+.bw-iframe-container #enter-contact-info #appointment_customer_message {
+  padding-left: 10px;
+}
+
+#questions-wrapper .bwt-appt-input-placeholder {
+  left: 1.5rem;
+}
+
+#confirm_appointment_button:hover {
+  border: inherit;
 }

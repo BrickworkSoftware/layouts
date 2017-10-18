@@ -18,6 +18,9 @@
 .bw-iframe-container .appointment-rsvp-container .local-stores .container:last-of-type {
   display: none;
 }
+.bw-iframe-container a.choose-store-link.appointment-link.button-clean + table {
+    display: none;
+  }
 /* Firefox */
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {

@@ -2,9 +2,12 @@
 
 @media screen and (max-width: 739px) {
    #choose-service h4.bw-appointment-service-link-name, 
-   #choose-service h6.bw-appointment-service-link-name, 
+   #choose-service h6.bw-appointment-service-link-duration, 
    #choose-service .bw-appointment-service-link-description {
     margin-left: 10px;
   }
-  
+
+  #choose-service .bw-appointment-service-link-description {
+    margin-top: 0px;
+  }
 }

@@ -22,6 +22,24 @@
   margin: 20px 0 40px;
 }
 
+.appointment-rsvp-container h1 {
+  color: #000000;
+}
+
+@media only screen and (max-width: 640px) {
+  .bw-iframe-container .bw-appointment-step-container-title {
+    margin-bottom: 30px;
+  }
+
+  .bw-iframe-container .bw-appointment-service .bw-appointment-service-link-description {
+    max-width: 95%;
+  }
+
+  .bw-iframe-container .bw-appointment-service {
+    height: 315px !important;
+  }
+}
+
 @media (max-width: 572px) {
   .bw-iframe-container a.appointment_link.brickwork-button {
     width: 87.5%;

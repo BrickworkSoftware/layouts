@@ -1,4 +1,6 @@
 /* General */
+
+
 .bw-iframe-container .store_open_hours span b {
   font-weight: normal;
 }
@@ -52,6 +54,11 @@
   }
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
     width: 88%;
+  }
+  * {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
   }
 }
 

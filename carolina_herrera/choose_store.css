@@ -35,7 +35,8 @@
 .bw-iframe-container .appointment-rsvp-container .store-container .address td,
 .bw-appointment-store-address > div > table + div + div + div,
 .bw-appointment-store-address > div > table + div + div,
-.bw-iframe-container h2.bwt-store-header-title  {
+.bw-iframe-container h2.bwt-store-header-title,
+.bw-iframe-container .appointment-rsvp-container.bwt-appointment-choose-time .title h1 {
   color: #000 !important;
 }
 .bw-iframe-container #service-appointment-stores h6 {

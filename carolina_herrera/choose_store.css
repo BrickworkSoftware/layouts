@@ -135,7 +135,10 @@
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 62.7%;
   }
-
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
+    width: 21.5%;
+    margin-right: 8.5%;
+  }
   
 }
 

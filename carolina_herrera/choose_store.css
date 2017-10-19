@@ -49,6 +49,9 @@
   .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
     padding: 0;
   }
+  .bw-iframe-container .appointment-rsvp-container .store-container .address table {
+    width: 88%;
+  }
 }
 
 /* Desktop only */

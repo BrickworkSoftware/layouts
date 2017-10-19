@@ -60,6 +60,7 @@
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores .container {
     margin-top: 2%;
+    margin-bottom: 10%;
   }
   .bw-appointment-step-container {
     margin-top: 3rem;
@@ -229,6 +230,12 @@
   }
   .bw-iframe-container #service-appointment-stores div:first-of-type .name_distance {
     font-size: 11px; 
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores  {
+    margin-top: -32px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    margin-top: 30px;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     width: 55%;

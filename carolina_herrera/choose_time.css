@@ -8,6 +8,7 @@
 }
 
 .appointment-rsvp-container #appointment-options #mobile_date_select {
+  font-family: 'ProximaNova', sans-serif;
   font-size: 16px;
   color: #000000;
   transform: scale(0.8);
@@ -18,11 +19,8 @@
 }
 
 .appointment-rsvp-container input[type="text"]#mobile_date_select {
+  width: 67%;
   padding: 8px 5px 8px 40px;
-}
-
-.ui-datepicker {
-  width: auto !important;
 }
 
 .bw-load-previous-dates, .bw-load-next-dates {
@@ -47,6 +45,24 @@
   font-family: 'Helvetica-Light', sans-serif !important;
 }
 
+.search_header .date_selection_container .date_selector .dayname_only {
+  padding: 34px 0;
+}
+
+.small-offset-1 {
+  margin-left: 3.33333% !important;
+}
+
+.small-10 {
+  width: 92.33333%;
+}
+
+@media only screen and (max-width: 40em) {
+  .search_header .date_selection_container .date_selector .dayname_only {
+    padding: 36px 0;
+  }
+}
+
 @media only screen and (min-width: 54.063em) {
   .bw-load-previous-dates {
     left: -25px;
@@ -58,12 +74,18 @@
 }
 
 @media only screen and (max-width: 640px) {
+  .bw-iframe-container #mobile_date_select {
+    margin-left: 16% !important;
+  }
+
   .bw-iframe-container .dayname_only {
     font-size: 16px !important;
   }
 
   .search_header .date_selection_container .date_selector {
     width: 105%;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time {
@@ -72,6 +94,10 @@
 
   .bw-iframe-container .choose_time_text {
     margin-left: 0% !important;
+  }
+
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title {
+    margin-top: 30px;
   }
 }
 

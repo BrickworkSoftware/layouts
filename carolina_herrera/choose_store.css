@@ -177,6 +177,9 @@
    .bw-iframe-container .appointment-rsvp-container .local-stores .select_store_button {
     width: 33%;
   }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
+    margin-top: 20px;
+  }
 }
 
 /* Tablets and mobile */

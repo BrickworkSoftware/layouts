@@ -25,6 +25,9 @@
   padding: 9px !important;
   font-size: 11px; 
 }
+.bw-iframe-container .appointment-rsvp-container .store-container .address table tr td:first-child:after {
+  display: none;
+}
 /* Firefox */
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
@@ -83,6 +86,8 @@
   .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
     margin-top: 20px;
     margin-bottom: 0;
+     padding: 10px;
+    font-size: 12px;
   }
   .bw-iframe-container .appointment-rsvp-container #search_button {
     bottom: 0 !important;
@@ -91,7 +96,8 @@
     max-height: 407px;
     min-height: 407px;
   }
-  .bw-iframe-container #service-appointment-stores h6 {
+  
+   {
     margin-top: 5px;
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
@@ -102,10 +108,7 @@
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 62.7%;
   }
-  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
-    padding: 10px;
-    font-size: 12px;
-  }
+  
 }
 
 /* Tablet only */
@@ -194,7 +197,8 @@
     margin-top: 1.5rem !important;
   }
   .bw-iframe-container .appointment-rsvp-container.bwt-appointment-choose-time .title h1 {
-    margin-bottom: 13%;
+    margin-bottom: 10%;
+    margin-top: 30px !important;
   }
   .appointment-rsvp-container .appointment-enterinfo-container {
     margin-top: 0 !important;
@@ -218,7 +222,7 @@
    .bw-iframe-container .appointment-rsvp-container .store-container .address td,
     .bw-appointment-store-address > div > table + div + div + div,
     .bw-appointment-store-address > div > table + div + div  {
-      font-size: 14px !important;
+      font-size: 13px !important;
     }
   .bwt-appointment-choose-time .row:nth-child(3) > div:nth-child(4) {
     width: 90%;
@@ -245,6 +249,9 @@
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 42%;
     bottom: 7px;
+  }
+  .bw-iframe-container #service-appointment-stores h6 {
+    margin-top: 6px;
   }
 }
 

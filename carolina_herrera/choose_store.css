@@ -197,10 +197,12 @@
   }
   .appointment-rsvp-container #appointment-options #mobile_date_select {
     width: 244px; 
-    margin-right: -23px;
+    margin-right: 12px;
   }
 }
-
+.ui-datepicker  {
+  width: auto !important;
+}
 /* Tablets and mobile */
 @media (max-width: 769px) {
   .bw-appointment-header-column a, .bw-appointment-header-column span {
@@ -333,7 +335,7 @@
     margin-right: 15% !important;
   }
   .ui-datepicker {
-    margin-left: -30px;
+    margin-left: -5px;
   }
 }
 
@@ -372,6 +374,6 @@
     margin-right: 6% !important;
   }
   .ui-datepicker {
-    margin-left: -53px;
+    margin-left: -27px;
   }
 }

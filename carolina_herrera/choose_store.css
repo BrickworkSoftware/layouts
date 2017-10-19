@@ -172,6 +172,7 @@
   }
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     padding-bottom: 1%;
+    font-size: 11px;
   }
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
     width: 65%;
@@ -187,6 +188,12 @@
   }
   .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location {
     margin-top: 20px;
+  }
+  .bw-iframe-container a.choose-store-link.appointment-link.button-clean {
+    letter-spacing: 0;
+  }
+   .bw-iframe-container #service-appointment-stores h6, .bw-iframe-container #service-appointment-stores h4 {
+    font-size: 12px !important;
   }
 }
 
@@ -220,7 +227,7 @@
   .bw-iframe-container .appointment-rsvp-container #enter-contact-info {
     margin-top: 0rem !important;
   }
-
+ 
 }
 
 /* Mobiles - Including 6plus and larger phone displays */

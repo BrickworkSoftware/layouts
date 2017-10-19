@@ -86,13 +86,3 @@
     padding-bottom: 24px !important;
   }
 }
-
-@media only screen and (max-width: 400px) {
-  .bw-iframe-container .dayname_only {
-    font-size: 12px !important;
-  }
-
-  .search_header .date_selection_container .date_selector .small_day {
-    font-size: 12px;
-  }
-}

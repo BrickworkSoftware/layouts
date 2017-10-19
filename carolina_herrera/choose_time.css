@@ -46,7 +46,7 @@
 }
 
 .search_header .date_selection_container .date_selector .dayname_only {
-  padding: 34px 0;
+  padding: 36px 0;
 }
 
 .small-offset-1 {
@@ -55,6 +55,10 @@
 
 .small-10 {
   width: 92.33333%;
+}
+
+.bw-iframe-container .day-date-column .date_selector .small_day {
+  padding-bottom: 24px;
 }
 
 @media only screen and (max-width: 40em) {

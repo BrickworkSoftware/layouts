@@ -59,12 +59,6 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
-  .bw-iframe-container .dayname_only {
-    font-size: 16px !important;
-  }
-}
-
 @media only screen and (max-width: 640px) {
   .bw-iframe-container #mobile_date_select {
     margin-left: 16% !important;

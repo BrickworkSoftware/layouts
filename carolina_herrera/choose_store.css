@@ -25,9 +25,9 @@
   padding: 9px !important;
   font-size: 11px; 
 }
-.bw-iframe-container .appointment-rsvp-container .store-container .address table tr td:first-child:after {
+/*.bw-iframe-container .appointment-rsvp-container .store-container .address table tr td:first-child:after {
   display: none;
-}
+}*/
 .bw-iframe-container .appointment-rsvp-container .store-container .address table {
   width: 77%;
 }
@@ -256,6 +256,10 @@
   .bw-iframe-container #service-appointment-stores h6 {
     margin-top: 6px;
   }
+  .bw-iframe-container a.choose-store-link.appointment-link.button-clean {
+    width: 103% !important;
+    margin: 20px -5px 0 !important;
+  }
 }
 
 /* Iphone 5 and below */
@@ -275,5 +279,9 @@
   }
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
     width: 85%;
-  } 
+  }
+  .bw-iframe-container a.choose-store-link.appointment-link.button-clean {
+    width: 105% !important;
+    margin: 20px -6px 0 !important;
+  }
 }

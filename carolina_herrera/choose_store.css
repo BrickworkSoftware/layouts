@@ -147,6 +147,9 @@
   .bw-iframe-container a.choose-store-link.appointment-link.button-clean + table {
     display: none;
   }
+  .bw-iframe-container .appointment-rsvp-container.bwt-appointment-choose-time .title h1 {
+    margin-bottom: 6%;
+  }
 }
 
 /* Tablets and mobile */
@@ -184,10 +187,13 @@
 
 /* Mobiles - Including 6plus and larger phone displays */
 @media (max-width: 414px) {
-  .bw-iframe-container .appointment-rsvp-container .title h1, 
-  .bw-appointment-step-container, 
-  .bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
+  .bw-iframe-container .appointment-rsvp-container.bwt-appointment-choose-time .title h1,
+   .bw-appointment-step-container,
+   .bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
     margin-top: 1.5rem !important;
+  }
+  .bw-iframe-container .appointment-rsvp-container.bwt-appointment-choose-time .title h1 {
+    margin-bottom: 13%;
   }
   .appointment-rsvp-container .appointment-enterinfo-container {
     margin-top: 0 !important;
@@ -227,6 +233,10 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     width: 55%;
     margin-left: 16%;
+  }
+  .bw-iframe-container .appointment-rsvp-container .title h1:after {
+    margin-left: 42%;
+    bottom: 7px;
   }
 }
 

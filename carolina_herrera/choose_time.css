@@ -45,22 +45,12 @@
   font-family: 'Helvetica-Light', sans-serif !important;
 }
 
-.search_header .date_selection_container .date_selector .dayname_only {
-  padding: 36px 0;
-}
-
 .small-offset-1 {
   margin-left: 3.33333% !important;
 }
 
 .small-10 {
   width: 92.33333%;
-}
-
-@media only screen and (max-width: 40em) {
-  .search_header .date_selection_container .date_selector .dayname_only {
-    padding: 36px 0;
-  }
 }
 
 @media only screen and (min-width: 54.063em) {
@@ -79,7 +69,7 @@
   }
 
   .bw-iframe-container .dayname_only {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 
   .search_header .date_selection_container .date_selector {

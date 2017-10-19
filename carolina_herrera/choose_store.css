@@ -38,6 +38,9 @@
 .bw-iframe-container h2.bwt-store-header-title  {
   color: #000 !important;
 }
+.bw-iframe-container #service-appointment-stores h6 {
+    margin-top: 4px;
+  }
 /* Firefox */
 @-moz-document url-prefix() { 
   .bw-iframe-container .appointment-rsvp-container .local-stores .container .select_store_button {
@@ -118,6 +121,7 @@
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 62.7%;
   }
+
   
 }
 

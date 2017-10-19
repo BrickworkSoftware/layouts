@@ -40,6 +40,10 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
   font-size: 12px;
   padding: 2px 20px 5px 35px;
 }
+
+.bwt-email-opt-field label {
+  color: #999;
+}
 /* Media Query For Mobile */
 @media screen and (max-width: 767px) {
   #enter-contact-info .title.show-for-medium-down h1.bw-appointment-step-container-title {

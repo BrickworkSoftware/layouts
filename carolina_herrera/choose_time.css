@@ -57,10 +57,6 @@
   width: 92.33333%;
 }
 
-.bw-iframe-container .day-date-column .date_selector .small_day {
-  padding-bottom: 24px;
-}
-
 @media only screen and (max-width: 40em) {
   .search_header .date_selection_container .date_selector .dayname_only {
     padding: 36px 0;
@@ -102,6 +98,10 @@
 
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title {
     margin-top: 30px;
+  }
+
+  .bw-iframe-container .day-date-column .date_selector .small_day {
+    padding-bottom: 24px !important;
   }
 }
 

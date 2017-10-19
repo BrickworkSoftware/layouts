@@ -195,6 +195,10 @@
    .bw-iframe-container #service-appointment-stores h6, .bw-iframe-container #service-appointment-stores h4 {
     font-size: 12px !important;
   }
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    width: 244px; 
+    margin-right: -23px;
+  }
 }
 
 /* Tablets and mobile */
@@ -308,6 +312,13 @@
   .bw-iframe-container #service-appointment-stores h6, .bw-iframe-container #service-appointment-stores h4 {
     font-size: 13px !important;
   } 
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    width: 247px; 
+    margin-right: 13% !important;
+  }
+  .ui-datepicker {
+    margin-left: -3px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -316,6 +327,13 @@
   }
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
     width: 90%;
+  }
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    width: 242px; 
+    margin-right: 15% !important;
+  }
+  .ui-datepicker {
+    margin-left: -30px;
   }
 }
 
@@ -348,5 +366,12 @@
   }
   .bw-iframe-container #service-appointment-stores h6, .bw-iframe-container #service-appointment-stores h4 {
     font-size: 11px  !important;
+  }
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    width: 246px; 
+    margin-right: 6% !important;
+  }
+  .ui-datepicker {
+    margin-left: -53px;
   }
 }

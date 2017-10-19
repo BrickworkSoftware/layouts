@@ -23,6 +23,19 @@ label.bwt-rsvp-email-opt-placeholder.fancy-input {
   left: 1.5rem;
 }
 
+input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="color"],textarea {
+  color: #000000;
+}
+
 #confirm_appointment_button:hover {
   border: 1px solid #666666;
+}
+
+.bw-iframe-container [type="checkbox"]:not(:checked)+label:after, .bw-iframe-container [type="checkbox"]:checked+label:after {
+  top: 5px;
+  left: 5px;
+}
+
+.bw-iframe-container [type="checkbox"]:not(:checked)+label, .bw-iframe-container [type="checkbox"]:checked+label, .bw-iframe-container [type="radio"]:not(:checked)+label, .bw-iframe-container [type="radio"]:checked+label {
+  padding: 3px 20px 5px 35px;
 }

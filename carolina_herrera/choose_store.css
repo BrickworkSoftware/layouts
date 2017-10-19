@@ -264,12 +264,15 @@
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     width: 55%;
     margin-left: 16%;
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 11px !important;
   }
   .bw-iframe-container .appointment-rsvp-container .title h1:after {
     margin-left: 42%;
     bottom: 7px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .local-stores .container {
+    margin-top: 20px; 
   }
   .bw-iframe-container #service-appointment-stores h6 {
     margin-top: 6px;

@@ -37,5 +37,6 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
 }
 
 .bw-iframe-container [type="checkbox"]:not(:checked)+label, .bw-iframe-container [type="checkbox"]:checked+label, .bw-iframe-container [type="radio"]:not(:checked)+label, .bw-iframe-container [type="radio"]:checked+label {
-  padding: 3px 20px 5px 35px;
+  font-size: 12px;
+  padding: 2px 20px 5px 35px;
 }

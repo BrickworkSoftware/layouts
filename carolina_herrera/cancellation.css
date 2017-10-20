@@ -1,0 +1,52 @@
+
+.bwt-appointment-cancel {
+  width: 18%;
+  display: flex;
+  flex-direction: column; 
+}
+.bwt-appointment-cancel * {
+  font-family: "proxima-nova", sans-serif !important;
+}
+.bwt-appointment-cancel hr {
+  display: none;
+}
+.bwt-appointment-cancel p {
+  color: #000;
+  font-size: 11px !important;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+.bwt-appointment-cancel a {
+  text-transform: uppercase;
+}
+.bwt-appointment-cancel a:hover {
+  opacity: 0.7;
+}
+.bwt-appointment-cancel b {
+  font-weight: normal !important;
+  color: #666 !important;
+}
+.bwt-cancel-store-appointment {
+  order: 1;
+  margin-top: 4%;
+}
+.bwt-cancel-store-appointment a {
+  color: #666 !important;
+}
+
+.bwt-reschedule-store-appointment a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  .bwt-appointment-cancel {
+    width: 33%;
+  }
+}
+
+@media (max-width: 414px) {
+  .bwt-appointment-cancel {
+    width: 80%;
+  }
+}

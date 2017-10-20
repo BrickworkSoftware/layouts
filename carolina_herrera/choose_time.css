@@ -71,6 +71,10 @@
   .bw-load-next-dates {
     right: -25px;
   }
+
+  .bw-iframe-container .day-date-column .date_selector .small_day {
+    padding-bottom: 24px !important;
+  }
 }
 
 @media only screen and (max-width: 54em) and (min-width: 40.063em) {
@@ -104,5 +108,9 @@
 
   .bw-iframe-container .dayname_only {
     font-size: 16px !important;
+  }
+
+  .bw-iframe-container .day-date-column .date_selector .small_day {
+    padding-bottom: 21px;
   }
 }

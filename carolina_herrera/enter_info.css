@@ -31,8 +31,8 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
   letter-spacing: 0;
 }
 
-.bwt-appointment-submit.bwt-appt-modal-button.active:hover {
-  border: 1px solid #666666 !important;
+#confirm_appointment_button:hover {
+  border: 1px solid #666666;
 }
 
 .bw-iframe-container [type="checkbox"]:not(:checked)+label:after, .bw-iframe-container [type="checkbox"]:checked+label:after {

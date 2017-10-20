@@ -1,13 +1,12 @@
-/* Choose Store 2 */
+/* Choose A Store Part 2 - Fix from Abey */
 
-@media screen and (max-width: 739px) {
-   #choose-service h4.bw-appointment-service-link-name, 
-   #choose-service h6.bw-appointment-service-link-duration, 
-   #choose-service .bw-appointment-service-link-description {
-    margin-left: 10px;
-  }
-
-  #choose-service .bw-appointment-service-link-description {
-    margin-top: 0px;
-  }
+.bw-iframe-container a.choose-store-link.appointment-link.button-clean {
+	letter-spacing: 0;
 }
+
+@media (min-width: 1000px) {
+	#service-appointment-stores {
+		margin-top: 15px;
+	}
+}
+

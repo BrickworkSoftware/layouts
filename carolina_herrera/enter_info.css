@@ -27,6 +27,10 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
   color: #000000;
 }
 
+.bw-iframe-container #confirm_appointment_button {
+  letter-spacing: 0;
+}
+
 #confirm_appointment_button:hover {
   border: 1px solid #666666;
 }
@@ -44,6 +48,7 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
 .bwt-email-opt-field label {
   color: #999;
 }
+
 
 /* tablet and mobile */
 @media screen and (max-width: 769px) {

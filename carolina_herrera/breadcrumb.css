@@ -9,10 +9,11 @@
 .bw-appointment-header-close::after {
   content: 'X';
   visibility: visible;
+  font-size: 18px;
 }
 .bw-appointment-header-close {
   visibility: hidden;
-  color: #666;
+  color: #666 !important;
 }
 
 
@@ -24,7 +25,7 @@
     margin: 13px;
   }
   .bw-appointment-header-close::after {
-    top: 10px;
+    top: 17px;
   }
 }
 
@@ -32,6 +33,11 @@
 
 /* Tablets and mobile */
 @media (max-width: 769px) {
+
+  .bw-appointment-header-close::after {
+    top: 3px;
+  }
+
   .bw-appointment-header-column a, .bw-appointment-header-column span {
     height: 10px;
   }

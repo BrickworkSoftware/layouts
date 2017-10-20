@@ -1,12 +1,5 @@
 /* General */
 
-/* 
-    Also contains Breadcrumb css.
-
- */
-
-
-
 
 .bw-iframe-container .store_open_hours span b {
   font-weight: normal;
@@ -68,16 +61,7 @@
     font-smoothing: antialiased;
   }
 }
-.bw-iframe-container .store_miles_away {
-  width: fit-content;
-  float: left;
-}
-.bw-iframe-container .store_open_hours {
-  width:  50%;
-}
-.bw-iframe-container .store_open_hours span {
-  float: right;
-}
+
 /* Desktop only */
 @media (min-width: 780px) {
   .bw-iframe-container .appointment-rsvp-container .store-container {
@@ -88,8 +72,7 @@
     display: flex;
 
   }
-  .bw-iframe-container .store_miles_away,
-  .bw-iframe-container .store_open_hours {
+  .bw-iframe-container .store_miles_away, .bw-iframe-container .store_open_hours {
     font-size: 11px;
 
   }

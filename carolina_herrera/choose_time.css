@@ -128,9 +128,3 @@
     top: 208.6px !important;
   }
 }
-
-@-moz-document url-prefix() {
-  .appointment-rsvp-container {
-    color: #000000 !important;
-  }
-}

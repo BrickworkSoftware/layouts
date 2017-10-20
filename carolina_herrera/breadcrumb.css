@@ -24,7 +24,7 @@
     margin: 13px;
   }
   .bw-appointment-header-close::after {
-    top: 3px;
+    top: 10px;
   }
 }
 

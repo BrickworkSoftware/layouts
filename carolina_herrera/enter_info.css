@@ -31,7 +31,7 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
   letter-spacing: 0;
 }
 
-#confirm_appointment_button:hover {
+#confirm_appointment_button.active:hover {
   border: 1px solid #666666;
 }
 

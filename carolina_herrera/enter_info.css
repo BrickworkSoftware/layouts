@@ -32,7 +32,7 @@ input[type="text"],input[type="password"],input[type="date"],input[type="datetim
 }
 
 #confirm_appointment_button.active:hover {
-  border: 1px solid #666666;
+  border: 1px solid #666666 !important;
 }
 
 .bw-iframe-container [type="checkbox"]:not(:checked)+label:after, .bw-iframe-container [type="checkbox"]:checked+label:after {

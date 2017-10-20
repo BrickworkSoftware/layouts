@@ -49,6 +49,10 @@
   width: 92.33333%;
 }
 
+.search_header .date_selection_container .date_selector {
+  max-height: 105px;
+}
+
 @media only screen and (max-width: 40em) {
   .search_header .date_selection_container .date_selector .dayname_only {
     font-size: 14px !important;

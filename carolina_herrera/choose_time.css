@@ -117,4 +117,8 @@
   .bw-iframe-container .day-date-column .date_selector .small_day {
     padding-bottom: 21px;
   }
+
+  .ui-datepicker {
+    top: 195.6px !important;
+  }
 }

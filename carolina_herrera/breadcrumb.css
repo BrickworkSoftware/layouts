@@ -10,7 +10,10 @@
   content: 'X';
   visibility: visible;
 }
-
+.bw-appointment-header-close {
+  visibility: hidden;
+  color: #666;
+}
 
 
 
@@ -19,7 +22,9 @@
 @media (min-width:770px){
   .bw-appointment-header-close{
     margin: 13px;
-      
+  }
+  .bw-appointment-header-close::after {
+    top: 3px;
   }
 }
 

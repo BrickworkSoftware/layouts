@@ -4,8 +4,8 @@
 	letter-spacing: 0;
 }
 
-@media (min-width: 1000px) {
-	#service-appointment-stores {
+@media screen and (min-width: 1000px) {
+	#service-appointment-stores{
 		margin-top: 15px;
 	}
 }

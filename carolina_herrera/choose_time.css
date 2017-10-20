@@ -130,7 +130,7 @@
 }
 
 @-moz-document url-prefix() {
-  .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+  .appointment-rsvp-container {
     color: #000000 !important;
   }
 }

@@ -122,3 +122,9 @@
     top: 195.6px !important;
   }
 }
+
+@media (min-width: 560px) and (max-width: 769px) {
+  .ui-datepicker {
+    top: 208.6px !important;
+  }
+}

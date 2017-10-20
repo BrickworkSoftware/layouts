@@ -1,4 +1,28 @@
-/* Breadcrumbs */
+/* 
+  Breadcrumbs 
+    and 
+      X button
+
+*/
+
+
+.bw-appointment-header-close::after {
+  content: 'X';
+  visibility: visible;
+}
+
+
+
+
+
+
+@media (min-width:770px){
+  .bw-appointment-header-close{
+    margin: 13px;
+      
+  }
+}
+
 
 
 /* Tablets and mobile */

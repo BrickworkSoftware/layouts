@@ -82,11 +82,7 @@
   .bw-iframe-container .store_miles_away,
   .bw-iframe-container .store_open_hours {
     font-size: 11px;
-    width: fit-content;
 
-  }
-  .bw-iframe-container .store_miles_away {
-    margin-right: 4px;
   }
   .bw-iframe-container a.choose-store-link.appointment-link.button-clean + table {
     display: none;

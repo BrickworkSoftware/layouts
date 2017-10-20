@@ -49,6 +49,20 @@
   width: 92.33333%;
 }
 
+@media only screen and (max-width: 40em) {
+  .search_header .date_selection_container .date_selector .dayname_only {
+    font-size: 14px !important;
+  }
+
+  .bw-iframe-container .bw-load-next-dates {
+    padding-right: 5px;
+  }
+
+  .bw-iframe-container .bw-load-previous-dates {
+    padding-left: 5px;
+  }
+}
+
 @media only screen and (min-width: 54.063em) {
   .bw-load-previous-dates {
     left: -25px;
@@ -86,10 +100,6 @@
 
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title {
     margin-top: 30px;
-  }
-
-  .bw-iframe-container .day-date-column .date_selector .small_day {
-    padding-bottom: 24px !important;
   }
 
   .bw-iframe-container .dayname_only {

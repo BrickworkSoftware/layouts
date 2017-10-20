@@ -5,10 +5,6 @@
 
 .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
   font-size: 12px;
-
-  @-moz-document url-prefix() {
-    color: #000000;
-  }
 }
 
 .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -130,5 +126,11 @@
 @media (min-width: 560px) and (max-width: 769px) {
   .ui-datepicker {
     top: 208.6px !important;
+  }
+}
+
+@-moz-document url-prefix() {
+  .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+    color: #000000 !important;
   }
 }

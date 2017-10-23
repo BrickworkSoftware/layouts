@@ -398,6 +398,10 @@ a.choose-store-link.appointment-link.button-clean {
 
 .bw-iframe-container .bw-appointment-step-container-title {
   display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  margin: 0 !important;
+
 }
 
 .appointment-rsvp-container .local-stores .container {
@@ -419,13 +423,14 @@ a.choose-store-link.appointment-link.button-clean {
 .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
   font-family: 'ABChanel-Semibold', sans-serif;
   font-size: 14px;
-  margin-left: 33%;
-  margin-top: 65px;
   width: 329px;
   background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_icon.svg) no-repeat;
   background-position-y: center;
   border: none;
   border-bottom: 1px solid #979797;
+  margin: 0 0 !important;
+  position: relative;
+
 }
 
 .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date::after {
@@ -437,13 +442,31 @@ a.choose-store-link.appointment-link.button-clean {
   color: #1D1D1D;
   letter-spacing: 0;
   line-height: 26px;
-  margin-left: -33%;
+
   margin-top: 5px;
 }
 
 .bw-iframe-container .choose_time_text::after {
   display: none;
 }
+@media (min-width: 767px){
+  .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
+    left:  32%;
+  }
+  .bw-iframe-container .choose_time_text {
+    margin-bottom: 2%;
+    margin-left:  0% !important;
+  }
+
+}
+
+
+@media (max-width: 1080px) and (min-width: 980px){
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    border: 1px none !important;
+  }
+}
+
 
 div#ui-datepicker-div {
   padding: 0;
@@ -1482,8 +1505,8 @@ input[type="checkbox"]:checked + label {
 
   /*Choose A Time*/
   .bw-iframe-container .choose_time_text {
-    margin-left: 22% !important;
-    margin-top: 15px;
+   /*  margin-left: 22% !important;
+    margin-top: 15px; */
   }
 
   .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -1500,6 +1523,9 @@ input[type="checkbox"]:checked + label {
     background-position-x: 6px;
     background-position-y: 0px;
     transform: scale(0.9);
+    position: relative;
+    left: 21%;
+    float: none !important;
   }
   div#ui-datepicker-div {
     left: 19px !important;
@@ -1510,6 +1536,8 @@ input[type="checkbox"]:checked + label {
     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_down_arrow.svg) no-repeat;
     background-position-y: 28%;
     background-position-x: 78%;
+    margin-left:  23%;
+    margin-right:  24%;
   }
 
   #select-appointment-time h1.bw-appointment-step-container-title {
@@ -1721,7 +1749,7 @@ input[type="checkbox"]:checked + label {
   }
 
   .bw-iframe-container .choose_time_text {
-    margin-left: 21% !important;
+   /*  margin-left: 21% !important; */
   }
 
   .bw-iframe-container #mobile_date_select {
@@ -1765,11 +1793,11 @@ and (max-device-width : 736px) and (orientation : portrait) {
   }
 
   .bw-iframe-container .choose_time_text {
-    margin-left: 24% !important;
+   /*  margin-left: 24% !important; */
   }
 
   .bw-iframe-container #mobile_date_select {
-    margin-right: 25% !important;
+/*     margin-right: 25% !important; */
   }
 
   #appointment-options .month.clearfix {
@@ -1905,7 +1933,7 @@ and (max-device-width : 736px) and (orientation : portrait) {
   .bw-iframe-container .choose_time_text {
     width: 60%;
     margin-left: 20% !important;
-    margin-right: 20%;
+    /* margin-right: 20%; */
   }
 
   .bw-iframe-container .day-date-column .date_selector .big_day {
@@ -2024,7 +2052,27 @@ and (orientation : portrait) {
   width: 90%;
   margin-right: -5px !important;
   }
+
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    left: -50px !important;
+  }
+  #appointment-options .month.clearfix {
+    margin: 0 23% !important;
+  }
 }
+
+@media (max-width: 580px) {
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    left: -50px !important;
+  }
+  #appointment-options .month.clearfix {
+    margin: 0 13% !important;
+  }
+
+
+}
+
+
 
 /*.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message { width: 65%; }*/
 </style>

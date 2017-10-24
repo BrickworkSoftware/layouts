@@ -12,9 +12,15 @@
     top: -6px;
   }
   .bw-iframe-container [type="radio"]:checked+label:after {
-  top: 6px !important;
+    top: 6px !important;
   }
 }
+@media (max-width: 414px) {
+  .bw-iframe-container [type="radio"]:checked+label:after {
+    top: 5px !important;
+  }
+}
+@media 
 .bw-display-layer .bwt-appointment-cancel a {
   font-family: Helvetica;
   font-size: 14px !important;

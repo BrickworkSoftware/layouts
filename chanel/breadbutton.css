@@ -1,13 +1,18 @@
 /*
   Breadcrumb and Checkboxes/radio
 */
+@media (min-width: 768px) {
+  .bw-iframe-container [type="radio"]:checked+label:after {
+  top: 7px;
+  }
+}
 
 @media (max-width: 768px) {
   .bw-appointment-header-close-container {
     top: -6px;
   }
+  .bw-iframe-container [type="radio"]:checked+label:after {
+  top: 6px;
+  }
 }
 
-.bw-iframe-container [type="radio"]:checked+label:after {
-  top: 6px;
-}

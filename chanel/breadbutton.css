@@ -3,7 +3,7 @@
 */
 @media (min-width: 768px) {
   .bw-iframe-container [type="radio"]:checked+label:after {
-  top: 7px;
+  top: 7px !important;
   }
 }
 
@@ -12,7 +12,7 @@
     top: -6px;
   }
   .bw-iframe-container [type="radio"]:checked+label:after {
-  top: 6px;
+  top: 6px !important;
   }
 }
 

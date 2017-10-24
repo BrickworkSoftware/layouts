@@ -2,7 +2,7 @@
   Breadcrumb and Checkboxes/radio
 */
 
-@media (max-width: 768px) and (min-width: 414px) {
+@media (max-width: 768px) {
   .bw-appointment-header-close-container {
     top: -6px;
   }

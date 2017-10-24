@@ -1,0 +1,11 @@
+/* Choose A Store Part 2 - Fix from Abey */
+
+.bw-iframe-container a.choose-store-link.appointment-link.button-clean {
+	letter-spacing: 0;
+}
+
+#service-appointment-stores {
+	margin-top: 15px;
+}
+
+

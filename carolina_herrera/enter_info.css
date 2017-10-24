@@ -2,4 +2,64 @@
   Enter Info 
 
 */
+.bw-iframe-container .appointment-rsvp-container #enter-contact-info .title h1 {
+  margin-top: -1rem;
+  color: #000000;
+}
 
+.bw-iframe-container .bwt-appt-message-field .bwt-email-opt-field {
+  margin-top: 0;
+}
+
+label.bwt-rsvp-email-opt-placeholder.fancy-input {
+  margin-left: 0;
+}
+
+.bw-iframe-container #enter-contact-info #appointment_customer_message {
+  padding-left: 10px;
+}
+
+#questions-wrapper .bwt-appt-input-placeholder {
+  left: 1.5rem;
+}
+
+input[type="text"],input[type="password"],input[type="date"],input[type="datetime"],input[type="datetime-local"],input[type="month"],input[type="week"],input[type="email"],input[type="number"],input[type="search"],input[type="tel"],input[type="time"],input[type="url"],input[type="color"],textarea {
+  color: #000000;
+}
+
+.bw-iframe-container #confirm_appointment_button {
+  letter-spacing: 0;
+}
+
+#confirm_appointment_button {
+  border: none;
+}
+
+.bw-iframe-container [type="checkbox"]:not(:checked)+label:after, .bw-iframe-container [type="checkbox"]:checked+label:after {
+  top: 5px;
+  left: 5px;
+}
+
+.bw-iframe-container [type="checkbox"]:not(:checked)+label, .bw-iframe-container [type="checkbox"]:checked+label, .bw-iframe-container [type="radio"]:not(:checked)+label, .bw-iframe-container [type="radio"]:checked+label {
+  font-size: 12px;
+  padding: 2px 20px 5px 35px;
+}
+
+.bwt-email-opt-field label {
+  color: #999;
+}
+
+
+/* tablet and mobile */
+@media screen and (max-width: 769px) {
+  .bwt-store-call-field label,.bwt-rsvp-first-name-field label,.bwt-rsvp-last-name-field label,.bwt-rsvp-email-field label,.bwt-email-opt-field label,.bwt-appt-name-field label,.bwt-appt-email-field label,.bwt-appt-message-field label {
+    font-size: 12px;
+  }
+}
+
+/* Media Query For Mobile */
+@media screen and (max-width: 767px) {
+  #enter-contact-info .title.show-for-medium-down h1.bw-appointment-step-container-title {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,32 @@
+/*
+  Thank You
+*/
+
+#appointment-confirmation .confirmation_title {
+  font-size: 20px !important;
+}
+
+#appointment-confirmation .details p{
+  font-size: 11px !important;
+  letter-spacing: 0;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.bw-iframe-container #appointment-confirmation .button.bw-confirmation-close-button {
+  max-width: 248px;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 11px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#appointment-confirmation .details {
+  max-width: 344px;
+}
+
+@media (max-device-width: 767px) {
+  #appointment-confirmation .details {
+    max-width: 259px;
+  }
+}

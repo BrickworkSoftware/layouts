@@ -15,4 +15,7 @@
   top: 6px !important;
   }
 }
-
+.bw-display-layer .bwt-appointment-cancel a {
+  font-family: Helvetica;
+  font-size: 14px !important;
+}

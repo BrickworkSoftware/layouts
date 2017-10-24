@@ -656,7 +656,6 @@ a.ui-state-default {
 
 .day_container.row .day_segment {
   width: 260px;
-  height: 80px;
 }
 
 .day_container.row .day_segment a:hover {
@@ -704,7 +703,7 @@ a.choose-time-slot-link.appointment_link:hover {
 
 .bwt-appt-name-field, .bwt-appt-email-field, .bwt-appointment-customer-message {
   width: 480px;
-  margin-left: 22%;
+  margin-left: 21%;
   float: left !important;
 }
 
@@ -759,7 +758,7 @@ a.choose-time-slot-link.appointment_link:hover {
 }
 
 #questions-wrapper div.input.string {
-  margin-top: 15px;
+  margin-top: 0;
 }
 
 span.checkbox {
@@ -932,12 +931,8 @@ span.checkbox {
   color: #1D1D1D;
   letter-spacing: 0;
   line-height: 18px;
-  position: absolute;
-  /*left: 42%;*/
-  top: 300px;
-  left: 0;
-  right: 0;
   text-align: center;
+  order: 1;
 }
 
 small.error {
@@ -1037,6 +1032,7 @@ input[type="checkbox"]:checked + label {
   .medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {
     width: 65%;
     margin-left: 21%;
+    margin-top: -3%;
   }
   .bwt-appt-questions-container #questions-wrapper > div:nth-child(2) {
     width: 99%;
@@ -1116,9 +1112,17 @@ input[type="checkbox"]:checked + label {
     width: auto;
   }
 
-  /*.bw-iframe-container .appointment-rsvp-container #search_button {
-    display: none;
-  }*/
+  
+
+  #select-appointment-time h1.bw-appointment-step-container-title{ 
+    background: none;
+  }
+}
+
+@media (max-width: 935px) and (min-width: 671px) {
+  .bw-iframe-container .appointment-rsvp-container #search_button {
+    background: none;
+  }
 }
 
 /* Test */
@@ -1137,6 +1141,14 @@ input[type="checkbox"]:checked + label {
 
 /* Negater from phone down*/
 @media (max-device-width: 768px) {
+  /*.bw-iframe-container .appointment-rsvp-container #search_button {
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_down_arrow.svg) no-repeat; 
+  }*/
+  
+  #select-appointment-time h1.bw-appointment-step-container-title{
+    background: inherit;
+  }
+
   .bw-iframe-container .appointment-rsvp-container #search_button {
     display: inherit;
   }
@@ -1355,10 +1367,7 @@ input[type="checkbox"]:checked + label {
 
   .bwt-cancel-store-appointment .js-cancel-store-appt {
     font-size: 14px;
-    left: 40%;
     font-family: 'Helvetica';
-    left: 0;
-    right: 0;
     text-align: center;
   }
 
@@ -1382,13 +1391,12 @@ input[type="checkbox"]:checked + label {
     pointer-events: auto;
   }
 
+  .bw-iframe-container #confirm_appointment_button {
+    padding: 7px 35px;
+  }
   /* Reschedule */
   .bwt-cancel-store-appointment .js-cancel-store-appt {
     /*left: 34%;*/
-    left: 113px;
-    top: 325px;
-    left: 0;
-    right: 0;
     text-align: center;
   }
   /* Breadcrumbs */
@@ -1643,6 +1651,7 @@ input[type="checkbox"]:checked + label {
   }
 
   /*Enter Info*/
+
   .bwt-appt-name-field, .bwt-appt-email-field, .bwt-appointment-customer-message {
     width: 100%;
     margin-left: 0%;
@@ -1652,10 +1661,6 @@ input[type="checkbox"]:checked + label {
   #questions-wrapper {
     width: 100%;
     margin-left: 0%;
-    padding-left: 0;
-  }
-
-  .bwt-appt-questions-container {
     padding-left: 0;
   }
 
@@ -1671,10 +1676,6 @@ input[type="checkbox"]:checked + label {
     color: #767676 !important;
     letter-spacing: 0.09px;
     line-height: 24px;
-  }
-
-  #enter-contact-info label.control-label {
-    padding-left: 0;
   }
 
   #questions-wrapper label.collection_check_boxes {
@@ -1976,6 +1977,10 @@ and (max-device-width : 736px) and (orientation : portrait) {
     padding-top: 1px;
   }
 
+check_boxes required control-label {
+  padding-left: 0;
+}
+
   .collection_radio_buttons {
     margin-left: 8.5% !important;
   }
@@ -2045,7 +2050,9 @@ and (orientation : portrait) {
 
 
 }
-
+span.checkbox.error {
+    padding: 0 !important;
+  }
 @media (max-width: 676px){
   _::-webkit-full-page-media, _:future, :root div#ui-datepicker-div {
   margin-left: 20px !important;
@@ -2059,6 +2066,7 @@ and (orientation : portrait) {
   #appointment-options .month.clearfix {
     margin: 0 23% !important;
   }
+  
 }
 
 @media (max-width: 580px) {
@@ -2071,8 +2079,36 @@ and (orientation : portrait) {
 
 
 }
+.bw-display-layer .bwt-appointment-cancel {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.bwt-cancel-store-appointment {
+  order: 1;
+  margin-top: 30px;
+}
 
 
 
 /*.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message { width: 65%; }*/
+
+@-moz-document url-prefix() {
+ .bw-iframe-container #enter-contact-info input[type] {
+   padding-top: 13px !important;
+ }
+}
+
+label.check_boxes.required.control-label {
+  padding-left: 0;
+}
+
+label.radio_buttons.required.control-label {
+  padding-left: 0;
+}
+
+input[type="checkbox"]+label, input[type="radio"]+label {
+  margin-left: 0;
+}
+
 </style>

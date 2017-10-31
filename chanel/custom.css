@@ -1025,18 +1025,38 @@ input[type="checkbox"]:checked + label {
   padding-bottom: 10px;
 }
 
+
+#questions-wrapper textarea {
+  padding-top: 0;
+}
+
 /* Desktop */
 @media screen and (min-device-width: 1200px) {
-  
+  #questions-wrapper div {
+    max-width: 465px;
+  }
+
+  .bwt-appt-questions-container {
+    margin-top: -30px;
+  }
+
+  /*#questions-wrapper .bwt-appt-message-field.active .bwt-appt-input-placeholder {
+    top: 15px !important;
+  }*/
+
+  #questions-wrapper textarea {
+    min-height: 10px;
+    margin-top: 40px;
+  }
 
   .medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {
     width: 65%;
     margin-left: 21%;
     margin-top: -3%;
+    max-width: 465px;
   }
   .bwt-appt-questions-container #questions-wrapper > div:nth-child(2) {
     width: 99%;
-    margin-left: -1px;
   } 
 
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a,
@@ -2146,6 +2166,12 @@ input[type="checkbox"]+label, input[type="radio"]+label {
   /* Tablet only */
   .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title {
     margin-top: -15px;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+  div#ui-datepicker-div {
+    top: 205px !important;
   }
 }
 

@@ -1032,6 +1032,11 @@ input[type="checkbox"]:checked + label {
 
 /* Desktop */
 @media screen and (min-device-width: 1200px) {
+
+  .bw-iframe-container .bw-appointment-service-link {
+    height: 370px !important;
+  }
+
   #questions-wrapper div {
     max-width: 465px;
   }
@@ -1203,6 +1208,11 @@ input[type="checkbox"]:checked + label {
 
 /* Ipad Regular */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
+
+  #questions-wrapper {
+    margin-top: -5%;
+  }
+
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
     color: black !important;
   }
@@ -1364,7 +1374,7 @@ input[type="checkbox"]:checked + label {
   }
 
   #questions-wrapper {
-    margin-left: 13%;
+    margin-left: 14%;
   }
 
   .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -1387,6 +1397,7 @@ input[type="checkbox"]:checked + label {
     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_down_arrow.svg) no-repeat;
     background-position-y: 28%;
     background-position-x: 93%;
+    display: block;
   }
 
   #select-appointment-time h1.bw-appointment-step-container-title {
@@ -1419,6 +1430,14 @@ input[type="checkbox"]:checked + label {
 
 /* Mobile Media Query */
 @media screen and (max-width: 767px) {
+
+  #questions-wrapper {
+    margin-top: -5%;
+  }
+
+  #enter-contact-info .bwt-appt-questions-container {
+    padding-left: 0;
+  }
 
   .bw-iframe-container .local-stores .choose-store-link {
     pointer-events: auto;
@@ -1578,6 +1597,7 @@ input[type="checkbox"]:checked + label {
     background-position-x: 78%;
     margin-left:  23%;
     margin-right:  24%;
+    display: block;
   }
 
   #select-appointment-time h1.bw-appointment-step-container-title {
@@ -2173,6 +2193,34 @@ input[type="checkbox"]+label, input[type="radio"]+label {
   div#ui-datepicker-div {
     top: 205px !important;
   }
+}
+
+.bw-iframe-container .bw-appointment-service-link {
+    height: 370px !important;
+}
+
+@media screen and (max-width: 865px) {
+  .appointment-rsvp-container #appointment-options #mobile_date_select {
+    border: none !important;
+    border-bottom: 1px solid #DDDDDD !important;
+    padding-bottom: 10px;
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_icon.svg) no-repeat;
+    font-family: 'ABChanel-Semibold' !important;
+    font-size: 14px;
+    color: #1D1D1D !important;
+    letter-spacing: 1px;
+    line-height: 20px;
+    background-size: 27px;
+    background-position-x: 6px;
+    background-position-y: 3px; 
+  }
+
+  .month.clearfix {
+    display: flex;
+    justify-content: center;
+    
+  }
+
 }
 
 </style>

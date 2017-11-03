@@ -1,0 +1,21 @@
+html {
+   font-size: 100% !important;
+}
+
+.row .bwt-store-address-contextual {
+display: none !important;
+}
+
+.bw-app .bwt-events-rsvp-modal .bwt-email-opt-field input[type=checkbox] {
+width: 30px;
+height: 30px;
+}
+ .bw-display-layer input[type="text"].bwt-stores-nearby-search-form-input::placeholder {
+  overflow: visible !important
+}
+@media screen and (max-width: 484px){
+  .icon-header.icon-header-logo {
+  height: 2.5625rem !important;
+  bottom: -11px;
+  }
+}

@@ -1,0 +1,87 @@
+<style>
+@media (min-width: 996px) {
+  .sticky #header #mobile-menu-utility {
+    top: -16px;
+
+ }
+}
+#brickworkApp .Modal {
+    position: inherit;
+    top: inherit;
+    right: inherit;
+    bottom: inherit;
+    left: inherit;
+    z-index: inherit;
+    display: inherit;
+    overflow: inherit;
+    -webkit-overflow-scrolling: inherit;
+    outline: 0;
+}
+
+.carousel h2, .carousel p {
+margin: 0 !important;
+}
+
+td {
+  padding: 0 !important
+}
+
+.bwt-cancel-rsvp-only {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.bwt-event-rsvp-title {
+  margin-top: 80px !important;
+  font-family: 'Rokkitt', serif;
+  font-weight: 800;
+  font-size: 26px;
+  color: #222222;
+  letter-spacing: 0.27px;
+  text-transform: uppercase;
+  padding-left: 5%;
+}
+
+@media (max-width: 576px) {
+  .bwt-event-rsvp-title {
+    font-size: 24px;
+  }
+}
+
+.bwt-event-rsvp-status {
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.29px;
+  line-height: 18px;
+  padding-left: 5%;
+}
+
+.bwt-event-rsvp-cancel-button {
+  padding-left: 5%;
+}
+
+.bwt-event-rsvp-cancel-button a {
+  font-family: 'ProximaNova', sans-serif;
+  font-weight: 800;
+  font-size: 13px;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 10px;
+  background: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;
+}
+
+.bwt-event-rsvp-cancel-button a:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.bw-display-layer .footer {
+  display: none;
+}
+
+</style>

@@ -1,0 +1,182 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+
+.row.bw-display-layer-container {
+  margin: 0 auto;
+}
+
+
+/* RSVP Cancellation page styling --- START */
+.bwt-cancel-rsvp-only {
+  margin: 10% auto;
+}
+
+.bwt-cancel-rsvp-only * {
+  font-family: 'Montserrat';
+  margin: auto;
+
+}
+.bwt-cancel-rsvp-only .bwt-event-rsvp-title {
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+
+.bwt-cancel-rsvp-only .bwt-event-rsvp-status {
+  font-size: 13px; 
+  color: #666;
+  margin-bottom: 2%;
+
+}
+
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+  width: 28%;
+  margin: 0;
+}
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button a {
+    background: #666;
+  color: #fff;
+  padding: 5%;
+  display:flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+.bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button a:hover {
+  opacity: 0.75;
+}
+
+@media (min-width: 300px) {
+  .bwt-cancel-rsvp-only {
+    margin: 10%
+  }
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+    width: 68%;
+    margin: 4% 0;
+  }
+}
+@media (min-width: 768px){
+  .bwt-cancel-rsvp-only .bwt-event-rsvp-cancel-button {
+    width: 32%;
+   
+  }
+}
+
+/* RSVP Cancellation page styling -- STOP */
+
+
+.ch-namespace header.mobile div.inner {
+  padding: 0 20px !important;
+}
+
+.ch-namespace .mini~main {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1024px) {
+  .ch-namespace header.desktop nav section#main div#secondary section#sub-menu-fragrance ul.header-sub-fragrance {
+    width: auto;
+  }
+}
+
+.ch-namespace header.desktop nav section#main div#secondary section ul ul.sub-menu li.menu-item {
+  padding-bottom: 8px;
+  margin: 0 0 0 0;
+  width: 150px;
+}
+
+.ch-namespace header.desktop nav section#main div#secondary section ul.header-sub-fashion {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.ch-namespace header.desktop nav section#main div#secondary section ul {
+  max-width: 100%;
+}
+
+.bw-display-layer .footer {
+  display: none;
+}
+
+.bw-display-layer .bwt-index-filter-list.bwt-hidden {
+  display: block !important;
+}
+
+.bwt-types-container, .bw-display-layer label.hidden, .bwt-upcoming-event-container, .bwt-index-store-events-and-services, .bwt-sub-nav.bwt-hide-on-mobile * {
+  display: none !important;
+}
+
+.bwt-features-and-services-container {
+  width: 100% !important;
+}
+
+.bwt-index-filters-toggle {
+  display: none !important;
+}
+
+@media only screen and (max-width: 640px) {
+  .bw-display-layer .bwt-filters li {
+    width: 100% !important;
+  }
+}
+
+/* Alex's Styling */
+
+.bw-iframe-container .bw-appointment-service .bw-appointment-service-link-name {
+  font-size: 16px;
+}
+
+@media (min-width: 780px) {
+  .small-10 {
+    width: 100%;
+  }
+
+  .small-offset-1 {
+    margin-left: 0 !important;
+  }
+
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header {
+    height: 90px;
+    padding: 25px;
+  }
+
+  .search_header .date_selection_container .day-date-column {
+    width: 130px;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .appointment-rsvp-container #appointment-options {
+    padding: 0 20px;
+  }
+
+  .bw-load-previous-dates {
+    left: -15px;
+  }
+
+  .bw-load-next-dates {
+    right: -15px;
+  }
+}
+
+@media (max-width: 740px) {
+    .bwt-store-address-line, .bw-appointment-store-address table td, div.medium-12 {
+        font-size: 14px !important;
+    }
+    .bw-iframe-container .appointment-rsvp-container .store-container .address td, 
+    .bw-appointment-store-address > div > table + div + div + div,
+    .bw-appointment-store-address > div > table + div + div{
+        font-size: 14px !important;
+    }
+
+    .bw-iframe-container .bwt-index-store-details-address h4, 
+    .bw-appointment-store-address h4,
+    .medium-7 h4 {
+        font-size: 14px  !important;
+    }
+
+    .bw-iframe-container .appointment-rsvp-container .store-container .address h4, .bw-iframe-container .bwt-store-address, .bw-iframe-container .appointment-rsvp-container .store-container .address td, .bw-appointment-store-address > div > table + div + div + div, .bw-appointment-store-address > div > table + div + div {
+        font-size: 14px !important;
+    }
+}

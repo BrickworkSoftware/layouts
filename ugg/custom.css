@@ -2223,6 +2223,11 @@ img { color: rgba(0,0,0,0); }
       left: 464px !important;
     }
   }
+  @media (min-width: 1200px) {
+    .ui-datepicker {
+      left: 624px !important;
+    }
+  }
 /*Hide nearest store link from header*/
 .js-choose-store { display: none !important; }
 </style> 

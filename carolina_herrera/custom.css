@@ -159,15 +159,22 @@
     right: -15px;
   }
 }
+@media (min-width: 780px) {
+  .appointment-rsvp-container #appointment-confirmation .details {
+      padding-top: 18px;
+      padding-bottom: 0px;
+      margin-bottom: -3px;
+    }
+}
 
 @media (max-width: 740px) {
     .bwt-store-address-line, .bw-appointment-store-address table td, div.medium-12 {
-        font-size: 14px !important;
+        font-size: 14px;
     }
     .bw-iframe-container .appointment-rsvp-container .store-container .address td, 
     .bw-appointment-store-address > div > table + div + div + div,
     .bw-appointment-store-address > div > table + div + div{
-        font-size: 14px !important;
+        font-size: 14px ;
     }
 
     .bw-iframe-container .bwt-index-store-details-address h4, 
@@ -177,6 +184,40 @@
     }
 
     .bw-iframe-container .appointment-rsvp-container .store-container .address h4, .bw-iframe-container .bwt-store-address, .bw-iframe-container .appointment-rsvp-container .store-container .address td, .bw-appointment-store-address > div > table + div + div + div, .bw-appointment-store-address > div > table + div + div {
-        font-size: 14px !important;
+        font-size: 14px ;
     }
+}
+
+@media (max-width: 420px) {
+  .bw-iframe-container .bw-load-next-dates,
+  .bw-iframe-container .bw-load-previous-dates {
+    transform: scale(0.50);
+  }
+   .bw-iframe-container .bw-load-next-dates {
+    right: -7px;
+   }
+   .bw-iframe-container #enter-contact-info input[type], .bw-iframe-container #appointment_customer_message {
+    padding: 4px 11px;
+   }
+}
+
+@media (max-width: 320px) {
+  .bwt-store-address-line, .bw-appointment-store-address table td, div.medium-12 {
+    font-size: 11px ;
+  }
+   .bw-iframe-container .appointment-rsvp-container .store-container .address td, 
+  .bw-appointment-store-address > div > table + div + div + div,
+  .bw-appointment-store-address > div > table + div + div{
+        font-size: 11px !important;
+    }
+}
+.appointment-rsvp-container input[type="text"].cal_field:focus, 
+.appointment-rsvp-container input[type="email"].cal_field:focus, 
+.appointment-rsvp-container input[type="date"].cal_field:focus, 
+.appointment-rsvp-container textarea.cal_field:focus,
+.appointment-rsvp-container input[type="text"].cal_field, 
+.appointment-rsvp-container input[type="email"].cal_field, 
+.appointment-rsvp-container input[type="date"].cal_field, 
+.appointment-rsvp-container textarea.cal_field {
+  background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/ch/calendar_icon%20%281%29.svg) no-repeat 9px 8px;
 }

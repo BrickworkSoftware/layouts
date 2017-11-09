@@ -1791,6 +1791,19 @@ a.bw-appointment-service-link h4.bw-appointment-service-link-name {
   margin-bottom: 20px;
 }
 
+@media (max-width: 780px) {
+  #appointment-container .title.large-12.columns h1 {
+    border-bottom: 1px solid #e3e3e3 !important;
+    padding-bottom: 21px;
+    font-size: 20px !important;
+    margin-top: 10px !important;
+  }
+  .month.clearfix {
+    margin-top: 20px;
+  }
+}
+
+
 @media (min-width: 1200px){
   #appointment-container .large-4.columns.end {
     margin-top: -70px;

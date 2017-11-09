@@ -221,3 +221,20 @@
 .appointment-rsvp-container textarea.cal_field {
   background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/ch/calendar_icon%20%281%29.svg) no-repeat 9px 8px;
 }
+@media (min-width: 440px) {
+  .fa-angle-right::before, .bw-load-next-dates::before {
+  background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/DMAT/grey-left-chevron.svg);
+  background-repeat: no-repeat;
+  color: transparent;
+  transform: rotate(180deg);
+  display: block;
+  }
+  .fa-angle-left:before, .bw-load-previous-dates:before {
+     background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/DMAT/grey-left-chevron.svg);
+    background-repeat: no-repeat;
+    color: transparent;
+    display: block;
+    position: relative;
+    top: 25px;
+  }
+}

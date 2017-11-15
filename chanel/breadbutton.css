@@ -23,4 +23,5 @@
 .bw-display-layer .bwt-appointment-cancel a {
   font-family: Helvetica;
   font-size: 14px !important;
+  text-transform: uppercase !important;
 }

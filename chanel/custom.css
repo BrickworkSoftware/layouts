@@ -21,7 +21,10 @@
 /*a.bw-appointment-header-close {
   background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/close_icon.svg) no-repeat;
 }*/
-
+html {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
 .search_header .date_selection_container .date_selector.unavailable .dayname_only { opacity: 0.5; }
 
 /* Breadcrumbs */
@@ -77,7 +80,7 @@ a.bw-appointment-header-close {
 }
 
 .bw-iframe-container .bw-appointment-header-feedback {
-  text-transform: capitalize !important;
+  text-transform: uppercase !important;
   font-family: 'Helvetica', sans-serif !important;
   color: #767676;
   line-height: 16px;
@@ -236,6 +239,9 @@ a.choose-store-link.appointment-link.button-clean {
 
 .bw-iframe-container .appointment-rsvp-container .store-container .address td {
   width: 37px;
+}
+.bw-iframe-container .appointment-rsvp-container .store-container .address > div[class*='large-12 medium-5'] {
+  width: 250px;
 }
 
 .bw-iframe-container .appointment-rsvp-container .local-stores:before {
@@ -425,13 +431,13 @@ a.choose-store-link.appointment-link.button-clean {
 #select-appointment-time h1.bw-appointment-step-container-title{
   background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_down_arrow.svg) no-repeat;
   background-position-y: 59%;
-  background-position-x: 67%;
+  background-position-x: 69%;
 }
 
 .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
   font-family: 'ABChanel-Semibold', sans-serif;
   font-size: 14px;
-  width: 329px;
+  width: 330px;
   background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/calendar_icon.svg) no-repeat;
   background-position-y: center;
   border: none;
@@ -460,7 +466,7 @@ a.choose-store-link.appointment-link.button-clean {
 }
 @media (min-width: 767px){
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
-    left:  32%;
+    left:  34%;
   }
   .bw-iframe-container .choose_time_text {
     margin-bottom: 2%;
@@ -479,7 +485,7 @@ a.choose-store-link.appointment-link.button-clean {
 
 div#ui-datepicker-div {
   padding: 0;
-  width: 300px;
+  width: 330px;
   min-height: 300px;
   border-radius: 0 !important;
   border-top: none;
@@ -970,7 +976,7 @@ small.error {
 
 .bw-iframe-container #enter-contact-info #questions-wrapper .error {
   background: white !important;
-  color: red !important;
+  color: #D70000 !important;
   margin-top: -2px !important;
 }
 
@@ -1052,7 +1058,9 @@ input[type="checkbox"]:checked + label {
 
 /* Desktop */
 @media screen and (min-device-width: 1200px) {
-
+  div#ui-datepicker-div {
+    left: ;
+  }
   .bw-iframe-container .bw-appointment-service-link {
     height: 370px !important;
   }
@@ -1300,7 +1308,7 @@ input[type="checkbox"]:checked + label {
   }
 
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
-    width: 63%;
+    width: 100%;
   }
 
   .bw-iframe-container .appointment-rsvp-container .store-container .address td {
@@ -1521,7 +1529,7 @@ input[type="checkbox"]:checked + label {
   }
 
   .bw-iframe-container .appointment-rsvp-container .store-container .address table {
-    width: 63%;
+    width: 100%;
   }
 
   .bw-iframe-container .appointment-rsvp-container .store-container .address td {
@@ -2796,15 +2804,36 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 
 
 }
-
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+  color: #D70000 !important;
+}
  @-moz-document url-prefix() {
   .bw-iframe-container .appointment-rsvp-container #location.bwt-modal-store-search-location-field {
     padding: 9px 1px;
   }
-  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location::placeholder {
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location::placeholder,
+  .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
     opacity: 1;
   }
 
+  #select-appointment-time h1.bw-appointment-step-container-title {
+    background-position-y: 54%;
+  }
+  table.ui-datepicker-calendar tr th span,
+  .ui-datepicker .ui-state-default, 
+  .ui-datepicker .ui-widget-content .ui-state-default, 
+  .ui-datepicker .ui-widget-header .ui-state-default {
+    font-weight: normal !important;
+  }
+  #enter-contact-info input, #enter-contact-info textarea {
+    font-family: 'Helvetica';
+    font-weight: 100;
+  }
+  .bw-iframe-container #enter-contact-info #questions-wrapper .error,
+  [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+    font-family: 'Helvetica';
+    font-weight: 300 !important;
+  }
  }
 
 /* NIK STYLING REQUEST  DO NOT REMOVE */

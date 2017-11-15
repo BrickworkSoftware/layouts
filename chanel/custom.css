@@ -479,7 +479,7 @@ a.choose-store-link.appointment-link.button-clean {
 
 div#ui-datepicker-div {
   padding: 0;
-  width: 329px;
+  width: 300px;
   min-height: 300px;
   border-radius: 0 !important;
   border-top: none;
@@ -2796,6 +2796,16 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 
 
 }
+
+ @-moz-document url-prefix() {
+  .bw-iframe-container .appointment-rsvp-container #location.bwt-modal-store-search-location-field {
+    padding: 9px 1px;
+  }
+  .bw-iframe-container .appointment-rsvp-container .bwt-modal-store-search-location-field#location::placeholder {
+    opacity: 1;
+  }
+
+ }
 
 /* NIK STYLING REQUEST  DO NOT REMOVE */
 div.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {

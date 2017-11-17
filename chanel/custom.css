@@ -187,7 +187,10 @@ a.bw-appointment-header-close {
   margin-bottom: 30px;
 
 }
-
+.bw-iframe-container .bw-appointment-service-link:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+  float: left;
+  margin-left: 5px;
+}
 .bw-iframe-container .bw-appointment-service .bw-appointment-service-link-name {
   font-family:'ABChanel-Semibold', sans-serif !important;
   font-size: 20px;
@@ -204,7 +207,7 @@ a.bw-appointment-header-close {
 }
 
 .bw-iframe-container .bw-appointment-service .bw-appointment-service-link-description {
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light', 'Helvetica';
   font-size: 14px;
   color: #333333;
   letter-spacing: 0.1px;
@@ -285,7 +288,7 @@ a.choose-store-link.appointment-link.button-clean {
 }
 
 .local-stores #service-appointment-stores .store_address {
-  font-family:'Helvetica-Light';
+  font-family:'Helvetica-Light','Helvetica';
   font-size: 14px;
   color: #333333;
   letter-spacing: 0.1px;
@@ -377,7 +380,7 @@ a.choose-store-link.appointment-link.button-clean {
 }
 
 .address .bwt-store-address, .address table td, .address .medium-12 {
-  font-family: 'Helvetica-Light' !important;
+  font-family: 'Helvetica-Light', 'Helvetica' !important;
   font-size: 14px !important;
   color: #333333 !important;
   letter-spacing: 0.1px !important;
@@ -396,6 +399,7 @@ a.choose-store-link.appointment-link.button-clean {
 .address tr td:first-of-type {
   font-family: 'Helvetica' !important;
   color: #1D1D1D !important;
+  font-weight: 500; 
 }
 
 /*.address table tr:nth-child(2) {
@@ -710,7 +714,7 @@ a.choose-time-slot-link.appointment_link:hover {
 }
 
 .bw-iframe-container .day_segment .choose-time-slot-link {
-  font-family: 'Helvetica-Light' !important;
+  font-family: 'Helvetica-Light','Helvetica' !important;
 }
 
 /* Enter Details */
@@ -746,13 +750,13 @@ a.choose-time-slot-link.appointment_link:hover {
   border: none !important;
   border-bottom: 1px solid #D8D8D8 !important;
   padding-left: 0;
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light','HelveticaNeue','Helvetica';
   font-size: 14px;
   color: #1D1D1D;
 }
 
 .bw-iframe-container .bwt-appt-input-placeholder {
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light','Helvetica';
   color: #767676 !important;
   margin-left: -17px;
   letter-spacing: 0.09px;
@@ -768,6 +772,7 @@ a.choose-time-slot-link.appointment_link:hover {
   margin-left: 22%;
   font-family: 'ABChanel-Semibold', sans-serif !important;
   letter-spacing: 0px;
+  margin-top: 20px;
 }
 
 #questions-wrapper span.radio {
@@ -862,6 +867,11 @@ span.checkbox {
 .bw-iframe-container #enter-contact-info #questions-wrapper select {
   color: #1D1D1D !important;
 }
+.bw-iframe-container #enter-contact-info #questions-wrapper .radio_buttons > label,
+.bw-iframe-container #enter-contact-info #questions-wrapper .check_boxes > label  {
+  padding-left: 0;
+  margin-left: -2px;
+ }
 
 
 /* Thank You Page */
@@ -879,7 +889,7 @@ span.checkbox {
 }
 
 #appointment-confirmation .details p {
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light','Helvetica';
   font-size: 16px;
   color: #333333 !important;
   letter-spacing: 0.1px;
@@ -920,7 +930,7 @@ span.checkbox {
 }
 
 .bwt-appointment-cancel p {
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light','Helvetica';
   font-size: 16px !important;
   color: #231F20;
   letter-spacing: 0;
@@ -963,7 +973,7 @@ span.checkbox {
 
 small.error {
   background-color: white !important;
-  font-family: 'Helvetica-Light';
+  font-family: 'Helvetica-Light','Helvetica';
   font-size: 14px !important;
   color: #D70000 !important;
   letter-spacing: 0.12px;
@@ -1800,7 +1810,7 @@ input[type="checkbox"]:checked + label {
   .bw-iframe-container .appointment-rsvp-container .local-stores:before {
     margin-top: -27px;
     width: 200px;
-    margin-left: 3%;
+    margin-left: 2%;
   }
 
   .bw-iframe-container .appointment-rsvp-container .service-appointment-stores {
@@ -1973,7 +1983,7 @@ input[type="checkbox"]:checked + label {
   #enter-contact-info label.show-for-medium-down,
   .bw-iframe-container #enter-contact-info #questions-wrapper label.show-for-medium-down {
     padding-left: 0;
-    font-family: 'Helvetica-Light';
+    font-family: 'Helvetica-Light','Helvetica';
     font-size: 12px;
     color: #767676 !important;
     letter-spacing: 0.09px;
@@ -1981,7 +1991,7 @@ input[type="checkbox"]:checked + label {
   }
 
   #questions-wrapper label.collection_check_boxes {
-    font-family: 'Helvetica-Light';
+    font-family: 'Helvetica-Light','Helvetica';
     font-size: 14px;
     color: #333333;
     letter-spacing: 0.1px;
@@ -2192,9 +2202,14 @@ and (max-device-width : 736px) and (orientation : portrait) {
 
 .bw-iframe-container [type="radio"]:not(:checked)+label,
 .bw-iframe-container [type="checkbox"]:not(:checked)+label {
-  font-family: 'Helvetica-Light' !important;
-}
+  font-family: 'Helvetica-Light','Helvetica' !important;
+  }
 
+.bw-iframe-container [type="radio"]:checked+label,
+.bw-iframe-container [type="checkbox"]:checked+label {
+  font-family: 'Helvetica-Light','Helvetica' !important;
+  font-weight: 800 !important;
+}
 .bw-iframe-container #enter-contact-info #questions-wrapper label.collection_check_boxes, 
 .bw-iframe-container #enter-contact-info #questions-wrapper label.collection_radio_buttons {
   color: #333333 !important;
@@ -2834,10 +2849,26 @@ input[type="checkbox"]+label, input[type="radio"]+label {
     font-family: 'Helvetica';
     font-weight: 300 !important;
   }
+
+.bw-iframe-container [type="radio"]:not(:checked)+label,
+.bw-iframe-container [type="checkbox"]:not(:checked)+label {
+  font-family: 'Helvetica' !important;
+  font-weight: 300 !important;
+  }
+
  }
+
 
 /* NIK STYLING REQUEST  DO NOT REMOVE */
 div.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {
 display: none !important;
+}
+
+/* IE styling  */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  div[class*='bw-modal-container'] {
+    left: 25% !important;
+  }
 }
 </style>

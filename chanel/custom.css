@@ -189,7 +189,21 @@ a.bw-appointment-header-close {
 }
 .bw-iframe-container .bw-appointment-service-link:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
   float: left;
-  margin-left: 5px;
+
+}
+@media screen and (max-width: 780px) and (min-width: 600px) {
+  .bw-appointment-services {
+    text-align: left;
+    padding: 0 0 0 9%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .bw-iframe-container .bw-appointment-service-link:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+    float: none;
+  }
+}
+.bw-iframe-container .bw-appointment-service-link:nth-child(4) {
+  margin-left: 20px;
 }
 .bw-iframe-container .bw-appointment-service .bw-appointment-service-link-name {
   font-family:'ABChanel-Semibold', sans-serif !important;
@@ -862,7 +876,11 @@ span.checkbox {
   height: 50px;
   letter-spacing: 0px;
 }
-
+@media screen and (max-width: 770px) and (min-width: 500px) {
+  #confirm_appointment_button {
+    margin-top: -30px !important;
+  }
+}
 .bw-iframe-container #enter-contact-info #questions-wrapper label,
 .bw-iframe-container #enter-contact-info #questions-wrapper select {
   color: #1D1D1D !important;
@@ -1413,6 +1431,7 @@ input[type="checkbox"]:checked + label {
 
   #questions-wrapper {
     margin-left: 14%;
+    width: 74%;
   }
 
   .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -1474,6 +1493,8 @@ input[type="checkbox"]:checked + label {
 
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
     color: black !important;
+    font-size: 10px;
+    letter-spacing: 0px !important;
   }
 
   /* Breadcrumbs */
@@ -1485,17 +1506,23 @@ input[type="checkbox"]:checked + label {
   .bw-appointment-header-row div {
     width: 25% !important;
   }
-
+  .bw-appointment-header-feedback {
+    display: block;
+  }
   .bw-appointment-header-column a, .bw-appointment-header-column span {
-    color: transparent !important; 
+    color: #ccc !important; 
+    background-color: transparent !important;
+  }
+  .bw-appointment-header-column.selected a, .bw-appointment-header-column.selected span {
+    background: transparent !important;
+    color: black;
+  }
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a {
+    color: black !important;
   }
 
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a {
-    color: transparent !important;
-  }
-
-  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column.completed a {
-    background-color: black;
+    background-color: transparent !important;
   }
   /* Choose A Service */
   #choose-service .bw-appointment-step-container-title {
@@ -1633,7 +1660,8 @@ input[type="checkbox"]:checked + label {
   }
 
   #questions-wrapper {
-    margin-left: 14%;
+    margin-left: 13.5%;
+    width: 69%;
   }
 
   .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -2046,6 +2074,11 @@ input[type="checkbox"]:checked + label {
     margin-left: -4%;
   }
 
+  @media screen and (min-width: 360px) and (max-width: 380px){
+    .appointment-slots .day_container.row {
+    margin-left: 2.5%;
+    }
+  }
   div#ui-datepicker-div {
     left: 0px !important;
     width: 320px;
@@ -2867,7 +2900,7 @@ display: none !important;
 /* IE styling  */
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  div[class*='bw-modal-container'] {
+  html div[class*='bw-modal-lightbox'] div[class*='bw-modal-container'] {
     left: 25% !important;
   }
 }

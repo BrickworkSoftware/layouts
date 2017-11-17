@@ -1490,7 +1490,17 @@ input[type="checkbox"]:checked + label {
   #questions-wrapper {
     margin-top: -5%;
   }
-
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column:before {
+    content: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/breadcrumb_icon.svg);
+    display: block;
+    left: -3px;
+  }
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column:first-of-type:before {
+    display: none;
+  }
+  .bw-iframe-container .bw-appointment-header .bw-appointment-header-column:nth-child(2):before {
+    left: 8px;
+  }
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
     color: black !important;
     font-size: 10px;
@@ -2252,9 +2262,7 @@ and (max-device-width : 736px) and (orientation : portrait) {
   .bw-appointment-header-column a, .bw-appointment-header-column span {
     color: transparent !important; 
   }
-  .bwt-appointment-enter-info {
-    -webkit-overflow-scrolling: touch;
-  }
+ 
   /* Choose A Store */
   .bw-iframe-container .appointment-rsvp-container .store-container .address {
     padding: 25px;
@@ -2549,7 +2557,18 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 
 /* Phones Regular -- Landscape */
 @media only screen and (min-width : 310px) and (max-width : 736px) and (orientation : landscape) { 
+   .bwt-appointment-enter-info {
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+  }
+  .bw-iframe-container {
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: auto;
+  }
 
+  .bw-iframe-container > div {
+    height: calc(100% + 1px);
+  }
   #questions-wrapper {
     margin-top: -5%;
   }
@@ -2891,6 +2910,10 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 
  }
 
+.bw-iframe-container #enter-contact-info #questions-wrapper textarea{
+  border: 1px none !important;
+  border-bottom: 1px solid #ccc !important;
+}
 
 /* NIK STYLING REQUEST  DO NOT REMOVE */
 div.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {

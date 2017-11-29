@@ -1,3 +1,4 @@
+
 <style>
 td {
 padding: 0 !important;
@@ -291,5 +292,17 @@ input.check_boxes {
 
 body.keyboard-on #middle {
   padding-top: 0px !important;
+}
+
+@media (max-width: 1027px) {
+  #logo {
+    padding: 10px 10px 0px 10px !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  #logo {
+    padding: 12px 10px 0px 10px !important;
+  }
 }
 </style>

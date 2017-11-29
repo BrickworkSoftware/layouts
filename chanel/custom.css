@@ -202,10 +202,10 @@ a.bw-appointment-header-close {
     float: none;
   }
 }
-.bw-iframe-container .bw-appointment-service-link:nth-child(4) {
+/*.bw-iframe-container .bw-appointment-service-link:nth-child(4) {
   margin-left: 20px;
 }
-.bw-iframe-container .bw-appointment-service .bw-appointment-service-link-name {
+*/.bw-iframe-container .bw-appointment-service .bw-appointment-service-link-name {
   font-family:'ABChanel-Semibold', sans-serif !important;
   font-size: 20px;
   width: 184px;
@@ -683,7 +683,7 @@ a.ui-state-default {
 }
 .bw-load-next-dates.bw-show-for-large-up {
   right: -30px;
-  top: 25px;
+  top: 25px !important;
 }
 .row .row {
   margin-bottom: 20px;
@@ -786,7 +786,7 @@ a.choose-time-slot-link.appointment_link:hover {
   margin-left: 22%;
   font-family: 'ABChanel-Semibold', sans-serif !important;
   letter-spacing: 0px;
-  margin-top: 20px;
+  margin-top: -2px;
 }
 
 #questions-wrapper span.radio {
@@ -884,6 +884,8 @@ span.checkbox {
 .bw-iframe-container #enter-contact-info #questions-wrapper label,
 .bw-iframe-container #enter-contact-info #questions-wrapper select {
   color: #1D1D1D !important;
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1.6px;
 }
 .bw-iframe-container #enter-contact-info #questions-wrapper .radio_buttons > label,
 .bw-iframe-container #enter-contact-info #questions-wrapper .check_boxes > label  {
@@ -1266,7 +1268,7 @@ input[type="checkbox"]:checked + label {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 
   #questions-wrapper {
-    margin-top: -5%;
+    margin-top: -20px;
   }
 
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
@@ -1488,7 +1490,7 @@ input[type="checkbox"]:checked + label {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
 
   #questions-wrapper {
-    margin-top: -5%;
+    margin-top: -20px;
   }
   .bw-iframe-container .bw-appointment-header .bw-appointment-header-column:before {
     content: url(https://s3.amazonaws.com/assets.brickworksoftware.com/chanel/icons/breadcrumb_icon.svg);
@@ -1504,7 +1506,7 @@ input[type="checkbox"]:checked + label {
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
     color: black !important;
     font-size: 10px;
-    letter-spacing: 0px !important;
+    letter-spacing: 1.6px !important;
   }
 
   /* Breadcrumbs */
@@ -1609,7 +1611,9 @@ input[type="checkbox"]:checked + label {
   .large-4.medium-6.columns.end {
     margin-top: -20px;
   }
-
+  .bw-iframe-container .bw-appointment-service-link:not(:nth-child(1)):not(:nth-child(2)):not(:nth-child(3)) {
+    float: none;
+  }
   /* Choose A Time */
 
   div#ui-datepicker-div {
@@ -1703,7 +1707,7 @@ input[type="checkbox"]:checked + label {
   }
 
   div#ui-datepicker-div {
-    top: 213px !important;
+    top: 235px !important;
   }
 
   .bwt-cancel-store-appointment .js-cancel-store-appt {
@@ -1729,7 +1733,7 @@ input[type="checkbox"]:checked + label {
 @media screen and (max-width: 767px) {
 
   #questions-wrapper {
-    margin-top: -5%;
+    margin-top: -20px;
   }
 
   #enter-contact-info .bwt-appt-questions-container {
@@ -2568,6 +2572,8 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 
   .bw-iframe-container > div {
     height: calc(100% + 1px);
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
   #questions-wrapper {
     margin-top: -5%;
@@ -2861,6 +2867,29 @@ input[type="checkbox"]+label, input[type="radio"]+label {
       top: 163px !important;
       left: -20px !important;
     }
+
+    @media screen and (max-height: 400px) {
+      div#ui-datepicker-div {
+        width: 80%;
+        left: -72px !important;
+      }
+        #appointment-options .month.clearfix {
+          width: 80%;
+          margin: 0 0 !important;
+        }
+ 
+      @media screen and (max-width: 370px  ) and (min-width: 360px) {
+        div#ui-datepicker-div {
+        width: 90%;
+        left: -80px !important;
+        }
+        #appointment-options .month.clearfix {
+          width: 90%;
+          margin: 0 0 0 -22px !important;
+        }
+      }
+
+    }
     .search_header .date_selection_container .date_selector .dayname_only {
       font-size: 9px !important;
     }
@@ -2897,13 +2926,20 @@ input[type="checkbox"]+label, input[type="radio"]+label {
     font-weight: 100;
   }
   .bw-iframe-container #enter-contact-info #questions-wrapper .error,
-  [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
-    font-family: 'Helvetica';
+  [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error,.bw-iframe-container .bw-appointment-service .bw-appointment-service-link-description,
+    .address table tr td:last-of-type,
+    .local-stores #service-appointment-stores .store_address,
+    .bw-iframe-container .day_segment .choose-time-slot-link,
+    .bw-iframe-container .bwt-appt-input-placeholder,
+    .bw-iframe-container #enter-contact-info label,
+    .error small.error {
+    font-family: 'Helvetica' !important;
     font-weight: 300 !important;
   }
 
 .bw-iframe-container [type="radio"]:not(:checked)+label,
-.bw-iframe-container [type="checkbox"]:not(:checked)+label {
+.bw-iframe-container [type="checkbox"]:not(:checked)+label, .bw-iframe-container #enter-contact-info #questions-wrapper label,
+.bw-iframe-container #enter-contact-info #questions-wrapper select {
   font-family: 'Helvetica' !important;
   font-weight: 300 !important;
   }
@@ -2913,12 +2949,16 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 .bw-iframe-container #enter-contact-info #questions-wrapper textarea{
   border: 1px none !important;
   border-bottom: 1px solid #ccc !important;
+  height: 15px;
 }
 
 /* NIK STYLING REQUEST  DO NOT REMOVE */
 div.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {
 display: none !important;
 }
+div.small-12.columns { 
+    transform: ;
+ }
 
 /* IE styling  */
 

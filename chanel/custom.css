@@ -2949,9 +2949,14 @@ input[type="checkbox"]+label, input[type="radio"]+label {
 .bw-iframe-container #enter-contact-info #questions-wrapper textarea{
   border: 1px none !important;
   border-bottom: 1px solid #ccc !important;
-  height: 15px;
+  height: 25px;
 }
-
+@media screen and (max-width: 780px) {
+  .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
+    min-height: 10px;
+    height: 40px;
+  }
+}
 /* NIK STYLING REQUEST  DO NOT REMOVE */
 div.medium-12.columns.bwt-appt-message-field.bwt-appointment-customer-message {
 display: none !important;

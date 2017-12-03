@@ -1,0 +1,28 @@
+/*
+  Choose Time Section
+*/
+div#ui-datepicker-div {
+  top: 216px !important;
+}
+
+@media screen and (max-width: 767px) {
+  div#ui-datepicker-div {
+    top: 169px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  /* iphone 5 and below */
+  div#ui-datepicker-div {
+    top: 195px !important;
+    left: -32px !important;
+    width: 100% !important;
+  }
+}
+
+@media (min-width:560px) and (max-width: 769px) {
+  /* Tablet only */
+  .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day-title {
+    margin-top: -15px;
+  }
+}

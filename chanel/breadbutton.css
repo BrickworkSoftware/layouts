@@ -1,0 +1,27 @@
+/*
+  Breadcrumb and Checkboxes/radio
+*/
+@media (min-width: 768px) {
+  .bw-iframe-container [type="radio"]:checked+label:after {
+  top: 7px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .bw-appointment-header-close-container {
+    top: -6px;
+  }
+  .bw-iframe-container [type="radio"]:checked+label:after {
+    top: 6px !important;
+  }
+}
+@media (max-width: 414px) {
+  .bw-iframe-container [type="radio"]:checked+label:after {
+    top: 5px !important;
+  }
+}
+.bw-display-layer .bwt-appointment-cancel a {
+  font-family: Helvetica;
+  font-size: 14px !important;
+}
+.bwt-display-layer 

@@ -664,6 +664,13 @@ button.bwt-index-filters-expand-button {
   letter-spacing: 0.75px !important;
   font-family: "proxima-nova", sans-serif !important;
 }
+@media (min-width: 768px){
+.bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after, 
+button#bwt-show-map-button.bwt-index-search-results-map-button:after {
+  width: 1px !important;
+}
+}
+
 .bwt-index-filters-expand-button .bwt-expand-button-collapsed .bwt-hide-on-mobile:after, 
 button#bwt-show-map-button.bwt-index-search-results-map-button:after {
    font-family: "hbc-icons" !important;
@@ -1704,10 +1711,11 @@ button.slick-next, button.slick-prev {
 
 
 .bwt-index-search-results-notice-map-action {
-    width: 105px !important;
+    width: auto !important;
     float: right !important;
     border-left: solid 1px #ccc !important;
     padding: 9px 15px !important;
+    padding-left: 24px !important;
 }
 
 .bwt-index-search-results-map-button {

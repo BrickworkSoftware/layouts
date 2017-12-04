@@ -1271,7 +1271,7 @@ input[type="checkbox"]:checked + label {
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { 
 
   #questions-wrapper {
-    margin-top: -20px;
+    margin-top: -15px;
   }
 
   .bw-iframe-container #enter-contact-info #questions-wrapper .bwt-appt-message-field label {
@@ -2995,6 +2995,12 @@ div.small-12.columns {
     }
     .appointment-slots .day-title {
       margin-top: 30px !important;
+    }
+    #questions-wrapper {
+      margin-top: 18px !important;
+    }
+    .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
+      margin-top: 10px;
     }
   }
 }

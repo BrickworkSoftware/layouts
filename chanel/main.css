@@ -2920,7 +2920,9 @@ input[type="checkbox"]+label, input[type="radio"]+label {
   .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
     opacity: 1;
   }
-
+  .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder, .bwt-store-header-title {
+    color: rgba(29,29,29,1) !important;
+  }
   #select-appointment-time h1.bw-appointment-step-container-title {
     background-position-y: 54%;
   }
@@ -2988,19 +2990,27 @@ div.small-12.columns {
   }
 }
 
-@media not all and (min-resolution:.001dpcm) and (max-width: 767px) {
-  @supports (-webkit-appearance:none) {
-    .appointment-rsvp-container #select-appointment-time .appointment-slots {
-      margin: 46px auto 0 !important;
-    }
-    .appointment-slots .day-title {
-      margin-top: 30px !important;
-    }
-    #questions-wrapper {
-      margin-top: 18px !important;
-    }
-    .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
-      margin-top: 10px;
+
+@media screen and (max-width: 500px) {
+  @media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+      .appointment-rsvp-container #select-appointment-time .appointment-slots {
+       margin: 31px auto 0 !important;
+      }
+      .appointment-slots .day-title {
+        margin-top: 30px !important;
+      }
+      #questions-wrapper {
+        margin-top: 18px !important;
+      }
+      .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
+        margin-top: 10px;
+      }
+      .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
+        margin-left: -13px;
+      }
     }
   }
 }
+
+

@@ -2926,6 +2926,9 @@ input[type="checkbox"]+label, input[type="radio"]+label {
   #select-appointment-time h1.bw-appointment-step-container-title {
     background-position-y: 54%;
   }
+  div.store-container h2.bwt-store-header-title * {
+    font-family: 'ABChanel-Semibold',sans-serif !important;
+  }
   table.ui-datepicker-calendar tr th span,
   .ui-datepicker .ui-state-default, 
   .ui-datepicker .ui-widget-content .ui-state-default, 
@@ -2990,27 +2993,24 @@ div.small-12.columns {
   }
 }
 
-
 @media screen and (max-width: 500px) {
   @media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) {
-      .appointment-rsvp-container #select-appointment-time .appointment-slots {
-       margin: 31px auto 0 !important;
-      }
-      .appointment-slots .day-title {
-        margin-top: 30px !important;
-      }
-      #questions-wrapper {
-        margin-top: 18px !important;
-      }
-      .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
-        margin-top: 10px;
-      }
-      .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
-        margin-left: -13px;
-      }
+  @supports (-webkit-appearance:none) {
+    .appointment-rsvp-container #select-appointment-time .appointment-slots {
+      margin: 31px auto 0 !important;
+    }
+    .appointment-slots .day-title {
+      margin-top: 30px !important;
+    }
+    #questions-wrapper {
+      margin-top: 18px !important;
+    }
+    .bw-iframe-container #enter-contact-info #questions-wrapper textarea {
+      margin-top: 10px;
+    }
+    .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment {
+      margin-left: -13px;
     }
   }
 }
-
-
+}

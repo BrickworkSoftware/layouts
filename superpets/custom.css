@@ -12,26 +12,15 @@ div.footer { display: none }
 
 @media (min-width: 787px) {
   div.site_footer {
-    height: 241px;
+    height: 400px;
     position: relative; 
     bottom: -17px;
-  }
-  @media (min-width: 1920px) {
-    div.site_footer {
-      height: 228px;
-      bottom: 0px;
-    }
   }
 }
 @media (max-width: 787px) {
   div.site_footer {
     position: relative;
     height: 394px;
-  }
-  @media (max-width: 420px) {
-    div.site_footer {
-      height: 304px;
-    }
   }
 }
 </style>

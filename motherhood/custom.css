@@ -12,7 +12,7 @@ padding: 0 !important;
 
  .slick-arrow {
   display: none !important;
-}
+} 
 
   .pt_storefront div {
     box-sizing: initial;
@@ -113,7 +113,7 @@ padding: 0 !important;
   .bw-appointment-header-column::before {
     
     color: #666;
-    top: -11px !important;
+    top: 5px !important;
     left: 0px !important;
   }
   .bw-iframe-container .bw-appointment-step-container-title:after,
@@ -157,6 +157,7 @@ padding: 0 !important;
   .bw-appointment-header-feedback {
     text-align: center;
     font-weight: normal !important;
+    color: #666;
   }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
     background: #411B63 !important;
@@ -179,15 +180,7 @@ padding: 0 !important;
     margin-top: 0% !important;
     margin-bottom: 0% !important;
   }
-  .bw-appointment-header-column.selected span {
-    font-family: 'Lato', sans-serif;
-    font-size: 15px;
-    font-weight: bold !important;
-    color: #333333;
-    letter-spacing: 0.25px;
-    line-height: 27px !important;
-    font-weight: 700;
-  }
+  
   .appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
 
  font-size: 12px;
@@ -284,7 +277,7 @@ padding: 0 !important;
   }
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     visibility: hidden;
-    margin-bottom: 9%;
+    margin-bottom: -3%;
   }
   @media (min-width: 1600px) {
     .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
@@ -346,11 +339,11 @@ padding: 0 !important;
   .appointment-rsvp-container .store-container .bw-appointment-store-address h4,
   .appointment-rsvp-container .store-container .bw-appointment-store-address h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 12px ;
-    color: #666666;
+    font-size: 12px !important;
+    color: #666666 !important;
     letter-spacing: 0.25px;
     
-    font-weight: 200;
+    font-weight: normal !important;
    
   }
   .bw-iframe-container .day_segment img {
@@ -413,6 +406,7 @@ textarea {
   font-size: 20px !important;
   color: #222 !important;
   letter-spacing: 0.21px;
+  padding-left: 2.5%;
 }
 .appointment-rsvp-container .store-container {
   border: 1px none !important;
@@ -423,17 +417,40 @@ textarea {
 .appointment-rsvp-container .store-container .store-name h1 {
   text-align: left; 
 }
-/*.appointment-rsvp-container .store-container .address h4:first-of-type::before {
+.appointment-rsvp-container .store-container .address h4:first-of-type::before {
   content: 'Location';
   font-family: 'Lato';
   font-size: 12px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   line-height: 12px;
-  color: #4a4a4a;
+  color: #222;
   display: inline-block;
   width: 100%;
   margin-bottom: 4%;
-}*/
+  text-transform: uppercase;
+  font-weight: 700;
+}
+  .appointment-rsvp-container .store-container .bw-appointment-store-address table:first-of-type::before {
+    content: 'Hours';
+    color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 0%;
+  }
+  .appointment-rsvp-container .store-container .bw-appointment-store-address table:last-of-type::before {
+    content: 'Contact';
+    color: #222;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
 .bwt-index-store-title-container h4,.bwt-index-store-primary-container h4, .bw-appointment-store-address h4 {
   font-size: 12px !important;
   color: #333333 !important;
@@ -507,7 +524,7 @@ width: 85%;
   border-radius: 3px;
 }
 .bw-appointment-header-column::before {
-  transform:scale(2);
+  transform:scale(4);
   color:#ccc;
   margin-top:1%;
 }
@@ -523,11 +540,11 @@ width: 85%;
 }
 
 .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date   {
-  margin: 3% auto 0% !important;
+  margin: 1% auto 3% !important;
 }
 @-moz-document url-prefix() { 
     .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date   {
-  margin: 3em auto 0% !important;
+  margin: 3em auto 2% !important;
   }
   .bw-iframe-container .appointment-rsvp-container #location.bwt-modal-store-search-location-field {
     padding: 10px !important;
@@ -702,11 +719,12 @@ div[class*='Modal_component_'] .skylight_dialog {
 
 }
 .bw-iframe-container .bw-appointment-header-column span {
-  font-weight:600 !important;
+  font-weight: normal !important;
 }
 
 .appointment-rsvp-container input[type=“text”].bwt-modal-store-search-location-field::-webkit-input-placeholder,.appointment-rsvp-container input[type="text"].bwt-modal-store-search-location-field::placeholder {
   text-transform: capitalize;
+  color: #ccc !important;
 }
 .bw-iframe-container .store_miles_away {
   max-width: 41% !important;
@@ -763,7 +781,7 @@ text-transform: uppercase;
 .appointment-rsvp-container .button-clean {
   font-family: 'Lato';
   font-weight: normal !important;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 0;
   line-height: 10px;
 }
@@ -805,6 +823,43 @@ text-transform: uppercase;
 [data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
   text-transform: capitalize;
 }
+.small-12 .name_distance {
+  display: inline-flex; 
+  flex-direction: column-reverse;
+}
+.small-12 .name_distance .distance {
+  display: inline;
+  width: 100%;
+}
+.appointment-rsvp-container .local-stores .container .name_distance .distance{
+  font-size: 12px !important;
+  font-family: 'Lato' !important;
+  margin-bottom: 1%;
+  color: #333;
+}
+.small-12 .name_distance .distance > br {
+  display: none;
+}
+.small-12 .name_distance .distance span::before {
+  content: "•";
+  font-size: 10px;
+
+}
+.bw-appointment-header-column.selected span {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: bold !important;
+    color: #333333;
+    letter-spacing: 0.25px;
+    line-height: 27px !important;
+    font-weight: 700 !important;
+  }
+
+
+  .appointment-rsvp-container .local-stores #search_button {
+      background: url(https://saksfifthavenue-uncached-uat.brickworksoftware.com/jcrew/search-dark.png);
+      background-size: 100%;
+  }
 @media (max-width: 300px){
   .search_header .date_selection_container .date_selector .big_day, .search_header .date_selection_container .date_selector .small_day, .search_header .date_selection_container .date_selector .dayname_only {
     font-size: 10px;
@@ -816,7 +871,7 @@ div[class*='Modal_component_'] .skylight_dialog {
   padding: 0 !important;
 }
 .bw-iframe-container .bw-appointment-step-container-title, div[class*='row'] .large-9.columns:first-of-type .title h1 {
-  padding-left: 2%;
+  padding-left: 0%;
 }
 .row.bw-iframe-container::first-of-type {
   width: 110%;
@@ -853,7 +908,7 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-iframe-container .appointment-rsvp-container .store-container .address{
     border:1px none !important;
     float: none !important;
-    width: 80%;
+    width: 90%;
     margin: 0 auto !important;
 
   }
@@ -867,7 +922,7 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
     font-size: 20px !important;
     margin-top: 40px !important;
-    border-bottom: 3px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     padding-bottom: 4%;
   }
   .bw-appointment-header-column.selected a, .bw-appointment-header-column.selected span {
@@ -898,6 +953,9 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
 
   /* Choose Stores */
+  .appointment-rsvp-container .store-container {
+    padding-left: 4%;
+  }
   .appointment-rsvp-container .store-container .store-name h1 {
     font-size: 20px !important;
   }
@@ -905,23 +963,27 @@ div[class*='Modal_component_'] .skylight_dialog {
     padding-left: 0;
   }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
-    width: 100% !important;
+    width: 90% !important;
     margin-left: -3%;
     line-height: 16px;
+  }
+  .local-stores {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .appointment-rsvp-container .local-stores .search {
     margin: 7px auto !important;
   } 
   .appointment-rsvp-container .local-stores #location {
-    width: 92%;
+    width: 85%;
     position:absolute;
     top: 10px;
     right: 6%;
   }
   .appointment-rsvp-container .local-stores #search_button {
-    right: 11px !important;
-    top: 10px;
+    right: 24px !important;
+    top: 22px;
   }
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:20%;
@@ -934,14 +996,24 @@ div[class*='Modal_component_'] .skylight_dialog {
     
   }
 
-
+.appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
+  width: 104%;
+  padding: 1%;
+}
   .appointment-rsvp-container #appointment-options #mobile_date_select {
-    width: 150px;
+    width: 250px;
     display: inline-block !important;
     float: none !important;
     border: 1px solid #E3E3E3;
     border-radius: 3px;
     padding-left: 10% !important;
+    margin-right: 4px;
+  }
+  @media (max-width: 320px) {
+    .appointment-rsvp-container #appointment-options #mobile_date_select {
+      padding-left: 20% !important;
+      margin-right: 1px;
+    }
   }
   .appointment-rsvp-container #appointment-options #mobile_date_select #inner-editor {
     font-family: 'Lato';
@@ -1034,10 +1106,10 @@ div[class*='Modal_component_'] .skylight_dialog {
     top: 42% !important;
   }
   .bw-load-previous-dates {
-    left: 10px !important;
+    left: 0px !important;
   }
   .bw-load-next-dates {
-    right: 11px !important;
+    right: 0px !important;
   }
   .store_open_hours.small-6 {
     width: 52%;
@@ -1059,10 +1131,18 @@ div[class*='Modal_component_'] .skylight_dialog {
   max-width: 37% !important;
 }
 }
-@media only screen and (max-width:640px){
+@media only screen and (max-width:520px){
   .bw-iframe-container button{
-    top: 50% !important;
+    top: 46% !important;
   }
+}
+@media only screen and (min-width: 530px) and (max-width:787px){
+  .bw-iframe-container button{
+    top: 43% !important;
+  }
+}
+.appointment-rsvp-container .local-stores .container {
+  padding: 0 !important;
 }
 /* For landscape modes and some phones */
 @media (min-width: 560px) {
@@ -1071,7 +1151,7 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
     font-size: 20px !important;
     margin-top: 30px !important;
-    border-bottom: 3px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     padding-bottom: 4%;
   }
   .bw-appointment-header-column a, 
@@ -1110,18 +1190,19 @@ div[class*='Modal_component_'] .skylight_dialog {
     display: none !important;
   }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
-    width: 100% !important;
+    width: 95% !important;
     margin-left: -3%;
   }
   .appointment-rsvp-container .local-stores .search {
     margin: 7px auto !important;
   } 
   .appointment-rsvp-container .local-stores #location {
-    width: 96.1%;
+    width: 95.1%;
     right: 2%;
   }
   .appointment-rsvp-container .local-stores #search_button {
-    right: 11px !important;
+    right: 15px !important;
+    top: 22px ;
   }
      .appointment-rsvp-container .store-container .store-name,
     .appointment-rsvp-container .store-container .bw-appointment-store-address {
@@ -1129,6 +1210,7 @@ div[class*='Modal_component_'] .skylight_dialog {
     }
     .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:15%;
+    margin-bottom: 3%;
   }
   /* Choose Date */
   .appointment-rsvp-container #appointment-options #mobile_date_select {
@@ -1187,6 +1269,15 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-iframe-container .appointment-rsvp-container .service-appointment-stores {
     margin: 16% 21%;
   }
+  .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
+    width: 100%;
+  }
+  .appointment-rsvp-container .local-stores .container {
+    padding: 0 !important;
+  }
+  .local-stores {
+    width: 99%;
+  }
 }  
 /* Most Tablets and up */     
 @media (min-width: 768px) { 
@@ -1196,7 +1287,7 @@ div[class*='Modal_component_'] .skylight_dialog {
    .bw-appointment-header-column a, 
   .bw-appointment-header-column span{
     height: 12px !important;
-    font-size: 15px;
+    font-size: 12px;
   }  
   .bw-appointment-header-feedback {
     font-size: 12px;
@@ -1207,8 +1298,9 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-appointment-step-container-title, .appointment-rsvp-container .title h1{
     font-size: 24px !important;
     margin-top: 20px !important;
-    border-bottom: 3px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
     padding-bottom: 4%;
+    padding-left: 1%;
   }
   
   .bw-appointment-service-link {
@@ -1237,24 +1329,32 @@ div[class*='Modal_component_'] .skylight_dialog {
   .appointment-rsvp-container .store-container .store-name h1 {
     font-size: 20px !important;
   }
+  .bw-iframe-container .appointment-rsvp-container .store-container .address {
+    width: 95%;
+  }
   .bw-appointment-store-address {
     padding-left: 0;
+  }
+  .appointment-rsvp-container .store-container .store-name {
+    margin-left: 2%;
   }
   .appointment-rsvp-container .store-container .map {
     display: none !important;
   }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
-    width: 100% !important;
+    width: 95% !important;
     margin-left: -3%;
   }
   .appointment-rsvp-container .local-stores .search {
     margin: 7px auto !important;
   } 
   .appointment-rsvp-container .local-stores #location {
-    width: 97%;
+    width: 90%;
+    margin: 0% 1% 0% 0%;
   }
   .appointment-rsvp-container .local-stores #search_button {
-    right: 11px !important;
+    right: 22px !important;
+    top: 21px;
   }
      .appointment-rsvp-container .store-container .store-name,
     .appointment-rsvp-container .store-container .bw-appointment-store-address {
@@ -1345,6 +1445,9 @@ div[class*='Modal_component_'] .skylight_dialog {
   .appointment-rsvp-container {
     padding:10px !important;
   }
+  .bw-appointment-header-row {
+    padding-top: 1%;
+  }
       .appointment-rsvp-container .title {
       display: inherit !important;
      }
@@ -1398,8 +1501,8 @@ div[class*='Modal_component_'] .skylight_dialog {
     display: -moz-box;
     display: -ms-flexbox;
     display: flex;
-    display: -webkit-flex; 
-    display: -webkit-box; 
+    /*display: -webkit-flex; 
+    display: -webkit-box; */
     
     height: 540px;
     flex-wrap: wrap;
@@ -1412,12 +1515,17 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
   .bw-iframe-container .appointment-rsvp-container .store-container .address {
     width: 40%;
-    padding-top: 6%;
+    padding-top: 1%;
     margin: 0 !important;
+    order: 2;
   }
   .appointment-rsvp-container .store-container .store-name {
     flex: 0 0 0% !important;
     width: 33%;
+    order: 1;
+    min-height: 70px;
+    display: flex;
+    margin-top: 3%;
   }
   .appointment-rsvp-container .store-container .store-name h1 {
     font-size: 20px !important;
@@ -1447,21 +1555,24 @@ div[class*='Modal_component_'] .skylight_dialog {
     order:0;
   }
 
-
+.appointment-rsvp-container #select-appointment-time #appointment_date::placeholder {
+  padding-left: 0%;
+}
 
 
   .bw-load-previous-dates, .bw-load-next-dates {
-    top: 35% !important;
+    top: 54% !important;
   }
      .appointment-rsvp-container .store-container .store-name,
     .appointment-rsvp-container .store-container .bw-appointment-store-address {
       flex: 5;
-      min-height: 70px;
+      min-height: 10%;
       margin-bottom: 0%;
       margin-left: 0%;
+      width: 42%;
     }
   .appointment-rsvp-container .store-container div:last-of-type > .choose-store-link {
-    width: 70% !important;
+    width: 100% !important;
     float: left;
     line-height: 17px; 
    }
@@ -1477,16 +1588,17 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
   .appointment-rsvp-container .store-container .small-12.centered {
     width: 33%;
-  
+    order: 3;
   }
    .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:20%;
+
   }
   /* Choose Date */
 
-  .appointment-rsvp-container #select-appointment-time h1 {
+  /*.appointment-rsvp-container #select-appointment-time h1 {
     border-bottom: 1px  none !important;
-  }
+  }*/
   .bw-iframe-container .choose_time_text {
     border-bottom: 1px solid #e3e3e3;
     padding-bottom: 2%;
@@ -1510,13 +1622,14 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
   .bw-iframe-container .appointment-rsvp-container #select-appointment-time #appointment_date {
     width: 20% !important;
+    padding-left: 57px !important;
   }
   .search_header .date_selection_container .date_selector {
     height: 128px;
   }
   .search_header .date_selection_container .date_selector .dayname_only {
     padding: 2.6rem 0;
-    font-size: 20px;
+    font-size: 19px;
   }
   .search_header .date_selection_container .date_selector .big_day {
     font-size: 20px;
@@ -1581,6 +1694,7 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
   .day_container.row {
     max-width: 900px !important;
+    margin: 0 auto;
   }
   .large-3.columns.end {
     width: 25%;
@@ -1592,7 +1706,9 @@ div[class*='Modal_component_'] .skylight_dialog {
   .bw-iframe-container .appointment-rsvp-container .service-appointment-stores {
     margin: 5% 0%;
   }
-
+  .appt_form {
+    padding: 0;
+  }
 }
 
 /* Larger displays ---- Not completely 4k compatible */
@@ -1630,6 +1746,7 @@ div[class*='Modal_component_'] .skylight_dialog {
  @media (min-width: 1200px) and (max-height: 900px){
   .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type {
     margin-top:20%;
+    margin-bottom: -2%;
   }
   .appointment-rsvp-container #appointment-options #appointment_date {
     margin-left: 39% ;
@@ -1649,6 +1766,10 @@ div[class*='Modal_component_'] .skylight_dialog {
   }
   .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit {
     top: 0 !important;
+  }
+  .appointment-rsvp-container .local-stores #search_button {
+    top: 9px;
+    right: 17px !important;
   }
  }
 
@@ -1974,30 +2095,155 @@ div[class*='Modal_component_'] .skylight_dialog {
       border-right: 0px !important;
     }
   }
-  /*Footer Image*/ 
-  
-  #footerMarketingImage {
-    height: 100%;
-    width: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/Motherhood+Canada/maternity-locator-footer-coupons-mhcanada-2017.png);
-  }
-  .footer-col-1 {
-    padding-top: 15px !important;
-  }
-  @media only screen and (min-width: 1px) and (max-width: 430px) {
-    #footerMarketingImage {
-      padding: 0px;
-      max-height: 400px;
-    }
-  }
-  @media only screen and (min-width: 431px) {
-    #footerMarketingImage {
-      padding: 15px;
-      max-height: 350px;
-    }
-  }
-  
 
+
+  /* 11/8 Regression Fixes */
+.bw-appointment-service-link-name {
+  padding-left: 0%;
+}
+
+.bw-appointment-step-container-title, .appointment-rsvp-container .title h1 {
+  padding-left: 0;
+}
+
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+  margin-top: -20px;
+}
+
+@media (min-width: 1000px) {
+  .appointment-rsvp-container div .local-stores #service-appointment-stores h3:first-of-type::before {
+    padding-left: 0;
+  }
+
+  .local-stores {
+    margin-left: -7px;
+  }
+
+  .appointment-rsvp-container .store-container .map img, #appointment-container .large-8.columns {
+    max-height: 510px;
+  }
+
+  .store-name.clearfix {
+    margin-top: 0 !important;
+  }
+
+  .appointment-rsvp-container .store-container .small-12.centered {
+    margin-bottom: 60px;
+  }
+
+  div.AppointmentModal div.Modal__component .skylight-dialog {
+    padding-bottom: 1px !important;
+  }
+  
+  .appointment-rsvp-container .store-container {
+    max-height: 510px !important;
+  }
+
+  /* .bw-iframe-container {
+    overflow-y: hidden;
+    margin-bottom: -20px;
+  } */
+  .skylight-dialog {
+    padding-bottom: 1px !important;
+  }
+}
+
+/*  Tablet and Up */
+@media only screen and (min-width: 730px) {
+  .appointment-rsvp-container .store-container {
+    padding-left: 0;
+  }
+
+  #enter-contact-info {
+    padding-left: 0.375%;
+  }
+}
+
+#enter-contact-info .bwt-appt-button-wrapper {
+  margin-left: -5px;
+}
+
+
+/*Footer Image*/
+
+#footerMarketingImage {
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(//s3.amazonaws.com/assets.brickworksoftware.com/Motherhood+Canada/maternity-locator-footer-coupons-mhcanada-2017.png);
+}
+.footer-col-1 {
+  padding-top: 15px !important;
+}
+@media only screen and (min-width: 1px) and (max-width: 430px) {
+  #footerMarketingImage {
+    padding: 0px;
+    max-height: 400px;
+  }
+}
+@media only screen and (min-width: 431px) {
+  #footerMarketingImage {
+    padding: 15px;
+    max-height: 350px;
+  }
+}
+
+.appointment-rsvp-container input[type="text"], .appointment-rsvp-container input[type="email"], .appointment-rsvp-container input[type="date"], .appointment-rsvp-container input[type="tel"], .appointment-rsvp-container textarea {
+  padding-left: 10px !important;
+  color: #000 !important;
+}
+
+#appointment_date {
+  padding-left: 40px !important;
+}
+
+/* Alex Cyrus */
+@media (max-width: 769px) {
+  .appointment-rsvp-container {
+    padding: 35px 15px;
+  }
+
+  .store-container {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 740px) {
+  .associate-header.clearfix
+  {
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+  }
+
+  .title.large-12.columns h1 {
+    padding-right: 0.9375rem;
+  }
+}
+
+@media (min-width: 800px) {
+  #ui-datepicker-div {
+    left: 475px !important;
+  }
+}
+@media (max-width: 800px) {
+  #ui-datepicker-div {
+    left: 135px !important;
+  }
+}
+@media (max-width: 420px) {
+  #ui-datepicker-div {
+    left: 54px !important;
+  }
+}
+@media (max-width: 400px) {
+  #ui-datepicker-div {
+    left: 37px !important;
+  }
+}
+@media (max-width: 320px) {
+  #ui-datepicker-div {
+    left: 10px !important;
+  }
+}
 </style>

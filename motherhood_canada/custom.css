@@ -806,7 +806,11 @@ text-transform: uppercase;
   text-transform: none !important;
   padding-top: 0;
 }
-
+@media (min-width: 900px) {
+  .appointment-rsvp-container #appointment-confirmation .details {
+    width: 750px;
+ }
+}
 .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .disabled.segment_header .num_available {
   color: #e3e3e3;
 }
@@ -2220,12 +2224,19 @@ div[class*='Modal_component_'] .skylight_dialog {
     padding-right: 0.9375rem;
   }
 }
-
 @media (min-width: 800px) {
   #ui-datepicker-div {
     left: 475px !important;
   }
 }
+
+@media (min-width: 1600px) {
+  #ui-datepicker-div {
+    left: 695px !important;
+  }
+}
+
+
 @media (max-width: 800px) {
   #ui-datepicker-div {
     left: 135px !important;

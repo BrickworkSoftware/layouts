@@ -1,0 +1,26 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Pridi:400,500,700');
+html {
+  overflow-x: hidden;
+}
+div#SearchPageScrollableResults {
+height: auto !important;
+}
+
+div.footer { display: none }
+
+@media (min-width: 787px) {
+  div.site_footer {
+    height: 400px;
+    position: relative; 
+    bottom: -17px;
+  }
+}
+@media (max-width: 787px) {
+  div.site_footer {
+    position: relative;
+    height: 394px;
+  }
+}
+</style>

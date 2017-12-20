@@ -854,7 +854,7 @@ text-transform: uppercase;
 .small-12 .name_distance .distance > br {
   display: none;
 }
-.small-12 .name_distance .distance span::before {
+.small-12 .name_distance .distance > span::before {
   content: "•";
   font-size: 10px;
 

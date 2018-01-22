@@ -2,7 +2,31 @@
 @media (min-width: 996px) {
   .sticky #header #mobile-menu-utility {
     top: -16px;
+
  }
+
+}
+body.offcanvas-closed div[class*='bw__SearchPageFlagship__component'] > div:first-of-type {
+  width: 100%;
+}
+}
+.SearchResultsSummary__component .StoreCloseTime__component>span:first-of-type:before {
+content: '' !important;
+padding: 0 !important;
+}
+
+.StorePage__component .StoreCardMedia__serviceButton,
+.StorePage__component .StoreCardMedia__header+div>div:nth-child(2)>div>div:nth-child(3)>div>div { display: none !important; }
+
+@media (min-width: 992px) {
+.Modal__component section.skylight-wrapper .skylight-dialog {
+    top: 50% !important;
+    height: auto !important;
+}
+}
+
+div[class^="Grid__container"] > div[class^="Grid__row"] {
+min-width: 100%;
 }
 #brickworkApp .Modal {
     position: inherit;
@@ -81,6 +105,26 @@ td {
 
 .bw-display-layer .footer {
   display: none;
+}
+
+@media (min-width: 992px) {
+  section.skylight-wrapper .skylight-dialog {
+    top: 50% !important;
+    height: 90vh !important;
+  }
+
+  .StoreHoursDetailsLink section.skylight-wrapper .skylight-dialog {
+    top: 44% !important;
+  }
+
+  div.EventRsvpButton section.skylight-wrapper .skylight-dialog {
+    top: 30% !important;
+    height: auto !important;
+  }
+}
+
+.bw__SearchPage .bw_Grid_row {
+width: 100%;
 }
 
 </style>

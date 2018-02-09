@@ -5,12 +5,7 @@
 width: 100% !important;
 }
 
-@media (min-width: 996px) {
-  .sticky #header #mobile-menu-utility {
-    top: -16px;
 
- }
-}
 .SearchResultsSummary__component .StoreCloseTime__component>span:first-of-type:before {
 content: '' !important;
 padding: 0 !important;
@@ -19,17 +14,9 @@ padding: 0 !important;
 .StorePage__component .StoreCardMedia__serviceButton,
 .StorePage__component .StoreCardMedia__header+div>div:nth-child(2)>div>div:nth-child(3)>div>div { display: none !important; }
 
-@media (min-width: 992px) {
-.Modal__component section.skylight-wrapper .skylight-dialog {
-    top: 50% !important;
-    height: auto !important;
-}
-}
 
 
-div[class^="Grid__container"] > div[class^="Grid__row"] {
-min-width: 100%;
-}
+div[class^="Grid__container"] > div[class^="Grid__row"] { min-width: 100%; }
 
 .StorePage .StoreCardMedia__storeLink { display: none !important }
 
@@ -113,6 +100,13 @@ td {
 }
 
 @media (min-width: 992px) {
+   .sticky #header #mobile-menu-utility {
+    top: -16px;
+  }
+  .Modal__component section.skylight-wrapper .skylight-dialog {
+    top: 50% !important;
+    height: auto !important;
+  }
   section.skylight-wrapper .skylight-dialog {
     top: 50% !important;
     height: 90vh !important;
@@ -132,28 +126,7 @@ td {
   }
    .bw__AppLayout__component > div > div.bw__Grid__container.component > div:first-of-type { width: 100% !important;}
 }
-@media (max-width: 480px) {
-  section.skylight-wrapper .skylight-dialog {
-    max-height: 80vh !important;
-  }
-   .bw__StoreCardMedia__content section.skylight-wrapper .skylight-dialog {
-    max-height: 90vh !important;
-    height: 85vh !important;
-   }
-.bw__StoreCardMedia__serviceButton button h2 {
-  margin-top: -10px !important;
-}
 
-}
-.slick-dots li button:before {
-  font-size: 25px !important;
-}
-@-moz-document url-prefix() {
-  .slick-dots li button:before {
-    font-size: 15px !important;
-  }
-
-}
 .slick-dots li button:before {
   font-size: 20px !important;
 }
@@ -170,13 +143,23 @@ td {
   }
 }
 @media (min-width: 300px) and (max-width: 480px) {
+  section.skylight-wrapper .skylight-dialog {
+    max-height: 80vh !important;
+  }
+  .bw__StoreCardMedia__content section.skylight-wrapper .skylight-dialog {
+    max-height: 90vh !important;
+    height: 85vh !important;
+  }
+  .bw__StoreCardMedia__serviceButton button h2 {
+    margin-top: -10px !important;
+  }
   .slick-dots li button:before {
   font-size: 30px !important;
   }
   .bw__EventPageOrderable__otherEventsCardList ul { bottom: -3px !important; }
 }
 @media (min-width: 600px) {
-.bw__EventCardFlagship__component .bw__EventCardFlagship__times span { font-size: 20px !important; }
+  .bw__EventCardFlagship__component .bw__EventCardFlagship__times span { font-size: 20px !important; }
 }
 @media (min-width: 500px) and (max-width: 790px) {
     .bw__EventPageOrderable__otherEventsCardList ul { bottom: 1px !important; }

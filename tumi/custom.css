@@ -3,6 +3,10 @@ abbr[title] {
  border-bottom: 1px none !important;
 }
 
+#lang-selectorSelectBoxItArrow {
+  padding-top: 18px;
+}
+
 table {
     font-size: inherit !important;
     color: inherit !important;

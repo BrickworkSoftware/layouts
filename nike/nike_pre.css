@@ -784,6 +784,7 @@ input[type='text']{
   .bw-appointment-step-container .bwt-appt-button-wrapper.columns.large-12.large-offset-4 {
     margin-left: 0 !important;
   }
+}
 /*updated appointment modal*/
 .bw-appointment-hero-image {
 	background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/Nike/nike-appt-masthead-new.jpg) !important;

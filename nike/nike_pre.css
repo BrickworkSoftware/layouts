@@ -792,6 +792,13 @@ input[type='text']{
 	background-size: cover !important;
 	background-position: center !important;
 }
+
+@media (max-width: 600px){
+  .bw-appointment-hero-image {
+    background-position: 13% !important;
+  }
+}
+
 .bw-logo-white {
 	display: none !important;
 }

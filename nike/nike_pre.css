@@ -795,7 +795,11 @@ input[type='text']{
 
 @media (max-width: 600px){
   .bw-appointment-hero-image {
-    background-position: 13% !important;
+    background-position: 5% !important;
+  }
+	
+  .bw-appointment-step-container-title {
+    margin-bottom: 30px !important;
   }
 }
 

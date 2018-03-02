@@ -1,11 +1,18 @@
-<style> 
+<style>
+
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  top: 50% !important;
+}
+
 abbr[title] {
  border-bottom: 1px none !important;
 }
 
-#lang-selectorSelectBoxItArrow {
+/* Commented out for now - not sure what this does */
+
+/* .alt-dropdown-2.selectboxit .selectboxit-arrow-container {
   padding-top: 18px;
-}
+} */
 
 table {
     font-size: inherit !important;

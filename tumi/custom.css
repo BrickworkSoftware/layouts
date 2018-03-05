@@ -4,6 +4,10 @@
   top: 50% !important;
 }
 
+.util-nav-left .selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  transform: translateY(-50%);
+}
+
 abbr[title] {
  border-bottom: 1px none !important;
 }
@@ -3603,6 +3607,4 @@ display: none !important;
 }
 
 /*# sourceMappingURL=brickwork.5c781808.css.map*/
-div.site_footer {
-display:
 </style>

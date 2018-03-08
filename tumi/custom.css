@@ -1,11 +1,27 @@
-<style> 
+<style>
+
+@-moz-document url-prefix() {
+  .bw__Icon__component {
+    background-size: contain !important;
+  }
+}
+
+.selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  top: 50% !important;
+}
+.util-nav-left .selectboxit .selectboxit-arrow-container .selectboxit-arrow {
+  transform: translateY(-50%);
+}
+
 abbr[title] {
  border-bottom: 1px none !important;
 }
 
-#lang-selectorSelectBoxItArrow {
+/* Commented out for now - not sure what this does */
+
+/* .alt-dropdown-2.selectboxit .selectboxit-arrow-container {
   padding-top: 18px;
-}
+} */
 
 table {
     font-size: inherit !important;
@@ -18,7 +34,7 @@ table {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 5px; }
+  margin-right: 2px; }
 
 .Icon_component_3mzqd[data-size="small"] {
   width: 10px;
@@ -1759,7 +1775,7 @@ table {
   padding: 0; }
 
 .BusinessHours_labelRowDiv_EcTTd {
-  margin-top: 16px;
+  margin-top: 5px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 600; }
@@ -2990,7 +3006,7 @@ body {
   letter-spacing: 0.04em;
   font-weight: 800;
   text-transform: uppercase;
-  margin-botton: 5px; }
+  margin-bottom: 5px; }
 
 .Heading_h4_3MH36 {
   font-family: "proxima-nova", sans-serif;
@@ -3596,6 +3612,4 @@ display: none !important;
 }
 
 /*# sourceMappingURL=brickwork.5c781808.css.map*/
-div.site_footer {
-display:
 </style>

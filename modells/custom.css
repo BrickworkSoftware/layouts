@@ -1,26 +1,3 @@
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var footerScript = document.createElement("script");
-  footerScript.src = "https://www.modells.com/on/demandware.static/Sites-Modells-Site/-/default/v1521796163578/js/header-footer-standalone.js";
-  document.getElementsByTagName("footer")[0].appendChild(footerScript);
-
-  var imgElements = document.getElementById('navigation').getElementsByTagName('img');
-
-  for (var i = 0; i < imgElements.length; i++) {
-     var imgSrc = imgElements[i].src;
-     var origin = window.origin;
-
-     if (imgSrc.startsWith(origin)) {
-      // console.log(imgSrc + ' is broken');
-      var newSrc = imgSrc.replace(origin, 'https://www.modells.com');
-      imgElements[i].src = newSrc;
-      // console.log(newSrc);
-     }
-  }
-
-});
-</script>
-
 <style>
 #wrapper {
 overflow: visible !important;

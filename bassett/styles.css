@@ -1,6 +1,24 @@
+<style>
+.bw-display-layer .footer { display: none !important; }
+
 @font-face {font-family: 'MuseoSlab-500';src: url('//s3.amazonaws.com/assets.brickworksoftware.com/Bassett/webfonts/31006A_0_0.eot');src: url('//s3.amazonaws.com/assets.brickworksoftware.com/Bassett/webfonts/31006A_0_0.eot?#iefix') format('embedded-opentype'),url('//s3.amazonaws.com/assets.brickworksoftware.com/Bassett/webfonts/31006A_0_0.woff2') format('woff2'),url('//s3.amazonaws.com/assets.brickworksoftware.com/Bassett/webfonts/31006A_0_0.woff') format('woff'),url('//s3.amazonaws.com/assets.brickworksoftware.com/Bassett/webfonts/31006A_0_0.woff2') format('truetype');}
 
 h4, h6 { color: #54555a; }
+
+@media (min-width: 960px) {
+  #clientHeader {
+    padding-bottom: 16px;
+  }
+  .navDivide {
+    padding-top: 14px;
+  }
+}
+
+@media (max-width: 960px) {
+  .mobileNav.open {
+    top: 50px !important
+  }
+}
 
 .bw-appointment-header-column.selected, .bw-appointment-header-column.selected a {
   color: #02bce5;
@@ -191,3 +209,5 @@ ul.associates-grid li .associate-info h6.associate_name { font-family: MuseoSlab
   background-color: #02bce5;
 }
 .bwt-appointment-customer-message {display: none !important; }
+
+</style>

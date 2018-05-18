@@ -14,12 +14,6 @@ h4, h6 { color: #54555a; }
   }
 }
 
-@media (max-width: 960px) {
-  .mobileNav.open {
-    top: 50px !important
-  }
-}
-
 .bw-appointment-header-column.selected, .bw-appointment-header-column.selected a {
   color: #02bce5;
   font-family: MuseoSlab-500 !important;

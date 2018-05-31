@@ -1,0 +1,238 @@
+<style>
+@media (max-width: 989px) {
+#menu>ul { display: none !important;}
+}
+ .bw__StoreCardMedia__storeLink a [component^='h2']::after {
+  content: 'MORE FROM THIS BOUTIQUE';
+  display: block;
+  text-transform: capitalize;
+
+}
+.bw__StoreCardMedia__storeLink a [component^='h2'] span {
+  display: none;
+}
+
+div#header-wrap {
+  height: inherit !important;
+}
+
+div#header {
+  height: auto !important;
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  div#header-wrap, div#header {
+    height: 6.5rem !important;
+  }
+}
+
+.bw-display-layer .footer {
+  display: none !important;
+}
+
+.row .bw-display-layer .bwt-store-list {
+  opacity: 1 !important;
+}
+
+
+.bw__AppLayout > div:first-of-type >div:first-of-type > div:first-of-type {
+    width: 100%;
+    margin: 0;
+}
+
+.bw-display-layer-container {
+  background-color: #fff;
+}
+
+.bw-display-layer {
+  padding: 1rem 2rem !important;
+}
+
+.bw-display-layer p, .bw-display-layer div {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+}
+
+.bw-display-layer .bwt-store-main-wrap div, .bw-display-layer .bwt-store-main-wrap span, .bw-display-layer .bwt-store-main-wrap td,
+.bw-display-layer .bwt-store-main-wrap p {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-store-main-wrap h4 {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-index-search-filters-container div, .bw-display-layer .bwt-index-search-filters-container span, .bw-display-layer .bwt-index-search-filters-container td,
+.bw-display-layer .bwt-index-search-filters-container h5 {
+  font-size: 13px !important;
+  line-height: 1px !important;
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
+  font-size: 13px !important;
+  line-height: 19.2px !important;
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button .bwt-index-search-form-location-button-text {
+  margin-left: -1rem !important;
+}
+
+.bw-display-layer,
+.bw-display-layer .bwt-index-search-results-map-button,
+.bw-display-layer .bwt-index-filter-body .bwt-filters-features-title,
+.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1,
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title,
+.bw-display-layer .bwt-store-list .bwt-store-body .bwt-store-services-appointment,
+.row .bw-display-layer .bwt-store .bwt-store-header-details,
+.row .bw-display-layer .bwt-store-header-type,
+.row .bw-display-layer .bwt-store-service-title,
+.row .bw-display-layer .bwt-store-service-description,
+.row .bw-display-layer .bwt-index-search-form-input {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer h1, .bw-display-layer h2, .bw-display-layer h3, .bw-display-layer h4,
+.bw-display-layer .bwt-event-details-location-title {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
+}
+
+.bw-display-layer .bwt-store-body h4 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bw-display-layer .store-type-127,
+label[for=type_127] {
+  display: none;
+}
+
+.bw-display-layer .store-type-43,
+label[for=type_43] {
+  display: none;
+}
+
+.bw-display-layer .bwt-store .bwt-store-detail-link-wrapper a.bwt-store-detail-link,
+.bw-display-layer .bwt-index-search-form-submit-text,
+.bw-display-layer a.bwt-store-event-link {
+  font-size: 13px;
+}
+
+.bw-display-layer .bwt-store-show-primary .bwt-store-header-title a {
+  pointer-events: none;
+  cursor: default;
+}
+
+.bw-display-layer .bwt-store-header-title {
+  letter-spacing: 0 !important;
+}
+
+.bw-display-layer .bwt-store-header-title a:hover {
+  text-decoration: none !important;
+  border-bottom: 1px solid #000;
+}
+
+.bw-display-layer .bwt-store-email-link {
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-hours-special {
+  display: none;
+}
+
+.bw-display-layer .bwt-event-details-phone-prompt .bwt-store-phone-number .bwt-store-phone-number-link-prefix {
+  vertical-align: text-top !important;
+}
+
+.bw-display-layer .bwt-store-event-title a {
+  font-weight: normal;
+}
+
+.bw-display-layer .bwt-store-event-dates {
+  font-size: 13px !important;
+  margin-top: 0 !important;
+}
+
+.bw-display-layer .bwt-store-event-description {
+  font-size: 13px !important;
+}
+
+.bw-display-layer .bwt-event-details-date-time {
+  margin-bottom: 0.5rem !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-alert {
+  background-color: #000 !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-alert span,
+.bw-display-layer .bwt-store .bwt-store-alert h4 {
+  color: #fff !important;
+}
+
+.row .bw-display-layer .bwt-events-main .bwt-events-event-details .bwt-event-details-date-time {
+  font-weight: 600;
+}
+
+.bw-display-layer .bwt-event-details-location-address-line:first-child {
+  font-weight: normal !important;
+}
+
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
+  font-size: 1rem !important;
+}
+
+
+.bw-display-layer .bwt-event-details-location-address-line:first-child {
+  font-weight: normal !important;
+}
+
+.bw-display-layer .bwt-store .bwt-store-aside .bwt-store-description h1 {
+  font-weight: bold !important;
+}
+
+.bw-display-layer .bwt-store-events-list .bwt-store-event .bwt-store-event-title {
+  font-size: 1rem !important;
+}
+
+.bwt-store-call-modal .bwt-store-call-title, .bwt-store-call-modal .bwt-store-call-response-title, .bwt-events-rsvp-modal .bwt-events-rsvp-modal-title, .bwt-events-rsvp-modal .bwt-events-rsvp-success-title, .bwt-events-rsvp-modal .bwt-events-rsvp-failure-title {
+  font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif !important;
+}
+
+.bw-display-layer .bwt-store-address-contextual-fields {
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-parking{
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-transit{
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-hours-special-title {
+  display: none;
+}
+
+.state h3 {
+    text-transform: uppercase;
+}
+
+.country h1 {
+  text-transform: uppercase;
+}
+
+/* iFrame Styling */
+
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates) {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+
+</style>

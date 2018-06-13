@@ -1,0 +1,35 @@
+<style type="text/css">
+.bw__StoreCardImage__image { opacity: 0 !important; }
+body {
+max-width: none !important;
+}
+.bw__AppLayout .bw__Button__component .bw__Button__container { white-space: nowrap; }
+.bw__AppLayout .bw__StoreMapPopup__component { padding: 10px 10px 0px !important}
+table {
+    color: #242424 !important;
+}
+
+#brickworkApp {
+background: white;
+padding-bottom: 60px;
+}
+table { font-size: 12px; }
+ .footer { display: none; }
+      @media (max-width: 450px) {
+        .bw__Modal__component .skylight-dialog {
+          width: 100% !important;
+          height: 100% !important;
+          top: 0 !important;
+          left: 0 !important;
+          bottom: 0 !important;
+          right: 0 !important;
+          max-height: 100% !important;
+          margin: 0 0 0 0 !important;
+        }
+      }
+      @media (min-width: 450px) {
+        .bw__Modal__component .skylight-dialog {
+          padding: 0px !important;
+        }
+      }
+    </style>

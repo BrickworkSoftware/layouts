@@ -1,3 +1,23 @@
+<style>
+.row .footer__signup {
+border: none !important;
+display: inline-table;
+}
+.footer__main .heading--6 {
+font-weight: 600;
+}
+#wrapper {
+overflow: visible !important;
+}
+
+.bxc.bx-base.bx-impress {
+    display: none !important;
+}
+
+.bw__FeatureCardDefault__component .bw__OverlayImage__overlay {background: transparent !important }
+
+.bw__Collapsible__content { white-space: pre-wrap; }
+
 body {margin: 0;}
 
 .bw-display-layer-container { margin: 100px 0; }
@@ -61,7 +81,7 @@ body {margin: 0;}
   color: #fff;
 }
 
-.desktop-links, 
+.desktop-links,
 .header-wrap {
     overflow: hidden;
     white-space: nowrap;
@@ -224,9 +244,9 @@ span.bwt-store-header-details-hours {
 .bw-display-layer .footer a{color:#fff !important;}
 
 @media only screen and (max-width: 599px) {
-	.bw-display-layer .bwt-store-event-show .bwt-details-container {
-		display: inline !important;
-	}
+  .bw-display-layer .bwt-store-event-show .bwt-details-container {
+    display: inline !important;
+  }
 }
 
 /*Modells Additions*/
@@ -480,3 +500,32 @@ span.bwt-store-header-details-hours {
     margin: 0 0 0 5px;
   }
 }
+
+_::-webkit-full-page-media, _:future, :root .bw__SearchBarFlagship__input::placeholder {
+  position:relative;
+  top:3px;
+}
+@media not all and (min-resolution:.001dpcm) and (max-width: 500px) { @media
+{
+    .bw__SearchBarFlagship__input  {
+
+        padding-bottom: 11px !important;
+
+    }
+}}
+@supports (-webkit-overflow-scrolling: touch) {
+  /* CSS specific to iOS devices */
+  .bw__SearchBarFlagship__input {
+    padding-bottom: 11px !important;
+  }
+}
+
+ @-moz-document url-prefix() {
+  .bw__StoreCardFlagship__component .bw__StoreCardFlagship__distance div~div:before {
+    position:relative;
+    top: -1px;
+   }
+  }
+
+ }
+</style>

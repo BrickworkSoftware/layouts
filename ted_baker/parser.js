@@ -1,5 +1,5 @@
 (function() {
-    var headerUrl = "https://www.tedbaker.com/uk/Brickwork_Sample_Page";
+    var headerUrl = "https://www.uat.dev-tedbaker.com/uk/Brickwork_Sample_Page";
   
     $.get(headerUrl, function(response) {
         var parsedResponse = replace_all_rel_by_abs(response);

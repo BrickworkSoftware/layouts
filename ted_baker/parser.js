@@ -130,9 +130,9 @@
 
         var base_url = location.href.match(/^(.+)\/?(?:#.+)?$/)[0] + "/";
         if (url.substring(0, 2) == "//")
-            return "https://www.tedbaker.com" + url;
+            return "https://www.uat.dev-tedbaker.com" + url;
         else if (url.charAt(0) == "/")
-            return location.protocol + "//" + "www.tedbaker.com" + url;
+            return location.protocol + "//" + "www.uat.dev-tedbaker.com" + url;
         else if (url.substring(0, 2) == "./")
             url = "." + url;
         else if (/^\s*$/.test(url))

@@ -1,12 +1,35 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 
 <style>
+
+body {
+  margin: 0;
+}
+
+.appointment-rsvp-container a:focus, .bw-appointment-services:focus, .date_selection_container:focus, .appointment-enterinfo-container input.check_boxes:focus {
+  outline: 2px dotted !important;
+}
+
+.appointment-rsvp-container a.choose-store-link {
+  display: block;
+}
+
+.bw__BusinessHours__dayCell {
+margin-right: 8px !important;
+}
+.mapboxgl-ctrl.mapboxgl-ctrl-attrib {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.bw__SearchHeroVariant2__component .bw__SearchHeroVariant2__title {
+background: #000;
+}
+
 td {
 padding: 0 !important;
 }
 
-.slick-dots{
-display: none !important;
-}
 
 .slick-slide {
 height: inherit !important;
@@ -14,7 +37,7 @@ opacity: 1 !important;
 }
 
 #brickworkapp {
-    margin-top: 60px;
+    margin-top: 0px;
 }
 
 .bw-appointment-service-link-name {
@@ -39,6 +62,10 @@ opacity: 1 !important;
   border: 1px solid #666666;
   min-width: 240px;
   min-height: 300px;
+}
+
+.display {
+display: block !important;
 }
 
 .appointment-rsvp-container .bw-appointment-header {
@@ -86,7 +113,7 @@ font-family: "Minion W01",Georgia,serif;
 
 @media (min-width: 1027px){
 #brickworkapp{
-  margin-top: 90px;
+  margin-top: 0px;
 }
 }
 
@@ -125,6 +152,10 @@ input.check_boxes:checked::after{
 
 .bw-appointment-step-container {margin-top: 0rem !important;}
 .appointment-rsvp-container .appointment-enterinfo-container {margin-top: 0px !important;}
+
+.bw-appointment-header-column {
+  color: #686767;
+}
 
 .bw-appointment-header-column.small-5{
   text-align: center;
@@ -185,6 +216,10 @@ input.check_boxes:checked::after{
   font-family:"Minion";
 }
 
+.appointment-rsvp-container .local-stores .container .name_distance .distance {
+  color: #686767;
+}
+
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea{
   font-family:"Minion";
 }
@@ -199,6 +234,11 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 
 .appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .num_available{
   font-size: 14px;
+  color: #686767;
+}
+
+.appointment-rsvp-container #select-appointment-time .appointment-slots .day_container .day_segment .segment_header .segment_name {
+  color: #686767;
 }
 
 #questions-wrapper label,
@@ -227,7 +267,7 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   #appointment-confirmation:before{
      display: none;
   }
-  
+
  #appointment-confirmation{
    padding-top: 50% !important;
    margin-top: -158px !important;
@@ -247,8 +287,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
 }
 
 
-.appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit:hover, .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit:active, .appointment-rsvp-container .button:hover, .appointment-rsvp-container .button:active {
-   background: #999;
+.appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit:hover, .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit[disabled], .appointment-rsvp-container .appointment-enterinfo-container .bwt-appointment-submit:active, .appointment-rsvp-container .button:hover, .appointment-rsvp-container .button:active, .appointment-rsvp-container .button-clean:hover {
+  background: #686767;
+}
+
+.active .bwt-store-call-placeholder, .active .bwt-rsvp-first-name-placeholder, .active .bwt-rsvp-last-name-placeholder, .active .bwt-rsvp-email-placeholder, .active .bwt-appt-input-placeholder, .filled .bwt-store-call-placeholder, .filled .bwt-rsvp-first-name-placeholder, .filled .bwt-rsvp-last-name-placeholder, .filled .bwt-rsvp-email-placeholder, .filled .bwt-appt-input-placeholder, .bwt-appt-input-placeholder {
+  color: #686767;
+}
+
+[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+  background: #c0392b;
 }
 
 /*
@@ -289,20 +337,35 @@ input.check_boxes {
     text-align: left !important;
   }
 }
-
 body.keyboard-on #middle {
   padding-top: 0px !important;
 }
 
-@media (max-width: 1027px) {
-  #logo {
-    padding: 10px 10px 0px 10px !important;
-  }
+#logo {
+margin-top: 12px !important;
 }
 
-@media screen and (max-width: 320px) {
-  #logo {
-    padding: 12px 10px 0px 10px !important;
+// Internet Explorer 11 only
+
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .bw__StoreCardFlagship__slug * {
+    font-size: 20px !important;
   }
+  .bw__StoreLocation .bw__TitledBlock__title h3 * {
+    font-size: 12px !important;
+  }
+
 }
+
+// Safari only !!!!!
+ _::-webkit-full-page-media, _:future, :root input.bw__SearchBarVariant2__input.bw__Input.bw__Input__component::placeholder {
+  position: relative;
+  top: 4px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+   a.bw__StoreLink h2,  a.bw__StoreLink span { line-height: 25px !important;}
+  .bw__SearchHeroVariant2__toggleableMap { display: none !important; }
+}
+
 </style>

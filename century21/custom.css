@@ -1,0 +1,200 @@
+/* EVENTS */
+.bwt-events-main-image img{
+max-width: 1170px;
+}
+.bwt-events-main-image{
+    text-align: center;
+}
+/* END EVENTS */
+
+
+/*APPOINTMENT */
+.brickwork-appointment-widget-187 a{
+    font-family: "proxima-nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.08571rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #999999;
+    background: #fff;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+    padding: 8px;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+.brickwork-appointment-widget-187 a:hover{
+    color:white !important;
+    background:black;
+}
+
+.bwt-appointment-customer-message {
+    display: none;
+}
+
+.bwt-email-opt-field {
+    margin-top: 0px;
+}
+
+
+/*END APPOINTMENT */
+
+
+
+
+/*
+.bwt-store-alert{
+display:none;
+}
+*/
+
+.page-footer__logo{
+    background: url(https://c21stores-weblinc.netdna-ssl.com/media/W1siZiIsIjIwMTcvMTAvMTgvMTUvMzgvNDUvNDM4L0MyMWxvZ29fUkVEX1NUT1JFU19UYWdMaW5lLnN2ZyJdXQ/C21logo_RED_STORES_TagLine.svg?sha=9be2ef95d0cdf011) no-repeat;
+}
+
+/* New Page Width */
+.bw-display-layer .bwt-index,
+.bw-display-layer .bwt-index .bwt-index-search-form-wrap,
+.bw-display-layer .bwt-index .bwt-store-header-container, .bw-display-layer .bwt-index .bwt-store-body,
+.bw-display-layer .bwt-store-show-main {
+    max-width: 1400px !important;
+}
+
+
+
+body .w-display-layer-container{
+margin:0 auto;
+}
+
+/*.bw-display-layer-container { max-width: 1440px !important }*/
+html .centered { max-width: 1440px !important; }
+
+
+/* darker appt questions */
+.bwt-appt-input-placeholder {
+  color: #7f7f7f;
+}
+
+.associate_label img {
+width:100% !important;
+}
+
+.row .bw-display-layer .bwt-desktop-carousel-controls {
+z-index: 1000;
+}
+/* Store Image */
+.row .bw-display-layer .bwt-store-show .bwt-store-show-hero {
+background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+       background-attachment: initial;
+        background-position: center center;
+        background-repeat: no-repeat;
+}
+
+/* Hidden Elements */
+.bw-display-layer .bwt-index .bwt-index-filters-expand-button,
+.bw-display-layer .bwt-index .bwt-store-header-type,
+.bw-display-layer .bwt-store-show  .bwt-stores-nearby-store-type,
+.bw-display-layer .bwt-store-show .bwt-store-media-list-item-features,
+.bw-display-layer .bwt-store-show .bwt-store-header-type,
+.bw-display-layer .bwt-store-address-contextual,
+.bw-display-layer .bwt-store-show .bwt-store-main-description h4,
+.bw-display-layer .bwt-store-show .bwt-store-main-features,
+.row .bw-display-layer .bwt-store-show .bwt-store-address-contextual,
+.row .bwt-event-details-store-type {
+display: none
+}
+
+
+.bw-display-layer .bwt-events-main-image {
+background-attachment: inherit !important;
+}
+
+.bwt-store-show-email-signup,
+.bwt-filters-features-languages,
+.bwt-filters-features-store-type  {
+display: none;
+}
+
+/*.bw-display-layer .bwt-store-show .bwt-store-nav-list li a {
+    display: none;
+}*/
+
+/* Red Jumplink */
+.bwt-store-show-main .bwt-store-nav .bwt-store-nav-list li a[href="#appointments"] {
+    color: #E41B23;
+}
+
+@media screen and (min-width: 700px){
+.bw-display-layer .bwt-index,
+.bw-display-layer .bwt-store-show-main {
+  padding: 0 70px !important;
+}
+}
+
+.bw-display-layer .bwt-store-show .bwt-store-nav-list li a[href="#services"] {
+    display: none !important;
+}
+
+/* C21 Footer */
+.page-footer__content .page-footer__social-header, .page-footer__content .page-footer__email-signup-header {
+  font-size: 12px;
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.page-footer__nav li {
+  font: 14px/1.5 "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.page-footer__email-signup-form {
+  max-height: 48px;
+}
+
+.page-footer__email-signup-form input[type="email"] {
+  margin: 0;
+  height: -webkit-fill-available;
+  max-height: 48px;
+  border: 1px solid transparent;
+  padding: 14px 10px 13px;
+  box-shadow: none;
+}
+
+.page-footer__email-signup-form input[type="email"]:focus {
+  border-color: #000000;
+  outline: none;
+  box-shadow: none;
+}
+
+.page-footer__email-signup .button--large {
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #c6c8ca;
+  border: 1px solid transparent;
+  font-style: normal;
+  font-weight: bold;
+  max-height: 48px;
+  color: #FFFFFF;
+}
+
+.page-footer__legal .page-footer__policy-item, .page-footer__legal .page-footer__copyright {
+  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 8px;
+}
+
+@media screen and (min-width: 700px) {
+  .page-footer__legal .page-footer__policy-item, .page-footer__legal .page-footer__copyright {
+    font-size: 10px;
+  }
+}
+
+.share-buttons__item .icon {
+  box-sizing: unset;
+}

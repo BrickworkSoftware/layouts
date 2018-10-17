@@ -555,6 +555,10 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
   border-radius: 2px;
 }
 
+.bwt-map-store-info .nike-brickwork-btn {
+  margin-left: 2%
+}
+
 .bwt-store-show-details-container .bwt-store-directions-mobile-link, .bwt-store-description .nike-brickwork-btn {
   min-width: 200px;
 }

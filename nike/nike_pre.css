@@ -73,7 +73,17 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 }
 
 /* Other */
-.bw-appointment-services .bw-appointment-service-link { min-height: 273.188px !important; }
+@media (max-width: 500px) {
+  .appointment-rsvp-container .bw-appointment-step-container-title {
+    margin-bottom: 30px;
+  }
+}
+.bw-appointment-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bw-appointment-services .bw-appointment-service-link { min-height: unset !important; }
 
 .bwt-store-directions-mobile-link { color: #000 !important; }
 .bwt-store-directions-mobile-link:hover { color: #fa5400 !important; }
@@ -445,8 +455,6 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 }
 
 /* Other */
-.bw-appointment-services .bw-appointment-service-link { min-height: 273.188px !important; }
-
 .bwt-store-directions-mobile-link { color: #000 !important; }
 .bwt-store-directions-mobile-link:hover { color: #fa5400 !important; }
 

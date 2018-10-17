@@ -540,6 +540,24 @@ input#name::-webkit-input-placeholder, input#email::-webkit-input-placeholder {
 }
 .bwt-store-description h6 { font-family: "TradeGothicCond", Helvetica, Arial, sans-serif !important;}
 .bwt-store-description p { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;}
+.bwt-store-description .nike-brickwork-btn, .bwt-map-store-info .nike-brickwork-btn {
+  margin: 10px 0 0 0;
+  padding: 10px 15px;
+  font-size: 12px;
+  font-family: "NikeBase", OneNikeCurrency, "TradeGothicGk for Nike 365 BC", "TradeGothicCond", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.bwt-store-show-details-container .bwt-store-directions-mobile-link, .bwt-store-description .nike-brickwork-btn {
+  min-width: 200px;
+}
 
 .bwt-store-service-image-container .bwt-appointment-modal-button-wrapper, .bwt-store-service-body-container .bwt-appointment-modal-button-wrapper {display: none !important;}
 
@@ -791,6 +809,14 @@ input[type='text']{
 	background-repeat: no-repeat !important;
 	background-size: cover !important;
 	background-position: center !important;
+}
+@media (max-width: 767px) {
+  .bw-appointment-hero-image-wrapper .bw-appointment-hero-image {
+    background: url(https://s3.amazonaws.com/assets.brickworksoftware.com/Nike/maskhead_mobile.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
 }
 .bw-logo-white {
 	display: none !important;

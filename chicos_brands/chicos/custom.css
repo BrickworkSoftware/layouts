@@ -1,10 +1,71 @@
+<style>
+
+@media (min-width: 990px)  {
+.bw__Grid__row.bw__Grid {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+
+@media (min-width: 780px) {
+  .bw__SearchPageOrderable__component + div > div > div:first-of-type {
+    width: 100% !important;
+  }
+}
+
+#logo img { width: 100% }
+@media (min-width : 991px){
+    #menu.hover.touch>ul>li.dropdown.active>a>h2 {
+        opacity: 1!important;
+    }
+    #menu.touch>ul:hover>li.dropdown:hover>a>h2 {
+        opacity: 1!important;
+    }
+    #menu>ul>li:hover>a>h2, #menu>ul>li.search-toggle-wrap {
+        transition-delay:.1s;
+        opacity: 1;
+    }
+}
+
+/* Update GPS BG color */
+#header-promo-wrap { background: #000!important; }
+
+#enter-contact-info input {
+background: #FAFAFA !important;
+}
+
+#questions-wrapper {
+    max-width: 48rem;
+}
+
+#questions-wrapper .row {
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+#questions-wrapper .row .columns {
+    padding: 0;
+}
+
+#questions-wrapper .bwt-appt-input-placeholder {
+    top: 23px;
+    font-size: 12px !important;
+    font-family: 'Brandon', Georgia, Times, serif !important;
+    color: #4d4d4d;
+    cursor: pointer;
+    font-weight: normal;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
 html {
   font-size: 15px;
 }
 
 @font-face {
   font-family: 'Brandon-Grotesque';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
+  src: url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -12,7 +73,7 @@ html {
 
 @font-face {
   font-family: 'Brandon-Grotesque';
-  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
+  src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
   font-weight: bold;
   font-style: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -20,7 +81,7 @@ html {
 
 @font-face {
   font-family: 'Brandon-Grotesque';
-  src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
+  src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
   font-weight: normal;
   font-style: italic;
   -webkit-font-smoothing: antialiased !important;
@@ -28,7 +89,7 @@ html {
 
 @font-face {
   font-family: 'Brandon-Grotesque';
- src:url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
+ src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
   font-weight: 500;
   font-style: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -36,7 +97,7 @@ html {
 
 @font-face {
   font-family: 'BentonModernOne';
-  src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
+  src: url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased !important;
@@ -64,7 +125,10 @@ body {
 }
 
 .bw-display-layer .store-type-123,
-label[for=type_123] {
+label[for=type_123],
+label[for=type_124],
+label[for=type_224],
+label[for=all_store_types] {
   display: none;
 }
 
@@ -133,7 +197,7 @@ label {
   font-size: 0.87rem;
 }
 
-#menu-utility .icon-map {  
+#menu-utility .icon-map {
   width: 0.95rem;
   height: 1.5rem;
 }
@@ -235,7 +299,468 @@ label {
 
   #menu .dropdown-menu a {
     font-size: 1.0667rem;
-  }  
+  }
+
+  #menu-utility > ul > li {
+    margin: 0 !important;
+  }
+
+  #menu > ul .dropdown > a > span {
+    font-size: 0.935rem;
+  }
+
+  #menu > ul .dropdown > a > span:after {
+    margin-top: 0.4rem;
+    height: 0.667rem;
+    width: 0.667rem;
+  }
+
+  #menu .ship-to {
+    font-size: 1.067rem;
+    padding: 0.533rem 1rem;
+  }
+
+  #footer #footer-inner h4 {
+    margin: 0.5rem 0;
+  }
+
+  #footer-inner .footer-menu-block .footer-menu-toggle:after {
+    margin: 5px 15px 0 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  #menu > ul > li > a {
+    padding: 0 1rem;
+  }
+}
+
+/* iFrame Styling */
+@font-face {
+  font-family: 'Brandon';
+  src: url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
+}
+
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.fa-mobile):not(.fa)  {
+  font-family: 'Brandon', Georgia, Times, serif !important;
+}
+
+input#appointment_date::-webkit-input-placeholder {
+   font-weight: normal;
+}
+
+.appointment-rsvp-container a.bw-appointment-header-close {
+  font-size: 25px;
+}
+
+.appointment-rsvp-container .bw-appointment-service-link-description {
+  font-size: 13px;
+}
+
+.appointment-rsvp-container h1 {
+  font-family: "Brandon", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .button-clean, .bwt-events-rsvp-modal-button, .bwt-rsvp-first-name-placeholder,
+.bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
+  font-family: "Brandon", Arial, Helvetica, sans-serif !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address h4{
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address b{
+  font-weight: normal !important;
+}
+
+/* Additional Styling */
+
+.bw-display-layer .bwt-store-address-contextual-fields {
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-parking{
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-transit{
+  display: none !important;
+}
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+.bw-display-layer .footer {
+     margin-top: 0px !important;
+}
+
+.state h3 {
+    text-transform: uppercase;
+}
+
+.country h1 {
+    text-transform: uppercase;
+}
+
+.bwt-store-special-hours {
+  display: none !important;
+}
+
+.bwt-store-hours-special-title {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 530px) {
+  .bw-display-layer #mobile_date_select {
+    margin-bottom: 10px !important;
+  }
+  .bw-display-layer .bwt-store-email-link {
+    margin-top: 10px !important;
+  }
+  .bw-display-layer .bwt-event-details{
+    margin-bottom: 15px !important;
+  }
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
+  max-width: 15% !important;
+}
+
+.bw-display-layer .bwt-store-hours-special {
+  display: none !important;
+}
+
+.bw-display-layer a.bwt-pagination:hover {
+  color: #fff !important;
+}
+
+.bw-display-layer .bwt-pagination:focus,.bw-display-layer .bwt-pagination:hover,.bw-display-layer .bwt-pagination:active {
+  border-bottom: 2px solid #898888 !important;
+  /*padding: 10px 40px !important;*/
+}
+
+.bwt-store-header-title {
+  font-size: 25px !important;
+}
+
+.bwt-store-detail-link-wrapper, .bwt-store-map-button-text {
+  font-size: 12px !important;
+}
+
+.bwt-store-detail-link-wrapper, .bwt-store-map-button-text, .bwt-index-search-form-location-button {
+  font-weight: 500 !important;
+}
+
+@media (min-width: 760px) {
+  .social a svg {
+  width: 21px !important;
+  }
+}
+
+.bwt-store-address, .bwt-store-address-line, .bwt-store-hours-table-date-column,
+.bwt-store-hours-table-hours-column, .bwt-store-phone-number-link-text, .bwt-store-email-link-text,
+.bwt-store-description h4, .bwt-store-description p, .bwt-store-detail-link-wrapper a,
+.bwt-store-map-button-text, .bwt-store-service-description, .brickwork-button a {
+  font-size: 15px !important;
+  line-height: 25px !important;
+}
+
+.bwt-store-detail-link-wrapper a {
+  font-weight: 500 !important;
+}
+
+.bwt-stores-nearby-store-title {
+  font-family: "Brandon", Arial, Helvetica, sans-serif !important;
+}
+
+@media screen and (max-width: 400px) {
+    .bw-display-layer-container {
+        padding-top: 1.0rem !important;
+    }
+}
+
+/*  Fix dropdown nav */
+.dropdown-menu {
+ top: auto;
+}
+
+/* Hide search from nav*/
+.search-toggle-wrap {
+   display: none !important;
+}
+
+/* Compensate for Chicos fixed header when scrolling to #services anchor link on store show pages */
+/* https://css-tricks.com/hash-tag-links-padding/#article-header-id-1 */
+.bwt-store-show-events-and-services #services:before {
+  display: block;
+  content: " ";
+  margin-top: -102px;
+  height: 102px;
+  visibility: hidden;
+}
+
+.social-google-plus {display: none !important;}
+
+
+.row .bw-display-layer .bwt-store-list {
+  opacity: 1 !important;
+}
+.site_header {
+  font-size: 14px !important;
+}
+
+#logo {
+  width: 144px !important;
+}
+
+html {
+  font-size: 15px;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src: url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_bld.otf');
+  font-weight: bold;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+  src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg_it.otf');
+  font-weight: normal;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'Brandon-Grotesque';
+ src:url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_med.otf');
+  font-weight: 500;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'BentonModernOne';
+  src: url('https://chicosofftherack.brickworksoftware.com/assets?source=http://s3.amazonaws.com/assets.brickworksoftware.com/chicos/BentonModernOne-Roman.otf');
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body {
+  background-color: #fff !important;
+  font-family: "Brandon-Grotesque", Georgia, Times, serif;
+  text-align: left !important;
+}
+
+.bw-display-layer-container {
+  font-size: initial !important;
+  margin: 0 auto !important;
+  padding-top: 2.5rem;
+}
+
+.bw-display-layer .bwt-index-search-form-wrap {
+  max-width: 1170px !important;
+}
+
+.bwt-cancel-rsvp-only {
+  margin: 60px auto;
+  text-align: center;
+}
+
+.bw-display-layer .store-type-123,
+label[for=type_123],
+label[for=type_45],
+label[for=type_395]
+ {
+  display: none;
+}
+
+.bw-display-layer .store-type-42,
+label[for=type_42] {
+  display: none;
+}
+
+label {
+  font-weight: 500 !important;
+}
+
+.bw-display-layer .bwt-index-filter-body label {
+  padding: 2px 8px 0 22px !important;
+}
+
+#header-wrap {
+  height: 9.075rem !important;
+}
+
+#header-inner {
+  padding: 2.675rem 1rem 2rem 1rem;
+}
+
+.sticky #header #header-inner {
+  padding-top: 0.667rem;
+  padding-bottom: 0.667rem;
+}
+
+#menu > ul > li > a {
+  font-size: 1rem;
+  line-height: 2.675rem;
+  padding: 0 1.8rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row {
+  max-width: 100%;
+  margin-left: -15px !important;
+  margin-right: -15px !important;
+}
+
+#menu .dropdown-menu .dropdown-inner .row h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.0667rem;
+  line-height: 1.15rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li {
+  font-size: 0.8rem;
+  margin-bottom: 0.675rem;
+}
+
+#menu .dropdown-menu .dropdown-inner .row ul li a {
+  line-height: 1.6rem;
+}
+
+#menu-utility > ul > li {
+  margin-left: 1.67rem !important;
+}
+
+#menu-utility > ul > li > a {
+  line-height: 1.3rem;
+}
+
+#menu-utility ul li a span {
+  font-size: 0.87rem;
+}
+
+#menu-utility .icon-map {
+  width: 0.95rem;
+  height: 1.5rem;
+}
+
+#menu-utility .icon-search, #menu-utility .icon-menu {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
+.carousel-indicators li, .carousel-indicators .active {
+  width: 1.07rem;
+  height: 1.07rem;
+  margin: 0 .535rem;
+}
+
+#footer-inner .container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#footer #footer-inner .row {
+  max-width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#footer #footer-inner h4 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+#footer #footer-inner ul li {
+  margin-bottom: 0.8rem;
+  line-height: 1.15rem;
+}
+
+#footer #footer-inner ul li a {
+  font-size: 0.8rem;
+  line-height: 1.15rem;
+}
+
+.footer-newsletter label {
+  font-size: 0.8rem;
+}
+
+#footer-bot .row {
+  margin-left: 0;
+  margin-right: -15px;
+}
+
+.copyright {
+  font-size: 0.67rem;
+}
+
+#social a {
+  margin-right: 0.8rem;
+}
+
+.menu-toggle-inner {
+  width: 1.375rem;
+}
+
+.menu-toggle-inner span {
+  height: 0.2rem;
+}
+
+.menu-toggle-inner span:nth-child(2) {
+  top: 0.4rem;
+}
+
+.menu-toggle-inner span:nth-child(3) {
+  top: 0.8rem;
+}
+
+.menu-toggle-inner.open span:nth-child(1) {
+  top: -.0667rem;
+  left: .335rem;
+}
+
+.menu-toggle-inner.open span:nth-child(3) {
+  top: 0.85rem;
+  left: .335rem;
+}
+
+.menu-header-mobile {
+  font-size: 0.8667rem;
+}
+
+#menu .dropdown-menu > ul > li:first-child a {
+  padding-left: 0 !important;
+}
+
+@media (max-width: 991px) {
+  #menu > ul .dropdown > a {
+    padding: 0.5333rem 1rem !important;
+    font-size: 1.07rem;
+  }
+
+  #menu .dropdown-menu a {
+    font-size: 1.0667rem;
+  }
 
   #menu-utility > ul > li {
     margin: 0 !important;
@@ -277,12 +802,176 @@ label {
   src: url('//s3.amazonaws.com/assets.brickworksoftware.com/chicos/Brandon_reg.otf') format("opentype");
 }
 
-.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates)  {
+.appointment-rsvp-container div *:not(.bw-load-next-dates):not(.bw-load-previous-dates):not(.fa-mobile):not(.fa)  {
   font-family: 'Brandon', Georgia, Times, serif !important;
 }
 
-.dropdown-menu {
-  top: auto;
+input#appointment_date::-webkit-input-placeholder {
+   font-weight: normal;
 }
 
-.bwt-search-results-container .bwt-store-services-appointment { display: none !important; }
+.appointment-rsvp-container a.bw-appointment-header-close {
+  font-size: 25px;
+}
+
+.appointment-rsvp-container .bw-appointment-service-link-description {
+  font-size: 13px;
+}
+
+.appointment-rsvp-container h1 {
+  font-family: "Brandon", Helvetica, serif !important;
+  font-size: 23px !important;
+}
+
+.appointment-rsvp-container .button-clean, .bwt-events-rsvp-modal-button, .bwt-rsvp-first-name-placeholder,
+.bwt-rsvp-last-name-placeholder, .bwt-rsvp-email-placeholder {
+  font-family: "Brandon", Arial, Helvetica, sans-serif !important;
+  font-weight: normal !important;
+  letter-spacing: normal !important;
+  font-style: normal !important;
+  font-size: 13px !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address h4{
+  font-weight: normal !important;
+}
+
+.appointment-rsvp-container .bw-appointment-store-address b{
+  font-weight: normal !important;
+}
+
+/* Additional Styling */
+
+.bw-display-layer .bwt-store-address-contextual-fields {
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-parking{
+  display: none !important;
+}
+
+.bw-display-layer .bwt-store-address-transit{
+  display: none !important;
+}
+
+.bw-display-layer .footer a:nth-child(1),
+.bw-display-layer .footer a:nth-child(2) {
+  display: none;
+}
+.bw-display-layer .footer {
+     margin-top: 0px !important;
+}
+
+.state h3 {
+    text-transform: uppercase;
+}
+
+.country h1 {
+    text-transform: uppercase;
+}
+
+.bwt-store-special-hours {
+  display: none !important;
+}
+
+.bwt-store-hours-special-title {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 530px) {
+  .bw-display-layer #mobile_date_select {
+    margin-bottom: 10px !important;
+  }
+  .bw-display-layer .bwt-store-email-link {
+    margin-top: 10px !important;
+  }
+  .bw-display-layer .bwt-event-details{
+    margin-bottom: 15px !important;
+  }
+}
+
+.bw-display-layer .bwt-index-header-container button.bwt-index-search-form-location-button {
+  max-width: 15% !important;
+}
+
+.bw-display-layer .bwt-store-hours-special {
+  display: none !important;
+}
+
+.bw-display-layer a.bwt-pagination:hover {
+  color: #fff !important;
+}
+
+.bw-display-layer .bwt-pagination:focus,.bw-display-layer .bwt-pagination:hover,.bw-display-layer .bwt-pagination:active {
+  border-bottom: 2px solid #898888 !important;
+  /*padding: 10px 40px !important;*/
+}
+
+.bwt-store-header-title {
+  font-size: 25px !important;
+}
+
+.bwt-store-detail-link-wrapper, .bwt-store-map-button-text {
+  font-size: 12px !important;
+}
+
+.bwt-store-detail-link-wrapper, .bwt-store-map-button-text, .bwt-index-search-form-location-button {
+  font-weight: 500 !important;
+}
+
+@media (min-width: 760px) {
+  .social a svg {
+  width: 21px !important;
+  }
+}
+
+.bwt-store-address, .bwt-store-address-line, .bwt-store-hours-table-date-column,
+.bwt-store-hours-table-hours-column, .bwt-store-phone-number-link-text, .bwt-store-email-link-text,
+.bwt-store-description h4, .bwt-store-description p, .bwt-store-detail-link-wrapper a,
+.bwt-store-map-button-text, .bwt-store-service-description, .brickwork-button a {
+  font-size: 15px !important;
+  line-height: 25px !important;
+}
+
+.bwt-store-detail-link-wrapper a {
+  font-weight: 500 !important;
+}
+
+.bwt-stores-nearby-store-title {
+  font-family: "Brandon", Arial, Helvetica, sans-serif !important;
+}
+
+@media screen and (max-width: 400px) {
+    .bw-display-layer-container {
+        padding-top: 1.0rem !important;
+    }
+}
+
+/*  Fix dropdown nav */
+.dropdown-menu {
+ top: auto;
+}
+
+/* Hide search from nav*/
+.search-toggle-wrap {
+   display: none !important;
+}
+
+/* Compensate for Chicos fixed header when scrolling to #services anchor link on store show pages */
+/* https://css-tricks.com/hash-tag-links-padding/#article-header-id-1 */
+.bwt-store-show-events-and-services #services:before {
+  display: block;
+  content: " ";
+  margin-top: -102px;
+  height: 102px;
+  visibility: hidden;
+}
+
+.social-google-plus {display: none !important;}
+.bwt-index-search-link-out { display: block !important }
+ @media (min-width: 500px) and (max-width: 900px) {
+     _::-webkit-full-page-media, _:future, :root .bw__BusinessHours__specialHoursDayRow {
+      display: flex;
+   }
+ }
+</style>

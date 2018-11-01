@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+.sticky-header-body header.header-desktop {
+  z-index: 101;
+}
+
 .appointment-rsvp-container a:focus, .bw-appointment-services:focus, .date_selection_container:focus, .appointment-enterinfo-container input.check_boxes:focus {
   outline: 2px dotted !important;
 }
@@ -367,5 +371,4 @@ margin-top: 12px !important;
    a.bw__StoreLink h2,  a.bw__StoreLink span { line-height: 25px !important;}
   .bw__SearchHeroVariant2__toggleableMap { display: none !important; }
 }
-
 </style>

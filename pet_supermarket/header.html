@@ -1,0 +1,465 @@
+ <style type="text/css">
+    
+    
+            .page-container {
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+    
+            @media (min-width: 768px) {
+                .page-container {
+                    display: block;
+                    width: auto;
+                    padding-right: 0;
+                    padding-left: 0;
+                    margin-right: auto;
+                    margin-left: auto;
+                }
+        
+        .navbar-toggle {
+              position: relative;
+            float: left !important;
+            margin-right: 15px;
+            padding: 9px 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background-color: transparent;
+            background-image: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            }
+        }
+      
+      
+      @media screen and (min-width: 701px) and (max-width: 3000px) {
+          .desktop-no-show {
+          display: none;
+          visibility: hidden;
+          }
+        }
+      
+    
+            @media (min-width: 992px) {
+                .page-container {
+                    padding-right: 15px;
+                    padding-left: 15px;
+                    width: 970px;
+                }
+            }
+    
+            @media (min-width: 1200px) {
+                .page-container {
+                    width: 1170px;
+                }
+            }
+    
+            @media (min-width: 1310px) {
+                .page-container {
+                    width: 1280px;
+                }
+            }
+    
+            .image-container-wrapper {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            .header-image-wrapper {
+                display: flex;
+                align-items: center;
+                background-color: #000000;
+                height: 68px;
+                position: relative;
+                width: 100vw;
+                margin-left: -50vw;
+                margin-right: 0;
+                left: 50%
+            }
+    
+            .header-links-wrapper {
+                display: block;
+                background-color: #fcb53b;
+                height: 50px;
+                position: relative;
+            }
+    
+            .container-links {
+                display: flex;
+                justify-content: space-between;
+                padding: 14px 0 0 15px;
+            }
+    
+            @media (min-width: 768px) {
+                .container-links {
+                    display: block;
+                }
+            }
+    
+            @media (min-width: 992px) {
+                .container-links {
+                    padding: 10px 0 0 0;
+                }
+            }
+    
+            .header-link, .header-link:visited, .header-link:hover, .header-link:active {
+                text-decoration: none;
+            }
+    
+            @media (min-width: 768px) {
+                .header-link {
+                    padding-right: 30px;
+                }
+            }
+    
+            .last-header-link {
+                padding-right: 5px;
+            }
+    
+            .link-text {
+                font-family: "Pridi";
+                font-weight: 500;
+                font-style: normal;
+                font-size: 15px;
+                margin: 0 9px 0 0;
+                color: #000000;
+            }
+    
+            @media (min-width: 768px) {
+                .link-text {
+                    font-size: 20px;
+                }
+            }
+    
+            .stores-image {
+                height: 15px;
+                width: auto;
+                margin-bottom: 5px;
+            }
+    
+            @media (min-width: 768px) {
+                .header-image-wrapper {
+                    display: block;
+                }
+            }
+    
+            .local-ad-image {
+                height: 15px;
+                width: auto;
+            }
+    
+            .local-ad-wrapper {
+                padding: 10px 0 0 0;
+            }
+    
+            @media (max-width: 767px) {
+                .local-ad-wrapper {
+                    display: none;
+                }
+            }
+    
+            .local-ad {
+                display: flex;
+                text-decoration: none;
+                min-width: 100px;
+            }
+    
+            .local-ad-image {
+                padding: 3px 5px 0 0;
+            }
+    
+            .local-ad-text {
+                font-family: "Lato";
+                font-weight: 400;
+                font-style: normal;
+                color: #33cccc;
+                font-size: 14px;
+            }
+    
+            .image-wrapper {
+                padding: 0 20px 0 20px;
+            }
+    
+            @media (min-width: 768px) {
+                .image-wrapper {
+                    padding: 0 15px 0 15px;
+                }
+            }
+    
+            @media (min-width: 992px) {
+                .image-wrapper {
+                    padding: 0;
+                }
+            }
+    
+            .header-image {
+                width: auto;
+                height: auto;
+                max-width: 100%;
+                max-height: 46px;
+            }
+    
+            @media (min-width: 768px) {
+                .header-image {
+                    width: 275px;
+                    height: auto;
+                    margin-top: 15px;
+                }
+            }
+    
+            .footer {
+                position: relative;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #000000;
+            }
+    
+            @media (max-width: 768px) {
+              .footer {
+                position: absolute;
+              }
+            }
+    
+            .footer-wrapper {
+                color: #777777;
+                font-family: "Lato";
+                line-height: 21px;
+                height: 66px;
+                margin: 0 0 0 -50vw;
+                font-size: 12px;
+                position: relative;
+                width: 100vw;
+                left: 50%
+            }
+    
+            .footer-social-wrapper {
+                display: flex;
+                align-items: center;
+                background-color: #555555;
+                font-family: "Lato";
+                height: 60px;
+                margin: 0 0 0 -50vw;
+                font-size: 12px;
+                position: relative;
+                width: 100vw;
+                left: 50%
+            }
+    
+            .footer-links-wrapper {
+                color: #777777;
+                font-family: "Lato";
+                line-height: 21px;
+                margin: 0 0 0 -50vw;
+                font-size: 12px;
+                position: relative;
+                width: 100vw;
+                left: 50%
+            }
+    
+            .inner-links-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                margin-left: 0;
+                margin-right: 0;
+            }
+    
+            @media (min-width: 768px) {
+                .inner-links-container {
+                    padding: 20px 5px;
+                    border-bottom: 1px solid #333333;
+                    flex-direction: row;
+                }
+            }
+    
+            @media (min-width: 992px) {
+                .inner-links-container {
+                    padding: 20px 0;
+                    margin-left: -10px;
+                }
+            }
+    
+            @media (min-width: 768px) {
+                .link-block {
+                    width: 25%;
+                    padding: 0 10px;
+                }
+            }
+    
+            @media (min-width: 992px) {
+                .link-block {
+                    width: 20%;
+                }
+            }
+    
+            .social-section {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+    
+            .footer-inner {
+                padding-top: 20px;
+            }
+    
+            .tel-link {
+                font-family: "Pridi";
+                font-weight: 500;
+                font-style: normal;
+                font-size: 16px;
+                color: #ffffff;
+                text-decoration: none;
+            }
+    
+            .tel-link:hover, .tel-link:visited, .tel-link:active {
+                color: #ffffff;
+            }
+    
+            .social-image-link {
+                text-decoration: none;
+            }
+    
+            @media (min-width: 380px) {
+                .social-image-link {
+                    margin: 0 7px;
+                }
+            }
+    
+            .social-image {
+                height: 30px;
+                width: 30px;
+            }
+    
+            @media (max-width: 991px) {
+                .social-container {
+                    width: 100%;
+                    padding: 0 15px 0 15px;
+                }
+            }
+    
+            @media (min-width: 768px) {
+                .footer-inner {
+                    padding: 20px 15px 0 15px;
+                }
+            }
+    
+            @media (min-width: 992px) {
+                .footer-inner {
+                    padding: 20px 0 0 0;
+                }
+            }
+    
+            @media (max-width: 991px) {
+                .footer-logo {
+                    display: none;
+                }
+            }
+    
+            .footer-logo-image {
+                max-width: 120px;
+            }
+    
+            .link-label {
+                font-family: "Lato";
+                font-size: 14px;
+                font-weight: 700;
+        color: #ffffff;
+                border-bottom: 1px solid #333333;
+                padding: 10px 0;
+                cursor: pointer;
+            }
+    
+            @media (min-width: 768px) {
+                .link-label {
+                    margin-bottom: 5px;
+                    border-bottom: none;
+                    padding: 0;
+                    cursor: default;
+                }
+            }
+    
+            .footer-link-section {
+                padding: 10px 0;
+            }
+    
+            @media (min-width: 768px) {
+                .footer-link-section {
+                    margin-bottom: 5px;
+                    padding: 0;
+                }
+            }
+    
+            .footer-link {
+                color: #777777;
+                font-family: "Lato";
+                font-size: 14px;
+                text-decoration: none;
+            }
+    
+            @media (min-width: 768px) {
+                .links {
+                    display: block !important;
+                    height: auto !important;
+                }
+            }
+    
+        </style>
+    
+    
+    
+    
+    <header>
+    
+        <div class="header-image-wrapper">
+            <div class="page-container image-container-wrapper" style="padding: 0">
+                <div class="image-wrapper">
+                    <a href="https://www.petsupermarket.com/">
+                        <img class="header-image" src="https://s3.amazonaws.com/petsupermarket.com/ps-bw-logo-header.png" alt="Header Logo">
+                    </a>
+                </div>
+                <div class="local-ad-wrapper">
+                    <a class="local-ad" href="https://www.petsupermarket.com/local-ad">
+                        <img class="local-ad-image" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAEFCu8CAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QjUxMDE5M0NBMjk1MTFFNzk4QTY4N0M5RUMxMjg5ODUiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QjUxMDE5M0RBMjk1MTFFNzk4QTY4N0M5RUMxMjg5ODUiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGNUM2NkYwMUEwNDMxMUU3OThBNjg3QzlFQzEyODk4NSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGNUM2NkYwMkEwNDMxMUU3OThBNjg3QzlFQzEyODk4NSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsatxFYAAAGZSURBVHjaYvz//z+DydmzkxkYGHKAmIGJAQJyoDRcAAFAWpABQAAxggjjM2f+YyjH1AtV2gAQQIwgQxgZGeH6CGsjRhIggBiR7EA31hyfzpNMQB2m+Oz8TZaD8EqywBhnTUwY0SUBAggeQni8hNtUoOJ/QGoSEK9hIBLAnGMEdM4FqCFEaWRiIBOQrZEFixgoxZbi0QMKD0dGaHp/AOQE4FGcBMQzgOFwDSYAEECMaCmYGUh9A2I2PIbcOmNsrI7uxw4CmkBADVvgsBIdOEDnpQBpfyC+S2qozoalRaAhE2gejyNR4w+yEjkwWiqAUeIFZPLh0XOB6KICqGYDeqkOsnEpUCIQSN/HoY8diL3QBQECDKOwQrMpCmQwA3XAbWCuUiMUG2YM1AOqKJEB9I0LkAqFBgUIbGagAYAV48+B1DRg7KejBakttS2EBakErXxEtRw1auGohbjATiradQpXUwO5VN6O3jigCACLUZgPfwGxMqXmAQuKy0BcibfRDG0T8QPZU4A4jIgWCi4Aam8UA0NlI24P/mcAAC9LfxGvSAnYAAAAAElFTkSuQmCC" alt="Local Ad Logo">
+                        <span class="local-ad-text">Local Ad</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+        <nav class="navbar header-links-wrapper" role="navigation" style="height: 52px;">
+            <div class="container-fluid" >
+             
+              <div class="navbar-header" >
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="float:left;">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="width:110%;">
+                <ul class="nav navbar-nav" style="background-color: #fcb53b;">
+                  
+                  <li><a class="header-link" href="https://www.petsupermarket.com/shop-by-pet/category/100-110117-2"><span class="link-text">shop by pet</span></a></li>
+
+                  <li><a class="header-link" href="https://www.petsupermarket.com/brand-listing"><span class="link-text">shop by brand</span></a></li>
+
+                  <li><a class="header-link" href="https://www.petsupermarket.com/sale"><span class="link-text">sale</span></a></li>
+
+                  <li><a class="header-link" href="https://www.petsupermarket.com/services"><span class="link-text">services</span></a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+    
+    </header>
+    

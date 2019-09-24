@@ -1,0 +1,182 @@
+<meta name="google-site-verification" content="ae0Vt35ANyVGtUmq0AzFs25WpNHtTiFy6BSQYr_16uE" />
+<script>
+
+//
+// Store Page
+//
+
+  $(document).on("brickwork:store:page_loaded", function(e, store_name) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: " + store_name;
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:store:click_to_call", function(e, store_name) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: " + store_name;
+var pev2 = "Store Locator: Store Page: Click to Call";
+s.tl(window, "o", pev2);
+  })
+
+  $(document).on("brickwork:store:get_directions", function(e, store_name) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: " + store_name;
+var pev2 = "Store Locator: Store Page: Get Directions";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+
+//
+// Search 
+//
+
+
+
+  $(document).on("brickwork:search:open_big_map", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: See on a Map";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+
+  $(document).on("brickwork:search:new_search", function(e, query) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+s.events = "event30";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.eVar39 = query;
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:search:page_loaded", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:search:click_to_call", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: Click to Call";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+
+  $(document).on("brickwork:search:more_info", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: More About this Store";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:search:get_directions", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: Get Directions";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:search:book_appointment", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: Book an Appointment";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+
+  $(document).on("brickwork:search:search", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Our Stores";
+var pev2 = "Store Locator: Our Stores: Find Stores";
+s.tl(window, "o", pev2);
+//Utils.resetOmniture(s);
+  })
+  
+
+//
+// Appointments
+//
+
+
+$(document).on("brickwork:appointment:choose_store_loaded", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Book Appointment: Store Page";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+$(document).on("brickwork:appointment:choose_time", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Book Appointment: Choose a Time";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+$(document).on("brickwork:appointment:choose_associate", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Book Appointment: Choose a VPS";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+$(document).on("brickwork:appointment:enter_info", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Book Appointment: Your Information";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+
+$(document).on("brickwork:appointment:confirmation", function(e) {
+var s = s_gi(s_account);
+s.pageName = "Store Locator: Book Appointment: Confirmation";
+s.channel = "Store Locator";
+s.prop8 = "J.Crew";
+s.prop11 = "Store Locator";
+s.eVar28 = "J.Crew";
+s.t();
+//Utils.resetOmniture(s);
+  })
+</script>
+<!-- Google Tag Manager GTM -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-GKX6');</script>
+<!-- End Google Tag Manager -->

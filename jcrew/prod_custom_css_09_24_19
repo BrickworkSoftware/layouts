@@ -1,0 +1,20 @@
+.row .bwt-store-address-contextual {
+display: none !important;
+}
+
+.icon-header.icon-header-logo {
+    background-size: contain !important;
+}
+
+.bw-app .bwt-events-rsvp-modal .bwt-email-opt-field input[type=checkbox] {
+width: 30px;
+height: 30px;
+}
+
+.bwt-store-map-image:after {
+    content: "© Mapbox, © OpenStreetMap";
+    float: right;
+    padding: 10px 15px;
+    opacity: 0.75;
+    /* background: rgba(255,255,255,0.5); */
+}

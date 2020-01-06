@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="//www.lordandtaylor.com/static/images/icon/ltfavicon.ico">
+  <!--[if IE]><link rel="SHORTCUT ICON" href="//www.lordandtaylor.com/static/images/icon/ltfavicon.ico"/><![endif]-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description"
+    content="Visit Lord + Taylor for the latest trends from top fashion brands at competitive prices. Shop designer clothing, fall dresses, shoes and handbags for everyday style and special occasion dressing." />
+  <meta name="keyword"
+    content="department store, dept store, department stores, lord and taylor store, clothing, apparel, clothing store, accessories, lord and taylor department store, lord and taylor department stores, lord and taylor apparel" />
+  <meta property="og:title" content="Lord and Taylor: Designer Clothing, Shoes, Handbags, Accessories &amp; More" />
+  <meta property="og:image" content="//www.lordandtaylor.com/wcsstore/HBCStorefrontAssetStore/images/logo.gif" />
+  <meta property="og:type" content="website" />
+  <meta property="fb:app_id" name="fb_app_id" content="356103371122077" />
+  
+  <script>
+    // Mobile Nav
+    $(document).on("click", "#nav-toggle", function () {
+      $(".lt-header").removeClass("active-search");
+      $(".lt-header").toggleClass("active-nav");
+    });
+  
+    $(document).on("click", "#search-toggle", function () {
+      $(".lt-header").removeClass("active-nav");
+      $(".lt-header").toggleClass("active-search");
+    });
+  
+    $(function () {
+      $('#search-form').submit(function () {
+        var value = $('#search-form :input').val();
+        console.log(value)
+        if (value) {
+          window.location =
+            'http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10151&catalogId=10102&langId=-1&pageSize=12&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&pageView=image&searchSource=Q&searchTerm=' +
+            value + '&x=12&y=10';
+        }
+        return false;
+      });
+    });
+  
+    $(function () {
+      $('#desktop-search-form').submit(function () {
+        var value = $('#desktop-search-form :input').val();
+        console.log(value)
+        if (value) {
+          window.location =
+            'http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/SearchDisplay?storeId=10151&catalogId=10102&langId=-1&pageSize=12&beginIndex=0&sType=SimpleSearch&resultCatEntryType=2&showResultsPage=true&pageView=image&searchSource=Q&searchTerm=' +
+            value + '&x=12&y=10';
+        }
+        return false;
+      });
+    });
+  
+    var form = document.getElementById("form-input");
+  
+    document.getElementById("form-submit").addEventListener("click", function () {
+      form.submit();
+    });
+  </script>
+  
+  <link type="text/css" rel="stylesheet"
+    href="//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/production_header_assets/static/build/css/global2.css"
+    media="all" />
+  <link type="text/css" rel="stylesheet"
+    href="//s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/production_header_assets/static/build/css/header-lat.css"
+    media="all" />
+</head>
+
+<body>
+
+  <div class="lt-header">
+    <div class="lt-header-container">
+      <div class="lt-top-header">
+        <div class="lt-logo-wrapper">
+          <a href="http://lordandtaylor.com" class="icon-lord-and-taylor"></a>
+        </div>
+        <div class="lt-nav-wrapper">
+          <div class="lt-search icon-search-o" id="search-toggle"></div>
+          <div class="lt-hamburger icon-hamburger" id="nav-toggle"></div>
+        </div>
+      </div>
+      <div class="lt-bottom-nav">
+        <ol class="lt-area-links">
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/womens-apparel">Women</a>
+          </li>
+          <li><a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/shoes">Shoes</a>
+          </li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/handbags">Handbags</a>
+          </li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/jewelry--accessories">Jewelry
+              & Accessories</a></li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/beauty--fragrance">Beauty</a>
+          </li>
+          <li><a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/mens">Men</a>
+          </li>
+          <li><a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/kids">Kids</a>
+          </li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/search/home-travel">Home
+              & Travel</a></li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/content-view/Whats-New">What's
+              New</a></li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/HBCBrandsListView?storeId=10151&catalogId=10102&langId=-1">Brands</a>
+          </li>
+          <li><a
+              href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/SearchDisplay?sType=1000&SimpleSearch&facet=ads_f6_ntk_cs%3AY&urlRequestType=&catalogId=10102&pageView=image&showResultsPage=true&urlLangId=-1&beginIndex=0&resultCatEntryType=&langId=-1&pageSize&storeId=10151&facetLabel=SALE">Sale</a>
+          </li>
+        </ol>
+      </div>
+      <div class="lt-bottom-search">
+        <div class="lt-search-form">
+          <form id="search-form">
+            <div class="search-form-input-container">
+              <input type="text" class="search-form-input" placeholder="Search...">
+              <div class="icon-cross" id="search-toggle"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lt-footer">
+    <div class="lt-footer-container">
+      <div class="lt-top-footer clearfix">
+        <div class="lt-alerts-wrapper">
+          <a href="http://ltmobile.hit2c.com/signup" class="icon-call"></a>
+          <span class="lt-link">Get text alerts</span>
+        </div>
+        <icons class="lt-print-wrapper">
+          <a href="http://www.lordandtaylor.com/main/static_content.jsp?pageId=printpass" class="icon-print"></a>
+          <span class="lt-link">Print Pass</span>
+      </div>
+    </div>
+    <div class="lt-social-container">
+      <a href="https://www.facebook.com/lordandtaylor" class="icon-facebook"></a>
+      <a href="https://twitter.com/lordandtaylor" class="icon-twitter"></a>
+      <a href="http://www.pinterest.com/lordandtaylor" class="icon-pinterest"></a>
+      <a href="https://www.youtube.com/LordandTaylorStore" class="icon-youtube"></a>
+      <a href="http://instagram.com/lordandtaylor" class="icon-instagram"></a>
+    </div>
+    <div class="lt-bottom-footer">
+      <div class="lt-bottom-footer-links">
+        <a href="https://www.lordandtaylor.com/main/static_content.jsp?pageId=contact-us" class="lt-link">Contact Us</a>
+        <a href="https://www.lordandtaylor.com/main/static_content.jsp?pageId=credit-services" class="lt-link">Lord +
+          Taylor Rewards</a>
+        <a href="https://www.lordandtaylor.com/main/static_content.jsp?pageId=service-page" class="lt-link">Services</a>
+        <a href="https://www.lordandtaylor.com/Gift-Cards" class="lt-link">Gift Cards</a>
+        <a href="//locations.lordandtaylor.com/?store_services=Restaurant" class="lt-link">Restaurants</a>
+        <a href="https://www.lordandtaylor.com/main/static_content.jsp?pageId=lt-faq" class="lt-link">FAQs</a>
+      </div>
+      <div class="lt-bottom-footer-info">
+        <div>@ 2020 Lord + Taylor</div>
+        <a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/content-view/Privacy-and-Confidentiality"
+          class="link-divide">Privacy & Confidentiality</a>
+        <a href="http://www.lordandtaylor.com/webapp/wcs/stores/servlet/en/lord-and-taylor/content-view/Privacy-and-Confidentiality"
+          class="link-divide">About Us</a>
+        <a href="//locations.lordandtaylor.com/en/sitemap">Sitemap</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

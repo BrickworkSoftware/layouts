@@ -878,6 +878,22 @@ div.bwt-store.bwt-store-state-normal {
   color: #6c6967
 }
 
+.lt-hamburger {
+  background-size: 217px,113px;
+  background-position: -141px -2px;
+  width: 21px;
+  height: 21px;
+  background-image: url("//cdnassets-hbc.skavaone.com/lordandtaylor/skassets/v201912222252p/img/sk_hdr_ftr_sprite.png");
+}
+
+.lt-search {
+  background-size: 217px,113px;
+  background-position: -95px -2px;
+  width: 21px;
+  height: 21px;
+  background-image: url("//cdnassets-hbc.skavaone.com/lordandtaylor/skassets/v201912222252p/img/sk_hdr_ftr_sprite.png");
+}
+
 .lt-hamburger:hover,
 .lt-search:hover {
   cursor: pointer
@@ -892,20 +908,6 @@ div.bwt-store.bwt-store-state-normal {
 .lt-search {
   margin-right: 20px;
   margin-top: 3px
-}
-
-.lt-search::after {
-  content: '';
-  position: absolute;
-  margin-left: 20px;
-  height: 50%;
-  width: 1px;
-  background: #c1bdbb
-}
-
-.lt-search,
-.lt-hamburger {
-  padding: 10px
 }
 
 .lt-nav-wrapper {
@@ -1665,12 +1667,12 @@ div#legal a.close-reveal-modal {
   }
 
   a.icon-lord-and-taylor:before {
-    background-image: url(https://s3.amazonaws.com/assets.brickworksoftware.com/lord_and_taylor/images/lord_taylor_logo.jpg) !important;
-    height: 30px;
     content: '';
-    width: 30px;
-    background-size: contain;
-    content: '';
+    background: url("//cdnassets-hbc.skavaone.com/lordandtaylor/skassets/v201912222252p/img/sk_hdr_ftr_sprite.png");
+    height: 40px;
+    width: 128px;
+    background-size: 186px 81px;
+    background-position: 0 -35px;
     display: inline-block;
   }
 }

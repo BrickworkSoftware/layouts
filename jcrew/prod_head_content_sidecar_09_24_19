@@ -1,0 +1,33 @@
+<script>
+function fixAllHeaderLinks() {
+        console.log('Fixing all links');
+        try {
+            var allLinks = document.querySelectorAll('.site_header a');
+
+            for (var i=0; i < allLinks.length; i++) {
+                allLinks[i].href = allLinks[i].href.replace('https://stores.jcrew.com', 'https://www.jcrew.com');
+            }
+        } catch(e) {
+            console.log('Error fixing all links', e);
+        }
+    };
+
+    setTimeout(fixAllHeaderLinks, 4000);
+</script>
+
+<script>
+function fixAllFooterLinks() {
+        console.log('Fixing all links');
+        try {
+            var allLinks = document.querySelectorAll('.site_footer a');
+
+            for (var i=0; i < allLinks.length; i++) {
+                allLinks[i].href = allLinks[i].href.replace('https://stores.jcrew.com', 'https://www.jcrew.com');
+            }
+        } catch(e) {
+            console.log('Error fixing all links', e);
+        }
+    };
+
+    setTimeout(fixAllFooterLinks, 4000);
+</script>
